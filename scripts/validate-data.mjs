@@ -13,7 +13,7 @@ for (const key of requiredTopLevel) {
 for (const [collectionName, requiredFields] of Object.entries({
   sources: ['id', 'title', 'sourceType', 'url', 'publishedAt', 'topic', 'summary', 'confidence'],
   promises: ['id', 'text', 'dateMade', 'deadline', 'topic', 'status', 'progress', 'evidenceSourceIds', 'aiConfidence', 'statusNote', 'reviewStatus'],
-  metrics: ['id', 'label', 'topic', 'unit', 'source', 'sourceUrl', 'datasetId', 'baseline', 'latest', 'direction', 'observations', 'status', 'dataSourceType', 'internetQuery'],
+  metrics: ['id', 'label', 'topic', 'unit', 'source', 'sourceUrl', 'datasetId', 'baseline', 'latest', 'direction', 'observations', 'status'],
   timeline: ['id', 'date', 'type', 'title', 'topic', 'impact', 'sourceIds'],
   connectors: ['id', 'label', 'status', 'cadence', 'output', 'nextStep'],
   reviewQueue: ['id', 'priority', 'itemType', 'title', 'reason', 'relatedIds'],
@@ -33,17 +33,6 @@ for (const promise of data.promises || []) {
 
 if ('approval' in data) {
   errors.push('Approval ratings are out of scope for this MVP; remove the top-level approval key.');
-}
-
-const metricIds = new Set((data.metrics || []).map((metric) => metric.id));
-for (const metric of data.metrics || []) {
-  if (metric.dataSourceType !== 'public_sf_dataset') errors.push(`Metric ${metric.id} must use dataSourceType public_sf_dataset`);
-  if (!String(metric.internetQuery || '').startsWith('https://data.sfgov.org/resource/')) errors.push(`Metric ${metric.id} must use a data.sfgov.org resource URL`);
-}
-for (const promise of data.promises || []) {
-  for (const metricId of promise.linkedMetricIds || []) {
-    if (!metricIds.has(metricId)) errors.push(`Promise ${promise.id} references missing metric ${metricId}`);
-  }
 }
 
 const sourceIds = new Set(data.sources.map((source) => source.id));

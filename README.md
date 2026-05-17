@@ -64,20 +64,15 @@ Optional environment variables:
 
 The MVP review workflow is JSON-based. Update review statuses and evidence notes directly in `public/data/daniel-lurie-tracker.json`, then run `npm run validate:data` before committing.
 
-## After Vercel deployment
-
-Since Vercel and Anthropic secrets are configured, manually run the GitHub Actions workflow once from the Actions tab. The workflow will refresh Google News sources, query the three Public SF datasets over the internet, optionally enrich with Anthropic, and commit the refreshed JSON payload.
-
 ## Production workflow
 
 `.github/workflows/ingest-daniel-lurie.yml` runs every six hours and commits refreshed `public/data/daniel-lurie-tracker.json` data back to the branch. Configure the repository secret `ANTHROPIC_API_KEY` to enable AI enrichment in that scheduled job.
 
 ## Current workflow guardrails
 
-- `scripts/validate-data.mjs` checks that source, promise, metric, connector, timeline, and review-queue records keep the fields the UI expects, requires metrics to use `https://data.sfgov.org/resource/...` internet dataset endpoints, and rejects approval-rating data.
+- `scripts/validate-data.mjs` checks that source, promise, metric, connector, timeline, and review-queue records keep the fields the UI expects, and rejects approval-rating data.
 - The dashboard now includes promise search, topic/status filters, a timeline view, connector readiness cards, and a human review queue for AI-generated findings.
 - No fabricated metric or progress values are shown; empty states remain until Public SF/DataSF datasets refresh successfully.
-- The first three MVP metrics are internet-backed Public SF datasets: SF311 cases (`vw6y-z8j6`), SFPD incident reports (`wg3w-h783`), and building permits (`i98e-djp9`).
 
 ## Next steps
 

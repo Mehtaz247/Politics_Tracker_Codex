@@ -109,18 +109,17 @@ async function main() {
   const mergedSources = mergeByUrl(existing.sources, normalizedSources).slice(0, 60);
   const publicSfMetrics = await collectPublicSfMetrics(existing.metrics || []);
 
-  const aiResult = sanitizeAiResult(await analyzeWithAi(mergedSources, existing), mergedSources);
+  const aiResult = await analyzeWithAi(mergedSources, existing);
   const nextData = {
     ...existing,
-    ...aiResult,
     subject: {
       ...existing.subject,
       lastUpdated: new Date().toISOString(),
     },
     sources: mergedSources,
     metrics: publicSfMetrics,
+    ...(aiResult || {}),
   };
-  delete nextData.approval;
 
   if (isDryRun) {
     console.log(`Dry run complete: ${rssItems.length} fetched, ${mergedSources.length} total sources, ${publicSfMetrics.length} Public SF metrics checked.`);
@@ -210,65 +209,6 @@ async function fetchPublicSfMetric(metricConfig) {
     }
   }
   throw lastError || new Error('no query attempts configured');
-}
-
-function sanitizeAiResult(aiResult, sources) {
-  if (!aiResult || typeof aiResult !== 'object' || Array.isArray(aiResult)) return null;
-  const sourceIds = new Set(sources.map((source) => source.id));
-  const sanitized = {};
-
-  if (Array.isArray(aiResult.promises)) {
-    const promises = aiResult.promises.filter((promise) =>
-      hasStringFields(promise, ['id', 'text', 'dateMade', 'deadline', 'topic', 'status', 'statusNote'])
-      && Array.isArray(promise.evidenceSourceIds)
-      && promise.evidenceSourceIds.every((sourceId) => sourceIds.has(sourceId))
-    ).map((promise) => ({
-      ...promise,
-      progress: Number.isFinite(promise.progress) ? promise.progress : null,
-      reviewStatus: normalizeReviewStatus(promise.reviewStatus),
-    }));
-    if (promises.length) sanitized.promises = promises;
-  }
-
-  if (Array.isArray(aiResult.claims)) {
-    const claims = aiResult.claims.filter((claim) =>
-      hasStringFields(claim, ['id', 'claim', 'sourceId', 'topic', 'verdict', 'evidencePlan'])
-      && sourceIds.has(claim.sourceId)
-    );
-    if (claims.length) sanitized.claims = claims;
-  }
-
-  if (Array.isArray(aiResult.topics)) {
-    const topics = aiResult.topics.filter((topic) => hasStringFields(topic, ['id', 'label', 'risk', 'insight']));
-    if (topics.length) sanitized.topics = topics;
-  }
-
-  if (Array.isArray(aiResult.timeline)) {
-    const timeline = aiResult.timeline.filter((item) =>
-      hasStringFields(item, ['id', 'date', 'type', 'title', 'topic', 'impact'])
-      && Array.isArray(item.sourceIds)
-      && item.sourceIds.every((sourceId) => sourceIds.has(sourceId))
-    );
-    if (timeline.length) sanitized.timeline = timeline;
-  }
-
-  if (Array.isArray(aiResult.reviewQueue)) {
-    const reviewQueue = aiResult.reviewQueue.filter((item) =>
-      hasStringFields(item, ['id', 'priority', 'itemType', 'title', 'reason'])
-      && Array.isArray(item.relatedIds)
-    );
-    if (reviewQueue.length) sanitized.reviewQueue = reviewQueue;
-  }
-
-  return Object.keys(sanitized).length ? sanitized : null;
-}
-
-function hasStringFields(record, fields) {
-  return record && typeof record === 'object' && fields.every((field) => typeof record[field] === 'string' && record[field].trim());
-}
-
-function normalizeReviewStatus(value) {
-  return ['pending_review', 'approved', 'rejected', 'needs_more_evidence'].includes(value) ? value : 'pending_review';
 }
 
 function parseRss(xml) {

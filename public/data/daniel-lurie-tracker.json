@@ -187,10 +187,8 @@
       "latest": null,
       "direction": "down_is_good",
       "observations": [],
-      "status": "configured_public_sf_dataset",
-      "methodology": "Monthly count of SF311 records matching homelessness or encampment terms. Values are populated only from the public DataSF API.",
-      "dataSourceType": "public_sf_dataset",
-      "internetQuery": "https://data.sfgov.org/resource/vw6y-z8j6.json"
+      "status": "needs_public_sf_refresh",
+      "methodology": "Monthly count of SF311 records matching homelessness or encampment terms. Values are populated only from the public DataSF API."
     },
     {
       "id": "sfpd-reported-incidents",
@@ -204,10 +202,8 @@
       "latest": null,
       "direction": "down_is_good",
       "observations": [],
-      "status": "configured_public_sf_dataset",
-      "methodology": "Monthly count of reported SFPD incidents from the public DataSF API. This is an activity/outcome indicator, not proof of causation.",
-      "dataSourceType": "public_sf_dataset",
-      "internetQuery": "https://data.sfgov.org/resource/wg3w-h783.json"
+      "status": "needs_public_sf_refresh",
+      "methodology": "Monthly count of reported SFPD incidents from the public DataSF API. This is an activity/outcome indicator, not proof of causation."
     },
     {
       "id": "building-permit-filings",
@@ -221,10 +217,8 @@
       "latest": null,
       "direction": "up_is_good",
       "observations": [],
-      "status": "configured_public_sf_dataset",
-      "methodology": "Monthly count of building permit records from the public DataSF API. Used as a housing/economic activity indicator.",
-      "dataSourceType": "public_sf_dataset",
-      "internetQuery": "https://data.sfgov.org/resource/i98e-djp9.json"
+      "status": "needs_public_sf_refresh",
+      "methodology": "Monthly count of building permit records from the public DataSF API. Used as a housing/economic activity indicator."
     }
   ],
   "topics": [
@@ -425,18 +419,6 @@
       "itemType": "data_policy",
       "title": "Use Public SF datasets for metrics",
       "reason": "Metrics should be populated only from public SF/DataSF datasets or official San Francisco public sources.",
-      "relatedIds": [
-        "sf311-homelessness-requests",
-        "sfpd-reported-incidents",
-        "building-permit-filings"
-      ]
-    },
-    {
-      "id": "review-first-public-sf-refresh",
-      "priority": "high",
-      "itemType": "data_refresh",
-      "title": "Run first deployed Public SF refresh",
-      "reason": "Vercel and Anthropic are configured; manually run the GitHub ingestion workflow once so Public SF datasets populate metric observations from the internet.",
       "relatedIds": [
         "sf311-homelessness-requests",
         "sfpd-reported-incidents",
