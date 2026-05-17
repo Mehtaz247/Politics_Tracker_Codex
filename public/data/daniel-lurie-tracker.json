@@ -1,0 +1,408 @@
+{
+  "subject": {
+    "name": "Daniel Lurie",
+    "role": "Mayor of San Francisco",
+    "jurisdiction": "San Francisco, California",
+    "trackingSince": "2025-01-08",
+    "lastUpdated": "2026-05-17T00:00:00.000Z",
+    "trackingMode": "balanced",
+    "dataPolicy": "No fabricated metric, approval, or progress values. Empty charts indicate a verified source has not been connected yet."
+  },
+  "workflow": [
+    {
+      "name": "Pull sources",
+      "status": "ready",
+      "description": "Scheduled job gathers official mayoral releases, local reporting, broad web/news results, and public metric feeds."
+    },
+    {
+      "name": "AI extraction",
+      "status": "ready",
+      "description": "Sources are summarized into announcements, promises, claims, topics, and evidence-backed next actions."
+    },
+    {
+      "name": "Human review",
+      "status": "queued",
+      "description": "Low-confidence AI interpretations are flagged before they affect status labels or scorecards."
+    },
+    {
+      "name": "Visualize",
+      "status": "ready",
+      "description": "Dashboard converts structured records into topic charts, progress bars, timeline items, and metric deltas."
+    }
+  ],
+  "sources": [
+    {
+      "id": "sf-mayor-news",
+      "title": "News from the Office of the Mayor",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-from-the-office-of-the-mayor/",
+      "publishedAt": "2025-07-22",
+      "topic": "city_government",
+      "summary": "Official mayoral news page configured as a primary source for Daniel Lurie announcements.",
+      "confidence": 0.94
+    },
+    {
+      "id": "homelessness-directive",
+      "title": "Homelessness and behavioral health response announcement",
+      "sourceType": "news",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-lurie-homelessness-drug-addiction-behavioral-health-breaking-the-cycle/",
+      "publishedAt": "2025-03-17",
+      "topic": "homelessness",
+      "summary": "Coverage of Lurie's plan to overhaul homelessness, behavioral health, and addiction response.",
+      "confidence": 0.82
+    },
+    {
+      "id": "fentanyl-powers",
+      "title": "Emergency powers for fentanyl crisis response",
+      "sourceType": "news",
+      "url": "https://apnews.com/article/a9ddcc1cc726551403c4245d88d91e79",
+      "publishedAt": "2025-02-04",
+      "topic": "public_safety",
+      "summary": "Board action gave the mayor additional flexibility to speed up fentanyl crisis response.",
+      "confidence": 0.84
+    },
+    {
+      "id": "union-square-programming",
+      "title": "Union Square programming through summer 2027",
+      "sourceType": "official",
+      "url": "https://sfrecpark.org/m/newsflash/home/detail/2708",
+      "publishedAt": "2026-02-10",
+      "topic": "economy",
+      "summary": "Downtown activation and programming effort tied to tourism, foot traffic, and economic recovery.",
+      "confidence": 0.89
+    },
+    {
+      "id": "climate-plan-update",
+      "title": "Five-year update to San Francisco Climate Action Plan",
+      "sourceType": "official",
+      "url": "https://www.sfenvironment.org/press/mayor-lurie-releases-five-year-update-climate-action-plan-celebrates-san-francisco-climate",
+      "publishedAt": "2026-04-20",
+      "topic": "climate",
+      "summary": "Climate Action Plan update framed around emissions, household costs, and city resilience.",
+      "confidence": 0.9
+    }
+  ],
+  "promises": [
+    {
+      "id": "end-unsheltered-six-months",
+      "text": "Create an emergency shelter plan intended to end unsheltered homelessness in six months.",
+      "dateMade": "2025-01-15",
+      "deadline": "2025-07-15",
+      "topic": "homelessness",
+      "status": "unclear",
+      "progress": null,
+      "evidenceSourceIds": [
+        "homelessness-directive"
+      ],
+      "aiConfidence": 0.72,
+      "statusNote": "Awaiting official homelessness, shelter-capacity, placement, and encampment-resolution evidence before assigning progress or delivery status.",
+      "reviewStatus": "pending_review"
+    },
+    {
+      "id": "speed-fentanyl-response",
+      "text": "Use emergency authority to accelerate city response to open-air drug markets and fentanyl-related street conditions.",
+      "dateMade": "2025-02-04",
+      "deadline": "2025-08-04",
+      "topic": "public_safety",
+      "status": "unclear",
+      "progress": null,
+      "evidenceSourceIds": [
+        "fentanyl-powers"
+      ],
+      "aiConfidence": 0.8,
+      "statusNote": "Awaiting verified public safety, overdose-response, treatment-linkage, and budget/action evidence before assigning progress or delivery status.",
+      "reviewStatus": "pending_review"
+    },
+    {
+      "id": "downtown-recovery-programming",
+      "text": "Keep Union Square activations running through summer 2027 to support downtown recovery.",
+      "dateMade": "2026-02-10",
+      "deadline": "2027-08-31",
+      "topic": "economy",
+      "status": "unclear",
+      "progress": null,
+      "evidenceSourceIds": [
+        "union-square-programming"
+      ],
+      "aiConfidence": 0.87,
+      "statusNote": "Awaiting verified programming calendar, downtown foot-traffic, vacancy, sales-tax, and attendance data before assigning progress or delivery status.",
+      "reviewStatus": "pending_review"
+    },
+    {
+      "id": "climate-action-update",
+      "text": "Publish and begin implementing an updated city Climate Action Plan.",
+      "dateMade": "2026-04-20",
+      "deadline": "2026-12-31",
+      "topic": "climate",
+      "status": "unclear",
+      "progress": null,
+      "evidenceSourceIds": [
+        "climate-plan-update"
+      ],
+      "aiConfidence": 0.83,
+      "statusNote": "Awaiting implementation metrics such as emissions inventory, building upgrades, energy-burden data, and funded actions before assigning progress or delivery status.",
+      "reviewStatus": "pending_review"
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-downtown-recovery",
+      "claim": "Downtown activations can support San Francisco's economic recovery by bringing more people to the core.",
+      "sourceId": "union-square-programming",
+      "topic": "economy",
+      "verdict": "needs_context",
+      "confidence": 0.68,
+      "evidencePlan": "Compare Union Square foot traffic, hotel occupancy, retail vacancy, sales tax receipts, and event attendance before/after programming dates."
+    },
+    {
+      "id": "claim-climate-costs",
+      "claim": "The updated Climate Action Plan can lower household costs while reducing emissions.",
+      "sourceId": "climate-plan-update",
+      "topic": "climate",
+      "verdict": "unverified",
+      "confidence": 0.61,
+      "evidencePlan": "Track utility costs, retrofit adoption, emissions inventory, and household energy-burden datasets."
+    }
+  ],
+  "metrics": [
+    {
+      "id": "downtown-foot-traffic-index",
+      "label": "Downtown foot traffic index",
+      "topic": "economy",
+      "unit": "index",
+      "source": "Needs a verified source such as DataSF, transit station exits, local BID reporting, or a licensed foot-traffic dataset before charting.",
+      "baseline": null,
+      "latest": null,
+      "direction": "up_is_good",
+      "observations": [],
+      "status": "needs_verified_source"
+    },
+    {
+      "id": "unsheltered-homelessness-index",
+      "label": "Unsheltered homelessness pressure index",
+      "topic": "homelessness",
+      "unit": "index",
+      "source": "Needs verified point-in-time count, shelter placement, outreach, 311, or city homelessness dashboard data before charting.",
+      "baseline": null,
+      "latest": null,
+      "direction": "down_is_good",
+      "observations": [],
+      "status": "needs_verified_source"
+    },
+    {
+      "id": "public-safety-response-index",
+      "label": "Public safety response index",
+      "topic": "public_safety",
+      "unit": "index",
+      "source": "Needs verified overdose response, treatment linkage, response time, or public safety operations data before charting.",
+      "baseline": null,
+      "latest": null,
+      "direction": "up_is_good",
+      "observations": [],
+      "status": "needs_verified_source"
+    }
+  ],
+  "approval": {
+    "label": "Public approval proxy",
+    "methodology": "No verified Daniel Lurie approval polling feed is connected yet; the dashboard will stay empty rather than show fabricated polling.",
+    "series": [],
+    "status": "needs_verified_polling_source"
+  },
+  "topics": [
+    {
+      "id": "homelessness",
+      "label": "Homelessness",
+      "promiseCount": 1,
+      "averageProgress": null,
+      "risk": "review",
+      "insight": "Balanced source collection is configured, but verified metrics are required before delivery judgments are shown."
+    },
+    {
+      "id": "public_safety",
+      "label": "Public Safety",
+      "promiseCount": 1,
+      "averageProgress": null,
+      "risk": "review",
+      "insight": "Balanced source collection is configured, but verified metrics are required before delivery judgments are shown."
+    },
+    {
+      "id": "economy",
+      "label": "Downtown Economy",
+      "promiseCount": 1,
+      "averageProgress": null,
+      "risk": "review",
+      "insight": "Balanced source collection is configured, but verified metrics are required before delivery judgments are shown."
+    },
+    {
+      "id": "climate",
+      "label": "Climate",
+      "promiseCount": 1,
+      "averageProgress": null,
+      "risk": "review",
+      "insight": "Balanced source collection is configured, but verified metrics are required before delivery judgments are shown."
+    }
+  ],
+  "connectors": [
+    {
+      "id": "google-news-rss",
+      "label": "Google News RSS",
+      "status": "ready",
+      "cadence": "Every 6 hours",
+      "output": "Announcement sources and article queue",
+      "nextStep": "Broaden query set and add source reputation scoring."
+    },
+    {
+      "id": "sf-mayor-office",
+      "label": "SF Mayor official news",
+      "status": "ready",
+      "cadence": "Every 6 hours",
+      "output": "Official announcements and press releases",
+      "nextStep": "Add page-level scraping for exact excerpts."
+    },
+    {
+      "id": "sf-open-data",
+      "label": "DataSF metrics",
+      "status": "needs_dataset_mapping",
+      "cadence": "Daily once configured",
+      "output": "Homelessness, 311, permits, public safety, budgets, and transit indicators",
+      "nextStep": "Map exact DataSF/Socrata dataset ids before metrics render."
+    },
+    {
+      "id": "polling-surveys",
+      "label": "Approval polling feeds",
+      "status": "needs_user_source",
+      "cadence": "Weekly once configured",
+      "output": "Approval/disapproval, demographic crosstabs, moving averages",
+      "nextStep": "Provide a polling/survey source or approve hiding approval until polling exists."
+    },
+    {
+      "id": "vercel-static-deploy",
+      "label": "Vercel static deployment",
+      "status": "ready",
+      "cadence": "On push to main",
+      "output": "Published static dashboard from dist/",
+      "nextStep": "Import this repository in Vercel and set the build command/output directory from vercel.json."
+    }
+  ],
+  "timeline": [
+    {
+      "id": "lurie-inauguration",
+      "date": "2025-01-08",
+      "type": "event",
+      "title": "Daniel Lurie mayoral term begins",
+      "topic": "city_government",
+      "impact": "Tracker baseline date for promises, announcements, approval, and metrics.",
+      "sourceIds": [
+        "sf-mayor-news"
+      ]
+    },
+    {
+      "id": "homelessness-plan",
+      "date": "2025-03-17",
+      "type": "announcement",
+      "title": "Homelessness and behavioral health overhaul covered",
+      "topic": "homelessness",
+      "impact": "Created an early promise requiring shelter capacity, outreach placement, and encampment metric validation.",
+      "sourceIds": [
+        "homelessness-directive"
+      ]
+    },
+    {
+      "id": "fentanyl-emergency-powers",
+      "date": "2025-02-04",
+      "type": "executive_action",
+      "title": "Emergency authority for fentanyl response",
+      "topic": "public_safety",
+      "impact": "Moved public-safety response promise into implementation tracking.",
+      "sourceIds": [
+        "fentanyl-powers"
+      ]
+    },
+    {
+      "id": "union-square-programming-timeline",
+      "date": "2026-02-10",
+      "type": "announcement",
+      "title": "Union Square programming extended",
+      "topic": "economy",
+      "impact": "Added a measurable downtown recovery promise with foot-traffic and vacancy indicators.",
+      "sourceIds": [
+        "union-square-programming"
+      ]
+    },
+    {
+      "id": "climate-action-plan-timeline",
+      "date": "2026-04-20",
+      "type": "policy_result",
+      "title": "Climate Action Plan update released",
+      "topic": "climate",
+      "impact": "Plan publication is observable; implementation still needs emissions and cost metrics.",
+      "sourceIds": [
+        "climate-plan-update"
+      ]
+    }
+  ],
+  "reviewQueue": [
+    {
+      "id": "review-unsheltered-deadline",
+      "priority": "high",
+      "itemType": "promise_status",
+      "title": "Verify six-month unsheltered homelessness deadline",
+      "reason": "Status remains unclear until official counts, shelter capacity, and placements are reviewed before public scoring.",
+      "relatedIds": [
+        "end-unsheltered-six-months"
+      ]
+    },
+    {
+      "id": "review-approval-proxy",
+      "priority": "medium",
+      "itemType": "approval_series",
+      "title": "Connect a verified approval polling source",
+      "reason": "Approval chart is intentionally empty until a verified polling or survey source is connected.",
+      "relatedIds": []
+    },
+    {
+      "id": "review-open-data-mapping",
+      "priority": "medium",
+      "itemType": "metric_mapping",
+      "title": "Map promises to DataSF datasets",
+      "reason": "Metric cards are ready for live feeds but remain empty until dataset ids are configured.",
+      "relatedIds": [
+        "downtown-foot-traffic-index",
+        "unsheltered-homelessness-index",
+        "public-safety-response-index"
+      ]
+    },
+    {
+      "id": "review-anthropic-key",
+      "priority": "high",
+      "itemType": "secret_config",
+      "title": "Add Anthropic API key in Vercel and GitHub",
+      "reason": "AI enrichment now expects ANTHROPIC_API_KEY; without it ingestion still pulls sources but will not produce AI-structured updates.",
+      "relatedIds": [
+        "google-news-rss"
+      ]
+    },
+    {
+      "id": "review-no-fabricated-data",
+      "priority": "high",
+      "itemType": "data_policy",
+      "title": "Keep unverified charts empty",
+      "reason": "The MVP should not display fabricated metric or approval values; charts remain empty until verified sources are connected.",
+      "relatedIds": [
+        "downtown-foot-traffic-index",
+        "unsheltered-homelessness-index",
+        "public-safety-response-index"
+      ]
+    },
+    {
+      "id": "review-vercel-deploy",
+      "priority": "medium",
+      "itemType": "deployment",
+      "title": "Connect Vercel project",
+      "reason": "Vercel configuration is in the repo; the project still needs to be imported and environment variables added in Vercel.",
+      "relatedIds": [
+        "vercel-static-deploy"
+      ]
+    }
+  ]
+}
