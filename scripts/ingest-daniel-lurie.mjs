@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 import { writeFile, readFile } from 'node:fs/promises';
 import { existsSync } from 'node:fs';
+import { collectSfPublicMetrics } from './connectors/sf-public-data.mjs';
 
 const DATA_PATH = new URL('../public/data/daniel-lurie-tracker.json', import.meta.url);
 const isDryRun = process.argv.includes('--dry-run');
@@ -24,7 +25,8 @@ async function main() {
   const existing = JSON.parse(await readFile(DATA_PATH, 'utf8'));
   const rssItems = await collectGoogleNewsItems();
   const normalizedSources = rssItems.map(toSourceDocument);
-  const mergedSources = mergeByUrl(existing.sources, normalizedSources).slice(0, 60);
+  const publicData = await collectSfPublicMetrics();
+  const mergedSources = mergeByUrl(existing.sources, [...normalizedSources, ...publicData.sources]).slice(0, 80);
 
   const aiResult = await analyzeWithAi(mergedSources, existing);
   const nextData = {
@@ -34,11 +36,12 @@ async function main() {
       lastUpdated: new Date().toISOString(),
     },
     sources: mergedSources,
+    metrics: publicData.metrics,
     ...(aiResult || {}),
   };
 
   if (isDryRun) {
-    console.log(`Dry run complete: ${rssItems.length} fetched, ${mergedSources.length} total sources.`);
+    console.log(`Dry run complete: ${rssItems.length} fetched, ${mergedSources.length} total sources, ${publicData.metrics.length} public-data metrics.`);
     console.log(`Topics detected: ${[...new Set(mergedSources.map((source) => source.topic))].join(', ')}`);
     return;
   }

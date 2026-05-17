@@ -138,11 +138,16 @@ function donut(value, label) {
 }
 
 function metricChart(metric) {
-  const max = Math.max(...metric.observations.map((point) => point.value));
-  const min = Math.min(...metric.observations.map((point) => point.value));
-  const points = metric.observations.map((point, index) => `${(index / Math.max(metric.observations.length - 1, 1)) * 100},${88 - ((point.value - min) / Math.max(max - min, 1)) * 68}`).join(' ');
-  const circles = metric.observations.map((point, index) => {
-    const x = (index / Math.max(metric.observations.length - 1, 1)) * 100;
+  const observations = metric.observations || [];
+  if (!observations.length || metric.status === 'needs_verified_source') {
+    return `<article class="metric-chart panel"><div class="metric-chart-head"><div><span>${pretty(metric.topic)}</span><h3>${metric.label}</h3></div><strong>Source needed</strong></div><div class="empty-chart" role="img" aria-label="${metric.label} needs a verified source">${icon.alert}</div><p>${metric.source}</p></article>`;
+  }
+
+  const max = Math.max(...observations.map((point) => point.value));
+  const min = Math.min(...observations.map((point) => point.value));
+  const points = observations.map((point, index) => `${(index / Math.max(observations.length - 1, 1)) * 100},${88 - ((point.value - min) / Math.max(max - min, 1)) * 68}`).join(' ');
+  const circles = observations.map((point, index) => {
+    const x = (index / Math.max(observations.length - 1, 1)) * 100;
     const y = 88 - ((point.value - min) / Math.max(max - min, 1)) * 68;
     return `<circle cx="${x}" cy="${y}" r="3"></circle>`;
   }).join('');

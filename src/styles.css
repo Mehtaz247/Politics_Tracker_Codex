@@ -87,6 +87,7 @@ h1 { margin: 8px 0 16px; font-size: clamp(2.35rem, 6vw, 5.4rem); line-height: 0.
 .metric-chart circle { fill: #1261f3; }
 .metric-chart-head span { color: #6d7b91; font-size: 0.8rem; font-weight: 900; text-transform: uppercase; }
 .metric-chart-head strong { border-radius: 14px; padding: 10px 12px; }
+.empty-chart { height: 170px; display: grid; place-items: center; border: 1px dashed #b7c5da; border-radius: 22px; color: #855600; background: #fffaf0; font-size: 2rem; }
 .good { background: #dff8e9; color: #0e7a46; }
 .bad { background: #ffe1e1; color: #ae2635; }
 
