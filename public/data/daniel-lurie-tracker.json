@@ -1,0 +1,205 @@
+{
+  "subject": {
+    "name": "Daniel Lurie",
+    "role": "Mayor of San Francisco",
+    "jurisdiction": "San Francisco, California",
+    "trackingSince": "2025-01-08",
+    "lastUpdated": "2026-05-17T00:00:00.000Z"
+  },
+  "workflow": [
+    { "name": "Pull sources", "status": "ready", "description": "Scheduled job gathers official mayoral releases, local reporting, broad web/news results, and public metric feeds." },
+    { "name": "AI extraction", "status": "ready", "description": "Sources are summarized into announcements, promises, claims, topics, and evidence-backed next actions." },
+    { "name": "Human review", "status": "queued", "description": "Low-confidence AI interpretations are flagged before they affect status labels or scorecards." },
+    { "name": "Visualize", "status": "ready", "description": "Dashboard converts structured records into topic charts, progress bars, timeline items, and metric deltas." }
+  ],
+  "sources": [
+    {
+      "id": "sf-mayor-news",
+      "title": "News from the Office of the Mayor",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-from-the-office-of-the-mayor/",
+      "publishedAt": "2025-07-22",
+      "topic": "city_government",
+      "summary": "Official mayoral news page configured as a primary source for Daniel Lurie announcements.",
+      "confidence": 0.94
+    },
+    {
+      "id": "homelessness-directive",
+      "title": "Homelessness and behavioral health response announcement",
+      "sourceType": "news",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-lurie-homelessness-drug-addiction-behavioral-health-breaking-the-cycle/",
+      "publishedAt": "2025-03-17",
+      "topic": "homelessness",
+      "summary": "Coverage of Lurie's plan to overhaul homelessness, behavioral health, and addiction response.",
+      "confidence": 0.82
+    },
+    {
+      "id": "fentanyl-powers",
+      "title": "Emergency powers for fentanyl crisis response",
+      "sourceType": "news",
+      "url": "https://apnews.com/article/a9ddcc1cc726551403c4245d88d91e79",
+      "publishedAt": "2025-02-04",
+      "topic": "public_safety",
+      "summary": "Board action gave the mayor additional flexibility to speed up fentanyl crisis response.",
+      "confidence": 0.84
+    },
+    {
+      "id": "union-square-programming",
+      "title": "Union Square programming through summer 2027",
+      "sourceType": "official",
+      "url": "https://sfrecpark.org/m/newsflash/home/detail/2708",
+      "publishedAt": "2026-02-10",
+      "topic": "economy",
+      "summary": "Downtown activation and programming effort tied to tourism, foot traffic, and economic recovery.",
+      "confidence": 0.89
+    },
+    {
+      "id": "climate-plan-update",
+      "title": "Five-year update to San Francisco Climate Action Plan",
+      "sourceType": "official",
+      "url": "https://www.sfenvironment.org/press/mayor-lurie-releases-five-year-update-climate-action-plan-celebrates-san-francisco-climate",
+      "publishedAt": "2026-04-20",
+      "topic": "climate",
+      "summary": "Climate Action Plan update framed around emissions, household costs, and city resilience.",
+      "confidence": 0.9
+    }
+  ],
+  "promises": [
+    {
+      "id": "end-unsheltered-six-months",
+      "text": "Create an emergency shelter plan intended to end unsheltered homelessness in six months.",
+      "dateMade": "2025-01-15",
+      "deadline": "2025-07-15",
+      "topic": "homelessness",
+      "status": "delayed",
+      "progress": 45,
+      "evidenceSourceIds": ["homelessness-directive"],
+      "aiConfidence": 0.72,
+      "statusNote": "Needs metric validation against PIT count, shelter capacity, encampment resolution, and outreach placement data. Marked delayed until verified completion evidence exists."
+    },
+    {
+      "id": "speed-fentanyl-response",
+      "text": "Use emergency authority to accelerate city response to open-air drug markets and fentanyl-related street conditions.",
+      "dateMade": "2025-02-04",
+      "deadline": "2025-08-04",
+      "topic": "public_safety",
+      "status": "in_progress",
+      "progress": 58,
+      "evidenceSourceIds": ["fentanyl-powers"],
+      "aiConfidence": 0.8,
+      "statusNote": "Implementation activity exists, but outcome metrics need recurring public-safety and health datasets before completion can be assessed."
+    },
+    {
+      "id": "downtown-recovery-programming",
+      "text": "Keep Union Square activations running through summer 2027 to support downtown recovery.",
+      "dateMade": "2026-02-10",
+      "deadline": "2027-08-31",
+      "topic": "economy",
+      "status": "in_progress",
+      "progress": 35,
+      "evidenceSourceIds": ["union-square-programming"],
+      "aiConfidence": 0.87,
+      "statusNote": "Clear deadline and output; completion should be checked against programming calendar, foot traffic, sales tax, and vacancy data."
+    },
+    {
+      "id": "climate-action-update",
+      "text": "Publish and begin implementing an updated city Climate Action Plan.",
+      "dateMade": "2026-04-20",
+      "deadline": "2026-12-31",
+      "topic": "climate",
+      "status": "in_progress",
+      "progress": 28,
+      "evidenceSourceIds": ["climate-plan-update"],
+      "aiConfidence": 0.83,
+      "statusNote": "Plan publication appears satisfied; implementation requires emissions, permit, building, and transport indicators."
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim-downtown-recovery",
+      "claim": "Downtown activations can support San Francisco's economic recovery by bringing more people to the core.",
+      "sourceId": "union-square-programming",
+      "topic": "economy",
+      "verdict": "needs_context",
+      "confidence": 0.68,
+      "evidencePlan": "Compare Union Square foot traffic, hotel occupancy, retail vacancy, sales tax receipts, and event attendance before/after programming dates."
+    },
+    {
+      "id": "claim-climate-costs",
+      "claim": "The updated Climate Action Plan can lower household costs while reducing emissions.",
+      "sourceId": "climate-plan-update",
+      "topic": "climate",
+      "verdict": "unverified",
+      "confidence": 0.61,
+      "evidencePlan": "Track utility costs, retrofit adoption, emissions inventory, and household energy-burden datasets."
+    }
+  ],
+  "metrics": [
+    {
+      "id": "downtown-foot-traffic-index",
+      "label": "Downtown foot traffic index",
+      "topic": "economy",
+      "unit": "index",
+      "source": "Placeholder for Placer.ai, city dashboards, transit station exits, or local BID data",
+      "baseline": 100,
+      "latest": 112,
+      "direction": "up_is_good",
+      "observations": [
+        { "date": "2025-10-01", "value": 96 },
+        { "date": "2025-12-01", "value": 101 },
+        { "date": "2026-02-01", "value": 106 },
+        { "date": "2026-04-01", "value": 112 }
+      ]
+    },
+    {
+      "id": "unsheltered-homelessness-index",
+      "label": "Unsheltered homelessness pressure index",
+      "topic": "homelessness",
+      "unit": "index",
+      "source": "Placeholder for PIT count, outreach encounters, shelter placements, and 311 encampment data",
+      "baseline": 100,
+      "latest": 88,
+      "direction": "down_is_good",
+      "observations": [
+        { "date": "2025-01-01", "value": 100 },
+        { "date": "2025-04-01", "value": 96 },
+        { "date": "2025-07-01", "value": 93 },
+        { "date": "2025-10-01", "value": 91 },
+        { "date": "2026-01-01", "value": 88 }
+      ]
+    },
+    {
+      "id": "public-safety-response-index",
+      "label": "Public safety response index",
+      "topic": "public_safety",
+      "unit": "index",
+      "source": "Placeholder for 911 response time, overdose response, treatment linkage, and police deployment data",
+      "baseline": 100,
+      "latest": 107,
+      "direction": "up_is_good",
+      "observations": [
+        { "date": "2025-02-01", "value": 100 },
+        { "date": "2025-05-01", "value": 102 },
+        { "date": "2025-08-01", "value": 105 },
+        { "date": "2026-02-01", "value": 107 }
+      ]
+    }
+  ],
+  "approval": {
+    "label": "Public approval proxy",
+    "methodology": "MVP placeholder until poll imports are configured; intended to be replaced by polling averages and survey data.",
+    "series": [
+      { "date": "2025-01-01", "approval": 50, "disapproval": 32, "event": "Inauguration period" },
+      { "date": "2025-03-17", "approval": 52, "disapproval": 34, "event": "Homelessness overhaul announcement" },
+      { "date": "2025-08-01", "approval": 48, "disapproval": 39, "event": "Six-month homelessness deadline review" },
+      { "date": "2026-02-10", "approval": 53, "disapproval": 35, "event": "Union Square programming extension" },
+      { "date": "2026-04-20", "approval": 55, "disapproval": 34, "event": "Climate Action Plan update" }
+    ]
+  },
+  "topics": [
+    { "id": "homelessness", "label": "Homelessness", "promiseCount": 1, "averageProgress": 45, "risk": "high", "insight": "Most important early promise area; needs hard public datasets before status can move from delayed." },
+    { "id": "public_safety", "label": "Public Safety", "promiseCount": 1, "averageProgress": 58, "risk": "medium", "insight": "Implementation signals exist, but impact should be separated from enforcement activity." },
+    { "id": "economy", "label": "Downtown Economy", "promiseCount": 1, "averageProgress": 35, "risk": "medium", "insight": "Good candidate for before/after visualizations because events have dates and measurable foot-traffic proxies." },
+    { "id": "climate", "label": "Climate", "promiseCount": 1, "averageProgress": 28, "risk": "low", "insight": "Plan publication is trackable; long-term implementation will need emissions and permit datasets." }
+  ]
+}
