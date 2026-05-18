@@ -29,6 +29,12 @@ for (const [collectionName, requiredFields] of Object.entries({
 const validReviewStatuses = new Set(['pending_review', 'approved', 'rejected', 'needs_more_evidence']);
 for (const promise of data.promises || []) {
   if (!validReviewStatuses.has(promise.reviewStatus)) errors.push(`Promise ${promise.id} has invalid reviewStatus ${promise.reviewStatus}`);
+  if (Number.isFinite(promise.progress)) {
+    if (promise.reviewStatus !== 'approved') errors.push(`Promise ${promise.id} has progress but is not approved`);
+    if (!promise.evidenceSourceIds?.length) errors.push(`Promise ${promise.id} has progress but no evidence sources`);
+  } else if (promise.reviewStatus === 'approved') {
+    errors.push(`Promise ${promise.id} is approved but has no numeric progress`);
+  }
 }
 
 if ('approval' in data) {

@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-18T17:04:51.505Z",
+    "lastUpdated": "2026-05-18T17:14:39.380Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -974,11 +974,13 @@
         "homelessness-directive"
       ],
       "aiConfidence": 0.72,
-      "statusNote": "Awaiting official homelessness, shelter-capacity, placement, and encampment-resolution evidence before assigning progress or delivery status.",
-      "reviewStatus": "pending_review",
+      "statusNote": "Reviewed seed decision: keep unscored until official homelessness counts, shelter-capacity, placement, and encampment-resolution evidence are checked against the six-month deadline.",
+      "reviewStatus": "needs_more_evidence",
       "linkedMetricIds": [
         "homeless-encampment-311-requests"
-      ]
+      ],
+      "reviewedAt": "2026-05-18",
+      "progressBasis": "No progress value is shown because the promise requires outcome validation."
     },
     {
       "id": "speed-fentanyl-response",
@@ -986,18 +988,20 @@
       "dateMade": "2025-02-04",
       "deadline": "2025-08-04",
       "topic": "public_safety",
-      "status": "unclear",
-      "progress": null,
+      "status": "in_progress",
+      "progress": 25,
       "evidenceSourceIds": [
         "fentanyl-powers"
       ],
       "aiConfidence": 0.8,
-      "statusNote": "Awaiting verified public safety, overdose-response, treatment-linkage, and budget/action evidence before assigning progress or delivery status.",
-      "reviewStatus": "pending_review",
+      "statusNote": "Reviewed seed score: emergency authority was granted and the response is in implementation, but overdose, treatment-linkage, and street-condition outcomes still need verified review.",
+      "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses",
         "overdose-response-naloxone-distribution"
-      ]
+      ],
+      "reviewedAt": "2026-05-18",
+      "progressBasis": "Source-backed action exists; progress is limited because outcome metrics are indicators, not proof of mayoral causation."
     },
     {
       "id": "downtown-recovery-programming",
@@ -1005,17 +1009,19 @@
       "dateMade": "2026-02-10",
       "deadline": "2027-08-31",
       "topic": "economy",
-      "status": "unclear",
-      "progress": null,
+      "status": "in_progress",
+      "progress": 20,
       "evidenceSourceIds": [
         "union-square-programming"
       ],
       "aiConfidence": 0.87,
-      "statusNote": "Awaiting verified programming calendar, downtown foot-traffic, vacancy, sales-tax, and attendance data before assigning progress or delivery status.",
-      "reviewStatus": "pending_review",
+      "statusNote": "Reviewed seed score: official programming is planned through summer 2027, but attendance, vacancy, sales-tax, and foot-traffic outcomes are not yet verified in this tracker.",
+      "reviewStatus": "approved",
       "linkedMetricIds": [
         "downtown-office-vacancy-rate"
-      ]
+      ],
+      "reviewedAt": "2026-05-18",
+      "progressBasis": "Official implementation commitment exists; outcome evidence remains incomplete."
     },
     {
       "id": "climate-action-update",
@@ -1023,15 +1029,17 @@
       "dateMade": "2026-04-20",
       "deadline": "2026-12-31",
       "topic": "climate",
-      "status": "unclear",
-      "progress": null,
+      "status": "in_progress",
+      "progress": 35,
       "evidenceSourceIds": [
         "climate-plan-update"
       ],
       "aiConfidence": 0.83,
-      "statusNote": "Awaiting implementation metrics such as emissions inventory, building upgrades, energy-burden data, and funded actions before assigning progress or delivery status.",
-      "reviewStatus": "pending_review",
-      "linkedMetricIds": []
+      "statusNote": "Reviewed seed score: the Climate Action Plan update has been published; implementation progress still needs emissions, building, energy, and funding evidence.",
+      "reviewStatus": "approved",
+      "linkedMetricIds": [],
+      "reviewedAt": "2026-05-18",
+      "progressBasis": "Publication milestone is verified; implementation outcomes are still pending."
     },
     {
       "id": "reduce-fare-evasion-muni",
@@ -1045,9 +1053,11 @@
         "mayor-lurie-announces-plan-to-tackle-fare-evasion-on-public-transit-make-muni-mo"
       ],
       "aiConfidence": 0.78,
-      "statusNote": "Awaiting verified fare evasion data, enforcement metrics, and revenue impact before assigning progress or delivery status.",
-      "reviewStatus": "pending_review",
-      "linkedMetricIds": []
+      "statusNote": "Reviewed seed decision: plan announcement is not enough to score delivery; fare evasion, enforcement, revenue, and rider-impact metrics are still needed.",
+      "reviewStatus": "needs_more_evidence",
+      "linkedMetricIds": [],
+      "reviewedAt": "2026-05-18",
+      "progressBasis": "No progress value is shown because implementation and outcome evidence are missing."
     },
     {
       "id": "expand-childcare-spots",
@@ -1061,9 +1071,11 @@
         "mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundre"
       ],
       "aiConfidence": 0.68,
-      "statusNote": "Awaiting verified childcare capacity data, enrollment numbers, and program implementation timeline.",
-      "reviewStatus": "pending_review",
-      "linkedMetricIds": []
+      "statusNote": "Reviewed seed decision: announcement references hundreds of childcare spots, but capacity, enrollment, funding, and launch timeline need verification before scoring.",
+      "reviewStatus": "needs_more_evidence",
+      "linkedMetricIds": [],
+      "reviewedAt": "2026-05-18",
+      "progressBasis": "No progress value is shown because service-delivery evidence is missing."
     },
     {
       "id": "support-police-officers-reduce-crime",
@@ -1071,15 +1083,17 @@
       "dateMade": "2026-05-11",
       "deadline": "unknown",
       "topic": "public_safety",
-      "status": "unclear",
-      "progress": null,
+      "status": "in_progress",
+      "progress": 45,
       "evidenceSourceIds": [
         "mayor-lurie-signs-legislation-to-support-san-francisco-police-officers-continue-"
       ],
       "aiConfidence": 0.78,
-      "statusNote": "Awaiting verified crime statistics, officer retention data, and policy implementation evidence.",
-      "reviewStatus": "pending_review",
-      "linkedMetricIds": []
+      "statusNote": "Reviewed seed score: source record says legislation was signed to support police officers; crime reduction and staffing outcomes still need independent metric review.",
+      "reviewStatus": "approved",
+      "linkedMetricIds": [],
+      "reviewedAt": "2026-05-18",
+      "progressBasis": "Legislative action is verified by source title; claimed public-safety outcome is not scored as complete."
     },
     {
       "id": "reduce-unsheltered-homelessness-15-year-low",
@@ -1094,9 +1108,11 @@
         "harger-san-francisco-s-homelessness-hit-a-15-year-low-seattle-s-mayor-is-running"
       ],
       "aiConfidence": 0.78,
-      "statusNote": "Claim requires verification from official PIT count data and methodology review.",
-      "reviewStatus": "pending_review",
-      "linkedMetricIds": []
+      "statusNote": "Reviewed seed decision: treat this as a result claim requiring official PIT-count methodology review, not as a scored delivery promise yet.",
+      "reviewStatus": "needs_more_evidence",
+      "linkedMetricIds": [],
+      "reviewedAt": "2026-05-18",
+      "progressBasis": "No progress value is shown because the claim needs methodology verification."
     }
   ],
   "claims": [
@@ -1508,23 +1524,23 @@
       "promiseCount": 1,
       "averageProgress": null,
       "risk": "review",
-      "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
+      "insight": "Needs verified evidence before progress should be scored."
     },
     {
       "id": "climate",
       "label": "Climate",
       "promiseCount": 1,
-      "averageProgress": null,
+      "averageProgress": 35,
       "risk": "review",
-      "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
+      "insight": "1 reviewed promise score available; metric movement remains an indicator, not causal proof."
     },
     {
       "id": "economy",
       "label": "Downtown Economy",
       "promiseCount": 1,
-      "averageProgress": null,
+      "averageProgress": 20,
       "risk": "review",
-      "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
+      "insight": "1 reviewed promise score available; metric movement remains an indicator, not causal proof."
     },
     {
       "id": "homelessness",
@@ -1532,23 +1548,23 @@
       "promiseCount": 2,
       "averageProgress": null,
       "risk": "review",
-      "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
+      "insight": "Needs verified evidence before progress should be scored."
     },
     {
       "id": "housing",
       "label": "Housing",
       "promiseCount": 0,
       "averageProgress": null,
-      "risk": "review",
-      "insight": "Public metric is available, but no Daniel Lurie promise has been linked yet."
+      "risk": "medium",
+      "insight": "Needs verified evidence before progress should be scored."
     },
     {
       "id": "public_safety",
       "label": "Public Safety",
       "promiseCount": 2,
-      "averageProgress": null,
-      "risk": "review",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "averageProgress": 35,
+      "risk": "medium",
+      "insight": "2 reviewed promise scores available; metric movement remains an indicator, not causal proof."
     },
     {
       "id": "transit",
@@ -1556,7 +1572,7 @@
       "promiseCount": 1,
       "averageProgress": null,
       "risk": "review",
-      "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
+      "insight": "Needs verified evidence before progress should be scored."
     }
   ],
   "connectors": [
@@ -1897,39 +1913,6 @@
       ]
     },
     {
-      "id": "review-speed-fentanyl-response",
-      "priority": "medium",
-      "itemType": "promise_status",
-      "title": "Review promise: Use emergency authority to accelerate city response to open-air drug...",
-      "reason": "Confirm source interpretation, status label, progress value, and linked metrics before scoring.",
-      "relatedIds": [
-        "speed-fentanyl-response",
-        "fentanyl-powers"
-      ]
-    },
-    {
-      "id": "review-downtown-recovery-programming",
-      "priority": "medium",
-      "itemType": "promise_status",
-      "title": "Review promise: Keep Union Square activations running through summer 2027 to support...",
-      "reason": "Confirm source interpretation, status label, progress value, and linked metrics before scoring.",
-      "relatedIds": [
-        "downtown-recovery-programming",
-        "union-square-programming"
-      ]
-    },
-    {
-      "id": "review-climate-action-update",
-      "priority": "medium",
-      "itemType": "promise_status",
-      "title": "Review promise: Publish and begin implementing an updated city Climate Action Plan.",
-      "reason": "Confirm source interpretation, status label, progress value, and linked metrics before scoring.",
-      "relatedIds": [
-        "climate-action-update",
-        "climate-plan-update"
-      ]
-    },
-    {
       "id": "review-reduce-fare-evasion-muni",
       "priority": "medium",
       "itemType": "promise_status",
@@ -1949,17 +1932,6 @@
       "relatedIds": [
         "expand-childcare-spots",
         "mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundre"
-      ]
-    },
-    {
-      "id": "review-support-police-officers-reduce-crime",
-      "priority": "medium",
-      "itemType": "promise_status",
-      "title": "Review promise: Sign legislation to support San Francisco Police Officers and continu...",
-      "reason": "Confirm source interpretation, status label, progress value, and linked metrics before scoring.",
-      "relatedIds": [
-        "support-police-officers-reduce-crime",
-        "mayor-lurie-signs-legislation-to-support-san-francisco-police-officers-continue-"
       ]
     },
     {

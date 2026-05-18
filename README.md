@@ -6,7 +6,7 @@ An MVP web app for tracking Daniel Lurie's announcements, promises, claims, evid
 
 - Shows a Daniel Lurie dashboard with announcement sources, structured promises, claim-check tasks, topic summaries, progress indicators, event timelines, review queues, Public SF connector status, and SVG charts.
 - Stores the current dashboard payload in `public/data/daniel-lurie-tracker.json` so the website can render fast and transparently.
-- Provides a recurring ingestion workflow that pulls Daniel Lurie news from Google News RSS, classifies source topics, merges/deduplicates sources, and optionally asks Anthropic Claude to enrich promises, claims, and topic insights.
+- Provides a recurring ingestion workflow that pulls Daniel Lurie sources from Google News RSS, direct local news RSS feeds, Anthropic web search, official SF pages, and Public SF/DataSF metrics, then asks Claude to enrich promises, claims, timeline items, and review tasks when configured.
 - Includes a GitHub Actions schedule that can refresh tracker data every six hours when repository secrets are configured.
 
 ## Vercel deployment
@@ -40,7 +40,7 @@ npm run ingest:daniel-lurie -- --dry-run
 
 ## Source policy
 
-The MVP is configured for a **balanced** source strategy: official San Francisco sources plus reputable local/national reporting. Outcome metrics use Public SF/DataSF datasets only. Approval ratings are intentionally out of scope. It does not show fabricated progress or metric values; sections stay in a “needs verified source” state until real datasets are connected.
+The MVP is configured for a **balanced** source strategy: official San Francisco sources plus reputable local/national reporting discovered through RSS, Anthropic web search, and curated public datasets. Outcome metrics use Public SF/DataSF datasets only. Approval ratings are intentionally out of scope. It does not show fabricated metric values; progress percentages appear only after a reviewed source-backed scoring decision.
 
 ## Data refresh workflow
 
@@ -52,8 +52,8 @@ npm run ingest:daniel-lurie
 
 The ingestion script works in two modes:
 
-1. **Without `ANTHROPIC_API_KEY`**: fetches and normalizes news/source records, then keeps existing structured promises and claims.
-2. **With `ANTHROPIC_API_KEY`**: sends the newest source summaries to the Anthropic Messages API and accepts JSON enrichment for promises, claims, timeline items, review tasks, and topic insights.
+1. **Without `ANTHROPIC_API_KEY`**: fetches and normalizes deterministic source records, then keeps existing structured promises and claims.
+2. **With `ANTHROPIC_API_KEY`**: uses Anthropic web search for additional source discovery, sends the newest source summaries to the Anthropic Messages API, and accepts JSON enrichment for promises, claims, timeline items, review tasks, and topic insights.
 
 Optional environment variables:
 
@@ -64,6 +64,14 @@ Optional environment variables:
 
 The MVP review workflow is JSON-based. Update review statuses and evidence notes directly in `public/data/daniel-lurie-tracker.json`, then run `npm run validate:data` before committing.
 
+Reviewed promise scores must follow these rules:
+
+- Set `progress` only when the source record verifies an action or milestone.
+- Keep `progress` as `null` when only an announcement, claim, or unverified outcome exists.
+- Use `reviewStatus: "approved"` only when the promise interpretation and progress basis have been reviewed.
+- Use `reviewStatus: "needs_more_evidence"` when the promise is real but should not receive a score yet.
+- Treat public metric movement as an indicator, not proof that the mayor caused the result.
+
 ## Production workflow
 
 `.github/workflows/ingest-daniel-lurie.yml` runs every six hours and commits refreshed `public/data/daniel-lurie-tracker.json` data back to the branch. Configure the repository secret `ANTHROPIC_API_KEY` to enable AI enrichment in that scheduled job.
@@ -71,7 +79,7 @@ The MVP review workflow is JSON-based. Update review statuses and evidence notes
 ## Current workflow guardrails
 
 - `scripts/validate-data.mjs` checks that source, promise, metric, connector, timeline, and review-queue records keep the fields the UI expects, and rejects approval-rating data.
-- The dashboard now includes promise search, topic/status filters, a timeline view, connector readiness cards, and a human review queue for AI-generated findings.
+- The dashboard now includes promise search, topic/status filters, reviewed progress badges, source provenance, metric freshness labels, a timeline view, connector readiness cards, and a grouped human review queue for AI-generated findings.
 - No fabricated metric or progress values are shown; empty states remain until Public SF/DataSF datasets refresh successfully.
 
 ## Next steps

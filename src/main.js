@@ -7,6 +7,13 @@ const STATUS_COPY = {
   unclear: 'Unclear',
 };
 
+const REVIEW_COPY = {
+  pending_review: 'Pending review',
+  approved: 'Reviewed',
+  rejected: 'Rejected',
+  needs_more_evidence: 'Needs evidence',
+};
+
 const icon = {
   activity: '📈', alert: '⚠️', chart: '📊', bot: '🤖', clock: '⏱️', database: '🗄️', external: '↗', search: '🔎', gauge: '🎛️', news: '📰', refresh: '🔄', shield: '🛡️', sparkles: '✨', trend: '📉', check: '✅'
 };
@@ -150,6 +157,14 @@ function sectionTitle(iconText, eyebrow, title) {
 
 
 function operationsPanel(connectors, reviewQueue) {
+  const groupedTasks = [...reviewQueue]
+    .sort((left, right) => priorityRank(left.priority) - priorityRank(right.priority))
+    .reduce((groups, item) => {
+      const key = pretty(item.itemType);
+      groups[key] = groups[key] || [];
+      groups[key].push(item);
+      return groups;
+    }, {});
   return `<section class="section panel operations-panel">
     ${sectionTitle(icon.database, 'Operations', 'Source connectors and AI review readiness')}
     <div class="operations-grid">
@@ -161,6 +176,7 @@ function operationsPanel(connectors, reviewQueue) {
         <h3>Review guardrails</h3>
         <p class="method-note">${icon.alert} AI can propose promises, claims, statuses, and chart inputs, but high-impact interpretations stay in the review queue until evidence is checked.</p>
         <strong class="queue-count">${reviewQueue.length} review tasks waiting</strong>
+        <div class="review-breakdown">${Object.entries(groupedTasks).map(([type, items]) => `<span>${type}: ${items.length}</span>`).join('')}</div>
       </div>
     </div>
   </section>`;
@@ -195,10 +211,17 @@ function promiseControls(topics) {
 }
 
 function promiseCard(promise) {
+  const isReviewed = promise.reviewStatus === 'approved';
   return `<article class="promise-card">
-    <div class="promise-topline"><span class="status ${promise.status}">${STATUS_COPY[promise.status] || promise.status}</span><span>AI confidence ${Math.round(promise.aiConfidence * 100)}%</span></div>
-    <h3>${promise.text}</h3><p>${promise.statusNote}</p>${Number.isFinite(promise.progress) ? progressBar(promise.progress) : noDataBadge('Progress not verified')}
-    <div class="promise-meta"><span>Made ${promise.dateMade}</span><span>Deadline ${promise.deadline}</span><span>${pretty(promise.topic)}</span><span>${pretty(promise.reviewStatus || 'pending_review')}</span></div>
+    <div class="promise-topline">
+      <span class="status ${promise.status}">${STATUS_COPY[promise.status] || promise.status}</span>
+      <span class="review-badge ${promise.reviewStatus || 'pending_review'}">${REVIEW_COPY[promise.reviewStatus] || pretty(promise.reviewStatus || 'pending_review')}</span>
+    </div>
+    <h3>${promise.text}</h3>
+    <p>${promise.statusNote}</p>
+    ${Number.isFinite(promise.progress) && isReviewed ? progressBar(promise.progress) : noDataBadge(promise.reviewStatus === 'needs_more_evidence' ? 'Needs verified evidence before scoring' : 'Progress not verified')}
+    ${promise.progressBasis ? `<p class="progress-basis">${promise.progressBasis}</p>` : ''}
+    <div class="promise-meta"><span>Made ${promise.dateMade}</span><span>Deadline ${promise.deadline}</span><span>${pretty(promise.topic)}</span><span>${promise.evidenceSourceIds?.length || 0} evidence links</span><span>${promise.linkedMetricIds?.length || 0} linked metrics</span><span>AI confidence ${Math.round(promise.aiConfidence * 100)}%</span></div>
   </article>`;
 }
 
@@ -215,8 +238,9 @@ function donut(value, label) {
 }
 
 function metricChart(metric) {
+  const refreshed = metric.lastRefreshed ? `Refreshed ${new Date(metric.lastRefreshed).toLocaleDateString()}` : 'Refresh date unavailable';
   if (!metric.observations?.length) {
-    return `<article class="metric-chart panel no-data-card"><div class="metric-chart-head"><div><span>${pretty(metric.topic)}</span><h3>${metric.label}</h3></div><strong class="needs-data">Needs source</strong></div>${noDataBadge('No verified observations connected')}<p>${metric.source}</p></article>`;
+    return `<article class="metric-chart panel no-data-card"><div class="metric-chart-head"><div><span>${pretty(metric.topic)}</span><h3>${metric.label}</h3></div><strong class="needs-data">Needs source</strong></div>${noDataBadge('No verified observations connected')}<p>${metric.source}</p><small class="metric-footnote">${refreshed}</small></article>`;
   }
   const max = Math.max(...metric.observations.map((point) => point.value));
   const min = Math.min(...metric.observations.map((point) => point.value));
@@ -228,7 +252,7 @@ function metricChart(metric) {
   }).join('');
   const delta = metric.latest - metric.baseline;
   const isGood = metric.direction === 'up_is_good' ? delta >= 0 : delta <= 0;
-  return `<article class="metric-chart panel"><div class="metric-chart-head"><div><span>${pretty(metric.topic)}</span><h3>${metric.label}</h3></div><strong class="${isGood ? 'good' : 'bad'}">${delta > 0 ? '+' : ''}${delta}</strong></div><svg viewBox="0 0 100 100" role="img" aria-label="${metric.label} trend chart"><polyline points="${points}" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></polyline>${circles}</svg><p>${metric.source}</p></article>`;
+  return `<article class="metric-chart panel"><div class="metric-chart-head"><div><span>${pretty(metric.topic)}</span><h3>${metric.label}</h3></div><strong class="${isGood ? 'good' : 'bad'}">${delta > 0 ? '+' : ''}${delta}</strong></div><svg viewBox="0 0 100 100" role="img" aria-label="${metric.label} trend chart"><polyline points="${points}" fill="none" stroke="currentColor" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"></polyline>${circles}</svg><p>${metric.source}</p><small class="metric-footnote">${refreshed} · Indicator only, not causal proof</small></article>`;
 }
 
 function topicCard(topic) {
@@ -236,7 +260,8 @@ function topicCard(topic) {
 }
 
 function sourceItem(source) {
-  return `<a class="source-item" href="${source.url}" target="_blank" rel="noreferrer"><div><span class="source-meta">${source.sourceType} · ${source.publishedAt} · ${pretty(source.topic)}</span><strong>${source.title}</strong><p>${source.summary}</p></div><span>${icon.external}</span></a>`;
+  const provenance = [source.publisher, source.discoverySource, source.scrapeStatus].filter(Boolean).join(' · ');
+  return `<a class="source-item" href="${source.url}" target="_blank" rel="noreferrer"><div><span class="source-meta">${source.sourceType} · ${source.publishedAt} · ${pretty(source.topic)}</span><strong>${source.title}</strong><p>${source.summary}</p>${provenance ? `<small class="source-provenance">${provenance}</small>` : ''}</div><span>${icon.external}</span></a>`;
 }
 
 function claimCard(claim) {
@@ -252,6 +277,10 @@ function countBy(records, key) {
 
 function pretty(value) {
   return value.replaceAll('_', ' ');
+}
+
+function priorityRank(priority) {
+  return { high: 0, medium: 1, low: 2 }[priority] ?? 3;
 }
 
 boot().catch((error) => {
