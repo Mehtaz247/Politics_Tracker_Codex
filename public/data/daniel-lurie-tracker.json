@@ -32,6 +32,76 @@
   ],
   "sources": [
     {
+      "id": "homelessness-directive",
+      "title": "Homelessness and behavioral health response announcement",
+      "sourceType": "news",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-lurie-homelessness-drug-addiction-behavioral-health-breaking-the-cycle/",
+      "publishedAt": "2025-03-17",
+      "topic": "homelessness",
+      "summary": "Coverage of Lurie's plan to overhaul homelessness, behavioral health, and addiction response.",
+      "confidence": 0.82
+    },
+    {
+      "id": "fentanyl-powers",
+      "title": "Emergency powers for fentanyl crisis response",
+      "sourceType": "news",
+      "url": "https://apnews.com/article/a9ddcc1cc726551403c4245d88d91e79",
+      "publishedAt": "2025-02-04",
+      "topic": "public_safety",
+      "summary": "Board action gave the mayor additional flexibility to speed up fentanyl crisis response.",
+      "confidence": 0.84
+    },
+    {
+      "id": "mayor-lurie-announces-plan-to-tackle-fare-evasion-on-public-transit-make-muni-mo",
+      "title": "Mayor Lurie Announces Plan To Tackle Fare Evasion On Public Transit, Make Muni More Accountable - SF.gov",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcTRKTUR4RUlCWTdVaU8za1ZlT3oxMU13Z3dkX1k0R2hVOWZaeFl2YW45SWpjZWNWTnNsT3ZDUjRsWVJYbE5ncXg1QkxDVzVjbFpnRjd5ZWRaNnNVVVpOOUp1ZWh2SFQ1R01SRUVrZ2RLZ1BZVEQxSlRhSndIS1l1RGI4b3dwdXhScmZqUU5PTm5lVXZpOTFCOXF2eVo4cXh3cGhRNzdkSXdCSTZ1aUlPYjV2OTRXT191Z0E?oc=5",
+      "publishedAt": "2026-05-05",
+      "topic": "transit",
+      "summary": "Mayor Lurie Announces Plan To Tackle Fare Evasion On Public Transit, Make Muni More Accountable SF.gov",
+      "confidence": 0.78
+    },
+    {
+      "id": "mayor-lurie-signs-legislation-to-support-san-francisco-police-officers-continue-",
+      "title": "Mayor Lurie Signs Legislation To Support San Francisco Police Officers, Continue To Drive Down Crime - SF.gov",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYnFWeXRDbFhMM21tZE9Jb20xYTAtZ0ZIanFsNGVuU1hKbEZ2bXY2cDh0dVV2d19DeVF4dE5GdHozdk1VVmczWXM4Rks4TmJ6N2EzS3I4cEtnVEdlYUFxdHhWYmFEem1HU19pdEdlSXZDbUo0WUhXV3p0WWNhNDcxc1FkSlpaUUNGNjdPckZyVFNNRVpwV2VEV3J2Z3NkWjZ5eXp3ME5qX3BPa2NRYnBTUFpSSlg5U2RUTlpxYm1OU2g?oc=5",
+      "publishedAt": "2026-05-11",
+      "topic": "public_safety",
+      "summary": "Mayor Lurie Signs Legislation To Support San Francisco Police Officers, Continue To Drive Down Crime SF.gov",
+      "confidence": 0.78
+    },
+    {
+      "id": "sf-mayor-news",
+      "title": "News from the Office of the Mayor",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-from-the-office-of-the-mayor/",
+      "publishedAt": "2025-07-22",
+      "topic": "city_government",
+      "summary": "Official mayoral news page configured as a primary source for Daniel Lurie announcements.",
+      "confidence": 0.94
+    },
+    {
+      "id": "mayor-lurie-appoints-matthew-goudeau-as-city-s-first-executive-director-of-arts-",
+      "title": "Mayor Lurie Appoints Matthew Goudeau As City's First Executive Director Of Arts And Culture - SF.gov",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTlZBaEJpb1dlaHE1ZlBTd05qRThORURVR2ZkOGlmNnd6b3RpNGF4WVNUNklucTlObTN5YnVKajBVRy1XYm9taHJDS2lGWXVnS0pxSlVLQU9NWUQ2ejVjejJaUjQzcTFoX2NXVjR2OVZOMnAwSU91R2FER25kUFJRY2tNWVBNY1IyeWlzaWE0TUxQRWoydEdxblVtUlFZdEpWSXluSFExY1BIVUZGTkoxTVJ1djU?oc=5",
+      "publishedAt": "2026-04-27",
+      "topic": "city_government",
+      "summary": "Mayor Lurie Appoints Matthew Goudeau As City's First Executive Director Of Arts And Culture SF.gov",
+      "confidence": 0.68
+    },
+    {
+      "id": "s-f-activists-deliver-1-500-postcards-to-mayor-lurie-asking-him-to-stop-budget-c",
+      "title": "S.F. activists deliver 1,500 postcards to Mayor Lurie, asking him to stop budget cuts",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/05/peoples-budget-postcards/",
+      "publishedAt": "2026-05-13",
+      "topic": "city_government",
+      "summary": "The People's Budget Coalition delivered over 1,500 postcards to Mayor Daniel Lurie's office demanding the mayor stop cutting funds to services.",
+      "confidence": 0.82
+    },
+    {
       "id": "harger-san-francisco-s-homelessness-hit-a-15-year-low-seattle-s-mayor-is-running",
       "title": "Harger: San Francisco's homelessness hit a 15-year low. Seattle's mayor is running the opposite experiment. - MyNorthwest.com",
       "sourceType": "news",
@@ -1152,7 +1222,6 @@
         }
       ],
       "datasetId": "i98e-djp9",
-<<<<<<< HEAD
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
       "lastRefreshed": "2026-05-18T17:04:51.505Z"
     },
@@ -1262,84 +1331,6 @@
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
       "lastRefreshed": "2026-05-18T17:04:51.505Z"
-=======
-      "baseline": 1980,
-      "latest": 979,
-      "direction": "up_is_good",
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 1980
-        },
-        {
-          "date": "2025-02-01",
-          "value": 1972
-        },
-        {
-          "date": "2025-03-01",
-          "value": 2135
-        },
-        {
-          "date": "2025-04-01",
-          "value": 2250
-        },
-        {
-          "date": "2025-05-01",
-          "value": 2258
-        },
-        {
-          "date": "2025-06-01",
-          "value": 2215
-        },
-        {
-          "date": "2025-07-01",
-          "value": 2281
-        },
-        {
-          "date": "2025-08-01",
-          "value": 2237
-        },
-        {
-          "date": "2025-09-01",
-          "value": 2204
-        },
-        {
-          "date": "2025-10-01",
-          "value": 2432
-        },
-        {
-          "date": "2025-11-01",
-          "value": 1914
-        },
-        {
-          "date": "2025-12-01",
-          "value": 2361
-        },
-        {
-          "date": "2026-01-01",
-          "value": 1992
-        },
-        {
-          "date": "2026-02-01",
-          "value": 1842
-        },
-        {
-          "date": "2026-03-01",
-          "value": 1945
-        },
-        {
-          "date": "2026-04-01",
-          "value": 1914
-        },
-        {
-          "date": "2026-05-01",
-          "value": 979
-        }
-      ],
-      "status": "public_sf_data_loaded",
-      "methodology": "Monthly count of building permit records from the public DataSF API. Used as a housing/economic activity indicator.",
-      "lastRefreshed": "2026-05-18T12:54:54.250Z"
->>>>>>> 21fc6a2a50411043d53ddf2c27db581da1180fbe
     }
   ],
   "topics": [
