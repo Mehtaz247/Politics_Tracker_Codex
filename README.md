@@ -1,6 +1,6 @@
 # Politics Tracker Codex
 
-An MVP web app for tracking Daniel Lurie's announcements, promises, claims, evidence, and public San Francisco results over time.
+An MVP website for tracking Daniel Lurie's announcements, promises, claims, evidence, and public San Francisco results over time.
 
 ## What this MVP does
 
