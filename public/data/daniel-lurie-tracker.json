@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-18T17:14:39.380Z",
+    "lastUpdated": "2026-05-18T12:55:46.641Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -32,34 +32,94 @@
   ],
   "sources": [
     {
-      "id": "homelessness-directive",
-      "title": "Homelessness and behavioral health response announcement",
+      "id": "harger-san-francisco-s-homelessness-hit-a-15-year-low-seattle-s-mayor-is-running",
+      "title": "Harger: San Francisco's homelessness hit a 15-year low. Seattle's mayor is running the opposite experiment. - MyNorthwest.com",
       "sourceType": "news",
-      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-lurie-homelessness-drug-addiction-behavioral-health-breaking-the-cycle/",
-      "publishedAt": "2025-03-17",
+      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1FSURseEF0REFMV3VpT05tWEhRaXRCM21yN3kzWEYyQ0g2a0lENFV4V0VOOEJSNGk5ZG01czcwMFdIUFIzVnV3SHZ5b3dSSGYzOVN4MTBySXRwOHRuZFdqbXVzNHRpaEtsTWlxazhmZ2hYSmVaZzRROHhJZw?oc=5",
+      "publishedAt": "2026-05-15",
       "topic": "homelessness",
-      "summary": "Coverage of Lurie's plan to overhaul homelessness, behavioral health, and addiction response.",
-      "confidence": 0.82
+      "summary": "Harger: San Francisco's homelessness hit a 15-year low. Seattle's mayor is running the opposite experiment. &nbsp;&nbsp; MyNorthwest.com",
+      "confidence": 0.78
     },
     {
-      "id": "fentanyl-powers",
-      "title": "Emergency powers for fentanyl crisis response",
+      "id": "mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-home",
+      "title": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years - SF.gov",
       "sourceType": "news",
-      "url": "https://apnews.com/article/a9ddcc1cc726551403c4245d88d91e79",
-      "publishedAt": "2025-02-04",
-      "topic": "public_safety",
-      "summary": "Board action gave the mayor additional flexibility to speed up fentanyl crisis response.",
-      "confidence": 0.84
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcmZWdmsyT1JhdVNLdTNkZzItbmlkalVSR2Npc09EbDljbEFuVThINnFrXzdwaTBWRV8tVHgzVDJUa294dXhWSEI2ajNIMERQT3lKb3NtSFQ3MnNkeTZHU3hkekxhZVlPcjhxbGNZRHc4eF9qMXBlc3U1Nl9BRGhtSjQydDM2RUVhWVV1UFUyekd5V0NUWGlnUzRuZHl6TF9vcGFLOGdfME5JaUU0VnFwdHA2NjFYX3NyeXpyb3RYT3A0QQ?oc=5",
+      "publishedAt": "2026-05-12",
+      "topic": "homelessness",
+      "summary": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years &nbsp;&nbsp; SF.gov",
+      "confidence": 0.78
     },
     {
-      "id": "union-square-programming",
-      "title": "Union Square programming through summer 2027",
-      "sourceType": "official",
-      "url": "https://sfrecpark.org/m/newsflash/home/detail/2708",
-      "publishedAt": "2026-02-10",
-      "topic": "economy",
-      "summary": "Downtown activation and programming effort tied to tourism, foot traffic, and economic recovery.",
-      "confidence": 0.89
+      "id": "golden-city-fc-promised-a-10m-kezar-facelift-a-year-later-it-s-gone-dark-sfgate-",
+      "title": "Golden City FC promised a $10M Kezar facelift. A year later, it’s gone dark. - sfgate.com",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SVW4wbFNyTEF6dmZQTy1FWVBjUFdJTXU1R1hnYm9WNDZjeTBDbDFMV3B6anFKS09CaWNVUTRPQkZ0VHEtQkM4bzRpaGV2MlVJZEVKOTNHdmNrR2FCTS1PR1BSeEFJRXgwVmF0ampIclh6LXFkVUtiV3ZPMmJGZw?oc=5",
+      "publishedAt": "2026-05-08",
+      "topic": "city_government",
+      "summary": "Golden City FC promised a $10M Kezar facelift. A year later, it’s gone dark. &nbsp;&nbsp; sfgate.com",
+      "confidence": 0.68
+    },
+    {
+      "id": "at-conservative-leaning-forum-s-f-leaders-love-pragmatism-efficiency-and-daniel-",
+      "title": "At conservative-leaning forum, S.F. leaders love pragmatism, efficiency, and Daniel Lurie - Mission Local",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeXh2c09BeHI3ZU1jVTdRME43bmxIa3NLS21LMmhhYlFpemdVX2VfYnZ4RDNsSFZpNDZWNlV0Q2c5Mm1YblFJZ1p3WEVsT1c4cDVGYTI1REJRaFJvV2h6Sy1BVXMwbkxDekFjZ21lY3B1dGtSQzVLTVFSeVhETGRjTzFQaUhJaDFuMjFZ?oc=5",
+      "publishedAt": "2026-05-07",
+      "topic": "city_government",
+      "summary": "At conservative-leaning forum, S.F. leaders love pragmatism, efficiency, and Daniel Lurie &nbsp;&nbsp; Mission Local",
+      "confidence": 0.68
+    },
+    {
+      "id": "mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundre",
+      "title": "Mayor Lurie Announces Major Expansion Of Free And Low-Cost Childcare With Hundreds Of New Spots For Families With Infants And Toddlers - SF.gov",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNVFocjlKT1hNWmVCWHJTQVI5U25hOW8zbVNXYXdORjh4dmd3Z1UtY0JZTjduWHFlRnRWbDdwekNvTG1yOWQtWFEtaHpkcGVPTVBpVE1QRmJTaHZNRmhNUVFUNUhod3pDRm9ERTN3U3JIUUQzRjBNMHppLWRLcVRhbS1ONjFuR0QzWjE2bTc5QXg1ZkRKUS05QlBUZkZNbjRSM1lxWEY1WHlxajNOUm9scFBVNmJ2dDNJc2JVMDF1ams0QkpucVYzUXdiQ2Fra0xKNEtYRk5MNFNaMl85V0RLOXFGM2l2OVQ0VjIza3BFcw?oc=5",
+      "publishedAt": "2026-04-30",
+      "topic": "city_government",
+      "summary": "Mayor Lurie Announces Major Expansion Of Free And Low-Cost Childcare With Hundreds Of New Spots For Families With Infants And Toddlers &nbsp;&nbsp; SF.gov",
+      "confidence": 0.68
+    },
+    {
+      "id": "san-francisco-mayor-daniel-lurie-announces-steven-betz-as-new-public-safety-chie",
+      "title": "San Francisco Mayor Daniel Lurie announces Steven Betz as new public safety chief - ABC7 San Francisco",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbnNqaVI4Y0hFLVNpQTRlbVZoc2EyM0Vnd0pEQXNmcGhJSGdBYXE0SEM0c05MV25sVHM5ZjFMWUJvU1dBMVMweUJNWENvN0EzSDhSak1Sa0ZvTmVfUjNYMlNCQ2ZtMUFUcktPaUxJeUJLaHhKSFVIb0FNOUNEQ3I1Sm55T1g5aFNVYUtYdXBHOWlGMzQzSjJ2MF91a1dqTElzUXJFeW05LW5HSk9jMjBUaGpGQ2HSAboBQVVfeXFMTmdCX0JSVFVweHIzLUZ2T0hSaUt0LWQyOTB4TUR2Vm1XbnpxbzZ1MF9aWWtsazhVaEFLckUzRF82MEJkeHhoX2o0NDkwNUxEdHRvRDFOemVldmxkaVpSN0p2Ynp3MDRZYXctcFlqVzY0RTAtRE5uc21DQ2cxSHlXVGJ0VDcwZzI4MWk2aWpZa0N4ckhXMUpmVGdSZXh2SFA0c3RoV003aUVWRzNoVG9yX19TVldZTkRyU0hn?oc=5",
+      "publishedAt": "2026-04-28",
+      "topic": "public_safety",
+      "summary": "San Francisco Mayor Daniel Lurie announces Steven Betz as new public safety chief &nbsp;&nbsp; ABC7 San Francisco",
+      "confidence": 0.78
+    },
+    {
+      "id": "lurie-appoints-sf-s-first-arts-director-forges-arts-partnerships-in-shanghai-sfi",
+      "title": "Lurie Appoints SF’s First Arts Director, Forges Arts Partnerships In Shanghai - SFist",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMzlKT3VIUjdUMU1PTWxOZy1RTTBpOHh1MVJPSDNfeFBCekxXNEhNRXNUQ1UxdTlBTnZhcUEzZ0x6dzh3cjI2WS0yNnJ4bzR6TUNHVEtEbGhyc3lHWVBYZEw3cTk0Y0JJUUQ2akpweDd6MEE5TEV3QUdzNnpGLXljeEpFM0h2V1BRZV9wSkFCTTNMb0l2Z1lXMXpUcXBqeUt3ZUp4QUIyUW55S0FPMlZfOA?oc=5",
+      "publishedAt": "2026-04-28",
+      "topic": "city_government",
+      "summary": "Lurie Appoints SF’s First Arts Director, Forges Arts Partnerships In Shanghai &nbsp;&nbsp; SFist",
+      "confidence": 0.68
+    },
+    {
+      "id": "mayor-lurie-in-asia-s-f-expanding-ties-with-sister-city-through-arts-science-san",
+      "title": "Mayor Lurie in Asia: S.F. expanding ties with sister city through arts, science - San Francisco Chronicle",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaUUxUkZfUWZOM3hBclJ0VHp6ZkdDcG9vUVg1WUpjVkFmM3hjUlJGYVBjcU1GUHpEYzRSX010OU13UjdjRmJxNHdTaVAtMGhZVEJ6NVZPQ2ZXWG1wM2o2czFEaEdKaUlBR1I3OWVpMmZYd0s1eXRJOEI3ZFJhV0ZBX2Z1ZWZTWHNiRkZiby15QkdRWjNw?oc=5",
+      "publishedAt": "2026-04-20",
+      "topic": "city_government",
+      "summary": "Mayor Lurie in Asia: S.F. expanding ties with sister city through arts, science &nbsp;&nbsp; San Francisco Chronicle",
+      "confidence": 0.68
+    },
+    {
+      "id": "mayor-lurie-signs-mou-between-san-francisco-and-shanghai-sf-gov-2026-04-20",
+      "title": "Mayor Lurie Signs MOU Between San Francisco And Shanghai - SF.gov",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWVpmTHVQU3NoVllnQ3FUNmVoYU44UENBNmtKVmF0YjN1dGdBX2Z4Y2R6YWQ1Nm4yMnJSYU9rRHppSThuQnAwT3dOVkM1ODVUb1JlRUhpOU9lVjJOUm1IZjc4N21LYnRGY3V2LWhZNTFTaVVRT0tSZF9zelRCOHBxQVQwWGkzYWM?oc=5",
+      "publishedAt": "2026-04-20",
+      "topic": "city_government",
+      "summary": "Mayor Lurie Signs MOU Between San Francisco And Shanghai &nbsp;&nbsp; SF.gov",
+      "confidence": 0.68
     },
     {
       "id": "climate-plan-update",
@@ -72,308 +132,14 @@
       "confidence": 0.9
     },
     {
-      "id": "mayor-lurie-announces-plan-to-tackle-fare-evasion-on-public-transit-make-muni-mo",
-      "title": "Mayor Lurie Announces Plan To Tackle Fare Evasion On Public Transit, Make Muni More Accountable - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcTRKTUR4RUlCWTdVaU8za1ZlT3oxMU13Z3dkX1k0R2hVOWZaeFl2YW45SWpjZWNWTnNsT3ZDUjRsWVJYbE5ncXg1QkxDVzVjbFpnRjd5ZWRaNnNVVVpOOUp1ZWh2SFQ1R01SRUVrZ2RLZ1BZVEQxSlRhSndIS1l1RGI4b3dwdXhScmZqUU5PTm5lVXZpOTFCOXF2eVo4cXh3cGhRNzdkSXdCSTZ1aUlPYjV2OTRXT191Z0E?oc=5",
-      "publishedAt": "2026-05-05",
-      "topic": "transit",
-      "summary": "Mayor Lurie Announces Plan To Tackle Fare Evasion On Public Transit, Make Muni More Accountable SF.gov",
-      "confidence": 0.78
-    },
-    {
-      "id": "mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundre",
-      "title": "Mayor Lurie Announces Major Expansion Of Free And Low-Cost Childcare With Hundreds Of New Spots For Families With Infants And Toddlers - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQNVFocjlKT1hNWmVCWHJTQVI5U25hOW8zbVNXYXdORjh4dmd3Z1UtY0JZTjduWHFlRnRWbDdwekNvTG1yOWQtWFEtaHpkcGVPTVBpVE1QRmJTaHZNRmhNUVFUNUhod3pDRm9ERTN3U3JIUUQzRjBNMHppLWRLcVRhbS1ONjFuR0QzWjE2bTc5QXg1ZkRKUS05QlBUZkZNbjRSM1lxWEY1WHlxajNOUm9scFBVNmJ2dDNJc2JVMDF1ams0QkpucVYzUXdiQ2Fra0xKNEtYRk5MNFNaMl85V0RLOXFGM2l2OVQ0VjIza3BFcw?oc=5",
-      "publishedAt": "2026-04-30",
-      "topic": "city_government",
-      "summary": "Mayor Lurie Announces Major Expansion Of Free And Low-Cost Childcare With Hundreds Of New Spots For Families With Infants And Toddlers SF.gov",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-signs-legislation-to-support-san-francisco-police-officers-continue-",
-      "title": "Mayor Lurie Signs Legislation To Support San Francisco Police Officers, Continue To Drive Down Crime - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYnFWeXRDbFhMM21tZE9Jb20xYTAtZ0ZIanFsNGVuU1hKbEZ2bXY2cDh0dVV2d19DeVF4dE5GdHozdk1VVmczWXM4Rks4TmJ6N2EzS3I4cEtnVEdlYUFxdHhWYmFEem1HU19pdEdlSXZDbUo0WUhXV3p0WWNhNDcxc1FkSlpaUUNGNjdPckZyVFNNRVpwV2VEV3J2Z3NkWjZ5eXp3ME5qX3BPa2NRYnBTUFpSSlg5U2RUTlpxYm1OU2g?oc=5",
-      "publishedAt": "2026-05-11",
-      "topic": "public_safety",
-      "summary": "Mayor Lurie Signs Legislation To Support San Francisco Police Officers, Continue To Drive Down Crime SF.gov",
-      "confidence": 0.78
-    },
-    {
-      "id": "mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-home",
-      "title": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcmZWdmsyT1JhdVNLdTNkZzItbmlkalVSR2Npc09EbDljbEFuVThINnFrXzdwaTBWRV8tVHgzVDJUa294dXhWSEI2ajNIMERQT3lKb3NtSFQ3MnNkeTZHU3hkekxhZVlPcjhxbGNZRHc4eF9qMXBlc3U1Nl9BRGhtSjQydDM2RUVhWVV1UFUyekd5V0NUWGlnUzRuZHl6TF9vcGFLOGdfME5JaUU0VnFwdHA2NjFYX3NyeXpyb3RYT3A0QQ?oc=5",
-      "publishedAt": "2026-05-12",
-      "topic": "homelessness",
-      "summary": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years SF.gov",
-      "confidence": 0.78
-    },
-    {
-      "id": "harger-san-francisco-s-homelessness-hit-a-15-year-low-seattle-s-mayor-is-running",
-      "title": "Harger: San Francisco's homelessness hit a 15-year low. Seattle's mayor is running the opposite experiment. - MyNorthwest.com",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1FSURseEF0REFMV3VpT05tWEhRaXRCM21yN3kzWEYyQ0g2a0lENFV4V0VOOEJSNGk5ZG01czcwMFdIUFIzVnV3SHZ5b3dSSGYzOVN4MTBySXRwOHRuZFdqbXVzNHRpaEtsTWlxazhmZ2hYSmVaZzRROHhJZw?oc=5",
-      "publishedAt": "2026-05-15",
-      "topic": "homelessness",
-      "summary": "Harger: San Francisco's homelessness hit a 15-year low. Seattle's mayor is running the opposite experiment. MyNorthwest.com",
-      "confidence": 0.78
-    },
-    {
-      "id": "sf-mayor-news",
-      "title": "News from the Office of the Mayor",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-from-the-office-of-the-mayor/",
-      "publishedAt": "2025-07-22",
-      "topic": "city_government",
-      "summary": "Official mayoral news page configured as a primary source for Daniel Lurie announcements.",
-      "confidence": 0.94
-    },
-    {
-      "id": "mayor-lurie-appoints-matthew-goudeau-as-city-s-first-executive-director-of-arts-",
-      "title": "Mayor Lurie Appoints Matthew Goudeau As City's First Executive Director Of Arts And Culture - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTlZBaEJpb1dlaHE1ZlBTd05qRThORURVR2ZkOGlmNnd6b3RpNGF4WVNUNklucTlObTN5YnVKajBVRy1XYm9taHJDS2lGWXVnS0pxSlVLQU9NWUQ2ejVjejJaUjQzcTFoX2NXVjR2OVZOMnAwSU91R2FER25kUFJRY2tNWVBNY1IyeWlzaWE0TUxQRWoydEdxblVtUlFZdEpWSXluSFExY1BIVUZGTkoxTVJ1djU?oc=5",
-      "publishedAt": "2026-04-27",
-      "topic": "city_government",
-      "summary": "Mayor Lurie Appoints Matthew Goudeau As City's First Executive Director Of Arts And Culture SF.gov",
-      "confidence": 0.68
-    },
-    {
-      "id": "san-francisco-mayor-daniel-lurie-announces-steven-betz-as-new-public-safety-chie",
-      "title": "San Francisco Mayor Daniel Lurie announces Steven Betz as new public safety chief - ABC7 San Francisco",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbnNqaVI4Y0hFLVNpQTRlbVZoc2EyM0Vnd0pEQXNmcGhJSGdBYXE0SEM0c05MV25sVHM5ZjFMWUJvU1dBMVMweUJNWENvN0EzSDhSak1Sa0ZvTmVfUjNYMlNCQ2ZtMUFUcktPaUxJeUJLaHhKSFVIb0FNOUNEQ3I1Sm55T1g5aFNVYUtYdXBHOWlGMzQzSjJ2MF91a1dqTElzUXJFeW05LW5HSk9jMjBUaGpGQ2HSAboBQVVfeXFMTmdCX0JSVFVweHIzLUZ2T0hSaUt0LWQyOTB4TUR2Vm1XbnpxbzZ1MF9aWWtsazhVaEFLckUzRF82MEJkeHhoX2o0NDkwNUxEdHRvRDFOemVldmxkaVpSN0p2Ynp3MDRZYXctcFlqVzY0RTAtRE5uc21DQ2cxSHlXVGJ0VDcwZzI4MWk2aWpZa0N4ckhXMUpmVGdSZXh2SFA0c3RoV003aUVWRzNoVG9yX19TVldZTkRyU0hn?oc=5",
-      "publishedAt": "2026-04-28",
-      "topic": "public_safety",
-      "summary": "San Francisco Mayor Daniel Lurie announces Steven Betz as new public safety chief ABC7 San Francisco",
-      "confidence": 0.78
-    },
-    {
-      "id": "s-f-activists-deliver-1-500-postcards-to-mayor-lurie-asking-him-to-stop-budget-c",
-      "title": "S.F. activists deliver 1,500 postcards to Mayor Lurie, asking him to stop budget cuts",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/05/peoples-budget-postcards/",
-      "discoveryUrl": "https://missionlocal.org/feed/",
-      "discoverySource": "Mission Local",
-      "publisher": "Mission Local",
-      "publishedAt": "2026-05-13",
-      "topic": "public_safety",
-      "summary": "The People’s Budget Coalition delivered over 1,500 postcards today to Mayor Daniel Lurie’s office today, demanding the mayor stop cutting funds to services.",
-      "confidence": 0.82,
-      "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today If you can’t get through to the mayor, try sending him a postcard. This was the strategy of the People’s Budget Coalition — made up of various nonprofits and other city-funded groups impacted by budget cuts — which delivered more than 1,500 postcards today to Mayor Daniel Lurie’s office. Each card was inscribed with an individual’s plea to keep the mayor’s budget cuts at bay. Those cuts have gutted many social programs, advocates say, including immigrant services and public-health initiatives . “People will die if these budget cuts move forward,” said Anya Worley-Ziegmann, coalition coordinator. The postcards were tied together with string, and activists lined up to deliver them to Lurie’s office. Representatives from different community groups — among them seniors and people with disabilities, neighborhood residents, and others from the HIV Advocacy Network — spoke to a representative from the mayor’s office, who stood outside, listened to each person, and took notes. Lurie’s office directed members of the press to the mayor’s remarks at a press conference earlier Tuesday morning. San Francisco is facing a $643 million deficit , and Lurie earlier this year instructed departments to cut programs, stop hiring, and review all contracts for potential savings. “We have to make painful decisions,” Lurie said during that Q&A. “I want to set our city up on firm financial footing, I want to think long term about the city.” Lurie has largely spared law enforcement from the cuts, however, and the city recently approved new police and firefighter contracts that would cost $100 million extra over two years. The mayor only has “discret...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "datasf-311-cases",
-      "title": "311 Cases",
-      "sourceType": "official",
-      "url": "https://data.sfgov.org/d/vw6y-z8j6",
-      "publishedAt": "2026-05-17",
-      "topic": "homelessness",
-      "summary": "Official San Francisco 311 cases dataset with request categories, subtypes, timestamps, and status fields; the connector filters it to Encampments requests.",
-      "confidence": 0.95
-    },
-    {
-      "id": "datasf-overdose-related-911-responses",
-      "title": "Overdose-Related 911 Responses by Emergency Medical Services",
-      "sourceType": "official",
-      "url": "https://data.sfgov.org/d/ed3a-sn39",
-      "publishedAt": "2026-05-17",
-      "topic": "public_safety",
-      "summary": "Official SF EMSA weekly counts of opioid overdose-related 911 calls responded to by emergency medical services.",
-      "confidence": 0.95
-    },
-    {
-      "id": "datasf-substance-use-services",
-      "title": "San Francisco Department of Public Health Substance Use Services",
-      "sourceType": "official",
-      "url": "https://data.sfgov.org/d/ubf6-e57x",
-      "publishedAt": "2026-05-17",
-      "topic": "public_safety",
-      "summary": "Official SFDPH dataset covering naloxone distribution, substance use treatment admissions, withdrawal management discharges, and MOUD clients.",
-      "confidence": 0.95
-    },
-    {
-      "id": "datasf-building-permits",
-      "title": "Building Permits",
-      "sourceType": "official",
-      "url": "https://data.sfgov.org/d/i98e-djp9",
-      "publishedAt": "2026-05-17",
-      "topic": "housing",
-      "summary": "Official Department of Building Inspection permits dataset, including permit filing, issuance, completion dates, proposed use, and proposed units.",
-      "confidence": 0.95
-    },
-    {
-      "id": "sf-healthy-streets-dashboard",
-      "title": "Healthy streets data and information",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/data--healthy-streets-data-and-information",
-      "publishedAt": "2026-05-17",
-      "topic": "homelessness",
-      "summary": "SF.gov data story states quarterly tent/structure/vehicle counts and HSOC encampment engagement data are tracked in public dashboards.",
-      "confidence": 0.85,
-      "scrapeStatus": "fetch_failed",
-      "scrapeError": "page returned bot verification challenge"
-    },
-    {
-      "id": "sf-office-vacancy-rate",
-      "title": "Office Vacancy Rate",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/data--office-vacancy-rate",
-      "publishedAt": "2026-05-17",
-      "topic": "economy",
-      "summary": "SF.gov City Performance Scorecard describes quarterly office vacancy rate as a key downtown recovery indicator and says the data is available through DataSF.",
-      "confidence": 0.86,
-      "scrapeStatus": "fetch_failed",
-      "scrapeError": "page returned bot verification challenge"
-    },
-    {
-      "id": "golden-city-fc-promised-a-10m-kezar-facelift-a-year-later-it-s-gone-dark-sfgate-",
-      "title": "Golden City FC promised a $10M Kezar facelift. A year later, it’s gone dark. - SFGATE",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SVW4wbFNyTEF6dmZQTy1FWVBjUFdJTXU1R1hnYm9WNDZjeTBDbDFMV3B6anFKS09CaWNVUTRPQkZ0VHEtQkM4bzRpaGV2MlVJZEVKOTNHdmNrR2FCTS1PR1BSeEFJRXgwVmF0ampIclh6LXFkVUtiV3ZPMmJGZw?oc=5",
-      "publishedAt": "2026-05-08",
-      "topic": "city_government",
-      "summary": "Golden City FC promised a $10M Kezar facelift. A year later, it’s gone dark. SFGATE",
-      "confidence": 0.68
-    },
-    {
-      "id": "at-conservative-leaning-forum-s-f-leaders-love-pragmatism-efficiency-and-daniel-",
-      "title": "At conservative-leaning forum, S.F. leaders love pragmatism, efficiency, and Daniel Lurie - Mission Local",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeXh2c09BeHI3ZU1jVTdRME43bmxIa3NLS21LMmhhYlFpemdVX2VfYnZ4RDNsSFZpNDZWNlV0Q2c5Mm1YblFJZ1p3WEVsT1c4cDVGYTI1REJRaFJvV2h6Sy1BVXMwbkxDekFjZ21lY3B1dGtSQzVLTVFSeVhETGRjTzFQaUhJaDFuMjFZ?oc=5",
-      "publishedAt": "2026-05-07",
-      "topic": "city_government",
-      "summary": "At conservative-leaning forum, S.F. leaders love pragmatism, efficiency, and Daniel Lurie Mission Local",
-      "confidence": 0.68
-    },
-    {
-      "id": "lurie-appoints-sf-s-first-arts-director-forges-arts-partnerships-in-shanghai-sfi",
-      "title": "Lurie Appoints SF’s First Arts Director, Forges Arts Partnerships In Shanghai - SFist",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMzlKT3VIUjdUMU1PTWxOZy1RTTBpOHh1MVJPSDNfeFBCekxXNEhNRXNUQ1UxdTlBTnZhcUEzZ0x6dzh3cjI2WS0yNnJ4bzR6TUNHVEtEbGhyc3lHWVBYZEw3cTk0Y0JJUUQ2akpweDd6MEE5TEV3QUdzNnpGLXljeEpFM0h2V1BRZV9wSkFCTTNMb0l2Z1lXMXpUcXBqeUt3ZUp4QUIyUW55S0FPMlZfOA?oc=5",
-      "publishedAt": "2026-04-28",
-      "topic": "city_government",
-      "summary": "Lurie Appoints SF’s First Arts Director, Forges Arts Partnerships In Shanghai SFist",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-partners-with-49ers-to-kick-off-youth-football-program-build-on-viol",
-      "title": "Mayor Lurie Partners With 49ers To Kick Off Youth Football Program, Build On Violence Prevention Work - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPVUtHaTZkM3FGZ2dsWjIyUU5rU2h5S2dRRkRVOXpTYlk0cy1DMzQwalFYdGxvUDNSYndyZ3VrY2tnQzFCZU1zQnU5Zm9UUDNIeF92YXRLU05wRjIzQlpsc1pIMEVOcjhrUXZrOUM3bmZsUVRaTFZNc2VoRVNMZG5kWUNOX0RUUmg5TFYtQllTSEdkb3FUdVgzV1pQWDRlS1gtUEhNcWg0X01jd2Y0cWplYlRrSUNwTktDeUM3Q3EtandaZw?oc=5",
-      "publishedAt": "2026-04-26",
-      "topic": "city_government",
-      "summary": "Mayor Lurie Partners With 49ers To Kick Off Youth Football Program, Build On Violence Prevention Work SF.gov",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-celebrates-mou-between-sfmoma-and-korea-national-museum-of-modern-an",
-      "title": "Mayor Lurie Celebrates MOU Between SFMOMA And Korea National Museum Of Modern And Contemporary Art - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPbU9URUNEcldWNUhXajNlMnhCUnk4WmlBR09MbDkwX1JqSkFKYmw3SXFqVTVIRUh1eGd2RGdQU09MNVNtN0dIRndlSURBM1k4azlsWVJzVVBjS1JpZmhTOV9ZcDFIVjFhYnRtMEM2a3FMdGVPMDVyc0dxOGNCVGpnWG12Smg4NXJQXzhBbG9POUxTc2FMV0kxakp1NDNWNF9uWHZjLXVrYWtEQUU5ZnpnSlBfRUZ4ZFNBMTljMWRVbw?oc=5",
-      "publishedAt": "2026-04-22",
-      "topic": "city_government",
-      "summary": "Mayor Lurie Celebrates MOU Between SFMOMA And Korea National Museum Of Modern And Contemporary Art SF.gov",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-signs-mou-between-san-francisco-and-american-chamber-of-commerce-in-",
-      "title": "Mayor Lurie Signs MOU Between San Francisco And American Chamber Of Commerce In Korea - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNR0JuWkNWRlZwdGY0SXRrSFh1T2xWVFVhOXB3b3lQMTlTUUFQallOeG02Q1BjSGh2M3hTSm5jdF9uOU1sZnY5WU5xYjVwdm9RVUtFRnpvZG5QbW1nQkN5dDNkcDFOQTZSZHliTm9aTTdTYjdtdDAtVzVfYmRzczVuMFlYczJXMERtTmNIZ2M4WFc1d1lLMzZObjRfeWRZMFY2a3lqeHNJQnI0N2ZKVFE?oc=5",
-      "publishedAt": "2026-04-22",
-      "topic": "city_government",
-      "summary": "Mayor Lurie Signs MOU Between San Francisco And American Chamber Of Commerce In Korea SF.gov",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-in-asia-s-f-expanding-ties-with-sister-city-through-arts-science-san",
-      "title": "Mayor Lurie in Asia: S.F. expanding ties with sister city through arts, science - San Francisco Chronicle",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNaUUxUkZfUWZOM3hBclJ0VHp6ZkdDcG9vUVg1WUpjVkFmM3hjUlJGYVBjcU1GUHpEYzRSX010OU13UjdjRmJxNHdTaVAtMGhZVEJ6NVZPQ2ZXWG1wM2o2czFEaEdKaUlBR1I3OWVpMmZYd0s1eXRJOEI3ZFJhV0ZBX2Z1ZWZTWHNiRkZiby15QkdRWjNw?oc=5",
-      "publishedAt": "2026-04-20",
-      "topic": "city_government",
-      "summary": "Mayor Lurie in Asia: S.F. expanding ties with sister city through arts, science San Francisco Chronicle",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-signs-mou-between-san-francisco-and-shanghai-sf-gov-2026-04-20",
-      "title": "Mayor Lurie Signs MOU Between San Francisco And Shanghai - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWVpmTHVQU3NoVllnQ3FUNmVoYU44UENBNmtKVmF0YjN1dGdBX2Z4Y2R6YWQ1Nm4yMnJSYU9rRHppSThuQnAwT3dOVkM1ODVUb1JlRUhpOU9lVjJOUm1IZjc4N21LYnRGY3V2LWhZNTFTaVVRT0tSZF9zelRCOHBxQVQwWGkzYWM?oc=5",
-      "publishedAt": "2026-04-20",
-      "topic": "city_government",
-      "summary": "Mayor Lurie Signs MOU Between San Francisco And Shanghai SF.gov",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-celebrates-signing-of-mou-between-sf-ballet-and-shanghai-internation",
-      "title": "Mayor Lurie Celebrates Signing Of MOU Between SF Ballet And Shanghai International Arts Festival - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPWFR3ZkhpVUp6OXVlNmUwT1daMDZLS1dZVU9ZdUxMajdaWWkxeHNjekFXX3VjSVlYXzlLeW1YV1psdWlUalBLZk1BRzh6LVgwSjVwQ3IteEZXc0xXTFBkcmp2YkJOYVMzUjU3Qjg5SlBReU1MNzJUQXZHREY1d1FtMnozOUg2aHFLT1U5R3E2dlRXSEthMjlnUHVQdE5HQWlJY3g4MHp5QmVTVzNBd3FJaVY3NktCam9USVlPWA?oc=5",
-      "publishedAt": "2026-04-20",
-      "topic": "city_government",
-      "summary": "Mayor Lurie Celebrates Signing Of MOU Between SF Ballet And Shanghai International Arts Festival SF.gov",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-in-asia-sf-expanding-ties-with-sister-city-through-music-science-msn",
-      "title": "Mayor Lurie in Asia: SF expanding ties with sister city through music, science - MSN",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeExKUUVySEVuVS1mVVlWamlpQXNkb2QyOFp1NS16bjM5T1FZaVpNbzlYeWI1b0ZIeU5XQVlwUnp0bkxsOUJDRGRfLUZPcnVTWHV5ZFF3MnhxWmw2Um5KZlgxQlA3SHFrTWF2MlpKTDUwNWVTSmZ1UEZna3NFX2MxOWxnWWU3ejVicG5tZDg0VWU5enR1REVWMGpPc0lGcVU0SEwwdzd3NnFiZVEwUEtkVFB1UkctNGluMlNpZDJDT0lIaTQ?oc=5",
-      "publishedAt": "2026-04-20",
-      "topic": "city_government",
-      "summary": "Mayor Lurie in Asia: SF expanding ties with sister city through music, science MSN",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-celebrates-mou-between-california-academy-of-sciences-and-shanghai-s",
-      "title": "Mayor Lurie Celebrates MOU Between California Academy Of Sciences And Shanghai Science And Technology Museum - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNRkFmSldxaEUzWFhJNVd6Z3RnOEpIUTFNRDVCTWxMSzNEZ1VPSE1PM0NyQnpYeEI1VFBua0ZRX0xReElPUDFpNkVUOEpwWHo2b3pIbEFiQWxnaFNkTldvSEJZRkZ2ZzFoR1BwV0szdVNNT1ladzRaU1lJLVlUUmJ5VncteGlqWjVpOHBucE9HZVJCQmVILXdVOS1MY0VxSlFPYXNyckpacWJOeHNEbDVBTHlkcW5Ic2tOYjVIZXMyQnRpS2tBeE1MOGxFV1o?oc=5",
-      "publishedAt": "2026-04-19",
-      "topic": "city_government",
-      "summary": "Mayor Lurie Celebrates MOU Between California Academy Of Sciences And Shanghai Science And Technology Museum SF.gov",
-      "confidence": 0.68
-    },
-    {
-      "id": "0904-mayoral-staff-xvi-city-and-county-of-san-francisco-sf-careers-gov-2026-04-1",
-      "title": "0904-Mayoral Staff XVI | City and County of San Francisco - SF Careers (.gov)",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xZWcyS3BqeXI4SEhOaE10S2Q1Ri1VYXgyemtlZmxlNGNhNHQzNVM2TXFHNjBYUW9xNUdwVUw4aUItTVA4Q0lqLTZ6NXZ0YnlLTTdYODVPOEpYa1U?oc=5",
-      "publishedAt": "2026-04-16",
-      "topic": "city_government",
-      "summary": "0904-Mayoral Staff XVI | City and County of San Francisco SF Careers (.gov)",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-announces-appropriation-of-2024-bond-to-strengthen-health-care-infra",
-      "title": "Mayor Lurie Announces Appropriation Of 2024 Bond To Strengthen Health Care Infrastructure, Deliver Street Safety And Public Space Upgrades - SF.gov",
-      "sourceType": "news",
-      "url": "https://www.google-analytics.com/analytics.js",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQNXdodEdXZkhZUy1rN0Etb2lxSS0zdzdHRkxZMzFUSmc4ZzFrOFRmZnFVMmdpZ21YRWpzT0pDeVVuWTgtTlBTdGhSd3dyTUtUbWVzV3YtZndPOXpMV3UwTFpHQkRncWd5cHVDanVyRzFFbnpvQjhhc2xnTVZkQU9OQnlwbUZWWGtwd0phY0Nvb25jSFJmT2UwRFdIeWZiYkdVS3lkaEhLcmFTWTNreUg3Qldva2l0LXNqU3Y2Y2pucW91X3EtN25wa2FNbll3c3Y0czQ0X2NuOFBiV2F2eGNWb2VHNEtkU3dvRE5YYlhicE1sVHc?oc=5",
-      "discoverySource": "Google News",
-      "publishedAt": "2026-04-15",
-      "topic": "transit",
-      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
-      "confidence": 0.8,
-      "resolvedFrom": "google_news",
-      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "mayor-lurie-announces-appropriation-of-2024-bond-to-strengthen-health-care-infra",
       "title": "Mayor Lurie Announces Appropriation Of 2024 Bond To Strengthen Health Care Infrastructure, Deliver Street Safety And Public Space Upgrades - SF.gov",
       "sourceType": "news",
       "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQNXdodEdXZkhZUy1rN0Etb2lxSS0zdzdHRkxZMzFUSmc4ZzFrOFRmZnFVMmdpZ21YRWpzT0pDeVVuWTgtTlBTdGhSd3dyTUtUbWVzV3YtZndPOXpMV3UwTFpHQkRncWd5cHVDanVyRzFFbnpvQjhhc2xnTVZkQU9OQnlwbUZWWGtwd0phY0Nvb25jSFJmT2UwRFdIeWZiYkdVS3lkaEhLcmFTWTNreUg3Qldva2l0LXNqU3Y2Y2pucW91X3EtN25wa2FNbll3c3Y0czQ0X2NuOFBiV2F2eGNWb2VHNEtkU3dvRE5YYlhicE1sVHc?oc=5",
       "publishedAt": "2026-04-15",
-      "topic": "transit",
-      "summary": "Mayor Lurie Announces Appropriation Of 2024 Bond To Strengthen Health Care Infrastructure, Deliver Street Safety And Public Space Upgrades SF.gov",
-      "confidence": 0.78
+      "topic": "city_government",
+      "summary": "Mayor Lurie Announces Appropriation Of 2024 Bond To Strengthen Health Care Infrastructure, Deliver Street Safety And Public Space Upgrades &nbsp;&nbsp; SF.gov",
+      "confidence": 0.68
     },
     {
       "id": "san-francisco-mayor-daniel-lurie-city-leaders-announce-1-day-ceasefire-to-curb-g",
@@ -382,7 +148,7 @@
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQTmFSdE5Yc0VKdzVJT3FpNEtWZEpab1ZtUmhKUC1iNGk4U1RJY3N6a1dqbTRPTDJIQmE1R2xKQ3FyX09iOVZyY0JZVVNSd3MtRTdZeU9lRndOZTlPZWlTUF91N3lDazE1NXRnOEV5SkxLdmlxOFRtOU0wcHJFYXR0SzFGV0FfeUJPQ2ZlMFU2bkN0eHdqazBtc2lySGxweWFLMjhWSXBGdnlCUnNGRTBxMnl3V05SZkljQmJmRFQ2QWk0VTlCZEpPZHRBY0lCd2xyM3BablZQN0FvYnE5aENEVUt5c2w4blBFQ2fSAe8BQVVfeXFMTUxyb0lic0VFMXdCLU5OZ0ZIYThVUk1FWTVqTGRhRTdjTEJuTExHU3o3dHBwcDJtemc0OGI5NjkzYXVoTXU0OUs2QlFIc3gtYnlTSEcwTHViSUZPNWM0R0d3aTdkcmhYR1B3c0NoTURwWVAycE9qdk1mSldhSGs3WF9JZlkyMUx4TUZNdUQtR1pKd3pBSjBUT3pFTzBFS1BYclAwZXNJR1FmbXVETEd3bmpodXQzM0l6NC01NEgtdDRYWHBkWmptSG9fUzFKNDVHSThwUTBtaVpkcmE1M3RnTkw3ZXZyWHVlRGRoRWRDRzQ?oc=5",
       "publishedAt": "2026-04-10",
       "topic": "city_government",
-      "summary": "San Francisco Mayor Daniel Lurie, city leaders announce 1-day ceasefire to curb gun violence, hours before Mission shooting ABC7 San Francisco",
+      "summary": "San Francisco Mayor Daniel Lurie, city leaders announce 1-day ceasefire to curb gun violence, hours before Mission shooting &nbsp;&nbsp; ABC7 San Francisco",
       "confidence": 0.68
     },
     {
@@ -392,7 +158,7 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZ05YdEtGaHdhUHNJSzVYUW5mOHhRR25oT3dYM1VQU1d5RUh6bEczVWpQazdvRzI0aHR3SlNHbE1neXVQenBTWGFleS1USURXYWQ2R1lMRS0zN3VHbi1WakhzYjRGSlBCZURheElQazk3ZmJxdFlFOVVhcE9md1V5SEM0U1dUUdIBjgFBVV95cUxQT01QdUM3VVBSSDZ1RzF6cG9reklyOC04RkpIeFUtaWplekZ5Z282ZjdBVVJNWThPWTFuNEFlb2dKRHk4cVd5b1FCN0VtTmdwb29sdmtoSlloRjI3eVNqOUJiRk5kRlhkTjlBdFlvbVNweDBXOEtCSlBIQVVGQjJ5YVM3b1ZRcHc2N1lNdGVn?oc=5",
       "publishedAt": "2026-04-09",
       "topic": "transit",
-      "summary": "San Francisco leaders, community announce 24-hour violence ceasefire NBC Bay Area",
+      "summary": "San Francisco leaders, community announce 24-hour violence ceasefire &nbsp;&nbsp; NBC Bay Area",
       "confidence": 0.78
     },
     {
@@ -402,7 +168,7 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZjZkRE5SYVZWMzlyVFViY2xwOGdyU2JnZzRJN2NWaFRwSnQ2QXY3elFNdmpGbzdkbVJWdXQxekxHVDh0cGVUaXluQ2lmdGpnSkt4V09wNGZGUE1FbEZQZVhpVjhYdVNJTFRTQUNWdlh3V1ZPb0h4dWdueXExRVVsbGJ2cWd3el9DWmVNdmNUeEk4MVdPYTA0a1NDdTlSV3ZJcG9tTU5B?oc=5",
       "publishedAt": "2026-04-08",
       "topic": "homelessness",
-      "summary": "SF Has a New Homelessness 'Czar,' and He Comes to the Job From Massachusetts SFist",
+      "summary": "SF Has a New Homelessness 'Czar,' and He Comes to the Job From Massachusetts &nbsp;&nbsp; SFist",
       "confidence": 0.78
     },
     {
@@ -412,17 +178,7 @@
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRHJmS1lxbVNaZF9DbDNHeUZKaVZuNzVKVEsyVlR3Rk5ZTlRKSDBwUDZ3dTZ5NUdVNm9GcXdnT0tWVnZXdEZHMFRBNXloQk1aN3VGODdiazdiWXM3UEdBNGhCMV83emJoeGZpVy1WM1QtRWRobzd5c2tWOGJNLThJN01NbXctTUJwWFc0UXgwSkFXLUI0djdKNGpWbXZDem1lZGI3amJjRTlGSnF6WlRkUHUxdVo?oc=5",
       "publishedAt": "2026-04-08",
       "topic": "homelessness",
-      "summary": "Mayor Lurie Appoints Mike Levine To Lead Department Of Homelessness And Supportive Housing SF.gov",
-      "confidence": 0.78
-    },
-    {
-      "id": "mayor-lurie-has-chosen-a-new-s-f-homelessness-chief-here-s-who-he-picked-san-fra",
-      "title": "Mayor Lurie has chosen a new S.F. homelessness chief. Here’s who he picked - San Francisco Chronicle",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT3VocXd2eGhyMzYtLTYxckZmTHNwclpkSkZlRnlOdzl4V3FYcEhzMHJBaXFQdmhUbGFNWDRickVfYm1hRG1XbC1naWNocHdha3k3aWJzQndHYW8waks1RTVrcGZvcXRVNGdSYnFyVW5ybHJyVE9jRmtiZEdGOXdIemJtaHRrSnI1amphTFo5ckRDb01jRzlR?oc=5",
-      "publishedAt": "2026-04-07",
-      "topic": "homelessness",
-      "summary": "Mayor Lurie has chosen a new S.F. homelessness chief. Here’s who he picked San Francisco Chronicle",
+      "summary": "Mayor Lurie Appoints Mike Levine To Lead Department Of Homelessness And Supportive Housing &nbsp;&nbsp; SF.gov",
       "confidence": 0.78
     },
     {
@@ -432,28 +188,18 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQam5nQmxZVDgwWUxXTDVwS2lGajdfQUMyejgyMFJ6MGZjM25QandQZHU3dHA3SUtmM2htZTJBbHBOSlpkZm9Qb1gwNVdQajFpSmtGcDJjV3EybG00NzVHUDRMOGN1dzlZSnNtLThsM2ZPZmNOUnY4eVRDZnBPZnFtb0E0cllhRjFzbmc2NV93RndWenZ0MGlJZGhoRUY5ZTJy?oc=5",
       "publishedAt": "2026-04-07",
       "topic": "economy",
-      "summary": "San Francisco city workers receive layoff notices as Mayor Daniel Lurie cuts jobs amid budget deficit CBS News",
+      "summary": "San Francisco city workers receive layoff notices as Mayor Daniel Lurie cuts jobs amid budget deficit &nbsp;&nbsp; CBS News",
       "confidence": 0.78
     },
     {
-      "id": "san-francisco-layoffs-begin-as-mayor-lurie-looks-to-close-deficit-nbc-bay-area-2",
-      "title": "San Francisco layoffs begin as Mayor Lurie looks to close deficit - NBC Bay Area",
+      "id": "mayor-lurie-has-chosen-a-new-s-f-homelessness-chief-here-s-who-he-picked-san-fra",
+      "title": "Mayor Lurie has chosen a new S.F. homelessness chief. Here’s who he picked - San Francisco Chronicle",
       "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNT1BIU1JWd2hTeDRJQThVVkNnTVFqSUw5V2dPcHNJeGJ2c0MtM1JWbnRzRW9yRUllYkh2U2phSWNLWkQ2bWFnX3AxQjdRaXAtaEE5MHRtMWZ0MGVhR1RJbTBUX2hhX0syUEVzLUlhODdEcTdJMHhWbnA1ODZqb0xEVWNPcDlhN2tacWfSAZIBQVVfeXFMUC10Tkd6WS14R2hSNzc4MDJsMk9oRS1kWFpCSDh2WDl5b2wySnR4bXhiS2pTYUVGaHd2b2xQbEFXN3Qyd2tpdXdtbzFNU3BXQ3V3WUxoeTRGbmE4ZU9NQ0h5SnM2UUFSQXkzSW5UVGpPZ2xFczI4LXFhM0RZOFBhTkp1ak05bFl6RHhjRzd0NmRwa2c?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPT3VocXd2eGhyMzYtLTYxckZmTHNwclpkSkZlRnlOdzl4V3FYcEhzMHJBaXFQdmhUbGFNWDRickVfYm1hRG1XbC1naWNocHdha3k3aWJzQndHYW8waks1RTVrcGZvcXRVNGdSYnFyVW5ybHJyVE9jRmtiZEdGOXdIemJtaHRrSnI1amphTFo5ckRDb01jRzlR?oc=5",
       "publishedAt": "2026-04-07",
-      "topic": "city_government",
-      "summary": "San Francisco layoffs begin as Mayor Lurie looks to close deficit NBC Bay Area",
-      "confidence": 0.68
-    },
-    {
-      "id": "city-layoffs-begin-lurie-hands-out-127-pink-slips-the-san-francisco-standard-202",
-      "title": "City layoffs begin: Lurie hands out 127 pink slips - The San Francisco Standard",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV2tsV0VqVHZkZDFMbVBRVGxjMHcxMXVOTFgyZDJMeU9YejBObHpKaFprNjVsLUQ5ODM5dlpSS0lqSEhTbGYzTUdfMzdPQnEtQlNjaTdYYnQyWWZ5UlFPV0ZIenZjdTl3Z092b0JMTGlxVHRkZFA0bzZxOW9nUkUyV0RwTDBxNlk?oc=5",
-      "publishedAt": "2026-04-06",
-      "topic": "city_government",
-      "summary": "City layoffs begin: Lurie hands out 127 pink slips The San Francisco Standard",
-      "confidence": 0.68
+      "topic": "homelessness",
+      "summary": "Mayor Lurie has chosen a new S.F. homelessness chief. Here’s who he picked &nbsp;&nbsp; San Francisco Chronicle",
+      "confidence": 0.78
     },
     {
       "id": "san-francisco-mayor-sends-127-layoff-notices-to-city-workers-nbc-bay-area-2026-0",
@@ -462,7 +208,7 @@
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOWUptMjNBU3dsaEpveFRUblN6U3lla1FOOHN3REtYTXdkWlNqcGhvVUxWN1FoSnhDZW0xWUZLd2RSZzFrLV95cU85UzNLMnhwRjMxR1BZMDh1YTFYcmJpOTA3aXJEYXNDVXowdUhkc1VPRWRwdzNYNm53UGRoTmd2YlA2WWNBTHPSAY8BQVVfeXFMTy01XzVkTFA2bl9MVDZMeWc1ajNvTmw5THdILU01eDc2QWhmZlN4dWtxZmxmVnczaERtbDhxYU5HQlQzckVBLV9nUmZ0by10R2xvdjUybktvYzdfanBjOXhVdDhidlJDWDByVExkNzAyZEoxSEJPUWpvVGU1cVBKOXpkbGI3cVR4SGl2YjdRbDg?oc=5",
       "publishedAt": "2026-04-06",
       "topic": "city_government",
-      "summary": "San Francisco mayor sends 127 layoff notices to city workers NBC Bay Area",
+      "summary": "San Francisco mayor sends 127 layoff notices to city workers &nbsp;&nbsp; NBC Bay Area",
       "confidence": 0.68
     },
     {
@@ -472,7 +218,17 @@
       "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOS3lCcXNnbUMxRDBOcU5KZHNUNEU2RnVxdGJwQXRGeTlJQ19melVoREVUM2JhRkVsalJMWWYtV2g1Z3hWRnFHTl9wU1pBQzNRa2xCWFFKOEFUanVscmlpUVZLZE1TVS1rc29qQ3YzVUNhZFVjRHNQRDNGelh6ZjVzLWZfMk5KcGI0QWhxQW5CQ28?oc=5",
       "publishedAt": "2026-04-06",
       "topic": "city_government",
-      "summary": "S.F. begins to lay off 127 workers as Mayor Lurie takes ‘painful but necessary’ steps to close deficit San Francisco Chronicle",
+      "summary": "S.F. begins to lay off 127 workers as Mayor Lurie takes ‘painful but necessary’ steps to close deficit &nbsp;&nbsp; San Francisco Chronicle",
+      "confidence": 0.68
+    },
+    {
+      "id": "city-layoffs-begin-lurie-hands-out-127-pink-slips-the-san-francisco-standard-202",
+      "title": "City layoffs begin: Lurie hands out 127 pink slips - The San Francisco Standard",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQV2tsV0VqVHZkZDFMbVBRVGxjMHcxMXVOTFgyZDJMeU9YejBObHpKaFprNjVsLUQ5ODM5dlpSS0lqSEhTbGYzTUdfMzdPQnEtQlNjaTdYYnQyWWZ5UlFPV0ZIenZjdTl3Z092b0JMTGlxVHRkZFA0bzZxOW9nUkUyV0RwTDBxNlk?oc=5",
+      "publishedAt": "2026-04-06",
+      "topic": "city_government",
+      "summary": "City layoffs begin: Lurie hands out 127 pink slips &nbsp;&nbsp; The San Francisco Standard",
       "confidence": 0.68
     },
     {
@@ -482,7 +238,7 @@
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNcEF2SnhyVEUxQkhYUWxMUm9zYkpDQ3VqekVsM2N1TGpfaXdlZUxCTTllNGJDdkdsWGp3U0ZjclBlbnBZY1Z2T0dyTFhJYzJuODA2akNWZ2ltS3J2dkpfUGlpUFZsYWkyV00wLWdZMFpBeEgzMy15ZXNMYlRaazcxRVJrakxvRGZUdXZTSlBLakttdHpZaTk1SDBHeDZrVDJDdFpIVHhlSXBPZ2J2dTlsZWl3?oc=5",
       "publishedAt": "2026-03-24",
       "topic": "city_government",
-      "summary": "Giants’ Buster Posey or S.F. Mayor Daniel Lurie: Who had a better first year? San Francisco Chronicle",
+      "summary": "Giants’ Buster Posey or S.F. Mayor Daniel Lurie: Who had a better first year? &nbsp;&nbsp; San Francisco Chronicle",
       "confidence": 0.68
     },
     {
@@ -492,30 +248,7 @@
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUVRWMFJWUTIzck81dUMzRkhRYVRMU0ozUjdqQ3loSWU2aVVISkNndUtETzdkX3lvLVZYa1huVzF1Vm8wS2Jsb3dqRTJVWFp1U28wREhBR2lvZHd3ZHN6UG5UUGlYOVA3VmxfMWllV011b21vc1YtaUlha1UyNTdzZnlzb0lzNEZNNUFfNnQxT0ZoZEJrM1hLZHJrX19YTklISWh1VEVNUi1qaVJ1RlBtMzNUZkJoeXpQMkdZWEREQ0RZZ0pm?oc=5",
       "publishedAt": "2026-03-20",
       "topic": "city_government",
-      "summary": "Mayor Lurie, Supervisor Melgar, and Department on the Status of Women Launch San Francisco Women’s Agenda SF.gov",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-sup-mandelman-introduce-ballot-measures-aimed-at-reforming-city-char",
-      "title": "Mayor Lurie, Sup. Mandelman Introduce Ballot Measures Aimed at Reforming City Charter",
-      "sourceType": "news",
-      "url": "https://sfist.com/2026/03/12/sf-mayor-daniel-lurie-to-introduce-three-2026-ballot-measures-reforming-city-charter/",
-      "discoveryUrl": "https://sfist.com/2026/03/12/sf-mayor-daniel-lurie-to-introduce-three-2026-ballot-measures-reforming-city-charter/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SFist",
-      "publishedAt": "2026-03-12",
-      "topic": "city_government",
-      "summary": "Mayor Lurie and Board President Mandelman filed notices of intent for three November 2026 ballot measures that would overhaul contracting rules, tighten the initiative process, and expand mayoral authority over city departments and commissions. Critics say the changes could concentrate power and limit public participation.",
-      "confidence": 0.9
-    },
-    {
-      "id": "san-francisco-s-urban-revival-is-in-danger-noahpinion-2026-03-12",
-      "title": "San Francisco's urban revival is in danger - Noahpinion",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZUE80bEs5MXFiVnNOTVU2SjI4d0UzdzBYYzR3bmdTb2M2N2I0MmtZaTRwMXVhVWFjbW4xVkJJWnlOMVdKVDYzTDZxeGpRdERpQ2ZoUDBMTnFsYUdiUS1aQ1JVdGNFS2U0MHh3bWtlbllxQQ?oc=5",
-      "publishedAt": "2026-03-12",
-      "topic": "city_government",
-      "summary": "San Francisco's urban revival is in danger Noahpinion",
+      "summary": "Mayor Lurie, Supervisor Melgar, and Department on the Status of Women Launch San Francisco Women’s Agenda &nbsp;&nbsp; SF.gov",
       "confidence": 0.68
     },
     {
@@ -525,7 +258,7 @@
       "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNU2xlVXJzY0JiVkd3enVaV3RJcTc2UEF6aUJpREx6UWtKSEJ3cUFXWEtWcmJLOGhjdTR2aEtQcUxuRk9sMExXcU54LWEyb0tralBxNl9HUFh3VzB6X3BsYWJjY2FzQ1hhLTFyU2ItLWJ1V3hrbV9XT0t0cEZSSlNkTkd4U3g1eHNNeUFuSTlvT0dVblBUNUtKT1lOMXk2Ml9UZFp3WURvaFpTNEJUVm1sN1BmVnUxMDNqdVE4LWtyUUktT2dpQ1VTbHZzeUZMOHZnR292RmM4eU5VYm5tSGFQRGZxWFhUYjFxWWdhWEdPYmwwTDI4WE9LTXNR?oc=5",
       "publishedAt": "2026-03-12",
       "topic": "city_government",
-      "summary": "Mayor Lurie Outlines Plans for Nearly 100 New Treatment and Recovery Beds, Including Locked Beds for People Under Mental Health Conservatorship SF.gov",
+      "summary": "Mayor Lurie Outlines Plans for Nearly 100 New Treatment and Recovery Beds, Including Locked Beds for People Under Mental Health Conservatorship &nbsp;&nbsp; SF.gov",
       "confidence": 0.68
     },
     {
@@ -535,31 +268,8 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQLTViWEEzZnJfMkNlWTZVZVRsY1dXUWpHdzVVZFJJSmliWTd0U0N1ZTVMc29LQXNkcUhneUd4RkZlNFRZYW1vWTBoOTJvbTlCNXRTSWRlanlnbnRZczAzSEQyREFya3FYYjBaNTlOd0FFclhHaG1wWVFRdUVVN0VRUWc2X2gtd3hBMnptSldTeUZmY3RLcnRqWnRqRThVLTTSAacBQVVfeXFMTkoxVE9xMnMxT3hhOWRGWXRXU2pneXVDZWVLTGFFSWNMa20yVW5oSlhSR2pTN0pjUWFjM3BTQzlIcHpvTVlrOWpaS1BKSEljR1VvdXRfa0tiMnAwQkF6eHh5NlNxMElkMW5qeWJJME5lYlFHLXhlTW1sOFRQcGJxUkFRMFZBai0taS1HUEpzeTJFVGowWUxVbzJGQ2N0aW9hTFVXMEpnc2c?oc=5",
       "publishedAt": "2026-03-10",
       "topic": "city_government",
-      "summary": "2 men charged after altercation with SF mayor's security detail NBC Bay Area",
+      "summary": "2 men charged after altercation with SF mayor's security detail &nbsp;&nbsp; NBC Bay Area",
       "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-welcomes-eight-midwestern-universities-to-san-francisco-sf-gov-2026-",
-      "title": "Mayor Lurie Welcomes Eight Midwestern Universities to San Francisco - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQTWNoRUZCTEhvY3F0NnRsOFFqS0JaeGtzRGNEejVUV1hFOTYzVjFseTFSMUhYZkU3blhNRTk4M19yOUw5dE1GNXYySHhzVEp0YmNsRzVaUVFJM1lZSWxLbDZPVUhOM1ZqR25wdExZOHhTVDFSOVhFbERaZDJUaFlPX3NLZ2psVDN6Y25JcXQtc1RfU2txbXc?oc=5",
-      "publishedAt": "2026-03-10",
-      "topic": "city_government",
-      "summary": "Mayor Lurie Welcomes Eight Midwestern Universities to San Francisco SF.gov",
-      "confidence": 0.68
-    },
-    {
-      "id": "s-f-mayor-board-president-propose-3-ballot-measures-to-boost-executive-power-202",
-      "title": "S.F. mayor, board president propose 3 ballot measures to boost executive power",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/03/sf-mayor-daniel-lurie-charter-ballot-measures/",
-      "discoveryUrl": "https://missionlocal.org/2026/03/sf-mayor-daniel-lurie-charter-ballot-measures/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "Mission Local",
-      "publishedAt": "2026-03-06",
-      "topic": "city_government",
-      "summary": "Mayor Lurie and Board President Mandelman proposed three November ballot measures to reform San Francisco's charter that would expand power of the city's executive branch including the mayor and city administrator, taking power from oversight commissions and the Board of Supervisors. Critics express concerns about consolidation of power.",
-      "confidence": 0.9
     },
     {
       "id": "sf-mayor-lurie-wants-more-power-from-voters-san-francisco-examiner-2026-03-06",
@@ -568,7 +278,7 @@
       "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNODNkYlFUV2RuNWs4SHFXVG9SeGdYTTBTZmtidnI4Z0JnZFVaWFE0R3gyMzBva0Q0eWZuN1NleXNmNHhQZlpiRlRlc2wxRDJGVkJrVHduLTROdnNickhvczRSajJXZWc0OVlrMUhWYTdpWWJ0TWphOHU3OVZ2TG5wdGdtc2dlT19OVTFUVkV3RjZPZEZac3JoT0JQRUM5czdObmdRdElhSXZZV1Vvdmhjck0zTTVEVVlYcFVTOWRyN2ZnT2VZZEltQWplZ29Qd3ZTWVN5UWpHSFJEb1NRT0FENUxn?oc=5",
       "publishedAt": "2026-03-06",
       "topic": "city_government",
-      "summary": "SF Mayor Lurie wants more power from voters San Francisco Examiner",
+      "summary": "SF Mayor Lurie wants more power from voters &nbsp;&nbsp; San Francisco Examiner",
       "confidence": 0.68
     },
     {
@@ -578,7 +288,17 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcXcydFNqSGFBMkNkRkJTMmRIRTBTbklwMW5rZ0N2QXhJanpTLUtvTnhHMHBmN0gzcWtCRVhPWFlPSGx1TTRjczBPTWItVG9SdHB0enA4aUxyaTN1RVl6cXRWY0xKVlV3cWV5amdWR2JQMUdIZG1MdUFDRXRTTU5UNERmMnpmeV9EWnBzUGhiN3ZacWM0bHRkQl9WbWJIbk9RWXd1TlhjN3RrakJLN3k00gG0AUFVX3lxTE1USzBpaU5Sd2RQb3l4ZnpYX3NPUmpsUGdmNjBFLVQ4Vk5DRmRhU3VwZ0paMXY1c3ZMbkFKYnA1b3RkVVdYbVFSR1MwWHJSeC1rN0c2V0xTU0IxZUd5Mk9xeEdQazVBWmRoTl92R0JtQTA5VFpfYVRwQkRKc0NvQWJvN19HczZfcWRDM25Pc1FOQl9EX1JyZ040Y0ZjMTVXT0lWaXpXY0pOZ0RVRkxiN2FEdTNIag?oc=5",
       "publishedAt": "2026-03-05",
       "topic": "city_government",
-      "summary": "Kristi Noem praises SF Mayor Daniel Lurie's cooperation with DHS, says they 'talk quite often' ABC7 San Francisco",
+      "summary": "Kristi Noem praises SF Mayor Daniel Lurie's cooperation with DHS, says they 'talk quite often' &nbsp;&nbsp; ABC7 San Francisco",
+      "confidence": 0.68
+    },
+    {
+      "id": "free-wi-fi-now-available-in-san-francisco-s-chinatown-statescoop-2026-03-05",
+      "title": "Free Wi-Fi now available in San Francisco’s Chinatown - StateScoop",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9zRk5hUzlpeDNOOU5VbzllNVpvTzlaS3h2blZFOUUzTXlBdTNFWFhGaW9tLW01ekxfNGxpWWhEalBMaUE0Y25LVEd6anlOd28taUJBdE1CbjBMLW1Fam5yOTNhYlU2VFVw?oc=5",
+      "publishedAt": "2026-03-05",
+      "topic": "city_government",
+      "summary": "Free Wi-Fi now available in San Francisco’s Chinatown &nbsp;&nbsp; StateScoop",
       "confidence": 0.68
     },
     {
@@ -588,7 +308,7 @@
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZmxHTXd2a2o4OXhPQ2Y2LU1VTW1oSVZGREpxWUFSdEFSUlkydGxHRGN5NjFDSnRXdEpHdlFQeC1iQ2lidWs2akVINm94UTRONEhRQVI5U3M1elRIQXF4QmttTy0zUlUzXzY3dHpvUlhUUmZINEVwTmtNNnNfWXVsZHAyN24xM25xUEVHbW5xSFZhNGFwNG9ELWcxeGpkQzd5dGpLUERSZW5Ob1pMTjRpR1JQMjh4ODRRX09kbkRmTHBtWHpFRjZob2dHSENBS2JtREE3VUdfczBxYi1ZdHfSAeMBQVVfeXFMTldhOVAydC1qd3ZfdlQyR050eUhNUmV0UWg5TnpiTGN3X2Y2Yi05NWt1eUxCY0xtUWVDWldZd1lMVXA3UVRpUDlwQmJKYkZoYnlfUVViYlZwVVMxZWxzZnhwVmIxM1NQck95MWxoQlVNSFY4R0NuZDNPaDFoRGZpaUZQdHlpbWV0SjJaN0k0cWphaW1rU3hzamtHbFN0ejJrczcyV1JOaFN6eWlURGRwSGc1TnBWUGo3RHFMYndRLXFYcDJ5aEM1QjA4SkY0X0RHajYxNmEyZ1l1Tk0tRlVNVWdjeDQ?oc=5",
       "publishedAt": "2026-03-03",
       "topic": "economy",
-      "summary": "San Francisco Mayor Daniel Lurie orders $100 million in budget cuts; could lead to elimination of 500 jobs ABC7 San Francisco",
+      "summary": "San Francisco Mayor Daniel Lurie orders $100 million in budget cuts; could lead to elimination of 500 jobs &nbsp;&nbsp; ABC7 San Francisco",
       "confidence": 0.78
     },
     {
@@ -598,7 +318,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ1M5QkxNaWJQRXN2NGQ2Z3p6bWExQWJId3VJZ0ZCTWxxTnJuRmhXdkRld0FSR1d4UlprWHVqRDA1SEwzSVlJelM1ZzZZcTJha3pPaFU0WndHUG1UeHptMHo1OTVfWHI5eGszbnhDVVNVdzM5MFhGemc5eXlRUk5waG05TmhJcDZQc0pDY2JpWk92NnlOS1Q4emJ3eWw2NF9tYjNXdUsxa1hkTGvSAbABQVVfeXFMT1dlWUpGNHJLUjloQzVWZkhPb1ItOWVyTGJiOHBPdWNrWFJhM3ZJdGhfZlRxb08xRkk5UW5FUUxaQzJ5amp6cy1UN2FaX0tGUG5yUXFMTnNGSmpLS1lnaDV0WGJyYzVfQ2VnTUV6a2RabjNaY2N3dkZnbkZ4bGItOGgyLVpON3hMRF9Ha1NiNkNNbEp2Z1RYN3hUZ2lwbGtEQk5fM2RPTXFKcDd5T280NWM?oc=5",
       "publishedAt": "2026-03-02",
       "topic": "economy",
-      "summary": "Reactions to San Francisco mayor's office plan to cut 500 City Hall jobs due to budget shortfall KTVU",
+      "summary": "Reactions to San Francisco mayor's office plan to cut 500 City Hall jobs due to budget shortfall &nbsp;&nbsp; KTVU",
       "confidence": 0.78
     },
     {
@@ -607,8 +327,8 @@
       "sourceType": "news",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOamp6TXB1WjFUeGU4al8tY1RURmdiNnoxeFo2ZXVIR0tuN1QtV0FOZENYRkFVeldQM1ltSC1PV3FIaHNUXzlCQVVLRWtXWS01YjlvQnV4QndjQzVEeEVLNVZvblEwSWVHaTBBVzMzTDNxbGUxTkgtMkhsNUdqcWVDcE5vRGJJOTRPZmk1SWlzWkpzbDQ?oc=5",
       "publishedAt": "2026-02-25",
-      "topic": "economy",
-      "summary": "Mayor Lurie, Supervisor Mahmood Unveil Plan to Create Housing, Jobs SF.gov",
+      "topic": "homelessness",
+      "summary": "Mayor Lurie, Supervisor Mahmood Unveil Plan to Create Housing, Jobs &nbsp;&nbsp; SF.gov",
       "confidence": 0.78
     },
     {
@@ -618,7 +338,17 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUTdXYkpJWUlvS3VMT1czNnlZQUFiV1ZsTlpIQ3o2M0h6RzJ1NDRZMzdHOThQbVRsVFl5dGFlWDM1SWlqd0ozSlVBS1BRUUZQem9EbXpWYk5icTFGQjlZWG5rbkExaDNOSlpHWUZTVUpqVVJrTGYzTlI5WFNpSjlQRmRIdlI1NUFXbWU1SlFLWQ?oc=5",
       "publishedAt": "2026-02-25",
       "topic": "city_government",
-      "summary": "Mayor Lurie, First Lady Prowda Announce Citywide Day of Service SF.gov",
+      "summary": "Mayor Lurie, First Lady Prowda Announce Citywide Day of Service &nbsp;&nbsp; SF.gov",
+      "confidence": 0.68
+    },
+    {
+      "id": "sf-s-strong-starts-initiative-aims-to-reduce-preterm-births-and-infant-mortality",
+      "title": "SF's ‘Strong Starts' initiative aims to reduce preterm births and infant mortality - NBC Bay Area",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqM2JCeVJnVktLRVhpOGQ1NmtUVHBmRm5kZTF6cFg1WmRvV3Q2VHFnNjh1aHMwVDE0a25kbE1UQWVCUEJLdFU5eS1NOVJKR1liZDdfdmlWWXZJNjBUdFJ0YjRoNW5rX0QyXzBDNk41RVRadklXZThFUXNabEt0bVnSAYcBQVVfeXFMTWpzRVZxcnJSU3lEYUVpQWRoSWJSaGtVenJCb0xvTndZS2tzUnU1SjlWckVqX1NHcjFYbm1HUHN2Rm5idFhsYXY1MWQyS29LLVhuckZKcG5yQ28wWjhZRFdvMmoyV1lUZ2EzY1lCTTBFRVJIM3YtQzRYdl9yX3ktMDgyUEpyY21r?oc=5",
+      "publishedAt": "2026-02-24",
+      "topic": "city_government",
+      "summary": "SF's ‘Strong Starts' initiative aims to reduce preterm births and infant mortality &nbsp;&nbsp; NBC Bay Area",
       "confidence": 0.68
     },
     {
@@ -628,7 +358,7 @@
       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMi1kOWpZRzNDbUJDN2lUa05zSmdBRFVIQ0lBaEFEWmdEOThXQ0w0b0tKeUVIaDExTG9XcEwwTXZWNTdwcF9ySTF3Mmkza25XXzlNWVhMeWhyRWFRZThER0xtRmx1RkhPYVQxcFNnZkg4c3RDalNQWDhkZk5kNEQydi1TaTBTWGNYcEtLc2NTOV9mNlpQS1A0TEdmck5la2xiX0hjRzY0b19zb2plbURYY0MxQ1piV0hnNHlJZg?oc=5",
       "publishedAt": "2026-02-24",
       "topic": "city_government",
-      "summary": "Mayor Lurie Launches Strong Starts, Another Major Step to Support San Francisco Kids and Families SF.gov",
+      "summary": "Mayor Lurie Launches Strong Starts, Another Major Step to Support San Francisco Kids and Families &nbsp;&nbsp; SF.gov",
       "confidence": 0.68
     },
     {
@@ -638,17 +368,7 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeVBwYVoyNFhsQXBVX2tqMU5LbW1rNVFvSVd0UFFfakRqNW0ybUNNdHRPSG12bTN0bXpTTjBia0hOMlpValpZSjg1VmVIZWI4SWFFNWRNZVhGeU1TS2hUMW13bE9Oc0w4MkE4V0Z5SmZ1MW15U2dtWTNYb0ZlUHVlTVpjS2dZamlVRDE5UTlsRms1ZmliRlBLTWlrTE5xNEVtZk9BZHlQcVVXalpIZ21pS0lfUi1Ia3JnRXlXVzgtdzQzeW5PdTMxbmh2bDZIQQ?oc=5",
       "publishedAt": "2026-02-18",
       "topic": "city_government",
-      "summary": "Mayor Lurie Signs Legislation to Advance the RESET Center and Combat Public Drug Use on San Francisco Streets SF.gov",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-s-statement-on-the-reopening-of-public-schools-sf-gov-2026-02-13",
-      "title": "Mayor Lurie’s Statement on the Reopening of Public Schools - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQcFJEM2N0emtWLW1jd3BUNDFVVWVjczUwZTVvd1NtVWkzVHpLRnNOWllxRGJFQldaSm00Rkg2NTZ6SVZuU2IxZndlWU9ranJIbWtldm80UjA0WTNkYTRWX25rTFhaV0tPSmx4NVNUdzNvWGNRNkNWSWExQy1jekdMLV94N3dqVEUz?oc=5",
-      "publishedAt": "2026-02-13",
-      "topic": "city_government",
-      "summary": "Mayor Lurie’s Statement on the Reopening of Public Schools SF.gov",
+      "summary": "Mayor Lurie Signs Legislation to Advance the RESET Center and Combat Public Drug Use on San Francisco Streets &nbsp;&nbsp; SF.gov",
       "confidence": 0.68
     },
     {
@@ -657,9 +377,19 @@
       "sourceType": "news",
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQN0FZZ3pscnB6Q1BHODJrN1BRZzJiaURkWUNkY0phT2NTMVB1dG9YVXd1b3JyaG4tTnBZTXd6QVdmRV9QTHdWWFBmYjZBNVNGTWpMQlBOX1NHajRDNEY4cC1yeXBTNGpPNWVfY2NUUjZzV3ZlTkw4NDNTUWpJYlkxUGVhYzZydWhMSXZKUUdpY1ZoN3plWEpGbHVFc0RrUXNGcFRTbm1Tc3hKZDFTQzNKTVIwZ1EwR2hlSXFpTTg1SXdvS1lBWXc?oc=5",
       "publishedAt": "2026-02-12",
-      "topic": "economy",
-      "summary": "Mayor Lurie Signs Legislation to Accelerate Downtown Housing Creation and Drive San Francisco’s Comeback SF.gov",
+      "topic": "homelessness",
+      "summary": "Mayor Lurie Signs Legislation to Accelerate Downtown Housing Creation and Drive San Francisco’s Comeback &nbsp;&nbsp; SF.gov",
       "confidence": 0.78
+    },
+    {
+      "id": "union-square-programming",
+      "title": "Union Square programming through summer 2027",
+      "sourceType": "official",
+      "url": "https://sfrecpark.org/m/newsflash/home/detail/2708",
+      "publishedAt": "2026-02-10",
+      "topic": "economy",
+      "summary": "Downtown activation and programming effort tied to tourism, foot traffic, and economic recovery.",
+      "confidence": 0.89
     },
     {
       "id": "s-f-mayor-lurie-opposes-both-competing-business-tax-measures-mission-local-2026-",
@@ -668,7 +398,7 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeUd3YzZNWXZWeGpPMU5ZZDNqeGV0SjJTX1dDMGZhV0FlczZNOEtHbzBzSEc4VDk5enJUYU5TbkEtbTRYSXVIZm9vQ0FyblloNzg5aWJlMFRyZk01by14aHI2S0E4YlJNTWxEYjczSFMySXVFV2dmbDB1MnZhSUgtSElOVUxTdw?oc=5",
       "publishedAt": "2026-02-06",
       "topic": "economy",
-      "summary": "S.F. Mayor Lurie opposes both competing business-tax measures Mission Local",
+      "summary": "S.F. Mayor Lurie opposes both competing business-tax measures &nbsp;&nbsp; Mission Local",
       "confidence": 0.78
     },
     {
@@ -678,28 +408,8 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWDFQNFJZWEVISk54VDNzNWxKQXM5YVBzMTFTUzEwMUNwdEZhelM1dEhZdU9ZOXZLbzVCRHRRVU8teGVEcENIUTlvQk5YRWpzRnVSNk1BQTl4anJERC1hZHZLdjBxczVDVnRiOUlrOVZWZ0JVYUNzSG5ydTdhYS1seG5VNWc1UzRkcFhBNlI5WkNaRG1xWmNRRC03WXFSejTSAaQBQVVfeXFMTXYtMlM5aVJoV2U3U2ZjT2Z2ZVZwbWIzbm9zVi1xS2FfQW5SNTBVdXpIdHRKU2tKN1RNMnY3akE3bE5MSVNDWEpMTUQyTV9rRGxQNFkxRy1LZFJJWDhaaFZZa2tZa0c4blZhNzBKNlBmZ1NRSG1uR2djLXFRQndCcEdEWXhad3psdy1vaERpeGs4enptbmxpV1NqSnJFUGt2LWdHdXY?oc=5",
       "publishedAt": "2026-02-06",
       "topic": "city_government",
-      "summary": "Pat McAfee blown away to learn San Francisco is not what conservative media makes it out to be Awful Announcing",
+      "summary": "Pat McAfee blown away to learn San Francisco is not what conservative media makes it out to be &nbsp;&nbsp; Awful Announcing",
       "confidence": 0.68
-    },
-    {
-      "id": "against-a-backdrop-of-closures-sf-creates-a-new-top-arts-job-kqed-2026-01-29",
-      "title": "Against a Backdrop of Closures, SF Creates a New Top Arts Job - KQED",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPd0J0R2pOb2NYSlFTVzZZdWs5SWZBOXJOLVZzRWpFSWlYQnowX0x5NTNRNE9nd3J3NnNiY09RUGZ5U1lhN0Y1c2JFMzdweTlpMDFRX2xGZ3ZWVzYtVVVVR1lfQ19zSDROdk1qQl9FU3Zaa3ptOVZHSkNqWVdEZHBrVGUtOVNGdEJqR1Bza3ZZNmRycWJzVEQyQy1PYnNXNWN6UTQwZmNDYw?oc=5",
-      "publishedAt": "2026-01-29",
-      "topic": "city_government",
-      "summary": "Against a Backdrop of Closures, SF Creates a New Top Arts Job KQED",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-s-power-to-fast-track-s-f-homelessness-drug-programs-is-expiring-wha",
-      "title": "Mayor Lurie’s power to fast-track S.F. homelessness, drug programs is expiring. What did he do with it? - San Francisco Chronicle",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOYWxOVmx0NnRaNFl4S3R6SnpIS1NOeElrUEc5eUtCOTdqSENkeW1ELWNCSWo3bERycU1PdzA1Vmx6ZVJ6WEU3SGlodUdYczY0YzBmUXV3cnEyWDVQUkNLWGxaQ1VVa1dBNTlaTTFMTmxaWlN3dEVYSWpWUUo5WnMxaEhQRE83RDNNOXBzMG5yWXF4V3l5dTN5WUxxNVM1a0ZnQnc?oc=5",
-      "publishedAt": "2026-01-29",
-      "topic": "homelessness",
-      "summary": "Mayor Lurie’s power to fast-track S.F. homelessness, drug programs is expiring. What did he do with it? San Francisco Chronicle",
-      "confidence": 0.78
     },
     {
       "id": "mayor-lurie-advances-reimagined-citywide-arts-and-culture-strategy-to-support-sa",
@@ -708,7 +418,17 @@
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPbXVHbHBZdzRWVHpWUm1DY09PRW1hc3RPNXVLTW9CNVUtSy1ESFJSM0swYW1Bc2gtRFdhNUNBQWVmcE9PTXhfVHJBQkNCdDRQWjdZRy1ScFk4WEp4eEZjTzhjcDcybWRQMEhya1ZHY0M1V2d2UGNaLUFkSUVNQVBzaEprZ21vYVNUZkNIZEhZcUF0QU1UT0RLNm1fZC1fVE9xVDFrTVUxOWJza1hwY181X1V1NkpSSHVXVEYyNnhCQmpvU0k?oc=5",
       "publishedAt": "2026-01-28",
       "topic": "city_government",
-      "summary": "Mayor Lurie Advances Reimagined Citywide Arts and Culture Strategy to Support San Francisco’s Recovery SF.gov",
+      "summary": "Mayor Lurie Advances Reimagined Citywide Arts and Culture Strategy to Support San Francisco’s Recovery &nbsp;&nbsp; SF.gov",
+      "confidence": 0.68
+    },
+    {
+      "id": "mayor-lurie-s-perilous-gamble-with-federal-authority-california-globe-2026-01-26",
+      "title": "Mayor Lurie’s Perilous Gamble with Federal Authority - California Globe",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYUthc0R6LXVycFk0UUYteWNlRldIRnlpdUsyYWFBUk5wM1gwVUVRWE1CUWlGaEIxY3dRbTRVakhQNlloX1pyNHdWUmN3RWpkMFFFbTVKczUwSlhpOEtWNXk4UnJPNFVOT2VXVFhaWTRhU05TTkRyYzBKdnVzOFdoWWhpa3dRY2pHVmJv?oc=5",
+      "publishedAt": "2026-01-26",
+      "topic": "city_government",
+      "summary": "Mayor Lurie’s Perilous Gamble with Federal Authority &nbsp;&nbsp; California Globe",
       "confidence": 0.68
     },
     {
@@ -718,7 +438,7 @@
       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNc1V0dUI2UGpZcG5zQWVKOXdhMHpsQWtld3ViLUJwR3ZQZnhHcjZfaEtDYlZWekdqZFF0dUF5T2hzX1FtbEhGRkVpTk4wcWtILWdGZE43ZjYyVjhaRkNhRHZhTnMxQ1g0QkhYdjRWc2k0Q3phTTBYUTZ5aHdadTdfaW9YZHpOMWt3d1UwMTFWTHFLMnh3VVdZVDBqN0k1dXBSaVQ5Z2xJN2hQXzA3U2ZHWVZPQlhlbmg4aHpvcENwV3pSLTZLblE?oc=5",
       "publishedAt": "2026-01-23",
       "topic": "city_government",
-      "summary": "San Francisco Mayor Daniel Lurie pushes for California law toughening penalties for sideshows CBS News",
+      "summary": "San Francisco Mayor Daniel Lurie pushes for California law toughening penalties for sideshows &nbsp;&nbsp; CBS News",
       "confidence": 0.68
     },
     {
@@ -728,17 +448,7 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRDVBenZxdWU0R1RLcEFBb1pfMnR6U1c0QkQ5LWh1Z1M1WDdiZ2pRVTdpcjZCejM1MVhRc3Z6TnVUNk1PZVQyUlZVNXpQa05PSk1ieGc2Y1gxTk1OanZzQTdqQ0RaNzE1cEtOdkQtaHJWR0tGWTFGSkVBZHBaVVlWeEc4a3VNVFItRFowZ2d0dTN3TVBXUDQwUFM3eUpYM2ViNjJxUkRadjhMNThNY2Z6UFpNaENmSTlIRXc?oc=5",
       "publishedAt": "2026-01-23",
       "topic": "city_government",
-      "summary": "Mayor Lurie and Assemblymember Stefani Announce Legislation to Continue Crackdown on Sideshows SF.gov",
-      "confidence": 0.68
-    },
-    {
-      "id": "san-francisco-mayor-daniel-lurie-promises-fresh-leadership-and-change-golden-gat",
-      "title": "San Francisco Mayor Daniel Lurie promises fresh leadership and change - Golden Gate Xpress",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOb0J1ei1QOFltUGtjbjNTNnd4TlNVZlhoNFNhMVU4VkFXMW9lOWNjanFVR1pDUmczQVB2Y0dTd2Z4Y0o4YjFLRDA4S3NKanF1RF9OdTZEVVBCVGs4QXhsV1BPZUVNOUhUSFlWeW9NdlJSNGw5X0hDcnd4S3ZZX3pWQkt0eXRQakhkcV9aUklsLTV5N3VNNFQ4dEt6NlRybUtSbWRteWlVQWg2TjBhcmlkcC1SVDhDOXl2ZjIwVkRBV1F1LWlwOEhJMkRvRWl4OHRiTXJydWpkMks?oc=5",
-      "publishedAt": "2026-01-22",
-      "topic": "city_government",
-      "summary": "San Francisco Mayor Daniel Lurie promises fresh leadership and change Golden Gate Xpress",
+      "summary": "Mayor Lurie and Assemblymember Stefani Announce Legislation to Continue Crackdown on Sideshows &nbsp;&nbsp; SF.gov",
       "confidence": 0.68
     },
     {
@@ -748,7 +458,7 @@
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWUpwY2MyaExrLThZdUNYX05nOFYxbHNqT3VrQTZwQTZmRk04ZkVtdGNRdmkzR0tOUm9xeWYzZDZrX09JcC1LaEMxUEd0a01UQmhfRGdpYmFsZW5ta1RvYm1iX2RJMXdfZ2ZHcTE4VjdkbXFvd2dacG1lYzhOYVYxVElOaWZ5NWlOU0h1Nlk2MWxET3lnREU3MlpKcVc0VzhuS2VfMXZGeUhpdUZYcWRlVlpSd1RiZFZsTmxWYkNjYXdEZw?oc=5",
       "publishedAt": "2026-01-22",
       "topic": "city_government",
-      "summary": "Mayor Lurie Reforms Journey Home Program to Help People Reconnect with Loved Ones and Access Support SF.gov",
+      "summary": "Mayor Lurie Reforms Journey Home Program to Help People Reconnect with Loved Ones and Access Support &nbsp;&nbsp; SF.gov",
       "confidence": 0.68
     },
     {
@@ -758,7 +468,7 @@
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMnlBV245SjNOekdBQkFEM1pydjItd0ZySWp2SG52a2NGRjNyUEJPX09nU0I1X181WWtadDNuTlNndktNcVJ3LWtPTDl6Vi1ReEdyZU42SFVyc2sxZFk4Nld3SzlWQXBWc0pXLTBfY2lNZUo4UDl2dDFiTUhsd2FWeUhoSlZoaDZaakk1NnlTeUpFaEREeUNIMDBDMUpJQ0ZROHVnQlJuNWVkYVJKVUNSbkJjS1MyNkw0dHRMR1RBT2RZX1FjYkZLeTlEd3NUdkZ4aHVLMGp4LWpEcXlYdl82ZmdSSDRaRDVtSEE?oc=5",
       "publishedAt": "2026-01-22",
       "topic": "city_government",
-      "summary": "Mayor Daniel Lurie, San Francisco Department on the Status of Women and Reproductive Justice Leaders Commit to Reproductive Freedom SF.gov",
+      "summary": "Mayor Daniel Lurie, San Francisco Department on the Status of Women and Reproductive Justice Leaders Commit to Reproductive Freedom &nbsp;&nbsp; SF.gov",
       "confidence": 0.68
     },
     {
@@ -768,7 +478,7 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSXJySVljY0VvNnBvWjcwQ2hVWS0zYkhfUjl2RGVBSWxrLWRUem0wQVNIUFV6Wnh3ck0zMlhya0VrclZ1RmhJbldJWkdYTkNLTXVFcUlTRXo2Nkg1RUVSYXRzSXlCVjhQQmp5OHN5NEJxbEZTSUtoWHpEY0ZpbkdhYTl2STkwNHpBODNXRnBIaDdaN0xzNUhNaXdwdXJ2cEFMWmtJTUh3?oc=5",
       "publishedAt": "2026-01-21",
       "topic": "city_government",
-      "summary": "Letters: S.F.’s economic comeback will be empty if the city loses this historical trait San Francisco Chronicle",
+      "summary": "Letters: S.F.’s economic comeback will be empty if the city loses this historical trait &nbsp;&nbsp; San Francisco Chronicle",
       "confidence": 0.68
     },
     {
@@ -778,7 +488,7 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVmFrUUZiUkhOWkRUVE1qaW54UDRSOFFrMks5aVlMTE5PY0pKd2pId3VHcEFkNTdraC1vbFFORmdQaXBzTTlvRFBxUXl1R0JRQVdUbElnYjE2R3c2S0RYcnhReldrYlJsb3I1ZDRGbnBNN2hGXzlKWm8wRVpXM3FyVjZrMTVNc0FnVld1Rkg1VnBFZFBOaTIwQWthOGFNYjZOQVpvZg?oc=5",
       "publishedAt": "2026-01-20",
       "topic": "city_government",
-      "summary": "Thanks to Lurie, my baby will get free child care. But the plan comes with a catch The San Francisco Standard",
+      "summary": "Thanks to Lurie, my baby will get free child care. But the plan comes with a catch &nbsp;&nbsp; The San Francisco Standard",
       "confidence": 0.68
     },
     {
@@ -788,7 +498,7 @@
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQblQ1bHU3T2JhMkZtTmlkbFBGbGJUTjFjQjFpM1hMUTB1dE04VmdDTmdEWnhJUnlCMUZ0OVA5M2x5b1R4aUNRRk8yendmNERFRmx2N0xuZWlnMEZrZ0I3bTZmZTF1QjR0cEdxdzZac1JlME55Y3Ywa0poLWhGQ1FiQTJJemxnVXlBOHhVNEsxSUhKemYxUzZQeFhmVC1LWmhLbXFpaW5HWlI4VjRFQ2RWV3JyZ2xqT3c0UXRMSDY2WEhlQXJMTl9idGprZlFkWk4tc053OHdkQ2QtYnB3b2p6OWxJRHPSAeoBQVVfeXFMUG1HQVlkMnVBSmhyLWtZdzktY0UxT3V1NklXb1I1QnN6b2tSRUM4MmlTSUJZcmx6NXdWRUNXMlpGNkRBYVh0ZHB4OWFuUmxHREJaemJzX2c4ZTlCalh3T1k1RHpHY2NSQnF0MDdMQzl0SVhPUnE3U0w4TGVlTG1GNUc0ZHpWeEFSSU5iOWxkWllGQkNmRkdWSmlhUnpIOTMxSzYtVXZTcHJrdmhuYVl3MG82LTc2SEtBX2RjTDhRdmliTTZzd0ktWUVuTFp6Ylg3NVRBUXRUODFwVm1lNVVvUElDQmxVX3hmakpn?oc=5",
       "publishedAt": "2026-01-19",
       "topic": "city_government",
-      "summary": "Family Opportunity Agenda: San Francisco promising free or reduced cost child care; pathway for students to attend college ABC7 San Francisco",
+      "summary": "Family Opportunity Agenda: San Francisco promising free or reduced cost child care; pathway for students to attend college &nbsp;&nbsp; ABC7 San Francisco",
       "confidence": 0.68
     },
     {
@@ -798,7 +508,7 @@
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRnprdWdvbkIzeGFNOTBSYzd1VHlDRi1Pc0RJakVBV1ZZMmJWR21URGJuSE5uOHFQRmtZT0UyS2lQUV9SMVE3Ul9FQm5LV2lPcnlWRWY3ZFFZWFpXV19JRFlNZXRVa2ZPX1lSSWlzcHN1emVJaWFhUS1veG55UzVfR2I2U0Z0TzBHamdQdFdYeEhFZG84QzVickRhVF8zQmhzaldFZ3c1NWUxdVFrWkN4bl82cEx6WnkwQmtNbXhHMA?oc=5",
       "publishedAt": "2026-01-16",
       "topic": "homelessness",
-      "summary": "Mayor Lurie Celebrates Nearly $40 Million in State Funding to Address Homelessness in San Francisco SF.gov",
+      "summary": "Mayor Lurie Celebrates Nearly $40 Million in State Funding to Address Homelessness in San Francisco &nbsp;&nbsp; SF.gov",
       "confidence": 0.78
     },
     {
@@ -808,34 +518,8 @@
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWVdCcWV3X0ozTHFfNXBOTGNBenFwRGltY0VfR1QtUnhzNGZPVk8wdnNRbFpna2NtRkNZNTI1WDNQa2E3N19DdHJ0eEtXM0JkWEpuLXJGWEhKN2xPcTBUb0hnaFhXUnRmSlNlRTFnaGNZSXdJMm9GOWtIWXZ3aXluUE9JbVcwMGhGSEV2VGx2UVZJMzl5V2RaLXNCa3pFaGxzYkNlT1FnQS1NTlFEZk04?oc=5",
       "publishedAt": "2026-01-16",
       "topic": "city_government",
-      "summary": "Mayor Lurie Announces Return of SF Music Week, Celebrates San Francisco as a Music City SF.gov",
+      "summary": "Mayor Lurie Announces Return of SF Music Week, Celebrates San Francisco as a Music City &nbsp;&nbsp; SF.gov",
       "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-on-san-francisco-we-are-on-our-way-back-but-we-still-have-work-to-do",
-      "title": "Mayor Lurie on San Francisco: 'We Are On Our Way Back. But We Still Have Work To Do.'",
-      "sourceType": "news",
-      "url": "https://www.kqed.org/news/12069967/mayor-lurie-on-san-francisco-we-are-on-our-way-back-but-we-still-have-work-to-do",
-      "discoveryUrl": "https://www.kqed.org/news/12069967/mayor-lurie-on-san-francisco-we-are-on-our-way-back-but-we-still-have-work-to-do",
-      "discoverySource": "Anthropic web search",
-      "publisher": "KQED",
-      "publishedAt": "2026-01-15",
-      "topic": "public_safety",
-      "summary": "At his first State of the City Address, Lurie touted progress on crime and economic recovery but stressed affordability remains a key challenge. His administration increased arrests of drug users, ramped up tent encampment clearings, and shifted funding toward temporary shelters.",
-      "confidence": 0.9
-    },
-    {
-      "id": "daniel-lurie-was-the-public-safety-mayor-now-he-s-trying-to-be-the-affordability",
-      "title": "Daniel Lurie was the public safety mayor. Now he's trying to be the affordability guy",
-      "sourceType": "news",
-      "url": "https://sfstandard.com/2026/01/15/san-francisco-daniel-lurie-state-of-the-city/",
-      "discoveryUrl": "https://sfstandard.com/2026/01/15/san-francisco-daniel-lurie-state-of-the-city/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "San Francisco Standard",
-      "publishedAt": "2026-01-15",
-      "topic": "city_government",
-      "summary": "In his first State of the City speech, Mayor Lurie shifted focus from public safety messaging to affordability, emphasizing making San Francisco livable for working people. He announced plans to combine Planning Department, Permit Center, and Department of Building Inspection, and pledged to redo all homeless services contracts with focus on accountability.",
-      "confidence": 0.9
     },
     {
       "id": "san-francisco-mayor-daniel-lurie-delivers-state-of-the-city-address-ktvu-2026-01",
@@ -844,7 +528,7 @@
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOY1NRWElxVHJPXzdseEhJQzc0VzZKNlRYRlFReno4aklwNUFhSTh5YmNFWnhUeE1UVUNBTm5vSlE5TnJVWHpYbEV4V0k2SUxvaFFqRlNpcVAxeUJaYmxBUk90ODQ2ZC11SC1WbC1LYThHRkRMdjZpMjU2OGVtb3ZMYWVjYUJRYWttb1JUdnd30gGTAUFVX3lxTE9sVXRIVmc2VmtFTHd6LTRZaGNnZlJnZS1EbTNCM2RHaWZxMm1vTUdTUTRtYU9sQ3pUUWRKNmpPaWxUSTRiRlJ4U1k2NnFXNl9EOUxQN2pmOW9NQWJWdW43MTg5Wl9CbWxyNElsUnJWN0FTNmVFN2Y0VW8zTmVCZTMtSTEzMFI4TU1fd08xWTVJVTZUcw?oc=5",
       "publishedAt": "2026-01-15",
       "topic": "city_government",
-      "summary": "San Francisco Mayor Daniel Lurie delivers State of the City address KTVU",
+      "summary": "San Francisco Mayor Daniel Lurie delivers State of the City address &nbsp;&nbsp; KTVU",
       "confidence": 0.68
     },
     {
@@ -854,7 +538,7 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNTktQUN0Q1FpMEdlS29SZEJWZ25ySGc4eE4zaTA1WU53S0ZPR3hNcUhpZFZnbGlmWFVtYVlaekYtZ0l0V3hMcjBkMXpMVUUybnk0WWtQSUFFZkpzR29sUkFUb2tUYjhjWWhnUmVKY0djZk1KMTg4MEF2bFFYaWlEdi0wM05EOERlUDR1M1RXdUtoQkhJVzRWRjcyYTlyUDVPQjA3dGx1SWtZU0EtRkNqbHE1Z21IZw?oc=5",
       "publishedAt": "2026-01-15",
       "topic": "city_government",
-      "summary": "Mayor Lurie on San Francisco: ‘We Are On Our Way Back. But We Still Have Work To Do.’ KQED",
+      "summary": "Mayor Lurie on San Francisco: ‘We Are On Our Way Back. But We Still Have Work To Do.’ &nbsp;&nbsp; KQED",
       "confidence": 0.68
     },
     {
@@ -864,7 +548,7 @@
       "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOUDNWTFhZWUpuaTNQMFJ0cTRRNmtrUWRTT1dUbHdicjlOMDljM3pVeE5uZXhxcUMtWE56T0prdFpkSzdONGtCdmtkZ0xod3hGTDJmQzJETnFzRFNmajJCeWJiZmRFMm1LZzhLWGlMdnJ0Vy1rMUdDZEVwaDFCUlVjVzBpQnpTVWwwNW1pdTVZZE5lSWxKMkxRWHRadjZZRTNBWjlXSDhCS21oenNoQ1pJR1Y3XzFrdFBPNWpBbUVvbFlUSWlncHlyV202NzE5MUU5RVpmVnBvNmxXS1hmdVA1Z3p4Yw?oc=5",
       "publishedAt": "2026-01-15",
       "topic": "city_government",
-      "summary": "Lurie touts SF focus in upbeat first State of City address San Francisco Examiner",
+      "summary": "Lurie touts SF focus in upbeat first State of City address &nbsp;&nbsp; San Francisco Examiner",
       "confidence": 0.68
     },
     {
@@ -874,7 +558,7 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYUNlUEx6REFzNkhNcHRWOVZ2MWJnU3Z1X3VMR0VQalZ2QkNDTGhuQWN6Z0VoWnFjM0lnbHBMREVSODdqcWVzTjQ5RW1EVzhaS3BIb2cybnp1THVVZXJtZGJTVG1Sci1Va2lOYkU1R1c5VXdGaENnX09qUjNBYVBPMDBSclV1WkhudFMxSHZIQThneTM1TmZuNUtPWXZXTWl0c0R6aA?oc=5",
       "publishedAt": "2026-01-15",
       "topic": "city_government",
-      "summary": "Daniel Lurie lays out 2026 road map for S.F.: ‘I will not back down’ San Francisco Chronicle",
+      "summary": "Daniel Lurie lays out 2026 road map for S.F.: ‘I will not back down’ &nbsp;&nbsp; San Francisco Chronicle",
       "confidence": 0.68
     },
     {
@@ -884,7 +568,17 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeHEtOVd1NzFNTld2QWZucC1TT0NBbnFzM3JCN2NyWTlhWENFMW5PQXZ5VUhXVmtHTWh3WFBJLUE1Uktqb285MjNhajNabDNLMkdSWXNfZ0F2YmJQVm8wZHYyR2VpTGVOUmxJMTd5V2ZhMEcxQVM3b2VDWTk4VVhxMy1TRDF0ekRKNm9McUNtZ1ZaeGN5VlVDYUVxRURBX0hvSnNBNHlsNHhfZWZXWXlSWDRfWDF0T1QzSnc?oc=5",
       "publishedAt": "2026-01-15",
       "topic": "housing",
-      "summary": "S.F moves to combine building inspection, planning and permitting into one department Mission Local",
+      "summary": "S.F moves to combine building inspection, planning and permitting into one department &nbsp;&nbsp; Mission Local",
+      "confidence": 0.78
+    },
+    {
+      "id": "daniel-lurie-was-the-public-safety-mayor-now-he-s-trying-to-be-the-affordability",
+      "title": "Daniel Lurie was the public safety mayor. Now he’s trying to be the affordability guy - The San Francisco Standard",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNM2VES0ZreEhQMklacGhpNUI1eWdscEd0dE1MSGhFUy1IWE03Sm1DekxGcHotME1scHpZU1ZSNDd2LWdqNV8wQUxpTG83SEFERzRISGVOTWduVTVadDhta3RQZktOYVJscEQ1b3h6eUhwRWZaZDZUeXhaaHlYWWdXVGRVaG9OUQ?oc=5",
+      "publishedAt": "2026-01-15",
+      "topic": "public_safety",
+      "summary": "Daniel Lurie was the public safety mayor. Now he’s trying to be the affordability guy &nbsp;&nbsp; The San Francisco Standard",
       "confidence": 0.78
     },
     {
@@ -894,7 +588,7 @@
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBYemlwNVRuaWdBY2duUzdhNVVJSzRMUXJBa3B2RmtRVWtXVV9XaHl6LVRoMkNlVVdxT2IzdFFMTmo5WVRFa1hDbTJ3dFh1ZHdUN1NzbG1qVVZHS3V0NVQ0dHViWnBEMjMyTkFjbHJhYUxwaUNiN3pIQ0RR?oc=5",
       "publishedAt": "2026-01-15",
       "topic": "city_government",
-      "summary": "Mayor Lurie Delivers State of the City Address SF.gov",
+      "summary": "Mayor Lurie Delivers State of the City Address &nbsp;&nbsp; SF.gov",
       "confidence": 0.68
     },
     {
@@ -904,27 +598,7 @@
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOV0ttR1RTUTRMeWtxQjAtWDlRdEJ0aWs3NEJhWTFpRmhvLWxVWTNjN0RyQ3ExdGFkTjR5MkxnQzFvaTRtdV9rcWRoT2hUSFUydFkyT1lOZDlRVFZwbEVac3VYNmlnZ2dzSnpUcGxDSXB0a2VSM0RNQlpXT2kwOTAtZVl0eVBLSGNGXzBmTWNKMnRJWkVwZHdTR0JGOFdueUpJTGNiVTVNSVE3S2V6eDBRdDZpWEhzZFh6TENmOUhHcVJRNnRIRkVZUWoxajZoRy1HY2l2Wml3Q29hSHVLLTdIWUZ0S0hRQ0ZGbkd6VVEySQ?oc=5",
       "publishedAt": "2026-01-15",
       "topic": "housing",
-      "summary": "Mayor Lurie Takes Major Step to Drive San Francisco’s Recovery, Launching Process to Create a Single, Centralized Permitting Organization SF.gov",
-      "confidence": 0.78
-    },
-    {
-      "id": "san-francisco-unveils-family-opportunity-agenda-expanding-free-child-care-and-ed",
-      "title": "San Francisco Unveils Family Opportunity Agenda, Expanding Free Child Care and Education Pathways - Diya TV",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPU2tBWk9qMEJXdFoxaFhmbXQzVWpJMFRQNVg0SDl2dllCU3NUcHByVk12NnBoeHBkb0VNZ3hQY2oyY3RsTHZscnd5Vm5fekl1aDBHUzhKY1NjWmFfcmwxUEVteXdwVzBPYVpWQUZ6S1k5NC15WUJZQ2JUanNYbmlSSXdXUWp3N0FOcnZTUzltSW8xOTVhOXAwUkZVb1hfeHh3ZnF3cXJ3VS1lVGdaWjVrcGtSRk1sNzJUdVFF?oc=5",
-      "publishedAt": "2026-01-15",
-      "topic": "city_government",
-      "summary": "San Francisco Unveils Family Opportunity Agenda, Expanding Free Child Care and Education Pathways Diya TV",
-      "confidence": 0.68
-    },
-    {
-      "id": "daniel-lurie-was-the-public-safety-mayor-now-he-s-trying-to-be-the-affordability",
-      "title": "Daniel Lurie was the public safety mayor. Now he’s trying to be the affordability guy - The San Francisco Standard",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNM2VES0ZreEhQMklacGhpNUI1eWdscEd0dE1MSGhFUy1IWE03Sm1DekxGcHotME1scHpZU1ZSNDd2LWdqNV8wQUxpTG83SEFERzRISGVOTWduVTVadDhta3RQZktOYVJscEQ1b3h6eUhwRWZaZDZUeXhaaHlYWWdXVGRVaG9OUQ?oc=5",
-      "publishedAt": "2026-01-15",
-      "topic": "public_safety",
-      "summary": "Daniel Lurie was the public safety mayor. Now he’s trying to be the affordability guy The San Francisco Standard",
+      "summary": "Mayor Lurie Takes Major Step to Drive San Francisco’s Recovery, Launching Process to Create a Single, Centralized Permitting Organization &nbsp;&nbsp; SF.gov",
       "confidence": 0.78
     },
     {
@@ -934,31 +608,28 @@
       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOZE5vM0xSNHltbEQ4bnJnSVZ2dnNVMzZ1b3NGV2l2YzVnYVdqNDY3Q0g4V1NvZXk0eFltSTVGa3h5MnVaQ3lWSXR0c0s1WUp6dFVTanZDdDdrVkNqcGhWUEZraFAyV2RLNVpIMU1fUHpuUEZGUV9VV0U1Wm5QbUNydWwwU0w?oc=5",
       "publishedAt": "2026-01-14",
       "topic": "city_government",
-      "summary": "Mayor Lurie rolls out new affordability push. Here’s his first move San Francisco Chronicle",
+      "summary": "Mayor Lurie rolls out new affordability push. Here’s his first move &nbsp;&nbsp; San Francisco Chronicle",
       "confidence": 0.68
     },
     {
-      "id": "what-we-will-lose-when-california-college-of-the-arts-closes-kqed-2026-01-14",
-      "title": "What We Will Lose When California College of the Arts Closes - KQED",
+      "id": "mayor-lurie-launches-family-opportunity-agenda-to-make-san-francisco-more-afford",
+      "title": "Mayor Lurie Launches Family Opportunity Agenda to Make San Francisco More Affordable for Families - SF.gov",
       "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOb0NzdUlwXzFZQm5fYVliaWdBN3FzSHV6bFZmSDBIa3ZJbFAxWmU1dG9NSzdjTll5WHpmaEpaaUZObTBxWmE4XzlCRGpNRmNyVGZsbjhab01DT2Z3Y0szUThBQVIzbl9aMFBDNWM3SFVvRXNVUTBtT1p4d0FZVk95X3c1ZEV4UTE2VjRsZmxnclBrNWhUa3FuZTV6aXk?oc=5",
+      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSlNxT0lHOTA5N3lkdVJldW5oNGVUZFJqWVV1MVlnUHpZVWRkb0hhVWZzd1R6X21pejBRYi1JWnpTZjN5ZEx6OWFVbzV0a2JaMkdmU00wbzM2MlFoV0pOYTFxN3VJdFExdmRNcTk0T1NZUkJ4bjNfczBXRS00V3hTdVZFNTFaVnIwT0owdTZ3TWNYeUhGV1NjTUFTZXd3Umtmc090NjQ5Zlgwc1hSSGZYeG5BRllyMXFOVVdNWFpn?oc=5",
       "publishedAt": "2026-01-14",
-      "topic": "city_government",
-      "summary": "What We Will Lose When California College of the Arts Closes KQED",
-      "confidence": 0.68
+      "topic": "housing",
+      "summary": "Mayor Lurie Launches Family Opportunity Agenda to Make San Francisco More Affordable for Families &nbsp;&nbsp; SF.gov",
+      "confidence": 0.78
     },
     {
-      "id": "mayor-lurie-board-of-supervisors-secure-5-million-for-electric-vehicle-charging-",
-      "title": "Mayor Lurie, Board of Supervisors Secure $5 Million for Electric Vehicle Charging Infrastructure",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-board-of-supervisors-secure-5-million-for-electric-vehicle-charging-infrastructure",
-      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-board-of-supervisors-secure-5-million-for-electric-vehicle-charging-infrastructure",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF.gov",
-      "publishedAt": "2025-07-22",
-      "topic": "climate",
-      "summary": "Secured $5 million state grant plus $2.8 million city match to install 403 new EV charging ports at city facilities, enabling transition of 800 additional vehicles to electric (40% of non-public safety light-duty fleet).",
-      "confidence": 0.9
+      "id": "s-f-ceo-council-backed-by-mayor-lurie-revealed-one-of-its-projects-here-are-the-",
+      "title": "S.F. CEO council backed by Mayor Lurie revealed one of its projects. Here are the details - San Francisco Chronicle",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbW0tTXVjMlItOUFRSXI3YkRfV3Uxd0ZFZnFuQTJaZ3k5eWFRTm1pNWJGUHNncGpQWUJUd3hJZkZXWnd4MnRZUDMydlNnQng2a0dYQnZUcVNZQ2FkYXRTcnZoaDJ3QVhpbXVzNlR3aF93QW9DaW1pWWJ1VzFTZHNiS2RzRQ?oc=5",
+      "publishedAt": "2026-01-13",
+      "topic": "city_government",
+      "summary": "S.F. CEO council backed by Mayor Lurie revealed one of its projects. Here are the details &nbsp;&nbsp; San Francisco Chronicle",
+      "confidence": 0.68
     }
   ],
   "promises": [
@@ -1179,8 +850,82 @@
       "latest": null,
       "observations": [],
       "datasetId": "vw6y-z8j6",
-      "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-18T17:04:51.504Z"
+      "baseline": 5131,
+      "latest": 3703,
+      "direction": "down_is_good",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 5131
+        },
+        {
+          "date": "2025-02-01",
+          "value": 4536
+        },
+        {
+          "date": "2025-03-01",
+          "value": 4622
+        },
+        {
+          "date": "2025-04-01",
+          "value": 4019
+        },
+        {
+          "date": "2025-05-01",
+          "value": 4505
+        },
+        {
+          "date": "2025-06-01",
+          "value": 4565
+        },
+        {
+          "date": "2025-07-01",
+          "value": 5291
+        },
+        {
+          "date": "2025-08-01",
+          "value": 5750
+        },
+        {
+          "date": "2025-09-01",
+          "value": 5646
+        },
+        {
+          "date": "2025-10-01",
+          "value": 5085
+        },
+        {
+          "date": "2025-11-01",
+          "value": 4377
+        },
+        {
+          "date": "2025-12-01",
+          "value": 4491
+        },
+        {
+          "date": "2026-01-01",
+          "value": 4862
+        },
+        {
+          "date": "2026-02-01",
+          "value": 4675
+        },
+        {
+          "date": "2026-03-01",
+          "value": 5583
+        },
+        {
+          "date": "2026-04-01",
+          "value": 5519
+        },
+        {
+          "date": "2026-05-01",
+          "value": 3703
+        }
+      ],
+      "status": "public_sf_data_loaded",
+      "methodology": "Monthly count of SF311 records matching homelessness or encampment terms. Values are populated only from the public DataSF API.",
+      "lastRefreshed": "2026-05-18T12:54:51.711Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1205,85 +950,86 @@
       "id": "overdose-related-911-responses",
       "label": "Overdose-related EMS 911 responses",
       "topic": "public_safety",
-      "unit": "responses",
-      "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
+      "unit": "monthly incidents",
+      "source": "Public SF Data / DataSF Police Department Incident Reports: 2018 to Present",
+      "sourceUrl": "https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783",
+      "datasetId": "wg3w-h783",
+      "baseline": 6692,
+      "latest": 2496,
       "direction": "down_is_good",
-      "evidenceSourceIds": [
-        "datasf-overdose-related-911-responses"
-      ],
-      "status": "active",
-      "baseline": 30,
-      "latest": 169,
       "observations": [
         {
-          "date": "2024-12-01",
-          "value": 30
-        },
-        {
           "date": "2025-01-01",
-          "value": 262
+          "value": 6692
         },
         {
           "date": "2025-02-01",
-          "value": 274
+          "value": 6160
         },
         {
           "date": "2025-03-01",
-          "value": 342
+          "value": 6573
         },
         {
           "date": "2025-04-01",
-          "value": 275
+          "value": 6205
         },
         {
           "date": "2025-05-01",
-          "value": 330
+          "value": 6589
         },
         {
           "date": "2025-06-01",
-          "value": 244
+          "value": 6034
         },
         {
           "date": "2025-07-01",
-          "value": 239
+          "value": 6308
         },
         {
           "date": "2025-08-01",
-          "value": 294
+          "value": 6598
         },
         {
           "date": "2025-09-01",
-          "value": 219
+          "value": 6330
         },
         {
           "date": "2025-10-01",
-          "value": 235
+          "value": 6479
         },
         {
           "date": "2025-11-01",
-          "value": 300
+          "value": 6076
         },
         {
           "date": "2025-12-01",
-          "value": 175
+          "value": 5909
         },
         {
           "date": "2026-01-01",
-          "value": 263
+          "value": 5711
         },
         {
           "date": "2026-02-01",
-          "value": 198
+          "value": 5169
         },
         {
           "date": "2026-03-01",
-          "value": 169
+          "value": 5613
+        },
+        {
+          "date": "2026-04-01",
+          "value": 5422
+        },
+        {
+          "date": "2026-05-01",
+          "value": 2496
         }
       ],
-      "datasetId": "ed3a-sn39",
-      "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-18T17:04:51.505Z"
+      "status": "public_sf_data_loaded",
+      "methodology": "Monthly count of reported SFPD incidents from the public DataSF API. This is an activity/outcome indicator, not proof of causation.",
+      "lastRefreshed": "2026-05-18T12:54:54.107Z"
     },
     {
       "id": "overdose-response-naloxone-distribution",
@@ -1406,6 +1152,7 @@
         }
       ],
       "datasetId": "i98e-djp9",
+<<<<<<< HEAD
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
       "lastRefreshed": "2026-05-18T17:04:51.505Z"
     },
@@ -1515,6 +1262,84 @@
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
       "lastRefreshed": "2026-05-18T17:04:51.505Z"
+=======
+      "baseline": 1980,
+      "latest": 979,
+      "direction": "up_is_good",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 1980
+        },
+        {
+          "date": "2025-02-01",
+          "value": 1972
+        },
+        {
+          "date": "2025-03-01",
+          "value": 2135
+        },
+        {
+          "date": "2025-04-01",
+          "value": 2250
+        },
+        {
+          "date": "2025-05-01",
+          "value": 2258
+        },
+        {
+          "date": "2025-06-01",
+          "value": 2215
+        },
+        {
+          "date": "2025-07-01",
+          "value": 2281
+        },
+        {
+          "date": "2025-08-01",
+          "value": 2237
+        },
+        {
+          "date": "2025-09-01",
+          "value": 2204
+        },
+        {
+          "date": "2025-10-01",
+          "value": 2432
+        },
+        {
+          "date": "2025-11-01",
+          "value": 1914
+        },
+        {
+          "date": "2025-12-01",
+          "value": 2361
+        },
+        {
+          "date": "2026-01-01",
+          "value": 1992
+        },
+        {
+          "date": "2026-02-01",
+          "value": 1842
+        },
+        {
+          "date": "2026-03-01",
+          "value": 1945
+        },
+        {
+          "date": "2026-04-01",
+          "value": 1914
+        },
+        {
+          "date": "2026-05-01",
+          "value": 979
+        }
+      ],
+      "status": "public_sf_data_loaded",
+      "methodology": "Monthly count of building permit records from the public DataSF API. Used as a housing/economic activity indicator.",
+      "lastRefreshed": "2026-05-18T12:54:54.250Z"
+>>>>>>> 21fc6a2a50411043d53ddf2c27db581da1180fbe
     }
   ],
   "topics": [
