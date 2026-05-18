@@ -1,134 +1,171 @@
 #!/usr/bin/env node
 import { writeFile, readFile } from 'node:fs/promises';
-import { existsSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
+import { collectSfPublicMetrics } from './connectors/sf-public-data.mjs';
 
 const DATA_PATH = new URL('../public/data/daniel-lurie-tracker.json', import.meta.url);
 const isDryRun = process.argv.includes('--dry-run');
-const DATA_SF_DOMAIN = 'data.sfgov.org';
+const USER_AGENT = 'PoliticsTrackerMVP/0.2 (+https://example.local)';
+const MAX_SOURCES = 90;
+const MAX_SCRAPED_SOURCES = 28;
+const REQUEST_TIMEOUT_MS = 12000;
+const ANTHROPIC_REQUEST_TIMEOUT_MS = 120000;
+const ANTHROPIC_WEB_SEARCH_MAX_USES = 5;
 
 const TRACKED_QUERIES = [
   'Daniel Lurie mayor San Francisco announcement',
   'Daniel Lurie promise San Francisco homelessness public safety economy',
+  'Daniel Lurie San Francisco mayor housing fentanyl downtown climate transit',
   'site:sf.gov Daniel Lurie Mayor news',
+  'site:sf.gov "Mayor Daniel Lurie"',
+];
+
+const OFFICIAL_INDEX_PAGES = [
+  {
+    id: 'sf-mayor-news',
+    url: 'https://www.sf.gov/news-from-the-office-of-the-mayor',
+    title: 'News from the Office of the Mayor',
+    topic: 'city_government',
+  },
+];
+
+const DIRECT_NEWS_FEEDS = [
+  {
+    id: 'mission-local',
+    label: 'Mission Local',
+    url: 'https://missionlocal.org/feed/',
+    sourceType: 'news',
+    confidence: 0.82,
+  },
+  {
+    id: 'sfist',
+    label: 'SFist',
+    url: 'https://sfist.com/rss/',
+    sourceType: 'news',
+    confidence: 0.78,
+  },
+  {
+    id: 'abc7-bay-area',
+    label: 'ABC7 Bay Area',
+    url: 'https://abc7news.com/feed/',
+    sourceType: 'news',
+    confidence: 0.76,
+  },
+  {
+    id: 'kqed-news',
+    label: 'KQED News',
+    url: 'https://www.kqed.org/news/rss',
+    sourceType: 'news',
+    confidence: 0.8,
+  },
+];
+
+const WEB_SEARCH_ALLOWED_DOMAINS = [
+  'sf.gov',
+  'missionlocal.org',
+  'sfstandard.com',
+  'sfist.com',
+  'kqed.org',
+  'abc7news.com',
+  'cbsnews.com',
+  'ktvu.com',
+  'nbcbayarea.com',
+];
+
+const RELEVANCE_KEYWORDS = [
+  'daniel lurie',
+  'mayor lurie',
+  'mayor daniel lurie',
+  'san francisco mayor',
+  'sf mayor',
 ];
 
 const TOPIC_KEYWORDS = {
-  homelessness: ['homeless', 'shelter', 'behavioral health', 'encampment', 'housing'],
-  public_safety: ['crime', 'fentanyl', 'police', 'public safety', 'overdose', '911'],
-  economy: ['downtown', 'business', 'tourism', 'jobs', 'office', 'union square'],
-  climate: ['climate', 'emissions', 'energy', 'resilience'],
-  transit: ['transit', 'muni', 'bart', 'ridership'],
-  housing: ['housing', 'permit', 'rent', 'affordable'],
+  homelessness: ['homeless', 'shelter', 'behavioral health', 'encampment', 'unsheltered'],
+  public_safety: ['crime', 'fentanyl', 'police', 'public safety', 'overdose', '911', 'drug market'],
+  economy: ['downtown', 'business', 'tourism', 'jobs', 'office', 'union square', 'vacancy'],
+  climate: ['climate', 'emissions', 'energy', 'resilience', 'clean power'],
+  transit: ['transit', 'muni', 'bart', 'ridership', 'street safety'],
+  housing: ['housing', 'permit', 'rent', 'affordable', 'building'],
 };
 
-const PUBLIC_SF_METRIC_QUERIES = [
-  {
-    id: 'sf311-homelessness-requests',
-    datasetId: 'vw6y-z8j6',
-    label: 'SF311 homelessness-related service requests',
-    source: 'Public SF Data / DataSF Case Data from San Francisco 311 (SF311)',
-    sourceUrl: 'https://data.sfgov.org/City-Infrastructure/Case-Data-from-San-Francisco-311-SF311-/vw6y-z8j6',
-    topic: 'homelessness',
-    unit: 'monthly requests',
-    direction: 'down_is_good',
-    methodology: 'Monthly count of SF311 records matching homelessness or encampment terms. Values are populated only from the public DataSF API.',
-    endpoint: `https://${DATA_SF_DOMAIN}/resource/vw6y-z8j6.json`,
-    queryAttempts: [
-      {
-        $select: 'date_trunc_ym(requested_datetime) as month, count(*) as value',
-        $where: "requested_datetime >= '2025-01-01T00:00:00' AND (upper(service_name) like '%HOMELESS%' OR upper(service_subtype) like '%HOMELESS%' OR upper(service_details) like '%HOMELESS%' OR upper(service_name) like '%ENCAMPMENT%' OR upper(service_subtype) like '%ENCAMPMENT%' OR upper(service_details) like '%ENCAMPMENT%')",
-        $group: 'month',
-        $order: 'month',
-      },
-      {
-        $select: 'date_trunc_ym(opened) as month, count(*) as value',
-        $where: "opened >= '2025-01-01T00:00:00' AND (upper(category) like '%HOMELESS%' OR upper(request_type) like '%HOMELESS%' OR upper(request_details) like '%HOMELESS%' OR upper(category) like '%ENCAMPMENT%' OR upper(request_type) like '%ENCAMPMENT%' OR upper(request_details) like '%ENCAMPMENT%')",
-        $group: 'month',
-        $order: 'month',
-      },
-    ],
-  },
-  {
-    id: 'sfpd-reported-incidents',
-    datasetId: 'wg3w-h783',
-    label: 'SFPD reported incident count',
-    source: 'Public SF Data / DataSF Police Department Incident Reports: 2018 to Present',
-    sourceUrl: 'https://data.sfgov.org/Public-Safety/Police-Department-Incident-Reports-2018-to-Present/wg3w-h783',
-    topic: 'public_safety',
-    unit: 'monthly incidents',
-    direction: 'down_is_good',
-    methodology: 'Monthly count of reported SFPD incidents from the public DataSF API. This is an activity/outcome indicator, not proof of causation.',
-    endpoint: `https://${DATA_SF_DOMAIN}/resource/wg3w-h783.json`,
-    queryAttempts: [
-      {
-        $select: 'date_trunc_ym(incident_datetime) as month, count(distinct incident_id) as value',
-        $where: "incident_datetime >= '2025-01-01T00:00:00'",
-        $group: 'month',
-        $order: 'month',
-      },
-      {
-        $select: 'date_trunc_ym(incident_date) as month, count(*) as value',
-        $where: "incident_date >= '2025-01-01T00:00:00'",
-        $group: 'month',
-        $order: 'month',
-      },
-    ],
-  },
-  {
-    id: 'building-permit-filings',
-    datasetId: 'i98e-djp9',
-    label: 'Building permit filings',
-    source: 'Public SF Data / DataSF Building Permits',
-    sourceUrl: 'https://data.sfgov.org/Housing-and-Buildings/Building-Permits/i98e-djp9',
-    topic: 'housing',
-    unit: 'monthly permits',
-    direction: 'up_is_good',
-    methodology: 'Monthly count of building permit records from the public DataSF API. Used as a housing/economic activity indicator.',
-    endpoint: `https://${DATA_SF_DOMAIN}/resource/i98e-djp9.json`,
-    queryAttempts: [
-      {
-        $select: 'date_trunc_ym(filed_date) as month, count(*) as value',
-        $where: "filed_date >= '2025-01-01T00:00:00'",
-        $group: 'month',
-        $order: 'month',
-      },
-      {
-        $select: 'date_trunc_ym(permit_creation_date) as month, count(*) as value',
-        $where: "permit_creation_date >= '2025-01-01T00:00:00'",
-        $group: 'month',
-        $order: 'month',
-      },
-    ],
-  },
-];
+const TOPIC_ALIASES = new Map([
+  ['public safety', 'public_safety'],
+  ['public-safety', 'public_safety'],
+  ['government reform', 'city_government'],
+  ['government', 'city_government'],
+  ['childcare', 'city_government'],
+  ['budget', 'city_government'],
+  ['business', 'economy'],
+  ['downtown economy', 'economy'],
+]);
+
+const STATUS_VALUES = new Set(['not_started', 'in_progress', 'completed', 'delayed', 'broken', 'unclear']);
+const REVIEW_STATUSES = new Set(['pending_review', 'approved', 'rejected', 'needs_more_evidence']);
+const REVIEW_PRIORITIES = new Set(['high', 'medium', 'low']);
 
 async function main() {
-  const existing = JSON.parse(await readFile(DATA_PATH, 'utf8'));
-  const rssItems = await collectGoogleNewsItems();
-  const normalizedSources = rssItems.map(toSourceDocument);
-  const mergedSources = mergeByUrl(existing.sources, normalizedSources).slice(0, 60);
-  const publicSfMetrics = await collectPublicSfMetrics(existing.metrics || []);
+  loadLocalEnv();
 
-  const aiResult = await analyzeWithAi(mergedSources, existing);
-  const nextData = {
+  const existing = JSON.parse(await readFile(DATA_PATH, 'utf8'));
+  const [googleNewsItems, directNewsItems, webSearchItems, officialSources, publicSf] = await Promise.all([
+    collectGoogleNewsItems(),
+    collectDirectNewsItems(),
+    collectAnthropicWebSearchItems(),
+    collectOfficialIndexSources(),
+    collectSfPublicMetrics(),
+  ]);
+
+  const incomingSources = [
+    ...googleNewsItems.map(toSourceDocument),
+    ...directNewsItems.map(toSourceDocument),
+    ...webSearchItems.map(toSourceDocument),
+    ...officialSources,
+    ...publicSf.sources,
+  ];
+  const scrapedSources = await enrichSourcesWithPageText(incomingSources);
+  const mergedSources = pinReferencedSources(existing, mergeByUrl(existing.sources, scrapedSources)).slice(0, MAX_SOURCES);
+  const metrics = mergeMetrics(existing.metrics || [], publicSf.metrics);
+
+  const baseData = {
     ...existing,
     subject: {
       ...existing.subject,
       lastUpdated: new Date().toISOString(),
     },
     sources: mergedSources,
-    metrics: publicSfMetrics,
-    ...(aiResult || {}),
+    metrics,
   };
 
+  const aiResult = await analyzeWithAi(mergedSources, baseData);
+  const nextData = finalizeTrackerData({
+    ...baseData,
+    ...(aiResult || {}),
+  });
+
   if (isDryRun) {
-    console.log(`Dry run complete: ${rssItems.length} fetched, ${mergedSources.length} total sources, ${publicSfMetrics.length} Public SF metrics checked.`);
+    const scrapedCount = mergedSources.filter((source) => source.scrapeStatus === 'scraped').length;
+    const activeMetricCount = metrics.filter((metric) => metric.observations?.length).length;
+    console.log(`Dry run complete: ${googleNewsItems.length} Google News items, ${directNewsItems.length} direct news items, ${webSearchItems.length} Anthropic web-search items, ${officialSources.length} official links, ${mergedSources.length} merged sources.`);
+    console.log(`Scraped article/page excerpts: ${scrapedCount}; active Public SF metrics: ${activeMetricCount}/${metrics.length}.`);
     console.log(`Topics detected: ${[...new Set(mergedSources.map((source) => source.topic))].join(', ')}`);
     return;
   }
 
   await writeFile(DATA_PATH, `${JSON.stringify(nextData, null, 2)}\n`);
-  console.log(`Daniel Lurie tracker updated with ${mergedSources.length} sources and ${publicSfMetrics.length} Public SF metrics.`);
+  console.log(`Daniel Lurie tracker updated with ${nextData.sources.length} sources and ${nextData.metrics.length} Public SF metrics.`);
+}
+
+function loadLocalEnv() {
+  for (const envPath of [new URL('../.env', import.meta.url), new URL('../.env.local', import.meta.url)]) {
+    if (!existsSync(envPath)) continue;
+    const contents = readFileSync(envPath, 'utf8');
+    for (const line of contents.split(/\r?\n/)) {
+      const match = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/);
+      if (!match || process.env[match[1]]) continue;
+      process.env[match[1]] = match[2].replace(/^['"]|['"]$/g, '');
+    }
+  }
 }
 
 async function collectGoogleNewsItems() {
@@ -136,79 +173,356 @@ async function collectGoogleNewsItems() {
   for (const query of TRACKED_QUERIES) {
     const url = `https://news.google.com/rss/search?q=${encodeURIComponent(query)}&hl=en-US&gl=US&ceid=US:en`;
     try {
-      const response = await fetch(url, { headers: { 'User-Agent': 'PoliticsTrackerMVP/0.1' } });
-      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
-      const xml = await response.text();
-      results.push(...parseRss(xml));
+      const xml = await fetchText(url, { accept: 'application/rss+xml,application/xml,text/xml,*/*' });
+      results.push(...parseRss(xml).map((item) => ({
+        ...item,
+        discoverySource: 'Google News',
+        discoveryUrl: item.url,
+      })));
     } catch (error) {
-      console.warn(`Unable to fetch ${query}: ${error.message}`);
+      console.warn(`Unable to fetch Google News query "${query}": ${error.message}`);
     }
   }
   return results;
 }
 
-async function collectPublicSfMetrics(existingMetrics) {
-  const existingById = new Map(existingMetrics.map((metric) => [metric.id, metric]));
-  const metrics = [];
-  for (const metricConfig of PUBLIC_SF_METRIC_QUERIES) {
-    const existing = existingById.get(metricConfig.id) || {};
-    const metric = {
-      ...existing,
-      id: metricConfig.id,
-      label: metricConfig.label,
-      topic: metricConfig.topic,
-      unit: metricConfig.unit,
-      source: metricConfig.source,
-      sourceUrl: metricConfig.sourceUrl,
-      datasetId: metricConfig.datasetId,
-      direction: metricConfig.direction,
-      methodology: metricConfig.methodology,
-    };
-
+async function collectDirectNewsItems() {
+  const feedResults = await Promise.all(DIRECT_NEWS_FEEDS.map(async (feed) => {
     try {
-      const observations = await fetchPublicSfMetric(metricConfig);
-      metrics.push({
-        ...metric,
-        baseline: observations.at(0)?.value ?? null,
-        latest: observations.at(-1)?.value ?? null,
-        observations,
-        status: observations.length ? 'public_sf_data_loaded' : 'needs_public_sf_data',
-        lastRefreshed: new Date().toISOString(),
-      });
+      const xml = await fetchText(feed.url, { accept: 'application/rss+xml,application/atom+xml,application/xml,text/xml,*/*' });
+      return parseFeed(xml)
+        .filter(isRelevantNewsItem)
+        .map((item) => ({
+          ...item,
+          sourceLabel: feed.label,
+          sourceType: feed.sourceType,
+          sourceConfidence: feed.confidence,
+          discoverySource: feed.label,
+          discoveryUrl: feed.url,
+        }));
     } catch (error) {
-      console.warn(`Unable to refresh Public SF metric ${metricConfig.id}: ${error.message}`);
-      metrics.push({
-        ...metric,
-        baseline: metric.baseline ?? null,
-        latest: metric.latest ?? null,
-        observations: metric.observations || [],
-        status: metric.observations?.length ? 'public_sf_data_stale' : 'needs_public_sf_refresh',
-        lastError: error.message,
-      });
+      console.warn(`Unable to fetch direct news feed ${feed.label}: ${error.message}`);
+      return [];
     }
-  }
-  return metrics;
+  }));
+  return feedResults.flat();
 }
 
-async function fetchPublicSfMetric(metricConfig) {
-  let lastError;
-  for (const query of metricConfig.queryAttempts) {
-    const url = new URL(metricConfig.endpoint);
-    for (const [key, value] of Object.entries(query)) url.searchParams.set(key, value);
+async function collectAnthropicWebSearchItems() {
+  if (!process.env.ANTHROPIC_API_KEY) return [];
+
+  const prompt = `Use web search to find recent, credible source pages about Daniel Lurie as San Francisco mayor.
+Return JSON only: {"sources":[...]}.
+Each source must be a real article, official announcement, or public data page, not a search page.
+Prefer sources about promises, actions, outcomes, homelessness, public safety, housing, transit, economy, climate, and budget.
+Include at most 18 sources.
+Shape: { "title": string, "url": string, "publishedAt": "YYYY-MM-DD" | null, "publisher": string, "summary": string, "topic": string, "confidence": number }.
+Do not include approval ratings. Do not invent metric values.`;
+
+  try {
+    const response = await fetchJson('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': process.env.ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01',
+      },
+      body: JSON.stringify({
+        model: process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-5',
+        max_tokens: 5000,
+        system: 'You return only compact valid JSON. Use web search to discover current source URLs, but do not fabricate facts.',
+        messages: [{ role: 'user', content: prompt }],
+        tools: [{
+          type: 'web_search_20250305',
+          name: 'web_search',
+          max_uses: ANTHROPIC_WEB_SEARCH_MAX_USES,
+          allowed_domains: WEB_SEARCH_ALLOWED_DOMAINS,
+          user_location: {
+            type: 'approximate',
+            city: 'San Francisco',
+            region: 'California',
+            country: 'US',
+            timezone: 'America/Los_Angeles',
+          },
+        }],
+      }),
+    }, { timeoutMs: ANTHROPIC_REQUEST_TIMEOUT_MS });
+    const text = response.content?.filter((block) => block.type === 'text').map((block) => block.text).join('\n') || '';
+    const parsed = parseAiJson(text);
+    return (Array.isArray(parsed.sources) ? parsed.sources : [])
+      .map((source) => ({
+        title: source.title,
+        url: source.url,
+        publishedAt: normalizeDate(source.publishedAt) || new Date().toISOString().slice(0, 10),
+        summary: source.summary,
+        sourceLabel: source.publisher || 'Anthropic web search',
+        sourceType: source.url?.includes('sf.gov') ? 'official' : 'news',
+        sourceConfidence: clamp(Number(source.confidence ?? 0.74), 0.5, 0.9),
+        discoverySource: 'Anthropic web search',
+        discoveryUrl: source.url,
+        topic: source.topic,
+      }))
+      .filter((source) => source.title && source.url && isRelevantNewsItem(source));
+  } catch (error) {
+    console.warn(`Unable to run Anthropic web search discovery: ${error.message}`);
+    return [];
+  }
+}
+
+async function collectOfficialIndexSources() {
+  const sources = [];
+  for (const page of OFFICIAL_INDEX_PAGES) {
+    sources.push({
+      id: page.id,
+      title: page.title,
+      sourceType: 'official',
+      url: page.url,
+      publishedAt: new Date().toISOString().slice(0, 10),
+      topic: page.topic,
+      summary: 'Official San Francisco mayoral news index used as a primary announcement source.',
+      confidence: 0.95,
+    });
+
     try {
-      const response = await fetch(url, { headers: { Accept: 'application/json', 'User-Agent': 'PoliticsTrackerMVP/0.1' } });
-      if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
-      const rows = await response.json();
-      const observations = rows
-        .map((row) => ({ date: normalizeMetricMonth(row.month), value: Number(row.value || row.count || 0) }))
-        .filter((point) => point.date && Number.isFinite(point.value));
-      if (observations.length) return observations;
-      lastError = new Error('query returned no observations');
+      const html = await fetchText(page.url);
+      for (const link of extractOfficialNewsLinks(html, page.url)) {
+        sources.push(link);
+      }
     } catch (error) {
-      lastError = error;
+      console.warn(`Unable to scrape official index ${page.url}: ${error.message}`);
     }
   }
-  throw lastError || new Error('no query attempts configured');
+  return sources;
+}
+
+async function enrichSourcesWithPageText(sources) {
+  const deduped = mergeByUrl([], sources);
+  const enriched = [];
+  for (const [index, source] of deduped.entries()) {
+    const resolvedSource = await resolveSourceUrl(source);
+    if (index >= MAX_SCRAPED_SOURCES || !canScrape(resolvedSource.url)) {
+      enriched.push(resolvedSource);
+      continue;
+    }
+
+    try {
+      const html = await fetchText(resolvedSource.url);
+      const metadata = extractPageMetadata(html);
+      const bodyText = extractReadableText(html);
+      const summary = metadata.description || bodyText.slice(0, 420) || resolvedSource.summary;
+      enriched.push({
+        ...resolvedSource,
+        title: metadata.title || resolvedSource.title,
+        publishedAt: metadata.publishedAt || resolvedSource.publishedAt,
+        topic: detectTopic(`${resolvedSource.title} ${summary} ${bodyText}`),
+        summary: truncate(summary, 520),
+        excerpt: truncate(bodyText, 1800),
+        scrapeStatus: 'scraped',
+        confidence: Math.max(resolvedSource.confidence || 0, resolvedSource.sourceType === 'official' ? 0.9 : 0.8),
+      });
+    } catch (error) {
+      enriched.push({
+        ...resolvedSource,
+        scrapeStatus: 'fetch_failed',
+        scrapeError: error.message.slice(0, 160),
+      });
+    }
+  }
+  return enriched;
+}
+
+async function resolveSourceUrl(source) {
+  if (!source.url?.includes('news.google.com/')) return source;
+  try {
+    const html = await fetchText(source.url);
+    const publisherUrl = extractGoogleNewsPublisherUrl(html);
+    if (!publisherUrl || publisherUrl.includes('news.google.com/')) return source;
+    return {
+      ...source,
+      url: publisherUrl,
+      discoveryUrl: source.discoveryUrl || source.url,
+      resolvedFrom: 'google_news',
+    };
+  } catch (error) {
+    return {
+      ...source,
+      discoveryUrl: source.discoveryUrl || source.url,
+      resolveStatus: 'fetch_failed',
+      resolveError: error.message.slice(0, 160),
+    };
+  }
+}
+
+async function fetchText(url, { accept = 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' } = {}) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
+  try {
+    const response = await fetch(url, {
+      headers: {
+        Accept: accept,
+        'User-Agent': USER_AGENT,
+      },
+      signal: controller.signal,
+    });
+    if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
+    return await response.text();
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+async function fetchJson(url, options, { timeoutMs = REQUEST_TIMEOUT_MS * 4 } = {}) {
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), timeoutMs);
+  try {
+    const response = await fetch(url, {
+      ...options,
+      signal: controller.signal,
+    });
+    if (!response.ok) throw new Error(`${response.status} ${await response.text()}`);
+    return await response.json();
+  } finally {
+    clearTimeout(timeout);
+  }
+}
+
+function extractOfficialNewsLinks(html, baseUrl) {
+  const links = [];
+  const seen = new Set();
+  const anchorPattern = /<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi;
+  let match;
+
+  while ((match = anchorPattern.exec(html)) && links.length < 25) {
+    const url = normalizeUrl(match[1], baseUrl);
+    const title = stripTags(decodeXml(match[2]));
+    if (!url || seen.has(url) || !isRelevantOfficialLink(url, title)) continue;
+    seen.add(url);
+    links.push({
+      id: slugify(`${title}-${url}`),
+      title,
+      sourceType: 'official',
+      url,
+      publishedAt: inferDateFromText(`${title} ${url}`) || new Date().toISOString().slice(0, 10),
+      topic: detectTopic(title),
+      summary: 'Official SF.gov mayoral news link discovered from the mayoral news index.',
+      confidence: 0.9,
+    });
+  }
+  return links;
+}
+
+function isRelevantOfficialLink(url, title) {
+  const text = `${url} ${title}`.toLowerCase();
+  return url.includes('sf.gov') && text.includes('lurie') && (text.includes('/news') || text.includes('mayor'));
+}
+
+function canScrape(url) {
+  try {
+    const hostname = new URL(url).hostname;
+    return !hostname.includes('news.google.com') && !hostname.includes('youtube.com') && !hostname.includes('data.sfgov.org');
+  } catch {
+    return false;
+  }
+}
+
+function extractPageMetadata(html) {
+  const jsonLd = extractJsonLdArticle(html);
+  const title = jsonLd.headline || readMeta(html, 'og:title') || readMeta(html, 'twitter:title') || readTag(html, 'title');
+  const description = jsonLd.description || readMeta(html, 'description') || readMeta(html, 'og:description') || readMeta(html, 'twitter:description');
+  const publishedAt = normalizeDate(jsonLd.datePublished || readMeta(html, 'article:published_time') || readMeta(html, 'date') || readTimeTag(html) || inferDateFromText(html));
+  return {
+    title: cleanText(title),
+    description: cleanText(description),
+    publishedAt,
+  };
+}
+
+function readMeta(html, name) {
+  const escapedName = name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  const patterns = [
+    new RegExp(`<meta[^>]+(?:name|property)=["']${escapedName}["'][^>]+content=["']([^"']+)["'][^>]*>`, 'i'),
+    new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]+(?:name|property)=["']${escapedName}["'][^>]*>`, 'i'),
+  ];
+  return patterns.map((pattern) => html.match(pattern)?.[1]).find(Boolean) || '';
+}
+
+function readTimeTag(html) {
+  const match = html.match(/<time\b[^>]*datetime=["']([^"']+)["'][^>]*>/i);
+  return match?.[1] || '';
+}
+
+function extractReadableText(html) {
+  const jsonLd = extractJsonLdArticle(html);
+  const withoutNoise = html
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<svg[\s\S]*?<\/svg>/gi, ' ')
+    .replace(/<nav[\s\S]*?<\/nav>/gi, ' ')
+    .replace(/<footer[\s\S]*?<\/footer>/gi, ' ');
+  const article = withoutNoise.match(/<article\b[\s\S]*?<\/article>/i)?.[0] || withoutNoise.match(/<main\b[\s\S]*?<\/main>/i)?.[0] || withoutNoise;
+  const text = cleanText(jsonLd.articleBody || stripTags(decodeXml(article))).slice(0, 6000);
+  if (/verify that you'?re not a robot/i.test(text)) {
+    throw new Error('page returned bot verification challenge');
+  }
+  return text;
+}
+
+function extractJsonLdArticle(html) {
+  const scripts = html.match(/<script[^>]+type=["']application\/ld\+json["'][^>]*>[\s\S]*?<\/script>/gi) || [];
+  for (const script of scripts) {
+    const rawJson = script.replace(/^<script[^>]*>/i, '').replace(/<\/script>$/i, '').trim();
+    try {
+      const parsed = JSON.parse(decodeXml(rawJson));
+      const article = findArticleNode(parsed);
+      if (article) return article;
+    } catch {
+      // Ignore malformed JSON-LD; metadata fallbacks handle the page.
+    }
+  }
+  return {};
+}
+
+function findArticleNode(node) {
+  if (!node || typeof node !== 'object') return null;
+  if (Array.isArray(node)) return node.map(findArticleNode).find(Boolean) || null;
+  const type = Array.isArray(node['@type']) ? node['@type'].join(' ') : String(node['@type'] || '');
+  if (/NewsArticle|Article|ReportageNewsArticle/i.test(type)) return node;
+  return findArticleNode(node['@graph']);
+}
+
+function extractGoogleNewsPublisherUrl(html) {
+  const candidates = [
+    ...extractUrlsFromGoogleNewsAttributes(html),
+    ...extractUrlsFromGoogleNewsText(html),
+  ];
+  return candidates.find((url) => isLikelyPublisherUrl(url)) || null;
+}
+
+function extractUrlsFromGoogleNewsAttributes(html) {
+  const urls = [];
+  const attrPattern = /\b(?:href|url)=["']([^"']+)["']/gi;
+  let match;
+  while ((match = attrPattern.exec(html))) {
+    const url = normalizeUrl(decodeXml(match[1]), 'https://news.google.com/');
+    if (url) urls.push(url);
+  }
+  return urls;
+}
+
+function extractUrlsFromGoogleNewsText(html) {
+  return (html.match(/https?:\/\/[^"'<>\s\\]+/g) || []).map((url) => decodeXml(url));
+}
+
+function isLikelyPublisherUrl(url) {
+  try {
+    const hostname = new URL(url).hostname.replace(/^www\./, '');
+    return !hostname.includes('google.')
+      && !hostname.includes('gstatic.')
+      && !hostname.includes('googleusercontent.')
+      && !hostname.includes('schema.org');
+  } catch {
+    return false;
+  }
 }
 
 function parseRss(xml) {
@@ -221,78 +535,213 @@ function parseRss(xml) {
   })).filter((item) => item.title && item.url);
 }
 
+function parseFeed(xml) {
+  const rssItems = parseRss(xml);
+  if (rssItems.length) return rssItems;
+  return parseAtom(xml);
+}
+
+function parseAtom(xml) {
+  const entryBlocks = xml.match(/<entry\b[\s\S]*?<\/entry>/g) || [];
+  return entryBlocks.map((block) => ({
+    title: decodeXml(readTag(block, 'title')),
+    url: decodeXml(readAtomLink(block)),
+    publishedAt: normalizeDate(decodeXml(readTag(block, 'published') || readTag(block, 'updated'))),
+    summary: stripTags(decodeXml(readTag(block, 'summary') || readTag(block, 'content'))),
+  })).filter((item) => item.title && item.url);
+}
+
+function readAtomLink(block) {
+  return block.match(/<link\b[^>]*rel=["']alternate["'][^>]*href=["']([^"']+)["'][^>]*>/i)?.[1]
+    || block.match(/<link\b[^>]*href=["']([^"']+)["'][^>]*>/i)?.[1]
+    || '';
+}
+
+function isRelevantNewsItem(item) {
+  const text = `${item.title} ${item.summary}`.toLowerCase();
+  return RELEVANCE_KEYWORDS.some((keyword) => text.includes(keyword));
+}
+
 function readTag(block, tagName) {
   const match = block.match(new RegExp(`<${tagName}[^>]*>([\\s\\S]*?)<\\/${tagName}>`, 'i'));
   return match?.[1]?.replace(/^<!\[CDATA\[/, '').replace(/\]\]>$/, '').trim() || '';
 }
 
-function decodeXml(value) {
+function decodeXml(value = '') {
   return value
     .replace(/&amp;/g, '&')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'");
+    .replace(/&#39;/g, "'")
+    .replace(/&nbsp;/g, ' ');
 }
 
-function stripTags(value) {
+function stripTags(value = '') {
   return value.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
+function cleanText(value = '') {
+  return stripTags(decodeXml(value)).replace(/\s+/g, ' ').trim();
+}
+
 function normalizeDate(value) {
+  if (!value) return null;
   const parsed = new Date(value);
-  if (Number.isNaN(parsed.getTime())) return new Date().toISOString().slice(0, 10);
+  if (Number.isNaN(parsed.getTime())) return null;
   return parsed.toISOString().slice(0, 10);
 }
 
-function normalizeMetricMonth(value) {
-  if (!value) return null;
-  const parsed = new Date(value);
-  if (!Number.isNaN(parsed.getTime())) return parsed.toISOString().slice(0, 10);
-  const match = String(value).match(/^(\d{4}-\d{2})/);
-  return match ? `${match[1]}-01` : null;
+function inferDateFromText(value = '') {
+  const match = String(value).match(/\b(20\d{2})[-/](\d{1,2})[-/](\d{1,2})\b/);
+  if (!match) return null;
+  return normalizeDate(`${match[1]}-${match[2].padStart(2, '0')}-${match[3].padStart(2, '0')}`);
 }
 
 function toSourceDocument(item) {
-  const text = `${item.title} ${item.summary}`.toLowerCase();
-  const topic = Object.entries(TOPIC_KEYWORDS).find(([, keywords]) => keywords.some((keyword) => text.includes(keyword)))?.[0] || 'city_government';
+  const topic = detectTopic(`${item.title} ${item.summary}`);
   return {
     id: slugify(`${item.title}-${item.publishedAt}`),
     title: item.title,
-    sourceType: item.url.includes('sf.gov') || item.url.includes('sfgov.org') ? 'official' : 'news',
+    sourceType: item.sourceType || (item.url.includes('sf.gov') || item.url.includes('sfgov.org') ? 'official' : 'news'),
     url: item.url,
-    publishedAt: item.publishedAt,
-    topic,
+    discoveryUrl: item.discoveryUrl,
+    discoverySource: item.discoverySource,
+    publisher: item.sourceLabel,
+    publishedAt: item.publishedAt || new Date().toISOString().slice(0, 10),
+    topic: normalizeTopic(item.topic || topic),
     summary: item.summary || 'Fetched from Google News RSS for Daniel Lurie monitoring.',
-    confidence: topic === 'city_government' ? 0.68 : 0.78,
+    confidence: item.sourceConfidence || (topic === 'city_government' ? 0.68 : 0.78),
   };
+}
+
+function detectTopic(value = '') {
+  const text = value.toLowerCase();
+  return Object.entries(TOPIC_KEYWORDS).find(([, keywords]) => keywords.some((keyword) => text.includes(keyword)))?.[0] || 'city_government';
+}
+
+function normalizeTopic(value = '') {
+  const normalized = String(value).trim().toLowerCase().replace(/\s+/g, '_');
+  return TOPIC_KEYWORDS[normalized] ? normalized : TOPIC_ALIASES.get(String(value).trim().toLowerCase()) || detectTopic(value);
 }
 
 function mergeByUrl(existing, incoming) {
   const map = new Map();
   for (const source of [...incoming, ...existing]) {
-    if (!source.url) continue;
-    map.set(source.url, source);
+    if (!source?.url) continue;
+    const key = canonicalUrl(source.url);
+    const previous = map.get(key);
+    map.set(key, chooseRicherSource(previous, source));
   }
-  return [...map.values()].sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  return [...map.values()].sort((a, b) => String(b.publishedAt || '').localeCompare(String(a.publishedAt || '')));
 }
 
-async function analyzeWithAi(sources, existing) {
+function chooseRicherSource(left, right) {
+  if (!left) return right;
+  const leftScore = sourceRichnessScore(left);
+  const rightScore = sourceRichnessScore(right);
+  return rightScore >= leftScore ? right : left;
+}
+
+function sourceRichnessScore(source) {
+  return Number(source.confidence || 0) * 100
+    + (source.excerpt ? 25 : 0)
+    + (source.sourceType === 'official' ? 20 : 0)
+    + Math.min(String(source.summary || '').length / 50, 10)
+    - (source.scrapeStatus === 'fetch_failed' ? 20 : 0);
+}
+
+function pinReferencedSources(existing, sources) {
+  const referencedIds = new Set([
+    ...flatMap(existing.promises, (promise) => promise.evidenceSourceIds),
+    ...flatMap(existing.timeline, (item) => item.sourceIds),
+    ...flatMap(existing.claims, (claim) => [claim.sourceId]),
+  ].filter(Boolean));
+  const byId = new Map(sources.map((source) => [source.id, source]));
+  for (const source of existing.sources || []) {
+    if (referencedIds.has(source.id) && !byId.has(source.id)) byId.set(source.id, source);
+  }
+  const pinned = [...referencedIds].map((id) => byId.get(id)).filter(Boolean);
+  const pinnedIds = new Set(pinned.map((source) => source.id));
+  return [...pinned, ...sources.filter((source) => !pinnedIds.has(source.id))];
+}
+
+function flatMap(value, mapFn) {
+  return Array.isArray(value) ? value.flatMap(mapFn) : [];
+}
+
+function canonicalUrl(url) {
+  try {
+    const parsed = new URL(url);
+    for (const key of [...parsed.searchParams.keys()]) {
+      if (key.startsWith('utm_') || key === 'fbclid' || key === 'gclid') parsed.searchParams.delete(key);
+    }
+    parsed.hash = '';
+    return parsed.toString().replace(/\/$/, '');
+  } catch {
+    return url;
+  }
+}
+
+function normalizeUrl(url, baseUrl) {
+  try {
+    return new URL(url, baseUrl).toString();
+  } catch {
+    return null;
+  }
+}
+
+function mergeMetrics(existingMetrics, incomingMetrics) {
+  const existingById = new Map(existingMetrics.map((metric) => [metric.id, metric]));
+  return incomingMetrics.map((metric) => ({
+    ...existingById.get(metric.id),
+    ...metric,
+    datasetId: metric.datasetId || inferDatasetId(metric.sourceUrl),
+    methodology: metric.methodology || metric.source,
+    lastRefreshed: new Date().toISOString(),
+  }));
+}
+
+function inferDatasetId(url) {
+  return String(url || '').match(/\/d\/([a-z0-9-]+)/i)?.[1] || null;
+}
+
+async function analyzeWithAi(sources, data) {
   if (!process.env.ANTHROPIC_API_KEY) {
-    console.log('ANTHROPIC_API_KEY not set; skipping AI enrichment and keeping existing structured promises/claims/metrics.');
+    console.log('ANTHROPIC_API_KEY not set; skipping AI enrichment and keeping existing structured promises/claims.');
     return null;
   }
 
-  const prompt = `You are maintaining a civic accountability dashboard for Daniel Lurie, Mayor of San Francisco.
-Return JSON only with optional keys promises, claims, topics, timeline, reviewQueue.
-Use balanced sourcing: official sources plus reputable local/national reporting.
-Use Public SF/DataSF metrics for outcome data. Never create approval ratings.
-No fabricated values: if evidence is missing, set progress to null, status to "unclear", and send the item to reviewQueue.
-Do not invent facts. Use these source titles/summaries and preserve evidence source ids.
+  const prompt = `Maintain a civic accountability dashboard for Daniel Lurie, Mayor of San Francisco.
+Return compact JSON only with keys promises, claims, timeline, reviewQueue. Do not include topics.
+
+Rules:
+- Extract only the most important commitments, claims, and events supported by the provided source records.
+- Return at most 12 promises, 12 claims, 16 timeline items, and 16 reviewQueue items.
+- Preserve source ids exactly in evidenceSourceIds/sourceIds/sourceId.
+- Never create approval ratings.
+- Never fabricate outcome values. If public metric evidence is missing, set progress to null, status to "unclear", and add a reviewQueue item.
+- Use status values only: not_started, in_progress, completed, delayed, broken, unclear.
+- Use reviewStatus values only: pending_review, approved, rejected, needs_more_evidence.
+- Keep claims as verification tasks, not partisan judgments.
+
+Expected shapes:
+promise = { id, text, dateMade, deadline, topic, status, progress, evidenceSourceIds, aiConfidence, statusNote, reviewStatus, linkedMetricIds }
+claim = { id, claim, sourceId, topic, verdict, confidence, evidencePlan }
+timeline item = { id, date, type, title, topic, impact, sourceIds }
+review item = { id, priority, itemType, title, reason, relatedIds }
+
 Sources:
-${JSON.stringify(sources.slice(0, 20), null, 2)}
-Existing promises and claims:
-${JSON.stringify({ promises: existing.promises, claims: existing.claims, topics: existing.topics, metrics: existing.metrics }, null, 2)}`;
+${JSON.stringify(sources.slice(0, 24).map(sourceForAi), null, 2)}
+
+Current structured data:
+${JSON.stringify({
+  promises: data.promises,
+  claims: data.claims,
+  topics: data.topics,
+  metrics: data.metrics,
+  timeline: data.timeline,
+}, null, 2)}`;
 
   try {
     const response = await fetch('https://api.anthropic.com/v1/messages', {
@@ -304,23 +753,235 @@ ${JSON.stringify({ promises: existing.promises, claims: existing.claims, topics:
       },
       body: JSON.stringify({
         model: process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-5',
-        max_tokens: 4000,
-        system: 'You output only valid JSON. Never include markdown fences, prose, citations outside fields, fabricated metric values, or approval ratings.',
+        max_tokens: 12000,
+        system: 'You output only valid JSON. Never include markdown fences, prose, approval ratings, or fabricated metric values.',
         messages: [{ role: 'user', content: prompt }],
       }),
     });
     if (!response.ok) throw new Error(`${response.status} ${await response.text()}`);
     const payload = await response.json();
     const text = payload.content?.filter((block) => block.type === 'text').map((block) => block.text).join('\n') || '';
-    return JSON.parse(text);
+    return parseAiJson(text);
   } catch (error) {
     console.warn(`AI enrichment failed: ${error.message}`);
     return null;
   }
 }
 
+function sourceForAi(source) {
+  return {
+    id: source.id,
+    title: source.title,
+    sourceType: source.sourceType,
+    publisher: source.publisher,
+    discoverySource: source.discoverySource,
+    url: source.url,
+    discoveryUrl: source.discoveryUrl,
+    publishedAt: source.publishedAt,
+    topic: source.topic,
+    summary: source.summary,
+    excerpt: source.excerpt,
+    confidence: source.confidence,
+  };
+}
+
+function parseAiJson(text) {
+  try {
+    return JSON.parse(text);
+  } catch {
+    const match = text.match(/\{[\s\S]*\}/);
+    if (!match) throw new Error('Claude response did not contain a JSON object');
+    return JSON.parse(match[0]);
+  }
+}
+
+function finalizeTrackerData(data) {
+  const sourceIds = new Set(data.sources.map((source) => source.id));
+  const metricIds = new Set(data.metrics.map((metric) => metric.id));
+  const promises = cleanPromises(data.promises || [], sourceIds, metricIds);
+  const claims = cleanClaims(data.claims || [], sourceIds);
+  const timeline = cleanTimeline(data.timeline || [], sourceIds);
+  const reviewQueue = cleanReviewQueue(data.reviewQueue || []);
+
+  return {
+    ...data,
+    connectors: updateConnectors(data.connectors || []),
+    promises,
+    claims,
+    timeline,
+    reviewQueue: mergeReviewQueue(reviewQueue, promises, data.metrics),
+    topics: deriveTopics(data.topics || [], promises, data.metrics),
+  };
+}
+
+function updateConnectors(connectors) {
+  const updates = [
+    {
+      id: 'direct-news-rss',
+      label: 'Direct local news RSS',
+      status: 'ready',
+      cadence: 'Every refresh',
+      output: 'Publisher RSS records from local Bay Area news sources',
+      nextStep: 'Add more stable publisher feeds as they are verified.',
+    },
+    {
+      id: 'anthropic-web-search',
+      label: 'Anthropic web search',
+      status: process.env.ANTHROPIC_API_KEY ? 'ready' : 'planned',
+      cadence: 'Every refresh when API key is configured',
+      output: 'Current source discovery across approved official and news domains',
+      nextStep: 'Use search results as discovery evidence; charts still require verified public datasets.',
+    },
+  ];
+  const byId = new Map(connectors.map((connector) => [connector.id, connector]));
+  for (const connector of updates) byId.set(connector.id, { ...byId.get(connector.id), ...connector });
+  return [...byId.values()];
+}
+
+function cleanPromises(promises, sourceIds, metricIds) {
+  return promises
+    .map((promise) => {
+      const evidenceSourceIds = arrayOfStrings(promise.evidenceSourceIds).filter((id) => sourceIds.has(id));
+      const linkedMetricIds = arrayOfStrings(promise.linkedMetricIds).filter((id) => metricIds.has(id));
+      return {
+        id: slugify(promise.id || promise.text || crypto.randomUUID()),
+        text: String(promise.text || '').trim(),
+        dateMade: normalizeDate(promise.dateMade) || 'unknown',
+        deadline: normalizeDate(promise.deadline) || 'unknown',
+        topic: promise.topic || detectTopic(promise.text),
+        status: STATUS_VALUES.has(promise.status) ? promise.status : 'unclear',
+        progress: Number.isFinite(promise.progress) ? clamp(Math.round(promise.progress), 0, 100) : null,
+        evidenceSourceIds,
+        aiConfidence: clamp(Number(promise.aiConfidence ?? 0.5), 0, 1),
+        statusNote: String(promise.statusNote || 'Needs verified evidence before status can be scored.').trim(),
+        reviewStatus: REVIEW_STATUSES.has(promise.reviewStatus) ? promise.reviewStatus : 'pending_review',
+        linkedMetricIds,
+      };
+    })
+    .filter((promise) => promise.text && promise.evidenceSourceIds.length);
+}
+
+function cleanClaims(claims, sourceIds) {
+  return claims
+    .map((claim) => ({
+      id: slugify(claim.id || claim.claim || crypto.randomUUID()),
+      claim: String(claim.claim || '').trim(),
+      sourceId: sourceIds.has(claim.sourceId) ? claim.sourceId : null,
+      topic: claim.topic || detectTopic(claim.claim),
+      verdict: String(claim.verdict || 'unverified').trim(),
+      confidence: clamp(Number(claim.confidence ?? 0.5), 0, 1),
+      evidencePlan: String(claim.evidencePlan || 'Needs source-backed verification.').trim(),
+    }))
+    .filter((claim) => claim.claim && claim.sourceId);
+}
+
+function cleanTimeline(timeline, sourceIds) {
+  return timeline
+    .map((item) => ({
+      id: slugify(item.id || item.title || crypto.randomUUID()),
+      date: normalizeDate(item.date) || 'unknown',
+      type: String(item.type || 'event').trim(),
+      title: String(item.title || '').trim(),
+      topic: item.topic || detectTopic(item.title),
+      impact: String(item.impact || '').trim(),
+      sourceIds: arrayOfStrings(item.sourceIds).filter((id) => sourceIds.has(id)),
+    }))
+    .filter((item) => item.title && item.sourceIds.length)
+    .sort((a, b) => String(a.date).localeCompare(String(b.date)));
+}
+
+function cleanReviewQueue(reviewQueue) {
+  return reviewQueue
+    .map((item) => ({
+      id: slugify(item.id || item.title || crypto.randomUUID()),
+      priority: REVIEW_PRIORITIES.has(item.priority) ? item.priority : 'medium',
+      itemType: String(item.itemType || 'human_review').trim(),
+      title: String(item.title || '').trim(),
+      reason: String(item.reason || 'Needs human review before public scoring.').trim(),
+      relatedIds: arrayOfStrings(item.relatedIds),
+    }))
+    .filter((item) => item.title);
+}
+
+function mergeReviewQueue(reviewQueue, promises, metrics) {
+  const byId = new Map(reviewQueue.map((item) => [item.id, item]));
+  for (const promise of promises) {
+    if (promise.reviewStatus !== 'approved' || promise.status === 'unclear') {
+      const id = `review-${promise.id}`;
+      if (!byId.has(id)) {
+        byId.set(id, {
+          id,
+          priority: promise.aiConfidence < 0.75 ? 'high' : 'medium',
+          itemType: 'promise_status',
+          title: `Review promise: ${truncate(promise.text, 72)}`,
+          reason: 'Confirm source interpretation, status label, progress value, and linked metrics before scoring.',
+          relatedIds: [promise.id, ...promise.evidenceSourceIds],
+        });
+      }
+    }
+  }
+  for (const metric of metrics) {
+    if (!metric.observations?.length) {
+      const id = `review-metric-${metric.id}`;
+      if (!byId.has(id)) {
+        byId.set(id, {
+          id,
+          priority: 'medium',
+          itemType: 'metric_mapping',
+          title: `Verify metric source: ${metric.label}`,
+          reason: 'No verified observations were loaded; confirm the public dataset, query fields, and dashboard mapping.',
+          relatedIds: [metric.id],
+        });
+      }
+    }
+  }
+  return [...byId.values()];
+}
+
+function deriveTopics(existingTopics, promises, metrics) {
+  const byId = new Map(existingTopics.map((topic) => [topic.id, topic]));
+  const topicIds = new Set([...promises.map((promise) => promise.topic), ...metrics.map((metric) => metric.topic)]);
+  return [...topicIds].sort().map((id) => {
+    const topicPromises = promises.filter((promise) => promise.topic === id);
+    const progressValues = topicPromises.map((promise) => promise.progress).filter(Number.isFinite);
+    const activeMetrics = metrics.filter((metric) => metric.topic === id && metric.observations?.length);
+    return {
+      id,
+      label: byId.get(id)?.label || titleCase(id),
+      promiseCount: topicPromises.length,
+      averageProgress: progressValues.length ? Math.round(progressValues.reduce((sum, value) => sum + value, 0) / progressValues.length) : null,
+      risk: byId.get(id)?.risk || (activeMetrics.length ? 'medium' : 'review'),
+      insight: topicInsight(id, activeMetrics.length, topicPromises.length),
+    };
+  });
+}
+
+function topicInsight(id, activeMetricCount, promiseCount) {
+  if (!promiseCount) return 'Public metric is available, but no Daniel Lurie promise has been linked yet.';
+  if (!activeMetricCount) return 'Needs a verified Public SF/DataSF metric before progress should be scored.';
+  return `${activeMetricCount} Public SF metric${activeMetricCount === 1 ? '' : 's'} connected; status still requires human review before causal claims.`;
+}
+
+function arrayOfStrings(value) {
+  return Array.isArray(value) ? value.filter((item) => typeof item === 'string' && item.trim()) : [];
+}
+
+function clamp(value, min, max) {
+  if (!Number.isFinite(value)) return min;
+  return Math.max(min, Math.min(max, value));
+}
+
+function titleCase(value) {
+  return String(value).replaceAll('_', ' ').replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+function truncate(value, length) {
+  const text = String(value || '').trim();
+  return text.length > length ? `${text.slice(0, length - 3).trim()}...` : text;
+}
+
 function slugify(value) {
-  return value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '').slice(0, 80);
+  return String(value).toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '').slice(0, 80) || 'item';
 }
 
 if (!existsSync(DATA_PATH)) {
