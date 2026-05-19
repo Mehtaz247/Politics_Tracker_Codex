@@ -31,6 +31,7 @@ async function boot() {
 
 function render() {
   const data = trackerData;
+  const featuredCharts = buildFeaturedCharts(data);
   const statusCounts = countBy(data.promises, 'status');
   const progressValues = data.promises.map((promise) => promise.progress).filter((value) => Number.isFinite(value));
   const averageProgress = progressValues.length ? Math.round(progressValues.reduce((sum, value) => sum + value, 0) / progressValues.length) : null;
@@ -75,6 +76,12 @@ function render() {
       <div class="panel">
         ${sectionTitle(icon.sparkles, 'Topic dashboards', 'Public SF data focus areas')}
         <div class="topic-grid">${data.topics.map(topicCard).join('')}</div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="panel">
+        ${sectionTitle(icon.chart, 'Featured Charts', 'AI-selected charts and indicator updates built from the latest feeds')}
+        <div class="featured-chart-grid">${featuredCharts.length ? featuredCharts.map((chart) => renderFeaturedChart(chart, data)).join('') : emptyState('No featured charts available yet.')}</div>
       </div>
     </section>
     <section class="section">
@@ -236,6 +243,76 @@ function topicCard(topic) {
   return `<article class="topic-card"><div class="topic-header"><strong>${topic.label}</strong><span class="risk ${topic.risk}">${topic.risk}</span></div>${Number.isFinite(topic.averageProgress) ? progressBar(topic.averageProgress) : noDataBadge('No verified progress')}<p>${topic.insight}</p></article>`;
 }
 
+function buildFeaturedCharts(data) {
+  const wanted = new Set([
+    'homelessness-milestone-timeline',
+    'public-safety-leadership-timeline',
+    'homelessness-encampment-trend-comparison',
+  ]);
+  return (data.chartRecommendations || []).filter((chart) => wanted.has(chart.id));
+}
+
+function renderFeaturedChart(chart, data) {
+  if (chart.chartType === 'timeline') return featuredTimelineChart(chart, data);
+  if (chart.id === 'homelessness-encampment-trend-comparison') return enhancedMetricChart(chart, data);
+  return chartRecommendationCard(chart);
+}
+
+function featuredTimelineChart(chart, data) {
+  const spec = parseChartSpec(chart.spec);
+  const events = Array.isArray(spec.events) ? spec.events : [];
+  const linkedSources = sourceLinks(chart.sourceIds, data);
+  return `<article class="featured-chart-card">
+    <div class="metric-chart-head">
+      <div><span>${pretty(chart.topic)}</span><h3>${chart.title}</h3></div>
+      <strong class="good">${pretty(chart.action)}</strong>
+    </div>
+    <p>${chart.rationale}</p>
+    <div class="feature-timeline">
+      ${events.map((event, index) => `<div class="feature-timeline-item"><span class="feature-step">${index + 1}</span><div><time>${formatDate(event.date)}</time><strong>${event.label}</strong></div></div>`).join('')}
+    </div>
+    ${linkedSources ? `<small class="metric-footnote">${linkedSources}</small>` : ''}
+  </article>`;
+}
+
+function enhancedMetricChart(chart, data) {
+  const metric = (data.metrics || []).find((item) => chart.metricIds?.includes(item.id));
+  if (!metric?.observations?.length) return chartRecommendationCard(chart);
+  const spec = parseChartSpec(chart.spec);
+  const values = metric.observations.map((point) => point.value);
+  const max = Math.max(...values);
+  const min = Math.min(...values);
+  const points = metric.observations.map((point, index) => {
+    const x = (index / Math.max(metric.observations.length - 1, 1)) * 100;
+    const y = 88 - ((point.value - min) / Math.max(max - min, 1)) * 68;
+    return { x, y, date: point.date, value: point.value };
+  });
+  const polyline = points.map((point) => `${point.x},${point.y}`).join(' ');
+  const recentPoints = spec.emphasizeRecent ? points.slice(-4).map((point) => `${point.x},${point.y}`).join(' ') : '';
+  const trend = spec.showTrendline ? regressionLine(points) : null;
+  const linkedSources = sourceLinks(chart.sourceIds, data);
+  return `<article class="featured-chart-card">
+    <div class="metric-chart-head">
+      <div><span>${pretty(chart.topic)}</span><h3>${chart.title}</h3></div>
+      <strong class="good">${metric.latest - metric.baseline > 0 ? '+' : ''}${metric.latest - metric.baseline}</strong>
+    </div>
+    <p>${chart.rationale}</p>
+    <svg class="featured-metric-svg" viewBox="0 0 100 100" role="img" aria-label="${chart.title}">
+      <polyline points="${polyline}" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></polyline>
+      ${recentPoints ? `<polyline points="${recentPoints}" fill="none" stroke="#1fc7a5" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"></polyline>` : ''}
+      ${trend ? `<line x1="${trend.x1}" y1="${trend.y1}" x2="${trend.x2}" y2="${trend.y2}" class="trendline"></line>` : ''}
+      ${points.map((point) => `<circle cx="${point.x}" cy="${point.y}" r="${point === points[points.length - 1] ? 3.8 : 2.6}"></circle>`).join('')}
+    </svg>
+    <div class="feature-stat-row">
+      <span>Baseline ${metric.baseline}</span>
+      <span>Latest ${metric.latest}</span>
+      <span>${metric.observations.length} months</span>
+    </div>
+    <p class="progress-basis">${chart.updateReason || chart.spec}</p>
+    ${linkedSources ? `<small class="metric-footnote">${linkedSources}</small>` : ''}
+  </article>`;
+}
+
 function chartRecommendationCard(chart) {
   const refs = [
     `${chart.action} ${pretty(chart.chartType)}`,
@@ -269,6 +346,46 @@ function countBy(records, key) {
 
 function pretty(value) {
   return value.replaceAll('_', ' ');
+}
+
+function parseChartSpec(spec) {
+  if (!spec) return {};
+  if (typeof spec === 'object') return spec;
+  try {
+    return JSON.parse(spec);
+  } catch {
+    return {};
+  }
+}
+
+function sourceLinks(sourceIds, data) {
+  const byId = new Map((data.sources || []).map((source) => [source.id, source]));
+  const labels = sourceIds.map((id) => byId.get(id)?.title).filter(Boolean).slice(0, 3);
+  return labels.length ? `Linked sources: ${labels.join(' · ')}` : '';
+}
+
+function formatDate(value) {
+  if (!value) return 'Unknown';
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? value : date.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+}
+
+function regressionLine(points) {
+  if (points.length < 2) return null;
+  const xs = points.map((_, index) => index);
+  const ys = points.map((point) => point.y);
+  const meanX = xs.reduce((sum, value) => sum + value, 0) / xs.length;
+  const meanY = ys.reduce((sum, value) => sum + value, 0) / ys.length;
+  const numerator = xs.reduce((sum, value, index) => sum + ((value - meanX) * (ys[index] - meanY)), 0);
+  const denominator = xs.reduce((sum, value) => sum + ((value - meanX) ** 2), 0) || 1;
+  const slope = numerator / denominator;
+  const intercept = meanY - (slope * meanX);
+  return {
+    x1: points[0].x,
+    y1: intercept,
+    x2: points[points.length - 1].x,
+    y2: (slope * (points.length - 1)) + intercept,
+  };
 }
 
 boot().catch((error) => {
