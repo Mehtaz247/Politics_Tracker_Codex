@@ -124,75 +124,6 @@ const TOPIC_ALIASES = new Map([
 const STATUS_VALUES = new Set(['not_started', 'in_progress', 'completed', 'delayed', 'broken', 'unclear']);
 const REVIEW_STATUSES = new Set(['pending_review', 'approved', 'rejected', 'needs_more_evidence']);
 const REVIEW_PRIORITIES = new Set(['high', 'medium', 'low']);
-const REVIEWED_AT = '2026-05-18';
-
-const PROMISE_REVIEW_OVERRIDES = new Map([
-  ['speed-fentanyl-response', {
-    status: 'in_progress',
-    progress: 25,
-    reviewStatus: 'approved',
-    reviewedAt: REVIEWED_AT,
-    statusNote: 'Reviewed seed score: emergency authority was granted and the response is in implementation, but overdose, treatment-linkage, and street-condition outcomes still need verified review.',
-    progressBasis: 'Source-backed action exists; progress is limited because outcome metrics are indicators, not proof of mayoral causation.',
-  }],
-  ['downtown-recovery-programming', {
-    status: 'in_progress',
-    progress: 20,
-    reviewStatus: 'approved',
-    reviewedAt: REVIEWED_AT,
-    statusNote: 'Reviewed seed score: official programming is planned through summer 2027, but attendance, vacancy, sales-tax, and foot-traffic outcomes are not yet verified in this tracker.',
-    progressBasis: 'Official implementation commitment exists; outcome evidence remains incomplete.',
-  }],
-  ['climate-action-update', {
-    status: 'in_progress',
-    progress: 35,
-    reviewStatus: 'approved',
-    reviewedAt: REVIEWED_AT,
-    statusNote: 'Reviewed seed score: the Climate Action Plan update has been published; implementation progress still needs emissions, building, energy, and funding evidence.',
-    progressBasis: 'Publication milestone is verified; implementation outcomes are still pending.',
-  }],
-  ['support-police-officers-reduce-crime', {
-    status: 'in_progress',
-    progress: 45,
-    reviewStatus: 'approved',
-    reviewedAt: REVIEWED_AT,
-    statusNote: 'Reviewed seed score: source record says legislation was signed to support police officers; crime reduction and staffing outcomes still need independent metric review.',
-    progressBasis: 'Legislative action is verified by source title; claimed public-safety outcome is not scored as complete.',
-  }],
-  ['end-unsheltered-six-months', {
-    status: 'unclear',
-    progress: null,
-    reviewStatus: 'needs_more_evidence',
-    reviewedAt: REVIEWED_AT,
-    statusNote: 'Reviewed seed decision: keep unscored until official homelessness counts, shelter-capacity, placement, and encampment-resolution evidence are checked against the six-month deadline.',
-    progressBasis: 'No progress value is shown because the promise requires outcome validation.',
-  }],
-  ['reduce-fare-evasion-muni', {
-    status: 'unclear',
-    progress: null,
-    reviewStatus: 'needs_more_evidence',
-    reviewedAt: REVIEWED_AT,
-    statusNote: 'Reviewed seed decision: plan announcement is not enough to score delivery; fare evasion, enforcement, revenue, and rider-impact metrics are still needed.',
-    progressBasis: 'No progress value is shown because implementation and outcome evidence are missing.',
-  }],
-  ['expand-childcare-spots', {
-    status: 'unclear',
-    progress: null,
-    reviewStatus: 'needs_more_evidence',
-    reviewedAt: REVIEWED_AT,
-    statusNote: 'Reviewed seed decision: announcement references hundreds of childcare spots, but capacity, enrollment, funding, and launch timeline need verification before scoring.',
-    progressBasis: 'No progress value is shown because service-delivery evidence is missing.',
-  }],
-  ['reduce-unsheltered-homelessness-15-year-low', {
-    status: 'unclear',
-    progress: null,
-    reviewStatus: 'needs_more_evidence',
-    reviewedAt: REVIEWED_AT,
-    statusNote: 'Reviewed seed decision: treat this as a result claim requiring official PIT-count methodology review, not as a scored delivery promise yet.',
-    progressBasis: 'No progress value is shown because the claim needs methodology verification.',
-  }],
-]);
-
 async function main() {
   loadLocalEnv();
 
@@ -961,8 +892,7 @@ function cleanPromises(promises, sourceIds, metricIds) {
         progressBasis: promise.progressBasis,
         reviewedAt: promise.reviewedAt,
       };
-      const override = PROMISE_REVIEW_OVERRIDES.get(cleaned.id);
-      return override ? { ...cleaned, ...override } : cleaned;
+      return cleaned;
     })
     .filter((promise) => promise.text && promise.evidenceSourceIds.length);
 }
