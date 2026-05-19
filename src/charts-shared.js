@@ -11,6 +11,25 @@ export function buildChartsPageModel(data) {
   };
 }
 
+export function chartRecommendationCard(chart) {
+  const refs = [
+    `${chart.action} ${pretty(chart.chartType)}`,
+    chart.priority ? `${chart.priority} priority` : '',
+    chart.topic ? pretty(chart.topic) : '',
+  ].filter(Boolean).join(' · ');
+
+  return `<article class="chart-plan-card">
+    <div class="promise-topline">
+      <span class="status ${chart.action === 'update' ? 'in_progress' : chart.action === 'keep' ? 'completed' : 'unclear'}">${pretty(chart.action)}</span>
+      <span class="review-badge ${chart.priority === 'high' ? 'needs_more_evidence' : chart.priority === 'low' ? 'approved' : 'pending_review'}">${pretty(chart.chartType)}</span>
+    </div>
+    <h3>${chart.title}</h3>
+    <p>${chart.rationale}</p>
+    ${chart.updateReason ? `<p class="progress-basis">${chart.updateReason}</p>` : ''}
+    <div class="promise-meta"><span>${refs}</span><span>${chart.sourceIds?.length || 0} source links</span><span>${chart.metricIds?.length || 0} metrics</span></div>
+  </article>`;
+}
+
 function buildMetricLineChart(data, chartId, metricId, fallbackTitle) {
   const chart = (data.chartRecommendations || []).find((item) => item.id === chartId);
   const metric = (data.metrics || []).find((item) => item.id === metricId);
@@ -103,6 +122,10 @@ function buildPromiseStatusChart(data) {
 
 function shortenLabel(label) {
   return label.length > 52 ? `${label.slice(0, 49)}...` : label;
+}
+
+function pretty(value) {
+  return value.replaceAll('_', ' ');
 }
 
 function polarToCartesian(centerX, centerY, radius, angle) {
