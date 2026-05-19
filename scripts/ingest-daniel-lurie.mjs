@@ -877,7 +877,7 @@ function finalizeTrackerData(data) {
     promises,
     claims,
     timeline,
-    reviewQueue: mergeReviewQueue(reviewQueue, promises, data.metrics),
+    reviewQueue,
     topics: deriveTopics(data.topics || [], promises, data.metrics),
   };
 }
@@ -973,47 +973,6 @@ function cleanReviewQueue(reviewQueue) {
       relatedIds: arrayOfStrings(item.relatedIds),
     }))
     .filter((item) => item.title);
-}
-
-function mergeReviewQueue(reviewQueue, promises, metrics) {
-  const byId = new Map(reviewQueue.map((item) => [item.id, item]));
-  for (const promise of promises) {
-    if (promise.reviewStatus === 'approved' && promise.status !== 'unclear') {
-      for (const [id, item] of byId.entries()) {
-        if (item.itemType === 'promise_status' && item.relatedIds?.includes(promise.id)) byId.delete(id);
-      }
-      continue;
-    }
-    if (promise.reviewStatus !== 'approved' || promise.status === 'unclear') {
-      const id = `review-${promise.id}`;
-      if (!byId.has(id)) {
-        byId.set(id, {
-          id,
-          priority: promise.aiConfidence < 0.75 ? 'high' : 'medium',
-          itemType: 'promise_status',
-          title: `Review promise: ${truncate(promise.text, 72)}`,
-          reason: 'Confirm source interpretation, status label, progress value, and linked metrics before scoring.',
-          relatedIds: [promise.id, ...promise.evidenceSourceIds],
-        });
-      }
-    }
-  }
-  for (const metric of metrics) {
-    if (!metric.observations?.length) {
-      const id = `review-metric-${metric.id}`;
-      if (!byId.has(id)) {
-        byId.set(id, {
-          id,
-          priority: 'medium',
-          itemType: 'metric_mapping',
-          title: `Verify metric source: ${metric.label}`,
-          reason: 'No verified observations were loaded; confirm the public dataset, query fields, and dashboard mapping.',
-          relatedIds: [metric.id],
-        });
-      }
-    }
-  }
-  return [...byId.values()];
 }
 
 function deriveTopics(existingTopics, promises, metrics) {
