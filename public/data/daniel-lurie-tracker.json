@@ -1829,8 +1829,7 @@
         "homeless-encampment-311-requests"
       ],
       "promiseIds": [
-        "end-unsheltered-six-months",
-        "reduce-unsheltered-homelessness-15-year-low"
+        "end-unsheltered-six-months"
       ],
       "spec": "{\"events\":[{\"date\":\"2026-04-08\",\"label\":\"Mike Levine appointed HSH Director\"},{\"date\":\"2026-05-12\",\"label\":\"15-year low announcement\"}]}"
     },
@@ -1874,8 +1873,7 @@
         "homeless-encampment-311-requests"
       ],
       "promiseIds": [
-        "end-unsheltered-six-months",
-        "reduce-unsheltered-homelessness-15-year-low"
+        "end-unsheltered-six-months"
       ],
       "spec": "{\"emphasizeRecent\":true,\"showTrendline\":true}"
     },
