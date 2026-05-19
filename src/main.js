@@ -37,6 +37,7 @@ function render() {
   const progressValues = data.promises.map((promise) => promise.progress).filter((value) => Number.isFinite(value));
   const averageProgress = progressValues.length ? Math.round(progressValues.reduce((sum, value) => sum + value, 0) / progressValues.length) : null;
   const verifiedSourceCount = data.sources.filter((source) => source.confidence >= 0.8).length;
+  const approvedPromises = data.promises.filter((promise) => promise.reviewStatus === 'approved');
   const normalizedSearch = searchText.trim().toLowerCase();
   const filteredPromises = data.promises.filter((promise) => {
     const matchesTopic = activeTopic === 'all' || promise.topic === activeTopic;
@@ -51,48 +52,46 @@ function render() {
     ${hero(data.subject, data.sources.length, averageProgress)}
     <section class="dashboard-grid summary-grid">
       ${metricCard(icon.database, 'Tracked sources', data.sources.length, `${verifiedSourceCount} high-confidence sources`)}
-      ${metricCard(icon.shield, 'Promises structured', data.promises.length, 'AI extraction + evidence links')}
-      ${metricCard(icon.gauge, 'Verified progress', averageProgress === null ? 'Needs data' : `${averageProgress}%`, 'No fabricated progress values shown')}
+      ${metricCard(icon.shield, 'Reviewed promises', approvedPromises.length, `${data.promises.length} total commitments tracked`)}
+      ${metricCard(icon.gauge, 'Verified progress', averageProgress === null ? 'Needs data' : `${averageProgress}%`, 'Shown only when evidence supports scoring')}
     </section>
-    ${workflow(data.workflow)}
-    ${operationsPanel(data.connectors)}
     <section class="section two-column">
       <div>
-        ${sectionTitle(icon.shield, 'Promise database', 'AI-structured Daniel Lurie commitments')}
+        ${sectionTitle(icon.shield, 'Promise tracker', 'Reviewed commitments and current delivery status')}
         ${promiseControls(data.topics)}
         <div class="promise-list">${filteredPromises.length ? filteredPromises.map(promiseCard).join('') : emptyState('No promises match the current filters.')}</div>
       </div>
       <aside class="panel scorecard">
-        ${sectionTitle(icon.chart, 'Scorecard MVP', 'Delivery snapshot')}
+        ${sectionTitle(icon.chart, 'At a glance', 'Delivery snapshot')}
         ${averageProgress === null ? noDataBadge('No verified progress yet') : donut(averageProgress, 'overall progress')}
         <div class="status-stack">${Object.entries(statusCounts).map(([status, count]) => `<div class="status-row ${status}"><span>${STATUS_COPY[status] || status}</span><strong>${count}</strong></div>`).join('')}</div>
-        <p class="method-note">Scores are intentionally explainable: they are built from promise statuses, deadlines, evidence confidence, and linked metric movement rather than a black-box score.</p>
+        <p class="method-note">Progress stays blank until a promise has reviewed evidence behind it.</p>
       </aside>
     </section>
     <section class="section">
-      ${sectionTitle(icon.trend, 'Results tracker', 'Outcome metrics ready for real data feeds')}
+      ${sectionTitle(icon.trend, 'Key metrics', 'Core indicators tied to the tracker')}
       <div class="metrics-grid">${data.metrics.map(metricChart).join('')}</div>
     </section>
     <section class="section">
       <div class="panel">
-        ${sectionTitle(icon.sparkles, 'Topic dashboards', 'Public SF data focus areas')}
+        ${sectionTitle(icon.sparkles, 'Topic overview', 'Where the strongest movement is happening')}
         <div class="topic-grid">${data.topics.map(topicCard).join('')}</div>
       </div>
     </section>
     <section class="section">
       <div class="panel">
-        ${sectionTitle(icon.bot, 'AI Chart Planner', 'Suggested charts and indicator updates from the latest feeds')}
-        <div class="chart-plan-grid">${(data.chartRecommendations || []).length ? data.chartRecommendations.map(chartRecommendationCard).join('') : emptyState('No AI chart recommendations yet.')}</div>
+        ${sectionTitle(icon.bot, 'Visuals queue', 'Next chart ideas generated from the latest feeds')}
+        <div class="chart-plan-grid">${(data.chartRecommendations || []).length ? data.chartRecommendations.slice(0, 4).map(chartRecommendationCard).join('') : emptyState('No AI chart recommendations yet.')}</div>
       </div>
     </section>
     <section class="section two-column">
       <div class="panel">
-        ${sectionTitle(icon.clock, 'Timeline view', 'Major events tied to promises and metrics')}
-        <div class="timeline">${data.timeline.map(timelineItem).join('')}</div>
+        ${sectionTitle(icon.clock, 'Recent timeline', 'Key recent events tied to the tracker')}
+        <div class="timeline">${data.timeline.slice(0, 6).map(timelineItem).join('')}</div>
       </div>
       <div class="panel">
-        ${sectionTitle(icon.news, 'Announcement tracker', 'Latest normalized source queue')}
-        <div class="source-list">${data.sources.map(sourceItem).join('')}</div>
+        ${sectionTitle(icon.news, 'Latest sources', 'Newest normalized source records')}
+        <div class="source-list">${data.sources.slice(0, 8).map(sourceItem).join('')}</div>
       </div>
     </section>
   `;
@@ -135,12 +134,12 @@ function hero(subject, sourceCount, averageProgress) {
       </nav>
       <div class="hero-content">
         <div>
-          <p class="eyebrow">Daniel Lurie monitoring workflow</p>
-          <h1>Track what San Francisco's mayor announces, promises, and delivers.</h1>
-          <p class="hero-copy">This MVP is wired for recurring web/news ingestion, AI extraction, structured promises, evidence-backed claims, and generated charts instead of a flood of links.</p>
+          <p class="eyebrow">Daniel Lurie tracker</p>
+          <h1>Track promises, evidence, and progress without the noise.</h1>
+          <p class="hero-copy">A simpler view of the mayor tracker: reviewed promises, core metrics, and the latest source-backed updates in one place.</p>
           <div class="hero-tags"><span>${subject.role}</span><span>${subject.jurisdiction}</span><span>${sourceCount} sources in queue</span></div>
         </div>
-        <div class="hero-card">${averageProgress === null ? noDataBadge('Awaiting verified metrics') : donut(averageProgress, 'promise progress')}<p>Delivery scores stay empty until official evidence supports them.</p></div>
+        <div class="hero-card">${averageProgress === null ? noDataBadge('Awaiting verified metrics') : donut(averageProgress, 'promise progress')}<p>Charts and source tests now live in their own pages.</p></div>
       </div>
     </header>`;
 }
@@ -149,25 +148,8 @@ function metricCard(iconText, label, value, detail) {
   return `<article class="metric-card"><div class="metric-icon">${iconText}</div><span>${label}</span><strong>${value}</strong><p>${detail}</p></article>`;
 }
 
-function workflow(steps) {
-  return `<section class="section panel workflow-panel">${sectionTitle(icon.clock, 'Automated workflow', 'Recurring pull → AI understanding → graphics')}<div class="workflow">${steps.map((step, index) => `<article class="workflow-step"><span class="step-number">${index + 1}</span><div><h3>${step.name}</h3><p>${step.description}</p><span class="pill ${step.status}">${step.status}</span></div></article>`).join('')}</div></section>`;
-}
-
 function sectionTitle(iconText, eyebrow, title) {
   return `<div class="section-title"><div class="section-icon">${iconText}</div><div><p>${eyebrow}</p><h2>${title}</h2></div></div>`;
-}
-
-
-function operationsPanel(connectors) {
-  return `<section class="section panel operations-panel">
-    ${sectionTitle(icon.database, 'Operations', 'Source connector readiness')}
-    <h3>Live data pipeline</h3>
-    <div class="connector-grid">${connectors.map(connectorCard).join('')}</div>
-  </section>`;
-}
-
-function connectorCard(connector) {
-  return `<article class="connector-card"><div class="connector-head"><strong>${connector.label}</strong><span class="connector-status ${connector.status}">${connector.status}</span></div><p>${connector.output}</p><small>${connector.cadence}</small><em>${connector.nextStep}</em></article>`;
 }
 
 function timelineItem(item) {
@@ -201,7 +183,7 @@ function promiseCard(promise) {
     <p>${promise.statusNote}</p>
     ${Number.isFinite(promise.progress) && isReviewed ? progressBar(promise.progress) : noDataBadge(promise.reviewStatus === 'needs_more_evidence' ? 'Needs verified evidence before scoring' : 'Progress not verified')}
     ${promise.progressBasis ? `<p class="progress-basis">${promise.progressBasis}</p>` : ''}
-    <div class="promise-meta"><span>Made ${promise.dateMade}</span><span>Deadline ${promise.deadline}</span><span>${pretty(promise.topic)}</span><span>${promise.evidenceSourceIds?.length || 0} evidence links</span><span>${promise.linkedMetricIds?.length || 0} linked metrics</span><span>AI confidence ${Math.round(promise.aiConfidence * 100)}%</span></div>
+    <div class="promise-meta"><span>${pretty(promise.topic)}</span><span>Deadline ${promise.deadline}</span><span>${promise.evidenceSourceIds?.length || 0} evidence links</span></div>
   </article>`;
 }
 

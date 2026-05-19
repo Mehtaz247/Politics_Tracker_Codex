@@ -32,8 +32,8 @@ function render(data) {
       <div class="hero-content">
         <div>
           <p class="eyebrow">Visual reporting</p>
-          <h1>Actual charts built from the tracker data.</h1>
-          <p class="hero-copy">This page turns the latest structured data into chart primitives people expect to see: line, bar, and donut views that are easy to scan and compare.</p>
+          <h1>Clean chart views built from the tracker data.</h1>
+          <p class="hero-copy">A lighter presentation of the tracker’s core signals: line, bar, and donut charts with less framing and faster scan value.</p>
           <div class="hero-tags">
             <span>${icon.refresh} Updated ${new Date(data.subject.lastUpdated).toLocaleDateString()}</span>
             <span>${chartCount} chart types live</span>
@@ -43,12 +43,12 @@ function render(data) {
         <div class="hero-card">
           <div class="metric-icon">${icon.chart}</div>
           <strong>${chartCount}</strong>
-          <p>Each chart is rendered from tracker data instead of a narrative placeholder card.</p>
+          <p>Each chart is rendered directly from tracker data, with minimal UI chrome.</p>
         </div>
       </div>
     </header>
     <section class="dashboard-grid summary-grid">
-      <article class="metric-card"><div class="metric-icon">📈</div><span>Charts live</span><strong>${chartCount}</strong><p>Bar, line, and donut views are now separated from the main dashboard</p></article>
+      <article class="metric-card"><div class="metric-icon">📈</div><span>Charts live</span><strong>${chartCount}</strong><p>Bar, line, and donut views separated from the main dashboard</p></article>
       <article class="metric-card"><div class="metric-icon">🗄️</div><span>Observed metrics</span><strong>${data.metrics.filter((metric) => metric.observations?.length).length}</strong><p>Only metrics with real observations are charted</p></article>
       <article class="metric-card"><div class="metric-icon">🛡️</div><span>Approved promises</span><strong>${data.promises.filter((promise) => promise.reviewStatus === 'approved').length}</strong><p>Bar chart uses only reviewed promise progress</p></article>
     </section>
