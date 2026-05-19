@@ -1,0 +1,151 @@
+{
+  "updatedAt": "2026-05-19T16:24:03.027Z",
+  "meta": {
+    "maxToolUses": 5,
+    "allowedDomains": [
+      "sf.gov",
+      "missionlocal.org",
+      "sfstandard.com",
+      "sfist.com",
+      "kqed.org",
+      "abc7news.com",
+      "cbsnews.com",
+      "ktvu.com",
+      "nbcbayarea.com"
+    ]
+  },
+  "items": [
+    {
+      "title": "Office of the Mayor | SF.gov",
+      "url": "https://www.sf.gov/departments--office-mayor",
+      "publishedAt": null,
+      "publisher": "SF.gov",
+      "discoverySource": "Anthropic web search",
+      "sourceType": "official",
+      "topic": "economy",
+      "summary": "Official San Francisco government page confirming Daniel Lurie as the 46th Mayor of San Francisco.",
+      "excerpt": "The official page lists Mayor Lurie's recent announcements including childcare expansion, traffic safety improvements, and arts appointments. It describes the administration's focus on providing core city services for safe, healthy, and productive lives for all San Franciscans."
+    },
+    {
+      "title": "Daniel Lurie was the public safety mayor. Now he's trying to be the affordability guy",
+      "url": "https://sfstandard.com/2026/01/15/san-francisco-daniel-lurie-state-of-the-city/",
+      "publishedAt": "2026-01-15",
+      "publisher": "San Francisco Standard",
+      "discoverySource": "Anthropic web search",
+      "sourceType": "news",
+      "topic": "city_government",
+      "summary": "Mayor Lurie's first State of the City speech shifted focus from public safety to affordability issues affecting working families.",
+      "excerpt": "In his first State of the City address, Lurie pivoted from emphasizing public safety to focusing on affordability challenges including high grocery prices, childcare costs, and housing expenses. He announced efforts to address working-class affordability while opposing a proposed state wealth tax, expressing concerns about people leaving California."
+    },
+    {
+      "title": "Daniel Lurie | SF.gov",
+      "url": "https://www.sf.gov/profile--daniel-lurie",
+      "publishedAt": null,
+      "publisher": "SF.gov",
+      "discoverySource": "Anthropic web search",
+      "sourceType": "official",
+      "topic": "city_government",
+      "summary": "Official biography page for Mayor Daniel Lurie highlighting his background in anti-poverty work and public service.",
+      "excerpt": "The page details Lurie's founding of Tipping Point Community in 2005, which raised over $500 million for Bay Area families, and his leadership of the Super Bowl 50 Host Committee. It notes his education at Duke University and UC Berkeley, where he obtained a Master's in Public Policy."
+    },
+    {
+      "title": "Mayor Lurie on San Francisco: 'We Are On Our Way Back. But We Still Have Work To Do.'",
+      "url": "https://www.kqed.org/news/12069967/mayor-lurie-on-san-francisco-we-are-on-our-way-back-but-we-still-have-work-to-do",
+      "publishedAt": "2026-01-15",
+      "publisher": "KQED",
+      "discoverySource": "Anthropic web search",
+      "sourceType": "news",
+      "topic": "city_government",
+      "summary": "KQED coverage of Lurie's first State of the City address emphasizing progress on crime but ongoing affordability challenges.",
+      "excerpt": "Mayor Lurie delivered an optimistic assessment at his first State of the City address, touting crime progress but acknowledging affordability remains a key issue. His office has implemented controversial measures including increased arrests of drug users, ramped-up tent encampment clearings, and shifted some funding from long-term homelessness solutions toward temporary shelters."
+    },
+    {
+      "title": "Lurie reflects on first year in office as 2025 draws to a close",
+      "url": "https://www.ktvu.com/news/sf-mayor-reflects-year-draws-close",
+      "publishedAt": "2025-12-18",
+      "publisher": "KTVU FOX 2",
+      "discoverySource": "Anthropic web search",
+      "sourceType": "news",
+      "topic": "city_government",
+      "summary": "Mayor Lurie reflected on his first year achievements including crime reduction and preparation for major 2026 events.",
+      "excerpt": "Mayor Lurie reported significant progress addressing crime with a 30% citywide decrease and 40% reduction in Union Square. He also cited a 44% decrease in encampments and 500 new treatment and recovery beds, while acknowledging continued challenges and notable missteps including the Beya Alcaraz Board of Supervisors appointment."
+    },
+    {
+      "title": "Mayor Lurie, Sup. Mandelman Introduce Ballot Measures Aimed at Reforming City Charter",
+      "url": "https://sfist.com/2026/03/12/sf-mayor-daniel-lurie-to-introduce-three-2026-ballot-measures-reforming-city-charter/",
+      "publishedAt": "2026-03-12",
+      "publisher": "SFist",
+      "discoverySource": "Anthropic web search",
+      "sourceType": "news",
+      "topic": "city_government",
+      "summary": "Mayor Lurie and Board President Mandelman filed notices for three November 2026 ballot measures to reform San Francisco's city charter.",
+      "excerpt": "The proposed measures would reshape City Hall operations by overhauling contracting rules, tightening the ballot initiative process, and expanding mayoral authority over departments and commissions. Labor leaders criticized the proposals as concentrating power and limiting public participation, particularly the measure increasing signature requirements for citizen initiatives from 2% to 8% of registered voters."
+    },
+    {
+      "title": "Opinion: Daniel Lurie mostly thrived in Year 1. The next year could be shakier",
+      "url": "https://sfstandard.com/opinion/2026/01/05/lurie-survived-thrived-year-1-next-year-could-dicier/",
+      "publishedAt": "2026-01-05",
+      "publisher": "San Francisco Standard",
+      "discoverySource": "Anthropic web search",
+      "sourceType": "news",
+      "topic": "city_government",
+      "summary": "Opinion piece analyzing Lurie's popular first year while questioning the substance behind his achievements.",
+      "excerpt": "The piece notes Lurie's popularity and omnipresence, both in-person and on social media, while arguing his first year accomplished less than perceived. It characterizes 2025 as a prelude to future potential achievements, questioning whether his performance matches the perception of his success."
+    },
+    {
+      "title": "Mayor Lurie Presents Balanced, Responsible Budget to Advance San Francisco's Recovery",
+      "url": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
+      "publishedAt": null,
+      "publisher": "SF.gov",
+      "discoverySource": "Anthropic web search",
+      "sourceType": "official",
+      "topic": "city_government",
+      "summary": "Mayor Lurie presented a $15.9 billion budget for fiscal years 2025-2027 while closing an $800 million deficit.",
+      "excerpt": "The proposed budget prioritizes core services and investments in safe, clean streets while making major structural changes to address the deficit. Key investments include public safety enhancements, behavioral health crisis response, small business support through First Year Free program, and creation of a new city agency to strengthen arts and culture."
+    },
+    {
+      "title": "S.F. mayor, board president propose 3 ballot measures to boost executive power",
+      "url": "https://missionlocal.org/2026/03/sf-mayor-daniel-lurie-charter-ballot-measures/",
+      "publishedAt": "2026-03-06",
+      "publisher": "Mission Local",
+      "discoverySource": "Anthropic web search",
+      "sourceType": "news",
+      "topic": "city_government",
+      "summary": "Mayor Lurie and Board President Mandelman proposed three ballot measures to expand executive branch power and reform city charter.",
+      "excerpt": "The proposals would expand powers of the mayor and city administrator while reducing power of oversight commissions and the Board of Supervisors. Critics expressed concerns about consolidation of power and possible corruption, while supporters argued voters could remove executives who abuse expanded authority in future elections."
+    },
+    {
+      "title": "Daniel Lurie inaugurated as San Francisco's 46th mayor, followed by celebrations; outlines vision for city",
+      "url": "https://abc7news.com/amp/post/daniel-lurie-inaugurated-san-francisco-mayor-followed-celebrations/15775344/",
+      "publishedAt": "2026-01-09",
+      "publisher": "ABC7 News",
+      "discoverySource": "Anthropic web search",
+      "sourceType": "news",
+      "topic": "city_government",
+      "summary": "Coverage of Daniel Lurie's inauguration as San Francisco's 46th mayor with details on his priorities and celebrations.",
+      "excerpt": "Lurie was sworn in promising accountability and change, with top priorities including tackling homelessness, the fentanyl crisis, improving city services, and revitalizing downtown. He declared a fentanyl state of emergency and announced plans for a 24/7 drop-off center and a police unit based around Union Square."
+    },
+    {
+      "title": "Daniel Lurie was the public safety mayor. Now he's trying to be the affordability guy",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/watch-san-francisco-mayor-elect-daniel-lurie-inauguration/",
+      "publishedAt": "2025-01-10",
+      "publisher": "CBS San Francisco",
+      "discoverySource": "Anthropic web search",
+      "sourceType": "news",
+      "topic": "city_government",
+      "summary": "CBS coverage of Lurie's inauguration emphasizing his promise of a new era of accountability at City Hall.",
+      "excerpt": "In his inaugural address, Lurie promised to address homelessness, drug use, and safety issues while calling for fiscal responsibility. He shared a story about visiting babies in NICU recovering from fentanyl exposure to highlight the crisis and vowed his administration would work to fulfill the mandate for accountability and change."
+    },
+    {
+      "title": "Mayor touts low homeless count, but critics say methodology was flawed",
+      "url": "https://sfstandard.com/2026/05/12/san-francisco-point-in-time-homeless-count/",
+      "publishedAt": "2026-05-12",
+      "publisher": "San Francisco Standard",
+      "discoverySource": "Anthropic web search",
+      "sourceType": "news",
+      "topic": "homelessness",
+      "summary": "Mayor Lurie announced the lowest unsheltered homeless count in 15 years, but the methodology change drew criticism.",
+      "excerpt": "The January 2026 Point in Time Count found a 22% decline in unsheltered residents to 3,400, the lowest since 2011. However, the count used different methodology than previous years, making comparisons difficult according to homeless advocates who called the survey chaotic and not meaningfully comparable to past data."
+    }
+  ]
+}

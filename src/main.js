@@ -118,7 +118,11 @@ function hero(subject, sourceCount, averageProgress) {
     <header class="hero">
       <nav>
         <span class="brand">${icon.bot} Politics Tracker MVP</span>
-        <span class="updated">${icon.refresh} Updated ${new Date(subject.lastUpdated).toLocaleDateString()}</span>
+        <div class="nav-links">
+          <a href="/rss.html">RSS</a>
+          <a href="/ai-scrape.html">AI Scrape</a>
+          <span class="updated">${icon.refresh} Updated ${new Date(subject.lastUpdated).toLocaleDateString()}</span>
+        </div>
       </nav>
       <div class="hero-content">
         <div>

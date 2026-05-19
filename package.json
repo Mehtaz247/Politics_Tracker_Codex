@@ -8,6 +8,7 @@
     "build": "node scripts/build-static.mjs",
     "preview": "node scripts/dev-server.mjs dist 4173",
     "ingest:daniel-lurie": "node scripts/ingest-daniel-lurie.mjs",
+    "generate:source-pages": "node scripts/generate-source-test-pages.mjs",
     "test": "npm run validate:data && npm run build && npm run ingest:daniel-lurie -- --dry-run",
     "validate:data": "node scripts/validate-data.mjs"
   },
