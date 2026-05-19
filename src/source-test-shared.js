@@ -21,6 +21,7 @@ export function renderSourceTestPage({ title, eyebrow, description, updatedAt, s
       <nav>
         <a class="brand" href="/">${icon.bot} Politics Tracker MVP</a>
         <div class="nav-links">
+          <a href="/charts.html">Charts</a>
           <a href="/rss.html">RSS</a>
           <a href="/ai-scrape.html">AI Scrape</a>
         </div>
