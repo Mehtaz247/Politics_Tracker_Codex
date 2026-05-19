@@ -801,24 +801,33 @@ async function analyzeWithAi(sources, data) {
     return null;
   }
 
+  const existingChartInventory = buildExistingChartInventory(data);
+
   const prompt = `Maintain a civic accountability dashboard for Daniel Lurie, Mayor of San Francisco.
-Return compact JSON only with keys promises, claims, timeline, reviewQueue. Do not include topics.
+Return compact JSON only with keys promises, claims, timeline, reviewQueue, chartRecommendations. Do not include topics.
 
 Rules:
 - Extract only the most important commitments, claims, and events supported by the provided source records.
-- Return at most 12 promises, 12 claims, 16 timeline items, and 16 reviewQueue items.
+- Return at most 12 promises, 12 claims, 16 timeline items, 16 reviewQueue items, and 10 chartRecommendations.
 - Preserve source ids exactly in evidenceSourceIds/sourceIds/sourceId.
 - Never create approval ratings.
 - Never fabricate outcome values. If public metric evidence is missing, set progress to null, status to "unclear", and add a reviewQueue item.
 - Use status values only: not_started, in_progress, completed, delayed, broken, unclear.
 - Use reviewStatus values only: pending_review, approved, rejected, needs_more_evidence.
 - Keep claims as verification tasks, not partisan judgments.
+- For chartRecommendations, decide both what new chart/progress indicators should exist and whether any existing charts should be updated based on the newest source set.
+- Recommend charts only when there is enough evidence to explain why they matter; do not fabricate metric availability.
 
 Expected shapes:
 promise = { id, text, dateMade, deadline, topic, status, progress, evidenceSourceIds, aiConfidence, statusNote, reviewStatus, linkedMetricIds }
 claim = { id, claim, sourceId, topic, verdict, confidence, evidencePlan }
 timeline item = { id, date, type, title, topic, impact, sourceIds }
 review item = { id, priority, itemType, title, reason, relatedIds }
+chartRecommendation = { id, title, chartType, action, priority, topic, rationale, updateReason, sourceIds, metricIds, promiseIds, spec }
+Allowed chartType values: line, bar, stacked_bar, progress_ring, progress_bar, timeline, scorecard.
+Allowed action values: create, update, keep.
+Allowed priority values: high, medium, low.
+spec should be a short plain-language description of what the chart or progress indicator should show.
 
 Sources:
 ${JSON.stringify(sources.slice(0, 24).map(sourceForAi), null, 2)}
@@ -830,6 +839,8 @@ ${JSON.stringify({
   topics: data.topics,
   metrics: data.metrics,
   timeline: data.timeline,
+  chartRecommendations: data.chartRecommendations,
+  existingChartInventory,
 }, null, 2)}`;
 
   try {
@@ -891,6 +902,7 @@ function finalizeTrackerData(data) {
   const claims = cleanClaims(data.claims || [], sourceIds);
   const timeline = cleanTimeline(data.timeline || [], sourceIds);
   const reviewQueue = cleanReviewQueue(data.reviewQueue || []);
+  const chartRecommendations = cleanChartRecommendations(data.chartRecommendations || [], sourceIds, metricIds, promises);
 
   return {
     ...data,
@@ -899,6 +911,7 @@ function finalizeTrackerData(data) {
     claims,
     timeline,
     reviewQueue,
+    chartRecommendations,
     topics: deriveTopics(data.topics || [], promises, data.metrics),
   };
 }
@@ -996,6 +1009,63 @@ function cleanReviewQueue(reviewQueue) {
     .filter((item) => item.title);
 }
 
+function cleanChartRecommendations(chartRecommendations, sourceIds, metricIds, promises) {
+  const promiseIds = new Set(promises.map((promise) => promise.id));
+  const allowedChartTypes = new Set(['line', 'bar', 'stacked_bar', 'progress_ring', 'progress_bar', 'timeline', 'scorecard']);
+  const allowedActions = new Set(['create', 'update', 'keep']);
+  const allowedPriorities = new Set(['high', 'medium', 'low']);
+
+  return chartRecommendations
+    .map((chart) => ({
+      id: slugify(chart.id || chart.title || crypto.randomUUID()),
+      title: String(chart.title || '').trim(),
+      chartType: allowedChartTypes.has(chart.chartType) ? chart.chartType : 'scorecard',
+      action: allowedActions.has(chart.action) ? chart.action : 'create',
+      priority: allowedPriorities.has(chart.priority) ? chart.priority : 'medium',
+      topic: normalizeTopic(chart.topic || detectTopic(`${chart.title} ${chart.rationale || ''}`)),
+      rationale: String(chart.rationale || '').trim(),
+      updateReason: String(chart.updateReason || '').trim(),
+      sourceIds: arrayOfStrings(chart.sourceIds).filter((id) => sourceIds.has(id)),
+      metricIds: arrayOfStrings(chart.metricIds).filter((id) => metricIds.has(id)),
+      promiseIds: arrayOfStrings(chart.promiseIds).filter((id) => promiseIds.has(id)),
+      spec: normalizeChartSpec(chart.spec),
+    }))
+    .filter((chart) => chart.title && chart.rationale && chart.spec && chart.sourceIds.length);
+}
+
+function buildExistingChartInventory(data) {
+  const metrics = Array.isArray(data.metrics) ? data.metrics : [];
+  const topics = Array.isArray(data.topics) ? data.topics : [];
+  const promises = Array.isArray(data.promises) ? data.promises : [];
+
+  return {
+    scorecards: [
+      { id: 'overall-progress-donut', chartType: 'progress_ring', label: 'Overall verified progress donut' },
+      { id: 'promise-status-scorecard', chartType: 'scorecard', label: 'Promise status stack' },
+    ],
+    metricCharts: metrics.map((metric) => ({
+      id: `metric-${metric.id}`,
+      chartType: 'line',
+      label: metric.label,
+      metricIds: [metric.id],
+      topic: metric.topic,
+    })),
+    topicCards: topics.map((topic) => ({
+      id: `topic-${topic.id}`,
+      chartType: 'progress_bar',
+      label: topic.label,
+      topic: topic.id,
+    })),
+    progressIndicators: promises.map((promise) => ({
+      id: `promise-${promise.id}`,
+      chartType: 'progress_bar',
+      label: promise.text,
+      promiseIds: [promise.id],
+      topic: promise.topic,
+    })),
+  };
+}
+
 function deriveTopics(existingTopics, promises, metrics) {
   const byId = new Map(existingTopics.map((topic) => [topic.id, topic]));
   const topicIds = new Set([...promises.map((promise) => promise.topic), ...metrics.map((metric) => metric.topic)]);
@@ -1036,6 +1106,14 @@ function titleCase(value) {
 function truncate(value, length) {
   const text = String(value || '').trim();
   return text.length > length ? `${text.slice(0, length - 3).trim()}...` : text;
+}
+
+function normalizeChartSpec(spec) {
+  if (typeof spec === 'string') return spec.trim();
+  if (!spec || typeof spec !== 'object') return '';
+  const preferred = [spec.description, spec.definition, spec.view, spec.notes].filter(Boolean).map((value) => String(value).trim());
+  if (preferred.length) return preferred.join(' ');
+  return JSON.stringify(spec);
 }
 
 function slugify(value) {

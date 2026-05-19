@@ -1809,5 +1809,159 @@
       ]
     }
   ],
-  "reviewQueue": []
+  "reviewQueue": [],
+  "chartRecommendations": [
+    {
+      "id": "homelessness-milestone-timeline",
+      "title": "Homelessness Reduction Milestones",
+      "chartType": "timeline",
+      "action": "create",
+      "priority": "high",
+      "topic": "homelessness",
+      "rationale": "Multiple feed items announce San Francisco reaching a 15-year low in unsheltered homelessness and the appointment of a new homelessness czar. A timeline visualization would help citizens understand the sequence of policy actions (emergency directive, new leadership appointment) alongside the claimed outcome milestone.",
+      "updateReason": "",
+      "sourceIds": [
+        "mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-home",
+        "harger-san-francisco-s-homelessness-hit-a-15-year-low-seattle-s-mayor-is-running",
+        "mayor-lurie-appoints-mike-levine-to-lead-department-of-homelessness-and-supporti"
+      ],
+      "metricIds": [
+        "homeless-encampment-311-requests"
+      ],
+      "promiseIds": [
+        "end-unsheltered-six-months",
+        "reduce-unsheltered-homelessness-15-year-low"
+      ],
+      "spec": "{\"events\":[{\"date\":\"2026-04-08\",\"label\":\"Mike Levine appointed HSH Director\"},{\"date\":\"2026-05-12\",\"label\":\"15-year low announcement\"}]}"
+    },
+    {
+      "id": "public-safety-leadership-timeline",
+      "title": "Public Safety Leadership & Policy Actions",
+      "chartType": "timeline",
+      "action": "create",
+      "priority": "high",
+      "topic": "public_safety",
+      "rationale": "Feed items show Mayor Lurie signing police support legislation, appointing a new public safety chief (Steven Betz), and announcing a 24-hour violence ceasefire initiative. A timeline helps citizens track the sequence of leadership changes and policy interventions that might influence crime and safety metrics.",
+      "updateReason": "",
+      "sourceIds": [
+        "mayor-lurie-signs-legislation-to-support-san-francisco-police-officers-continue-",
+        "san-francisco-mayor-daniel-lurie-announces-steven-betz-as-new-public-safety-chie",
+        "san-francisco-mayor-daniel-lurie-city-leaders-announce-1-day-ceasefire-to-curb-g"
+      ],
+      "metricIds": [
+        "overdose-related-911-responses"
+      ],
+      "promiseIds": [
+        "support-police-officers-reduce-crime",
+        "speed-fentanyl-response"
+      ],
+      "spec": "{\"events\":[{\"date\":\"2026-04-09\",\"label\":\"24-hour violence ceasefire announced\"},{\"date\":\"2026-04-28\",\"label\":\"Steven Betz appointed Public Safety Chief\"},{\"date\":\"2026-05-11\",\"label\":\"Police support legislation signed\"}]}"
+    },
+    {
+      "id": "homelessness-encampment-trend-comparison",
+      "title": "311 Encampment Requests Trend",
+      "chartType": "line",
+      "action": "update",
+      "priority": "high",
+      "topic": "homelessness",
+      "rationale": "Feed items highlight a 15-year low in unsheltered homelessness. The existing line chart for 311 encampment requests should be enhanced to show the trend more prominently so citizens can visually assess whether the pattern supports the claimed milestone.",
+      "updateReason": "Highlight recent downward trend to help citizens evaluate the 15-year low claim against 311 request patterns.",
+      "sourceIds": [
+        "mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-home",
+        "harger-san-francisco-s-homelessness-hit-a-15-year-low-seattle-s-mayor-is-running"
+      ],
+      "metricIds": [
+        "homeless-encampment-311-requests"
+      ],
+      "promiseIds": [
+        "end-unsheltered-six-months",
+        "reduce-unsheltered-homelessness-15-year-low"
+      ],
+      "spec": "{\"emphasizeRecent\":true,\"showTrendline\":true}"
+    },
+    {
+      "id": "budget-deficit-workforce-impact",
+      "title": "Budget Deficit & Workforce Changes",
+      "chartType": "scorecard",
+      "action": "create",
+      "priority": "high",
+      "topic": "economy",
+      "rationale": "Feed items report layoff notices sent to city workers as Mayor Lurie addresses budget deficit. A scorecard helps citizens understand the scale of workforce reduction and fiscal accountability without fabricating numbers.",
+      "updateReason": "",
+      "sourceIds": [
+        "san-francisco-city-workers-receive-layoff-notices-as-mayor-daniel-lurie-cuts-job"
+      ],
+      "metricIds": [],
+      "promiseIds": [],
+      "spec": "{\"items\":[{\"label\":\"Layoff Notices\",\"value\":\"Issued\",\"context\":\"April 2026\"},{\"label\":\"Fiscal Status\",\"value\":\"Addressing Deficit\",\"context\":\"Workforce reductions underway\"}]}"
+    },
+    {
+      "id": "transit-fare-evasion-scorecard",
+      "title": "Transit Fare Evasion & Accountability Progress",
+      "chartType": "scorecard",
+      "action": "create",
+      "priority": "medium",
+      "topic": "transit",
+      "rationale": "Feed item announces a plan to tackle fare evasion and make Muni more accountable. A scorecard would help citizens quickly understand that a plan exists while waiting for implementation data and metrics.",
+      "updateReason": "",
+      "sourceIds": [
+        "mayor-lurie-announces-plan-to-tackle-fare-evasion-on-public-transit-make-muni-mo"
+      ],
+      "metricIds": [],
+      "promiseIds": [
+        "reduce-fare-evasion-muni"
+      ],
+      "spec": "{\"items\":[{\"label\":\"Plan Status\",\"value\":\"Announced\",\"context\":\"May 2026\"},{\"label\":\"Implementation\",\"value\":\"Pending\",\"context\":\"Awaiting metrics\"}]}"
+    },
+    {
+      "id": "childcare-expansion-progress",
+      "title": "Childcare Expansion Delivery Tracker",
+      "chartType": "progress_bar",
+      "action": "create",
+      "priority": "medium",
+      "topic": "city_government",
+      "rationale": "Feed items announce a major expansion of free and low-cost childcare with hundreds of new spots for infants and toddlers. A progress bar would help citizens track delivery once enrollment and capacity metrics become available.",
+      "updateReason": "",
+      "sourceIds": [
+        "mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundre"
+      ],
+      "metricIds": [],
+      "promiseIds": [
+        "expand-childcare-spots"
+      ],
+      "spec": "{\"label\":\"Childcare Spots Expansion\",\"current\":null,\"target\":\"hundreds\",\"status\":\"announced\"}"
+    },
+    {
+      "id": "bond-appropriation-infrastructure-progress",
+      "title": "2024 Bond Appropriation: Infrastructure Delivery",
+      "chartType": "progress_bar",
+      "action": "create",
+      "priority": "medium",
+      "topic": "transit",
+      "rationale": "Feed items report appropriation of 2024 bond funds for health care infrastructure, street safety, and public space upgrades. A progress bar helps citizens track whether bond-funded projects are moving from appropriation to construction and completion.",
+      "updateReason": "",
+      "sourceIds": [
+        "mayor-lurie-announces-appropriation-of-2024-bond-to-strengthen-health-care-infra"
+      ],
+      "metricIds": [],
+      "promiseIds": [],
+      "spec": "{\"label\":\"2024 Bond Appropriation\",\"current\":\"appropriated\",\"target\":\"construction & completion\",\"status\":\"appropriated\"}"
+    },
+    {
+      "id": "arts-culture-leadership",
+      "title": "Arts & Culture Leadership Appointments",
+      "chartType": "scorecard",
+      "action": "create",
+      "priority": "low",
+      "topic": "city_government",
+      "rationale": "Feed items document appointment of SF's first Arts Director (Matthew Goudeau) and multiple international arts partnerships. A scorecard helps citizens track new institutional capacity for arts and culture.",
+      "updateReason": "",
+      "sourceIds": [
+        "mayor-lurie-appoints-matthew-goudeau-as-city-s-first-executive-director-of-arts-"
+      ],
+      "metricIds": [],
+      "promiseIds": [],
+      "spec": "{\"items\":[{\"label\":\"First Arts Director\",\"value\":\"Matthew Goudeau\",\"context\":\"Appointed April 2026\"},{\"label\":\"International Partnerships\",\"value\":\"Multiple MOUs\",\"context\":\"Shanghai, Korea arts exchanges\"}]}"
+    }
+  ]
 }

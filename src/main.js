@@ -77,6 +77,12 @@ function render() {
         <div class="topic-grid">${data.topics.map(topicCard).join('')}</div>
       </div>
     </section>
+    <section class="section">
+      <div class="panel">
+        ${sectionTitle(icon.bot, 'AI Chart Planner', 'Suggested charts and indicator updates from the latest feeds')}
+        <div class="chart-plan-grid">${(data.chartRecommendations || []).length ? data.chartRecommendations.map(chartRecommendationCard).join('') : emptyState('No AI chart recommendations yet.')}</div>
+      </div>
+    </section>
     <section class="section two-column">
       <div class="panel">
         ${sectionTitle(icon.clock, 'Timeline view', 'Major events tied to promises and metrics')}
@@ -228,6 +234,25 @@ function metricChart(metric) {
 
 function topicCard(topic) {
   return `<article class="topic-card"><div class="topic-header"><strong>${topic.label}</strong><span class="risk ${topic.risk}">${topic.risk}</span></div>${Number.isFinite(topic.averageProgress) ? progressBar(topic.averageProgress) : noDataBadge('No verified progress')}<p>${topic.insight}</p></article>`;
+}
+
+function chartRecommendationCard(chart) {
+  const refs = [
+    `${chart.action} ${pretty(chart.chartType)}`,
+    chart.priority ? `${chart.priority} priority` : '',
+    chart.topic ? pretty(chart.topic) : '',
+  ].filter(Boolean).join(' · ');
+  return `<article class="chart-plan-card">
+    <div class="promise-topline">
+      <span class="status ${chart.action === 'update' ? 'in_progress' : chart.action === 'keep' ? 'completed' : 'unclear'}">${pretty(chart.action)}</span>
+      <span class="review-badge ${chart.priority === 'high' ? 'needs_more_evidence' : chart.priority === 'low' ? 'approved' : 'pending_review'}">${pretty(chart.chartType)}</span>
+    </div>
+    <h3>${chart.title}</h3>
+    <p>${chart.rationale}</p>
+    ${chart.spec ? `<p class="progress-basis">${chart.spec}</p>` : ''}
+    ${chart.updateReason ? `<p class="source-meta-line">Why now: ${chart.updateReason}</p>` : ''}
+    <div class="promise-meta"><span>${refs}</span><span>${chart.sourceIds?.length || 0} source links</span><span>${chart.metricIds?.length || 0} metrics</span><span>${chart.promiseIds?.length || 0} promises</span></div>
+  </article>`;
 }
 
 function sourceItem(source) {

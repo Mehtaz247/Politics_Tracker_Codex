@@ -108,8 +108,9 @@ h1 { margin: 8px 0 16px; font-size: clamp(2.35rem, 6vw, 5.4rem); line-height: 0.
 .event-list strong { color: #172033; }
 .method-note { display: flex; align-items: flex-start; gap: 8px; font-size: 0.9rem; }
 
-.topic-grid, .source-list { display: grid; gap: 12px; }
+.topic-grid, .source-list, .chart-plan-grid { display: grid; gap: 12px; }
 .topic-card { padding: 16px; box-shadow: none; }
+.chart-plan-card { padding: 18px; border: 1px solid #e3ebf8; border-radius: 18px; background: #f9fbff; }
 .risk { padding: 6px 9px; font-size: 0.74rem; font-weight: 900; }
 .risk.high { background: #ffe1e1; color: #ae2635; }
 .risk.medium { background: #fff1c7; color: #855600; }
