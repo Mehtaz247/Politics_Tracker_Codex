@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-05-19T16:24:03.023Z",
+  "updatedAt": "2026-05-19T16:29:57.059Z",
   "meta": {
     "queryCount": 5,
-    "feedCount": 4
+    "feedCount": 7
   },
   "items": [
     {
@@ -54,16 +54,6 @@
       "sourceType": "news",
       "topic": "public_safety",
       "summary": "Mayor Lurie Signs Legislation To Support San Francisco Police Officers, Continue To Drive Down Crime SF.gov"
-    },
-    {
-      "title": "At conservative-leaning forum, S.F. leaders love pragmatism, efficiency, and Daniel Lurie - Mission Local",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeXh2c09BeHI3ZU1jVTdRME43bmxIa3NLS21LMmhhYlFpemdVX2VfYnZ4RDNsSFZpNDZWNlV0Q2c5Mm1YblFJZ1p3WEVsT1c4cDVGYTI1REJRaFJvV2h6Sy1BVXMwbkxDekFjZ21lY3B1dGtSQzVLTVFSeVhETGRjTzFQaUhJaDFuMjFZ?oc=5",
-      "publishedAt": "2026-05-07",
-      "publisher": "Google News",
-      "discoverySource": "Google News RSS",
-      "sourceType": "news",
-      "topic": "city_government",
-      "summary": "At conservative-leaning forum, S.F. leaders love pragmatism, efficiency, and Daniel Lurie Mission Local"
     },
     {
       "title": "Mayor Lurie Announces Plan To Tackle Fare Evasion On Public Transit, Make Muni More Accountable - SF.gov",
@@ -364,6 +354,16 @@
       "sourceType": "news",
       "topic": "city_government",
       "summary": "Mayor Lurie, Supervisor Melgar, and Department on the Status of Women Launch San Francisco Women’s Agenda SF.gov"
+    },
+    {
+      "title": "San Francisco's urban revival is in danger - Noahpinion",
+      "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5ZUE80bEs5MXFiVnNOTVU2SjI4d0UzdzBYYzR3bmdTb2M2N2I0MmtZaTRwMXVhVWFjbW4xVkJJWnlOMVdKVDYzTDZxeGpRdERpQ2ZoUDBMTnFsYUdiUS1aQ1JVdGNFS2U0MHh3bWtlbllxQQ?oc=5",
+      "publishedAt": "2026-03-12",
+      "publisher": "Google News",
+      "discoverySource": "Google News RSS",
+      "sourceType": "news",
+      "topic": "city_government",
+      "summary": "San Francisco's urban revival is in danger Noahpinion"
     }
   ]
 }

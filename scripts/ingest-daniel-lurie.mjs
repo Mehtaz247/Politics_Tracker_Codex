@@ -58,6 +58,27 @@ const DIRECT_NEWS_FEEDS = [
     sourceType: 'news',
     confidence: 0.8,
   },
+  {
+    id: 'nbc-bay-area-local',
+    label: 'NBC Bay Area',
+    url: 'https://www.nbcbayarea.com/news/local/feed/',
+    sourceType: 'news',
+    confidence: 0.77,
+  },
+  {
+    id: 'cbs-sf',
+    label: 'CBS San Francisco',
+    url: 'https://www.cbsnews.com/sanfrancisco/latest/rss/main',
+    sourceType: 'news',
+    confidence: 0.77,
+  },
+  {
+    id: 'sfgate-bay-area',
+    label: 'SFGATE Bay Area',
+    url: 'https://www.sfgate.com/bayarea/feed/San-Francisco-Bay-Area-News-429.php',
+    sourceType: 'news',
+    confidence: 0.75,
+  },
 ];
 
 const WEB_SEARCH_ALLOWED_DOMAINS = [

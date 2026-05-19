@@ -22,6 +22,9 @@ const DIRECT_NEWS_FEEDS = [
   { label: 'SFist', url: 'https://sfist.com/rss/', sourceType: 'news', confidence: 0.78 },
   { label: 'ABC7 Bay Area', url: 'https://abc7news.com/feed/', sourceType: 'news', confidence: 0.76 },
   { label: 'KQED News', url: 'https://www.kqed.org/news/rss', sourceType: 'news', confidence: 0.8 },
+  { label: 'NBC Bay Area', url: 'https://www.nbcbayarea.com/news/local/feed/', sourceType: 'news', confidence: 0.77 },
+  { label: 'CBS San Francisco', url: 'https://www.cbsnews.com/sanfrancisco/latest/rss/main', sourceType: 'news', confidence: 0.77 },
+  { label: 'SFGATE Bay Area', url: 'https://www.sfgate.com/bayarea/feed/San-Francisco-Bay-Area-News-429.php', sourceType: 'news', confidence: 0.75 },
 ];
 
 const WEB_SEARCH_ALLOWED_DOMAINS = [
