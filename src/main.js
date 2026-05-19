@@ -15,7 +15,7 @@ const REVIEW_COPY = {
 };
 
 const icon = {
-  activity: '📈', alert: '⚠️', chart: '📊', bot: '🤖', clock: '⏱️', database: '🗄️', external: '↗', search: '🔎', gauge: '🎛️', news: '📰', refresh: '🔄', shield: '🛡️', sparkles: '✨', trend: '📉', check: '✅'
+  activity: '📈', chart: '📊', bot: '🤖', clock: '⏱️', database: '🗄️', external: '↗', gauge: '🎛️', news: '📰', refresh: '🔄', shield: '🛡️', sparkles: '✨', trend: '📉'
 };
 
 let trackerData;
@@ -50,11 +50,10 @@ function render() {
     <section class="dashboard-grid summary-grid">
       ${metricCard(icon.database, 'Tracked sources', data.sources.length, `${verifiedSourceCount} high-confidence sources`)}
       ${metricCard(icon.shield, 'Promises structured', data.promises.length, 'AI extraction + evidence links')}
-      ${metricCard(icon.search, 'Claims to verify', data.claims.length, 'Dataset-backed verdict workflow')}
       ${metricCard(icon.gauge, 'Verified progress', averageProgress === null ? 'Needs data' : `${averageProgress}%`, 'No fabricated progress values shown')}
     </section>
     ${workflow(data.workflow)}
-    ${operationsPanel(data.connectors, data.reviewQueue)}
+    ${operationsPanel(data.connectors)}
     <section class="section two-column">
       <div>
         ${sectionTitle(icon.shield, 'Promise database', 'AI-structured Daniel Lurie commitments')}
@@ -86,16 +85,6 @@ function render() {
       <div class="panel">
         ${sectionTitle(icon.news, 'Announcement tracker', 'Latest normalized source queue')}
         <div class="source-list">${data.sources.map(sourceItem).join('')}</div>
-      </div>
-    </section>
-    <section class="section two-column">
-      <div class="panel">
-        ${sectionTitle(icon.bot, 'Claim checker', 'Evidence tasks for AI review')}
-        <div class="claim-list">${data.claims.map(claimCard).join('')}</div>
-      </div>
-      <div class="panel">
-        ${sectionTitle(icon.check, 'Human review queue', 'Keep AI output accountable')}
-        <div class="review-list">${data.reviewQueue.map(reviewItem).join('')}</div>
       </div>
     </section>
   `;
@@ -156,29 +145,11 @@ function sectionTitle(iconText, eyebrow, title) {
 }
 
 
-function operationsPanel(connectors, reviewQueue) {
-  const groupedTasks = [...reviewQueue]
-    .sort((left, right) => priorityRank(left.priority) - priorityRank(right.priority))
-    .reduce((groups, item) => {
-      const key = pretty(item.itemType);
-      groups[key] = groups[key] || [];
-      groups[key].push(item);
-      return groups;
-    }, {});
+function operationsPanel(connectors) {
   return `<section class="section panel operations-panel">
-    ${sectionTitle(icon.database, 'Operations', 'Source connectors and AI review readiness')}
-    <div class="operations-grid">
-      <div>
-        <h3>Live data pipeline</h3>
-        <div class="connector-grid">${connectors.map(connectorCard).join('')}</div>
-      </div>
-      <div>
-        <h3>Review guardrails</h3>
-        <p class="method-note">${icon.alert} AI can propose promises, claims, statuses, and chart inputs, but high-impact interpretations stay in the review queue until evidence is checked.</p>
-        <strong class="queue-count">${reviewQueue.length} review tasks waiting</strong>
-        <div class="review-breakdown">${Object.entries(groupedTasks).map(([type, items]) => `<span>${type}: ${items.length}</span>`).join('')}</div>
-      </div>
-    </div>
+    ${sectionTitle(icon.database, 'Operations', 'Source connector readiness')}
+    <h3>Live data pipeline</h3>
+    <div class="connector-grid">${connectors.map(connectorCard).join('')}</div>
   </section>`;
 }
 
@@ -188,10 +159,6 @@ function connectorCard(connector) {
 
 function timelineItem(item) {
   return `<article class="timeline-item"><time>${item.date}</time><div><span class="timeline-type">${pretty(item.type)}</span><h3>${item.title}</h3><p>${item.impact}</p><small>${pretty(item.topic)}</small></div></article>`;
-}
-
-function reviewItem(item) {
-  return `<article class="review-item ${item.priority}"><span>${item.priority} priority · ${pretty(item.itemType)}</span><h3>${item.title}</h3><p>${item.reason}</p></article>`;
 }
 
 function emptyState(message) {
@@ -264,10 +231,6 @@ function sourceItem(source) {
   return `<a class="source-item" href="${source.url}" target="_blank" rel="noreferrer"><div><span class="source-meta">${source.sourceType} · ${source.publishedAt} · ${pretty(source.topic)}</span><strong>${source.title}</strong><p>${source.summary}</p>${provenance ? `<small class="source-provenance">${provenance}</small>` : ''}</div><span>${icon.external}</span></a>`;
 }
 
-function claimCard(claim) {
-  return `<article class="claim"><span class="verdict">${pretty(claim.verdict)}</span><h3>${claim.claim}</h3><p>${claim.evidencePlan}</p><small>AI confidence: ${Math.round(claim.confidence * 100)}%</small></article>`;
-}
-
 function countBy(records, key) {
   return records.reduce((counts, record) => {
     counts[record[key]] = (counts[record[key]] || 0) + 1;
@@ -277,10 +240,6 @@ function countBy(records, key) {
 
 function pretty(value) {
   return value.replaceAll('_', ' ');
-}
-
-function priorityRank(priority) {
-  return { high: 0, medium: 1, low: 2 }[priority] ?? 3;
 }
 
 boot().catch((error) => {
