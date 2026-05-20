@@ -35,6 +35,11 @@ h1 { margin: 8px 0 14px; font-size: clamp(2.2rem, 5vw, 4.4rem); line-height: 0.9
 .hero-copy { color: #5f564a; font-size: 1.02rem; line-height: 1.65; max-width: 620px; }
 .hero-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
 .hero-tags span { padding: 8px 12px; background: #efe9df; border: 1px solid #ddd2c3; color: #5b5347; }
+.chart-action-block { display: grid; gap: 6px; margin-top: 18px; max-width: 280px; }
+.chart-generate-button { justify-self: start; border: 1px solid #2d546e; background: #2d546e; color: #fffdf9; border-radius: 999px; padding: 10px 16px; font-weight: 700; cursor: pointer; }
+.chart-generate-button[disabled] { cursor: wait; opacity: 0.72; }
+.chart-action-warning { margin: 0; color: #8a7d6d; font-size: 0.74rem; line-height: 1.35; }
+.chart-action-error { margin: 0; color: #ae2635; font-size: 0.78rem; line-height: 1.35; }
 .hero-card, .panel, .metric-card, .promise-card, .topic-card { background: #fffdf9; border: 1px solid #ddd5ca; box-shadow: none; border-radius: 18px; }
 .hero-card { color: #1b2430; padding: 20px; display: grid; gap: 12px; justify-items: start; text-align: left; }
 .hero-card p { color: #5f564a; line-height: 1.55; margin: 0; }

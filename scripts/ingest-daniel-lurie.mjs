@@ -735,30 +735,23 @@ async function analyzeWithAi(sources, data) {
   const existingChartInventory = buildExistingChartInventory(data);
 
   const prompt = `Maintain a civic accountability dashboard for Daniel Lurie, Mayor of San Francisco.
-Return compact JSON only with keys promises, claims, timeline, reviewQueue, chartRecommendations. Do not include topics.
+Return compact JSON only with keys promises, claims, timeline, reviewQueue. Do not include topics.
 
 Rules:
 - Extract only the most important commitments, claims, and events supported by the provided source records.
-- Return at most 12 promises, 12 claims, 16 timeline items, 16 reviewQueue items, and 10 chartRecommendations.
+- Return at most 12 promises, 12 claims, 16 timeline items, and 16 reviewQueue items.
 - Preserve source ids exactly in evidenceSourceIds/sourceIds/sourceId.
 - Never create approval ratings.
 - Never fabricate outcome values. If public metric evidence is missing, set progress to null, status to "unclear", and add a reviewQueue item.
 - Use status values only: not_started, in_progress, completed, delayed, broken, unclear.
 - Use reviewStatus values only: pending_review, approved, rejected, needs_more_evidence.
 - Keep claims as verification tasks, not partisan judgments.
-- For chartRecommendations, decide both what new chart/progress indicators should exist and whether any existing charts should be updated based on the newest source set.
-- Recommend charts only when there is enough evidence to explain why they matter; do not fabricate metric availability.
 
 Expected shapes:
 promise = { id, text, dateMade, deadline, topic, status, progress, evidenceSourceIds, aiConfidence, statusNote, reviewStatus, linkedMetricIds }
 claim = { id, claim, sourceId, topic, verdict, confidence, evidencePlan }
 timeline item = { id, date, type, title, topic, impact, sourceIds }
 review item = { id, priority, itemType, title, reason, relatedIds }
-chartRecommendation = { id, title, chartType, action, priority, topic, rationale, updateReason, sourceIds, metricIds, promiseIds, spec }
-Allowed chartType values: line, bar, stacked_bar, progress_ring, progress_bar, timeline, scorecard.
-Allowed action values: create, update, keep.
-Allowed priority values: high, medium, low.
-spec should be a short plain-language description of what the chart or progress indicator should show.
 
 Sources:
 ${JSON.stringify(sources.slice(0, 24).map(sourceForAi), null, 2)}
@@ -770,8 +763,6 @@ ${JSON.stringify({
   topics: data.topics,
   metrics: data.metrics,
   timeline: data.timeline,
-  chartRecommendations: data.chartRecommendations,
-  existingChartInventory,
 }, null, 2)}`;
 
   try {
