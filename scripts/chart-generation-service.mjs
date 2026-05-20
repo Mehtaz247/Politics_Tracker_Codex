@@ -7,7 +7,7 @@ const AI_PATH = new URL('../public/data/ai-scrape.json', import.meta.url);
 const REQUEST_TIMEOUT_MS = 120000;
 const ALLOWED_TYPES = new Set(['line', 'bar', 'donut', 'scorecard']);
 
-export async function generateChartsOnDemand() {
+export async function generateChartsOnDemand({ chartRequest = '' } = {}) {
   loadLocalEnv();
   if (!process.env.ANTHROPIC_API_KEY) {
     const error = new Error('ANTHROPIC_API_KEY not set');
@@ -23,6 +23,7 @@ export async function generateChartsOnDemand() {
     tracker,
     rssItems: rss.items || [],
     aiItems: ai.items || [],
+    chartRequest,
   });
 
   return {
@@ -31,7 +32,7 @@ export async function generateChartsOnDemand() {
   };
 }
 
-async function requestChartSpec({ tracker, rssItems, aiItems }) {
+async function requestChartSpec({ tracker, rssItems, aiItems, chartRequest }) {
   const metrics = (tracker.metrics || []).map((metric) => ({
     id: metric.id,
     label: metric.label,
@@ -84,6 +85,9 @@ Rules:
 - For scorecards, use items.
 - Do not output markdown.
 - Do not invent unavailable values.
+
+User chart request:
+${chartRequest ? chartRequest.trim() : 'No custom request provided. Choose the most useful charts from the data.'}
 
 Available metrics:
 ${JSON.stringify(metrics, null, 2)}

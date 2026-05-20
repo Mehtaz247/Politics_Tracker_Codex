@@ -8,6 +8,7 @@ let trackerData;
 let generatedCharts = [];
 let isGenerating = false;
 let generationError = '';
+let chartRequestText = '';
 
 async function boot() {
   const response = await fetch('/data/daniel-lurie-tracker.json');
@@ -38,6 +39,10 @@ function render() {
           <h1>Clean chart views built from the tracker data.</h1>
           <p class="hero-copy">Ask for charts only when you want them. The backend requests fixed chart-spec JSON, then the page renders those specs with existing code.</p>
           <div class="chart-action-block">
+            <label class="chart-request-box">
+              <span>Describe the chart you want</span>
+              <textarea class="chart-request-input" placeholder="Example: Show a line chart for homelessness trend and a bar chart comparing public safety indicators.">${escapeHtml(chartRequestText)}</textarea>
+            </label>
             <button type="button" class="chart-generate-button" ${isGenerating ? 'disabled' : ''}>${isGenerating ? 'Generating…' : 'Generate charts'}</button>
             <p class="chart-action-warning">this number of charts may be limited in the future;</p>
             ${generationError ? `<p class="chart-action-error">${escapeHtml(generationError)}</p>` : ''}
@@ -77,6 +82,9 @@ function render() {
   `;
 
   document.querySelector('.chart-generate-button')?.addEventListener('click', generateCharts);
+  document.querySelector('.chart-request-input')?.addEventListener('input', (event) => {
+    chartRequestText = event.target.value;
+  });
 }
 
 function renderGeneratedChart(chart) {
@@ -190,6 +198,7 @@ async function generateCharts() {
     const response = await fetch('/api/generate-charts', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ chartRequest: chartRequestText }),
     });
     const payload = await response.json();
     if (!response.ok) throw new Error(payload.error || `Request failed with ${response.status}`);

@@ -14,7 +14,10 @@ const mime = new Map([
 const server = http.createServer(async (request, response) => {
   if (request.method === 'POST' && request.url === '/api/generate-charts') {
     try {
-      const payload = await generateChartsOnDemand();
+      const body = await readJsonBody(request);
+      const payload = await generateChartsOnDemand({
+        chartRequest: body?.chartRequest || '',
+      });
       response.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
       response.end(JSON.stringify(payload));
     } catch (error) {
@@ -43,5 +46,16 @@ const server = http.createServer(async (request, response) => {
     response.writeHead(404).end('Not found');
   }
 });
+
+async function readJsonBody(request) {
+  const chunks = [];
+  for await (const chunk of request) chunks.push(chunk);
+  if (!chunks.length) return {};
+  try {
+    return JSON.parse(Buffer.concat(chunks).toString('utf8'));
+  } catch {
+    return {};
+  }
+}
 
 server.listen(port, () => console.log(`Politics Tracker MVP running at http://localhost:${port}`));

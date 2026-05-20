@@ -7,7 +7,9 @@ export default async function handler(request, response) {
   }
 
   try {
-    const payload = await generateChartsOnDemand();
+    const payload = await generateChartsOnDemand({
+      chartRequest: request.body?.chartRequest || '',
+    });
     response.status(200).json(payload);
   } catch (error) {
     response.status(error.statusCode || 500).json({ error: error.message || 'Unable to generate charts' });
