@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-19T18:31:15.195Z",
+    "lastUpdated": "2026-05-20T11:34:22.387Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -32,6 +32,21 @@
   ],
   "sources": [
     {
+      "id": "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
+      "title": "S.F. eyes $125M annually for affordable housing, more than double current funding",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/05/sf-affordable-housing-fund-myrna-melgar-daniel-lurie/",
+      "discoveryUrl": "https://missionlocal.org/2026/05/sf-affordable-housing-fund-myrna-melgar-daniel-lurie/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-05-19",
+      "topic": "transit",
+      "summary": "Myrna Melgar has struck a bargain with Daniel Lurie: $125 million a year for affordable housing, if there&#039;s no fight on \"inclusionary\" rates.",
+      "confidence": 0.9,
+      "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today Supervisor Myrna Melgar plans to introduce legislation Tuesday that would more than double San Francisco’s annual budget for affordable housing to some $125 million, part of a bargain she hammered out with Mayor Daniel Lurie. Melgar said her proposal would vastly expand the city’s capacity to build affordable housing by allocating $125 million annually into the city’s Housing Trust Fund , up from the $52 million that goes into it today, while also extending the fund for another 30 years. That would be a total of at least $3.75 billion. The increase would be funded by “allocating a portion of future property tax growth every year” to the fund, according to a press release sent by Melgar and Lurie. “I cut a deal with the mayor,” Melgar said, to use property taxes “coming from the increase in the value of all properties in San Francisco” as a result of last year’s upzoning . The proposal would take the increase in future property taxes and “put it aside” into the low-income housing fund, Melgar said. “Housing is not getting built at the pace we need, and the consequences are all around us,” Mayor Lurie said in a statement. “Today, we’re jumpstarting affordable housing in San Francisco.” The two also announced an immediate $70 million bond, to be issued next year, that would go towards preserving and maintaining existing affordable housing. Much of that work has happened through the city&#8217;s Small Sites program, which buys smaller buildings and converts them to affordable housing, though the program has been fraught . The city will maintain the current level of allocation to the fund during this budget crisis, but start in...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-home",
       "title": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years - SF.gov",
       "sourceType": "news",
@@ -40,6 +55,18 @@
       "topic": "homelessness",
       "summary": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years &nbsp;&nbsp; SF.gov",
       "confidence": 0.78
+    },
+    {
+      "id": "sf-mayor-news",
+      "title": "News from the Office of the Mayor | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-from-the-office-of-the-mayor",
+      "publishedAt": "2026-05-18",
+      "topic": "homelessness",
+      "summary": "INFO PAGE News from the Office of the Mayor Office of the Mayor May 13, 2026: Mayor Lurie Continues Support For Arts Organizations With New Grant Opportunities May 13, 2026: Mayor Lurie Appoints Sarah Madland As General Manager Of Recreation And Park Department May 12, 2026: Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years May 11, 2026: Mayor Lurie Signs Legislation",
+      "confidence": 0.95,
+      "excerpt": "INFO PAGE News from the Office of the Mayor Office of the Mayor May 13, 2026: Mayor Lurie Continues Support For Arts Organizations With New Grant Opportunities May 13, 2026: Mayor Lurie Appoints Sarah Madland As General Manager Of Recreation And Park Department May 12, 2026: Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years May 11, 2026: Mayor Lurie Signs Legislation To Support San Francisco Police Officers, Continue To Drive Down Crime May 8, 2026: Mayor Lurie Signs Legislation With Firefighters&#x27; Union To Support First Responders, Strengthen Public Safety May 7, 2026: Mayor Lurie Celebrates Visitors Coming Back To San Francisco In Record Numbers May 7, 2026: Mayor Lurie Cuts Ribbon On Terry Francois Boulevard Bike And Pedestrian Safety Improvement Project May 6, 2026: Mayor Lurie Cuts Ribbon On New Affordable Housing in Bayview May 6, 2026: Mayor Lurie Celebrates Completion Of High-Speed Fiber Network At All San Francisco Fire Stations May 6, 2026: Mayor Lurie Nominates Larry Low To Police Commission May 5, 2026: Mayor Lurie Announces Plan To Tackle Fare Evasion On Public Transit, Make Muni More Accountable April 30, 2026: Mayor Lurie Announces Major Expansion Of Free And Low-Cost Childcare With Hundreds Of New Spots For Families With Infants And Toddlers April 29, 2026: Mayor Lurie Celebrates Groundbreaking Of Improved Twin Peaks Promenade April 29, 2026: Mayor Lurie Celebrates 80% Decline In Speeding After One Year Of San Francisco&#x27;s First-In-State Traffic Safety Program April 28, 2026: Mayor Lurie Appoints Steven Betz As Chief Of Public Safety April 28, 2026: Mayor Lurie Launches Next Step To Deliver Faster, More Transparent Permitting As New Digital Portal Shows Results April 27, 2026: Mayor Lurie Appo...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h",
@@ -52,16 +79,6 @@
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Celebrates Visitors Coming Back To San Francisco In Record Numbers Office of the Mayor 2026 Tourism Forecasted to Cross Pre-Pandemic Spending Record, With Conventions, Major Events Fueling Momentum; Following Successful Super Bowl and Ahead of World Cup, Progress Continues Mayor Lurie’s Work to Accelerate Economic Recovery May 7, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated new data from the San Francisco Travel Association (SF Travel) showing that visitor spending in 2026 is expected to surpass the city’s pre-pandemic record, part of the city’s second consecutive year of tourism growth. Large events and conventions are major drivers of the tourism growth: Building on a successful Super Bowl in February, San Francisco hotels are expected to see a 69% increase since 2024 in occupancy specifically from conferences at Moscone Center. The data comes from SF Travel’s 2026 tourism forecast and 2025 visitor impact results. The progress bringing visitors back to San Francisco continues Mayor Lurie’s work to accelerate San Francisco’s economic recovery. The mayor recently returned from a visit to China and South Korea , where he celebrated San Francisco’s sister city relationships and encouraged tourism to the city. In Shanghai, he partnered with the San Francisco International Airport (SFO) to promote air travel between Shanghai and San Francisco . Earlier this year, the city welcomed hundreds of thousands of visitors for a successful, safe Super Bowl week that brought hundreds of millions of dollars of economic impact to our city. “San Francisco is a city on the rise. We welcomed hundreds of thousands of visitors for a safe and successful Super Bowl week that generated hundreds of millions of dollars in economic impact, and we are continuing to...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-signs-legislation-to-support-san-francisco-police-officers-continue-",
-      "title": "Mayor Lurie Signs Legislation To Support San Francisco Police Officers, Continue To Drive Down Crime - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYnFWeXRDbFhMM21tZE9Jb20xYTAtZ0ZIanFsNGVuU1hKbEZ2bXY2cDh0dVV2d19DeVF4dE5GdHozdk1VVmczWXM4Rks4TmJ6N2EzS3I4cEtnVEdlYUFxdHhWYmFEem1HU19pdEdlSXZDbUo0WUhXV3p0WWNhNDcxc1FkSlpaUUNGNjdPckZyVFNNRVpwV2VEV3J2Z3NkWjZ5eXp3ME5qX3BPa2NRYnBTUFpSSlg5U2RUTlpxYm1OU2g?oc=5",
-      "publishedAt": "2026-05-11",
-      "topic": "public_safety",
-      "summary": "Mayor Lurie Signs Legislation To Support San Francisco Police Officers, Continue To Drive Down Crime SF.gov",
-      "confidence": 0.78
     },
     {
       "id": "mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundre",
@@ -84,6 +101,16 @@
       "confidence": 0.84
     },
     {
+      "id": "datasf-overdose-related-911-responses",
+      "title": "Overdose-Related 911 Responses by Emergency Medical Services",
+      "sourceType": "official",
+      "url": "https://data.sfgov.org/d/ed3a-sn39",
+      "publishedAt": "2026-05-17",
+      "topic": "public_safety",
+      "summary": "Official SF EMSA weekly counts of opioid overdose-related 911 calls responded to by emergency medical services.",
+      "confidence": 0.95
+    },
+    {
       "id": "climate-plan-update",
       "title": "Five-year update to San Francisco Climate Action Plan",
       "sourceType": "official",
@@ -92,6 +119,28 @@
       "topic": "climate",
       "summary": "Climate Action Plan update framed around emissions, household costs, and city resilience.",
       "confidence": 0.9
+    },
+    {
+      "id": "mayor-lurie-signs-legislation-to-support-san-francisco-police-officers-continue-",
+      "title": "Mayor Lurie Signs Legislation To Support San Francisco Police Officers, Continue To Drive Down Crime - SF.gov",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYnFWeXRDbFhMM21tZE9Jb20xYTAtZ0ZIanFsNGVuU1hKbEZ2bXY2cDh0dVV2d19DeVF4dE5GdHozdk1VVmczWXM4Rks4TmJ6N2EzS3I4cEtnVEdlYUFxdHhWYmFEem1HU19pdEdlSXZDbUo0WUhXV3p0WWNhNDcxc1FkSlpaUUNGNjdPckZyVFNNRVpwV2VEV3J2Z3NkWjZ5eXp3ME5qX3BPa2NRYnBTUFpSSlg5U2RUTlpxYm1OU2g?oc=5",
+      "publishedAt": "2026-05-11",
+      "topic": "public_safety",
+      "summary": "Mayor Lurie Signs Legislation To Support San Francisco Police Officers, Continue To Drive Down Crime SF.gov",
+      "confidence": 0.78
+    },
+    {
+      "id": "mayor-lurie-signs-legislation-with-firefighters-x27-union-to-support-first-respo",
+      "title": "Mayor Lurie Signs Legislation With Firefighters&#x27; Union To Support First Responders, Strengthen Public Safety | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-signs-legislation-with-firefighters-union-to-support-first-responders-strengthen-public-safety/",
+      "publishedAt": "2026-05-08",
+      "topic": "homelessness",
+      "summary": "Agreement Builds on Mayor Lurie’s Efforts to Keep Firefighters Safe, Strengthen Emergency Response, Improve Public Safety",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Signs Legislation With Firefighters&#x27; Union To Support First Responders, Strengthen Public Safety Office of the Mayor Agreement Builds on Mayor Lurie’s Efforts to Keep Firefighters Safe, Strengthen Emergency Response, Improve Public Safety May 8, 2026 SAN FRANCISCO – Mayor Daniel Lurie today signed legislation to enact new labor agreements between the City and County of San Francisco and the International Association of Fire Fighters (IAFF) Local 798 Units 1 and 2. Effective July 1, 2026, through June 30, 2030, the new memorandum of understanding (MOU) prioritizes public safety and invests in San Francisco firefighters and first responders. The legislation signed by Mayor Lurie was cosponsored by Board of Supervisors President Rafael Mandelman, District 2 Supervisor Stephen Sherrill, District 4 Supervisor Alan Wong, and District 5 Supervisor Bilal Mahmood. The MOU with Local 798 continues Mayor Lurie’s work to strengthen public safety and support firefighters amid a difficult budget cycle. At the end of his first year in office, Mayor Lurie announced the San Francisco Fire Department (SFFD) would become the largest department in the United States to transition its entire fleet to non-PFAS turnout gear , keeping firefighters safe. To continue the work to support the city&#x27;s first responders, the mayor recently announced the completion of San Francisco’s Fire Network Modernization Project to replace aging infrastructure at 51 fire stations and broke ground on a new SFFD training facility that will help firefighters and emergency responders develop the tools they need to keep San Franciscans safe. As the city prepares to navigate a difficult budget cycle , Mayor Lurie is preparing to deliver a budget that protects core services including continu...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "union-square-programming",
@@ -104,30 +153,91 @@
       "confidence": 0.89
     },
     {
-      "id": "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
-      "title": "S.F. eyes $125M annually for affordable housing, more than double current funding",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/05/sf-affordable-housing-fund-myrna-melgar-daniel-lurie/",
-      "discoveryUrl": "https://missionlocal.org/2026/05/sf-affordable-housing-fund-myrna-melgar-daniel-lurie/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "Mission Local",
-      "publishedAt": "2026-05-19",
-      "topic": "transit",
-      "summary": "Myrna Melgar has struck a bargain with Daniel Lurie: $125 million a year for affordable housing, if there&#039;s no fight on \"inclusionary\" rates.",
+      "id": "mayor-lurie-continues-support-for-arts-organizations-with-new-grant-opportunitie",
+      "title": "Mayor Lurie Continues Support For Arts Organizations With New Grant Opportunities | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-continues-support-for-arts-organizations-with-new-grant-opportunities/",
+      "publishedAt": "2026-05-13",
+      "topic": "economy",
+      "summary": "Grants Provide Operating Support for Local Arts Organizations, Including New Funding Opportunities for Small Organizations Impacted by Federal Cuts; Builds on Mayor Lurie’s Work to Support San Francisco&#x27;s Creative Ecosystem While Ensuring Arts and Culture Continue to Drive City’s Comeback",
       "confidence": 0.9,
-      "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today Supervisor Myrna Melgar plans to introduce legislation Tuesday that would more than double San Francisco’s annual budget for affordable housing to some $125 million, part of a bargain she hammered out with Mayor Daniel Lurie. Melgar said her proposal would vastly expand the city’s capacity to build affordable housing by allocating $125 million annually into the city’s Housing Trust Fund , up from the $52 million that goes into it today, while also extending the fund for another 30 years. That would be a total of at least $3.75 billion. The increase would be funded by “allocating a portion of future property tax growth every year” to the fund, according to a press release sent by Melgar and Lurie. “I cut a deal with the mayor,” Melgar said, to use property taxes “coming from the increase in the value of all properties in San Francisco” as a result of last year’s upzoning . The proposal would take the increase in future property taxes and “put it aside” into the low-income housing fund, Melgar said. “Housing is not getting built at the pace we need, and the consequences are all around us,” Mayor Lurie said in a statement. “Today, we’re jumpstarting affordable housing in San Francisco.” The two also announced an immediate $70 million bond, to be issued next year, that would go towards preserving and maintaining existing affordable housing. Much of that work has happened through the city&#8217;s Small Sites program, which buys smaller buildings and converts them to affordable housing, though the program has been fraught . The city will maintain the current level of allocation to the fund during this budget crisis, but start in...",
+      "excerpt": "NEWS Mayor Lurie Continues Support For Arts Organizations With New Grant Opportunities Office of the Mayor Grants Provide Operating Support for Local Arts Organizations, Including New Funding Opportunities for Small Organizations Impacted by Federal Cuts; Builds on Mayor Lurie’s Work to Support San Francisco&#x27;s Creative Ecosystem While Ensuring Arts and Culture Continue to Drive City’s Comeback May 13, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced new grant opportunities for San Francisco arts and culture organizations, including two new funding programs to support small organizations impacted by federal funding cuts and groups undertaking capital improvement projects. Alongside the new grants, Grants for the Arts (GFTA) launched its request for proposals for Fiscal Years 2027 and 2028 today, inviting arts and culture organizations to apply for general operating support grants. Funded through the city’s hotel tax, Grants for the Arts supports more than 250 organizations every year that energize neighborhoods, bring communities together, attract visitors, and help drive San Francisco’s economic recovery. The new funding continues Mayor Lurie’s work to support San Francisco’s the arts and culture ecosystem that is driving the city’s comeback. Late last month, the mayor appointed the city’s first executive director of arts and culture, Matthew Goudeau , who will oversee work to strengthen the city’s support for the arts. The mayor recently returned from his first international trip, where he signed eight memorandums of understanding strengthening connections between arts and culture organizations in San Francisco and their counterparts in Shanghai and Seoul. To continue to support the arts community, in his first year in office, Mayor Lurie launched SF LIV...",
       "scrapeStatus": "scraped"
     },
     {
-      "id": "sf-mayor-news",
-      "title": "News from the Office of the Mayor | SF.gov",
+      "id": "mayor-lurie-cuts-ribbon-on-terry-francois-boulevard-bike-and-pedestrian-safety-i",
+      "title": "Mayor Lurie Cuts Ribbon On Terry Francois Boulevard Bike And Pedestrian Safety Improvement Project | SF.gov",
       "sourceType": "official",
-      "url": "https://www.sf.gov/news-from-the-office-of-the-mayor",
-      "publishedAt": "2026-05-18",
-      "topic": "homelessness",
-      "summary": "INFO PAGE News from the Office of the Mayor Office of the Mayor May 13, 2026: Mayor Lurie Continues Support For Arts Organizations With New Grant Opportunities May 13, 2026: Mayor Lurie Appoints Sarah Madland As General Manager Of Recreation And Park Department May 12, 2026: Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years May 11, 2026: Mayor Lurie Signs Legislation",
-      "confidence": 0.95,
-      "excerpt": "INFO PAGE News from the Office of the Mayor Office of the Mayor May 13, 2026: Mayor Lurie Continues Support For Arts Organizations With New Grant Opportunities May 13, 2026: Mayor Lurie Appoints Sarah Madland As General Manager Of Recreation And Park Department May 12, 2026: Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years May 11, 2026: Mayor Lurie Signs Legislation To Support San Francisco Police Officers, Continue To Drive Down Crime May 8, 2026: Mayor Lurie Signs Legislation With Firefighters&#x27; Union To Support First Responders, Strengthen Public Safety May 7, 2026: Mayor Lurie Celebrates Visitors Coming Back To San Francisco In Record Numbers May 7, 2026: Mayor Lurie Cuts Ribbon On Terry Francois Boulevard Bike And Pedestrian Safety Improvement Project May 6, 2026: Mayor Lurie Cuts Ribbon On New Affordable Housing in Bayview May 6, 2026: Mayor Lurie Celebrates Completion Of High-Speed Fiber Network At All San Francisco Fire Stations May 6, 2026: Mayor Lurie Nominates Larry Low To Police Commission May 5, 2026: Mayor Lurie Announces Plan To Tackle Fare Evasion On Public Transit, Make Muni More Accountable April 30, 2026: Mayor Lurie Announces Major Expansion Of Free And Low-Cost Childcare With Hundreds Of New Spots For Families With Infants And Toddlers April 29, 2026: Mayor Lurie Celebrates Groundbreaking Of Improved Twin Peaks Promenade April 29, 2026: Mayor Lurie Celebrates 80% Decline In Speeding After One Year Of San Francisco&#x27;s First-In-State Traffic Safety Program April 28, 2026: Mayor Lurie Appoints Steven Betz As Chief Of Public Safety April 28, 2026: Mayor Lurie Launches Next Step To Deliver Faster, More Transparent Permitting As New Digital Portal Shows Results April 27, 2026: Mayor Lurie Appo...",
+      "url": "https://www.sf.gov/news-mayor-lurie-cuts-ribbon-on-terry-francois-boulevard-bike-and-pedestrian-safety-improvement-project/",
+      "publishedAt": "2026-05-07",
+      "topic": "public_safety",
+      "summary": "Multi-Agency Project Enhances Safety, Accessibility, Connectivity Along San Francisco’s Eastern Waterfront; Continues Mayor Lurie’s Work Under Family Opportunity Agenda to Deliver Vibrant Public Spaces for San Francisco Families",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Cuts Ribbon On Terry Francois Boulevard Bike And Pedestrian Safety Improvement Project Office of the Mayor Multi-Agency Project Enhances Safety, Accessibility, Connectivity Along San Francisco’s Eastern Waterfront; Continues Mayor Lurie’s Work Under Family Opportunity Agenda to Deliver Vibrant Public Spaces for San Francisco Families May 7, 2026 SAN FRANCISCO – Mayor Daniel Lurie today cut the ribbon on the Terry Francois Boulevard Bike and Pedestrian Safety Project, a multi-agency effort to improve safety and accessibility on a busy corridor of the Mission Rock neighborhood along San Francisco’s eastern waterfront. The project will transform Terry Francois Boulevard between China Basin Park and Mission Rock Street into a safer route for people walking, biking, and rolling with new paving along the corridor, concrete barriers separating bike lanes from vehicle traffic, a newly painted plaza, and more. The project continues Mayor Lurie’s work to make San Francisco more affordable and welcoming for families, including by fostering vibrant public spaces accessible at no cost. Just last week, the city broke ground on the Twin Peaks Promenade Project , transforming a stretch of Twin Peaks Boulevard into a pedestrian- and cyclist-first street that will support walking, biking, and recreation. The mayor has also taken steps to bring more free entertainment to some of the city’s most beloved public spaces, announcing a free concert series returning to Golden Gate Park through the summer and fall as well as free concerts and food trucks in Civic Center Plaza accelerating San Francisco’s recovery. The improved safety and accessibility on one of San Francisco’s busy streets builds on the mayor’s work to invest in San Francisco’s public safety infrastructure— la...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "s-f-activists-deliver-1-500-postcards-to-mayor-lurie-asking-him-to-stop-budget-c",
+      "title": "S.F. activists deliver 1,500 postcards to Mayor Lurie, asking him to stop budget cuts",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/05/peoples-budget-postcards/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-05-13",
+      "topic": "public_safety",
+      "summary": "The People’s Budget Coalition delivered over 1,500 postcards today to Mayor Daniel Lurie’s office today, demanding the mayor stop cutting funds to services.",
+      "confidence": 0.82,
+      "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today If you can’t get through to the mayor, try sending him a postcard. This was the strategy of the People’s Budget Coalition — made up of various nonprofits and other city-funded groups impacted by budget cuts — which delivered more than 1,500 postcards today to Mayor Daniel Lurie’s office. Each card was inscribed with an individual’s plea to keep the mayor’s budget cuts at bay. Those cuts have gutted many social programs, advocates say, including immigrant services and public-health initiatives . “People will die if these budget cuts move forward,” said Anya Worley-Ziegmann, coalition coordinator. The postcards were tied together with string, and activists lined up to deliver them to Lurie’s office. Representatives from different community groups — among them seniors and people with disabilities, neighborhood residents, and others from the HIV Advocacy Network — spoke to a representative from the mayor’s office, who stood outside, listened to each person, and took notes. Lurie’s office directed members of the press to the mayor’s remarks at a press conference earlier Tuesday morning. San Francisco is facing a $643 million deficit , and Lurie earlier this year instructed departments to cut programs, stop hiring, and review all contracts for potential savings. “We have to make painful decisions,” Lurie said during that Q&A. “I want to set our city up on firm financial footing, I want to think long term about the city.” Lurie has largely spared law enforcement from the cuts, however, and the city recently approved new police and firefighter contracts that would cost $100 million extra over two years. The mayor only has “discret...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "we-can-shut-down-the-city-lurie-s-budget-cuts-spark-a-showdown-with-labor-2026-0",
+      "title": "‘We can shut down the city’: Lurie’s budget cuts spark a showdown with labor",
+      "sourceType": "news",
+      "url": "https://sfstandard.com/2026/05/12/can-shut-city-lurie-s-budget-cuts-spark-showdown-labor/",
+      "discoveryUrl": "https://sfstandard.com/2026/05/12/can-shut-city-lurie-s-budget-cuts-spark-showdown-labor/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF Standard",
+      "publishedAt": "2026-05-12",
+      "topic": "public_safety",
+      "summary": "Next year, city workers will be legally able to strike for the first time in five decades.",
+      "confidence": 0.9,
+      "excerpt": "Mayor Daniel Lurie may be setting the stage for a once-in-a-generation showdown with San Francisco’s public-sector labor unions. Faced with a $643 million deficit and the threat of hundreds of millions more in federal cuts, Lurie is slashing city jobs and squeezing public services — moves that are fueling anger among the unions he’ll soon face across the bargaining table. The timing couldn’t be more fraught. Next year, for the first time since 1976 , San Francisco’s public-sector workers will have the legal right to strike, after a recent decision by the California Public Employment Relations Board struck down the city’s ability to fire picketing workers. The last time a mayor pushed them this far, 5,000 city workers walked off the job, the streets filled with trash, the buses stopped running, and the city shook. Last month, Lurie sent pink slips to 127 city staffers. His draft budget is due in June, and hundreds more positions are threatened. While the mayor’s budget must be approved by the Board of Supervisors, a Lurie-friendly, moderate Democrat majority is poised to approve whatever cuts he proposes. The only person who can stop Lurie’s budget is Lurie himself. And he may have reason to pull his punches. Kristin Hardy, regional vice president of Service Employees International Union 1021 — which represents 16,000 San Francisco employees, nearly half of all city workers — said Lurie’s proposed layoffs will ensure workers are enraged by the time they meet him at the bargaining table in 2027. If that leads workers to strike, she said, “we can shut down the whole city.” “I really don’t think that the mayor wants this,” she added, but “that’s what it looks like it’s going toward.” SEIU 1021’s members hail from nearly all of San Francisco’s 50-odd departments, guarante...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-appoints-sarah-madland-as-general-manager-of-recreation-and-park-dep",
+      "title": "Mayor Lurie Appoints Sarah Madland As General Manager Of Recreation And Park Department | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-appoints-sarah-madland-as-general-manager-of-recreation-and-park-department/",
+      "publishedAt": "2026-05-13",
+      "topic": "economy",
+      "summary": "Madland Brings Decades of Experience Serving Youth and Families, Commitment to Expanding Access to Parks and Programs; Appointment Builds on Mayor Lurie’s Family Opportunity Agenda to Make San Francisco’s Parks Welcoming for Families, Provide Vibrant Public Spaces",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Appoints Sarah Madland As General Manager Of Recreation And Park Department Office of the Mayor Madland Brings Decades of Experience Serving Youth and Families, Commitment to Expanding Access to Parks and Programs; Appointment Builds on Mayor Lurie’s Family Opportunity Agenda to Make San Francisco’s Parks Welcoming for Families, Provide Vibrant Public Spaces May 13, 2026 SAN FRANCISCO – Mayor Daniel Lurie today appointed Sarah Madland as general manager of the San Francisco Recreation and Parks Department (Rec and Park). Madland brings more than two decades of city service to the role, where she will oversee San Francisco’s world-class park system and work to expand access to recreation programs, community spaces, and neighborhood amenities that help San Franciscans of all ages stay active and engaged in their communities. In her time at Rec and Park, Madland has launched programs such as Love Dolores and San Francisco Children and Nature and helped expand a citywide volunteer network supporting parks across San Francisco. Her appointment builds on Mayor Lurie’s and the city’s work to expand welcoming public spaces and affordable recreation opportunities for families and young people. Just last week, the mayor cut the ribbon on a project to create a safer route for people walking, biking, and rolling in Mission Rock, improving conditions for families in the area. That project continues significant work to revitalize the city’s eastern waterfront, including through the expansion of the India Basin Waterfront Park . Last month, the city broke ground on the Twin Peaks Promenade Project , transforming a stretch of Twin Peaks Boulevard into a pedestrian- and cyclist-first street that will support walking, biking, and recreation. Mayor Lurie has also lever...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "golden-city-fc-promised-a-10m-kezar-facelift-a-year-later-it-s-gone-dark-sfgate-",
+      "title": "Golden City FC promised a $10M Kezar facelift. A year later, it’s gone dark. - sfgate.com",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SVW4wbFNyTEF6dmZQTy1FWVBjUFdJTXU1R1hnYm9WNDZjeTBDbDFMV3B6anFKS09CaWNVUTRPQkZ0VHEtQkM4bzRpaGV2MlVJZEVKOTNHdmNrR2FCTS1PR1BSeEFJRXgwVmF0ampIclh6LXFkVUtiV3ZPMmJGZw?oc=5",
+      "publishedAt": "2026-05-08",
+      "topic": "city_government",
+      "summary": "Golden City FC promised a $10M Kezar facelift. A year later, it’s gone dark. &nbsp;&nbsp; sfgate.com",
+      "confidence": 0.68
+    },
+    {
+      "id": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
+      "title": "Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-housing/",
+      "publishedAt": "2026-05-19",
+      "topic": "economy",
+      "summary": "Expansion of Housing Trust Fund, Updates to Inclusionary Housing Requirements Will Jumpstart Building and Preservation of Affordable Housing Citywide, Encourage Creation of New Housing at All Income Levels; Investment Continues Mayor Lurie, Supervisor Melgar’s Work to Add More Housing in San Francisco and Make the City More Affordable",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing Office of the Mayor Expansion of Housing Trust Fund, Updates to Inclusionary Housing Requirements Will Jumpstart Building and Preservation of Affordable Housing Citywide, Encourage Creation of New Housing at All Income Levels; Investment Continues Mayor Lurie, Supervisor Melgar’s Work to Add More Housing in San Francisco and Make the City More Affordable May 19, 2026 SAN FRANCISCO – Mayor Daniel Lurie and District 7 Supervisor Myrna Melgar today announced a transformative investment that will unlock affordable housing across San Francisco. Mayor Lurie will support Supervisor Melgar’s Charter Amendment for the November 2026 ballot in partnership with District 10 Supervisor Shamann Walton, District 3 Supervisor Danny Sauter, District 2 Supervisor Stephen Sherrill, District 6 Supervisor Matt Dorsey, and District 4 Supervisor Alan Wong that will expand and renew the city’s Housing Trust Fund by responsibly increasing the city’s contribution to the fund to support affordable housing production and preservation citywide. The announcement comes as Mayor Lurie, Supervisor Melgar, and Supervisors Dorsey, Sherill, and Sauter. also introduced an ordinance to update the city’s inclusionary housing requirements and development impact fee requirements in line with the recommendation of housing experts and with the support of affordable housing providers, tenant-rights advocates, and labor leaders. The expansion of the Housing Trust Fund and updates to inclusionary housing requirements continue the work Mayor Lurie and Supervisor Melgar have done to build more housing in San Francisco. Last year, the mayor and supervisor worked together to pass the Family Zoning plan —a one in a generation pl...",
       "scrapeStatus": "scraped"
     },
     {
@@ -138,16 +248,6 @@
       "publishedAt": "2026-05-17",
       "topic": "homelessness",
       "summary": "Official San Francisco 311 cases dataset with request categories, subtypes, timestamps, and status fields; the connector filters it to Encampments requests.",
-      "confidence": 0.95
-    },
-    {
-      "id": "datasf-overdose-related-911-responses",
-      "title": "Overdose-Related 911 Responses by Emergency Medical Services",
-      "sourceType": "official",
-      "url": "https://data.sfgov.org/d/ed3a-sn39",
-      "publishedAt": "2026-05-17",
-      "topic": "public_safety",
-      "summary": "Official SF EMSA weekly counts of opioid overdose-related 911 calls responded to by emergency medical services.",
       "confidence": 0.95
     },
     {
@@ -201,94 +301,6 @@
       "confidence": 0.78
     },
     {
-      "id": "mayor-lurie-continues-support-for-arts-organizations-with-new-grant-opportunitie",
-      "title": "Mayor Lurie Continues Support For Arts Organizations With New Grant Opportunities | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-continues-support-for-arts-organizations-with-new-grant-opportunities/",
-      "publishedAt": "2026-05-13",
-      "topic": "economy",
-      "summary": "Grants Provide Operating Support for Local Arts Organizations, Including New Funding Opportunities for Small Organizations Impacted by Federal Cuts; Builds on Mayor Lurie’s Work to Support San Francisco&#x27;s Creative Ecosystem While Ensuring Arts and Culture Continue to Drive City’s Comeback",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Continues Support For Arts Organizations With New Grant Opportunities Office of the Mayor Grants Provide Operating Support for Local Arts Organizations, Including New Funding Opportunities for Small Organizations Impacted by Federal Cuts; Builds on Mayor Lurie’s Work to Support San Francisco&#x27;s Creative Ecosystem While Ensuring Arts and Culture Continue to Drive City’s Comeback May 13, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced new grant opportunities for San Francisco arts and culture organizations, including two new funding programs to support small organizations impacted by federal funding cuts and groups undertaking capital improvement projects. Alongside the new grants, Grants for the Arts (GFTA) launched its request for proposals for Fiscal Years 2027 and 2028 today, inviting arts and culture organizations to apply for general operating support grants. Funded through the city’s hotel tax, Grants for the Arts supports more than 250 organizations every year that energize neighborhoods, bring communities together, attract visitors, and help drive San Francisco’s economic recovery. The new funding continues Mayor Lurie’s work to support San Francisco’s the arts and culture ecosystem that is driving the city’s comeback. Late last month, the mayor appointed the city’s first executive director of arts and culture, Matthew Goudeau , who will oversee work to strengthen the city’s support for the arts. The mayor recently returned from his first international trip, where he signed eight memorandums of understanding strengthening connections between arts and culture organizations in San Francisco and their counterparts in Shanghai and Seoul. To continue to support the arts community, in his first year in office, Mayor Lurie launched SF LIV...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "s-f-activists-deliver-1-500-postcards-to-mayor-lurie-asking-him-to-stop-budget-c",
-      "title": "S.F. activists deliver 1,500 postcards to Mayor Lurie, asking him to stop budget cuts",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/05/peoples-budget-postcards/",
-      "discoveryUrl": "https://missionlocal.org/feed/",
-      "discoverySource": "Mission Local",
-      "publisher": "Mission Local",
-      "publishedAt": "2026-05-13",
-      "topic": "public_safety",
-      "summary": "The People’s Budget Coalition delivered over 1,500 postcards today to Mayor Daniel Lurie’s office today, demanding the mayor stop cutting funds to services.",
-      "confidence": 0.82,
-      "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today If you can’t get through to the mayor, try sending him a postcard. This was the strategy of the People’s Budget Coalition — made up of various nonprofits and other city-funded groups impacted by budget cuts — which delivered more than 1,500 postcards today to Mayor Daniel Lurie’s office. Each card was inscribed with an individual’s plea to keep the mayor’s budget cuts at bay. Those cuts have gutted many social programs, advocates say, including immigrant services and public-health initiatives . “People will die if these budget cuts move forward,” said Anya Worley-Ziegmann, coalition coordinator. The postcards were tied together with string, and activists lined up to deliver them to Lurie’s office. Representatives from different community groups — among them seniors and people with disabilities, neighborhood residents, and others from the HIV Advocacy Network — spoke to a representative from the mayor’s office, who stood outside, listened to each person, and took notes. Lurie’s office directed members of the press to the mayor’s remarks at a press conference earlier Tuesday morning. San Francisco is facing a $643 million deficit , and Lurie earlier this year instructed departments to cut programs, stop hiring, and review all contracts for potential savings. “We have to make painful decisions,” Lurie said during that Q&A. “I want to set our city up on firm financial footing, I want to think long term about the city.” Lurie has largely spared law enforcement from the cuts, however, and the city recently approved new police and firefighter contracts that would cost $100 million extra over two years. The mayor only has “discret...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-appoints-sarah-madland-as-general-manager-of-recreation-and-park-dep",
-      "title": "Mayor Lurie Appoints Sarah Madland As General Manager Of Recreation And Park Department | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-appoints-sarah-madland-as-general-manager-of-recreation-and-park-department/",
-      "publishedAt": "2026-05-13",
-      "topic": "economy",
-      "summary": "Madland Brings Decades of Experience Serving Youth and Families, Commitment to Expanding Access to Parks and Programs; Appointment Builds on Mayor Lurie’s Family Opportunity Agenda to Make San Francisco’s Parks Welcoming for Families, Provide Vibrant Public Spaces",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Appoints Sarah Madland As General Manager Of Recreation And Park Department Office of the Mayor Madland Brings Decades of Experience Serving Youth and Families, Commitment to Expanding Access to Parks and Programs; Appointment Builds on Mayor Lurie’s Family Opportunity Agenda to Make San Francisco’s Parks Welcoming for Families, Provide Vibrant Public Spaces May 13, 2026 SAN FRANCISCO – Mayor Daniel Lurie today appointed Sarah Madland as general manager of the San Francisco Recreation and Parks Department (Rec and Park). Madland brings more than two decades of city service to the role, where she will oversee San Francisco’s world-class park system and work to expand access to recreation programs, community spaces, and neighborhood amenities that help San Franciscans of all ages stay active and engaged in their communities. In her time at Rec and Park, Madland has launched programs such as Love Dolores and San Francisco Children and Nature and helped expand a citywide volunteer network supporting parks across San Francisco. Her appointment builds on Mayor Lurie’s and the city’s work to expand welcoming public spaces and affordable recreation opportunities for families and young people. Just last week, the mayor cut the ribbon on a project to create a safer route for people walking, biking, and rolling in Mission Rock, improving conditions for families in the area. That project continues significant work to revitalize the city’s eastern waterfront, including through the expansion of the India Basin Waterfront Park . Last month, the city broke ground on the Twin Peaks Promenade Project , transforming a stretch of Twin Peaks Boulevard into a pedestrian- and cyclist-first street that will support walking, biking, and recreation. Mayor Lurie has also lever...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "we-can-shut-down-the-city-lurie-s-budget-cuts-spark-a-showdown-with-labor-2026-0",
-      "title": "‘We can shut down the city’: Lurie’s budget cuts spark a showdown with labor",
-      "sourceType": "news",
-      "url": "https://sfstandard.com/2026/05/12/can-shut-city-lurie-s-budget-cuts-spark-showdown-labor/",
-      "discoveryUrl": "https://sfstandard.com/2026/05/12/can-shut-city-lurie-s-budget-cuts-spark-showdown-labor/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF Standard",
-      "publishedAt": "2026-05-12",
-      "topic": "public_safety",
-      "summary": "Next year, city workers will be legally able to strike for the first time in five decades.",
-      "confidence": 0.9,
-      "excerpt": "Mayor Daniel Lurie may be setting the stage for a once-in-a-generation showdown with San Francisco’s public-sector labor unions. Faced with a $643 million deficit and the threat of hundreds of millions more in federal cuts, Lurie is slashing city jobs and squeezing public services — moves that are fueling anger among the unions he’ll soon face across the bargaining table. The timing couldn’t be more fraught. Next year, for the first time since 1976 , San Francisco’s public-sector workers will have the legal right to strike, after a recent decision by the California Public Employment Relations Board struck down the city’s ability to fire picketing workers. The last time a mayor pushed them this far, 5,000 city workers walked off the job, the streets filled with trash, the buses stopped running, and the city shook. Last month, Lurie sent pink slips to 127 city staffers. His draft budget is due in June, and hundreds more positions are threatened. While the mayor’s budget must be approved by the Board of Supervisors, a Lurie-friendly, moderate Democrat majority is poised to approve whatever cuts he proposes. The only person who can stop Lurie’s budget is Lurie himself. And he may have reason to pull his punches. Kristin Hardy, regional vice president of Service Employees International Union 1021 — which represents 16,000 San Francisco employees, nearly half of all city workers — said Lurie’s proposed layoffs will ensure workers are enraged by the time they meet him at the bargaining table in 2027. If that leads workers to strike, she said, “we can shut down the whole city.” “I really don’t think that the mayor wants this,” she added, but “that’s what it looks like it’s going toward.” SEIU 1021’s members hail from nearly all of San Francisco’s 50-odd departments, guarante...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-signs-legislation-with-firefighters-x27-union-to-support-first-respo",
-      "title": "Mayor Lurie Signs Legislation With Firefighters&#x27; Union To Support First Responders, Strengthen Public Safety | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-signs-legislation-with-firefighters-union-to-support-first-responders-strengthen-public-safety/",
-      "publishedAt": "2026-05-08",
-      "topic": "homelessness",
-      "summary": "Agreement Builds on Mayor Lurie’s Efforts to Keep Firefighters Safe, Strengthen Emergency Response, Improve Public Safety",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Signs Legislation With Firefighters&#x27; Union To Support First Responders, Strengthen Public Safety Office of the Mayor Agreement Builds on Mayor Lurie’s Efforts to Keep Firefighters Safe, Strengthen Emergency Response, Improve Public Safety May 8, 2026 SAN FRANCISCO – Mayor Daniel Lurie today signed legislation to enact new labor agreements between the City and County of San Francisco and the International Association of Fire Fighters (IAFF) Local 798 Units 1 and 2. Effective July 1, 2026, through June 30, 2030, the new memorandum of understanding (MOU) prioritizes public safety and invests in San Francisco firefighters and first responders. The legislation signed by Mayor Lurie was cosponsored by Board of Supervisors President Rafael Mandelman, District 2 Supervisor Stephen Sherrill, District 4 Supervisor Alan Wong, and District 5 Supervisor Bilal Mahmood. The MOU with Local 798 continues Mayor Lurie’s work to strengthen public safety and support firefighters amid a difficult budget cycle. At the end of his first year in office, Mayor Lurie announced the San Francisco Fire Department (SFFD) would become the largest department in the United States to transition its entire fleet to non-PFAS turnout gear , keeping firefighters safe. To continue the work to support the city&#x27;s first responders, the mayor recently announced the completion of San Francisco’s Fire Network Modernization Project to replace aging infrastructure at 51 fire stations and broke ground on a new SFFD training facility that will help firefighters and emergency responders develop the tools they need to keep San Franciscans safe. As the city prepares to navigate a difficult budget cycle , Mayor Lurie is preparing to deliver a budget that protects core services including continu...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "golden-city-fc-promised-a-10m-kezar-facelift-a-year-later-it-s-gone-dark-sfgate-",
-      "title": "Golden City FC promised a $10M Kezar facelift. A year later, it’s gone dark. - sfgate.com",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SVW4wbFNyTEF6dmZQTy1FWVBjUFdJTXU1R1hnYm9WNDZjeTBDbDFMV3B6anFKS09CaWNVUTRPQkZ0VHEtQkM4bzRpaGV2MlVJZEVKOTNHdmNrR2FCTS1PR1BSeEFJRXgwVmF0ampIclh6LXFkVUtiV3ZPMmJGZw?oc=5",
-      "publishedAt": "2026-05-08",
-      "topic": "city_government",
-      "summary": "Golden City FC promised a $10M Kezar facelift. A year later, it’s gone dark. &nbsp;&nbsp; sfgate.com",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-cuts-ribbon-on-terry-francois-boulevard-bike-and-pedestrian-safety-i",
-      "title": "Mayor Lurie Cuts Ribbon On Terry Francois Boulevard Bike And Pedestrian Safety Improvement Project | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-cuts-ribbon-on-terry-francois-boulevard-bike-and-pedestrian-safety-improvement-project/",
-      "publishedAt": "2026-05-07",
-      "topic": "public_safety",
-      "summary": "Multi-Agency Project Enhances Safety, Accessibility, Connectivity Along San Francisco’s Eastern Waterfront; Continues Mayor Lurie’s Work Under Family Opportunity Agenda to Deliver Vibrant Public Spaces for San Francisco Families",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Cuts Ribbon On Terry Francois Boulevard Bike And Pedestrian Safety Improvement Project Office of the Mayor Multi-Agency Project Enhances Safety, Accessibility, Connectivity Along San Francisco’s Eastern Waterfront; Continues Mayor Lurie’s Work Under Family Opportunity Agenda to Deliver Vibrant Public Spaces for San Francisco Families May 7, 2026 SAN FRANCISCO – Mayor Daniel Lurie today cut the ribbon on the Terry Francois Boulevard Bike and Pedestrian Safety Project, a multi-agency effort to improve safety and accessibility on a busy corridor of the Mission Rock neighborhood along San Francisco’s eastern waterfront. The project will transform Terry Francois Boulevard between China Basin Park and Mission Rock Street into a safer route for people walking, biking, and rolling with new paving along the corridor, concrete barriers separating bike lanes from vehicle traffic, a newly painted plaza, and more. The project continues Mayor Lurie’s work to make San Francisco more affordable and welcoming for families, including by fostering vibrant public spaces accessible at no cost. Just last week, the city broke ground on the Twin Peaks Promenade Project , transforming a stretch of Twin Peaks Boulevard into a pedestrian- and cyclist-first street that will support walking, biking, and recreation. The mayor has also taken steps to bring more free entertainment to some of the city’s most beloved public spaces, announcing a free concert series returning to Golden Gate Park through the summer and fall as well as free concerts and food trucks in Civic Center Plaza accelerating San Francisco’s recovery. The improved safety and accessibility on one of San Francisco’s busy streets builds on the mayor’s work to invest in San Francisco’s public safety infrastructure— la...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "at-conservative-leaning-forum-s-f-leaders-love-pragmatism-efficiency-and-daniel-",
       "title": "At conservative-leaning forum, S.F. leaders love pragmatism, efficiency, and Daniel Lurie - Mission Local",
       "sourceType": "news",
@@ -320,6 +332,18 @@
       "summary": "Low Brings Extensive Governance Experience, Leadership Across San Francisco Civic and Cultural Organizations; Nomination Builds on Efforts to Drive Down Crime, Improve Public Safety, Accountability Across San Francisco",
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Nominates Larry Low To Police Commission Office of the Mayor Low Brings Extensive Governance Experience, Leadership Across San Francisco Civic and Cultural Organizations; Nomination Builds on Efforts to Drive Down Crime, Improve Public Safety, Accountability Across San Francisco May 6, 2026 SAN FRANCISCO – Mayor Daniel Lurie today nominated Larry Low to serve on the San Francisco Police Commission. Low brings more than four decades of experience in law, business, and nonprofit leadership in San Francisco, with expertise in operations and governance. A lifelong San Franciscan, he has played important roles in a variety of civic, cultural, and education organizations, and will leverage his experiences to strengthen public safety and accountability across the city. Public safety has been Mayor Lurie’s top priority, with crime down significantly and progress continuing with last week’s appointment of Steven Betz as chief of public safety. In 2025, car break-ins fell 43% to 22-year lows, and homicides reached their lowest level since 1954 . Mayor Lurie’s Rebuilding the Ranks plan is driving towards full police and sheriff staffing, with SFPD seeing its first staffing increase in years and graduating its largest recruit class since 2017 last month. Staffing improvements in the city’s 911 emergency response system have driven faster response times , and the administration is making San Francisco streets safer through Mayor Lurie’s Street Safety executive directive and first-in-the-state automated speed camer a enforcement program. “We’re making real progress on public safety in San Francisco, and Larry Low’s decades of leadership across law, business, and the nonprofit sector will help us keep that momentum going,” said Mayor Lurie . “I’m confident he will...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-announces-plan-to-tackle-fare-evasion-on-public-transit-make-muni-mo",
+      "title": "Mayor Lurie Announces Plan To Tackle Fare Evasion On Public Transit, Make Muni More Accountable | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-announces-plan-to-tackle-fare-evasion-on-public-transit-make-muni-more-accountable/",
+      "publishedAt": "2026-05-05",
+      "topic": "economy",
+      "summary": "SFMTA Will Hire More Fare Inspectors to Strengthen Enforcement Efforts, Protecting Muni Service Despite Amid Significant Budget Challenges; Continues Mayor Lurie’s Work to Deliver Safe, Accessible, Accountable Muni, Support San Francisco’s Economic Recovery With Strong Public Transit System",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Announces Plan To Tackle Fare Evasion On Public Transit, Make Muni More Accountable Office of the Mayor SFMTA Will Hire More Fare Inspectors to Strengthen Enforcement Efforts, Protecting Muni Service Despite Amid Significant Budget Challenges; Continues Mayor Lurie’s Work to Deliver Safe, Accessible, Accountable Muni, Support San Francisco’s Economic Recovery With Strong Public Transit System May 5, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced a new effort to address fare evasion on Muni, as part of his commitment to building a stronger long-term financial future for the system and a more accountable San Francisco Municipal Transportation Agency (SFMTA). The new initiative will expand Muni’s transit fare inspector team to strengthen enforcement and encourage fare payment by riders. It will also transition riders to more visible forms of payment and improve data collection to effectively reduce fare evasion—all helping protect Muni service despite significant fiscal challenges. The work to strengthen fare enforcement on Muni continues Mayor Lurie’s work with SFMTA to deliver a safer, more accessible, and more accountable Muni. In April, the SFMTA board of directors approved a balanced two-year budget for Fiscal Years 2026-2027 and 2027-2028 that prioritizes financial accountability and efficiency improvements, fare compliance, and other sources of revenue generation to preserve Muni services and programs. Since 2020, the SFMTA has identified approximately $246 million in cost savings as part of an agency-wide effort to maximize efficiencies and cost savings. “We know that Muni is facing serious financial challenges—but we’re not standing still. We have taken decisive steps to ensure Muni is operating efficiently, approving a balanced two-ye...",
       "scrapeStatus": "scraped"
     },
     {
@@ -357,16 +381,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "san-francisco-mayor-daniel-lurie-announces-steven-betz-as-new-public-safety-chie",
-      "title": "San Francisco Mayor Daniel Lurie announces Steven Betz as new public safety chief - ABC7 San Francisco",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbnNqaVI4Y0hFLVNpQTRlbVZoc2EyM0Vnd0pEQXNmcGhJSGdBYXE0SEM0c05MV25sVHM5ZjFMWUJvU1dBMVMweUJNWENvN0EzSDhSak1Sa0ZvTmVfUjNYMlNCQ2ZtMUFUcktPaUxJeUJLaHhKSFVIb0FNOUNEQ3I1Sm55T1g5aFNVYUtYdXBHOWlGMzQzSjJ2MF91a1dqTElzUXJFeW05LW5HSk9jMjBUaGpGQ2HSAboBQVVfeXFMTmdCX0JSVFVweHIzLUZ2T0hSaUt0LWQyOTB4TUR2Vm1XbnpxbzZ1MF9aWWtsazhVaEFLckUzRF82MEJkeHhoX2o0NDkwNUxEdHRvRDFOemVldmxkaVpSN0p2Ynp3MDRZYXctcFlqVzY0RTAtRE5uc21DQ2cxSHlXVGJ0VDcwZzI4MWk2aWpZa0N4ckhXMUpmVGdSZXh2SFA0c3RoV003aUVWRzNoVG9yX19TVldZTkRyU0hn?oc=5",
-      "publishedAt": "2026-04-28",
-      "topic": "public_safety",
-      "summary": "San Francisco Mayor Daniel Lurie announces Steven Betz as new public safety chief &nbsp;&nbsp; ABC7 San Francisco",
-      "confidence": 0.78
-    },
-    {
       "id": "mayor-lurie-appoints-steven-betz-as-chief-of-public-safety-https-www-sf-gov-news",
       "title": "Mayor Lurie Appoints Steven Betz As Chief Of Public Safety | SF.gov",
       "sourceType": "official",
@@ -391,6 +405,16 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "san-francisco-mayor-daniel-lurie-announces-steven-betz-as-new-public-safety-chie",
+      "title": "San Francisco Mayor Daniel Lurie announces Steven Betz as new public safety chief - ABC7 San Francisco",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbnNqaVI4Y0hFLVNpQTRlbVZoc2EyM0Vnd0pEQXNmcGhJSGdBYXE0SEM0c05MV25sVHM5ZjFMWUJvU1dBMVMweUJNWENvN0EzSDhSak1Sa0ZvTmVfUjNYMlNCQ2ZtMUFUcktPaUxJeUJLaHhKSFVIb0FNOUNEQ3I1Sm55T1g5aFNVYUtYdXBHOWlGMzQzSjJ2MF91a1dqTElzUXJFeW05LW5HSk9jMjBUaGpGQ2HSAboBQVVfeXFMTmdCX0JSVFVweHIzLUZ2T0hSaUt0LWQyOTB4TUR2Vm1XbnpxbzZ1MF9aWWtsazhVaEFLckUzRF82MEJkeHhoX2o0NDkwNUxEdHRvRDFOemVldmxkaVpSN0p2Ynp3MDRZYXctcFlqVzY0RTAtRE5uc21DQ2cxSHlXVGJ0VDcwZzI4MWk2aWpZa0N4ckhXMUpmVGdSZXh2SFA0c3RoV003aUVWRzNoVG9yX19TVldZTkRyU0hn?oc=5",
+      "publishedAt": "2026-04-28",
+      "topic": "public_safety",
+      "summary": "San Francisco Mayor Daniel Lurie announces Steven Betz as new public safety chief &nbsp;&nbsp; ABC7 San Francisco",
+      "confidence": 0.78
+    },
+    {
       "id": "lurie-appoints-sf-s-first-arts-director-forges-arts-partnerships-in-shanghai-sfi",
       "title": "Lurie Appoints SF’s First Arts Director, Forges Arts Partnerships In Shanghai - SFist",
       "sourceType": "news",
@@ -398,16 +422,6 @@
       "publishedAt": "2026-04-28",
       "topic": "city_government",
       "summary": "Lurie Appoints SF’s First Arts Director, Forges Arts Partnerships In Shanghai &nbsp;&nbsp; SFist",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-appoints-matthew-goudeau-as-city-s-first-executive-director-of-arts-",
-      "title": "Mayor Lurie Appoints Matthew Goudeau As City's First Executive Director Of Arts And Culture - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTlZBaEJpb1dlaHE1ZlBTd05qRThORURVR2ZkOGlmNnd6b3RpNGF4WVNUNklucTlObTN5YnVKajBVRy1XYm9taHJDS2lGWXVnS0pxSlVLQU9NWUQ2ejVjejJaUjQzcTFoX2NXVjR2OVZOMnAwSU91R2FER25kUFJRY2tNWVBNY1IyeWlzaWE0TUxQRWoydEdxblVtUlFZdEpWSXluSFExY1BIVUZGTkoxTVJ1djU?oc=5",
-      "publishedAt": "2026-04-27",
-      "topic": "city_government",
-      "summary": "Mayor Lurie Appoints Matthew Goudeau As City's First Executive Director Of Arts And Culture SF.gov",
       "confidence": 0.68
     },
     {
@@ -421,6 +435,16 @@
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Appoints Matthew Goudeau As City&#x27;s First Executive Director Of Arts And Culture Office of the Mayor Selected Following National Search, Goudeau Brings Years of Leadership Experience in San Francisco Arts Community; Arts Grant Funding on Track to Grow as City’s Economy Recovers; Continues Mayor Lurie’s Work to Support City&#x27;s Creative Ecosystem Through Unified Strategy While Ensuring Arts Continue to Drive San Francisco’s Comeback April 27, 2026 SAN FRANCISCO – Mayor Daniel Lurie today appointed Matthew Goudeau as San Francisco’s first-ever executive director of arts and culture. Currently a senior leader at the Yerba Buena Center for the Arts and a former director of Grants for the Arts, Goudeau will bring deep knowledge of the city’s arts community from his years leading cultural organizations to this new role, where he will strengthen the city’s support for the arts by bringing together the San Francisco Arts Commission, Grants for the Arts, and the Film Commission into one department. He will work with Mayor Lurie to advance San Francisco’s creative economy and public arts programming while ensuring the arts remain a cornerstone of the city’s identity and economic vitality. Goudeau’s selection followed a thorough search process that drew more than 250 applicants and identified strong community interest in selecting a leader with roots in San Francisco’s arts ecosystem. Goudeau’s appointment to lead San Francisco’s creative economy strategy continues Mayor Lurie’s work to support the arts and culture institutions driving the city’s economic recovery. The mayor this weekend returned from his first international trip, where he signed eight memorandums of understanding strengthening connections between arts and culture organizations in San Fr...",
       "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-appoints-matthew-goudeau-as-city-s-first-executive-director-of-arts-",
+      "title": "Mayor Lurie Appoints Matthew Goudeau As City's First Executive Director Of Arts And Culture - SF.gov",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTlZBaEJpb1dlaHE1ZlBTd05qRThORURVR2ZkOGlmNnd6b3RpNGF4WVNUNklucTlObTN5YnVKajBVRy1XYm9taHJDS2lGWXVnS0pxSlVLQU9NWUQ2ejVjejJaUjQzcTFoX2NXVjR2OVZOMnAwSU91R2FER25kUFJRY2tNWVBNY1IyeWlzaWE0TUxQRWoydEdxblVtUlFZdEpWSXluSFExY1BIVUZGTkoxTVJ1djU?oc=5",
+      "publishedAt": "2026-04-27",
+      "topic": "city_government",
+      "summary": "Mayor Lurie Appoints Matthew Goudeau As City's First Executive Director Of Arts And Culture SF.gov",
+      "confidence": 0.68
     },
     {
       "id": "mayor-lurie-partners-with-49ers-to-kick-off-youth-football-program-build-on-viol",
@@ -683,7 +707,7 @@
       "publisher": "SFist",
       "publishedAt": "2026-03-12",
       "topic": "city_government",
-      "summary": "Mayor Lurie and Board President Mandelman filed notices for three November 2026 ballot measures to reform the city charter, including expanding mayoral authority over departments, tightening initiative qualification requirements, and overhauling contracting rules. Labor leaders criticized the proposals as concentrating power.",
+      "summary": "Lurie and Board President Mandelman introduced three November 2026 ballot measures to reform San Francisco's charter. Proposals would expand mayoral authority over departments, increase ballot initiative signature requirements from 2% to 8% of voters, and streamline city contracting. Labor leaders criticized the measures as concentrating power and limiting public participation.",
       "confidence": 0.9
     },
     {
@@ -966,6 +990,19 @@
       "confidence": 0.68
     },
     {
+      "id": "san-francisco-mayor-daniel-lurie-gives-1st-state-of-the-city-address-touts-econo",
+      "title": "San Francisco Mayor Daniel Lurie gives 1st State of the City address; touts economic recovery, crime drop, and public safety",
+      "sourceType": "news",
+      "url": "https://abc7news.com/post/san-francisco-mayor-daniel-lurie-give-1st-state-city-address/18408744/",
+      "discoveryUrl": "https://abc7news.com/post/san-francisco-mayor-daniel-lurie-give-1st-state-city-address/18408744/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "ABC7",
+      "publishedAt": "2026-01-16",
+      "topic": "economy",
+      "summary": "Lurie's State of the City highlighted overall crime down nearly 30% but noted some neighborhoods saw increases. He announced plans to combine three city departments to streamline permitting for housing development. The city faces a roughly $1 billion budget deficit over two years, worsened by potential federal funding cuts. He announced free childcare expansion for low-to-middle-income families.",
+      "confidence": 0.9
+    },
+    {
       "id": "mayor-lurie-celebrates-nearly-40-million-in-state-funding-to-address-homelessnes",
       "title": "Mayor Lurie Celebrates Nearly $40 Million in State Funding to Address Homelessness in San Francisco - SF.gov",
       "sourceType": "news",
@@ -974,42 +1011,6 @@
       "topic": "homelessness",
       "summary": "Mayor Lurie Celebrates Nearly $40 Million in State Funding to Address Homelessness in San Francisco &nbsp;&nbsp; SF.gov",
       "confidence": 0.78
-    },
-    {
-      "id": "mayor-lurie-announces-return-of-sf-music-week-celebrates-san-francisco-as-a-musi",
-      "title": "Mayor Lurie Announces Return of SF Music Week, Celebrates San Francisco as a Music City - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWVdCcWV3X0ozTHFfNXBOTGNBenFwRGltY0VfR1QtUnhzNGZPVk8wdnNRbFpna2NtRkNZNTI1WDNQa2E3N19DdHJ0eEtXM0JkWEpuLXJGWEhKN2xPcTBUb0hnaFhXUnRmSlNlRTFnaGNZSXdJMm9GOWtIWXZ3aXluUE9JbVcwMGhGSEV2VGx2UVZJMzl5V2RaLXNCa3pFaGxzYkNlT1FnQS1NTlFEZk04?oc=5",
-      "publishedAt": "2026-01-16",
-      "topic": "city_government",
-      "summary": "Mayor Lurie Announces Return of SF Music Week, Celebrates San Francisco as a Music City &nbsp;&nbsp; SF.gov",
-      "confidence": 0.68
-    },
-    {
-      "id": "daniel-lurie-was-the-public-safety-mayor-now-he-s-trying-to-be-the-affordability",
-      "title": "Daniel Lurie was the public safety mayor. Now he's trying to be the affordability guy",
-      "sourceType": "news",
-      "url": "https://sfstandard.com/2026/01/15/san-francisco-daniel-lurie-state-of-the-city/",
-      "discoveryUrl": "https://sfstandard.com/2026/01/15/san-francisco-daniel-lurie-state-of-the-city/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "San Francisco Standard",
-      "publishedAt": "2026-01-15",
-      "topic": "economy",
-      "summary": "In his first State of the City address, Mayor Lurie shifted focus from public safety to affordability, announcing expanded child care subsidies for families earning up to $230,000. He also announced plans to consolidate the Planning Department, Permit Center, and Department of Building Inspection while opposing a state wealth tax proposal.",
-      "confidence": 0.9
-    },
-    {
-      "id": "mayor-lurie-on-san-francisco-we-are-on-our-way-back-but-we-still-have-work-to-do",
-      "title": "Mayor Lurie on San Francisco: 'We Are On Our Way Back. But We Still Have Work To Do.'",
-      "sourceType": "news",
-      "url": "https://www.kqed.org/news/12069967/mayor-lurie-on-san-francisco-we-are-on-our-way-back-but-we-still-have-work-to-do",
-      "discoveryUrl": "https://www.kqed.org/news/12069967/mayor-lurie-on-san-francisco-we-are-on-our-way-back-but-we-still-have-work-to-do",
-      "discoverySource": "Anthropic web search",
-      "publisher": "KQED",
-      "publishedAt": "2026-01-15",
-      "topic": "public_safety",
-      "summary": "At his State of the City address, Lurie acknowledged that affordability remains a key issue despite progress on crime. His office has increased arrests of drug users and dealers, ramped up tent encampment clearings, and shifted some long-term homelessness funding toward temporary shelters. He emphasized needs for MUNI and BART funding.",
-      "confidence": 0.9
     }
   ],
   "promises": [
@@ -1020,12 +1021,13 @@
       "deadline": "unknown",
       "topic": "housing",
       "status": "in_progress",
-      "progress": 15,
+      "progress": null,
       "evidenceSourceIds": [
-        "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
+        "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
+        "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Legislation planned for introduction; awaiting Board vote and implementation timeline",
+      "statusNote": "Charter Amendment for November 2026 ballot announced; legislation introduced; awaiting voter approval",
       "reviewStatus": "pending_review",
       "linkedMetricIds": [
         "housing-permits-issued",
@@ -1048,8 +1050,7 @@
       "statusNote": "Administration claims achievement but independent verification of Point-in-Time count methodology and historical comparison needed",
       "reviewStatus": "needs_more_evidence",
       "linkedMetricIds": [
-        "homeless-encampment-311-requests",
-        "homeless-shelter-waitlist"
+        "homeless-encampment-311-requests"
       ]
     },
     {
@@ -1059,13 +1060,13 @@
       "deadline": "2026-12-31",
       "topic": "economy",
       "status": "in_progress",
-      "progress": 75,
+      "progress": null,
       "evidenceSourceIds": [
         "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h"
       ],
       "aiConfidence": 0.83,
-      "statusNote": "SF Travel forecasts 2026 will surpass pre-pandemic record; Super Bowl and convention bookings up 69% since 2024",
-      "reviewStatus": "approved",
+      "statusNote": "SF Travel forecasts 2026 will surpass pre-pandemic record; convention bookings up 69% since 2024; final year-end data needed",
+      "reviewStatus": "pending_review",
       "linkedMetricIds": [
         "downtown-office-vacancy-rate"
       ]
@@ -1093,13 +1094,13 @@
       "deadline": "unknown",
       "topic": "public_safety",
       "status": "in_progress",
-      "progress": 26,
+      "progress": null,
       "evidenceSourceIds": [
         "fentanyl-powers",
         "datasf-overdose-related-911-responses"
       ],
       "aiConfidence": 0.76,
-      "statusNote": "Overdose-related 911 responses down 26% from Jan 2025 baseline (292→216 in Mar 2026); causal link to policy requires further review",
+      "statusNote": "Emergency powers granted Feb 2025; overdose-related 911 responses tracked but causal link requires further review",
       "reviewStatus": "pending_review",
       "linkedMetricIds": [
         "overdose-related-911-responses",
@@ -1145,13 +1146,13 @@
       "deadline": "2030-06-30",
       "topic": "public_safety",
       "status": "in_progress",
-      "progress": 60,
+      "progress": null,
       "evidenceSourceIds": [
         "mayor-lurie-signs-legislation-with-firefighters-x27-union-to-support-first-respo"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "MOU signed through June 2030; PFAS-free turnout gear transition and training facility underway",
-      "reviewStatus": "approved",
+      "statusNote": "MOU signed through June 2030; PFAS-free turnout gear transition and training facility underway but completion metrics needed",
+      "reviewStatus": "pending_review",
       "linkedMetricIds": []
     },
     {
@@ -1161,13 +1162,13 @@
       "deadline": "2027-09-30",
       "topic": "economy",
       "status": "in_progress",
-      "progress": 35,
+      "progress": null,
       "evidenceSourceIds": [
         "union-square-programming"
       ],
       "aiConfidence": 0.84,
       "statusNote": "Programming announced through summer 2027; foot traffic and economic impact metrics needed",
-      "reviewStatus": "pending_review",
+      "reviewStatus": "needs_more_evidence",
       "linkedMetricIds": [
         "downtown-office-vacancy-rate"
       ]
@@ -1179,13 +1180,13 @@
       "deadline": "unknown",
       "topic": "economy",
       "status": "in_progress",
-      "progress": 40,
+      "progress": null,
       "evidenceSourceIds": [
         "mayor-lurie-continues-support-for-arts-organizations-with-new-grant-opportunitie"
       ],
       "aiConfidence": 0.87,
-      "statusNote": "FY 2027-28 RFP launched with new programs for small organizations affected by federal cuts; supports 250+ organizations annually",
-      "reviewStatus": "approved",
+      "statusNote": "FY 2027-28 RFP launched with new programs for small organizations; supports 250+ organizations annually; allocation amounts need tracking",
+      "reviewStatus": "pending_review",
       "linkedMetricIds": []
     },
     {
@@ -1195,13 +1196,13 @@
       "deadline": "unknown",
       "topic": "public_safety",
       "status": "in_progress",
-      "progress": 50,
+      "progress": null,
       "evidenceSourceIds": [
         "mayor-lurie-cuts-ribbon-on-terry-francois-boulevard-bike-and-pedestrian-safety-i"
       ],
       "aiConfidence": 0.89,
-      "statusNote": "Terry Francois Blvd project completed; Twin Peaks Promenade underway; need citywide safety metrics",
-      "reviewStatus": "approved",
+      "statusNote": "Terry Francois Blvd project completed; Twin Peaks Promenade underway; citywide safety metrics needed",
+      "reviewStatus": "pending_review",
       "linkedMetricIds": []
     },
     {
@@ -1284,7 +1285,7 @@
       "topic": "housing",
       "verdict": "partially_verified",
       "confidence": 0.85,
-      "evidencePlan": "Legislation introduction confirmed; track Board vote, implementation, and actual allocation amounts when budget is approved"
+      "evidencePlan": "Legislation introduction confirmed; track Board vote, November 2026 ballot measure, and actual allocation amounts when budget is approved"
     },
     {
       "id": "claim-speeding-decline-80-percent",
@@ -1350,7 +1351,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-19T18:31:15.195Z"
+      "lastRefreshed": "2026-05-20T11:34:22.387Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1369,7 +1370,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-05-19T18:31:15.195Z"
+      "lastRefreshed": "2026-05-20T11:34:22.387Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -1379,74 +1380,13 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": 292,
-      "latest": 216,
+      "baseline": null,
+      "latest": null,
       "direction": "down_is_good",
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 292
-        },
-        {
-          "date": "2025-02-01",
-          "value": 274
-        },
-        {
-          "date": "2025-03-01",
-          "value": 342
-        },
-        {
-          "date": "2025-04-01",
-          "value": 275
-        },
-        {
-          "date": "2025-05-01",
-          "value": 273
-        },
-        {
-          "date": "2025-06-01",
-          "value": 301
-        },
-        {
-          "date": "2025-07-01",
-          "value": 239
-        },
-        {
-          "date": "2025-08-01",
-          "value": 294
-        },
-        {
-          "date": "2025-09-01",
-          "value": 219
-        },
-        {
-          "date": "2025-10-01",
-          "value": 235
-        },
-        {
-          "date": "2025-11-01",
-          "value": 300
-        },
-        {
-          "date": "2025-12-01",
-          "value": 148
-        },
-        {
-          "date": "2026-01-01",
-          "value": 221
-        },
-        {
-          "date": "2026-02-01",
-          "value": 220
-        },
-        {
-          "date": "2026-03-01",
-          "value": 216
-        }
-      ],
-      "status": "active",
+      "observations": [],
+      "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-19T18:31:15.195Z",
+      "lastRefreshed": "2026-05-20T11:34:22.387Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -1462,13 +1402,30 @@
       "evidenceSourceIds": [
         "datasf-substance-use-services"
       ],
-      "status": "needs_verified_source",
-      "baseline": null,
-      "latest": null,
-      "observations": [],
+      "status": "active",
+      "baseline": 55904,
+      "latest": 41664,
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 55904
+        },
+        {
+          "date": "2025-04-01",
+          "value": 46460
+        },
+        {
+          "date": "2025-07-01",
+          "value": 51108
+        },
+        {
+          "date": "2025-10-01",
+          "value": 41664
+        }
+      ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-05-19T18:31:15.195Z"
+      "lastRefreshed": "2026-05-20T11:34:22.387Z"
     },
     {
       "id": "housing-permits-issued",
@@ -1481,82 +1438,13 @@
       "evidenceSourceIds": [
         "datasf-building-permits"
       ],
-      "status": "active",
-      "baseline": 1422,
-      "latest": 731,
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 1422
-        },
-        {
-          "date": "2025-02-01",
-          "value": 1315
-        },
-        {
-          "date": "2025-03-01",
-          "value": 1367
-        },
-        {
-          "date": "2025-04-01",
-          "value": 1509
-        },
-        {
-          "date": "2025-05-01",
-          "value": 1414
-        },
-        {
-          "date": "2025-06-01",
-          "value": 1457
-        },
-        {
-          "date": "2025-07-01",
-          "value": 1558
-        },
-        {
-          "date": "2025-08-01",
-          "value": 1529
-        },
-        {
-          "date": "2025-09-01",
-          "value": 1506
-        },
-        {
-          "date": "2025-10-01",
-          "value": 1515
-        },
-        {
-          "date": "2025-11-01",
-          "value": 1327
-        },
-        {
-          "date": "2025-12-01",
-          "value": 1382
-        },
-        {
-          "date": "2026-01-01",
-          "value": 1425
-        },
-        {
-          "date": "2026-02-01",
-          "value": 1262
-        },
-        {
-          "date": "2026-03-01",
-          "value": 1336
-        },
-        {
-          "date": "2026-04-01",
-          "value": 1403
-        },
-        {
-          "date": "2026-05-01",
-          "value": 731
-        }
-      ],
+      "status": "needs_verified_source",
+      "baseline": null,
+      "latest": null,
+      "observations": [],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-05-19T18:31:15.195Z"
+      "lastRefreshed": "2026-05-20T11:34:22.387Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -1569,82 +1457,13 @@
       "evidenceSourceIds": [
         "datasf-building-permits"
       ],
-      "status": "active",
-      "baseline": 696,
-      "latest": 394,
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 696
-        },
-        {
-          "date": "2025-02-01",
-          "value": 1001
-        },
-        {
-          "date": "2025-03-01",
-          "value": 2285
-        },
-        {
-          "date": "2025-04-01",
-          "value": 808
-        },
-        {
-          "date": "2025-05-01",
-          "value": 1279
-        },
-        {
-          "date": "2025-06-01",
-          "value": 1130
-        },
-        {
-          "date": "2025-07-01",
-          "value": 686
-        },
-        {
-          "date": "2025-08-01",
-          "value": 292
-        },
-        {
-          "date": "2025-09-01",
-          "value": 483
-        },
-        {
-          "date": "2025-10-01",
-          "value": 758
-        },
-        {
-          "date": "2025-11-01",
-          "value": 792
-        },
-        {
-          "date": "2025-12-01",
-          "value": 253
-        },
-        {
-          "date": "2026-01-01",
-          "value": 545
-        },
-        {
-          "date": "2026-02-01",
-          "value": 473
-        },
-        {
-          "date": "2026-03-01",
-          "value": 625
-        },
-        {
-          "date": "2026-04-01",
-          "value": 790
-        },
-        {
-          "date": "2026-05-01",
-          "value": 394
-        }
-      ],
+      "status": "needs_verified_source",
+      "baseline": null,
+      "latest": null,
+      "observations": [],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-05-19T18:31:15.195Z"
+      "lastRefreshed": "2026-05-20T11:34:22.387Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -1663,7 +1482,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-05-19T18:31:15.195Z"
+      "lastRefreshed": "2026-05-20T11:34:22.387Z"
     }
   ],
   "topics": [
@@ -1687,7 +1506,7 @@
       "id": "economy",
       "label": "Downtown Economy",
       "promiseCount": 3,
-      "averageProgress": 50,
+      "averageProgress": null,
       "risk": "review",
       "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
     },
@@ -1703,15 +1522,15 @@
       "id": "housing",
       "label": "Housing",
       "promiseCount": 1,
-      "averageProgress": 15,
+      "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
     },
     {
       "id": "public_safety",
       "label": "Public Safety",
       "promiseCount": 4,
-      "averageProgress": 45,
+      "averageProgress": null,
       "risk": "medium",
       "insight": "1 Public SF metric connected; status still requires human review before causal claims."
     }
@@ -1918,190 +1737,189 @@
       "topic": "housing",
       "impact": "major",
       "sourceIds": [
-        "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
+        "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
+        "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou"
       ]
     }
   ],
   "reviewQueue": [
     {
-      "id": "review-homelessness-pit-count",
+      "id": "review-homelessness-pit-count-verification",
       "priority": "high",
       "itemType": "claim",
-      "title": "Verify 15-year homelessness low claim",
-      "reason": "Administration announcement lacks independent verification; need HUD Point-in-Time count methodology, raw data, and historical comparison",
+      "title": "Verify 15-year homelessness low claim with HUD Point-in-Time count data",
+      "reason": "Major claim lacks independent verification; methodology and historical comparison needed before progress can be assessed",
       "relatedIds": [
-        "promise-reduce-unsheltered-homelessness",
-        "claim-15-year-homelessness-low"
+        "claim-15-year-homelessness-low",
+        "promise-reduce-unsheltered-homelessness"
       ]
     },
     {
-      "id": "review-crime-statistics-baseline",
+      "id": "review-affordable-housing-fund-ballot-measure",
       "priority": "high",
       "itemType": "promise",
-      "title": "Establish crime reduction baseline and tracking",
-      "reason": "Promise to 'continue to drive down crime' requires SFPD category-level crime statistics with pre-legislation baseline",
-      "relatedIds": [
-        "promise-support-police-officers",
-        "claim-crime-reduction"
-      ]
-    },
-    {
-      "id": "review-childcare-capacity-data",
-      "priority": "high",
-      "itemType": "promise",
-      "title": "Verify childcare expansion capacity increase",
-      "reason": "'Hundreds of new spots' announced but specific enrollment numbers, provider participation, and timeline not documented",
-      "relatedIds": [
-        "promise-expand-childcare",
-        "claim-childcare-expansion-hundreds"
-      ]
-    },
-    {
-      "id": "review-overdose-causation",
-      "priority": "medium",
-      "itemType": "promise",
-      "title": "Verify causal link between emergency powers and overdose reduction",
-      "reason": "Metric shows 26% decline in overdose 911 calls but correlation does not prove policy caused reduction; need implementation timeline and regional comparison",
-      "relatedIds": [
-        "promise-reduce-overdose-deaths",
-        "overdose-related-911-responses"
-      ]
-    },
-    {
-      "id": "review-housing-fund-legislation",
-      "priority": "high",
-      "itemType": "promise",
-      "title": "Track affordable housing fund legislation through Board approval",
-      "reason": "Deal announced and legislation planned but not yet voted on; need Board vote date and implementation schedule",
+      "title": "Track November 2026 ballot measure for $125M affordable housing fund",
+      "reason": "Charter Amendment requires voter approval before implementation; monitor Board legislative process and ballot measure status",
       "relatedIds": [
         "promise-affordable-housing-fund-125m",
         "claim-affordable-housing-fund-doubling"
       ]
     },
     {
-      "id": "review-budget-final-cuts",
+      "id": "review-budget-cuts-final-count",
       "priority": "high",
       "itemType": "promise",
-      "title": "Verify final budget cuts after Board approval",
-      "reason": "127 positions cut announced; draft budget due June 2026; final departmental impacts require Board approval",
+      "title": "Verify final position cuts and service impacts after Board budget approval",
+      "reason": "127 positions cut announced but draft budget due June 2026; final count and departmental impacts need verification",
       "relatedIds": [
         "promise-protect-core-services-budget",
         "claim-127-layoffs"
       ]
     },
     {
-      "id": "review-speeding-decline-data",
+      "id": "review-tourism-year-end-data",
+      "priority": "high",
+      "itemType": "claim",
+      "title": "Verify final 2026 tourism spending against pre-pandemic record",
+      "reason": "SF Travel forecast cited but final year-end visitor spending data needed to confirm record-breaking claim",
+      "relatedIds": [
+        "promise-tourism-recovery",
+        "claim-tourism-record-breaking"
+      ]
+    },
+    {
+      "id": "review-overdose-911-causal-link",
+      "priority": "medium",
+      "itemType": "promise",
+      "title": "Establish causal link between emergency powers and overdose response trends",
+      "reason": "Overdose-related 911 responses tracked but causal relationship to Feb 2025 policy requires further analysis",
+      "relatedIds": [
+        "promise-reduce-overdose-deaths",
+        "claim-crime-reduction"
+      ]
+    },
+    {
+      "id": "review-childcare-capacity-metrics",
+      "priority": "medium",
+      "itemType": "promise",
+      "title": "Obtain enrollment capacity data for childcare expansion",
+      "reason": "Hundreds of new spots announced but specific numbers and timeline not yet verified",
+      "relatedIds": [
+        "promise-expand-childcare",
+        "claim-childcare-expansion-hundreds"
+      ]
+    },
+    {
+      "id": "review-crime-statistics-baseline",
       "priority": "medium",
       "itemType": "claim",
-      "title": "Verify 80% speeding decline claim",
-      "reason": "SF.gov news mentions 80% speeding decline but lacks methodology, coverage area, and baseline data",
+      "title": "Establish baseline crime statistics and track post-legislation trends",
+      "reason": "Claim of driving down crime requires category-level data and pre/post comparison",
+      "relatedIds": [
+        "promise-support-police-officers",
+        "claim-crime-reduction"
+      ]
+    },
+    {
+      "id": "review-mou-cost-analysis",
+      "priority": "medium",
+      "itemType": "claim",
+      "title": "Verify $100M cost claim for police and firefighter contracts",
+      "reason": "Advocates cite $100M extra cost but controller's office cost analysis needed for verification",
+      "relatedIds": [
+        "claim-police-firefighter-contracts-100m",
+        "promise-support-firefighters"
+      ]
+    },
+    {
+      "id": "review-speeding-decline-methodology",
+      "priority": "medium",
+      "itemType": "claim",
+      "title": "Verify 80% speeding decline with automated enforcement data",
+      "reason": "Claim lacks methodology details; need coverage area, baseline, and distinction between correlation and causation",
       "relatedIds": [
         "claim-speeding-decline-80-percent"
       ]
     },
     {
       "id": "review-super-bowl-economic-impact",
-      "priority": "medium",
+      "priority": "low",
       "itemType": "claim",
-      "title": "Obtain Super Bowl economic impact study",
-      "reason": "'Hundreds of millions of dollars' cited but official economic impact analysis with methodology not provided",
+      "title": "Obtain official Super Bowl economic impact study",
+      "reason": "Hundreds of millions claim requires independent verification with methodology and pre/post data",
       "relatedIds": [
         "claim-super-bowl-economic-impact"
       ]
     },
     {
-      "id": "review-police-firefighter-contract-costs",
-      "priority": "medium",
-      "itemType": "claim",
-      "title": "Verify $100M incremental cost of public safety contracts",
-      "reason": "News reports cite $100M extra over two years for police and firefighter contracts; need controller's cost analysis",
-      "relatedIds": [
-        "claim-police-firefighter-contracts-100m"
-      ]
-    },
-    {
-      "id": "review-office-vacancy-metric",
-      "priority": "high",
-      "itemType": "metric",
-      "title": "Establish office vacancy rate data connection",
-      "reason": "SF.gov identifies office vacancy as key downtown recovery indicator but stable DataSF API endpoint needs verification",
-      "relatedIds": [
-        "downtown-office-vacancy-rate",
-        "promise-tourism-recovery",
-        "promise-downtown-activation"
-      ]
-    },
-    {
-      "id": "review-shelter-waitlist-metric",
-      "priority": "high",
-      "itemType": "metric",
-      "title": "Find recurring public HSH shelter waitlist dataset",
-      "reason": "Shelter waitlist is critical homelessness metric but no verified public API with stable schema identified yet",
-      "relatedIds": [
-        "homeless-shelter-waitlist",
-        "promise-reduce-unsheltered-homelessness"
-      ]
-    },
-    {
-      "id": "review-naloxone-distribution-trend",
-      "priority": "medium",
-      "itemType": "metric",
-      "title": "Verify naloxone distribution dataset structure",
-      "reason": "DataSF substance use services dataset identified but time-series structure needs verification for chart display",
-      "relatedIds": [
-        "overdose-response-naloxone-distribution",
-        "promise-reduce-overdose-deaths"
-      ]
-    },
-    {
-      "id": "review-kezar-stadium-project",
+      "id": "review-kezar-stadium-mou-status",
       "priority": "low",
       "itemType": "claim",
-      "title": "Verify Golden City FC Kezar investment status",
-      "reason": "News reports project has 'gone dark' after $10M commitment; need Rec & Park MOU and project timeline",
+      "title": "Verify Golden City FC Kezar stadium agreement status",
+      "reason": "Original $10M commitment and current project status require clarification from Rec & Park",
       "relatedIds": [
         "claim-kezar-stadium-10m-investment"
       ]
     },
     {
-      "id": "review-labor-strike-timeline",
-      "priority": "medium",
-      "itemType": "timeline",
-      "title": "Track labor contract negotiations and strike authorization",
-      "reason": "SEIU 1021 represents 16,000 workers with new strike rights; negotiations begin 2027; track authorization votes",
+      "id": "review-firefighter-gear-completion",
+      "priority": "low",
+      "itemType": "promise",
+      "title": "Track PFAS-free turnout gear transition completion metrics",
+      "reason": "Transition announced but completion timeline and fleet coverage metrics needed",
       "relatedIds": [
-        "claim-labor-strike-threat",
-        "promise-protect-core-services-budget"
+        "promise-support-firefighters"
+      ]
+    },
+    {
+      "id": "review-downtown-activation-metrics",
+      "priority": "low",
+      "itemType": "promise",
+      "title": "Establish foot traffic and economic impact metrics for downtown programming",
+      "reason": "Programming through 2027 announced but success metrics not yet defined",
+      "relatedIds": [
+        "promise-downtown-activation"
+      ]
+    },
+    {
+      "id": "review-bike-safety-citywide-metrics",
+      "priority": "low",
+      "itemType": "promise",
+      "title": "Establish citywide bike and pedestrian safety metrics",
+      "reason": "Individual projects completed but citywide safety trends and targets needed",
+      "relatedIds": [
+        "promise-bike-pedestrian-safety"
       ]
     }
   ],
   "chartRecommendations": [
     {
-      "id": "chart-affordable-housing-fund-progress",
-      "title": "Affordable Housing Fund $125M Goal",
+      "id": "chart-affordable-housing-fund-ballot-tracker",
+      "title": "Affordable Housing Fund: $52M → $125M Goal",
       "chartType": "progress_bar",
       "action": "create",
       "priority": "high",
       "topic": "housing",
-      "rationale": "Major new commitment announced May 19, 2026 with specific dollar target; should track from $52M baseline to $125M goal",
+      "rationale": "Major new commitment announced May 19, 2026 with specific dollar target; Charter Amendment on November 2026 ballot",
       "updateReason": "",
       "sourceIds": [
-        "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
+        "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
+        "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou"
       ],
       "metricIds": [],
       "promiseIds": [
         "promise-affordable-housing-fund-125m"
       ],
-      "spec": "Progress bar showing journey from current $52M annual allocation to $125M target; display legislative status and timeline milestones"
+      "spec": "Progress bar showing current $52M annual allocation, November 2026 ballot milestone, and $125M target; display legislative status and voter decision date"
     },
     {
-      "id": "chart-budget-deficit-overview",
-      "title": "Budget Deficit and Position Cuts",
+      "id": "chart-budget-crisis-scorecard",
+      "title": "Budget Deficit: Jobs, Services, and Trade-Offs",
       "chartType": "scorecard",
       "action": "create",
       "priority": "high",
       "topic": "city_government",
-      "rationale": "$643M deficit with 127 positions cut is major fiscal story affecting all services; voters need transparency on trade-offs",
+      "rationale": "$643M deficit with 127 positions cut is central fiscal story; labor tensions rising with strike threat; voters need transparency",
       "updateReason": "",
       "sourceIds": [
         "we-can-shut-down-the-city-lurie-s-budget-cuts-spark-a-showdown-with-labor-2026-0",
@@ -2111,16 +1929,16 @@
       "promiseIds": [
         "promise-protect-core-services-budget"
       ],
-      "spec": "Scorecard showing total deficit amount, positions eliminated, departments affected, and timeline to Board budget approval in June 2026"
+      "spec": "Scorecard showing $643M deficit, 127 positions eliminated, departments affected, labor contract costs, and June 2026 Board budget deadline; include union opposition context"
     },
     {
-      "id": "chart-tourism-recovery-multi-metric",
-      "title": "Tourism and Downtown Recovery Dashboard",
+      "id": "chart-tourism-recovery-dashboard",
+      "title": "Tourism and Downtown Recovery",
       "chartType": "scorecard",
       "action": "create",
       "priority": "high",
       "topic": "economy",
-      "rationale": "Tourism forecasted to exceed pre-pandemic record; convention bookings up 69%; needs multi-metric view with visitor spending, hotel occupancy, office vacancy",
+      "rationale": "Tourism forecasted to exceed pre-pandemic record; convention bookings up 69%; Super Bowl and World Cup driving momentum",
       "updateReason": "",
       "sourceIds": [
         "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h"
@@ -2132,17 +1950,17 @@
         "promise-tourism-recovery",
         "promise-downtown-activation"
       ],
-      "spec": "Multi-metric scorecard showing 2026 vs 2019 tourism spending, convention bookings trend, office vacancy rate, and major events timeline (Super Bowl, World Cup)"
+      "spec": "Multi-metric scorecard: 2026 vs 2019 tourism spending forecast, convention bookings +69% trend, office vacancy rate, major events timeline (Super Bowl Feb 2026, World Cup upcoming)"
     },
     {
-      "id": "chart-overdose-response-combined",
-      "title": "Fentanyl Crisis Response Metrics",
+      "id": "chart-overdose-response-dual-axis",
+      "title": "Fentanyl Crisis Response: 911 Calls and Naloxone",
       "chartType": "line",
-      "action": "update",
+      "action": "create",
       "priority": "high",
       "topic": "public_safety",
-      "rationale": "Overdose 911 responses show 26% decline since Jan 2025; should pair with naloxone distribution to show full response picture",
-      "updateReason": "New promise and emergency powers policy added; chart should show pre/post Feb 2025 emergency authority",
+      "rationale": "Emergency powers granted Feb 2025; overdose 911 responses and naloxone distribution are paired indicators of crisis response effectiveness",
+      "updateReason": "",
       "sourceIds": [
         "fentanyl-powers",
         "datasf-overdose-related-911-responses",
@@ -2155,58 +1973,36 @@
       "promiseIds": [
         "promise-reduce-overdose-deaths"
       ],
-      "spec": "Dual-axis line chart: overdose-related 911 responses (left) and naloxone doses distributed (right); vertical line marking Feb 2025 emergency powers"
+      "spec": "Dual-axis line chart: overdose-related 911 responses (left axis, down is good) and naloxone doses distributed (right axis, up is good); vertical annotation for Feb 2025 emergency powers"
     },
     {
-      "id": "chart-housing-permits-update",
-      "title": "Housing Permits and Proposed Units",
-      "chartType": "line",
-      "action": "update",
-      "priority": "medium",
-      "topic": "housing",
-      "rationale": "New $125M affordable housing fund promise should be linked to existing housing permits chart to show production pipeline",
-      "updateReason": "New affordable housing fund promise creates policy context for existing permit metrics",
-      "sourceIds": [
-        "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
-      ],
-      "metricIds": [
-        "housing-permits-issued",
-        "housing-units-proposed-in-issued-permits"
-      ],
-      "promiseIds": [
-        "promise-affordable-housing-fund-125m"
-      ],
-      "spec": "Existing line chart showing monthly housing permits and proposed units; add annotation for May 2026 affordable housing fund announcement"
-    },
-    {
-      "id": "chart-homelessness-verification-needed",
-      "title": "Unsheltered Homelessness Trend",
+      "id": "chart-homelessness-verification-pending",
+      "title": "Unsheltered Homelessness: 15-Year Trend (Pending Verification)",
       "chartType": "progress_bar",
       "action": "create",
       "priority": "medium",
       "topic": "homelessness",
-      "rationale": "Major claim of 15-year low requires visual presentation, but must wait for verified Point-in-Time count data",
+      "rationale": "Major claim of 15-year low requires visual presentation but must wait for verified Point-in-Time count data and methodology review",
       "updateReason": "",
       "sourceIds": [
         "mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-home"
       ],
       "metricIds": [
-        "homeless-encampment-311-requests",
-        "homeless-shelter-waitlist"
+        "homeless-encampment-311-requests"
       ],
       "promiseIds": [
         "promise-reduce-unsheltered-homelessness"
       ],
-      "spec": "DO NOT DISPLAY until HUD PIT count verified; will show 15-year trend with annual counts and methodology notes; include 311 encampment requests as proxy indicator"
+      "spec": "DO NOT DISPLAY until HUD PIT count verified; will show 15-year trend with annual counts, methodology notes, and prominent disclaimer about data verification status; include 311 encampment requests as proxy"
     },
     {
-      "id": "chart-public-safety-investments",
-      "title": "Public Safety Workforce and Investments",
+      "id": "chart-public-safety-timeline",
+      "title": "Public Safety Workforce Investments Timeline",
       "chartType": "timeline",
       "action": "create",
       "priority": "medium",
       "topic": "public_safety",
-      "rationale": "Multiple promises around police and firefighter support; timeline can show legislative wins and upcoming budget decisions",
+      "rationale": "Multiple promises around police and firefighter support; timeline shows legislative wins amid budget crisis",
       "updateReason": "",
       "sourceIds": [
         "mayor-lurie-signs-legislation-to-support-san-francisco-police-officers-continue-",
@@ -2217,16 +2013,38 @@
         "promise-support-police-officers",
         "promise-support-firefighters"
       ],
-      "spec": "Timeline showing Feb 2025 fentanyl emergency powers, May 2026 police/firefighter MOUs, PFAS-free gear transition, training facility groundbreaking"
+      "spec": "Timeline: Feb 2025 fentanyl emergency powers, May 2026 police/firefighter MOUs, PFAS-free gear transition, training facility groundbreaking, June 2030 MOU expiration"
     },
     {
-      "id": "chart-family-opportunity-initiatives",
-      "title": "Family Opportunity Agenda Progress",
+      "id": "chart-housing-permits-updated",
+      "title": "Housing Permits and Proposed Units",
+      "chartType": "line",
+      "action": "update",
+      "priority": "medium",
+      "topic": "housing",
+      "rationale": "New $125M affordable housing fund creates policy context for existing permit metrics; should link promise to production pipeline",
+      "updateReason": "Affordable housing fund announcement establishes new policy driver for housing production metrics",
+      "sourceIds": [
+        "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
+        "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou"
+      ],
+      "metricIds": [
+        "housing-permits-issued",
+        "housing-units-proposed-in-issued-permits"
+      ],
+      "promiseIds": [
+        "promise-affordable-housing-fund-125m"
+      ],
+      "spec": "Existing line chart showing monthly housing permits and proposed units; add May 2026 annotation for $125M affordable housing fund announcement and November 2026 ballot measure"
+    },
+    {
+      "id": "chart-family-opportunity-scorecard",
+      "title": "Family Opportunity Agenda: Childcare, Parks, and Safety",
       "chartType": "scorecard",
       "action": "create",
       "priority": "low",
       "topic": "city_government",
-      "rationale": "Childcare expansion, parks improvements, bike/pedestrian safety are unified under Family Opportunity Agenda theme",
+      "rationale": "Childcare expansion, parks improvements, bike/pedestrian safety unified under Family Opportunity Agenda theme",
       "updateReason": "",
       "sourceIds": [
         "mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundre",
@@ -2238,7 +2056,7 @@
         "promise-expand-childcare",
         "promise-bike-pedestrian-safety"
       ],
-      "spec": "Scorecard listing major Family Opportunity Agenda initiatives: childcare spots created, parks projects completed, bike lane miles added"
+      "spec": "Scorecard listing Family Opportunity Agenda initiatives: childcare spots announced (pending verification), Terry Francois Blvd completed, Twin Peaks Promenade underway, Sarah Madland Rec & Park appointment"
     }
   ]
 }
