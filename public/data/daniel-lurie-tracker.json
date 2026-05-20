@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-20T11:34:22.387Z",
+    "lastUpdated": "2026-05-20T20:34:23.589Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -44,6 +44,18 @@
       "summary": "Myrna Melgar has struck a bargain with Daniel Lurie: $125 million a year for affordable housing, if there&#039;s no fight on \"inclusionary\" rates.",
       "confidence": 0.9,
       "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today Supervisor Myrna Melgar plans to introduce legislation Tuesday that would more than double San Francisco’s annual budget for affordable housing to some $125 million, part of a bargain she hammered out with Mayor Daniel Lurie. Melgar said her proposal would vastly expand the city’s capacity to build affordable housing by allocating $125 million annually into the city’s Housing Trust Fund , up from the $52 million that goes into it today, while also extending the fund for another 30 years. That would be a total of at least $3.75 billion. The increase would be funded by “allocating a portion of future property tax growth every year” to the fund, according to a press release sent by Melgar and Lurie. “I cut a deal with the mayor,” Melgar said, to use property taxes “coming from the increase in the value of all properties in San Francisco” as a result of last year’s upzoning . The proposal would take the increase in future property taxes and “put it aside” into the low-income housing fund, Melgar said. “Housing is not getting built at the pace we need, and the consequences are all around us,” Mayor Lurie said in a statement. “Today, we’re jumpstarting affordable housing in San Francisco.” The two also announced an immediate $70 million bond, to be issued next year, that would go towards preserving and maintaining existing affordable housing. Much of that work has happened through the city&#8217;s Small Sites program, which buys smaller buildings and converts them to affordable housing, though the program has been fraught . The city will maintain the current level of allocation to the fund during this budget crisis, but start in...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
+      "title": "Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-housing/",
+      "publishedAt": "2026-05-19",
+      "topic": "economy",
+      "summary": "Expansion of Housing Trust Fund, Updates to Inclusionary Housing Requirements Will Jumpstart Building and Preservation of Affordable Housing Citywide, Encourage Creation of New Housing at All Income Levels; Investment Continues Mayor Lurie, Supervisor Melgar’s Work to Add More Housing in San Francisco and Make the City More Affordable",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing Office of the Mayor Expansion of Housing Trust Fund, Updates to Inclusionary Housing Requirements Will Jumpstart Building and Preservation of Affordable Housing Citywide, Encourage Creation of New Housing at All Income Levels; Investment Continues Mayor Lurie, Supervisor Melgar’s Work to Add More Housing in San Francisco and Make the City More Affordable May 19, 2026 SAN FRANCISCO – Mayor Daniel Lurie and District 7 Supervisor Myrna Melgar today announced a transformative investment that will unlock affordable housing across San Francisco. Mayor Lurie will support Supervisor Melgar’s Charter Amendment for the November 2026 ballot in partnership with District 10 Supervisor Shamann Walton, District 3 Supervisor Danny Sauter, District 2 Supervisor Stephen Sherrill, District 6 Supervisor Matt Dorsey, and District 4 Supervisor Alan Wong that will expand and renew the city’s Housing Trust Fund by responsibly increasing the city’s contribution to the fund to support affordable housing production and preservation citywide. The announcement comes as Mayor Lurie, Supervisor Melgar, and Supervisors Dorsey, Sherill, and Sauter. also introduced an ordinance to update the city’s inclusionary housing requirements and development impact fee requirements in line with the recommendation of housing experts and with the support of affordable housing providers, tenant-rights advocates, and labor leaders. The expansion of the Housing Trust Fund and updates to inclusionary housing requirements continue the work Mayor Lurie and Supervisor Melgar have done to build more housing in San Francisco. Last year, the mayor and supervisor worked together to pass the Family Zoning plan —a one in a generation pl...",
       "scrapeStatus": "scraped"
     },
     {
@@ -229,15 +241,18 @@
       "confidence": 0.68
     },
     {
-      "id": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
-      "title": "Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-housing/",
-      "publishedAt": "2026-05-19",
-      "topic": "economy",
-      "summary": "Expansion of Housing Trust Fund, Updates to Inclusionary Housing Requirements Will Jumpstart Building and Preservation of Affordable Housing Citywide, Encourage Creation of New Housing at All Income Levels; Investment Continues Mayor Lurie, Supervisor Melgar’s Work to Add More Housing in San Francisco and Make the City More Affordable",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing Office of the Mayor Expansion of Housing Trust Fund, Updates to Inclusionary Housing Requirements Will Jumpstart Building and Preservation of Affordable Housing Citywide, Encourage Creation of New Housing at All Income Levels; Investment Continues Mayor Lurie, Supervisor Melgar’s Work to Add More Housing in San Francisco and Make the City More Affordable May 19, 2026 SAN FRANCISCO – Mayor Daniel Lurie and District 7 Supervisor Myrna Melgar today announced a transformative investment that will unlock affordable housing across San Francisco. Mayor Lurie will support Supervisor Melgar’s Charter Amendment for the November 2026 ballot in partnership with District 10 Supervisor Shamann Walton, District 3 Supervisor Danny Sauter, District 2 Supervisor Stephen Sherrill, District 6 Supervisor Matt Dorsey, and District 4 Supervisor Alan Wong that will expand and renew the city’s Housing Trust Fund by responsibly increasing the city’s contribution to the fund to support affordable housing production and preservation citywide. The announcement comes as Mayor Lurie, Supervisor Melgar, and Supervisors Dorsey, Sherill, and Sauter. also introduced an ordinance to update the city’s inclusionary housing requirements and development impact fee requirements in line with the recommendation of housing experts and with the support of affordable housing providers, tenant-rights advocates, and labor leaders. The expansion of the Housing Trust Fund and updates to inclusionary housing requirements continue the work Mayor Lurie and Supervisor Melgar have done to build more housing in San Francisco. Last year, the mayor and supervisor worked together to pass the Family Zoning plan —a one in a generation pl...",
+      "id": "sf-mayor-supervisors-announce-proposal-to-double-funding-for-affordable-housing-",
+      "title": "SF Mayor, Supervisors Announce Proposal to Double Funding For Affordable Housing",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/05/20/sf-mayor-supervisors-announce-proposal-to-double-funding-for-affordable-housing/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-05-20",
+      "topic": "housing",
+      "summary": "SF leaders proposed a new charter amendment that would double the city’s Housing Trust Fund with the aim of accelerating the construction of affordable housing, with one caveat — the inclusionary rate will be significantly reduced for at least three years.",
+      "confidence": 0.8,
+      "excerpt": "20 May 2026 / SF Politics / Leanne Maxwell SF Mayor, Supervisors Announce Proposal to Double Funding For Affordable Housing --> SF leaders proposed a new charter amendment that would double the city’s Housing Trust Fund with the aim of accelerating the construction of affordable housing, with one caveat — the inclusionary rate will be significantly reduced for at least three years. Supervisor Myrna Melgar and San Francisco Mayor Daniel Lurie announced a proposed charter amendment Tuesday that would more than double the city’s Housing Trust Fund to support affordable housing construction, with funding tied to future property tax growth. If approved by voters in November, the measure would increase annual funding from $52 million to more than $125 million and extend the program through 2058, potentially generating up to $3 billion over the next three decades. The proposal still needs support from at least six supervisors to qualify for the ballot, as KRON4 reports , and Supervisors Shamann Walton, Danny Sauter, Stephen Sherrill, and Matt Dorsey have confirmed their support of the measure so far. According to Mission Local , Melgar said she spent the past year working with nonprofit and affordable housing groups on the proposal after pushing for guarantees that increased upzoning efforts would also produce more low-income housing. The city’s current inclusionary rate requires 15% affordable units in most new housing projects, though a city committee recently recommended lowering it to 5% for at least three years. Developers can also reportedly meet the requirement through fees, land dedication, or off-site affordable units. The proposal would also allow the Housing Trust Fund to back revenue bonds and other financing tools to accelerate affordable housing projects. Luri...",
       "scrapeStatus": "scraped"
     },
     {
@@ -309,6 +324,21 @@
       "topic": "city_government",
       "summary": "At conservative-leaning forum, S.F. leaders love pragmatism, efficiency, and Daniel Lurie &nbsp;&nbsp; Mission Local",
       "confidence": 0.68
+    },
+    {
+      "id": "sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears-2026-05-01",
+      "title": "SF Mayor Daniel Lurie pushes Muni funding measures as deadline nears",
+      "sourceType": "news",
+      "url": "https://www.nbcbayarea.com/news/local/sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears/4080452/",
+      "discoveryUrl": "https://www.nbcbayarea.com/news/local/sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears/4080452/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "NBC Bay Area",
+      "publishedAt": "2026-05-06",
+      "topic": "transit",
+      "summary": "San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot.",
+      "confidence": 0.9,
+      "excerpt": "San Francisco SF Mayor Daniel Lurie pushes Muni funding measures as deadline nears By Ginger Conejero Saab &bull; Published May 6, 2026 &bull; Updated on May 6, 2026 at 11:58 am BOOKMARKER NBC Universal, Inc. San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot. San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot. Lurie was near the Market and Castro Muni stop, encouraging people to support the “Stronger Muni for All” measure and a regional proposal known as “Connect Bay Area.” Watch NBC Bay Area News free wherever you are WATCH HERE Both measures aim to provide long-term funding for transit. The local measure would fund Muni, while the regional measure would support agencies like BART and Caltrain. The mayor said Muni does not receive state funding and is relying on a proposed parcel tax. That would cost renters about $65 a year and most homeowners about $129 annually. “It is a price, so I’m not discounting that, but it is something we have to pay,” Lurie said. Meanwhile, the city is increasing enforcement on Muni, adding about 30% more fare inspectors. The agency recently reported its highest ridership since the start of the pandemic. Regionally, leaders are also backing a sales tax measure that could generate about $980 million a year to help avoid major service cuts. That regional measure needs about 186,000 valid signatures to qualify for the November ballot. San Francisco May 5 SFMTA beefs up efforts to crackdown on Muni fare evaders San Francisco Apr 28 Getting back on track: Muni records highest ridership since pandemic low This article tagged under: San Francisco on now 1:30PM: NBC Bay Area News Mi...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "mayor-lurie-celebrates-completion-of-high-speed-fiber-network-at-all-san-francis",
@@ -988,29 +1018,6 @@
       "topic": "city_government",
       "summary": "Family Opportunity Agenda: San Francisco promising free or reduced cost child care; pathway for students to attend college &nbsp;&nbsp; ABC7 San Francisco",
       "confidence": 0.68
-    },
-    {
-      "id": "san-francisco-mayor-daniel-lurie-gives-1st-state-of-the-city-address-touts-econo",
-      "title": "San Francisco Mayor Daniel Lurie gives 1st State of the City address; touts economic recovery, crime drop, and public safety",
-      "sourceType": "news",
-      "url": "https://abc7news.com/post/san-francisco-mayor-daniel-lurie-give-1st-state-city-address/18408744/",
-      "discoveryUrl": "https://abc7news.com/post/san-francisco-mayor-daniel-lurie-give-1st-state-city-address/18408744/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "ABC7",
-      "publishedAt": "2026-01-16",
-      "topic": "economy",
-      "summary": "Lurie's State of the City highlighted overall crime down nearly 30% but noted some neighborhoods saw increases. He announced plans to combine three city departments to streamline permitting for housing development. The city faces a roughly $1 billion budget deficit over two years, worsened by potential federal funding cuts. He announced free childcare expansion for low-to-middle-income families.",
-      "confidence": 0.9
-    },
-    {
-      "id": "mayor-lurie-celebrates-nearly-40-million-in-state-funding-to-address-homelessnes",
-      "title": "Mayor Lurie Celebrates Nearly $40 Million in State Funding to Address Homelessness in San Francisco - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPRnprdWdvbkIzeGFNOTBSYzd1VHlDRi1Pc0RJakVBV1ZZMmJWR21URGJuSE5uOHFQRmtZT0UyS2lQUV9SMVE3Ul9FQm5LV2lPcnlWRWY3ZFFZWFpXV19JRFlNZXRVa2ZPX1lSSWlzcHN1emVJaWFhUS1veG55UzVfR2I2U0Z0TzBHamdQdFdYeEhFZG84QzVickRhVF8zQmhzaldFZ3c1NWUxdVFrWkN4bl82cEx6WnkwQmtNbXhHMA?oc=5",
-      "publishedAt": "2026-01-16",
-      "topic": "homelessness",
-      "summary": "Mayor Lurie Celebrates Nearly $40 Million in State Funding to Address Homelessness in San Francisco &nbsp;&nbsp; SF.gov",
-      "confidence": 0.78
     }
   ],
   "promises": [
@@ -1018,16 +1025,17 @@
       "id": "promise-affordable-housing-fund-125m",
       "text": "Secure $125 million annually for affordable housing through property tax allocation",
       "dateMade": "2026-05-19",
-      "deadline": "unknown",
+      "deadline": "2026-11-30",
       "topic": "housing",
       "status": "in_progress",
       "progress": null,
       "evidenceSourceIds": [
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
-        "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou"
+        "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
+        "sf-mayor-supervisors-announce-proposal-to-double-funding-for-affordable-housing-"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Charter Amendment for November 2026 ballot announced; legislation introduced; awaiting voter approval",
+      "statusNote": "Charter Amendment for November 2026 ballot announced; legislation introduced by Sup. Melgar with support from Supervisors Walton, Sauter, Sherrill, Dorsey, Wong; requires 6 supervisor votes to qualify for ballot and voter approval",
       "reviewStatus": "pending_review",
       "linkedMetricIds": [
         "housing-permits-issued",
@@ -1047,7 +1055,7 @@
         "sf-mayor-news"
       ],
       "aiConfidence": 0.72,
-      "statusNote": "Administration claims achievement but independent verification of Point-in-Time count methodology and historical comparison needed",
+      "statusNote": "Administration claims achievement announced May 12, 2026; independent verification of Point-in-Time count methodology and historical comparison needed",
       "reviewStatus": "needs_more_evidence",
       "linkedMetricIds": [
         "homeless-encampment-311-requests"
@@ -1065,7 +1073,7 @@
         "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h"
       ],
       "aiConfidence": 0.83,
-      "statusNote": "SF Travel forecasts 2026 will surpass pre-pandemic record; convention bookings up 69% since 2024; final year-end data needed",
+      "statusNote": "SF Travel forecasts 2026 will surpass pre-pandemic record; convention hotel occupancy up 69% since 2024; final year-end data needed for verification",
       "reviewStatus": "pending_review",
       "linkedMetricIds": [
         "downtown-office-vacancy-rate"
@@ -1083,7 +1091,7 @@
         "mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundre"
       ],
       "aiConfidence": 0.68,
-      "statusNote": "Expansion announced but specific enrollment capacity increase and timeline not yet verified",
+      "statusNote": "Expansion announced April 30, 2026; specific enrollment capacity increase and implementation timeline not yet verified",
       "reviewStatus": "needs_more_evidence",
       "linkedMetricIds": []
     },
@@ -1100,7 +1108,7 @@
         "datasf-overdose-related-911-responses"
       ],
       "aiConfidence": 0.76,
-      "statusNote": "Emergency powers granted Feb 2025; overdose-related 911 responses tracked but causal link requires further review",
+      "statusNote": "Emergency powers granted Feb 4, 2025; overdose-related 911 responses tracked in DataSF but causal link to policy requires further review",
       "reviewStatus": "pending_review",
       "linkedMetricIds": [
         "overdose-related-911-responses",
@@ -1111,7 +1119,7 @@
       "id": "promise-climate-action-plan-update",
       "text": "Deliver five-year Climate Action Plan update with emissions reduction and cost-saving measures",
       "dateMade": "2026-04-20",
-      "deadline": "unknown",
+      "deadline": "2026-04-20",
       "topic": "climate",
       "status": "completed",
       "progress": 100,
@@ -1119,7 +1127,7 @@
         "climate-plan-update"
       ],
       "aiConfidence": 0.9,
-      "statusNote": "Five-year Climate Action Plan update released April 2026",
+      "statusNote": "Five-year Climate Action Plan update released April 20, 2026",
       "reviewStatus": "approved",
       "linkedMetricIds": []
     },
@@ -1135,7 +1143,7 @@
         "mayor-lurie-signs-legislation-to-support-san-francisco-police-officers-continue-"
       ],
       "aiConfidence": 0.65,
-      "statusNote": "Legislation signed; crime rate trends require ongoing tracking with baseline and category-level data",
+      "statusNote": "Legislation signed May 11, 2026; crime rate trends require ongoing tracking with baseline and category-level data",
       "reviewStatus": "needs_more_evidence",
       "linkedMetricIds": []
     },
@@ -1151,7 +1159,7 @@
         "mayor-lurie-signs-legislation-with-firefighters-x27-union-to-support-first-respo"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "MOU signed through June 2030; PFAS-free turnout gear transition and training facility underway but completion metrics needed",
+      "statusNote": "MOU signed May 8, 2026, effective through June 30, 2030; PFAS-free turnout gear transition and training facility underway but completion metrics needed",
       "reviewStatus": "pending_review",
       "linkedMetricIds": []
     },
@@ -1167,7 +1175,7 @@
         "union-square-programming"
       ],
       "aiConfidence": 0.84,
-      "statusNote": "Programming announced through summer 2027; foot traffic and economic impact metrics needed",
+      "statusNote": "Programming announced Feb 10, 2026 through summer 2027; foot traffic and economic impact metrics needed",
       "reviewStatus": "needs_more_evidence",
       "linkedMetricIds": [
         "downtown-office-vacancy-rate"
@@ -1185,7 +1193,7 @@
         "mayor-lurie-continues-support-for-arts-organizations-with-new-grant-opportunitie"
       ],
       "aiConfidence": 0.87,
-      "statusNote": "FY 2027-28 RFP launched with new programs for small organizations; supports 250+ organizations annually; allocation amounts need tracking",
+      "statusNote": "FY 2027-28 RFP launched May 13, 2026 with new programs for small organizations impacted by federal cuts; supports 250+ organizations annually",
       "reviewStatus": "pending_review",
       "linkedMetricIds": []
     },
@@ -1201,7 +1209,7 @@
         "mayor-lurie-cuts-ribbon-on-terry-francois-boulevard-bike-and-pedestrian-safety-i"
       ],
       "aiConfidence": 0.89,
-      "statusNote": "Terry Francois Blvd project completed; Twin Peaks Promenade underway; citywide safety metrics needed",
+      "statusNote": "Terry Francois Blvd project completed May 7, 2026; Twin Peaks Promenade project underway; citywide safety impact metrics needed",
       "reviewStatus": "pending_review",
       "linkedMetricIds": []
     },
@@ -1218,7 +1226,7 @@
         "we-can-shut-down-the-city-lurie-s-budget-cuts-spark-a-showdown-with-labor-2026-0"
       ],
       "aiConfidence": 0.78,
-      "statusNote": "127 positions cut; draft budget due June 2026; labor tensions rising with union opposition to service reductions",
+      "statusNote": "127 positions cut; draft budget due June 2026; police and firefighter contracts cost $100M extra over two years; labor tensions rising with union opposition to service reductions",
       "reviewStatus": "pending_review",
       "linkedMetricIds": []
     }
@@ -1324,13 +1332,13 @@
       "evidencePlan": "Obtain MOU cost analysis from controller's office; verify incremental cost vs. existing baseline compensation"
     },
     {
-      "id": "claim-kezar-stadium-10m-investment",
-      "claim": "Golden City FC promised $10M Kezar facelift but project has gone dark after one year",
-      "sourceId": "golden-city-fc-promised-a-10m-kezar-facelift-a-year-later-it-s-gone-dark-sfgate-",
-      "topic": "city_government",
-      "verdict": "needs_context",
-      "confidence": 0.68,
-      "evidencePlan": "Verify original MOU terms, funding sources, timeline commitments, and current project status through Rec & Park"
+      "id": "claim-inclusionary-rate-reduction",
+      "claim": "Affordable housing proposal would reduce inclusionary rate from 15% to 5% for at least three years",
+      "sourceId": "sf-mayor-supervisors-announce-proposal-to-double-funding-for-affordable-housing-",
+      "topic": "housing",
+      "verdict": "partially_verified",
+      "confidence": 0.78,
+      "evidencePlan": "Verify city committee recommendation, ordinance text, and final Board approval of inclusionary rate changes"
     }
   ],
   "metrics": [
@@ -1351,7 +1359,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-20T11:34:22.387Z"
+      "lastRefreshed": "2026-05-20T20:34:23.589Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1370,7 +1378,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-05-20T11:34:22.387Z"
+      "lastRefreshed": "2026-05-20T20:34:23.589Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -1386,7 +1394,7 @@
       "observations": [],
       "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-20T11:34:22.387Z",
+      "lastRefreshed": "2026-05-20T20:34:23.589Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -1425,7 +1433,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-05-20T11:34:22.387Z"
+      "lastRefreshed": "2026-05-20T20:34:23.589Z"
     },
     {
       "id": "housing-permits-issued",
@@ -1438,13 +1446,82 @@
       "evidenceSourceIds": [
         "datasf-building-permits"
       ],
-      "status": "needs_verified_source",
-      "baseline": null,
-      "latest": null,
-      "observations": [],
+      "status": "active",
+      "baseline": 1422,
+      "latest": 796,
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 1422
+        },
+        {
+          "date": "2025-02-01",
+          "value": 1315
+        },
+        {
+          "date": "2025-03-01",
+          "value": 1367
+        },
+        {
+          "date": "2025-04-01",
+          "value": 1509
+        },
+        {
+          "date": "2025-05-01",
+          "value": 1414
+        },
+        {
+          "date": "2025-06-01",
+          "value": 1457
+        },
+        {
+          "date": "2025-07-01",
+          "value": 1558
+        },
+        {
+          "date": "2025-08-01",
+          "value": 1529
+        },
+        {
+          "date": "2025-09-01",
+          "value": 1506
+        },
+        {
+          "date": "2025-10-01",
+          "value": 1515
+        },
+        {
+          "date": "2025-11-01",
+          "value": 1327
+        },
+        {
+          "date": "2025-12-01",
+          "value": 1382
+        },
+        {
+          "date": "2026-01-01",
+          "value": 1425
+        },
+        {
+          "date": "2026-02-01",
+          "value": 1262
+        },
+        {
+          "date": "2026-03-01",
+          "value": 1336
+        },
+        {
+          "date": "2026-04-01",
+          "value": 1403
+        },
+        {
+          "date": "2026-05-01",
+          "value": 796
+        }
+      ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-05-20T11:34:22.387Z"
+      "lastRefreshed": "2026-05-20T20:34:23.589Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -1457,13 +1534,82 @@
       "evidenceSourceIds": [
         "datasf-building-permits"
       ],
-      "status": "needs_verified_source",
-      "baseline": null,
-      "latest": null,
-      "observations": [],
+      "status": "active",
+      "baseline": 696,
+      "latest": 396,
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 696
+        },
+        {
+          "date": "2025-02-01",
+          "value": 1001
+        },
+        {
+          "date": "2025-03-01",
+          "value": 2285
+        },
+        {
+          "date": "2025-04-01",
+          "value": 808
+        },
+        {
+          "date": "2025-05-01",
+          "value": 1279
+        },
+        {
+          "date": "2025-06-01",
+          "value": 1130
+        },
+        {
+          "date": "2025-07-01",
+          "value": 686
+        },
+        {
+          "date": "2025-08-01",
+          "value": 292
+        },
+        {
+          "date": "2025-09-01",
+          "value": 483
+        },
+        {
+          "date": "2025-10-01",
+          "value": 758
+        },
+        {
+          "date": "2025-11-01",
+          "value": 792
+        },
+        {
+          "date": "2025-12-01",
+          "value": 253
+        },
+        {
+          "date": "2026-01-01",
+          "value": 545
+        },
+        {
+          "date": "2026-02-01",
+          "value": 473
+        },
+        {
+          "date": "2026-03-01",
+          "value": 625
+        },
+        {
+          "date": "2026-04-01",
+          "value": 790
+        },
+        {
+          "date": "2026-05-01",
+          "value": 396
+        }
+      ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-05-20T11:34:22.387Z"
+      "lastRefreshed": "2026-05-20T20:34:23.589Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -1482,7 +1628,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-05-20T11:34:22.387Z"
+      "lastRefreshed": "2026-05-20T20:34:23.589Z"
     }
   ],
   "topics": [
@@ -1524,7 +1670,7 @@
       "promiseCount": 1,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
+      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
     },
     {
       "id": "public_safety",
@@ -1689,7 +1835,7 @@
       "id": "timeline-budget-cuts-127-positions",
       "date": "2026-05-12",
       "type": "policy",
-      "title": "127 city positions cut as part of budget deficit plan",
+      "title": "127 city positions cut as part of $643M deficit plan",
       "topic": "city_government",
       "impact": "major",
       "sourceIds": [
@@ -1733,12 +1879,13 @@
       "id": "timeline-affordable-housing-fund-deal",
       "date": "2026-05-19",
       "type": "policy",
-      "title": "Mayor and Sup. Melgar announce $125M annual affordable housing fund plan",
+      "title": "Mayor and Sup. Melgar announce $125M annual affordable housing fund plan for November ballot",
       "topic": "housing",
       "impact": "major",
       "sourceIds": [
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
-        "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou"
+        "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
+        "sf-mayor-supervisors-announce-proposal-to-double-funding-for-affordable-housing-"
       ]
     }
   ]
