@@ -1,3 +1,5 @@
+import { buildChartsPageModel } from './charts-shared.js';
+
 const icon = {
   bot: '🤖',
   chart: '📊',
@@ -14,6 +16,7 @@ async function boot() {
   const response = await fetch('/data/daniel-lurie-tracker.json');
   if (!response.ok) throw new Error(`Unable to load tracker data: ${response.status}`);
   trackerData = await response.json();
+  generatedCharts = buildChartsPageModel(trackerData);
   render();
 }
 
@@ -49,19 +52,19 @@ function render() {
           </div>
           <div class="hero-tags">
             <span>${icon.refresh} Updated ${new Date(data.subject.lastUpdated).toLocaleDateString()}</span>
-            <span>${chartCount} chart types live</span>
+            <span>${chartCount} chart types visible</span>
             <span>${data.metrics.filter((metric) => metric.observations?.length).length} metrics with observations</span>
           </div>
         </div>
         <div class="hero-card">
           <div class="metric-icon">${icon.chart}</div>
           <strong>${chartCount}</strong>
-          <p>Charts appear only after an explicit request, and AI returns structured specs instead of UI code.</p>
+          <p>Default charts come from saved tracker data, and AI requests return structured specs instead of UI code.</p>
         </div>
       </div>
     </header>
     <section class="dashboard-grid summary-grid">
-      <article class="metric-card"><div class="metric-icon">📈</div><span>Charts live</span><strong>${chartCount}</strong><p>Generated only when requested from the charts page</p></article>
+      <article class="metric-card"><div class="metric-icon">📈</div><span>Charts live</span><strong>${chartCount}</strong><p>Default views come from tracker data; new charts appear only when requested</p></article>
       <article class="metric-card"><div class="metric-icon">🗄️</div><span>Observed metrics</span><strong>${data.metrics.filter((metric) => metric.observations?.length).length}</strong><p>Available for AI interpretation and chart selection</p></article>
       <article class="metric-card"><div class="metric-icon">🤖</div><span>AI role</span><strong>Specs only</strong><p>AI interprets data and returns fixed-format chart specs, not frontend code</p></article>
     </section>
@@ -75,7 +78,7 @@ function render() {
           </div>
         </div>
         <div class="real-chart-grid">
-          ${generatedCharts.length ? generatedCharts.map(renderGeneratedChart).join('') : '<div class="empty-state">Click Generate charts to ask the backend for chart specs from the latest data.</div>'}
+          ${generatedCharts.length ? generatedCharts.map(renderGeneratedChart).join('') : '<div class="empty-state">No chartable tracker data is available yet. Click Generate charts to ask the backend for chart specs from the latest data.</div>'}
         </div>
       </div>
     </section>

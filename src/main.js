@@ -1,5 +1,3 @@
-import { chartRecommendationCard } from './charts-shared.js';
-
 const STATUS_COPY = {
   not_started: 'Not started',
   in_progress: 'In progress',
@@ -78,12 +76,6 @@ function render() {
         <div class="topic-grid">${data.topics.map(topicCard).join('')}</div>
       </div>
     </section>
-    <section class="section">
-      <div class="panel">
-        ${sectionTitle(icon.bot, 'Visuals queue', 'Next chart ideas generated from the latest feeds')}
-        <div class="chart-plan-grid">${(data.chartRecommendations || []).length ? data.chartRecommendations.slice(0, 4).map(chartRecommendationCard).join('') : emptyState('No AI chart recommendations yet.')}</div>
-      </div>
-    </section>
     <section class="section two-column">
       <div class="panel">
         ${sectionTitle(icon.clock, 'Recent timeline', 'Key recent events tied to the tracker')}
@@ -139,7 +131,7 @@ function hero(subject, sourceCount, averageProgress) {
           <p class="hero-copy">A simpler view of the mayor tracker: reviewed promises, core metrics, and the latest source-backed updates in one place.</p>
           <div class="hero-tags"><span>${subject.role}</span><span>${subject.jurisdiction}</span><span>${sourceCount} sources in queue</span></div>
         </div>
-        <div class="hero-card">${averageProgress === null ? noDataBadge('Awaiting verified metrics') : donut(averageProgress, 'promise progress')}<p>Charts and source tests now live in their own pages.</p></div>
+          <div class="hero-card">${averageProgress === null ? noDataBadge('Awaiting verified metrics') : donut(averageProgress, 'promise progress')}<p>Charts are generated on demand from the charts page, while source tests live in their own pages.</p></div>
       </div>
     </header>`;
 }
