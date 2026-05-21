@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-21T12:30:34.423Z",
+    "lastUpdated": "2026-05-21T22:52:28.144Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -148,16 +148,6 @@
       "confidence": 0.9
     },
     {
-      "id": "mayor-lurie-signs-legislation-to-support-san-francisco-police-officers-continue-",
-      "title": "Mayor Lurie Signs Legislation To Support San Francisco Police Officers, Continue To Drive Down Crime - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYnFWeXRDbFhMM21tZE9Jb20xYTAtZ0ZIanFsNGVuU1hKbEZ2bXY2cDh0dVV2d19DeVF4dE5GdHozdk1VVmczWXM4Rks4TmJ6N2EzS3I4cEtnVEdlYUFxdHhWYmFEem1HU19pdEdlSXZDbUo0WUhXV3p0WWNhNDcxc1FkSlpaUUNGNjdPckZyVFNNRVpwV2VEV3J2Z3NkWjZ5eXp3ME5qX3BPa2NRYnBTUFpSSlg5U2RUTlpxYm1OU2g?oc=5",
-      "publishedAt": "2026-05-11",
-      "topic": "public_safety",
-      "summary": "Mayor Lurie Signs Legislation To Support San Francisco Police Officers, Continue To Drive Down Crime SF.gov",
-      "confidence": 0.78
-    },
-    {
       "id": "mayor-lurie-signs-legislation-with-firefighters-x27-union-to-support-first-respo",
       "title": "Mayor Lurie Signs Legislation With Firefighters&#x27; Union To Support First Responders, Strengthen Public Safety | SF.gov",
       "sourceType": "official",
@@ -234,6 +224,18 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "mayor-lurie-signs-legislation-to-make-it-easier-to-throw-block-parties-and-neigh",
+      "title": "Mayor Lurie Signs Legislation To Make It Easier To Throw Block Parties And Neighborhood Events | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-signs-legislation-to-make-it-easier-to-throw-block-parties-and-neighborhood-events/",
+      "publishedAt": "2026-05-20",
+      "topic": "public_safety",
+      "summary": "Permitting Improvements Make It Easier, Faster, and More Affordable for Community Members, Organizations to Bring San Francisco’s Neighborhoods to Life; Continues Mayor Lurie’s Work to Cut Red Tape, Deliver Activated Public Spaces, Accelerate San Francisco’s Economic Comeback",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Signs Legislation To Make It Easier To Throw Block Parties And Neighborhood Events Office of the Mayor Permitting Improvements Make It Easier, Faster, and More Affordable for Community Members, Organizations to Bring San Francisco’s Neighborhoods to Life; Continues Mayor Lurie’s Work to Cut Red Tape, Deliver Activated Public Spaces, Accelerate San Francisco’s Economic Comeback May 20, 2026 SAN FRANCISCO – Mayor Daniel Lurie today signed legislation that will make it easier for residents and organizations to throw block parties and host community events, continuing his work to make San Francisco’s permitting process faster, more predictable, and more transparent. The legislation eliminates a time-consuming public hearing requirement for events that close no more than three blocks and do not affect intersections or Muni routes. This streamlined process will benefit up to 90% of applicants, making neighborhood events like farmers markets and small street fairs simpler and quicker to produce. About a year into Mayor Lurie’s work to make permitting faster and more transparent, he launched a fully digital permitting portal that is allowing homeowners and business owners to obtain the permits they need online, more easily than ever. The new portal is already delivering results—cutting Fire Department wait times in half and reducing Permit Center trips by as much as 15%. Since the launch of PermitSF, the initiative has produced 20 ordinances , including common-sense reforms to remove burdens for homeowners to repair their decks and park in their driveways , or for businesses to set up cafe tables on sidewalks and paint their own business names on their storefronts . To continue this work, the mayor has announced plans to create a more coordinated and account...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "mayor-lurie-appoints-sarah-madland-as-general-manager-of-recreation-and-park-dep",
       "title": "Mayor Lurie Appoints Sarah Madland As General Manager Of Recreation And Park Department | SF.gov",
       "sourceType": "official",
@@ -246,15 +248,33 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-signs-legislation-to-make-it-easier-to-throw-block-parties-and-neigh",
-      "title": "Mayor Lurie Signs Legislation To Make It Easier To Throw Block Parties And Neighborhood Events | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-signs-legislation-to-make-it-easier-to-throw-block-parties-and-neighborhood-events/",
-      "publishedAt": "2026-05-20",
-      "topic": "public_safety",
-      "summary": "Permitting Improvements Make It Easier, Faster, and More Affordable for Community Members, Organizations to Bring San Francisco’s Neighborhoods to Life; Continues Mayor Lurie’s Work to Cut Red Tape, Deliver Activated Public Spaces, Accelerate San Francisco’s Economic Comeback",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Signs Legislation To Make It Easier To Throw Block Parties And Neighborhood Events Office of the Mayor Permitting Improvements Make It Easier, Faster, and More Affordable for Community Members, Organizations to Bring San Francisco’s Neighborhoods to Life; Continues Mayor Lurie’s Work to Cut Red Tape, Deliver Activated Public Spaces, Accelerate San Francisco’s Economic Comeback May 20, 2026 SAN FRANCISCO – Mayor Daniel Lurie today signed legislation that will make it easier for residents and organizations to throw block parties and host community events, continuing his work to make San Francisco’s permitting process faster, more predictable, and more transparent. The legislation eliminates a time-consuming public hearing requirement for events that close no more than three blocks and do not affect intersections or Muni routes. This streamlined process will benefit up to 90% of applicants, making neighborhood events like farmers markets and small street fairs simpler and quicker to produce. About a year into Mayor Lurie’s work to make permitting faster and more transparent, he launched a fully digital permitting portal that is allowing homeowners and business owners to obtain the permits they need online, more easily than ever. The new portal is already delivering results—cutting Fire Department wait times in half and reducing Permit Center trips by as much as 15%. Since the launch of PermitSF, the initiative has produced 20 ordinances , including common-sense reforms to remove burdens for homeowners to repair their decks and park in their driveways , or for businesses to set up cafe tables on sidewalks and paint their own business names on their storefronts . To continue this work, the mayor has announced plans to create a more coordinated and account...",
+      "id": "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-",
+      "title": "Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/05/sf-lurie-shelter-beds/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-05-21",
+      "topic": "homelessness",
+      "summary": "Mission Local does the math on San Francisco&#039;s shifting homeless approach toward treatment — and away from traditional shelters.",
+      "confidence": 0.82,
+      "excerpt": "Mayor Daniel Lurie campaigned on a promise to open 1,500 shelter beds within six months of taking office and to address the homeless crisis in a systematic, efficient way. At the six-month mark, he abruptly changed course. That’s when Lurie’s chief of health and human services, Kunal Modi, announced that the administration had chosen to focus on adding the “right” beds rather than seeking a “magic number.” The “right” kind of beds included those with sobriety requirements, locked treatment beds and beds in psychiatric units. And with limited city funds, beds that provide simple shelter for the homeless, rather than people in acute distress, are of lower priority. As of April, 16 months into his tenure, Lurie had overseen the opening of 863 new shelter beds for a total of about 7,500 city-wide. But the city has also closed multiple shelters. Some were shuttered due to decisions made before Lurie took office, meaning the net gain is considerably less. Under Lurie, San Francisco has only seen a net increase of 403 beds. That&#8217;s less than 30 percent of his initial goal. With additional planned openings and closings, that number will drop to just 303 added beds by 2028, if the changes come on schedule. Many of the new beds are designed to provide compulsory treatment or stabilize people in crisis — for example, someone who is having a mental health episode, or is visibly intoxicated. That is the case with the beds at the Eleanora Fagan Center “respite program” at the Kean Hotel, or the 24-hour medical facility at 822 Geary where police can forcibly take homeless people in need of care. Shelters focused on stabilization and treatment have increased by 170 percent, according to the mayor’s office’s count. Along with creating new beds for those in crisis, the Lurie admi...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "lurie-to-propose-cutting-cash-grants-for-free-city-college-students-by-a-third-2",
+      "title": "Lurie to Propose Cutting Cash Grants for Free City College Students By a Third",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/05/21/lurie-to-propose-cutting-cash-grants-for-free-city-college-students-by-a-third/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-05-21",
+      "topic": "transit",
+      "summary": "Supervisor Connie Chan held a hearing Wednesday where community members urged the Board of Supervisors to prevent Mayor Lurie from cutting a program by 30% that offers cash grants to low-income students through City College’s \"Free City” program.",
+      "confidence": 0.8,
+      "excerpt": "21 May 2026 / SF Politics / Leanne Maxwell Lurie to Propose Cutting Cash Grants for Free City College Students By a Third --> Supervisor Connie Chan held a hearing Wednesday where community members urged the Board of Supervisors to prevent Mayor Lurie from cutting a program by 30% that offers cash grants to low-income students through City College’s \"Free City” program. San Francisco Mayor Daniel Lurie’s new budget proposal, due June 1, will include a 30% cut to “Free City Cash Grants,” a component of City College’s “Free City” program, as the Chronicle reports . The cash grants program provides low-income City College students with funds matching their $46-per-credit fees, which the state had already covered, for expenses like housing, food, and books. Lurie’s proposed cuts, which would not impact the main Free City program, would reduce funding for cash grants from $9.3 million to $6.4 million. According to 48Hills , the cash grants program, which benefitted 6,000 low-income students last year, would violate a longstanding Memorandum of Understanding between the city and the school. As SFist reported at the time, former Supervisor Jane Kim introduced the proposal to create the Free City program back in 2016, which was approved in February 2017 by former Mayor Ed Lee. At the hearing Wednesday, dozens of students, alumni, and staff urged the Board of Supervisors Budget and Appropriations Committee to protect the full funding for the program, which has been under threat for at least the past two years . “Free City is the reason I can afford to attend City College,” said Angelica Campos, a student-elected representative on the College’s Board of Trustees, speaking to 48 Hills. “I am working, studying, and building a life in San Francisco, and even small costs can decid...",
       "scrapeStatus": "scraped"
     },
     {
@@ -318,6 +338,16 @@
       "confidence": 0.78
     },
     {
+      "id": "mayor-lurie-signs-legislation-to-support-san-francisco-police-officers-continue-",
+      "title": "Mayor Lurie Signs Legislation To Support San Francisco Police Officers, Continue To Drive Down Crime - SF.gov",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYnFWeXRDbFhMM21tZE9Jb20xYTAtZ0ZIanFsNGVuU1hKbEZ2bXY2cDh0dVV2d19DeVF4dE5GdHozdk1VVmczWXM4Rks4TmJ6N2EzS3I4cEtnVEdlYUFxdHhWYmFEem1HU19pdEdlSXZDbUo0WUhXV3p0WWNhNDcxc1FkSlpaUUNGNjdPckZyVFNNRVpwV2VEV3J2Z3NkWjZ5eXp3ME5qX3BPa2NRYnBTUFpSSlg5U2RUTlpxYm1OU2g?oc=5",
+      "publishedAt": "2026-05-11",
+      "topic": "public_safety",
+      "summary": "Mayor Lurie Signs Legislation To Support San Francisco Police Officers, Continue To Drive Down Crime SF.gov",
+      "confidence": 0.78
+    },
+    {
       "id": "golden-city-fc-promised-a-10m-kezar-facelift-a-year-later-it-s-gone-dark-sfgate-",
       "title": "Golden City FC promised a $10M Kezar facelift. A year later, it’s gone dark. - sfgate.com",
       "sourceType": "news",
@@ -336,6 +366,21 @@
       "topic": "city_government",
       "summary": "At conservative-leaning forum, S.F. leaders love pragmatism, efficiency, and Daniel Lurie &nbsp;&nbsp; Mission Local",
       "confidence": 0.68
+    },
+    {
+      "id": "sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears-2026-05-01",
+      "title": "SF Mayor Daniel Lurie pushes Muni funding measures as deadline nears",
+      "sourceType": "news",
+      "url": "https://www.nbcbayarea.com/news/local/sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears/4080452/",
+      "discoveryUrl": "https://www.nbcbayarea.com/news/local/sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears/4080452/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "NBC Bay Area",
+      "publishedAt": "2026-05-06",
+      "topic": "transit",
+      "summary": "San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot.",
+      "confidence": 0.9,
+      "excerpt": "San Francisco SF Mayor Daniel Lurie pushes Muni funding measures as deadline nears By Ginger Conejero Saab &bull; Published May 6, 2026 &bull; Updated on May 6, 2026 at 11:58 am BOOKMARKER NBC Universal, Inc. San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot. San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot. Lurie was near the Market and Castro Muni stop, encouraging people to support the “Stronger Muni for All” measure and a regional proposal known as “Connect Bay Area.” Watch NBC Bay Area News free wherever you are WATCH HERE Both measures aim to provide long-term funding for transit. The local measure would fund Muni, while the regional measure would support agencies like BART and Caltrain. The mayor said Muni does not receive state funding and is relying on a proposed parcel tax. That would cost renters about $65 a year and most homeowners about $129 annually. “It is a price, so I’m not discounting that, but it is something we have to pay,” Lurie said. Meanwhile, the city is increasing enforcement on Muni, adding about 30% more fare inspectors. The agency recently reported its highest ridership since the start of the pandemic. Regionally, leaders are also backing a sales tax measure that could generate about $980 million a year to help avoid major service cuts. That regional measure needs about 186,000 valid signatures to qualify for the November ballot. San Francisco May 5 SFMTA beefs up efforts to crackdown on Muni fare evaders San Francisco Apr 28 Getting back on track: Muni records highest ridership since pandemic low This article tagged under: San Francisco on now 1:30PM: NBC Bay Area News Mi...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "mayor-lurie-celebrates-completion-of-high-speed-fiber-network-at-all-san-francis",
@@ -359,21 +404,6 @@
       "summary": "Low Brings Extensive Governance Experience, Leadership Across San Francisco Civic and Cultural Organizations; Nomination Builds on Efforts to Drive Down Crime, Improve Public Safety, Accountability Across San Francisco",
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Nominates Larry Low To Police Commission Office of the Mayor Low Brings Extensive Governance Experience, Leadership Across San Francisco Civic and Cultural Organizations; Nomination Builds on Efforts to Drive Down Crime, Improve Public Safety, Accountability Across San Francisco May 6, 2026 SAN FRANCISCO – Mayor Daniel Lurie today nominated Larry Low to serve on the San Francisco Police Commission. Low brings more than four decades of experience in law, business, and nonprofit leadership in San Francisco, with expertise in operations and governance. A lifelong San Franciscan, he has played important roles in a variety of civic, cultural, and education organizations, and will leverage his experiences to strengthen public safety and accountability across the city. Public safety has been Mayor Lurie’s top priority, with crime down significantly and progress continuing with last week’s appointment of Steven Betz as chief of public safety. In 2025, car break-ins fell 43% to 22-year lows, and homicides reached their lowest level since 1954 . Mayor Lurie’s Rebuilding the Ranks plan is driving towards full police and sheriff staffing, with SFPD seeing its first staffing increase in years and graduating its largest recruit class since 2017 last month. Staffing improvements in the city’s 911 emergency response system have driven faster response times , and the administration is making San Francisco streets safer through Mayor Lurie’s Street Safety executive directive and first-in-the-state automated speed camer a enforcement program. “We’re making real progress on public safety in San Francisco, and Larry Low’s decades of leadership across law, business, and the nonprofit sector will help us keep that momentum going,” said Mayor Lurie . “I’m confident he will...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears-2026-05-01",
-      "title": "SF Mayor Daniel Lurie pushes Muni funding measures as deadline nears",
-      "sourceType": "news",
-      "url": "https://www.nbcbayarea.com/news/local/sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears/4080452/",
-      "discoveryUrl": "https://www.nbcbayarea.com/news/local/sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears/4080452/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "NBC Bay Area",
-      "publishedAt": "2026-05-06",
-      "topic": "transit",
-      "summary": "San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot.",
-      "confidence": 0.9,
-      "excerpt": "San Francisco SF Mayor Daniel Lurie pushes Muni funding measures as deadline nears By Ginger Conejero Saab &bull; Published May 6, 2026 &bull; Updated on May 6, 2026 at 11:58 am BOOKMARKER NBC Universal, Inc. San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot. San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot. Lurie was near the Market and Castro Muni stop, encouraging people to support the “Stronger Muni for All” measure and a regional proposal known as “Connect Bay Area.” Watch NBC Bay Area News free wherever you are WATCH HERE Both measures aim to provide long-term funding for transit. The local measure would fund Muni, while the regional measure would support agencies like BART and Caltrain. The mayor said Muni does not receive state funding and is relying on a proposed parcel tax. That would cost renters about $65 a year and most homeowners about $129 annually. “It is a price, so I’m not discounting that, but it is something we have to pay,” Lurie said. Meanwhile, the city is increasing enforcement on Muni, adding about 30% more fare inspectors. The agency recently reported its highest ridership since the start of the pandemic. Regionally, leaders are also backing a sales tax measure that could generate about $980 million a year to help avoid major service cuts. That regional measure needs about 186,000 valid signatures to qualify for the November ballot. San Francisco May 5 SFMTA beefs up efforts to crackdown on Muni fare evaders San Francisco Apr 28 Getting back on track: Muni records highest ridership since pandemic low This article tagged under: San Francisco on now 1:30PM: NBC Bay Area News Mi...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1003,26 +1033,6 @@
       "topic": "city_government",
       "summary": "Mayor Lurie Reforms Journey Home Program to Help People Reconnect with Loved Ones and Access Support &nbsp;&nbsp; SF.gov",
       "confidence": 0.68
-    },
-    {
-      "id": "mayor-daniel-lurie-san-francisco-department-on-the-status-of-women-and-reproduct",
-      "title": "Mayor Daniel Lurie, San Francisco Department on the Status of Women and Reproductive Justice Leaders Commit to Reproductive Freedom - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMnlBV245SjNOekdBQkFEM1pydjItd0ZySWp2SG52a2NGRjNyUEJPX09nU0I1X181WWtadDNuTlNndktNcVJ3LWtPTDl6Vi1ReEdyZU42SFVyc2sxZFk4Nld3SzlWQXBWc0pXLTBfY2lNZUo4UDl2dDFiTUhsd2FWeUhoSlZoaDZaakk1NnlTeUpFaEREeUNIMDBDMUpJQ0ZROHVnQlJuNWVkYVJKVUNSbkJjS1MyNkw0dHRMR1RBT2RZX1FjYkZLeTlEd3NUdkZ4aHVLMGp4LWpEcXlYdl82ZmdSSDRaRDVtSEE?oc=5",
-      "publishedAt": "2026-01-22",
-      "topic": "city_government",
-      "summary": "Mayor Daniel Lurie, San Francisco Department on the Status of Women and Reproductive Justice Leaders Commit to Reproductive Freedom &nbsp;&nbsp; SF.gov",
-      "confidence": 0.68
-    },
-    {
-      "id": "letters-s-f-s-economic-comeback-will-be-empty-if-the-city-loses-this-historical-",
-      "title": "Letters: S.F.’s economic comeback will be empty if the city loses this historical trait - San Francisco Chronicle",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSXJySVljY0VvNnBvWjcwQ2hVWS0zYkhfUjl2RGVBSWxrLWRUem0wQVNIUFV6Wnh3ck0zMlhya0VrclZ1RmhJbldJWkdYTkNLTXVFcUlTRXo2Nkg1RUVSYXRzSXlCVjhQQmp5OHN5NEJxbEZTSUtoWHpEY0ZpbkdhYTl2STkwNHpBODNXRnBIaDdaN0xzNUhNaXdwdXJ2cEFMWmtJTUh3?oc=5",
-      "publishedAt": "2026-01-21",
-      "topic": "city_government",
-      "summary": "Letters: S.F.’s economic comeback will be empty if the city loses this historical trait &nbsp;&nbsp; San Francisco Chronicle",
-      "confidence": 0.68
     }
   ],
   "promises": [
@@ -1364,7 +1374,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-21T12:30:34.422Z"
+      "lastRefreshed": "2026-05-21T22:52:28.144Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1383,7 +1393,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-05-21T12:30:34.423Z"
+      "lastRefreshed": "2026-05-21T22:52:28.144Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -1393,74 +1403,13 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": 292,
-      "latest": 216,
+      "baseline": null,
+      "latest": null,
       "direction": "down_is_good",
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 292
-        },
-        {
-          "date": "2025-02-01",
-          "value": 274
-        },
-        {
-          "date": "2025-03-01",
-          "value": 342
-        },
-        {
-          "date": "2025-04-01",
-          "value": 275
-        },
-        {
-          "date": "2025-05-01",
-          "value": 273
-        },
-        {
-          "date": "2025-06-01",
-          "value": 301
-        },
-        {
-          "date": "2025-07-01",
-          "value": 239
-        },
-        {
-          "date": "2025-08-01",
-          "value": 294
-        },
-        {
-          "date": "2025-09-01",
-          "value": 219
-        },
-        {
-          "date": "2025-10-01",
-          "value": 235
-        },
-        {
-          "date": "2025-11-01",
-          "value": 300
-        },
-        {
-          "date": "2025-12-01",
-          "value": 148
-        },
-        {
-          "date": "2026-01-01",
-          "value": 221
-        },
-        {
-          "date": "2026-02-01",
-          "value": 220
-        },
-        {
-          "date": "2026-03-01",
-          "value": 216
-        }
-      ],
-      "status": "active",
+      "observations": [],
+      "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-21T12:30:34.423Z",
+      "lastRefreshed": "2026-05-21T22:52:28.144Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -1499,7 +1448,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-05-21T12:30:34.423Z"
+      "lastRefreshed": "2026-05-21T22:52:28.144Z"
     },
     {
       "id": "housing-permits-issued",
@@ -1514,7 +1463,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 796,
+      "latest": 841,
       "observations": [
         {
           "date": "2025-01-01",
@@ -1582,12 +1531,12 @@
         },
         {
           "date": "2026-05-01",
-          "value": 796
+          "value": 841
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-05-21T12:30:34.423Z"
+      "lastRefreshed": "2026-05-21T22:52:28.144Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -1675,7 +1624,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-05-21T12:30:34.423Z"
+      "lastRefreshed": "2026-05-21T22:52:28.144Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -1694,7 +1643,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-05-21T12:30:34.423Z"
+      "lastRefreshed": "2026-05-21T22:52:28.144Z"
     }
   ],
   "topics": [
@@ -1744,7 +1693,7 @@
       "promiseCount": 3,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -1952,6 +1901,28 @@
       "impact": "minor",
       "sourceIds": [
         "mayor-lurie-signs-legislation-to-make-it-easier-to-throw-block-parties-and-neigh"
+      ]
+    },
+    {
+      "id": "timeline-shelter-bed-closures",
+      "date": "2026-05-21",
+      "type": "policy",
+      "title": "Net increase of 403 shelter beds since taking office; multiple shelters closed",
+      "topic": "homelessness",
+      "impact": "major",
+      "sourceIds": [
+        "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-"
+      ]
+    },
+    {
+      "id": "timeline-city-college-grant-cuts",
+      "date": "2026-05-21",
+      "type": "policy",
+      "title": "Proposed 30% cut to Free City College cash grants program announced",
+      "topic": "city_government",
+      "impact": "major",
+      "sourceIds": [
+        "lurie-to-propose-cutting-cash-grants-for-free-city-college-students-by-a-third-2"
       ]
     }
   ]
