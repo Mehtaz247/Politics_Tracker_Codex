@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-21T22:52:28.144Z",
+    "lastUpdated": "2026-05-22T11:28:08.839Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -278,6 +278,36 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
+      "title": "Mayor Lurie Presents Balanced, Responsible Budget to Advance San Francisco's Recovery",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
+      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2026-05-22",
+      "topic": "city_government",
+      "summary": "Mayor Lurie presented his $15.9 billion proposed budget for FY 2025-2026 and 2026-2027, closing an $800 million deficit while prioritizing public safety and clean streets. Under his leadership, overall crime is down nearly 30%, car break-ins are at a 22-year low, and street encampments are at their lowest since 2019. The budget maintains funding for sworn officers and invests in capital projects and technology.",
+      "confidence": 0.9,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "page returned bot verification challenge"
+    },
+    {
+      "id": "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s",
+      "title": "Mayor Lurie Launches Breaking The Cycle Fund To Deliver Transformation Of City's Behavioral Health and Homelessness Response",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-citys-behavioral-health-and-homelessness-response",
+      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-citys-behavioral-health-and-homelessness-response",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2026-05-22",
+      "topic": "homelessness",
+      "summary": "Mayor Lurie launched the Breaking the Cycle Fund with $37.5 million in private seed funding to rapidly increase interim and treatment bed capacity. Major donors include the Charles and Helen Schwab Foundation ($10 million), Crankstart ($10 million), and Tipping Point Community ($11 million). The fund will support reforming the behavioral health and homelessness response system.",
+      "confidence": 0.9,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "page returned bot verification challenge"
+    },
+    {
       "id": "datasf-311-cases",
       "title": "311 Cases",
       "sourceType": "official",
@@ -531,6 +561,19 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "lgbtq-nonprofits-urge-sf-mayor-lurie-to-reconsider-17-million-in-budget-cuts-202",
+      "title": "LGBTQ+ nonprofits urge SF Mayor Lurie to reconsider $17 million in budget cuts",
+      "sourceType": "news",
+      "url": "https://www.ktvu.com/news/lgbtq-nonprofits-urge-mayor-lurie-reconsider-17-million-budget-cuts",
+      "discoveryUrl": "https://www.ktvu.com/news/lgbtq-nonprofits-urge-mayor-lurie-reconsider-17-million-budget-cuts",
+      "discoverySource": "Anthropic web search",
+      "publisher": "KTVU",
+      "publishedAt": "2026-04-23",
+      "topic": "city_government",
+      "summary": "LGBTQ+ nonprofits held a Castro District rally protesting $17 million in proposed cuts that would impact health, housing, and job services. The San Francisco AIDS Foundation faces a $1.2 million reduction over two years, affecting low-barrier HIV screening. Mayor Lurie's budget aims to reduce city spending by $400 million to close an $877 million deficit.",
+      "confidence": 0.85
+    },
+    {
       "id": "mayor-lurie-celebrates-mou-between-asian-art-museum-and-national-museum-of-korea",
       "title": "Mayor Lurie Celebrates MOU Between Asian Art Museum and National Museum of Korea | SF.gov",
       "sourceType": "official",
@@ -643,6 +686,19 @@
       "topic": "city_government",
       "summary": "Mayor Lurie Announces Appropriation Of 2024 Bond To Strengthen Health Care Infrastructure, Deliver Street Safety And Public Space Upgrades &nbsp;&nbsp; SF.gov",
       "confidence": 0.68
+    },
+    {
+      "id": "these-billionaires-were-against-daniel-lurie-now-they-re-for-him-to-the-tune-of-",
+      "title": "These billionaires were against Daniel Lurie. Now they're for him—to the tune of $4 million",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/04/sf-money-donors-june-november-election/",
+      "discoveryUrl": "https://missionlocal.org/2026/04/sf-money-donors-june-november-election/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-04-14",
+      "topic": "economy",
+      "summary": "Billionaires Michael Moritz and Chris Larsen, who spent $1.5 million to defeat Lurie in 2024, are now bankrolling his agenda with major donations. Moritz pledged $2 million for charter reform efforts that would shift powers from the Board of Supervisors to the mayor. The measures would also make it more difficult to qualify ballot measures by raising thresholds.",
+      "confidence": 0.85
     },
     {
       "id": "san-francisco-mayor-daniel-lurie-city-leaders-announce-1-day-ceasefire-to-curb-g",
@@ -868,7 +924,20 @@
       "publisher": "ABC7 San Francisco",
       "publishedAt": "2026-03-04",
       "topic": "city_government",
-      "summary": "Mayor Lurie ordered city departments to cut $100 million in personnel spending, potentially eliminating up to 500 jobs, as the city faces an $877 million deficit. The cuts target filled positions and require departments to focus on core government services amid structural budget challenges.",
+      "summary": "Mayor Lurie ordered city departments to cut $100 million in personnel spending, potentially eliminating up to 500 jobs to address the $877 million deficit. Departments are told to cut $400 million in ongoing spending. Critics warn cuts will impact climate action plan work, public charging infrastructure, and building electrification efforts.",
+      "confidence": 0.9
+    },
+    {
+      "id": "sf-mayor-to-introduce-measure-to-prevent-muni-service-cuts-2026-03-03",
+      "title": "SF mayor to introduce measure to prevent Muni service cuts",
+      "sourceType": "news",
+      "url": "https://www.nbcbayarea.com/news/local/sf-measure-muni-service-cuts/4046023/",
+      "discoveryUrl": "https://www.nbcbayarea.com/news/local/sf-measure-muni-service-cuts/4046023/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "NBC Bay Area",
+      "publishedAt": "2026-03-03",
+      "topic": "transit",
+      "summary": "Mayor Lurie announced a new measure for the November ballot to prevent cuts to Muni service. The SFMTA plans service cuts in June 2026 due to the budget crisis with warnings of more cuts to come. If approved, the measure would stop service cuts, invest in safer and more affordable transit, and reduce traffic congestion.",
       "confidence": 0.9
     },
     {
@@ -980,59 +1049,6 @@
       "topic": "city_government",
       "summary": "Mayor Lurie Advances Reimagined Citywide Arts and Culture Strategy to Support San Francisco’s Recovery &nbsp;&nbsp; SF.gov",
       "confidence": 0.68
-    },
-    {
-      "id": "campaign-to-avert-bay-area-public-transit-death-spiral-gets-underway-2026-01-26",
-      "title": "Campaign to Avert Bay Area Public Transit Death Spiral Gets Underway",
-      "sourceType": "news",
-      "url": "https://www.kqed.org/news/12070685/campaign-to-avert-bay-area-public-transit-death-spiral-gets-underway",
-      "discoveryUrl": "https://www.kqed.org/news/12070685/campaign-to-avert-bay-area-public-transit-death-spiral-gets-underway",
-      "discoverySource": "Anthropic web search",
-      "publisher": "KQED",
-      "publishedAt": "2026-01-26",
-      "topic": "transit",
-      "summary": "Mayor Lurie proposed a separate parcel tax for November 2026 ballot to address MUNI's budget deficit, as a regional sales tax measure would only cover half of MUNI's funding needs. MUNI and BART are projecting budget deficits of over $300 million each in fiscal year 2027.",
-      "confidence": 0.9
-    },
-    {
-      "id": "mayor-lurie-s-perilous-gamble-with-federal-authority-california-globe-2026-01-26",
-      "title": "Mayor Lurie’s Perilous Gamble with Federal Authority - California Globe",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPYUthc0R6LXVycFk0UUYteWNlRldIRnlpdUsyYWFBUk5wM1gwVUVRWE1CUWlGaEIxY3dRbTRVakhQNlloX1pyNHdWUmN3RWpkMFFFbTVKczUwSlhpOEtWNXk4UnJPNFVOT2VXVFhaWTRhU05TTkRyYzBKdnVzOFdoWWhpa3dRY2pHVmJv?oc=5",
-      "publishedAt": "2026-01-26",
-      "topic": "city_government",
-      "summary": "Mayor Lurie’s Perilous Gamble with Federal Authority &nbsp;&nbsp; California Globe",
-      "confidence": 0.68
-    },
-    {
-      "id": "san-francisco-mayor-daniel-lurie-pushes-for-california-law-toughening-penalties-",
-      "title": "San Francisco Mayor Daniel Lurie pushes for California law toughening penalties for sideshows - CBS News",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNc1V0dUI2UGpZcG5zQWVKOXdhMHpsQWtld3ViLUJwR3ZQZnhHcjZfaEtDYlZWekdqZFF0dUF5T2hzX1FtbEhGRkVpTk4wcWtILWdGZE43ZjYyVjhaRkNhRHZhTnMxQ1g0QkhYdjRWc2k0Q3phTTBYUTZ5aHdadTdfaW9YZHpOMWt3d1UwMTFWTHFLMnh3VVdZVDBqN0k1dXBSaVQ5Z2xJN2hQXzA3U2ZHWVZPQlhlbmg4aHpvcENwV3pSLTZLblE?oc=5",
-      "publishedAt": "2026-01-23",
-      "topic": "city_government",
-      "summary": "San Francisco Mayor Daniel Lurie pushes for California law toughening penalties for sideshows &nbsp;&nbsp; CBS News",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-and-assemblymember-stefani-announce-legislation-to-continue-crackdow",
-      "title": "Mayor Lurie and Assemblymember Stefani Announce Legislation to Continue Crackdown on Sideshows - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRDVBenZxdWU0R1RLcEFBb1pfMnR6U1c0QkQ5LWh1Z1M1WDdiZ2pRVTdpcjZCejM1MVhRc3Z6TnVUNk1PZVQyUlZVNXpQa05PSk1ieGc2Y1gxTk1OanZzQTdqQ0RaNzE1cEtOdkQtaHJWR0tGWTFGSkVBZHBaVVlWeEc4a3VNVFItRFowZ2d0dTN3TVBXUDQwUFM3eUpYM2ViNjJxUkRadjhMNThNY2Z6UFpNaENmSTlIRXc?oc=5",
-      "publishedAt": "2026-01-23",
-      "topic": "city_government",
-      "summary": "Mayor Lurie and Assemblymember Stefani Announce Legislation to Continue Crackdown on Sideshows &nbsp;&nbsp; SF.gov",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-reforms-journey-home-program-to-help-people-reconnect-with-loved-one",
-      "title": "Mayor Lurie Reforms Journey Home Program to Help People Reconnect with Loved Ones and Access Support - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPWUpwY2MyaExrLThZdUNYX05nOFYxbHNqT3VrQTZwQTZmRk04ZkVtdGNRdmkzR0tOUm9xeWYzZDZrX09JcC1LaEMxUEd0a01UQmhfRGdpYmFsZW5ta1RvYm1iX2RJMXdfZ2ZHcTE4VjdkbXFvd2dacG1lYzhOYVYxVElOaWZ5NWlOU0h1Nlk2MWxET3lnREU3MlpKcVc0VzhuS2VfMXZGeUhpdUZYcWRlVlpSd1RiZFZsTmxWYkNjYXdEZw?oc=5",
-      "publishedAt": "2026-01-22",
-      "topic": "city_government",
-      "summary": "Mayor Lurie Reforms Journey Home Program to Help People Reconnect with Loved Ones and Access Support &nbsp;&nbsp; SF.gov",
-      "confidence": 0.68
     }
   ],
   "promises": [
@@ -1052,10 +1068,7 @@
       "aiConfidence": 0.88,
       "statusNote": "Charter Amendment for November 2026 ballot announced; legislation introduced by Sup. Melgar with support from Supervisors Walton, Sauter, Sherrill, Dorsey, Wong; requires 6 supervisor votes to qualify for ballot and voter approval",
       "reviewStatus": "pending_review",
-      "linkedMetricIds": [
-        "housing-permits-issued",
-        "housing-units-proposed-in-issued-permits"
-      ]
+      "linkedMetricIds": []
     },
     {
       "id": "promise-reduce-unsheltered-homelessness",
@@ -1072,9 +1085,7 @@
       "aiConfidence": 0.72,
       "statusNote": "Administration claims achievement announced May 12, 2026; independent verification of Point-in-Time count methodology and historical comparison needed",
       "reviewStatus": "needs_more_evidence",
-      "linkedMetricIds": [
-        "homeless-encampment-311-requests"
-      ]
+      "linkedMetricIds": []
     },
     {
       "id": "promise-tourism-recovery",
@@ -1090,9 +1101,7 @@
       "aiConfidence": 0.83,
       "statusNote": "SF Travel forecasts 2026 will surpass pre-pandemic record; convention hotel occupancy up 69% since 2024; final year-end data needed for verification",
       "reviewStatus": "pending_review",
-      "linkedMetricIds": [
-        "downtown-office-vacancy-rate"
-      ]
+      "linkedMetricIds": []
     },
     {
       "id": "promise-expand-childcare",
@@ -1116,19 +1125,16 @@
       "dateMade": "2025-02-04",
       "deadline": "unknown",
       "topic": "public_safety",
-      "status": "in_progress",
+      "status": "unclear",
       "progress": null,
       "evidenceSourceIds": [
         "fentanyl-powers",
         "datasf-overdose-related-911-responses"
       ],
       "aiConfidence": 0.76,
-      "statusNote": "Emergency powers granted Feb 4, 2025; overdose-related 911 responses tracked in DataSF but causal link to policy requires further review",
+      "statusNote": "Emergency powers granted Feb 4, 2025; overdose-related 911 responses show decline from 292 (Jan 2025) to 216 (Mar 2026) but causal link to policy requires further review",
       "reviewStatus": "pending_review",
-      "linkedMetricIds": [
-        "overdose-related-911-responses",
-        "overdose-response-naloxone-distribution"
-      ]
+      "linkedMetricIds": []
     },
     {
       "id": "promise-climate-action-plan-update",
@@ -1147,72 +1153,6 @@
       "linkedMetricIds": []
     },
     {
-      "id": "promise-support-firefighters",
-      "text": "Support firefighters through labor agreement and safety investments including PFAS-free gear",
-      "dateMade": "2026-05-08",
-      "deadline": "2030-06-30",
-      "topic": "public_safety",
-      "status": "in_progress",
-      "progress": null,
-      "evidenceSourceIds": [
-        "mayor-lurie-signs-legislation-with-firefighters-x27-union-to-support-first-respo"
-      ],
-      "aiConfidence": 0.88,
-      "statusNote": "MOU signed May 8, 2026, effective through June 30, 2030; PFAS-free turnout gear transition and training facility underway but completion metrics needed",
-      "reviewStatus": "pending_review",
-      "linkedMetricIds": []
-    },
-    {
-      "id": "promise-downtown-activation",
-      "text": "Activate downtown and Union Square with programming through summer 2027",
-      "dateMade": "2026-02-10",
-      "deadline": "2027-09-30",
-      "topic": "economy",
-      "status": "in_progress",
-      "progress": null,
-      "evidenceSourceIds": [
-        "union-square-programming"
-      ],
-      "aiConfidence": 0.84,
-      "statusNote": "Programming announced Feb 10, 2026 through summer 2027; foot traffic and economic impact metrics needed",
-      "reviewStatus": "needs_more_evidence",
-      "linkedMetricIds": [
-        "downtown-office-vacancy-rate"
-      ]
-    },
-    {
-      "id": "promise-arts-grants",
-      "text": "Continue hotel tax funding for arts organizations with new grant opportunities",
-      "dateMade": "2026-05-13",
-      "deadline": "unknown",
-      "topic": "economy",
-      "status": "in_progress",
-      "progress": null,
-      "evidenceSourceIds": [
-        "mayor-lurie-continues-support-for-arts-organizations-with-new-grant-opportunitie"
-      ],
-      "aiConfidence": 0.87,
-      "statusNote": "FY 2027-28 RFP launched May 13, 2026 with new programs for small organizations impacted by federal cuts; supports 250+ organizations annually",
-      "reviewStatus": "pending_review",
-      "linkedMetricIds": []
-    },
-    {
-      "id": "promise-bike-pedestrian-safety",
-      "text": "Improve bike and pedestrian safety along eastern waterfront and throughout city",
-      "dateMade": "2026-05-07",
-      "deadline": "unknown",
-      "topic": "public_safety",
-      "status": "in_progress",
-      "progress": null,
-      "evidenceSourceIds": [
-        "mayor-lurie-cuts-ribbon-on-terry-francois-boulevard-bike-and-pedestrian-safety-i"
-      ],
-      "aiConfidence": 0.89,
-      "statusNote": "Terry Francois Blvd project completed May 7, 2026; Twin Peaks Promenade project underway; citywide safety impact metrics needed",
-      "reviewStatus": "pending_review",
-      "linkedMetricIds": []
-    },
-    {
       "id": "promise-protect-core-services-budget",
       "text": "Navigate $643M budget deficit while protecting core services including public safety",
       "dateMade": "2026-05-12",
@@ -1222,17 +1162,50 @@
       "progress": null,
       "evidenceSourceIds": [
         "s-f-activists-deliver-1-500-postcards-to-mayor-lurie-asking-him-to-stop-budget-c",
-        "we-can-shut-down-the-city-lurie-s-budget-cuts-spark-a-showdown-with-labor-2026-0"
+        "we-can-shut-down-the-city-lurie-s-budget-cuts-spark-a-showdown-with-labor-2026-0",
+        "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco"
       ],
-      "aiConfidence": 0.78,
-      "statusNote": "127 positions cut; draft budget due June 2026; police and firefighter contracts cost $100M extra over two years; labor tensions rising with union opposition to service reductions",
+      "aiConfidence": 0.85,
+      "statusNote": "$15.9B budget presented May 22, 2026 closing $800M deficit; 127 positions cut; police and firefighter contracts cost $100M extra over two years; labor opposition to service reductions",
       "reviewStatus": "pending_review",
       "linkedMetricIds": []
     },
     {
-      "id": "promise-streamline-block-party-permits",
-      "text": "Make it easier, faster, and more affordable to obtain permits for block parties and neighborhood events",
-      "dateMade": "2026-05-20",
+      "id": "promise-increase-shelter-beds",
+      "text": "Open 1,500 new shelter beds within six months of taking office",
+      "dateMade": "2025-01-08",
+      "deadline": "2025-07-08",
+      "topic": "homelessness",
+      "status": "broken",
+      "progress": null,
+      "evidenceSourceIds": [
+        "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-"
+      ],
+      "aiConfidence": 0.82,
+      "statusNote": "Administration changed course at 6-month mark; as of April 2026, 863 new beds opened but multiple shelters closed; net increase of only 403 beds (27% of goal); projected to drop to 303 by 2028",
+      "reviewStatus": "approved",
+      "linkedMetricIds": []
+    },
+    {
+      "id": "promise-breaking-cycle-fund",
+      "text": "Launch Breaking the Cycle Fund to transform behavioral health and homelessness response",
+      "dateMade": "2026-05-22",
+      "deadline": "unknown",
+      "topic": "homelessness",
+      "status": "in_progress",
+      "progress": null,
+      "evidenceSourceIds": [
+        "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
+      ],
+      "aiConfidence": 0.9,
+      "statusNote": "Fund launched May 22, 2026 with $37.5M in private seed funding from Charles and Helen Schwab Foundation ($10M), Crankstart ($10M), and Tipping Point Community ($11M)",
+      "reviewStatus": "pending_review",
+      "linkedMetricIds": []
+    },
+    {
+      "id": "promise-streamline-permits",
+      "text": "Make permitting faster, more transparent through digital portal and red tape reduction",
+      "dateMade": "2026-04-28",
       "deadline": "unknown",
       "topic": "city_government",
       "status": "in_progress",
@@ -1241,7 +1214,7 @@
         "mayor-lurie-signs-legislation-to-make-it-easier-to-throw-block-parties-and-neigh"
       ],
       "aiConfidence": 0.89,
-      "statusNote": "Legislation signed May 20, 2026 eliminating public hearing requirement for events closing 3 or fewer blocks; benefits up to 90% of applicants",
+      "statusNote": "PermitSF portal launched cutting Fire Dept wait times in half; 15% reduction in Permit Center trips; 20 ordinances passed; block party legislation signed May 20, 2026",
       "reviewStatus": "pending_review",
       "linkedMetricIds": []
     }
@@ -1266,15 +1239,6 @@
       "evidencePlan": "SF Travel forecast cited; verify final 2026 visitor spending data when published and compare to 2019 baseline"
     },
     {
-      "id": "claim-super-bowl-economic-impact",
-      "claim": "Super Bowl week generated hundreds of millions of dollars in economic impact",
-      "sourceId": "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h",
-      "topic": "economy",
-      "verdict": "unverified",
-      "confidence": 0.74,
-      "evidencePlan": "Obtain official economic impact study with methodology; compare hotel occupancy, visitor spending, and tax revenue data pre/post-event"
-    },
-    {
       "id": "claim-convention-bookings-up-69-percent",
       "claim": "Hotel occupancy from Moscone Center conferences up 69% since 2024",
       "sourceId": "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h",
@@ -1282,15 +1246,6 @@
       "verdict": "partially_verified",
       "confidence": 0.82,
       "evidencePlan": "SF Travel data cited; verify through independent hotel occupancy data and Moscone Center booking records"
-    },
-    {
-      "id": "claim-childcare-expansion-hundreds",
-      "claim": "Major expansion will create hundreds of new childcare spots for infants and toddlers",
-      "sourceId": "mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundre",
-      "topic": "city_government",
-      "verdict": "unverified",
-      "confidence": 0.68,
-      "evidencePlan": "Obtain enrollment capacity data from city childcare providers, track new spots created, and verify income-eligibility criteria"
     },
     {
       "id": "claim-affordable-housing-fund-doubling",
@@ -1311,15 +1266,6 @@
       "evidencePlan": "Verify through city HR records and departmental budget documents; track final count after Board approval"
     },
     {
-      "id": "claim-police-firefighter-contracts-100m",
-      "claim": "New police and firefighter contracts cost $100 million extra over two years",
-      "sourceId": "s-f-activists-deliver-1-500-postcards-to-mayor-lurie-asking-him-to-stop-budget-c",
-      "topic": "public_safety",
-      "verdict": "unverified",
-      "confidence": 0.77,
-      "evidencePlan": "Obtain MOU cost analysis from controller's office; verify incremental cost vs. existing baseline compensation"
-    },
-    {
       "id": "claim-inclusionary-rate-reduction",
       "claim": "Affordable housing proposal would reduce inclusionary rate from 15% to 5% for at least three years",
       "sourceId": "sf-mayor-supervisors-announce-proposal-to-double-funding-for-affordable-housing-",
@@ -1338,22 +1284,49 @@
       "evidencePlan": "CA Public Employment Relations Board decision confirmed; verify contract expiration dates and strike authorization procedures"
     },
     {
-      "id": "claim-block-party-90-percent-benefit",
-      "claim": "Streamlined permitting will benefit up to 90% of block party and neighborhood event applicants",
-      "sourceId": "mayor-lurie-signs-legislation-to-make-it-easier-to-throw-block-parties-and-neigh",
-      "topic": "city_government",
+      "id": "claim-crime-down-30-percent",
+      "claim": "Overall crime is down nearly 30% under Mayor Lurie's leadership",
+      "sourceId": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
+      "topic": "public_safety",
       "verdict": "unverified",
       "confidence": 0.75,
-      "evidencePlan": "Verify against historical permit application data; track actual permit processing times and applicant impact post-implementation"
+      "evidencePlan": "Verify against SFPD crime statistics, baseline period, and methodology; compare to pre-Lurie administration trends"
     },
     {
-      "id": "claim-3-75-billion-housing-trust-fund",
-      "claim": "Housing Trust Fund would generate at least $3.75 billion over 30 years",
-      "sourceId": "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
-      "topic": "housing",
+      "id": "claim-car-break-ins-22-year-low",
+      "claim": "Car break-ins are at a 22-year low",
+      "sourceId": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
+      "topic": "public_safety",
       "verdict": "unverified",
-      "confidence": 0.79,
-      "evidencePlan": "Verify property tax growth assumptions, inflation adjustments, and controller's office revenue projections"
+      "confidence": 0.78,
+      "evidencePlan": "Verify against SFPD larceny theft data 2004-2026; confirm historical low and compare to previous administration"
+    },
+    {
+      "id": "claim-encampments-lowest-since-2019",
+      "claim": "Street encampments are at their lowest since 2019",
+      "sourceId": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
+      "topic": "homelessness",
+      "verdict": "unverified",
+      "confidence": 0.73,
+      "evidencePlan": "Verify against HSH encampment tracking data and 311 reports; compare to 2019 baseline methodology"
+    },
+    {
+      "id": "claim-breaking-cycle-37-5m",
+      "claim": "Breaking the Cycle Fund launched with $37.5M in private seed funding",
+      "sourceId": "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s",
+      "topic": "homelessness",
+      "verdict": "verified",
+      "confidence": 0.92,
+      "evidencePlan": "Official announcement with named donors and amounts; verify disbursement and accountability mechanisms"
+    },
+    {
+      "id": "claim-net-403-shelter-beds",
+      "claim": "Net increase of only 403 shelter beds since taking office, far below 1,500 goal",
+      "sourceId": "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-",
+      "topic": "homelessness",
+      "verdict": "partially_verified",
+      "confidence": 0.82,
+      "evidencePlan": "Mission Local analysis cited; verify against HSH shelter capacity reports and opening/closing records"
     }
   ],
   "metrics": [
@@ -1374,7 +1347,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-21T22:52:28.144Z"
+      "lastRefreshed": "2026-05-22T11:28:08.839Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1393,7 +1366,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-05-21T22:52:28.144Z"
+      "lastRefreshed": "2026-05-22T11:28:08.839Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -1403,13 +1376,74 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": null,
-      "latest": null,
+      "baseline": 292,
+      "latest": 216,
       "direction": "down_is_good",
-      "observations": [],
-      "status": "needs_verified_source",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 292
+        },
+        {
+          "date": "2025-02-01",
+          "value": 274
+        },
+        {
+          "date": "2025-03-01",
+          "value": 342
+        },
+        {
+          "date": "2025-04-01",
+          "value": 275
+        },
+        {
+          "date": "2025-05-01",
+          "value": 273
+        },
+        {
+          "date": "2025-06-01",
+          "value": 301
+        },
+        {
+          "date": "2025-07-01",
+          "value": 239
+        },
+        {
+          "date": "2025-08-01",
+          "value": 294
+        },
+        {
+          "date": "2025-09-01",
+          "value": 219
+        },
+        {
+          "date": "2025-10-01",
+          "value": 235
+        },
+        {
+          "date": "2025-11-01",
+          "value": 300
+        },
+        {
+          "date": "2025-12-01",
+          "value": 148
+        },
+        {
+          "date": "2026-01-01",
+          "value": 221
+        },
+        {
+          "date": "2026-02-01",
+          "value": 220
+        },
+        {
+          "date": "2026-03-01",
+          "value": 216
+        }
+      ],
+      "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-21T22:52:28.144Z",
+      "lastRefreshed": "2026-05-22T11:28:08.839Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -1425,30 +1459,13 @@
       "evidenceSourceIds": [
         "datasf-substance-use-services"
       ],
-      "status": "active",
-      "baseline": 55904,
-      "latest": 41664,
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 55904
-        },
-        {
-          "date": "2025-04-01",
-          "value": 46460
-        },
-        {
-          "date": "2025-07-01",
-          "value": 51108
-        },
-        {
-          "date": "2025-10-01",
-          "value": 41664
-        }
-      ],
+      "status": "needs_verified_source",
+      "baseline": null,
+      "latest": null,
+      "observations": [],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-05-21T22:52:28.144Z"
+      "lastRefreshed": "2026-05-22T11:28:08.839Z"
     },
     {
       "id": "housing-permits-issued",
@@ -1536,7 +1553,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-05-21T22:52:28.144Z"
+      "lastRefreshed": "2026-05-22T11:28:08.839Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -1624,7 +1641,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-05-21T22:52:28.144Z"
+      "lastRefreshed": "2026-05-22T11:28:08.839Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -1643,7 +1660,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-05-21T22:52:28.144Z"
+      "lastRefreshed": "2026-05-22T11:28:08.839Z"
     }
   ],
   "topics": [
@@ -1666,7 +1683,7 @@
     {
       "id": "economy",
       "label": "Downtown Economy",
-      "promiseCount": 3,
+      "promiseCount": 1,
       "averageProgress": null,
       "risk": "review",
       "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
@@ -1674,7 +1691,7 @@
     {
       "id": "homelessness",
       "label": "Homelessness",
-      "promiseCount": 1,
+      "promiseCount": 3,
       "averageProgress": null,
       "risk": "review",
       "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
@@ -1690,7 +1707,7 @@
     {
       "id": "public_safety",
       "label": "Public Safety",
-      "promiseCount": 3,
+      "promiseCount": 1,
       "averageProgress": null,
       "risk": "medium",
       "insight": "1 Public SF metric connected; status still requires human review before causal claims."
@@ -1803,17 +1820,6 @@
       ]
     },
     {
-      "id": "timeline-terry-francois-ribbon-cutting",
-      "date": "2026-05-07",
-      "type": "milestone",
-      "title": "Terry Francois Blvd bike and pedestrian safety project completed",
-      "topic": "public_safety",
-      "impact": "moderate",
-      "sourceIds": [
-        "mayor-lurie-cuts-ribbon-on-terry-francois-boulevard-bike-and-pedestrian-safety-i"
-      ]
-    },
-    {
       "id": "timeline-firefighter-mou",
       "date": "2026-05-08",
       "type": "policy",
@@ -1825,17 +1831,6 @@
       ]
     },
     {
-      "id": "timeline-budget-cuts-127-positions",
-      "date": "2026-05-12",
-      "type": "policy",
-      "title": "127 city positions cut as part of $643M deficit plan",
-      "topic": "city_government",
-      "impact": "major",
-      "sourceIds": [
-        "we-can-shut-down-the-city-lurie-s-budget-cuts-spark-a-showdown-with-labor-2026-0"
-      ]
-    },
-    {
       "id": "timeline-homelessness-announcement",
       "date": "2026-05-12",
       "type": "announcement",
@@ -1844,17 +1839,6 @@
       "impact": "major",
       "sourceIds": [
         "mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-home"
-      ]
-    },
-    {
-      "id": "timeline-arts-grants-fy27-28",
-      "date": "2026-05-13",
-      "type": "initiative",
-      "title": "FY 2027-28 arts grants RFP launched with new funding programs",
-      "topic": "economy",
-      "impact": "moderate",
-      "sourceIds": [
-        "mayor-lurie-continues-support-for-arts-organizations-with-new-grant-opportunitie"
       ]
     },
     {
@@ -1923,6 +1907,28 @@
       "impact": "major",
       "sourceIds": [
         "lurie-to-propose-cutting-cash-grants-for-free-city-college-students-by-a-third-2"
+      ]
+    },
+    {
+      "id": "timeline-budget-presentation",
+      "date": "2026-05-22",
+      "type": "policy",
+      "title": "Mayor presents $15.9B budget closing $800M deficit",
+      "topic": "city_government",
+      "impact": "major",
+      "sourceIds": [
+        "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco"
+      ]
+    },
+    {
+      "id": "timeline-breaking-cycle-fund-launch",
+      "date": "2026-05-22",
+      "type": "initiative",
+      "title": "Breaking the Cycle Fund launched with $37.5M private seed funding",
+      "topic": "homelessness",
+      "impact": "major",
+      "sourceIds": [
+        "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ]
     }
   ]
