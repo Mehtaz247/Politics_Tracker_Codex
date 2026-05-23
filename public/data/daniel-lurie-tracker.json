@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-23T15:53:02.943Z",
+    "lastUpdated": "2026-05-23T19:41:23.882Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -495,6 +495,21 @@
       "topic": "transit",
       "summary": "Mayor Lurie Announces Plan To Tackle Fare Evasion On Public Transit, Make Muni More Accountable SF.gov",
       "confidence": 0.78
+    },
+    {
+      "id": "mayor-lurie-celebrates-80-decline-in-speeding-after-one-year-of-san-francisco-s-",
+      "title": "Mayor Lurie Celebrates 80% Decline In Speeding After One Year Of San Francisco's First-In-State Traffic Safety Program",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/departments--office-mayor",
+      "discoveryUrl": "https://www.sf.gov/departments--office-mayor",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2026-04-29",
+      "topic": "public_safety",
+      "summary": "Recent announcement from the mayor's office highlighted an 80% decline in speeding after one year of San Francisco's first-in-state traffic safety program. The mayor also announced expansion of free and low-cost childcare with hundreds of new spots for families with infants and toddlers in April 2026.",
+      "confidence": 0.88,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "page returned bot verification challenge"
     },
     {
       "id": "mayor-lurie-celebrates-groundbreaking-of-improved-twin-peaks-promenade-https-www",
@@ -1050,16 +1065,6 @@
       "topic": "city_government",
       "summary": "Mayor Lurie Launches Strong Starts, Another Major Step to Support San Francisco Kids and Families &nbsp;&nbsp; SF.gov",
       "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-signs-legislation-to-advance-the-reset-center-and-combat-public-drug",
-      "title": "Mayor Lurie Signs Legislation to Advance the RESET Center and Combat Public Drug Use on San Francisco Streets - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNeVBwYVoyNFhsQXBVX2tqMU5LbW1rNVFvSVd0UFFfakRqNW0ybUNNdHRPSG12bTN0bXpTTjBia0hOMlpValpZSjg1VmVIZWI4SWFFNWRNZVhGeU1TS2hUMW13bE9Oc0w4MkE4V0Z5SmZ1MW15U2dtWTNYb0ZlUHVlTVpjS2dZamlVRDE5UTlsRms1ZmliRlBLTWlrTE5xNEVtZk9BZHlQcVVXalpIZ21pS0lfUi1Ia3JnRXlXVzgtdzQzeW5PdTMxbmh2bDZIQQ?oc=5",
-      "publishedAt": "2026-02-18",
-      "topic": "city_government",
-      "summary": "Mayor Lurie Signs Legislation to Advance the RESET Center and Combat Public Drug Use on San Francisco Streets &nbsp;&nbsp; SF.gov",
-      "confidence": 0.68
     }
   ],
   "promises": [
@@ -1342,7 +1347,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-23T15:53:02.943Z"
+      "lastRefreshed": "2026-05-23T19:41:23.882Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1361,7 +1366,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-05-23T15:53:02.943Z"
+      "lastRefreshed": "2026-05-23T19:41:23.882Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -1438,7 +1443,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-23T15:53:02.943Z",
+      "lastRefreshed": "2026-05-23T19:41:23.882Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -1477,7 +1482,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-05-23T15:53:02.943Z"
+      "lastRefreshed": "2026-05-23T19:41:23.882Z"
     },
     {
       "id": "housing-permits-issued",
@@ -1565,7 +1570,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-05-23T15:53:02.943Z"
+      "lastRefreshed": "2026-05-23T19:41:23.882Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -1653,7 +1658,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-05-23T15:53:02.943Z"
+      "lastRefreshed": "2026-05-23T19:41:23.882Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -1672,7 +1677,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-05-23T15:53:02.943Z"
+      "lastRefreshed": "2026-05-23T19:41:23.882Z"
     }
   ],
   "topics": [
