@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-23T19:41:23.882Z",
+    "lastUpdated": "2026-05-24T04:43:11.329Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -179,16 +179,18 @@
     },
     {
       "id": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
-      "title": "Mayor Lurie Presents Balanced, Responsible Budget to Advance San Francisco's Recovery",
+      "title": "Mayor Lurie Presents Balanced, Responsible Budget to Advance San Francisco&#x27;s Recovery | SF.gov",
       "sourceType": "official",
       "url": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
       "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
       "discoverySource": "Anthropic web search",
       "publisher": "SF.gov",
       "publishedAt": "2025-05-30",
-      "topic": "city_government",
-      "summary": "Mayor Lurie presented his $15.9 billion proposed budget for FY 2025-2026 and 2026-2027, closing an $800 million deficit while prioritizing core services and investing in safe, clean streets. The budget includes structural changes to position the city for long-term growth amid uncertainty at state and federal levels.",
-      "confidence": 0.9
+      "topic": "homelessness",
+      "summary": "Proposed Budget Prioritizes Core Services With Investments in Public Safety, Clean Streets, Behavioral Health Crisis Response, Economic Revitalization; Closes $800 Million Deficit With Structural Changes to Position City for Long-Term Growth",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Presents Balanced, Responsible Budget to Advance San Francisco&#x27;s Recovery Office of the Mayor Proposed Budget Prioritizes Core Services With Investments in Public Safety, Clean Streets, Behavioral Health Crisis Response, Economic Revitalization; Closes $800 Million Deficit With Structural Changes to Position City for Long-Term Growth May 30, 2025 SAN FRANCISCO – Mayor Daniel Lurie today presented his $15.9 billion proposed budget for Fiscal Years (FY) 2025-2026 and 2026-2027, advancing San Francisco’s recovery by prioritizing core services and investing in safe, clean streets, while closing an historic $800 million deficit. With major structural changes and dedicated funding set aside given uncertainty at the state and federal levels, the proposed budget boldly and responsibly realigns the city’s spending in line with revenue and sets up the city for long-term growth. Mayor Lurie’s first budget builds on the work his administration has done since taking office on January 8 to make the city safer, cleaner, and more prosperous. Under his leadership, overall crime is down nearly 30%, car break-ins are at a 22-year low , and street encampments are at their lowest number since 2019 . Mayor Lurie established the San Francisco Police Department (SFPD) Hospitality Zone Task Force to improve public safety downtown 365 days a year, following that with his Rebuilding the Ranks plan to fully staff the SFPD and Sheriff’s Office. After working with the Board of Supervisors to overwhelmingly pass his Fentanyl State of Emergency Ordinance and unlock resources to tackle the homelessness and behavioral health crisis with urgency, Mayor Lurie unveiled his Breaking the Cycle plan to transform the city’s response to that crisis. Delivering on that plan, he introduce...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-",
@@ -207,18 +209,18 @@
     },
     {
       "id": "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s",
-      "title": "Mayor Lurie Launches Breaking The Cycle Fund To Deliver Transformation Of City's Behavioral Health and Homelessness Response",
+      "title": "Mayor Lurie Launches Breaking The Cycle Fund To Deliver Transformation Of City&#x27;s Behavioral Health and Homelessness Response | SF.gov",
       "sourceType": "official",
       "url": "https://www.sf.gov/news-mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-citys-behavioral-health-and-homelessness-response",
       "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-citys-behavioral-health-and-homelessness-response",
       "discoverySource": "Anthropic web search",
       "publisher": "SF.gov",
-      "publishedAt": "2026-05-22",
+      "publishedAt": "2025-05-08",
       "topic": "homelessness",
-      "summary": "Mayor Lurie launched the Breaking the Cycle Fund with $37.5 million in private seed funding to rapidly increase interim and treatment bed capacity. Major donors include the Charles and Helen Schwab Foundation ($10 million), Crankstart ($10 million), and Tipping Point Community ($11 million). The fund will support reforming the behavioral health and homelessness response system.",
+      "summary": "As City Faces Historic Budget Deficit, Fund Launches With $37.5 Million in Initial Private Funding Commitments. Mayor Lurie’s Fentanyl State of Emergency Ordinance—Passed 10-1 by Board of Supervisors—Unlocked Path to Leveraging Private Funds to Tackle Behavioral Health and Homelessness Crisis",
       "confidence": 0.9,
-      "scrapeStatus": "fetch_failed",
-      "scrapeError": "page returned bot verification challenge"
+      "excerpt": "NEWS Mayor Lurie Launches Breaking The Cycle Fund To Deliver Transformation Of City&#x27;s Behavioral Health and Homelessness Response As City Faces Historic Budget Deficit, Fund Launches With $37.5 Million in Initial Private Funding Commitments. Mayor Lurie’s Fentanyl State of Emergency Ordinance—Passed 10-1 by Board of Supervisors—Unlocked Path to Leveraging Private Funds to Tackle Behavioral Health and Homelessness Crisis May 8, 2025 SAN FRANCISCO – Mayor Daniel Lurie today launched the Breaking the Cycle Fund, a groundbreaking public-private initiative that will provide critical resources to realize Mayor Lurie’s vision for transforming the city’s behavioral health and homelessness response. As the city faces an historic budget deficit upwards of $800 million, the fund is launching with $37.5 million in private seed funding commitments to carry out Mayor Lurie’s “ Breaking the Cycle ” plan to get people off the streets and on the path to stability, keep public spaces safe and clean, and responsibly manage taxpayer dollars. The creation of the fund was enabled by Mayor Lurie’s Fentanyl State of Emergency Ordinance , passed 10-1 by the Board of Supervisors in February. It also marks another major step forward under the mayor’s Breaking the Cycle plan, following the launch of an integrated neighborhood-based model for the city’s street outreach teams in March and major changes in April, including the opening of a 24/7 police-friendly stabilization center, a significant expansion of recovery and treatment beds to help people across the city access support, and the introduction of new policies to connect people to treatment . “The only way to address the homelessness and behavioral health crisis is with an all-hands-on-deck response, and that’s exactly what the Breaki...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "mayor-lurie-signs-legislation-to-make-it-easier-to-throw-block-parties-and-neigh",
@@ -497,21 +499,6 @@
       "confidence": 0.78
     },
     {
-      "id": "mayor-lurie-celebrates-80-decline-in-speeding-after-one-year-of-san-francisco-s-",
-      "title": "Mayor Lurie Celebrates 80% Decline In Speeding After One Year Of San Francisco's First-In-State Traffic Safety Program",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/departments--office-mayor",
-      "discoveryUrl": "https://www.sf.gov/departments--office-mayor",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF.gov",
-      "publishedAt": "2026-04-29",
-      "topic": "public_safety",
-      "summary": "Recent announcement from the mayor's office highlighted an 80% decline in speeding after one year of San Francisco's first-in-state traffic safety program. The mayor also announced expansion of free and low-cost childcare with hundreds of new spots for families with infants and toddlers in April 2026.",
-      "confidence": 0.88,
-      "scrapeStatus": "fetch_failed",
-      "scrapeError": "page returned bot verification challenge"
-    },
-    {
       "id": "mayor-lurie-celebrates-groundbreaking-of-improved-twin-peaks-promenade-https-www",
       "title": "Mayor Lurie Celebrates Groundbreaking Of Improved Twin Peaks Promenade | SF.gov",
       "sourceType": "official",
@@ -534,6 +521,21 @@
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Celebrates 80% Decline In Speeding After One Year Of San Francisco&#x27;s First-In-State Traffic Safety Program Office of the Mayor One Year After Launching Automated Speed Camera Pilot, New Data Shows Significant Reduction in Dangerous Speeding at Dozens of Locations; Delivers on Key Commitment in Mayor Lurie’s Street Safety Initiative, Keeping Streets Safer for All San Franciscans April 29, 2026 SAN FRANCISCO – Mayor Daniel Lurie today marked one year of San Francisco’s first-in-the-state automated speed camera enforcement program , which has spurred an 80% decline in speeding at 33 locations across the city where cameras are currently installed. New data from the San Francisco Municipal Transportation Authority (SFMTA) shows that after one year, the program has helped significantly change driver behavior, reducing dangerous incidents of speeding and making San Franciscans safer. The new data marks a significant milestone for Mayor Lurie’s Street Safety Initiative , a citywide effort launched last year make city streets safer for pedestrians, drivers, cyclists, transit riders, children, and seniors. In the initiative’s first 100 days, the city took significant steps on street safety, including publishing the new High Injury Network map and convening leaders from across agencies to coordinate citywide safety priorities. Public safety has been Mayor Lurie’s top priority, and crime dropped 25% citywide in 2025. “Public safety has always been my number one priority, and it’s clear after one year that this program is making San Franciscans safer,” said Mayor Lurie . “We are leading the way for the entire state, with proven strategies and data to hold us accountable. And the results are clear: Drivers are changing their behavior to drive more safely, kee...",
       "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-celebrates-80-decline-in-speeding-after-one-year-of-san-francisco-s-",
+      "title": "Mayor Lurie Celebrates 80% Decline In Speeding After One Year Of San Francisco's First-In-State Traffic Safety Program",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/departments--office-mayor",
+      "discoveryUrl": "https://www.sf.gov/departments--office-mayor",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2026-04-29",
+      "topic": "public_safety",
+      "summary": "Recent announcement from the mayor's office highlighted an 80% decline in speeding after one year of San Francisco's first-in-state traffic safety program. The mayor also announced expansion of free and low-cost childcare with hundreds of new spots for families with infants and toddlers in April 2026.",
+      "confidence": 0.88,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "page returned bot verification challenge"
     },
     {
       "id": "mayor-lurie-appoints-steven-betz-as-chief-of-public-safety-https-www-sf-gov-news",
@@ -947,7 +949,7 @@
       "publisher": "Mission Local",
       "publishedAt": "2026-03-06",
       "topic": "city_government",
-      "summary": "Mayor Lurie and Board President Mandelman proposed three November 2026 ballot measures to reform San Francisco's charter, expanding mayoral and city administrator powers while taking power from oversight commissions and the Board of Supervisors. Critics warn the changes could consolidate power and reduce public participation.",
+      "summary": "Mayor Lurie and Board President Mandelman proposed three November 2026 ballot measures to reform San Francisco's charter, expanding executive branch power including mayoral authority over department heads and city administrator control of technology and capital projects. The measures would shift power from commissions and the Board of Supervisors.",
       "confidence": 0.9
     },
     {
@@ -1173,7 +1175,7 @@
     {
       "id": "promise-protect-core-services-budget",
       "text": "Navigate $643M budget deficit while protecting core services including public safety",
-      "dateMade": "2026-05-12",
+      "dateMade": "2025-05-30",
       "deadline": "2026-06-30",
       "topic": "city_government",
       "status": "in_progress",
@@ -1206,8 +1208,8 @@
     },
     {
       "id": "promise-breaking-cycle-fund",
-      "text": "Launch Breaking the Cycle Fund to transform behavioral health and homelessness response",
-      "dateMade": "2026-05-22",
+      "text": "Launch Breaking the Cycle Fund with private funding to transform behavioral health and homelessness response",
+      "dateMade": "2025-05-08",
       "deadline": "unknown",
       "topic": "homelessness",
       "status": "in_progress",
@@ -1216,14 +1218,14 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.9,
-      "statusNote": "Fund launched May 22, 2026 with $37.5M in private seed funding from Charles and Helen Schwab Foundation ($10M), Crankstart ($10M), and Tipping Point Community ($11M)",
+      "statusNote": "Fund launched May 8, 2025 with $37.5M in private seed funding from Charles and Helen Schwab Foundation ($10M), Crankstart ($10M), and Tipping Point Community ($11M)",
       "reviewStatus": "pending_review",
       "linkedMetricIds": []
     },
     {
       "id": "promise-streamline-permits",
       "text": "Make permitting faster and more transparent through digital portal and red tape reduction",
-      "dateMade": "2026-04-28",
+      "dateMade": "2025-04-28",
       "deadline": "unknown",
       "topic": "city_government",
       "status": "in_progress",
@@ -1347,7 +1349,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-23T19:41:23.882Z"
+      "lastRefreshed": "2026-05-24T04:43:11.329Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1366,7 +1368,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-05-23T19:41:23.882Z"
+      "lastRefreshed": "2026-05-24T04:43:11.329Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -1376,74 +1378,13 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": 292,
-      "latest": 216,
+      "baseline": null,
+      "latest": null,
       "direction": "down_is_good",
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 292
-        },
-        {
-          "date": "2025-02-01",
-          "value": 274
-        },
-        {
-          "date": "2025-03-01",
-          "value": 342
-        },
-        {
-          "date": "2025-04-01",
-          "value": 275
-        },
-        {
-          "date": "2025-05-01",
-          "value": 273
-        },
-        {
-          "date": "2025-06-01",
-          "value": 301
-        },
-        {
-          "date": "2025-07-01",
-          "value": 239
-        },
-        {
-          "date": "2025-08-01",
-          "value": 294
-        },
-        {
-          "date": "2025-09-01",
-          "value": 219
-        },
-        {
-          "date": "2025-10-01",
-          "value": 235
-        },
-        {
-          "date": "2025-11-01",
-          "value": 300
-        },
-        {
-          "date": "2025-12-01",
-          "value": 148
-        },
-        {
-          "date": "2026-01-01",
-          "value": 221
-        },
-        {
-          "date": "2026-02-01",
-          "value": 220
-        },
-        {
-          "date": "2026-03-01",
-          "value": 216
-        }
-      ],
-      "status": "active",
+      "observations": [],
+      "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-23T19:41:23.882Z",
+      "lastRefreshed": "2026-05-24T04:43:11.329Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -1482,7 +1423,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-05-23T19:41:23.882Z"
+      "lastRefreshed": "2026-05-24T04:43:11.329Z"
     },
     {
       "id": "housing-permits-issued",
@@ -1570,7 +1511,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-05-23T19:41:23.882Z"
+      "lastRefreshed": "2026-05-24T04:43:11.329Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -1658,7 +1599,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-05-23T19:41:23.882Z"
+      "lastRefreshed": "2026-05-24T04:43:11.329Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -1677,7 +1618,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-05-23T19:41:23.882Z"
+      "lastRefreshed": "2026-05-24T04:43:11.329Z"
     }
   ],
   "topics": [
@@ -1727,7 +1668,7 @@
       "promiseCount": 1,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -1782,6 +1723,17 @@
   ],
   "timeline": [
     {
+      "id": "timeline-inauguration",
+      "date": "2025-01-08",
+      "type": "milestone",
+      "title": "Daniel Lurie inaugurated as Mayor of San Francisco",
+      "topic": "city_government",
+      "impact": "major",
+      "sourceIds": [
+        "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco"
+      ]
+    },
+    {
       "id": "timeline-fentanyl-emergency-powers",
       "date": "2025-02-04",
       "type": "policy",
@@ -1790,6 +1742,28 @@
       "impact": "major",
       "sourceIds": [
         "fentanyl-powers"
+      ]
+    },
+    {
+      "id": "timeline-breaking-cycle-fund-launch",
+      "date": "2025-05-08",
+      "type": "initiative",
+      "title": "Breaking the Cycle Fund launched with $37.5M private seed funding",
+      "topic": "homelessness",
+      "impact": "major",
+      "sourceIds": [
+        "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
+      ]
+    },
+    {
+      "id": "timeline-budget-presented",
+      "date": "2025-05-30",
+      "type": "policy",
+      "title": "$15.9B budget presented closing $800M deficit",
+      "topic": "city_government",
+      "impact": "major",
+      "sourceIds": [
+        "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco"
       ]
     },
     {
@@ -1924,28 +1898,6 @@
       "impact": "major",
       "sourceIds": [
         "lurie-to-propose-cutting-cash-grants-for-free-city-college-students-by-a-third-2"
-      ]
-    },
-    {
-      "id": "timeline-supervisor-election-spending",
-      "date": "2026-05-22",
-      "type": "political",
-      "title": "Over $4M pours into supervisor races, much from PACs aligned with Mayor",
-      "topic": "city_government",
-      "impact": "moderate",
-      "sourceIds": [
-        "over-4-million-pours-into-san-francisco-supervisor-election-much-of-it-from-outs"
-      ]
-    },
-    {
-      "id": "timeline-breaking-cycle-fund-launch",
-      "date": "2026-05-22",
-      "type": "initiative",
-      "title": "Breaking the Cycle Fund launched with $37.5M private seed funding",
-      "topic": "homelessness",
-      "impact": "major",
-      "sourceIds": [
-        "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ]
     }
   ]
