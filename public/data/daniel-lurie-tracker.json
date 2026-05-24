@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-24T08:47:28.558Z",
+    "lastUpdated": "2026-05-24T14:05:04.625Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -438,6 +438,21 @@
       "confidence": 0.68
     },
     {
+      "id": "sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears-2026-05-01",
+      "title": "SF Mayor Daniel Lurie pushes Muni funding measures as deadline nears",
+      "sourceType": "news",
+      "url": "https://www.nbcbayarea.com/news/local/sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears/4080452/",
+      "discoveryUrl": "https://www.nbcbayarea.com/news/local/sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears/4080452/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "NBC Bay Area",
+      "publishedAt": "2026-05-06",
+      "topic": "transit",
+      "summary": "San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot.",
+      "confidence": 0.9,
+      "excerpt": "San Francisco SF Mayor Daniel Lurie pushes Muni funding measures as deadline nears By Ginger Conejero Saab &bull; Published May 6, 2026 &bull; Updated on May 6, 2026 at 11:58 am BOOKMARKER NBC Universal, Inc. San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot. San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot. Lurie was near the Market and Castro Muni stop, encouraging people to support the “Stronger Muni for All” measure and a regional proposal known as “Connect Bay Area.” Watch NBC Bay Area News free wherever you are WATCH HERE Both measures aim to provide long-term funding for transit. The local measure would fund Muni, while the regional measure would support agencies like BART and Caltrain. The mayor said Muni does not receive state funding and is relying on a proposed parcel tax. That would cost renters about $65 a year and most homeowners about $129 annually. “It is a price, so I’m not discounting that, but it is something we have to pay,” Lurie said. Meanwhile, the city is increasing enforcement on Muni, adding about 30% more fare inspectors. The agency recently reported its highest ridership since the start of the pandemic. Regionally, leaders are also backing a sales tax measure that could generate about $980 million a year to help avoid major service cuts. That regional measure needs about 186,000 valid signatures to qualify for the November ballot. San Francisco May 5 SFMTA beefs up efforts to crackdown on Muni fare evaders San Francisco Apr 28 Getting back on track: Muni records highest ridership since pandemic low This article tagged under: San Francisco on now 1:30PM: NBC Bay Area News Mi...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "mayor-lurie-celebrates-completion-of-high-speed-fiber-network-at-all-san-francis",
       "title": "Mayor Lurie Celebrates Completion Of High-Speed Fiber Network At All San Francisco Fire Stations | SF.gov",
       "sourceType": "official",
@@ -459,21 +474,6 @@
       "summary": "Low Brings Extensive Governance Experience, Leadership Across San Francisco Civic and Cultural Organizations; Nomination Builds on Efforts to Drive Down Crime, Improve Public Safety, Accountability Across San Francisco",
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Nominates Larry Low To Police Commission Office of the Mayor Low Brings Extensive Governance Experience, Leadership Across San Francisco Civic and Cultural Organizations; Nomination Builds on Efforts to Drive Down Crime, Improve Public Safety, Accountability Across San Francisco May 6, 2026 SAN FRANCISCO – Mayor Daniel Lurie today nominated Larry Low to serve on the San Francisco Police Commission. Low brings more than four decades of experience in law, business, and nonprofit leadership in San Francisco, with expertise in operations and governance. A lifelong San Franciscan, he has played important roles in a variety of civic, cultural, and education organizations, and will leverage his experiences to strengthen public safety and accountability across the city. Public safety has been Mayor Lurie’s top priority, with crime down significantly and progress continuing with last week’s appointment of Steven Betz as chief of public safety. In 2025, car break-ins fell 43% to 22-year lows, and homicides reached their lowest level since 1954 . Mayor Lurie’s Rebuilding the Ranks plan is driving towards full police and sheriff staffing, with SFPD seeing its first staffing increase in years and graduating its largest recruit class since 2017 last month. Staffing improvements in the city’s 911 emergency response system have driven faster response times , and the administration is making San Francisco streets safer through Mayor Lurie’s Street Safety executive directive and first-in-the-state automated speed camer a enforcement program. “We’re making real progress on public safety in San Francisco, and Larry Low’s decades of leadership across law, business, and the nonprofit sector will help us keep that momentum going,” said Mayor Lurie . “I’m confident he will...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears-2026-05-01",
-      "title": "SF Mayor Daniel Lurie pushes Muni funding measures as deadline nears",
-      "sourceType": "news",
-      "url": "https://www.nbcbayarea.com/news/local/sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears/4080452/",
-      "discoveryUrl": "https://www.nbcbayarea.com/news/local/sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears/4080452/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "NBC Bay Area",
-      "publishedAt": "2026-05-06",
-      "topic": "transit",
-      "summary": "San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot.",
-      "confidence": 0.9,
-      "excerpt": "San Francisco SF Mayor Daniel Lurie pushes Muni funding measures as deadline nears By Ginger Conejero Saab &bull; Published May 6, 2026 &bull; Updated on May 6, 2026 at 11:58 am BOOKMARKER NBC Universal, Inc. San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot. San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot. Lurie was near the Market and Castro Muni stop, encouraging people to support the “Stronger Muni for All” measure and a regional proposal known as “Connect Bay Area.” Watch NBC Bay Area News free wherever you are WATCH HERE Both measures aim to provide long-term funding for transit. The local measure would fund Muni, while the regional measure would support agencies like BART and Caltrain. The mayor said Muni does not receive state funding and is relying on a proposed parcel tax. That would cost renters about $65 a year and most homeowners about $129 annually. “It is a price, so I’m not discounting that, but it is something we have to pay,” Lurie said. Meanwhile, the city is increasing enforcement on Muni, adding about 30% more fare inspectors. The agency recently reported its highest ridership since the start of the pandemic. Regionally, leaders are also backing a sales tax measure that could generate about $980 million a year to help avoid major service cuts. That regional measure needs about 186,000 valid signatures to qualify for the November ballot. San Francisco May 5 SFMTA beefs up efforts to crackdown on Muni fare evaders San Francisco Apr 28 Getting back on track: Muni records highest ridership since pandemic low This article tagged under: San Francisco on now 1:30PM: NBC Bay Area News Mi...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1086,7 +1086,7 @@
         "sf-mayor-supervisors-announce-proposal-to-double-funding-for-affordable-housing-"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Charter Amendment for November 2026 ballot announced; legislation introduced by Sup. Melgar with support from Supervisors Walton, Sauter, Sherrill, Dorsey, Wong; requires 6 supervisor votes to qualify for ballot and voter approval",
+      "statusNote": "Charter amendment for November 2026 ballot introduced by Sup. Melgar with mayoral support; requires 6 supervisor votes to qualify and voter approval",
       "reviewStatus": "pending_review",
       "linkedMetricIds": []
     },
@@ -1103,7 +1103,7 @@
         "sf-mayor-news"
       ],
       "aiConfidence": 0.72,
-      "statusNote": "Administration claims achievement announced May 12, 2026; independent verification of Point-in-Time count methodology and historical comparison needed",
+      "statusNote": "Administration announcement May 12, 2026; independent Point-in-Time count verification required",
       "reviewStatus": "needs_more_evidence",
       "linkedMetricIds": []
     },
@@ -1119,7 +1119,7 @@
         "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h"
       ],
       "aiConfidence": 0.83,
-      "statusNote": "SF Travel forecasts 2026 will surpass pre-pandemic record; convention hotel occupancy up 69% since 2024; final year-end data needed for verification",
+      "statusNote": "SF Travel forecasts 2026 will surpass pre-pandemic record; convention hotel occupancy up 69% since 2024; final year-end data needed",
       "reviewStatus": "pending_review",
       "linkedMetricIds": []
     },
@@ -1135,7 +1135,7 @@
         "mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundre"
       ],
       "aiConfidence": 0.68,
-      "statusNote": "Expansion announced April 30, 2026; specific enrollment capacity increase and implementation timeline not yet verified",
+      "statusNote": "Expansion announced April 30, 2026; specific enrollment capacity and implementation timeline not yet verified",
       "reviewStatus": "needs_more_evidence",
       "linkedMetricIds": []
     },
@@ -1152,7 +1152,7 @@
         "datasf-overdose-related-911-responses"
       ],
       "aiConfidence": 0.76,
-      "statusNote": "Emergency powers granted Feb 4, 2025; overdose-related 911 call data available but causal link to policy requires further review",
+      "statusNote": "Emergency powers granted Feb 4, 2025; overdose-related 911 calls show decline from 292 (Jan 2025) to 216 (Mar 2026) but causal attribution requires further review",
       "reviewStatus": "pending_review",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -1176,7 +1176,7 @@
     },
     {
       "id": "promise-protect-core-services-budget",
-      "text": "Navigate $643M budget deficit while protecting core services including public safety",
+      "text": "Close $800M budget deficit while protecting core services including public safety",
       "dateMade": "2025-05-30",
       "deadline": "2026-06-30",
       "topic": "city_government",
@@ -1188,7 +1188,7 @@
         "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco"
       ],
       "aiConfidence": 0.85,
-      "statusNote": "$15.9B budget presented closing $800M deficit; 127 positions cut; police and firefighter contracts cost $100M extra over two years; significant labor opposition to service reductions",
+      "statusNote": "$15.9B budget presented closing $800M deficit; 127 positions cut; police/firefighter contracts cost $100M extra; significant labor opposition to service cuts",
       "reviewStatus": "pending_review",
       "linkedMetricIds": []
     },
@@ -1204,7 +1204,7 @@
         "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-"
       ],
       "aiConfidence": 0.82,
-      "statusNote": "Administration changed course at 6-month mark; as of April 2026, 863 new beds opened but multiple shelters closed; net increase of only 403 beds (27% of goal); projected to drop to 303 by 2028",
+      "statusNote": "Administration shifted focus at 6-month mark; 863 new beds opened but multiple closures yield net 403 beds (27% of goal); projected 303 net by 2028",
       "reviewStatus": "approved",
       "linkedMetricIds": []
     },
@@ -1220,7 +1220,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.9,
-      "statusNote": "Fund launched May 8, 2025 with $37.5M in private seed funding from Charles and Helen Schwab Foundation ($10M), Crankstart ($10M), and Tipping Point Community ($11M)",
+      "statusNote": "Fund launched May 8, 2025 with $37.5M private seed funding from Schwab Foundation ($10M), Crankstart ($10M), Tipping Point ($11M)",
       "reviewStatus": "pending_review",
       "linkedMetricIds": []
     },
@@ -1236,7 +1236,7 @@
         "mayor-lurie-signs-legislation-to-make-it-easier-to-throw-block-parties-and-neigh"
       ],
       "aiConfidence": 0.89,
-      "statusNote": "PermitSF portal launched cutting Fire Dept wait times in half; 15% reduction in Permit Center trips; 20 ordinances passed; block party legislation signed May 20, 2026",
+      "statusNote": "PermitSF portal launched cutting Fire Dept wait times 50%; Permit Center trips down 15%; 20 ordinances passed; block party streamlining signed May 20, 2026",
       "reviewStatus": "pending_review",
       "linkedMetricIds": []
     }
@@ -1276,7 +1276,7 @@
       "topic": "housing",
       "verdict": "partially_verified",
       "confidence": 0.85,
-      "evidencePlan": "Legislation introduction confirmed; track Board vote, November 2026 ballot measure, and actual allocation amounts when budget is approved"
+      "evidencePlan": "Legislation introduction confirmed; track Board vote, November 2026 ballot measure, and actual allocation amounts when budget approved"
     },
     {
       "id": "claim-127-layoffs",
@@ -1295,15 +1295,6 @@
       "verdict": "partially_verified",
       "confidence": 0.78,
       "evidencePlan": "Verify city committee recommendation, ordinance text, and final Board approval of inclusionary rate changes"
-    },
-    {
-      "id": "claim-labor-strike-threat",
-      "claim": "City workers can legally strike for first time since 1976 and SEIU 1021 states 'we can shut down the whole city'",
-      "sourceId": "we-can-shut-down-the-city-lurie-s-budget-cuts-spark-a-showdown-with-labor-2026-0",
-      "topic": "city_government",
-      "verdict": "partially_verified",
-      "confidence": 0.88,
-      "evidencePlan": "CA Public Employment Relations Board decision confirmed; verify contract expiration dates and strike authorization procedures"
     },
     {
       "id": "claim-breaking-cycle-37-5m",
@@ -1331,6 +1322,15 @@
       "verdict": "partially_verified",
       "confidence": 0.81,
       "evidencePlan": "Budget hearing and media reports cited; verify through official June 1 budget proposal and Board approval process"
+    },
+    {
+      "id": "claim-labor-strike-threat",
+      "claim": "SEIU 1021 warns of potential citywide strike after CA Public Employment Relations Board restored strike rights",
+      "sourceId": "we-can-shut-down-the-city-lurie-s-budget-cuts-spark-a-showdown-with-labor-2026-0",
+      "topic": "city_government",
+      "verdict": "partially_verified",
+      "confidence": 0.88,
+      "evidencePlan": "CA Public Employment Relations Board decision confirmed; verify contract expiration dates and strike authorization procedures"
     }
   ],
   "metrics": [
@@ -1351,7 +1351,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-24T08:47:28.558Z"
+      "lastRefreshed": "2026-05-24T14:05:04.625Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1370,7 +1370,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-05-24T08:47:28.558Z"
+      "lastRefreshed": "2026-05-24T14:05:04.625Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -1380,13 +1380,74 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": null,
-      "latest": null,
+      "baseline": 292,
+      "latest": 216,
       "direction": "down_is_good",
-      "observations": [],
-      "status": "needs_verified_source",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 292
+        },
+        {
+          "date": "2025-02-01",
+          "value": 274
+        },
+        {
+          "date": "2025-03-01",
+          "value": 342
+        },
+        {
+          "date": "2025-04-01",
+          "value": 275
+        },
+        {
+          "date": "2025-05-01",
+          "value": 273
+        },
+        {
+          "date": "2025-06-01",
+          "value": 301
+        },
+        {
+          "date": "2025-07-01",
+          "value": 239
+        },
+        {
+          "date": "2025-08-01",
+          "value": 294
+        },
+        {
+          "date": "2025-09-01",
+          "value": 219
+        },
+        {
+          "date": "2025-10-01",
+          "value": 235
+        },
+        {
+          "date": "2025-11-01",
+          "value": 300
+        },
+        {
+          "date": "2025-12-01",
+          "value": 148
+        },
+        {
+          "date": "2026-01-01",
+          "value": 221
+        },
+        {
+          "date": "2026-02-01",
+          "value": 220
+        },
+        {
+          "date": "2026-03-01",
+          "value": 216
+        }
+      ],
+      "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-24T08:47:28.558Z",
+      "lastRefreshed": "2026-05-24T14:05:04.625Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -1402,30 +1463,13 @@
       "evidenceSourceIds": [
         "datasf-substance-use-services"
       ],
-      "status": "active",
-      "baseline": 55904,
-      "latest": 41664,
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 55904
-        },
-        {
-          "date": "2025-04-01",
-          "value": 46460
-        },
-        {
-          "date": "2025-07-01",
-          "value": 51108
-        },
-        {
-          "date": "2025-10-01",
-          "value": 41664
-        }
-      ],
+      "status": "needs_verified_source",
+      "baseline": null,
+      "latest": null,
+      "observations": [],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-05-24T08:47:28.558Z"
+      "lastRefreshed": "2026-05-24T14:05:04.625Z"
     },
     {
       "id": "housing-permits-issued",
@@ -1438,82 +1482,13 @@
       "evidenceSourceIds": [
         "datasf-building-permits"
       ],
-      "status": "active",
-      "baseline": 1422,
-      "latest": 952,
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 1422
-        },
-        {
-          "date": "2025-02-01",
-          "value": 1315
-        },
-        {
-          "date": "2025-03-01",
-          "value": 1367
-        },
-        {
-          "date": "2025-04-01",
-          "value": 1509
-        },
-        {
-          "date": "2025-05-01",
-          "value": 1414
-        },
-        {
-          "date": "2025-06-01",
-          "value": 1457
-        },
-        {
-          "date": "2025-07-01",
-          "value": 1558
-        },
-        {
-          "date": "2025-08-01",
-          "value": 1529
-        },
-        {
-          "date": "2025-09-01",
-          "value": 1506
-        },
-        {
-          "date": "2025-10-01",
-          "value": 1515
-        },
-        {
-          "date": "2025-11-01",
-          "value": 1327
-        },
-        {
-          "date": "2025-12-01",
-          "value": 1382
-        },
-        {
-          "date": "2026-01-01",
-          "value": 1425
-        },
-        {
-          "date": "2026-02-01",
-          "value": 1262
-        },
-        {
-          "date": "2026-03-01",
-          "value": 1336
-        },
-        {
-          "date": "2026-04-01",
-          "value": 1403
-        },
-        {
-          "date": "2026-05-01",
-          "value": 952
-        }
-      ],
+      "status": "needs_verified_source",
+      "baseline": null,
+      "latest": null,
+      "observations": [],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-05-24T08:47:28.558Z"
+      "lastRefreshed": "2026-05-24T14:05:04.625Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -1526,82 +1501,13 @@
       "evidenceSourceIds": [
         "datasf-building-permits"
       ],
-      "status": "active",
-      "baseline": 696,
-      "latest": 411,
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 696
-        },
-        {
-          "date": "2025-02-01",
-          "value": 1001
-        },
-        {
-          "date": "2025-03-01",
-          "value": 2285
-        },
-        {
-          "date": "2025-04-01",
-          "value": 808
-        },
-        {
-          "date": "2025-05-01",
-          "value": 1279
-        },
-        {
-          "date": "2025-06-01",
-          "value": 1130
-        },
-        {
-          "date": "2025-07-01",
-          "value": 686
-        },
-        {
-          "date": "2025-08-01",
-          "value": 292
-        },
-        {
-          "date": "2025-09-01",
-          "value": 483
-        },
-        {
-          "date": "2025-10-01",
-          "value": 758
-        },
-        {
-          "date": "2025-11-01",
-          "value": 792
-        },
-        {
-          "date": "2025-12-01",
-          "value": 253
-        },
-        {
-          "date": "2026-01-01",
-          "value": 545
-        },
-        {
-          "date": "2026-02-01",
-          "value": 473
-        },
-        {
-          "date": "2026-03-01",
-          "value": 625
-        },
-        {
-          "date": "2026-04-01",
-          "value": 790
-        },
-        {
-          "date": "2026-05-01",
-          "value": 411
-        }
-      ],
+      "status": "needs_verified_source",
+      "baseline": null,
+      "latest": null,
+      "observations": [],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-05-24T08:47:28.558Z"
+      "lastRefreshed": "2026-05-24T14:05:04.625Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -1620,7 +1526,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-05-24T08:47:28.558Z"
+      "lastRefreshed": "2026-05-24T14:05:04.625Z"
     }
   ],
   "topics": [
@@ -1662,7 +1568,7 @@
       "promiseCount": 1,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
     },
     {
       "id": "public_safety",
