@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-24T04:43:11.329Z",
+    "lastUpdated": "2026-05-24T08:47:28.558Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -538,6 +538,21 @@
       "scrapeError": "page returned bot verification challenge"
     },
     {
+      "id": "san-francisco-mayor-daniel-lurie-announces-steven-betz-as-new-public-safety-chie",
+      "title": "SF Mayor Daniel Lurie announces Steven Betz as new public safety chief",
+      "sourceType": "news",
+      "url": "https://abc7news.com/post/san-francisco-mayor-daniel-lurie-announces-steven-betz-new-public-safety-chief/18988727/",
+      "discoveryUrl": "https://abc7news.com/post/san-francisco-mayor-daniel-lurie-announces-steven-betz-new-public-safety-chief/18988727/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "ABC7 San Francisco",
+      "publishedAt": "2026-04-28",
+      "topic": "public_safety",
+      "summary": "San Francisco Mayor Daniel Lurie has appointed Steven Betz as the city&#x27;s new public safety chief, making the announcement on ABC7 Eyewitness News.",
+      "confidence": 0.9,
+      "excerpt": "San Francisco Mayor Daniel Lurie announces Steven Betz as new public safety chief - ABC7 San Francisco 24/7 Live San Francisco East Bay South Bay Peninsula North Bay POLITICS SF Mayor Daniel Lurie announces Steven Betz as new public safety chief Tuesday, April 28, 2026 SAN FRANCISCO (KGO) -- San Francisco Mayor Daniel Lurie has appointed Steven Betz as the city&#x27;s new public safety chief, making the announcement in an ABC7 Eyewitness News interview. Betz has served as the assistant public safety chief for the past year after joining the Mayor&#x27;s Office, but was previously a longtime attorney for the San Francisco Police Department. In a release on the announcement, Lurie&#x27;s Office says there has been a significant crime drop under his administration, with a 25% overall decrease in 2025. MORE: SFPD credits surveillance drones with aiding crime decline but some have privacy concerns In his new role, Betz will work across public safety departments to coninue to reduce crime through the Rebuilding the Ranks initiative. He will also work to disrupt open-air drug markets through the Drug Market Agency Coordination Center. \"I&#x27;ve been clear since day one that public safety is my top priority. And Steven Betz has been a key leader in our work to keep San Franciscans safe and reduce crime by 30%,\" Mayor Lurie said in the release. \"Steven has played a central role in bringing together public safety agencies to advance our shared efforts to make the city safer. I look forward to continuing to work with him to keep San Francisco safer for all of our residents and visitors.\" \"I&#x27;m grateful and eager to step into this role at such a critical moment for San Francisco,\" Betz said in the release. \"After nearly a decade working inside the Police Department, I know...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "mayor-lurie-appoints-steven-betz-as-chief-of-public-safety-https-www-sf-gov-news",
       "title": "Mayor Lurie Appoints Steven Betz As Chief Of Public Safety | SF.gov",
       "sourceType": "official",
@@ -560,19 +575,6 @@
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Launches Next Step To Deliver Faster, More Transparent Permitting As New Digital Portal Shows Results Office of the Mayor New Contractor Authorization Will Speed Up Permitting Process Giving Regular Contractors Faster Access to Permits; Recently-Launched Digital Portal Has Cut Wait Times, Making It Easier to Do Business in San Francisco; Continues Mayor Lurie’s Common-Sense PermitSF Work to Cut Red Tape, Save Homeowners and Business Owners Time and Money, Accelerate Economic Recovery April 28, 2026 SAN FRANCISCO – Mayor Daniel Lurie today launched the next step in PermitSF , his effort to drive the city’s economic recovery by making the permitting process fast, predictable, and transparent. The latest reforms include a new digital contractor authorization to speed up the permitting process for contractors and business owners regularly doing business through the city’s permitting process. As the mayor takes another step to make it easier to work with the city, PermitSF’s recently launched digital portal is cutting wait times and showing a strong demand for a system that is available anytime and anywhere. As part of Mayor Lurie’s work to make permitting faster and more transparent, the mayor launched a fully digital permitting portal that will allow homeowners and business owners to obtain the permits they need online. Just last month, Mayor Lurie took steps to make it easier for San Franciscans to host special events and throw block parties in their neighborhoods. Since its launch, PermitSF has produced 20 ordinances , including common-sense reforms to remove burdens for homeowners to repair their decks and park in their driveways , or for businesses to set up cafe tables on sidewalks and paint their own business names on their storefronts . To contin...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "san-francisco-mayor-daniel-lurie-announces-steven-betz-as-new-public-safety-chie",
-      "title": "San Francisco Mayor Daniel Lurie announces Steven Betz as new public safety chief",
-      "sourceType": "news",
-      "url": "https://abc7news.com/post/san-francisco-mayor-daniel-lurie-announces-steven-betz-new-public-safety-chief/18988727/",
-      "discoveryUrl": "https://abc7news.com/post/san-francisco-mayor-daniel-lurie-announces-steven-betz-new-public-safety-chief/18988727/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "ABC7 San Francisco",
-      "publishedAt": "2026-04-28",
-      "topic": "public_safety",
-      "summary": "Mayor Lurie appointed Steven Betz as the city's new public safety chief. The announcement noted a 25% overall crime decrease in 2025 under the Lurie administration. Betz will work across public safety departments to continue reducing crime through the Rebuilding the Ranks initiative and disrupt open-air drug markets.",
-      "confidence": 0.9
     },
     {
       "id": "san-francisco-mayor-daniel-lurie-announces-steven-betz-as-new-public-safety-chie",
@@ -1349,7 +1351,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-24T04:43:11.329Z"
+      "lastRefreshed": "2026-05-24T08:47:28.558Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1368,7 +1370,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-05-24T04:43:11.329Z"
+      "lastRefreshed": "2026-05-24T08:47:28.558Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -1384,7 +1386,7 @@
       "observations": [],
       "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-24T04:43:11.329Z",
+      "lastRefreshed": "2026-05-24T08:47:28.558Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -1423,7 +1425,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-05-24T04:43:11.329Z"
+      "lastRefreshed": "2026-05-24T08:47:28.558Z"
     },
     {
       "id": "housing-permits-issued",
@@ -1511,7 +1513,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-05-24T04:43:11.329Z"
+      "lastRefreshed": "2026-05-24T08:47:28.558Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -1599,7 +1601,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-05-24T04:43:11.329Z"
+      "lastRefreshed": "2026-05-24T08:47:28.558Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -1618,7 +1620,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-05-24T04:43:11.329Z"
+      "lastRefreshed": "2026-05-24T08:47:28.558Z"
     }
   ],
   "topics": [
