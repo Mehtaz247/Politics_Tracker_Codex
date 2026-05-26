@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-26T16:13:30.600Z",
+    "lastUpdated": "2026-05-26T20:29:13.542Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -281,6 +281,21 @@
       "summary": "Supervisor Connie Chan held a hearing Wednesday where community members urged the Board of Supervisors to prevent Mayor Lurie from cutting a program by 30% that offers cash grants to low-income students through City College’s \"Free City” program.",
       "confidence": 0.8,
       "excerpt": "21 May 2026 / SF Politics / Leanne Maxwell Lurie to Propose Cutting Cash Grants for Free City College Students By a Third --> Supervisor Connie Chan held a hearing Wednesday where community members urged the Board of Supervisors to prevent Mayor Lurie from cutting a program by 30% that offers cash grants to low-income students through City College’s \"Free City” program. San Francisco Mayor Daniel Lurie’s new budget proposal, due June 1, will include a 30% cut to “Free City Cash Grants,” a component of City College’s “Free City” program, as the Chronicle reports . The cash grants program provides low-income City College students with funds matching their $46-per-credit fees, which the state had already covered, for expenses like housing, food, and books. Lurie’s proposed cuts, which would not impact the main Free City program, would reduce funding for cash grants from $9.3 million to $6.4 million. According to 48Hills , the cash grants program, which benefitted 6,000 low-income students last year, would violate a longstanding Memorandum of Understanding between the city and the school. As SFist reported at the time, former Supervisor Jane Kim introduced the proposal to create the Free City program back in 2016, which was approved in February 2017 by former Mayor Ed Lee. At the hearing Wednesday, dozens of students, alumni, and staff urged the Board of Supervisors Budget and Appropriations Committee to protect the full funding for the program, which has been under threat for at least the past two years . “Free City is the reason I can afford to attend City College,” said Angelica Campos, a student-elected representative on the College’s Board of Trustees, speaking to 48 Hills. “I am working, studying, and building a life in San Francisco, and even small costs can decid...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "sf-mayor-s-chief-of-staff-and-confidante-staci-slaughter-to-step-down-2026-05-26",
+      "title": "SF Mayor&#x27;s Chief of Staff and Confidante Staci Slaughter to Step Down",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/05/26/sf-mayors-chief-of-staff-and-confidante-staci-slaughter-to-step-down/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-05-26",
+      "topic": "homelessness",
+      "summary": "After 18 months on the job, San Francisco Mayor Daniel Lurie&#x27;s chief of staff, Staci Slaughter, has announced she will be stepping down from the job in June.",
+      "confidence": 0.8,
+      "excerpt": "26 May 2026 / SF Politics / Jay Barmann SF Mayor&#x27;s Chief of Staff and Confidante Staci Slaughter to Step Down --> After 18 months on the job, San Francisco Mayor Daniel Lurie's chief of staff, Staci Slaughter, has announced she will be stepping down from the job in June. It may not qualify as a shakeup in City Hall, but a major power player in Mayor Daniel Lurie's administration is taking her leave midway through his second year in office, citing a desire to return to private life. Staci Slaughter, 59, will be leaving the chief of staff post in \"late June,\" per the Chronicle , and her replacement has not been selected yet. \"By every measure, the City is moving in the right direction and, for the first time in a very long time, San Franciscans feel the city is on the right track,\" says Slaughter in a statement. \"With that foundation in place, I feel this summer is the right time to return to retirement and hand the reins over to our talented Mayor’s Office team, who will keep moving San Francisco forward.\" Mayor Daniel Lurie issued a statement of appreciation for Slaughter, saying, \"When I took office last year, we reimagined the structure of the Mayor’s Office, brought in senior leaders with experience outside government, and built our team around common sense and a commitment to delivering results. Staci Slaughter took our priorities and mapped out the plan. She helped assemble and mentor a team of leaders to implement that plan. And she reset the tone in City Hall, fostering a culture of collaboration that the second floor hadn’t seen in years, to help turn that plan into reality.\" Slaughter came out of retirement to work in the newly formed Lurie administration in December 2024, having previously retired in 2022 from the San Francisco Giants organization wher...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1062,16 +1077,6 @@
       "topic": "city_government",
       "summary": "Mayor Lurie, First Lady Prowda Announce Citywide Day of Service &nbsp;&nbsp; SF.gov",
       "confidence": 0.68
-    },
-    {
-      "id": "sf-s-strong-starts-initiative-aims-to-reduce-preterm-births-and-infant-mortality",
-      "title": "SF's ‘Strong Starts' initiative aims to reduce preterm births and infant mortality - NBC Bay Area",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBqM2JCeVJnVktLRVhpOGQ1NmtUVHBmRm5kZTF6cFg1WmRvV3Q2VHFnNjh1aHMwVDE0a25kbE1UQWVCUEJLdFU5eS1NOVJKR1liZDdfdmlWWXZJNjBUdFJ0YjRoNW5rX0QyXzBDNk41RVRadklXZThFUXNabEt0bVnSAYcBQVVfeXFMTWpzRVZxcnJSU3lEYUVpQWRoSWJSaGtVenJCb0xvTndZS2tzUnU1SjlWckVqX1NHcjFYbm1HUHN2Rm5idFhsYXY1MWQyS29LLVhuckZKcG5yQ28wWjhZRFdvMmoyV1lUZ2EzY1lCTTBFRVJIM3YtQzRYdl9yX3ktMDgyUEpyY21r?oc=5",
-      "publishedAt": "2026-02-24",
-      "topic": "city_government",
-      "summary": "SF's ‘Strong Starts' initiative aims to reduce preterm births and infant mortality &nbsp;&nbsp; NBC Bay Area",
-      "confidence": 0.68
     }
   ],
   "promises": [
@@ -1155,7 +1160,7 @@
         "datasf-overdose-related-911-responses"
       ],
       "aiConfidence": 0.76,
-      "statusNote": "Emergency powers granted Feb 4, 2025; overdose-related 911 calls data available but causal attribution requires further review",
+      "statusNote": "Emergency powers granted Feb 4, 2025; overdose-related 911 calls declined from 292 (Jan 2025) to 216 (Mar 2026) but causal attribution requires further review",
       "reviewStatus": "pending_review",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -1334,6 +1339,24 @@
       "verdict": "partially_verified",
       "confidence": 0.88,
       "evidencePlan": "CA Public Employment Relations Board decision confirmed; verify contract expiration dates and strike authorization procedures"
+    },
+    {
+      "id": "claim-chief-of-staff-departure",
+      "claim": "Chief of Staff Staci Slaughter stepping down in late June 2026 after 18 months",
+      "sourceId": "sf-mayor-s-chief-of-staff-and-confidante-staci-slaughter-to-step-down-2026-05-26",
+      "topic": "city_government",
+      "verdict": "verified",
+      "confidence": 0.9,
+      "evidencePlan": "Official announcement confirmed; monitor replacement appointment and transition timeline"
+    },
+    {
+      "id": "claim-pac-spending-supervisor-races",
+      "claim": "Over $4 million poured into supervisor races, with $2.1M from PACs including Lurie allies and GrowSF",
+      "sourceId": "over-4-million-pours-into-san-francisco-supervisor-election-much-of-it-from-outs",
+      "topic": "city_government",
+      "verdict": "partially_verified",
+      "confidence": 0.85,
+      "evidencePlan": "Campaign finance filings cited; verify final totals through SF Ethics Commission records after June 2 election"
     }
   ],
   "metrics": [
@@ -1354,7 +1377,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-26T16:13:30.600Z"
+      "lastRefreshed": "2026-05-26T20:29:13.542Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1373,7 +1396,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-05-26T16:13:30.600Z"
+      "lastRefreshed": "2026-05-26T20:29:13.542Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -1450,7 +1473,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-26T16:13:30.600Z",
+      "lastRefreshed": "2026-05-26T20:29:13.542Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -1489,7 +1512,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-05-26T16:13:30.600Z"
+      "lastRefreshed": "2026-05-26T20:29:13.542Z"
     },
     {
       "id": "housing-permits-issued",
@@ -1577,7 +1600,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-05-26T16:13:30.600Z"
+      "lastRefreshed": "2026-05-26T20:29:13.542Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -1665,7 +1688,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-05-26T16:13:30.600Z"
+      "lastRefreshed": "2026-05-26T20:29:13.542Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -1684,7 +1707,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-05-26T16:13:30.600Z"
+      "lastRefreshed": "2026-05-26T20:29:13.542Z"
     }
   ],
   "topics": [
