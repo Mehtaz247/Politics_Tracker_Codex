@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-27T10:34:12.968Z",
+    "lastUpdated": "2026-05-27T16:15:59.315Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -920,7 +920,7 @@
       "publisher": "Mission Local",
       "publishedAt": "2026-03-17",
       "topic": "city_government",
-      "summary": "Mayor Lurie filed papers for three November ballot measures to remake the city charter, including giving the mayor authority to reorganize or consolidate 24 city departments, eliminating his unilateral ballot placement power, and requiring six supervisor votes (instead of four) to place measures on the ballot. Critics say the changes could reduce public participation.",
+      "summary": "Mayor Lurie filed papers for three November 2026 ballot measures to reform city charter, including increasing signature requirements for citizen initiatives from 2% to 8%, requiring six supervisor votes instead of four to place measures on ballot, eliminating mayor's unilateral ballot authority, and giving mayor power to reorganize or consolidate 24 city departments and hire/fire most department heads directly.",
       "confidence": 0.9
     },
     {
@@ -1377,7 +1377,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-27T10:34:12.968Z"
+      "lastRefreshed": "2026-05-27T16:15:59.314Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1396,7 +1396,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-05-27T10:34:12.968Z"
+      "lastRefreshed": "2026-05-27T16:15:59.314Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -1473,7 +1473,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-27T10:34:12.968Z",
+      "lastRefreshed": "2026-05-27T16:15:59.314Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -1512,7 +1512,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-05-27T10:34:12.968Z"
+      "lastRefreshed": "2026-05-27T16:15:59.314Z"
     },
     {
       "id": "housing-permits-issued",
@@ -1527,7 +1527,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 953,
+      "latest": 1015,
       "observations": [
         {
           "date": "2025-01-01",
@@ -1595,12 +1595,12 @@
         },
         {
           "date": "2026-05-01",
-          "value": 953
+          "value": 1015
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-05-27T10:34:12.968Z"
+      "lastRefreshed": "2026-05-27T16:15:59.314Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -1615,7 +1615,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 411,
+      "latest": 413,
       "observations": [
         {
           "date": "2025-01-01",
@@ -1683,12 +1683,12 @@
         },
         {
           "date": "2026-05-01",
-          "value": 411
+          "value": 413
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-05-27T10:34:12.968Z"
+      "lastRefreshed": "2026-05-27T16:15:59.315Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -1707,7 +1707,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-05-27T10:34:12.968Z"
+      "lastRefreshed": "2026-05-27T16:15:59.315Z"
     }
   ],
   "topics": [
