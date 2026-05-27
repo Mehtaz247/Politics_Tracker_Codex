@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-26T20:29:13.542Z",
+    "lastUpdated": "2026-05-27T04:52:58.441Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -911,16 +911,16 @@
       "confidence": 0.68
     },
     {
-      "id": "mayor-lurie-s-charter-reform-would-enable-him-to-remake-city-hall-2026-03-16",
+      "id": "mayor-lurie-s-charter-reform-would-enable-him-to-remake-city-hall-2026-03-17",
       "title": "Mayor Lurie's charter reform would enable him to remake City Hall",
       "sourceType": "news",
       "url": "https://missionlocal.org/2026/03/daniel-lurie-city-charter-san-francisco-consolidation/",
       "discoveryUrl": "https://missionlocal.org/2026/03/daniel-lurie-city-charter-san-francisco-consolidation/",
       "discoverySource": "Anthropic web search",
       "publisher": "Mission Local",
-      "publishedAt": "2026-03-16",
+      "publishedAt": "2026-03-17",
       "topic": "city_government",
-      "summary": "Mayor Lurie filed papers for three ballot measures to remake the city charter, including one that would give the mayor ability to reorganize or consolidate 24 city departments. The proposals would also increase signature requirements for ballot initiatives and require six supervisor votes instead of four to place measures on the ballot.",
+      "summary": "Mayor Lurie filed papers for three November ballot measures to remake the city charter, including giving the mayor authority to reorganize or consolidate 24 city departments, eliminating his unilateral ballot placement power, and requiring six supervisor votes (instead of four) to place measures on the ballot. Critics say the changes could reduce public participation.",
       "confidence": 0.9
     },
     {
@@ -933,7 +933,7 @@
       "publisher": "SFist",
       "publishedAt": "2026-03-12",
       "topic": "city_government",
-      "summary": "Lurie and Board President Mandelman introduced three November 2026 ballot measures to reform San Francisco's charter. Proposals would expand mayoral authority over departments, increase ballot initiative signature requirements from 2% to 8% of voters, and streamline city contracting. Labor leaders criticized the measures as concentrating power and limiting public participation.",
+      "summary": "Mayor Lurie and Board President Mandelman filed notices for three charter reform measures for the November 2026 ballot, including overhauling contracting rules, tightening the ballot initiative process (raising signature requirements from 2% to 8%), and expanding mayoral authority over department heads and commissions. Labor leaders criticized the changes as concentrating power.",
       "confidence": 0.9
     },
     {
@@ -1377,7 +1377,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-26T20:29:13.542Z"
+      "lastRefreshed": "2026-05-27T04:52:58.440Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1396,7 +1396,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-05-26T20:29:13.542Z"
+      "lastRefreshed": "2026-05-27T04:52:58.441Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -1473,7 +1473,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-26T20:29:13.542Z",
+      "lastRefreshed": "2026-05-27T04:52:58.441Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -1489,30 +1489,13 @@
       "evidenceSourceIds": [
         "datasf-substance-use-services"
       ],
-      "status": "active",
-      "baseline": 55904,
-      "latest": 41664,
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 55904
-        },
-        {
-          "date": "2025-04-01",
-          "value": 46460
-        },
-        {
-          "date": "2025-07-01",
-          "value": 51108
-        },
-        {
-          "date": "2025-10-01",
-          "value": 41664
-        }
-      ],
+      "status": "needs_verified_source",
+      "baseline": null,
+      "latest": null,
+      "observations": [],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-05-26T20:29:13.542Z"
+      "lastRefreshed": "2026-05-27T04:52:58.441Z"
     },
     {
       "id": "housing-permits-issued",
@@ -1600,7 +1583,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-05-26T20:29:13.542Z"
+      "lastRefreshed": "2026-05-27T04:52:58.441Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -1688,7 +1671,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-05-26T20:29:13.542Z"
+      "lastRefreshed": "2026-05-27T04:52:58.441Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -1707,7 +1690,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-05-26T20:29:13.542Z"
+      "lastRefreshed": "2026-05-27T04:52:58.441Z"
     }
   ],
   "topics": [
@@ -1757,7 +1740,7 @@
       "promiseCount": 1,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
