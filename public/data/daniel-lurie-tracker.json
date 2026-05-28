@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-28T10:36:36.972Z",
+    "lastUpdated": "2026-05-28T16:37:09.199Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -311,6 +311,21 @@
       "summary": "Mayor Lurie’s allies, GrowSF, anti-worker group, and unions spending big money San Francisco&#039;s district races in June.",
       "confidence": 0.82,
       "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today Millions of dollars are flowing into San Francisco’s two June supervisor contests, and a substantial sum is coming from deep-pocketed political action committees. There are no fewer than eight PACs involved in the District 2 and District 4 races, and they’ve contributed a total of $2.1 million towards their preferred candidates, according to finance filings released Thursday evening. The third-party spending is eclipsing money directly raised from donors giving up to $500. In District 4, the PAC money is nearly four times as much as funds raised by candidates. Most of that PAC money is backing Alan Wong and Stephen Sherrill, the two incumbent supervisors who are facing challengers on June 2. In District 2, the PAC money backing Sherrill is coming from Mayor Daniel Lurie’s allies , political pressure group GrowSF , and an anti-worker PAC , among others. The PAC spending is more than what Sherrill has fundraised directly: He has raised $443,102 from donors, and the PACs are spending $663,000. Those groups are: SF Believes , a PAC that was created by Mayor Lurie’s allies , which has spent $201,000 to support Sherrill. GrowSF , a group closely aligned with Lurie, has raised $267,000 in a PAC to back Sherrill. Its PAC for Sherrill, along with its voter guide, has spent over $203,500 so far. Another PAC named Committee to Support Supervisor Stephen Sherrill spent $76,000 to support Sherrill. Its top donor is Diana L. Nelson, director of an investment firm, who gave $15,000. A labor PAC, Working Families for Stephen Sherrill for Supervisor 2026 , also recently jumped into the District 2 race, spending $18,465 for Sherrill. The PA...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "in-bad-budget-year-mayor-lurie-to-maintain-immigrant-legal-services-funding-2026",
+      "title": "In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/05/sf-budget-immigration-funding-rapid-response/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-05-28",
+      "topic": "economy",
+      "summary": "Mayor Lurie to maintain $20 million for legal services despite $600 million deficit. But will last year&#039;s emergency funds be renewed?",
+      "confidence": 0.82,
+      "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today The mayor’s office must cut $400 million in this year’s budget , but it won’t cut immigrant legal services and, Mayor Daniel Lurie&#8217;s office told Mission Local . The city spent about $17.9 million this year on services such as deportation defense and a rapid response network that verifies immigration arrests and emergencies. Next year it is budgeting for $18.2 million. “In this budget, we are standing up for San Francisco’s communities and our values,” Lurie said in a statement. “As we work to close a $600 million deficit and navigate cuts from the federal government, we are continuing to build on our investments in immigrant legal services because our immigrant community makes our city stronger.” Lariza Dugan-Cuadra, the executive director of CARECEN, which runs the San Francisco Immigrant Legal Defense Collaborative, a non-profit that provides legal services to detained immigrants , commended the move. “Today somebody got detained , our partners are responding, and we’d much rather be doing that than having to be at City Hall fighting for critical resources,” she said, speaking on Wednesday and referring to an immigration arrest in the Sunnyside neighborhood that day. In addition to the city’s budgeted spending, officials have made several one-time grants since the November 2024 election to help bolster immigrant legal services. That includes $878,000 approved by then-Mayor London Breed in 2024 (which Lurie declined to renew last year) and $3.5 million appropriated by the Board of Supervisors in October 2025, hours after President Donald Trump withdrew a threat to send a “surge” of federal agents to San Francisco. T...",
       "scrapeStatus": "scraped"
     },
     {
@@ -686,6 +701,19 @@
       "confidence": 0.85
     },
     {
+      "id": "with-cost-of-living-rising-cuts-to-affordability-programs-put-san-francisco-on-e",
+      "title": "With Cost of Living Rising, Cuts to Affordability Programs Put San Francisco on Edge",
+      "sourceType": "news",
+      "url": "https://www.kqed.org/news/12080889/with-cost-of-living-rising-cuts-to-affordability-programs-put-san-francisco-on-edge",
+      "discoveryUrl": "https://www.kqed.org/news/12080889/with-cost-of-living-rising-cuts-to-affordability-programs-put-san-francisco-on-edge",
+      "discoverySource": "Anthropic web search",
+      "publisher": "KQED",
+      "publishedAt": "2026-04-22",
+      "topic": "housing",
+      "summary": "Mayor Lurie directed departments to cut $400 million including $100 million in personnel expenses, with 127 pink slip notices already issued and up to 500 total layoffs expected. The Mayor's Office of Housing and Community Development faces $8.5 million in cuts. Average SF rents around $3,600 are among fastest-growing in the country. Federal government cuts to CalFresh and MediCal compound challenges. Lurie successfully passed the Family Zoning Plan in December allowing denser buildings.",
+      "confidence": 0.9
+    },
+    {
       "id": "mayor-lurie-announces-priority-street-repaving-projects-https-www-sf-gov-news-ma",
       "title": "Mayor Lurie Announces Priority Street Repaving Projects | SF.gov",
       "sourceType": "official",
@@ -948,7 +976,7 @@
       "publisher": "SFist",
       "publishedAt": "2026-03-12",
       "topic": "city_government",
-      "summary": "Mayor Lurie and Board President Mandelman filed notices for three charter reform measures for the November 2026 ballot, including overhauling contracting rules, tightening the ballot initiative process (raising signature requirements from 2% to 8%), and expanding mayoral authority over department heads and commissions. Labor leaders criticized the changes as concentrating power.",
+      "summary": "Mayor Lurie and Board President Mandelman filed notices for three November 2026 ballot measures to reform the city charter. Proposals include overhauling contracting rules, tightening initiative requirements (increasing signatures from 2% to 8% of voters), expanding mayoral authority over departments, and allowing the mayor to hire/fire department heads directly. Critics warn the changes could concentrate power and limit public participation.",
       "confidence": 0.9
     },
     {
@@ -1034,10 +1062,10 @@
       "url": "https://abc7news.com/post/san-francisco-mayor-daniel-lurie-reportedly-orders-500-city-job-cuts-eliminate-100-million-amid-budget-crisis/18671520/",
       "discoveryUrl": "https://abc7news.com/post/san-francisco-mayor-daniel-lurie-reportedly-orders-500-city-job-cuts-eliminate-100-million-amid-budget-crisis/18671520/",
       "discoverySource": "Anthropic web search",
-      "publisher": "ABC7 San Francisco",
+      "publisher": "ABC7 News",
       "publishedAt": "2026-03-04",
       "topic": "city_government",
-      "summary": "Mayor Lurie ordered city departments to cut $100 million in personnel spending, potentially eliminating up to 500 jobs to address the $877 million deficit. Departments are told to cut $400 million in ongoing spending. Critics warn cuts will impact climate action plan work, public charging infrastructure, and building electrification efforts.",
+      "summary": "Mayor Lurie ordered city departments to cut $100 million in personnel spending, potentially eliminating up to 500 jobs, as the city faces an $877 million deficit. Department heads must submit staffing recommendations by March 12. Workers expressed concern about impacts to climate action plan work, public charging infrastructure, and building electrification. This is the second year of layoffs under Lurie's administration.",
       "confidence": 0.9
     },
     {
@@ -1061,26 +1089,6 @@
       "publishedAt": "2026-03-03",
       "topic": "economy",
       "summary": "San Francisco Mayor Daniel Lurie orders $100 million in budget cuts; could lead to elimination of 500 jobs &nbsp;&nbsp; ABC7 San Francisco",
-      "confidence": 0.78
-    },
-    {
-      "id": "reactions-to-san-francisco-mayor-s-office-plan-to-cut-500-city-hall-jobs-due-to-",
-      "title": "Reactions to San Francisco mayor's office plan to cut 500 City Hall jobs due to budget shortfall - KTVU",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZ1M5QkxNaWJQRXN2NGQ2Z3p6bWExQWJId3VJZ0ZCTWxxTnJuRmhXdkRld0FSR1d4UlprWHVqRDA1SEwzSVlJelM1ZzZZcTJha3pPaFU0WndHUG1UeHptMHo1OTVfWHI5eGszbnhDVVNVdzM5MFhGemc5eXlRUk5waG05TmhJcDZQc0pDY2JpWk92NnlOS1Q4emJ3eWw2NF9tYjNXdUsxa1hkTGvSAbABQVVfeXFMT1dlWUpGNHJLUjloQzVWZkhPb1ItOWVyTGJiOHBPdWNrWFJhM3ZJdGhfZlRxb08xRkk5UW5FUUxaQzJ5amp6cy1UN2FaX0tGUG5yUXFMTnNGSmpLS1lnaDV0WGJyYzVfQ2VnTUV6a2RabjNaY2N3dkZnbkZ4bGItOGgyLVpON3hMRF9Ha1NiNkNNbEp2Z1RYN3hUZ2lwbGtEQk5fM2RPTXFKcDd5T280NWM?oc=5",
-      "publishedAt": "2026-03-02",
-      "topic": "economy",
-      "summary": "Reactions to San Francisco mayor's office plan to cut 500 City Hall jobs due to budget shortfall &nbsp;&nbsp; KTVU",
-      "confidence": 0.78
-    },
-    {
-      "id": "mayor-lurie-supervisor-mahmood-unveil-plan-to-create-housing-jobs-sf-gov-2026-02",
-      "title": "Mayor Lurie, Supervisor Mahmood Unveil Plan to Create Housing, Jobs - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOamp6TXB1WjFUeGU4al8tY1RURmdiNnoxeFo2ZXVIR0tuN1QtV0FOZENYRkFVeldQM1ltSC1PV3FIaHNUXzlCQVVLRWtXWS01YjlvQnV4QndjQzVEeEVLNVZvblEwSWVHaTBBVzMzTDNxbGUxTkgtMkhsNUdqcWVDcE5vRGJJOTRPZmk1SWlzWkpzbDQ?oc=5",
-      "publishedAt": "2026-02-25",
-      "topic": "homelessness",
-      "summary": "Mayor Lurie, Supervisor Mahmood Unveil Plan to Create Housing, Jobs &nbsp;&nbsp; SF.gov",
       "confidence": 0.78
     }
   ],
@@ -1252,6 +1260,22 @@
       "statusNote": "PermitSF portal launched cutting Fire Dept wait times 50%; Permit Center trips down 15%; 20 ordinances passed; block party streamlining signed May 20, 2026",
       "reviewStatus": "pending_review",
       "linkedMetricIds": []
+    },
+    {
+      "id": "promise-maintain-immigrant-legal-services",
+      "text": "Maintain $20M funding for immigrant legal services despite budget deficit",
+      "dateMade": "2026-05-28",
+      "deadline": "2027-06-30",
+      "topic": "city_government",
+      "status": "in_progress",
+      "progress": null,
+      "evidenceSourceIds": [
+        "in-bad-budget-year-mayor-lurie-to-maintain-immigrant-legal-services-funding-2026"
+      ],
+      "aiConfidence": 0.82,
+      "statusNote": "Budget maintains $18.2M for immigrant legal services; excludes one-time emergency grants totaling $4.4M from 2024-2025",
+      "reviewStatus": "pending_review",
+      "linkedMetricIds": []
     }
   ],
   "claims": [
@@ -1382,7 +1406,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-28T10:36:36.972Z"
+      "lastRefreshed": "2026-05-28T16:37:09.199Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1401,7 +1425,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-05-28T10:36:36.972Z"
+      "lastRefreshed": "2026-05-28T16:37:09.199Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -1478,7 +1502,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-28T10:36:36.972Z",
+      "lastRefreshed": "2026-05-28T16:37:09.199Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -1517,7 +1541,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-05-28T10:36:36.972Z"
+      "lastRefreshed": "2026-05-28T16:37:09.199Z"
     },
     {
       "id": "housing-permits-issued",
@@ -1532,7 +1556,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 1015,
+      "latest": 1090,
       "observations": [
         {
           "date": "2025-01-01",
@@ -1600,12 +1624,12 @@
         },
         {
           "date": "2026-05-01",
-          "value": 1015
+          "value": 1090
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-05-28T10:36:36.972Z"
+      "lastRefreshed": "2026-05-28T16:37:09.199Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -1620,7 +1644,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 413,
+      "latest": 419,
       "observations": [
         {
           "date": "2025-01-01",
@@ -1688,12 +1712,12 @@
         },
         {
           "date": "2026-05-01",
-          "value": 413
+          "value": 419
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-05-28T10:36:36.972Z"
+      "lastRefreshed": "2026-05-28T16:37:09.199Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -1712,14 +1736,14 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-05-28T10:36:36.972Z"
+      "lastRefreshed": "2026-05-28T16:37:09.199Z"
     }
   ],
   "topics": [
     {
       "id": "city_government",
       "label": "City Government",
-      "promiseCount": 3,
+      "promiseCount": 4,
       "averageProgress": null,
       "risk": "review",
       "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
@@ -1984,14 +2008,15 @@
       ]
     },
     {
-      "id": "timeline-city-college-grant-cuts",
-      "date": "2026-05-21",
-      "type": "policy",
-      "title": "Proposed 30% cut to Free City College cash grants announced",
+      "id": "timeline-chief-of-staff-departure",
+      "date": "2026-05-26",
+      "type": "appointment",
+      "title": "Chief of Staff Staci Slaughter announces departure; Aly Bonde to replace",
       "topic": "city_government",
-      "impact": "major",
+      "impact": "moderate",
       "sourceIds": [
-        "lurie-to-propose-cutting-cash-grants-for-free-city-college-students-by-a-third-2"
+        "sf-mayor-s-chief-of-staff-and-confidante-staci-slaughter-to-step-down-2026-05-26",
+        "day-around-the-bay-wildfire-grows-in-livermore-2026-05-28"
       ]
     }
   ]
