@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-28T16:37:09.199Z",
+    "lastUpdated": "2026-05-28T20:40:26.991Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -235,6 +235,21 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "in-bad-budget-year-mayor-lurie-to-maintain-immigrant-legal-services-funding-2026",
+      "title": "In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/05/sf-budget-immigration-funding-rapid-response/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-05-28",
+      "topic": "economy",
+      "summary": "Mayor Lurie to maintain $20 million for legal services despite $600 million deficit. But will last year&#039;s emergency funds be renewed?",
+      "confidence": 0.82,
+      "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today The mayor’s office must cut $400 million in this year’s budget , but it won’t cut immigrant legal services and, Mayor Daniel Lurie&#8217;s office told Mission Local . The city spent about $17.9 million this year on services such as deportation defense and a rapid response network that verifies immigration arrests and emergencies. Next year it is budgeting for $18.2 million. “In this budget, we are standing up for San Francisco’s communities and our values,” Lurie said in a statement. “As we work to close a $600 million deficit and navigate cuts from the federal government, we are continuing to build on our investments in immigrant legal services because our immigrant community makes our city stronger.” Lariza Dugan-Cuadra, the executive director of CARECEN, which runs the San Francisco Immigrant Legal Defense Collaborative, a non-profit that provides legal services to detained immigrants , commended the move. “Today somebody got detained , our partners are responding, and we’d much rather be doing that than having to be at City Hall fighting for critical resources,” she said, speaking on Wednesday and referring to an immigration arrest in the Sunnyside neighborhood that day. In addition to the city’s budgeted spending, officials have made several one-time grants since the November 2024 election to help bolster immigrant legal services. That includes $878,000 approved by then-Mayor London Breed in 2024 (which Lurie declined to renew last year) and $3.5 million appropriated by the Board of Supervisors in October 2025, hours after President Donald Trump withdrew a threat to send a “surge” of federal agents to San Francisco. T...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "union-square-programming",
       "title": "Union Square programming through summer 2027",
       "sourceType": "official",
@@ -269,21 +284,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "lurie-to-propose-cutting-cash-grants-for-free-city-college-students-by-a-third-2",
-      "title": "Lurie to Propose Cutting Cash Grants for Free City College Students By a Third",
-      "sourceType": "news",
-      "url": "https://sfist.com/2026/05/21/lurie-to-propose-cutting-cash-grants-for-free-city-college-students-by-a-third/",
-      "discoveryUrl": "https://sfist.com/rss/",
-      "discoverySource": "SFist",
-      "publisher": "SFist",
-      "publishedAt": "2026-05-21",
-      "topic": "transit",
-      "summary": "Supervisor Connie Chan held a hearing Wednesday where community members urged the Board of Supervisors to prevent Mayor Lurie from cutting a program by 30% that offers cash grants to low-income students through City College’s \"Free City” program.",
-      "confidence": 0.8,
-      "excerpt": "21 May 2026 / SF Politics / Leanne Maxwell Lurie to Propose Cutting Cash Grants for Free City College Students By a Third --> Supervisor Connie Chan held a hearing Wednesday where community members urged the Board of Supervisors to prevent Mayor Lurie from cutting a program by 30% that offers cash grants to low-income students through City College’s \"Free City” program. San Francisco Mayor Daniel Lurie’s new budget proposal, due June 1, will include a 30% cut to “Free City Cash Grants,” a component of City College’s “Free City” program, as the Chronicle reports . The cash grants program provides low-income City College students with funds matching their $46-per-credit fees, which the state had already covered, for expenses like housing, food, and books. Lurie’s proposed cuts, which would not impact the main Free City program, would reduce funding for cash grants from $9.3 million to $6.4 million. According to 48Hills , the cash grants program, which benefitted 6,000 low-income students last year, would violate a longstanding Memorandum of Understanding between the city and the school. As SFist reported at the time, former Supervisor Jane Kim introduced the proposal to create the Free City program back in 2016, which was approved in February 2017 by former Mayor Ed Lee. At the hearing Wednesday, dozens of students, alumni, and staff urged the Board of Supervisors Budget and Appropriations Committee to protect the full funding for the program, which has been under threat for at least the past two years . “Free City is the reason I can afford to attend City College,” said Angelica Campos, a student-elected representative on the College’s Board of Trustees, speaking to 48 Hills. “I am working, studying, and building a life in San Francisco, and even small costs can decid...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "sf-mayor-s-chief-of-staff-and-confidante-staci-slaughter-to-step-down-2026-05-26",
       "title": "SF Mayor&#x27;s Chief of Staff and Confidante Staci Slaughter to Step Down",
       "sourceType": "news",
@@ -299,36 +299,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "over-4-million-pours-into-san-francisco-supervisor-election-much-of-it-from-outs",
-      "title": "Over $4 million pours into San Francisco supervisor election, much of it from outside PACs",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/05/sf-supervisor-election-campaign-finance/",
-      "discoveryUrl": "https://missionlocal.org/feed/",
-      "discoverySource": "Mission Local",
-      "publisher": "Mission Local",
-      "publishedAt": "2026-05-22",
-      "topic": "public_safety",
-      "summary": "Mayor Lurie’s allies, GrowSF, anti-worker group, and unions spending big money San Francisco&#039;s district races in June.",
-      "confidence": 0.82,
-      "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today Millions of dollars are flowing into San Francisco’s two June supervisor contests, and a substantial sum is coming from deep-pocketed political action committees. There are no fewer than eight PACs involved in the District 2 and District 4 races, and they’ve contributed a total of $2.1 million towards their preferred candidates, according to finance filings released Thursday evening. The third-party spending is eclipsing money directly raised from donors giving up to $500. In District 4, the PAC money is nearly four times as much as funds raised by candidates. Most of that PAC money is backing Alan Wong and Stephen Sherrill, the two incumbent supervisors who are facing challengers on June 2. In District 2, the PAC money backing Sherrill is coming from Mayor Daniel Lurie’s allies , political pressure group GrowSF , and an anti-worker PAC , among others. The PAC spending is more than what Sherrill has fundraised directly: He has raised $443,102 from donors, and the PACs are spending $663,000. Those groups are: SF Believes , a PAC that was created by Mayor Lurie’s allies , which has spent $201,000 to support Sherrill. GrowSF , a group closely aligned with Lurie, has raised $267,000 in a PAC to back Sherrill. Its PAC for Sherrill, along with its voter guide, has spent over $203,500 so far. Another PAC named Committee to Support Supervisor Stephen Sherrill spent $76,000 to support Sherrill. Its top donor is Diana L. Nelson, director of an investment firm, who gave $15,000. A labor PAC, Working Families for Stephen Sherrill for Supervisor 2026 , also recently jumped into the District 2 race, spending $18,465 for Sherrill. The PA...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "in-bad-budget-year-mayor-lurie-to-maintain-immigrant-legal-services-funding-2026",
-      "title": "In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/05/sf-budget-immigration-funding-rapid-response/",
-      "discoveryUrl": "https://missionlocal.org/feed/",
-      "discoverySource": "Mission Local",
-      "publisher": "Mission Local",
-      "publishedAt": "2026-05-28",
-      "topic": "economy",
-      "summary": "Mayor Lurie to maintain $20 million for legal services despite $600 million deficit. But will last year&#039;s emergency funds be renewed?",
-      "confidence": 0.82,
-      "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today The mayor’s office must cut $400 million in this year’s budget , but it won’t cut immigrant legal services and, Mayor Daniel Lurie&#8217;s office told Mission Local . The city spent about $17.9 million this year on services such as deportation defense and a rapid response network that verifies immigration arrests and emergencies. Next year it is budgeting for $18.2 million. “In this budget, we are standing up for San Francisco’s communities and our values,” Lurie said in a statement. “As we work to close a $600 million deficit and navigate cuts from the federal government, we are continuing to build on our investments in immigrant legal services because our immigrant community makes our city stronger.” Lariza Dugan-Cuadra, the executive director of CARECEN, which runs the San Francisco Immigrant Legal Defense Collaborative, a non-profit that provides legal services to detained immigrants , commended the move. “Today somebody got detained , our partners are responding, and we’d much rather be doing that than having to be at City Hall fighting for critical resources,” she said, speaking on Wednesday and referring to an immigration arrest in the Sunnyside neighborhood that day. In addition to the city’s budgeted spending, officials have made several one-time grants since the November 2024 election to help bolster immigrant legal services. That includes $878,000 approved by then-Mayor London Breed in 2024 (which Lurie declined to renew last year) and $3.5 million appropriated by the Board of Supervisors in October 2025, hours after President Donald Trump withdrew a threat to send a “surge” of federal agents to San Francisco. T...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "day-around-the-bay-wildfire-grows-in-livermore-2026-05-28",
       "title": "Day Around the Bay: Wildfire Grows In Livermore",
       "sourceType": "news",
@@ -341,6 +311,36 @@
       "summary": "A wildfire called the Tesla Fire, because it began near Tesla Road, has grown to three acres in Livermore; Mayor Lurie has promoted a new chief of staff from within; and Trump is now having the DOJ investigate E. Jean Carroll.",
       "confidence": 0.8,
       "excerpt": "27 May 2026 / SF News / Jay Barmann Day Around the Bay: Wildfire Grows In Livermore --> Local: Following the announcement of the resignation of his Chief of Staff Staci Slaughter, Mayor Daniel Lurie announced her replacement and two more promotions within City Hall. Deputy Chief of Staff Aly Bonde will become chief of staff, current liaison to the Board of Supervisors Adam Thongsavat will become her deputy, and Eileen Mariano is being elevated to policy chief. [ Chronicle ] A wildfire broke out in Livermore this afternoon, called the Tesla Fire because it began near Tesla and Cross roads, has grown to three acres and has burned a barn and an adjacent building. [ KTVU ] Since Oakland's speed cameras began issuing tickets in March, a total of 82,000 tickets have been issued. [ SFGate ] National: The Justice Department continues to do Trump's personal bidding, and now they are launching an investigation into E. Jean Carroll, the 82-year-old woman who won a $5 million judgement against Trump in a sex abuse case, and an $83 million defamation case against him. [ CNN ] Former First Lady Jill Biden said in a new interview that when she saw then-President Biden make his disastrous appearance in his only debate against Trump two years ago her first thought was \"He's having a stroke.\" [ New York Times ] Democrats may be dreaming, or maybe there's a chance that Talarico can win a Senate seat in Texas. [ NY Mag ] Video: This British YouTuber is traveling to every World Cup host city in the US and vlogging about their food, and he just toured San Francisco, hit up Swan Oyster Depot (because: Bourdain), had a super burrito at El Farolito, and had the chicken at Zuni Cafe, among other things. Top image: Photo of an earlier fire via Livermore-Pleasanton Fire Department Please enable...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "lurie-to-propose-cutting-cash-grants-for-free-city-college-students-by-a-third-2",
+      "title": "Lurie to Propose Cutting Cash Grants for Free City College Students By a Third",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/05/21/lurie-to-propose-cutting-cash-grants-for-free-city-college-students-by-a-third/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-05-21",
+      "topic": "transit",
+      "summary": "Supervisor Connie Chan held a hearing Wednesday where community members urged the Board of Supervisors to prevent Mayor Lurie from cutting a program by 30% that offers cash grants to low-income students through City College’s \"Free City” program.",
+      "confidence": 0.8,
+      "excerpt": "21 May 2026 / SF Politics / Leanne Maxwell Lurie to Propose Cutting Cash Grants for Free City College Students By a Third --> Supervisor Connie Chan held a hearing Wednesday where community members urged the Board of Supervisors to prevent Mayor Lurie from cutting a program by 30% that offers cash grants to low-income students through City College’s \"Free City” program. San Francisco Mayor Daniel Lurie’s new budget proposal, due June 1, will include a 30% cut to “Free City Cash Grants,” a component of City College’s “Free City” program, as the Chronicle reports . The cash grants program provides low-income City College students with funds matching their $46-per-credit fees, which the state had already covered, for expenses like housing, food, and books. Lurie’s proposed cuts, which would not impact the main Free City program, would reduce funding for cash grants from $9.3 million to $6.4 million. According to 48Hills , the cash grants program, which benefitted 6,000 low-income students last year, would violate a longstanding Memorandum of Understanding between the city and the school. As SFist reported at the time, former Supervisor Jane Kim introduced the proposal to create the Free City program back in 2016, which was approved in February 2017 by former Mayor Ed Lee. At the hearing Wednesday, dozens of students, alumni, and staff urged the Board of Supervisors Budget and Appropriations Committee to protect the full funding for the program, which has been under threat for at least the past two years . “Free City is the reason I can afford to attend City College,” said Angelica Campos, a student-elected representative on the College’s Board of Trustees, speaking to 48 Hills. “I am working, studying, and building a life in San Francisco, and even small costs can decid...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "over-4-million-pours-into-san-francisco-supervisor-election-much-of-it-from-outs",
+      "title": "Over $4 million pours into San Francisco supervisor election, much of it from outside PACs",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/05/sf-supervisor-election-campaign-finance/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-05-22",
+      "topic": "public_safety",
+      "summary": "Mayor Lurie’s allies, GrowSF, anti-worker group, and unions spending big money San Francisco&#039;s district races in June.",
+      "confidence": 0.82,
+      "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today Millions of dollars are flowing into San Francisco’s two June supervisor contests, and a substantial sum is coming from deep-pocketed political action committees. There are no fewer than eight PACs involved in the District 2 and District 4 races, and they’ve contributed a total of $2.1 million towards their preferred candidates, according to finance filings released Thursday evening. The third-party spending is eclipsing money directly raised from donors giving up to $500. In District 4, the PAC money is nearly four times as much as funds raised by candidates. Most of that PAC money is backing Alan Wong and Stephen Sherrill, the two incumbent supervisors who are facing challengers on June 2. In District 2, the PAC money backing Sherrill is coming from Mayor Daniel Lurie’s allies , political pressure group GrowSF , and an anti-worker PAC , among others. The PAC spending is more than what Sherrill has fundraised directly: He has raised $443,102 from donors, and the PACs are spending $663,000. Those groups are: SF Believes , a PAC that was created by Mayor Lurie’s allies , which has spent $201,000 to support Sherrill. GrowSF , a group closely aligned with Lurie, has raised $267,000 in a PAC to back Sherrill. Its PAC for Sherrill, along with its voter guide, has spent over $203,500 so far. Another PAC named Committee to Support Supervisor Stephen Sherrill spent $76,000 to support Sherrill. Its top donor is Diana L. Nelson, director of an investment firm, who gave $15,000. A labor PAC, Working Families for Stephen Sherrill for Supervisor 2026 , also recently jumped into the District 2 race, spending $18,465 for Sherrill. The PA...",
       "scrapeStatus": "scraped"
     },
     {
@@ -544,6 +544,21 @@
       "confidence": 0.78
     },
     {
+      "id": "mayor-lurie-celebrates-80-decline-in-speeding-after-one-year-of-san-francisco-s-",
+      "title": "Mayor Lurie Celebrates 80% Decline In Speeding After One Year Of San Francisco's First-In-State Traffic Safety Program",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/departments--office-mayor",
+      "discoveryUrl": "https://www.sf.gov/departments--office-mayor",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2026-04-29",
+      "topic": "transit",
+      "summary": "One year after implementing speed cameras, San Francisco achieved an 80% decline in speeding. Lurie also announced expansion of free and low-cost childcare with hundreds of new spots for families with infants and toddlers, and launched a new digital portal for faster, more transparent permitting.",
+      "confidence": 0.9,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "page returned bot verification challenge"
+    },
+    {
       "id": "mayor-lurie-celebrates-groundbreaking-of-improved-twin-peaks-promenade-https-www",
       "title": "Mayor Lurie Celebrates Groundbreaking Of Improved Twin Peaks Promenade | SF.gov",
       "sourceType": "official",
@@ -566,21 +581,6 @@
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Celebrates 80% Decline In Speeding After One Year Of San Francisco&#x27;s First-In-State Traffic Safety Program Office of the Mayor One Year After Launching Automated Speed Camera Pilot, New Data Shows Significant Reduction in Dangerous Speeding at Dozens of Locations; Delivers on Key Commitment in Mayor Lurie’s Street Safety Initiative, Keeping Streets Safer for All San Franciscans April 29, 2026 SAN FRANCISCO – Mayor Daniel Lurie today marked one year of San Francisco’s first-in-the-state automated speed camera enforcement program , which has spurred an 80% decline in speeding at 33 locations across the city where cameras are currently installed. New data from the San Francisco Municipal Transportation Authority (SFMTA) shows that after one year, the program has helped significantly change driver behavior, reducing dangerous incidents of speeding and making San Franciscans safer. The new data marks a significant milestone for Mayor Lurie’s Street Safety Initiative , a citywide effort launched last year make city streets safer for pedestrians, drivers, cyclists, transit riders, children, and seniors. In the initiative’s first 100 days, the city took significant steps on street safety, including publishing the new High Injury Network map and convening leaders from across agencies to coordinate citywide safety priorities. Public safety has been Mayor Lurie’s top priority, and crime dropped 25% citywide in 2025. “Public safety has always been my number one priority, and it’s clear after one year that this program is making San Franciscans safer,” said Mayor Lurie . “We are leading the way for the entire state, with proven strategies and data to hold us accountable. And the results are clear: Drivers are changing their behavior to drive more safely, kee...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-celebrates-80-decline-in-speeding-after-one-year-of-san-francisco-s-",
-      "title": "Mayor Lurie Celebrates 80% Decline In Speeding After One Year Of San Francisco's First-In-State Traffic Safety Program",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/departments--office-mayor",
-      "discoveryUrl": "https://www.sf.gov/departments--office-mayor",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF.gov",
-      "publishedAt": "2026-04-29",
-      "topic": "public_safety",
-      "summary": "Recent announcement from the mayor's office highlighted an 80% decline in speeding after one year of San Francisco's first-in-state traffic safety program. The mayor also announced expansion of free and low-cost childcare with hundreds of new spots for families with infants and toddlers in April 2026.",
-      "confidence": 0.88,
-      "scrapeStatus": "fetch_failed",
-      "scrapeError": "page returned bot verification challenge"
     },
     {
       "id": "san-francisco-mayor-daniel-lurie-announces-steven-betz-as-new-public-safety-chie",
@@ -1406,7 +1406,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-28T16:37:09.199Z"
+      "lastRefreshed": "2026-05-28T20:40:26.991Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1425,7 +1425,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-05-28T16:37:09.199Z"
+      "lastRefreshed": "2026-05-28T20:40:26.991Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -1502,7 +1502,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-28T16:37:09.199Z",
+      "lastRefreshed": "2026-05-28T20:40:26.991Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -1541,7 +1541,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-05-28T16:37:09.199Z"
+      "lastRefreshed": "2026-05-28T20:40:26.991Z"
     },
     {
       "id": "housing-permits-issued",
@@ -1629,7 +1629,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-05-28T16:37:09.199Z"
+      "lastRefreshed": "2026-05-28T20:40:26.991Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -1717,7 +1717,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-05-28T16:37:09.199Z"
+      "lastRefreshed": "2026-05-28T20:40:26.991Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -1736,7 +1736,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-05-28T16:37:09.199Z"
+      "lastRefreshed": "2026-05-28T20:40:26.991Z"
     }
   ],
   "topics": [
