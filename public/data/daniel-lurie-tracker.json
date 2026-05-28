@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-27T20:32:15.755Z",
+    "lastUpdated": "2026-05-28T04:44:38.062Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -311,6 +311,21 @@
       "summary": "Mayor Lurie’s allies, GrowSF, anti-worker group, and unions spending big money San Francisco&#039;s district races in June.",
       "confidence": 0.82,
       "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today Millions of dollars are flowing into San Francisco’s two June supervisor contests, and a substantial sum is coming from deep-pocketed political action committees. There are no fewer than eight PACs involved in the District 2 and District 4 races, and they’ve contributed a total of $2.1 million towards their preferred candidates, according to finance filings released Thursday evening. The third-party spending is eclipsing money directly raised from donors giving up to $500. In District 4, the PAC money is nearly four times as much as funds raised by candidates. Most of that PAC money is backing Alan Wong and Stephen Sherrill, the two incumbent supervisors who are facing challengers on June 2. In District 2, the PAC money backing Sherrill is coming from Mayor Daniel Lurie’s allies , political pressure group GrowSF , and an anti-worker PAC , among others. The PAC spending is more than what Sherrill has fundraised directly: He has raised $443,102 from donors, and the PACs are spending $663,000. Those groups are: SF Believes , a PAC that was created by Mayor Lurie’s allies , which has spent $201,000 to support Sherrill. GrowSF , a group closely aligned with Lurie, has raised $267,000 in a PAC to back Sherrill. Its PAC for Sherrill, along with its voter guide, has spent over $203,500 so far. Another PAC named Committee to Support Supervisor Stephen Sherrill spent $76,000 to support Sherrill. Its top donor is Diana L. Nelson, director of an investment firm, who gave $15,000. A labor PAC, Working Families for Stephen Sherrill for Supervisor 2026 , also recently jumped into the District 2 race, spending $18,465 for Sherrill. The PA...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "day-around-the-bay-wildfire-grows-in-livermore-2026-05-28",
+      "title": "Day Around the Bay: Wildfire Grows In Livermore",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/05/27/wildfire-grows-in-livermore/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-05-28",
+      "topic": "housing",
+      "summary": "A wildfire called the Tesla Fire, because it began near Tesla Road, has grown to three acres in Livermore; Mayor Lurie has promoted a new chief of staff from within; and Trump is now having the DOJ investigate E. Jean Carroll.",
+      "confidence": 0.8,
+      "excerpt": "27 May 2026 / SF News / Jay Barmann Day Around the Bay: Wildfire Grows In Livermore --> Local: Following the announcement of the resignation of his Chief of Staff Staci Slaughter, Mayor Daniel Lurie announced her replacement and two more promotions within City Hall. Deputy Chief of Staff Aly Bonde will become chief of staff, current liaison to the Board of Supervisors Adam Thongsavat will become her deputy, and Eileen Mariano is being elevated to policy chief. [ Chronicle ] A wildfire broke out in Livermore this afternoon, called the Tesla Fire because it began near Tesla and Cross roads, has grown to three acres and has burned a barn and an adjacent building. [ KTVU ] Since Oakland's speed cameras began issuing tickets in March, a total of 82,000 tickets have been issued. [ SFGate ] National: The Justice Department continues to do Trump's personal bidding, and now they are launching an investigation into E. Jean Carroll, the 82-year-old woman who won a $5 million judgement against Trump in a sex abuse case, and an $83 million defamation case against him. [ CNN ] Former First Lady Jill Biden said in a new interview that when she saw then-President Biden make his disastrous appearance in his only debate against Trump two years ago her first thought was \"He's having a stroke.\" [ New York Times ] Democrats may be dreaming, or maybe there's a chance that Talarico can win a Senate seat in Texas. [ NY Mag ] Video: This British YouTuber is traveling to every World Cup host city in the US and vlogging about their food, and he just toured San Francisco, hit up Swan Oyster Depot (because: Bourdain), had a super burrito at El Farolito, and had the chicken at Zuni Cafe, among other things. Top image: Photo of an earlier fire via Livermore-Pleasanton Fire Department Please enable...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1067,16 +1082,6 @@
       "topic": "homelessness",
       "summary": "Mayor Lurie, Supervisor Mahmood Unveil Plan to Create Housing, Jobs &nbsp;&nbsp; SF.gov",
       "confidence": 0.78
-    },
-    {
-      "id": "mayor-lurie-first-lady-prowda-announce-citywide-day-of-service-sf-gov-2026-02-25",
-      "title": "Mayor Lurie, First Lady Prowda Announce Citywide Day of Service - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNUTdXYkpJWUlvS3VMT1czNnlZQUFiV1ZsTlpIQ3o2M0h6RzJ1NDRZMzdHOThQbVRsVFl5dGFlWDM1SWlqd0ozSlVBS1BRUUZQem9EbXpWYk5icTFGQjlZWG5rbkExaDNOSlpHWUZTVUpqVVJrTGYzTlI5WFNpSjlQRmRIdlI1NUFXbWU1SlFLWQ?oc=5",
-      "publishedAt": "2026-02-25",
-      "topic": "city_government",
-      "summary": "Mayor Lurie, First Lady Prowda Announce Citywide Day of Service &nbsp;&nbsp; SF.gov",
-      "confidence": 0.68
     }
   ],
   "promises": [
@@ -1377,7 +1382,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-27T20:32:15.755Z"
+      "lastRefreshed": "2026-05-28T04:44:38.062Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1396,7 +1401,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-05-27T20:32:15.755Z"
+      "lastRefreshed": "2026-05-28T04:44:38.062Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -1473,7 +1478,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-27T20:32:15.755Z",
+      "lastRefreshed": "2026-05-28T04:44:38.062Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -1495,7 +1500,7 @@
       "observations": [],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-05-27T20:32:15.755Z"
+      "lastRefreshed": "2026-05-28T04:44:38.062Z"
     },
     {
       "id": "housing-permits-issued",
@@ -1583,7 +1588,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-05-27T20:32:15.755Z"
+      "lastRefreshed": "2026-05-28T04:44:38.062Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -1671,7 +1676,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-05-27T20:32:15.755Z"
+      "lastRefreshed": "2026-05-28T04:44:38.062Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -1690,7 +1695,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-05-27T20:32:15.755Z"
+      "lastRefreshed": "2026-05-28T04:44:38.062Z"
     }
   ],
   "topics": [
