@@ -1,20 +1,27 @@
 export function buildChartsPageModel(data) {
   return [
-    buildMetricLineChart(data, 'homeless-encampment-311-requests', '311 encampment requests trend'),
+    buildBestMetricLineChart(data),
     buildPromiseProgressChart(data),
     buildPromiseStatusChart(data),
   ].filter(Boolean);
 }
 
-function buildMetricLineChart(data, metricId, fallbackTitle) {
-  const metric = (data.metrics || []).find((item) => item.id === metricId);
+function buildBestMetricLineChart(data) {
+  const metric = [...(data.metrics || [])]
+    .filter((item) => item?.observations?.length)
+    .sort((left, right) => (right.observations?.length || 0) - (left.observations?.length || 0))[0];
+
   if (!metric?.observations?.length) return null;
 
   return {
     id: `metric-${metric.id}`,
-    title: fallbackTitle,
+    title: `${metric.label} trend`,
     chartType: 'line',
     rationale: `${metric.source}. Built from tracked metric observations already stored in the dashboard.`,
+    valueLabel: metric.label,
+    valueFormat: 'number',
+    countLabelSingular: 'observation',
+    xAxisLabel: 'Observation date',
     metricIds: [metric.id],
     sourceTitles: [metric.source],
     data: {
@@ -38,6 +45,10 @@ function buildPromiseProgressChart(data) {
     title: 'Approved promise progress',
     chartType: 'bar',
     rationale: 'Only reviewed promises with numeric progress are shown, so the bars stay evidence-backed.',
+    valueLabel: 'Progress (%)',
+    valueFormat: 'percent',
+    countLabelSingular: 'promise',
+    xAxisLabel: 'Approved promise',
     metricIds: [],
     sourceTitles: [],
     data: {
@@ -63,6 +74,8 @@ function buildPromiseStatusChart(data) {
     title: 'Promise status mix',
     chartType: 'donut',
     rationale: 'This gives a quick health check on the portfolio before drilling into individual commitments.',
+    countLabelSingular: 'status',
+    valueLabel: 'Promise count',
     metricIds: [],
     sourceTitles: [],
     data: {
