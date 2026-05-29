@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-29T16:11:55.155Z",
+    "lastUpdated": "2026-05-29T20:40:55.033Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -341,6 +341,36 @@
       "summary": "Mayor Lurie’s allies, GrowSF, anti-worker group, and unions spending big money San Francisco&#039;s district races in June.",
       "confidence": 0.82,
       "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today Millions of dollars are flowing into San Francisco’s two June supervisor contests, and a substantial sum is coming from deep-pocketed political action committees. There are no fewer than eight PACs involved in the District 2 and District 4 races, and they’ve contributed a total of $2.1 million towards their preferred candidates, according to finance filings released Thursday evening. The third-party spending is eclipsing money directly raised from donors giving up to $500. In District 4, the PAC money is nearly four times as much as funds raised by candidates. Most of that PAC money is backing Alan Wong and Stephen Sherrill, the two incumbent supervisors who are facing challengers on June 2. In District 2, the PAC money backing Sherrill is coming from Mayor Daniel Lurie’s allies , political pressure group GrowSF , and an anti-worker PAC , among others. The PAC spending is more than what Sherrill has fundraised directly: He has raised $443,102 from donors, and the PACs are spending $663,000. Those groups are: SF Believes , a PAC that was created by Mayor Lurie’s allies , which has spent $201,000 to support Sherrill. GrowSF , a group closely aligned with Lurie, has raised $267,000 in a PAC to back Sherrill. Its PAC for Sherrill, along with its voter guide, has spent over $203,500 so far. Another PAC named Committee to Support Supervisor Stephen Sherrill spent $76,000 to support Sherrill. Its top donor is Diana L. Nelson, director of an investment firm, who gave $15,000. A labor PAC, Working Families for Stephen Sherrill for Supervisor 2026 , also recently jumped into the District 2 race, spending $18,465 for Sherrill. The PA...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-releases-his-budget-next-week-here-s-how-trump-royally-screwed-it-20",
+      "title": "Mayor Lurie releases his budget next week. Here’s how Trump royally screwed it",
+      "sourceType": "news",
+      "url": "https://sfstandard.com/2026/05/29/mayor-lurie-releases-budget-next-week-s-trump-royally-screwed/",
+      "discoveryUrl": "https://sfstandard.com/2026/05/29/mayor-lurie-releases-budget-next-week-s-trump-royally-screwed/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "San Francisco Standard",
+      "publishedAt": "2026-05-29",
+      "topic": "homelessness",
+      "summary": "San Francisco’s $600 million deficit would’ve been halved without D.C.’s policy changes, and that’s not the end of it.",
+      "confidence": 0.9,
+      "excerpt": "More and more, San Francisco’s 2026 budget process is resembling a slasher flick. Shadows are dancing across City Hall’s marble-wrought grand staircase, with President Donald Trump threatening to leap into view, ready to gouge hundreds of millions from the city’s coffers. The threat is real: Roughly $2 billion of San Francisco’s $16 billion budget flows from Washington, funding hundreds of grant programs across nearly every city department. Trump has already started turning off the tap. With a $643 million deficit looming, Mayor Daniel Lurie has days to reveal how the city absorbs the pain — and who feels it most. Trump has already made real cuts to healthcare. And while San Francisco has fought back — filing more than a dozen lawsuits against the administration and winning most of them so far — a single appellate loss could imperil billions. Fear that Trump may further upend any number of federal revenue streams undergirds every hard fiscal choice in front of Lurie. On June 1, the mayor will propose his draft budget to the Board of Supervisors and voters, revealing the true extent of the bloodletting. Trump’s policy choices are projected to disenroll up to 45,000 San Franciscans from healthcare and tens of thousands from food stamps. To protect those programs, Lurie is trimming across all 55 city departments rather than gutting public health and human services, his budget director, Sophia Kittler, told The Standard. “This is a loss to the whole city,” Kittler said. “We’re treating it as a citywide deficit.” The impacts are already here. Government layoffs loom, and nonprofit social safety-net programs know they face the chopping block. In anticipation of deep layoffs, labor has signaled a historic general strike is possible next year. In the meantime, tens of thousa...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "measure-to-fund-muni-with-new-tax-gets-enough-signatures-for-november-election-2",
+      "title": "Measure to fund Muni with new tax gets enough signatures for November election",
+      "sourceType": "news",
+      "url": "https://sfstandard.com/2026/05/28/san-francisco-muni-parcel-tax-measure-signatures/",
+      "discoveryUrl": "https://sfstandard.com/2026/05/28/san-francisco-muni-parcel-tax-measure-signatures/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "San Francisco Standard",
+      "publishedAt": "2026-05-28",
+      "topic": "transit",
+      "summary": "Mayor Daniel Lurie supports the ballot measure that would impose a parcel tax on homeowners and landlords.",
+      "confidence": 0.9,
+      "excerpt": "Muni’s fate will be in the hands of voters this fall, after a petition for a new parcel tax to fund the transit system gathered enough signatures to qualify for the ballot, Mayor Daniel Lurie said Thursday. The Stronger Muni for All Campaign gathered 18,469 signatures, well above the 10,000 needed to qualify. Voting officials will verify the total and eliminate invalid signatures. “We’re going to continue to lead the nation in having a world-class transit system,” Lurie said. The parcel tax is one of two measures San Francisco voters will decide in November to bail out mass transit. The other is a five-county regional sales tax that would raise nearly $1 billion annually for BART, Muni, Caltrain, and other Bay Area transit agencies. Together, the measures are meant to address a $307 million budget shortfall at the San Francisco Municipal Transportation Agency stemming from lagging ridership post-pandemic and the expiration of emergency federal funding. The parcel tax alone would generate $183 million annually. Most homeowners would pay a base rate of $129 per year. Apartment building owners would pay a $249 base tax, with increases based on square footage. Commercial landlords face a $799 base tax plus size-based increases. Owners of rent-controlled buildings can pass through up to 50% of the tax to tenants, capped at $65 per unit per year. Lurie has been among the measure’s most prominent backers , arguing that a healthy Muni system is key to the city’s economic recovery. The stakes are steep. Muni has warned that if one or both measures don’t pass, it will slash service as soon as September 2027 — ending regular service at 9 p.m., cutting up to 20 bus lines, and running fewer buses on the remaining lines.",
       "scrapeStatus": "scraped"
     },
     {
@@ -817,7 +847,7 @@
     },
     {
       "id": "these-billionaires-were-against-daniel-lurie-now-they-re-for-him-to-the-tune-of-",
-      "title": "These billionaires were against Daniel Lurie. Now they're for him—to the tune of $4 million",
+      "title": "These billionaires were against Daniel Lurie. Now they're for him—to the tune of $4 million.",
       "sourceType": "news",
       "url": "https://missionlocal.org/2026/04/sf-money-donors-june-november-election/",
       "discoveryUrl": "https://missionlocal.org/2026/04/sf-money-donors-june-november-election/",
@@ -825,8 +855,8 @@
       "publisher": "Mission Local",
       "publishedAt": "2026-04-14",
       "topic": "economy",
-      "summary": "Billionaires Michael Moritz and Chris Larsen, who spent $1.5 million to defeat Lurie in 2024, are now bankrolling his agenda with major donations. Moritz pledged $2 million for charter reform efforts that would shift powers from the Board of Supervisors to the mayor. The measures would also make it more difficult to qualify ballot measures by raising thresholds.",
-      "confidence": 0.85
+      "summary": "Billionaires Michael Moritz and Chris Larsen, who spent $1.5 million against Lurie in 2024, have pledged more than $4 million to support his charter reform agenda. The proposed measures would shift powers from the Board of Supervisors and commissions to the mayor and city administrator, and make it harder to qualify ballot measures.",
+      "confidence": 0.9
     },
     {
       "id": "san-francisco-mayor-daniel-lurie-city-leaders-announce-1-day-ceasefire-to-curb-g",
@@ -1067,29 +1097,6 @@
       "topic": "city_government",
       "summary": "Mayor Lurie ordered city departments to cut $100 million in personnel spending, potentially eliminating up to 500 jobs, as the city faces an $877 million deficit. Department heads must submit staffing recommendations by March 12. Workers expressed concern about impacts to climate action plan work, public charging infrastructure, and building electrification. This is the second year of layoffs under Lurie's administration.",
       "confidence": 0.9
-    },
-    {
-      "id": "sf-mayor-to-introduce-measure-to-prevent-muni-service-cuts-2026-03-03",
-      "title": "SF mayor to introduce measure to prevent Muni service cuts",
-      "sourceType": "news",
-      "url": "https://www.nbcbayarea.com/news/local/sf-measure-muni-service-cuts/4046023/",
-      "discoveryUrl": "https://www.nbcbayarea.com/news/local/sf-measure-muni-service-cuts/4046023/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "NBC Bay Area",
-      "publishedAt": "2026-03-03",
-      "topic": "transit",
-      "summary": "Mayor Lurie announced a new measure for the November ballot to prevent cuts to Muni service. The SFMTA plans service cuts in June 2026 due to the budget crisis with warnings of more cuts to come. If approved, the measure would stop service cuts, invest in safer and more affordable transit, and reduce traffic congestion.",
-      "confidence": 0.9
-    },
-    {
-      "id": "san-francisco-mayor-daniel-lurie-orders-100-million-in-budget-cuts-could-lead-to",
-      "title": "San Francisco Mayor Daniel Lurie orders $100 million in budget cuts; could lead to elimination of 500 jobs - ABC7 San Francisco",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQZmxHTXd2a2o4OXhPQ2Y2LU1VTW1oSVZGREpxWUFSdEFSUlkydGxHRGN5NjFDSnRXdEpHdlFQeC1iQ2lidWs2akVINm94UTRONEhRQVI5U3M1elRIQXF4QmttTy0zUlUzXzY3dHpvUlhUUmZINEVwTmtNNnNfWXVsZHAyN24xM25xUEVHbW5xSFZhNGFwNG9ELWcxeGpkQzd5dGpLUERSZW5Ob1pMTjRpR1JQMjh4ODRRX09kbkRmTHBtWHpFRjZob2dHSENBS2JtREE3VUdfczBxYi1ZdHfSAeMBQVVfeXFMTldhOVAydC1qd3ZfdlQyR050eUhNUmV0UWg5TnpiTGN3X2Y2Yi05NWt1eUxCY0xtUWVDWldZd1lMVXA3UVRpUDlwQmJKYkZoYnlfUVViYlZwVVMxZWxzZnhwVmIxM1NQck95MWxoQlVNSFY4R0NuZDNPaDFoRGZpaUZQdHlpbWV0SjJaN0k0cWphaW1rU3hzamtHbFN0ejJrczcyV1JOaFN6eWlURGRwSGc1TnBWUGo3RHFMYndRLXFYcDJ5aEM1QjA4SkY0X0RHajYxNmEyZ1l1Tk0tRlVNVWdjeDQ?oc=5",
-      "publishedAt": "2026-03-03",
-      "topic": "economy",
-      "summary": "San Francisco Mayor Daniel Lurie orders $100 million in budget cuts; could lead to elimination of 500 jobs &nbsp;&nbsp; ABC7 San Francisco",
-      "confidence": 0.78
     }
   ],
   "promises": [
@@ -1404,7 +1411,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-29T16:11:55.155Z"
+      "lastRefreshed": "2026-05-29T20:40:55.033Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1423,7 +1430,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-05-29T16:11:55.155Z"
+      "lastRefreshed": "2026-05-29T20:40:55.033Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -1433,74 +1440,13 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": 292,
-      "latest": 216,
+      "baseline": null,
+      "latest": null,
       "direction": "down_is_good",
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 292
-        },
-        {
-          "date": "2025-02-01",
-          "value": 274
-        },
-        {
-          "date": "2025-03-01",
-          "value": 342
-        },
-        {
-          "date": "2025-04-01",
-          "value": 275
-        },
-        {
-          "date": "2025-05-01",
-          "value": 273
-        },
-        {
-          "date": "2025-06-01",
-          "value": 301
-        },
-        {
-          "date": "2025-07-01",
-          "value": 239
-        },
-        {
-          "date": "2025-08-01",
-          "value": 294
-        },
-        {
-          "date": "2025-09-01",
-          "value": 219
-        },
-        {
-          "date": "2025-10-01",
-          "value": 235
-        },
-        {
-          "date": "2025-11-01",
-          "value": 300
-        },
-        {
-          "date": "2025-12-01",
-          "value": 148
-        },
-        {
-          "date": "2026-01-01",
-          "value": 221
-        },
-        {
-          "date": "2026-02-01",
-          "value": 220
-        },
-        {
-          "date": "2026-03-01",
-          "value": 216
-        }
-      ],
-      "status": "active",
+      "observations": [],
+      "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-29T16:11:55.155Z",
+      "lastRefreshed": "2026-05-29T20:40:55.033Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -1539,7 +1485,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-05-29T16:11:55.155Z"
+      "lastRefreshed": "2026-05-29T20:40:55.033Z"
     },
     {
       "id": "housing-permits-issued",
@@ -1627,7 +1573,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-05-29T16:11:55.155Z"
+      "lastRefreshed": "2026-05-29T20:40:55.033Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -1715,7 +1661,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-05-29T16:11:55.155Z"
+      "lastRefreshed": "2026-05-29T20:40:55.033Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -1734,7 +1680,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-05-29T16:11:55.155Z"
+      "lastRefreshed": "2026-05-29T20:40:55.033Z"
     }
   ],
   "topics": [
@@ -1784,7 +1730,7 @@
       "promiseCount": 1,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
