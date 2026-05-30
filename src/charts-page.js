@@ -69,6 +69,8 @@ function render() {
       <nav>
         <a class="brand" href="/">${icon.bot} Politics Tracker MVP</a>
         <div class="nav-links">
+          <a href="/promises.html">Promises</a>
+          <a href="/news.html">Major News</a>
           <a href="/charts.html">Charts</a>
           <a href="/rss.html">RSS</a>
           <a href="/ai-scrape.html">AI Scrape</a>
@@ -121,7 +123,8 @@ function renderLineChart(chart) {
   const metricContext = resolvePrimaryMetric(chart);
   const valueLabel = chart.valueLabel || metricContext?.label || 'Value';
   const xAxisLabel = chart.xAxisLabel || 'Observation date';
-  const plot = { left: 88, right: 28, top: 20, bottom: 62, width: 644, height: 278 };
+  const yAxisTitleClass = valueLabel.length > 34 ? 'chart-axis-title chart-axis-title-compact' : 'chart-axis-title';
+  const plot = { left: 130, right: 54, top: 36, bottom: 118, width: 994, height: 396 };
   const orderedPoints = sortLinePoints(chart.data.points);
   const max = Math.max(...orderedPoints.map((point) => point.value));
   const min = Math.min(...orderedPoints.map((point) => point.value));
@@ -132,10 +135,10 @@ function renderLineChart(chart) {
     return { ...point, x, y };
   });
   const linePoints = scaledPoints.map((point) => `${point.x},${point.y}`).join(' ');
-  const yTicks = [max, min + (range / 2), min].map((value, index) => ({
+  const yTicks = buildNumericTicks(min, max, 5).map((value, index, values) => ({
     key: `y-${index}`,
     value,
-    y: plot.top + (index / 2) * plot.height,
+    y: plot.top + ((values[0] - value) / Math.max(values[0] - values.at(-1), 1)) * plot.height,
   }));
   const xLabelPoints = chooseXAxisLabels(scaledPoints);
   const labels = [scaledPoints[0], scaledPoints[scaledPoints.length - 1]]
@@ -152,22 +155,22 @@ function renderLineChart(chart) {
       <strong>${scaledPoints.length}</strong>
     </div>
     <p>${chart.rationale}</p>
-    <svg class="real-chart-svg line-chart-svg" viewBox="0 0 760 360" role="img" aria-label="${chart.title}">
-      <text x="${plot.left + (plot.width / 2)}" y="346" text-anchor="middle" class="chart-axis-title">${escapeHtml(xAxisLabel)}</text>
-      <text x="22" y="${plot.top + (plot.height / 2)}" text-anchor="middle" class="chart-axis-title" transform="rotate(-90 22 ${plot.top + (plot.height / 2)})">${escapeHtml(valueLabel)}</text>
+    <svg class="real-chart-svg line-chart-svg" viewBox="0 0 1200 620" role="img" aria-label="${chart.title}">
+      <text x="${plot.left + (plot.width / 2)}" y="592" text-anchor="middle" class="chart-axis-title">${escapeHtml(xAxisLabel)}</text>
+      <text x="38" y="${plot.top + (plot.height / 2)}" text-anchor="middle" class="${yAxisTitleClass}" transform="rotate(-90 38 ${plot.top + (plot.height / 2)})">${escapeHtml(valueLabel)}</text>
       ${yTicks.map((tick) => `<g>
         <line x1="${plot.left}" y1="${tick.y}" x2="${plot.left + plot.width}" y2="${tick.y}" class="chart-gridline"></line>
-        <line x1="${plot.left - 8}" y1="${tick.y}" x2="${plot.left}" y2="${tick.y}" class="chart-tick"></line>
-        <text x="${plot.left - 14}" y="${tick.y + 5}" text-anchor="end" class="chart-axis-label">${formatChartValue(tick.value, chart)}</text>
+        <line x1="${plot.left - 12}" y1="${tick.y}" x2="${plot.left}" y2="${tick.y}" class="chart-tick"></line>
+        <text x="${plot.left - 18}" y="${tick.y + 6}" text-anchor="end" class="chart-axis-label">${formatChartValue(tick.value, chart)}</text>
       </g>`).join('')}
       <line x1="${plot.left}" y1="${plot.top + plot.height}" x2="${plot.left + plot.width}" y2="${plot.top + plot.height}" class="chart-axis chart-axis-strong"></line>
       <line x1="${plot.left}" y1="${plot.top}" x2="${plot.left}" y2="${plot.top + plot.height}" class="chart-axis chart-axis-strong"></line>
       ${xLabelPoints.map((point) => `<g>
-        <line x1="${point.x}" y1="${plot.top + plot.height}" x2="${point.x}" y2="${plot.top + plot.height + 8}" class="chart-tick"></line>
-        <text x="${point.x}" y="${plot.top + plot.height + 28}" text-anchor="middle" class="chart-axis-label">${escapeHtml(formatShortDate(point.label))}</text>
+        <line x1="${point.x}" y1="${plot.top + plot.height}" x2="${point.x}" y2="${plot.top + plot.height + 10}" class="chart-tick"></line>
+        <text x="${point.x}" y="${plot.top + plot.height + 34}" text-anchor="middle" class="chart-axis-label">${escapeHtml(formatShortDate(point.label))}</text>
       </g>`).join('')}
-      <polyline points="${linePoints}" fill="none" stroke="currentColor" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></polyline>
-      ${scaledPoints.map((point, index) => `<circle cx="${point.x}" cy="${point.y}" r="${index === scaledPoints.length - 1 ? 6 : 4.5}"></circle>`).join('')}
+      <polyline points="${linePoints}" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"></polyline>
+      ${scaledPoints.map((point, index) => `<circle cx="${point.x}" cy="${point.y}" r="${index === scaledPoints.length - 1 ? 7.5 : 5.5}"></circle>`).join('')}
     </svg>
     <div class="chart-stats">
       ${metricContext?.label ? `<span>${escapeHtml(metricContext.label)}</span>` : ''}
@@ -182,20 +185,24 @@ function renderLineChart(chart) {
 function renderBarChart(chart) {
   const metricContext = resolvePrimaryMetric(chart);
   const valueLabel = chart.valueLabel || metricContext?.label || 'Value';
+  const metricLabelChip = metricContext?.label && metricContext.label !== valueLabel
+    ? `<span>${escapeHtml(metricContext.label)}</span>`
+    : '';
   const xAxisLabel = chart.xAxisLabel || 'Observation period';
+  const yAxisTitleClass = valueLabel.length > 32 ? 'chart-axis-title chart-axis-title-compact' : 'chart-axis-title';
   const hasDenseTimeSeries = chart.data.bars.length > 8;
   const plot = hasDenseTimeSeries
-    ? { left: 76, right: 20, top: 20, bottom: 72, width: 712, height: 250 }
-    : { left: 72, right: 20, top: 20, bottom: 62, width: 648, height: 238 };
+    ? { left: 132, right: 54, top: 36, bottom: 118, width: 994, height: 392 }
+    : { left: 126, right: 54, top: 36, bottom: 110, width: 960, height: 380 };
   const maxValue = Math.max(...chart.data.bars.map((bar) => bar.value), 0);
-  const midpoint = maxValue / 2;
-  const yTicks = [maxValue, midpoint, 0].map((value, index) => ({
+  const yTicks = buildNumericTicks(0, maxValue, 5).map((value, index, values) => ({
     value,
-    y: plot.top + (index / 2) * plot.height,
+    y: plot.top + ((values[0] - value) / Math.max(values[0] - values.at(-1), 1)) * plot.height,
   }));
-  const barWidth = Math.max((plot.width / Math.max(chart.data.bars.length, 1)) - 8, 14);
+  const slotWidth = plot.width / Math.max(chart.data.bars.length, 1);
+  const barWidth = Math.max(slotWidth - 14, hasDenseTimeSeries ? 36 : 52);
   const bars = chart.data.bars.map((bar, index) => {
-    const x = plot.left + (index * (plot.width / Math.max(chart.data.bars.length, 1))) + 4;
+    const x = plot.left + (index * slotWidth) + ((slotWidth - barWidth) / 2);
     const height = maxValue ? (bar.value / maxValue) * plot.height : 0;
     const y = plot.top + plot.height - height;
     return { ...bar, x, y, width: barWidth, height };
@@ -210,25 +217,25 @@ function renderBarChart(chart) {
       <strong>${chart.data.bars.length}</strong>
     </div>
     <p>${chart.rationale}</p>
-    <svg class="real-chart-svg bar-chart-svg" viewBox="0 0 820 340" role="img" aria-label="${chart.title}">
-      <text x="${plot.left + (plot.width / 2)}" y="324" text-anchor="middle" class="chart-axis-title">${escapeHtml(xAxisLabel)}</text>
-      <text x="20" y="${plot.top + (plot.height / 2)}" text-anchor="middle" class="chart-axis-title" transform="rotate(-90 20 ${plot.top + (plot.height / 2)})">${escapeHtml(valueLabel)}</text>
+    <svg class="real-chart-svg bar-chart-svg" viewBox="0 0 1200 620" role="img" aria-label="${chart.title}">
+      <text x="${plot.left + (plot.width / 2)}" y="592" text-anchor="middle" class="chart-axis-title">${escapeHtml(xAxisLabel)}</text>
+      <text x="40" y="${plot.top + (plot.height / 2)}" text-anchor="middle" class="${yAxisTitleClass}" transform="rotate(-90 40 ${plot.top + (plot.height / 2)})">${escapeHtml(valueLabel)}</text>
       ${yTicks.map((tick) => `<g>
         <line x1="${plot.left}" y1="${tick.y}" x2="${plot.left + plot.width}" y2="${tick.y}" class="chart-gridline"></line>
-        <line x1="${plot.left - 8}" y1="${tick.y}" x2="${plot.left}" y2="${tick.y}" class="chart-tick"></line>
-        <text x="${plot.left - 14}" y="${tick.y + 5}" text-anchor="end" class="chart-axis-label">${formatBarValue(tick.value, chart)}</text>
+        <line x1="${plot.left - 12}" y1="${tick.y}" x2="${plot.left}" y2="${tick.y}" class="chart-tick"></line>
+        <text x="${plot.left - 18}" y="${tick.y + 6}" text-anchor="end" class="chart-axis-label">${formatBarValue(tick.value, chart)}</text>
       </g>`).join('')}
       <line x1="${plot.left}" y1="${plot.top + plot.height}" x2="${plot.left + plot.width}" y2="${plot.top + plot.height}" class="chart-axis chart-axis-strong"></line>
       <line x1="${plot.left}" y1="${plot.top}" x2="${plot.left}" y2="${plot.top + plot.height}" class="chart-axis chart-axis-strong"></line>
-      ${bars.map((bar) => `<rect x="${bar.x}" y="${bar.y}" width="${bar.width}" height="${Math.max(bar.height, 2)}" rx="4" class="chart-bar"></rect>`).join('')}
+      ${bars.map((bar) => `<rect x="${bar.x}" y="${bar.y}" width="${bar.width}" height="${Math.max(bar.height, 2)}" rx="8" class="chart-bar"></rect>`).join('')}
       ${xLabels.map((bar) => `<g>
-        <line x1="${bar.x + (bar.width / 2)}" y1="${plot.top + plot.height}" x2="${bar.x + (bar.width / 2)}" y2="${plot.top + plot.height + 8}" class="chart-tick"></line>
-        <text x="${bar.x + (bar.width / 2)}" y="${plot.top + plot.height + 30}" text-anchor="middle" class="chart-axis-label">${escapeHtml(formatCategoryLabel(bar.label))}</text>
+        <line x1="${bar.x + (bar.width / 2)}" y1="${plot.top + plot.height}" x2="${bar.x + (bar.width / 2)}" y2="${plot.top + plot.height + 10}" class="chart-tick"></line>
+        <text x="${bar.x + (bar.width / 2)}" y="${plot.top + plot.height + 34}" text-anchor="middle" class="chart-axis-label">${escapeHtml(formatCategoryLabel(bar.label))}</text>
       </g>`).join('')}
     </svg>
     <div class="chart-stats">
       <span>${escapeHtml(valueLabel)}</span>
-      ${metricContext?.label ? `<span>${escapeHtml(metricContext.label)}</span>` : ''}
+      ${metricLabelChip}
       ${metricContext?.source ? `<span>${escapeHtml(metricContext.source)}</span>` : ''}
       ${rangeLabel ? `<span>${escapeHtml(rangeLabel)}</span>` : ''}
       <span>${formatCountLabel(bars.length, chart.countLabelSingular || 'bar')}</span>
@@ -420,8 +427,7 @@ function formatCategoryLabel(label) {
 
 function chooseBarXAxisLabels(bars) {
   if (bars.length <= 6) return bars;
-  const step = Math.ceil(bars.length / 5);
-  return bars.filter((bar, index) => index % step === 0 || index === bars.length - 1);
+  return chooseEvenlySpacedItems(bars, Math.min(6, bars.length));
 }
 
 function sortLinePoints(points) {
@@ -434,10 +440,49 @@ function sortLinePoints(points) {
 }
 
 function chooseXAxisLabels(points) {
-  if (points.length <= 2) return points;
-  const middleIndex = Math.floor((points.length - 1) / 2);
-  return [points[0], points[middleIndex], points[points.length - 1]]
-    .filter((point, index, items) => items.findIndex((candidate) => candidate.x === point.x) === index);
+  if (points.length <= 6) return points;
+  return chooseEvenlySpacedItems(points, Math.min(6, points.length));
+}
+
+function chooseEvenlySpacedItems(items, count) {
+  if (items.length <= count) return items;
+  const lastIndex = items.length - 1;
+  const selected = [];
+  for (let index = 0; index < count; index += 1) {
+    const itemIndex = Math.round((index / (count - 1)) * lastIndex);
+    selected.push(items[itemIndex]);
+  }
+  return selected.filter((item, index, list) => list.findIndex((candidate) => candidate === item) === index);
+}
+
+function buildNumericTicks(min, max, desiredCount = 5) {
+  if (!Number.isFinite(min) || !Number.isFinite(max)) return [0];
+  if (min === max) {
+    return Array.from({ length: desiredCount }, (_, index) => {
+      const offset = (desiredCount - 1 - index) * Math.max(Math.abs(max) * 0.05, 1);
+      return Number((max - offset).toFixed(6));
+    });
+  }
+
+  const span = max - min;
+  const roughStep = span / Math.max(desiredCount - 1, 1);
+  const magnitude = 10 ** Math.floor(Math.log10(Math.max(roughStep, 1)));
+  const normalized = roughStep / magnitude;
+  const niceFactor = normalized <= 1 ? 1 : normalized <= 2 ? 2 : normalized <= 2.5 ? 2.5 : normalized <= 5 ? 5 : 10;
+  const step = niceFactor * magnitude;
+  const top = Math.ceil(max / step) * step;
+  const bottom = Math.floor(min / step) * step;
+  const ticks = [];
+
+  for (let value = top; value >= bottom - (step / 2); value -= step) {
+    ticks.push(Number(value.toFixed(6)));
+  }
+
+  while (ticks.length < desiredCount) {
+    ticks.push(Number((ticks.at(-1) - step).toFixed(6)));
+  }
+
+  return ticks;
 }
 
 function polarToCartesian(centerX, centerY, radius, angle) {

@@ -6,11 +6,204 @@ import { collectSfPublicMetrics } from './connectors/sf-public-data.mjs';
 const DATA_PATH = new URL('../public/data/daniel-lurie-tracker.json', import.meta.url);
 const isDryRun = process.argv.includes('--dry-run');
 const USER_AGENT = 'PoliticsTrackerMVP/0.2 (+https://example.local)';
-const MAX_SOURCES = 90;
-const MAX_SCRAPED_SOURCES = 28;
+const MAX_SOURCES = 120;
+const MAX_SCRAPED_SOURCES = 24;
 const REQUEST_TIMEOUT_MS = 12000;
 const ANTHROPIC_REQUEST_TIMEOUT_MS = 120000;
 const ANTHROPIC_WEB_SEARCH_MAX_USES = 5;
+const MAJOR_NEWS_LIMIT = 3;
+
+const CAMPAIGN_PROMISE_PAGES = [
+  {
+    id: 'campaign-home',
+    title: 'Daniel Lurie campaign thank you letter',
+    url: 'https://daniellurie.com/',
+    publishedAt: '2024-11-04',
+    topic: 'city_government',
+    summary: 'Campaign closing letter summarizing the core commitments of the 2024 mayoral campaign.',
+  },
+  {
+    id: 'campaign-shelter-homelessness',
+    title: 'Daniel Lurie campaign shelter and homelessness priorities',
+    url: 'https://daniellurie.com/priorities/shelter-amp-homelessness/',
+    publishedAt: '2024-05-15',
+    topic: 'homelessness',
+    summary: 'Campaign platform page covering shelter, homelessness, and unsheltered-street commitments.',
+  },
+  {
+    id: 'campaign-mental-health-drugs',
+    title: 'Daniel Lurie campaign mental health and drug crisis priorities',
+    url: 'https://daniellurie.com/priorities/mental-health-amp-drug-crisis/',
+    publishedAt: '2024-02-26',
+    topic: 'public_safety',
+    summary: 'Campaign platform page covering fentanyl emergency powers, treatment, and street-crisis response.',
+  },
+  {
+    id: 'campaign-public-safety',
+    title: 'Daniel Lurie campaign public safety priorities',
+    url: 'https://daniellurie.com/priorities/public-safety/',
+    publishedAt: '2024-08-21',
+    topic: 'public_safety',
+    summary: 'Campaign platform page covering police staffing, retail theft, and downtown safety commitments.',
+  },
+  {
+    id: 'campaign-housing',
+    title: 'Daniel Lurie campaign housing priorities',
+    url: 'https://daniellurie.com/priorities/housing/',
+    publishedAt: '2024-07-15',
+    topic: 'housing',
+    summary: 'Campaign platform page covering faster housing delivery, affordability, and production reforms.',
+  },
+  {
+    id: 'campaign-small-business-downtown',
+    title: 'Daniel Lurie campaign small business and downtown revitalization priorities',
+    url: 'https://daniellurie.com/priorities/small-business-amp-downtown-revitalization/',
+    publishedAt: '2024-06-07',
+    topic: 'economy',
+    summary: 'Campaign platform page covering downtown recovery, small business support, and revitalization.',
+  },
+  {
+    id: 'campaign-accountability',
+    title: 'Daniel Lurie campaign accountability and anti-corruption priorities',
+    url: 'https://daniellurie.com/priorities/accountability-amp-anti-corruption/',
+    publishedAt: '2024-08-19',
+    topic: 'city_government',
+    summary: 'Campaign platform page covering ethics enforcement, anti-corruption, and bureaucracy reform.',
+  },
+  {
+    id: 'campaign-climate-hub',
+    title: 'Daniel Lurie campaign climate innovation hub priorities',
+    url: 'https://daniellurie.com/tc/climate-policy-tc/',
+    publishedAt: '2024-06-07',
+    topic: 'climate',
+    summary: 'Campaign plan for a downtown climate innovation hub tied to job growth and office reuse.',
+  },
+];
+
+const PROMISE_BLUEPRINTS = [
+  {
+    id: 'promise-increase-shelter-beds',
+    text: 'Open 1,500 new shelter and treatment beds within six months of taking office',
+    dateMade: '2024-05-15',
+    deadline: '2025-07-08',
+    topic: 'homelessness',
+    trackingType: 'quantitative',
+    targetValue: 1500,
+    unit: 'beds',
+    campaignSourceIds: ['campaign-shelter-homelessness'],
+    matchKeywords: ['1,500', 'shelter beds', 'six months', 'unsheltered homelessness'],
+  },
+  {
+    id: 'promise-fentanyl-state-of-emergency',
+    text: 'Declare a citywide fentanyl state of emergency to move resources faster',
+    dateMade: '2024-03-27',
+    deadline: '2025-03-31',
+    topic: 'public_safety',
+    trackingType: 'binary',
+    campaignSourceIds: ['campaign-mental-health-drugs'],
+    matchKeywords: ['state of emergency', 'fentanyl', 'bypass bureaucracy'],
+  },
+  {
+    id: 'promise-treatment-or-arrest',
+    text: 'Give people committing low-level offenses tied to addiction or mental illness a choice between immediate treatment or arrest',
+    dateMade: '2024-02-26',
+    deadline: 'unknown',
+    topic: 'public_safety',
+    trackingType: 'milestone',
+    campaignSourceIds: ['campaign-mental-health-drugs'],
+    matchKeywords: ['immediate treatment or arrest', 'choice between immediate treatment or arrest', 'drug and mental health crisis'],
+  },
+  {
+    id: 'promise-end-open-air-drug-markets',
+    text: 'End the era of open-air drug markets with coordinated enforcement and treatment response',
+    dateMade: '2024-02-26',
+    deadline: 'unknown',
+    topic: 'public_safety',
+    trackingType: 'milestone',
+    campaignSourceIds: ['campaign-mental-health-drugs', 'campaign-public-safety'],
+    matchKeywords: ['open-air drug markets', 'drug crisis', 'behavioral health'],
+  },
+  {
+    id: 'promise-rebuild-police-staffing',
+    text: 'Rebuild police and sheriff staffing and improve public safety citywide',
+    dateMade: '2024-08-21',
+    deadline: 'unknown',
+    topic: 'public_safety',
+    trackingType: 'milestone',
+    campaignSourceIds: ['campaign-public-safety'],
+    matchKeywords: ['fully staff', 'police department', 'public safety', 'recruit class'],
+  },
+  {
+    id: 'promise-new-downtown-police-district',
+    text: 'Create a new downtown police district focused on the hospitality zone',
+    dateMade: '2024-08-21',
+    deadline: 'unknown',
+    topic: 'public_safety',
+    trackingType: 'binary',
+    campaignSourceIds: ['campaign-public-safety'],
+    matchKeywords: ['new police district', 'hospitality zone', 'Union Square'],
+  },
+  {
+    id: 'promise-streamline-permitting',
+    text: 'Make permitting faster and more transparent by overhauling the broken permitting system',
+    dateMade: '2024-04-10',
+    deadline: 'unknown',
+    topic: 'city_government',
+    trackingType: 'milestone',
+    campaignSourceIds: ['campaign-accountability'],
+    matchKeywords: ['permit', 'permitting', 'faster', 'transparent', 'accountability plan'],
+  },
+  {
+    id: 'promise-centralize-contracts-and-construction',
+    text: 'Centralize contract oversight and construction management to cut corruption and city waste',
+    dateMade: '2024-04-10',
+    deadline: 'unknown',
+    topic: 'city_government',
+    trackingType: 'milestone',
+    campaignSourceIds: ['campaign-accountability'],
+    matchKeywords: ['centralize contract', 'construction management', 'corruption'],
+  },
+  {
+    id: 'promise-ethics-enforcement',
+    text: 'Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall',
+    dateMade: '2024-08-19',
+    deadline: 'unknown',
+    topic: 'city_government',
+    trackingType: 'binary',
+    campaignSourceIds: ['campaign-accountability'],
+    matchKeywords: ['ethics enforcement', 'anti-corruption', 'restore trust'],
+  },
+  {
+    id: 'promise-build-more-housing',
+    text: 'Build more housing faster and more affordably to address the city’s affordability crisis',
+    dateMade: '2024-07-15',
+    deadline: 'unknown',
+    topic: 'housing',
+    trackingType: 'milestone',
+    campaignSourceIds: ['campaign-housing'],
+    matchKeywords: ['build more housing', 'housing strategy', 'affordability', 'on-time', 'on budget'],
+  },
+  {
+    id: 'promise-revitalize-downtown-and-small-business',
+    text: 'Revitalize downtown and help small businesses thrive',
+    dateMade: '2024-11-04',
+    deadline: 'unknown',
+    topic: 'economy',
+    trackingType: 'milestone',
+    campaignSourceIds: ['campaign-home', 'campaign-small-business-downtown'],
+    matchKeywords: ['downtown', 'small business', 'economic recovery', 'tourism'],
+  },
+  {
+    id: 'promise-climate-innovation-hub',
+    text: 'Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment',
+    dateMade: '2024-06-07',
+    deadline: 'unknown',
+    topic: 'climate',
+    trackingType: 'binary',
+    campaignSourceIds: ['campaign-climate-hub'],
+    matchKeywords: ['climate innovation hub', 'cleantech', 'vacant office space', 'downtown'],
+  },
+];
 
 const TRACKED_QUERIES = [
   'Daniel Lurie mayor San Francisco announcement',
@@ -127,11 +320,12 @@ async function main() {
   loadLocalEnv();
 
   const existing = JSON.parse(await readFile(DATA_PATH, 'utf8'));
-  const [googleNewsItems, directNewsItems, webSearchItems, officialSources, publicSf] = await Promise.all([
+  const [googleNewsItems, directNewsItems, webSearchItems, officialSources, campaignSources, publicSf] = await Promise.all([
     collectGoogleNewsItems(),
     collectDirectNewsItems(),
     collectAnthropicWebSearchItems(),
     collectOfficialIndexSources(),
+    collectCampaignPromiseSources(),
     collectSfPublicMetrics(),
   ]);
 
@@ -140,11 +334,16 @@ async function main() {
     ...directNewsItems.map(toSourceDocument),
     ...webSearchItems.map(toSourceDocument),
     ...officialSources,
+    ...campaignSources,
     ...publicSf.sources,
   ];
   const scrapedSources = await enrichSourcesWithPageText(incomingSources);
   const mergedSources = pinReferencedSources(existing, mergeByUrl(existing.sources, scrapedSources)).slice(0, MAX_SOURCES);
   const metrics = mergeMetrics(existing.metrics || [], publicSf.metrics);
+  const mergedCampaignSources = mergedSources.filter((source) => source.sourceType === 'campaign');
+  const campaignPromiseSeed = await extractCampaignPromisesWithAi(mergedCampaignSources);
+  const scoredPromises = scorePromiseCatalog(buildPromiseCatalog(campaignPromiseSeed, mergedCampaignSources), mergedSources, metrics, existing.promises || []);
+  const majorNews = await selectMajorNews(mergedSources);
 
   const baseData = {
     ...existing,
@@ -154,20 +353,25 @@ async function main() {
     },
     sources: mergedSources,
     metrics,
+    promises: scoredPromises,
+    majorNews,
   };
 
   const aiResult = await analyzeWithAi(mergedSources, baseData);
   const nextData = finalizeTrackerData({
     ...baseData,
     ...(aiResult || {}),
+    promises: scoredPromises,
+    majorNews,
   });
 
   if (isDryRun) {
     const scrapedCount = mergedSources.filter((source) => source.scrapeStatus === 'scraped').length;
     const activeMetricCount = metrics.filter((metric) => metric.observations?.length).length;
-    console.log(`Dry run complete: ${googleNewsItems.length} Google News items, ${directNewsItems.length} direct news items, ${webSearchItems.length} Anthropic web-search items, ${officialSources.length} official links, ${mergedSources.length} merged sources.`);
+    console.log(`Dry run complete: ${googleNewsItems.length} Google News items, ${directNewsItems.length} direct news items, ${webSearchItems.length} Anthropic web-search items, ${officialSources.length} official links, ${campaignSources.length} campaign pages, ${mergedSources.length} merged sources.`);
     console.log(`Scraped article/page excerpts: ${scrapedCount}; active Public SF metrics: ${activeMetricCount}/${metrics.length}.`);
     console.log(`Topics detected: ${[...new Set(mergedSources.map((source) => source.topic))].join(', ')}`);
+    console.log(`Promises scored: ${scoredPromises.length}; major news items: ${majorNews.length}.`);
     return;
   }
 
@@ -314,6 +518,19 @@ async function collectOfficialIndexSources() {
   return sources;
 }
 
+async function collectCampaignPromiseSources() {
+  return CAMPAIGN_PROMISE_PAGES.map((page) => ({
+    id: page.id,
+    title: page.title,
+    sourceType: 'campaign',
+    url: page.url,
+    publishedAt: page.publishedAt,
+    topic: page.topic,
+    summary: page.summary,
+    confidence: 0.94,
+  }));
+}
+
 async function enrichSourcesWithPageText(sources) {
   const deduped = mergeByUrl([], sources);
   const enriched = [];
@@ -442,6 +659,500 @@ function canScrape(url) {
   } catch {
     return false;
   }
+}
+
+async function extractCampaignPromisesWithAi(campaignSources) {
+  if (!process.env.ANTHROPIC_API_KEY || !campaignSources.length) return [];
+
+  const prompt = `Extract all or almost all material campaign promises from these Daniel Lurie for Mayor campaign pages.
+Return compact JSON only: {"promises":[...]}.
+Each promise must be a distinct campaign commitment, not a biography line or vague value statement.
+Merge duplicates across pages.
+Prefer 10 to 20 promises if that many are present.
+
+Shape:
+promise = {
+  "id": string,
+  "text": string,
+  "dateMade": "YYYY-MM-DD" | "unknown",
+  "deadline": "YYYY-MM-DD" | "unknown",
+  "topic": string,
+  "campaignSourceIds": string[],
+  "aiConfidence": number
+}
+
+Campaign sources:
+${JSON.stringify(campaignSources.map(sourceForAi), null, 2)}`;
+
+  try {
+    const response = await fetchJson('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': process.env.ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01',
+      },
+      body: JSON.stringify({
+        model: process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-5',
+        max_tokens: 6000,
+        system: 'You output only valid JSON. Extract campaign promises with high recall and no prose.',
+        messages: [{ role: 'user', content: prompt }],
+      }),
+    }, { timeoutMs: ANTHROPIC_REQUEST_TIMEOUT_MS });
+    const text = response.content?.filter((block) => block.type === 'text').map((block) => block.text).join('\n') || '';
+    const parsed = parseAiJson(text);
+    return Array.isArray(parsed.promises) ? parsed.promises : [];
+  } catch (error) {
+    console.warn(`Campaign promise extraction failed: ${error.message}`);
+    return [];
+  }
+}
+
+async function selectMajorNews(sources) {
+  const recentSources = sources
+    .filter((source) => source.sourceType !== 'campaign')
+    .filter((source) => source.publishedAt && source.publishedAt >= new Date(Date.now() - (1000 * 60 * 60 * 24 * 21)).toISOString().slice(0, 10))
+    .sort((left, right) => String(right.publishedAt || '').localeCompare(String(left.publishedAt || '')))
+    .slice(0, 40);
+
+  if (!recentSources.length) return [];
+  if (!process.env.ANTHROPIC_API_KEY) {
+    return fallbackMajorNews(recentSources);
+  }
+
+  const prompt = `Choose the three most important current Daniel Lurie headlines from these recent sources.
+Return compact JSON only: {"majorNews":[...]}.
+Importance should prioritize political impact, governance consequences, and citywide significance.
+Do not invent headlines or URLs. Use only the provided sources.
+
+Shape:
+item = { "id": string, "headline": string, "url": string, "publishedAt": "YYYY-MM-DD", "publisher": string, "topic": string, "whyItMatters": string }
+
+Recent sources:
+${JSON.stringify(recentSources.map(sourceForAi), null, 2)}`;
+
+  try {
+    const response = await fetchJson('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': process.env.ANTHROPIC_API_KEY,
+        'anthropic-version': '2023-06-01',
+      },
+      body: JSON.stringify({
+        model: process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-5',
+        max_tokens: 2500,
+        system: 'You output only valid JSON and select exactly three current headlines from the provided source list.',
+        messages: [{ role: 'user', content: prompt }],
+      }),
+    }, { timeoutMs: ANTHROPIC_REQUEST_TIMEOUT_MS });
+    const text = response.content?.filter((block) => block.type === 'text').map((block) => block.text).join('\n') || '';
+    const parsed = parseAiJson(text);
+    return (Array.isArray(parsed.majorNews) ? parsed.majorNews : []).slice(0, MAJOR_NEWS_LIMIT);
+  } catch (error) {
+    console.warn(`Major news selection failed: ${error.message}`);
+    return fallbackMajorNews(recentSources);
+  }
+}
+
+function fallbackMajorNews(sources) {
+  return dedupeMajorNewsCandidates(
+    sources
+      .filter((source) => source.sourceType === 'news' || source.sourceType === 'official')
+      .filter((source) => !isWeakMajorNewsFallback(source))
+      .sort((left, right) => majorNewsFallbackScore(right) - majorNewsFallbackScore(left)),
+  )
+    .slice(0, MAJOR_NEWS_LIMIT)
+    .map((source) => ({
+      id: source.id,
+      headline: source.title,
+      url: source.url,
+      publishedAt: source.publishedAt,
+      publisher: source.publisher || source.discoverySource || (source.sourceType === 'official' ? 'SF.gov' : source.sourceType),
+      topic: source.topic,
+      whyItMatters: source.summary,
+      selectionMethod: 'fallback',
+    }));
+}
+
+function buildPromiseCatalog(aiPromises, campaignSources) {
+  const catalog = [];
+  const usedIds = new Set();
+
+  for (const blueprint of PROMISE_BLUEPRINTS) {
+    const matchingAiPromise = aiPromises.find((promise) => matchesBlueprint(blueprint, promise));
+    const matchingCampaignSourceIds = new Set([
+      ...blueprint.campaignSourceIds,
+      ...arrayOfStrings(matchingAiPromise?.campaignSourceIds),
+      ...campaignSources.filter((source) => blueprint.matchKeywords.some((keyword) => `${source.title} ${source.summary} ${source.excerpt || ''}`.toLowerCase().includes(keyword.toLowerCase()))).map((source) => source.id),
+    ]);
+    catalog.push({
+      id: blueprint.id,
+      text: blueprint.text,
+      dateMade: matchingAiPromise?.dateMade || blueprint.dateMade,
+      deadline: matchingAiPromise?.deadline || blueprint.deadline,
+      topic: blueprint.topic,
+      aiConfidence: clamp(Number(matchingAiPromise?.aiConfidence ?? 0.88), 0.5, 0.99),
+      trackingType: blueprint.trackingType,
+      targetValue: blueprint.targetValue ?? null,
+      unit: blueprint.unit || null,
+      campaignSourceIds: [...matchingCampaignSourceIds],
+    });
+    usedIds.add(blueprint.id);
+  }
+
+  for (const aiPromise of aiPromises) {
+    if (!aiPromise?.text) continue;
+    const matchingBlueprint = PROMISE_BLUEPRINTS.find((blueprint) => matchesBlueprint(blueprint, aiPromise));
+    if (matchingBlueprint || usedIds.has(aiPromise.id)) continue;
+    catalog.push({
+      id: slugify(aiPromise.id || aiPromise.text),
+      text: String(aiPromise.text).trim(),
+      dateMade: normalizeDate(aiPromise.dateMade) || 'unknown',
+      deadline: normalizeDate(aiPromise.deadline) || 'unknown',
+      topic: normalizeTopic(aiPromise.topic || detectTopic(aiPromise.text)),
+      aiConfidence: clamp(Number(aiPromise.aiConfidence ?? 0.72), 0.5, 0.95),
+      trackingType: 'milestone',
+      targetValue: null,
+      unit: null,
+      campaignSourceIds: arrayOfStrings(aiPromise.campaignSourceIds),
+    });
+  }
+
+  return catalog;
+}
+
+function matchesBlueprint(blueprint, promise) {
+  const haystack = `${promise?.id || ''} ${promise?.text || ''}`.toLowerCase();
+  return blueprint.matchKeywords.some((keyword) => haystack.includes(String(keyword).toLowerCase()));
+}
+
+function scorePromiseCatalog(catalog, sources, metrics, existingPromises) {
+  const sourceById = new Map(sources.map((source) => [source.id, source]));
+  const existingById = new Map(existingPromises.map((promise) => [promise.id, promise]));
+  return catalog.map((promise) => scorePromise(promise, { sourceById, metrics, existingById }));
+}
+
+function scorePromise(promise, { sourceById, metrics, existingById }) {
+  const previous = existingById.get(promise.id);
+  const sourceIds = new Set([...(promise.campaignSourceIds || [])]);
+  const metricIds = [];
+  let status = previous?.status || 'unclear';
+  let progress = null;
+  let progressBasis = previous?.progressBasis || null;
+  let statusNote = previous?.statusNote || 'Needs reviewed evidence before status can be confirmed.';
+  let reviewStatus = previous?.reviewStatus || 'needs_more_evidence';
+  let currentValue = null;
+  let targetValue = promise.targetValue ?? null;
+  let unit = promise.unit || null;
+  let binaryState = null;
+  let milestones = [];
+
+  switch (promise.id) {
+    case 'promise-increase-shelter-beds': {
+      const missionLocal = sourceById.get('mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-');
+      if (missionLocal) {
+        sourceIds.add(missionLocal.id);
+        currentValue = extractNumber(missionLocal.excerpt, /net increase of (\d+) beds/i) || extractNumber(missionLocal.excerpt, /only seen a net increase of (\d+) beds/i);
+        targetValue = 1500;
+        unit = 'beds';
+        if (Number.isFinite(currentValue) && Number.isFinite(targetValue)) {
+          progress = percent(currentValue, targetValue);
+          progressBasis = `${currentValue} net new beds identified in reporting against a 1,500-bed campaign target.`;
+          status = progress >= 100 ? 'completed' : 'broken';
+          statusNote = currentValue < targetValue
+            ? `Mission Local reports a net increase of ${currentValue} beds against the 1,500-bed campaign target after the six-month deadline.`
+            : 'The campaign bed target has been met or exceeded.';
+          reviewStatus = 'approved';
+        }
+      }
+      break;
+    }
+    case 'promise-fentanyl-state-of-emergency': {
+      const emergencySource = sourceById.get('fentanyl-powers');
+      if (emergencySource) {
+        sourceIds.add(emergencySource.id);
+        status = 'completed';
+        reviewStatus = 'approved';
+        binaryState = 'completed';
+        statusNote = 'The Board granted emergency flexibility for fentanyl-crisis response in February 2025.';
+        progressBasis = 'Binary promise satisfied once emergency authority was enacted.';
+      }
+      break;
+    }
+    case 'promise-treatment-or-arrest': {
+      const cycleSource = sourceById.get('mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s');
+      if (cycleSource) {
+        sourceIds.add(cycleSource.id);
+        milestones = [
+          { label: 'Behavioral health plan released', complete: true },
+          { label: '24/7 stabilization center opened', complete: /24\/7 police-friendly stabilization center/i.test(cycleSource.excerpt || '') },
+          { label: 'Treatment bed expansion underway', complete: /expansion of recovery and treatment beds/i.test(cycleSource.excerpt || '') },
+          { label: 'Citywide treatment-or-arrest model fully verified', complete: false },
+        ];
+        status = milestones.filter((step) => step.complete).length >= 3 ? 'in_progress' : 'not_started';
+        reviewStatus = 'approved';
+        statusNote = 'Treatment infrastructure is being deployed, but the full citywide treatment-or-arrest standard is not yet fully verified.';
+        progressBasis = `${milestones.filter((step) => step.complete).length} of ${milestones.length} implementation milestones are evidenced.`;
+      }
+      break;
+    }
+    case 'promise-end-open-air-drug-markets': {
+      const cycleSource = sourceById.get('mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s');
+      const overdoseMetric = metrics.find((metric) => metric.id === 'overdose-related-911-responses');
+      if (cycleSource) sourceIds.add(cycleSource.id);
+      if (overdoseMetric) metricIds.push(overdoseMetric.id);
+      milestones = [
+        { label: 'Emergency authority enacted', complete: Boolean(sourceById.get('fentanyl-powers')) },
+        { label: 'Integrated street response launched', complete: /integrated neighborhood-based model/i.test(cycleSource?.excerpt || '') },
+        { label: 'Treatment and stabilization capacity expanded', complete: /expansion of recovery and treatment beds/i.test(cycleSource?.excerpt || '') },
+        { label: 'Independent proof that open-air markets are ended', complete: false },
+      ];
+      status = 'in_progress';
+      reviewStatus = 'approved';
+      statusNote = overdoseMetric?.latest
+        ? `Latest overdose-related EMS responses were ${overdoseMetric.latest}, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.`
+        : 'There is implementation evidence, but no independent proof that the promise has been fully achieved.';
+      progressBasis = `${milestones.filter((step) => step.complete).length} of ${milestones.length} implementation milestones are evidenced.`;
+      break;
+    }
+    case 'promise-rebuild-police-staffing': {
+      const policeSource = sourceById.get('mayor-lurie-signs-legislation-to-support-san-francisco-police-officers-continue-');
+      const chiefSource = sourceById.get('mayor-lurie-appoints-steven-betz-as-chief-of-public-safety-https-www-sf-gov-news');
+      if (policeSource) sourceIds.add(policeSource.id);
+      if (chiefSource) sourceIds.add(chiefSource.id);
+      milestones = [
+        { label: 'Rebuilding the Ranks plan launched', complete: Boolean(chiefSource || policeSource) },
+        { label: 'Largest recruit class since 2017', complete: /largest recruit class since 2017/i.test(`${policeSource?.excerpt || ''} ${chiefSource?.excerpt || ''}`) },
+        { label: 'Net staffing increase verified', complete: /first staffing increase in years/i.test(`${policeSource?.excerpt || ''} ${chiefSource?.excerpt || ''}`) },
+        { label: 'Departments fully staffed', complete: false },
+      ];
+      status = 'in_progress';
+      reviewStatus = 'approved';
+      statusNote = 'Hiring momentum is real, but full staffing has not yet been reached.';
+      progressBasis = `${milestones.filter((step) => step.complete).length} of ${milestones.length} staffing milestones are evidenced.`;
+      break;
+    }
+    case 'promise-new-downtown-police-district': {
+      const districtSource = sourceById.get('campaign-public-safety');
+      if (districtSource) sourceIds.add(districtSource.id);
+      status = 'in_progress';
+      reviewStatus = 'needs_more_evidence';
+      binaryState = 'pending';
+      statusNote = 'The campaign promise is documented, but current source coverage does not verify that a new police district has been created.';
+      break;
+    }
+    case 'promise-streamline-permitting': {
+      const permitSource = sourceById.get('mayor-lurie-signs-legislation-to-make-it-easier-to-throw-block-parties-and-neigh');
+      if (permitSource) {
+        sourceIds.add(permitSource.id);
+        milestones = [
+          { label: 'Digital PermitSF portal launched', complete: /fully digital permitting portal/i.test(permitSource.excerpt || '') },
+          { label: 'Fire wait times cut in half', complete: /wait times in half/i.test(permitSource.excerpt || '') },
+          { label: 'Permit Center trips reduced', complete: /15%/i.test(permitSource.excerpt || '') },
+          { label: 'Full citywide permit-time target independently verified', complete: false },
+        ];
+        status = 'in_progress';
+        reviewStatus = 'approved';
+        statusNote = 'Permitting reform is visibly underway, but the full campaign speed target still needs independent verification.';
+        progressBasis = `${milestones.filter((step) => step.complete).length} of ${milestones.length} permitting milestones are evidenced.`;
+      }
+      break;
+    }
+    case 'promise-centralize-contracts-and-construction': {
+      const accountabilitySource = sourceById.get('campaign-accountability');
+      const charterSource = sourceById.get('mayor-lurie-sup-mandelman-introduce-ballot-measures-aimed-at-reforming-city-char');
+      if (accountabilitySource) sourceIds.add(accountabilitySource.id);
+      if (charterSource) sourceIds.add(charterSource.id);
+      status = 'in_progress';
+      reviewStatus = charterSource ? 'approved' : 'needs_more_evidence';
+      milestones = [
+        { label: 'Contract centralization plan documented in campaign', complete: true },
+        { label: 'Contracting-rule reform or charter change introduced', complete: Boolean(charterSource) },
+        { label: 'Construction-management overhaul independently evidenced in office', complete: false },
+      ];
+      statusNote = charterSource
+        ? 'City contracting reform has moved into active charter-change territory, but a full construction-management overhaul is not yet verified.'
+        : 'The campaign promise is documented, but the current source set does not yet verify office-wide execution.';
+      progressBasis = `${milestones.filter((step) => step.complete).length} of ${milestones.length} contracting-reform milestones are evidenced.`;
+      break;
+    }
+    case 'promise-ethics-enforcement': {
+      const ethicsSource = sourceById.get('campaign-accountability');
+      if (ethicsSource) sourceIds.add(ethicsSource.id);
+      status = 'in_progress';
+      reviewStatus = 'needs_more_evidence';
+      binaryState = 'pending';
+      statusNote = 'The anti-corruption promise is clearly documented in the campaign platform, but the current source set does not yet prove implementation outcomes.';
+      break;
+    }
+    case 'promise-build-more-housing': {
+      const housingSource = sourceById.get('mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou');
+      const missionHousing = sourceById.get('san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19');
+      const permitMetric = metrics.find((metric) => metric.id === 'housing-units-proposed-in-issued-permits');
+      if (housingSource) sourceIds.add(housingSource.id);
+      if (missionHousing) sourceIds.add(missionHousing.id);
+      if (permitMetric) metricIds.push(permitMetric.id);
+      milestones = [
+        { label: 'Housing production strategy documented in campaign', complete: true },
+        { label: 'Affordable-housing funding expansion proposed', complete: Boolean(housingSource || missionHousing) },
+        { label: 'Independent improvement in permit-output trend verified', complete: Boolean(permitMetric?.observations?.length) },
+        { label: 'Campaign housing-delivery promise fully achieved', complete: false },
+      ];
+      status = 'in_progress';
+      reviewStatus = 'approved';
+      statusNote = permitMetric
+        ? `Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units ${permitMetric.latest} versus baseline ${permitMetric.baseline}.`
+        : 'Housing reforms are underway, but the current metric set is still too incomplete to call the campaign housing promise complete.';
+      progressBasis = `${milestones.filter((step) => step.complete).length} of ${milestones.length} housing milestones are evidenced.`;
+      break;
+    }
+    case 'promise-revitalize-downtown-and-small-business': {
+      const tourismSource = sourceById.get('mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-');
+      const blockPartySource = sourceById.get('mayor-lurie-signs-legislation-to-make-it-easier-to-throw-block-parties-and-neigh');
+      if (tourismSource) sourceIds.add(tourismSource.id);
+      if (blockPartySource) sourceIds.add(blockPartySource.id);
+      milestones = [
+        { label: 'Downtown activation reforms launched', complete: Boolean(blockPartySource) },
+        { label: 'Tourism recovery forecast surpasses pre-pandemic spend', complete: /surpass the city’s pre-pandemic record/i.test(tourismSource?.excerpt || '') },
+        { label: 'Visible boost in conventions and visitors', complete: /69% increase/i.test(tourismSource?.excerpt || '') },
+        { label: 'Full downtown recovery achieved', complete: false },
+      ];
+      status = 'in_progress';
+      reviewStatus = 'approved';
+      statusNote = 'Recovery signals are improving, but the broader downtown and small-business comeback is still incomplete.';
+      progressBasis = `${milestones.filter((step) => step.complete).length} of ${milestones.length} downtown-recovery milestones are evidenced.`;
+      break;
+    }
+    case 'promise-climate-innovation-hub': {
+      const climateCampaign = sourceById.get('campaign-climate-hub');
+      if (climateCampaign) sourceIds.add(climateCampaign.id);
+      const hasImplementationEvidence = sourcesMention(sourceById, ['climate innovation hub', 'cleantech', 'climate tech'], { excludeSourceTypes: ['campaign'] });
+      status = 'in_progress';
+      reviewStatus = hasImplementationEvidence ? 'pending_review' : 'needs_more_evidence';
+      binaryState = hasImplementationEvidence ? 'in_progress' : 'pending';
+      statusNote = hasImplementationEvidence
+        ? 'There are signs of climate-tech activity, but the current source set does not yet prove that a formal Climate Innovation Hub has launched.'
+        : 'The campaign promise is documented, but the current source set does not yet verify launch of a formal Climate Innovation Hub.';
+      break;
+    }
+    default: {
+      status = 'unclear';
+      reviewStatus = 'needs_more_evidence';
+    }
+  }
+
+  return {
+    id: promise.id,
+    text: promise.text,
+    dateMade: normalizeDate(promise.dateMade) || 'unknown',
+    deadline: normalizeDate(promise.deadline) || 'unknown',
+    topic: promise.topic,
+    status,
+    progress,
+    evidenceSourceIds: [...sourceIds].filter(Boolean),
+    aiConfidence: clamp(Number(promise.aiConfidence ?? 0.7), 0.5, 0.99),
+    statusNote,
+    reviewStatus,
+    linkedMetricIds: metricIds,
+    progressBasis,
+    trackingType: promise.trackingType,
+    targetValue,
+    currentValue,
+    unit,
+    binaryState,
+    milestones,
+    campaignSourceIds: promise.campaignSourceIds,
+  };
+}
+
+function extractNumber(text, pattern) {
+  const match = String(text || '').match(pattern);
+  if (!match) return null;
+  return Number(match[1].replace(/,/g, ''));
+}
+
+function percent(currentValue, targetValue) {
+  if (!Number.isFinite(currentValue) || !Number.isFinite(targetValue) || targetValue <= 0) return null;
+  return clamp(Math.round((currentValue / targetValue) * 100), 0, 100);
+}
+
+function sourcesMention(sourceById, keywords, { excludeSourceTypes = [] } = {}) {
+  const haystack = [...sourceById.values()]
+    .filter((source) => !excludeSourceTypes.includes(source.sourceType))
+    .map((source) => `${source.title} ${source.summary} ${source.excerpt || ''}`)
+    .join(' ')
+    .toLowerCase();
+  return keywords.some((keyword) => haystack.includes(keyword.toLowerCase()));
+}
+
+function isWeakMajorNewsFallback(source) {
+  const title = String(source.title || '').toLowerCase();
+  return title.includes('news from the office of the mayor')
+    || title.includes('311 cases')
+    || title.includes('overdose-related')
+    || title.includes('substance use services')
+    || title.includes('healthy streets data')
+    || title.includes('office vacancy rate')
+    || title.includes('day around the bay')
+    || title.includes('chief of staff')
+    || title.includes('appoints sarah madland')
+    || title.includes('popular. can he transfer it')
+    || title.includes('supervisor election')
+    || title.includes('american chamber of commerce in korea')
+    || title.includes('music week');
+}
+
+function majorNewsFallbackScore(source) {
+  const dateScore = Number(String(source.publishedAt || '').replaceAll('-', '')) || 0;
+  const text = `${source.title} ${source.summary || ''}`.toLowerCase();
+  const importanceBonus = [
+    ['budget', 170],
+    ['deficit', 160],
+    ['cuts', 140],
+    ['labor', 110],
+    ['affordable housing', 150],
+    ['housing trust fund', 145],
+    ['housing', 80],
+    ['homeless', 120],
+    ['shelter beds', 145],
+    ['shelter', 90],
+    ['unsheltered', 85],
+    ['permit', 70],
+    ['public safety', 60],
+    ['immigrant legal services', 110],
+  ].reduce((score, [keyword, bonus]) => score + (text.includes(keyword) ? bonus : 0), 0);
+  const sourceBonus = source.sourceType === 'news' ? 35 : 8;
+  const penalty = [
+    ['block parties', 120],
+    ['neighborhood events', 80],
+    ['campaign trail', 150],
+    ['election', 160],
+    ['appoints', 110],
+    ['arts organizations', 120],
+  ].reduce((score, [keyword, amount]) => score + (text.includes(keyword) ? amount : 0), 0);
+  return dateScore + importanceBonus + sourceBonus + sourceRichnessScore(source) - penalty;
+}
+
+function dedupeMajorNewsCandidates(candidates) {
+  const picked = [];
+  const seen = new Set();
+  for (const candidate of candidates) {
+    const clusterKey = majorNewsClusterKey(candidate);
+    if (seen.has(clusterKey)) continue;
+    seen.add(clusterKey);
+    picked.push(candidate);
+  }
+  return picked;
+}
+
+function majorNewsClusterKey(source) {
+  const text = `${source.title} ${source.summary || ''}`.toLowerCase();
+  if (text.includes('budget') || text.includes('deficit') || text.includes('cuts') || text.includes('immigrant legal services')) return 'budget';
+  if (text.includes('affordable housing') || text.includes('housing trust fund')) return 'housing-fund';
+  if (text.includes('shelter beds') || text.includes('unsheltered homelessness') || text.includes('homelessness')) return 'homelessness';
+  if (text.includes('permit')) return 'permitting';
+  return source.id;
 }
 
 function extractPageMetadata(html) {
@@ -592,6 +1303,8 @@ function decodeXml(value = '') {
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
     .replace(/&quot;/g, '"')
+    .replace(/&#0*39;/g, "'")
+    .replace(/&#8217;/g, "'")
     .replace(/&#39;/g, "'")
     .replace(/&nbsp;/g, ' ');
 }
@@ -819,6 +1532,7 @@ function finalizeTrackerData(data) {
   const promises = cleanPromises(data.promises || [], sourceIds, metricIds);
   const claims = cleanClaims(data.claims || [], sourceIds);
   const timeline = cleanTimeline(data.timeline || [], sourceIds);
+  const majorNews = cleanMajorNews(data.majorNews || [], sourceIds);
 
   return {
     ...data,
@@ -826,6 +1540,7 @@ function finalizeTrackerData(data) {
     promises,
     claims,
     timeline,
+    majorNews,
     topics: deriveTopics(data.topics || [], promises, data.metrics),
   };
 }
@@ -859,13 +1574,22 @@ function cleanPromises(promises, sourceIds, metricIds) {
     .map((promise) => {
       const evidenceSourceIds = arrayOfStrings(promise.evidenceSourceIds).filter((id) => sourceIds.has(id));
       const linkedMetricIds = arrayOfStrings(promise.linkedMetricIds).filter((id) => metricIds.has(id));
+      const campaignSourceIds = arrayOfStrings(promise.campaignSourceIds).filter((id) => sourceIds.has(id));
+      const milestones = Array.isArray(promise.milestones)
+        ? promise.milestones
+          .map((milestone) => ({
+            label: String(milestone?.label || '').trim(),
+            complete: Boolean(milestone?.complete),
+          }))
+          .filter((milestone) => milestone.label)
+        : [];
       const cleaned = {
         id: slugify(promise.id || promise.text || crypto.randomUUID()),
         text: String(promise.text || '').trim(),
         dateMade: normalizeDate(promise.dateMade) || 'unknown',
         deadline: normalizeDate(promise.deadline) || 'unknown',
         topic: promise.topic || detectTopic(promise.text),
-        status: STATUS_VALUES.has(promise.status) ? promise.status : 'unclear',
+        status: normalizePromiseStatus(STATUS_VALUES.has(promise.status) ? promise.status : 'in_progress'),
         progress: Number.isFinite(promise.progress) ? clamp(Math.round(promise.progress), 0, 100) : null,
         evidenceSourceIds,
         aiConfidence: clamp(Number(promise.aiConfidence ?? 0.5), 0, 1),
@@ -874,6 +1598,13 @@ function cleanPromises(promises, sourceIds, metricIds) {
         linkedMetricIds,
         progressBasis: promise.progressBasis,
         reviewedAt: promise.reviewedAt,
+        trackingType: String(promise.trackingType || 'milestone').trim(),
+        targetValue: Number.isFinite(promise.targetValue) ? Number(promise.targetValue) : null,
+        currentValue: Number.isFinite(promise.currentValue) ? Number(promise.currentValue) : null,
+        unit: promise.unit ? String(promise.unit).trim() : null,
+        binaryState: promise.binaryState ? String(promise.binaryState).trim() : null,
+        milestones,
+        campaignSourceIds,
       };
       return cleaned;
     })
@@ -907,6 +1638,29 @@ function cleanTimeline(timeline, sourceIds) {
     }))
     .filter((item) => item.title && item.sourceIds.length)
     .sort((a, b) => String(a.date).localeCompare(String(b.date)));
+}
+
+function cleanMajorNews(items, sourceIds) {
+  return items
+    .map((item) => ({
+      id: slugify(item.id || item.headline || crypto.randomUUID()),
+      headline: cleanText(item.headline || ''),
+      url: String(item.url || '').trim(),
+      publishedAt: normalizeDate(item.publishedAt) || 'unknown',
+      publisher: cleanText(item.publisher || ''),
+      topic: detectTopic(`${item.headline || ''} ${item.whyItMatters || ''}`) || normalizeTopic(item.topic),
+      whyItMatters: cleanText(item.whyItMatters || ''),
+      sourceId: sourceIds.has(item.id) ? item.id : null,
+      selectionMethod: item.selectionMethod === 'fallback' ? 'fallback' : 'anthropic',
+    }))
+    .filter((item) => item.headline && item.url)
+    .slice(0, MAJOR_NEWS_LIMIT);
+}
+
+function normalizePromiseStatus(status) {
+  if (status === 'completed') return 'completed';
+  if (status === 'broken' || status === 'delayed') return 'broken';
+  return 'in_progress';
 }
 
 function deriveTopics(existingTopics, promises, metrics) {

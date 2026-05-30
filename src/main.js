@@ -118,6 +118,8 @@ function hero(subject, sourceCount, averageProgress) {
       <nav>
         <span class="brand">${icon.bot} Politics Tracker MVP</span>
         <div class="nav-links">
+          <a href="/promises.html">Promises</a>
+          <a href="/news.html">Major News</a>
           <a href="/charts.html">Charts</a>
           <a href="/rss.html">RSS</a>
           <a href="/ai-scrape.html">AI Scrape</a>

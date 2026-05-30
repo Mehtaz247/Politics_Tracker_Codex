@@ -3,7 +3,7 @@ import { readFile } from 'node:fs/promises';
 
 const DATA_PATH = new URL('../public/data/daniel-lurie-tracker.json', import.meta.url);
 const data = JSON.parse(await readFile(DATA_PATH, 'utf8'));
-const requiredTopLevel = ['subject', 'workflow', 'sources', 'promises', 'claims', 'metrics', 'topics', 'connectors', 'timeline'];
+const requiredTopLevel = ['subject', 'workflow', 'sources', 'promises', 'claims', 'metrics', 'topics', 'connectors', 'timeline', 'majorNews'];
 const errors = [];
 
 for (const key of requiredTopLevel) {
@@ -16,6 +16,7 @@ for (const [collectionName, requiredFields] of Object.entries({
   metrics: ['id', 'label', 'topic', 'unit', 'source', 'sourceUrl', 'datasetId', 'baseline', 'latest', 'direction', 'observations', 'status'],
   timeline: ['id', 'date', 'type', 'title', 'topic', 'impact', 'sourceIds'],
   connectors: ['id', 'label', 'status', 'cadence', 'output', 'nextStep'],
+  majorNews: ['id', 'headline', 'url', 'publishedAt', 'publisher', 'topic', 'whyItMatters'],
 })) {
   for (const [index, item] of (data[collectionName] || []).entries()) {
     for (const field of requiredFields) {
@@ -28,10 +29,11 @@ for (const [collectionName, requiredFields] of Object.entries({
 const validReviewStatuses = new Set(['pending_review', 'approved', 'rejected', 'needs_more_evidence']);
 for (const promise of data.promises || []) {
   if (!validReviewStatuses.has(promise.reviewStatus)) errors.push(`Promise ${promise.id} has invalid reviewStatus ${promise.reviewStatus}`);
+  const trackingType = promise.trackingType || 'milestone';
   if (Number.isFinite(promise.progress)) {
     if (promise.reviewStatus !== 'approved') errors.push(`Promise ${promise.id} has progress but is not approved`);
     if (!promise.evidenceSourceIds?.length) errors.push(`Promise ${promise.id} has progress but no evidence sources`);
-  } else if (promise.reviewStatus === 'approved') {
+  } else if (promise.reviewStatus === 'approved' && trackingType === 'quantitative') {
     errors.push(`Promise ${promise.id} is approved but has no numeric progress`);
   }
 }
@@ -50,6 +52,9 @@ for (const event of data.timeline) {
   for (const sourceId of event.sourceIds) {
     if (!sourceIds.has(sourceId)) errors.push(`Timeline item ${event.id} references missing source ${sourceId}`);
   }
+}
+for (const item of data.majorNews || []) {
+  if (!item.url.startsWith('http')) errors.push(`Major news item ${item.id} has invalid url ${item.url}`);
 }
 if (errors.length) {
   console.error(errors.join('\n'));
