@@ -19,7 +19,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           ANTHROPIC_MODEL: ${{ vars.ANTHROPIC_MODEL || 'claude-sonnet-4-5' }}
-        run: npm run ingest:daniel-lurie
+        run: npm run ingest:refresh
       - name: Commit refreshed tracker data
         uses: stefanzweifel/git-auto-commit-action@v5
         with:

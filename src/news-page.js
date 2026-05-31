@@ -1,3 +1,5 @@
+import { loadTrackerPage } from './tracker-loader.js';
+
 const icon = {
   bot: '🤖',
   news: '📰',
@@ -5,11 +7,11 @@ const icon = {
   source: '↗',
 };
 
+let trackerContext;
+
 async function boot() {
-  const response = await fetch('/data/daniel-lurie-tracker.json');
-  if (!response.ok) throw new Error(`Unable to load tracker data: ${response.status}`);
-  const data = await response.json();
-  render(data);
+  trackerContext = await loadTrackerPage('daniel-lurie');
+  render(trackerContext.data);
 }
 
 function render(data) {
@@ -19,19 +21,15 @@ function render(data) {
   document.getElementById('root').innerHTML = `
     <header class="hero hero-compact">
       <nav>
-        <a class="brand" href="/">${icon.bot} Politics Tracker MVP</a>
+        <a class="brand" href="${trackerContext.trackerHref('/')}">${icon.bot} Politics Tracker MVP</a>
         <div class="nav-links">
-          <a href="/promises.html">Promises</a>
-          <a href="/news.html">Major News</a>
-          <a href="/charts.html">Charts</a>
-          <a href="/rss.html">RSS</a>
-          <a href="/ai-scrape.html">AI Scrape</a>
+          ${trackerContext.navLinksHtml('/news.html')}
         </div>
       </nav>
       <div class="hero-content">
         <div>
           <p class="eyebrow">Major news</p>
-          <h1>The three biggest Daniel Lurie headlines right now.</h1>
+          <h1>The three biggest ${escapeHtml(data.subject.name)} headlines right now.</h1>
           <p class="hero-copy">${usedFallback
             ? 'Anthropic selection is configured in the ingestion flow, but this refresh fell back to a deterministic ranking based on recency, citywide impact, and duplicate-topic suppression.'
             : 'The ingestion job asks Anthropic to pick the most politically important recent headlines from the current source set, then writes the selected headline URLs and summaries into the tracker data.'}</p>
@@ -72,6 +70,10 @@ function renderNewsCard(item) {
   </article>`;
 }
 
+function escapeHtml(value) {
+  return String(value).replace(/[&<>"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[character]));
+}
+
 function pretty(value) {
   return String(value).replaceAll('_', ' ');
 }
@@ -89,10 +91,6 @@ function decodeText(value) {
   const textarea = document.createElement('textarea');
   textarea.innerHTML = String(value);
   return textarea.value;
-}
-
-function escapeHtml(value) {
-  return String(value).replace(/[&<>"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[character]));
 }
 
 boot().catch((error) => {

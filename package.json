@@ -5,12 +5,15 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/dev-server.mjs",
-    "build": "node scripts/build-static.mjs",
+    "build": "node scripts/generate-trackers-manifest.mjs && node scripts/generate-derived-tracker-data.mjs && node scripts/build-static.mjs",
     "preview": "node scripts/dev-server.mjs dist 4173",
     "ingest:daniel-lurie": "node scripts/ingest-daniel-lurie.mjs",
+    "ingest:refresh": "node scripts/ingest-daniel-lurie.mjs",
+    "ingest:promises": "node scripts/ingest-daniel-lurie.mjs --refresh-promises",
+    "scaffold:tracker": "node scripts/scaffold-tracker.mjs",
     "generate:source-pages": "node scripts/generate-source-test-pages.mjs",
-    "test": "npm run validate:data && npm run build && npm run ingest:daniel-lurie -- --dry-run",
-    "validate:data": "node scripts/validate-data.mjs"
+    "test": "npm run validate:data && npm run build && npm run ingest:refresh -- --dry-run",
+    "validate:data": "node scripts/validate-data.mjs && node scripts/generate-trackers-manifest.mjs && node scripts/generate-derived-tracker-data.mjs"
   },
   "dependencies": {},
   "devDependencies": {}

@@ -2,7 +2,7 @@ import { loadPageData, renderSourceTestPage } from './source-test-shared.js';
 
 async function boot() {
   const data = await loadPageData('/data/ai-scrape.json');
-  renderSourceTestPage({
+  await renderSourceTestPage({
     title: 'AI Scrape',
     eyebrow: 'Anthropic web search test',
     description: 'Anthropic-discovered article candidates with AI-written summaries for each result.',

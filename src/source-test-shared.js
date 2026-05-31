@@ -1,3 +1,5 @@
+import { loadTrackerPage } from './tracker-loader.js';
+
 const icon = {
   bot: '🤖',
   database: '🗄️',
@@ -7,25 +9,25 @@ const icon = {
   search: '🔎',
 };
 
+let trackerContextPromise;
+
 export async function loadPageData(path) {
   const response = await fetch(path);
   if (!response.ok) throw new Error(`Unable to load ${path}: ${response.status}`);
   return response.json();
 }
 
-export function renderSourceTestPage({ title, eyebrow, description, updatedAt, summaryCards, items, emptyMessage }) {
+export async function renderSourceTestPage({ title, eyebrow, description, updatedAt, summaryCards, items, emptyMessage }) {
+  if (!trackerContextPromise) trackerContextPromise = loadTrackerPage('daniel-lurie');
+  const trackerContext = await trackerContextPromise;
   const root = document.getElementById('root');
   root.className = '';
   root.innerHTML = `
     <header class="hero">
       <nav>
-        <a class="brand" href="/">${icon.bot} Politics Tracker MVP</a>
+        <a class="brand" href="${trackerContext.trackerHref('/')}">${icon.bot} Politics Tracker MVP</a>
         <div class="nav-links">
-          <a href="/promises.html">Promises</a>
-          <a href="/news.html">Major News</a>
-          <a href="/charts.html">Charts</a>
-          <a href="/rss.html">RSS</a>
-          <a href="/ai-scrape.html">AI Scrape</a>
+          ${trackerContext.navLinksHtml(window.location.pathname)}
         </div>
       </nav>
       <div class="hero-content">

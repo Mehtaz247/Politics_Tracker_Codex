@@ -15,17 +15,18 @@ const REVIEW_COPY = {
 };
 
 const icon = {
-  activity: '📈', chart: '📊', bot: '🤖', clock: '⏱️', database: '🗄️', external: '↗', gauge: '🎛️', news: '📰', refresh: '🔄', shield: '🛡️', sparkles: '✨', trend: '📉'
+  activity: '📈', chart: '📊', bot: '🤖', claims: '🧪', clock: '⏱️', database: '🗄️', external: '↗', gauge: '🎛️', news: '📰', refresh: '🔄', shield: '🛡️', sparkles: '✨', trend: '📉', watch: '🛰️'
 };
 
 let trackerData;
+let trackerContext;
 let activeTopic = 'all';
 let activeStatus = 'all';
 let searchText = '';
 
 async function boot() {
-  const response = await fetch('/data/daniel-lurie-tracker.json');
-  trackerData = await response.json();
+  trackerContext = await loadTrackerPage('daniel-lurie');
+  trackerData = trackerContext.data;
   render();
 }
 
@@ -36,6 +37,12 @@ function render() {
   const averageProgress = progressValues.length ? Math.round(progressValues.reduce((sum, value) => sum + value, 0) / progressValues.length) : null;
   const verifiedSourceCount = data.sources.filter((source) => source.confidence >= 0.8).length;
   const approvedPromises = data.promises.filter((promise) => promise.reviewStatus === 'approved');
+  const majorNews = data.majorNews || [];
+  const claims = data.claims || [];
+  const highRiskClaims = claims
+    .filter((claim) => claim.verdict === 'unverified' || claim.verdict === 'partially_verified')
+    .sort((left, right) => Number(right.confidence || 0) - Number(left.confidence || 0))
+    .slice(0, 4);
   const normalizedSearch = searchText.trim().toLowerCase();
   const filteredPromises = data.promises.filter((promise) => {
     const matchesTopic = activeTopic === 'all' || promise.topic === activeTopic;
@@ -48,10 +55,45 @@ function render() {
   document.getElementById('root').className = '';
   document.getElementById('root').innerHTML = `
     ${hero(data.subject, data.sources.length, averageProgress)}
+    <section class="section">
+      <div class="panel">
+        ${sectionTitle(icon.database, 'Tracker', 'Switch tracked politician')}
+        ${trackerContext.trackerPickerHtml()}
+      </div>
+    </section>
     <section class="dashboard-grid summary-grid">
       ${metricCard(icon.database, 'Tracked sources', data.sources.length, `${verifiedSourceCount} high-confidence sources`)}
       ${metricCard(icon.shield, 'Reviewed promises', approvedPromises.length, `${data.promises.length} total commitments tracked`)}
       ${metricCard(icon.gauge, 'Verified progress', averageProgress === null ? 'Needs data' : `${averageProgress}%`, 'Shown only when evidence supports scoring')}
+    </section>
+    <section class="section">
+      <div class="panel">
+        ${sectionTitle(icon.sparkles, 'Research tools', 'Jump directly into the right workflow')}
+        <div class="connector-grid">
+          ${researchToolCard('War room', 'Open the operator view for urgent alerts across broken promises, evidence gaps, unresolved claims, dark metrics, and workflow friction.', '/war-room.html')}
+          ${researchToolCard('Reporting leads', 'Turn unresolved claims, dark metrics, and weakly-supported promises into concrete verification tasks and records requests.', '/investigations.html')}
+          ${researchToolCard('Topic radar', 'See which policy lanes are hottest right now using derived pressure scores, broken promises, open claims, and live-metric coverage.', '/radar.html')}
+          ${researchToolCard('Daily briefing', 'Start with the shortest useful overview of what matters right now.', '/briefing.html')}
+          ${researchToolCard('Search desk', 'Search across promises, claims, metrics, timeline, sources, and major news at once.', '/search.html')}
+          ${researchToolCard('Topic dossiers', 'Open a single policy-area packet with promises, claims, metrics, timeline, news, and sources together.', '/topic.html')}
+          ${researchToolCard('Promise notebook', 'Open a case-file view for one promise with campaign basis, current evidence, metrics, claims, and timeline context.', '/notebook.html')}
+          ${researchToolCard('Accountability grid', 'Scan every promise in one dense matrix with coverage scoring, evidence counts, live metrics, related claims, and audit gaps.', '/accountability.html')}
+          ${researchToolCard('Coverage & gaps', 'See source mix, review coverage, metric readiness, workflow health, and topic blind spots.', '/coverage.html')}
+          ${researchToolCard('Data desk', 'Use raw tracker JSON, section endpoints, and export links for downstream analysis and auditing.', '/data.html')}
+          ${researchToolCard('Power map', 'See the institutions, supervisors, labor groups, and donors shaping the mayor’s environment.', '/network.html')}
+          ${researchToolCard('Source explorer', 'Browse the normalized source corpus by publisher, topic, and confidence.', '/sources.html')}
+        </div>
+      </div>
+    </section>
+    <section class="section two-column">
+      <div class="panel">
+        ${sectionTitle(icon.news, 'Major news', 'Current political developments that matter most')}
+        <div class="brief-grid">${majorNews.map(newsCard).join('')}</div>
+      </div>
+      <div class="panel">
+        ${sectionTitle(icon.claims, 'Claim watchlist', 'Assertions that still need proof or follow-up')}
+        <div class="watchlist-grid">${highRiskClaims.map(claimWatchCard).join('')}</div>
+      </div>
     </section>
     <section class="section two-column">
       <div>
@@ -82,7 +124,14 @@ function render() {
         <div class="timeline">${data.timeline.slice(0, 6).map(timelineItem).join('')}</div>
       </div>
       <div class="panel">
-        ${sectionTitle(icon.news, 'Latest sources', 'Newest normalized source records')}
+        ${sectionTitle(icon.watch, 'Pipeline health', 'What the tracker is pulling from and how often')}
+        <div class="connector-grid">${data.connectors.map(connectorCard).join('')}</div>
+      </div>
+    </section>
+    <section class="section">
+      <div class="panel">
+        ${sectionTitle(icon.database, 'Latest sources', 'Newest normalized source records')}
+        <p class="method-note"><a class="claim-source-link" href="/sources.html">Open source explorer</a></p>
         <div class="source-list">${data.sources.slice(0, 8).map(sourceItem).join('')}</div>
       </div>
     </section>
@@ -110,6 +159,7 @@ function render() {
       nextInput?.setSelectionRange(searchText.length, searchText.length);
     });
   }
+  wireTrackerPicker(trackerContext.trackers);
 }
 
 function hero(subject, sourceCount, averageProgress) {
@@ -118,17 +168,13 @@ function hero(subject, sourceCount, averageProgress) {
       <nav>
         <span class="brand">${icon.bot} Politics Tracker MVP</span>
         <div class="nav-links">
-          <a href="/promises.html">Promises</a>
-          <a href="/news.html">Major News</a>
-          <a href="/charts.html">Charts</a>
-          <a href="/rss.html">RSS</a>
-          <a href="/ai-scrape.html">AI Scrape</a>
+          ${trackerContext.navLinksHtml('/')}
           <span class="updated">${icon.refresh} Updated ${new Date(subject.lastUpdated).toLocaleDateString()}</span>
         </div>
       </nav>
       <div class="hero-content">
         <div>
-          <p class="eyebrow">Daniel Lurie tracker</p>
+          <p class="eyebrow">${subject.name} tracker</p>
           <h1>Track promises, evidence, and progress without the noise.</h1>
           <p class="hero-copy">A simpler view of the mayor tracker: reviewed promises, core metrics, and the latest source-backed updates in one place.</p>
           <div class="hero-tags"><span>${subject.role}</span><span>${subject.jurisdiction}</span><span>${sourceCount} sources in queue</span></div>
@@ -142,12 +188,37 @@ function metricCard(iconText, label, value, detail) {
   return `<article class="metric-card"><div class="metric-icon">${iconText}</div><span>${label}</span><strong>${value}</strong><p>${detail}</p></article>`;
 }
 
+function researchToolCard(label, detail, href) {
+  return `<article class="source-test-card connector-card"><strong>${label}</strong><p>${detail}</p><a class="claim-source-link" href="${trackerContext.trackerHref(href)}">Open tool</a></article>`;
+}
+
 function sectionTitle(iconText, eyebrow, title) {
   return `<div class="section-title"><div class="section-icon">${iconText}</div><div><p>${eyebrow}</p><h2>${title}</h2></div></div>`;
 }
 
 function timelineItem(item) {
   return `<article class="timeline-item"><time>${item.date}</time><div><span class="timeline-type">${pretty(item.type)}</span><h3>${item.title}</h3><p>${item.impact}</p><small>${pretty(item.topic)}</small></div></article>`;
+}
+
+function newsCard(item) {
+  return `<article class="source-test-card brief-card">
+    <div class="hero-tags compact"><span>${item.publisher}</span><span>${pretty(item.topic)}</span><span>${item.publishedAt}</span></div>
+    <h3>${item.headline}</h3>
+    <p>${item.whyItMatters}</p>
+    <a class="source-link-inline source-link" href="${item.url}" target="_blank" rel="noreferrer">${icon.external}</a>
+  </article>`;
+}
+
+function claimWatchCard(claim) {
+  return `<article class="source-test-card brief-card">
+    <div class="claim-card-head">
+      <span class="status ${claim.verdict === 'unverified' ? 'broken' : 'in_progress'}">${pretty(claim.verdict)}</span>
+      <span class="review-badge ${claim.confidence >= 0.8 ? 'approved' : 'pending_review'}">${Math.round((claim.confidence || 0) * 100)}%</span>
+    </div>
+    <h3>${claim.claim}</h3>
+    <p>${claim.evidencePlan}</p>
+    <a class="claim-source-link" href="${trackerContext.trackerHref('/claims.html')}">Open claim desk</a>
+  </article>`;
 }
 
 function emptyState(message) {
@@ -212,7 +283,15 @@ function metricChart(metric) {
 }
 
 function topicCard(topic) {
-  return `<article class="topic-card"><div class="topic-header"><strong>${topic.label}</strong><span class="risk ${topic.risk}">${topic.risk}</span></div>${Number.isFinite(topic.averageProgress) ? progressBar(topic.averageProgress) : noDataBadge('No verified progress')}<p>${topic.insight}</p></article>`;
+  return `<article class="topic-card"><div class="topic-header"><strong>${topic.label}</strong><span class="risk ${topic.risk}">${topic.risk}</span></div>${Number.isFinite(topic.averageProgress) ? progressBar(topic.averageProgress) : noDataBadge('No verified progress')}<p>${topic.insight}</p><a class="claim-source-link" href="${trackerContext.trackerHref('/topic.html', { topic: topic.id })}">Open dossier</a></article>`;
+}
+
+function connectorCard(connector) {
+  return `<article class="topic-card connector-card">
+    <div class="topic-header"><strong>${connector.label}</strong><span class="status ${connector.status === 'ready' ? 'completed' : 'in_progress'}">${connector.status}</span></div>
+    <p>${connector.output}</p>
+    <div class="promise-meta"><span>${connector.cadence}</span><span>${connector.nextStep}</span></div>
+  </article>`;
 }
 
 function sourceItem(source) {
@@ -232,5 +311,6 @@ function pretty(value) {
 }
 
 boot().catch((error) => {
-  document.getElementById('root').textContent = `Unable to load Daniel Lurie tracker: ${error.message}`;
+  document.getElementById('root').textContent = `Unable to load tracker: ${error.message}`;
 });
+import { loadTrackerPage, wireTrackerPicker } from './tracker-loader.js';

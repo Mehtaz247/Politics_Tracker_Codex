@@ -1,0 +1,53 @@
+[
+  {
+    "slug": "daniel-lurie",
+    "file": "daniel-lurie-tracker.json",
+    "label": "Daniel Lurie",
+    "role": "Mayor of San Francisco",
+    "jurisdiction": "San Francisco, California",
+    "updatedAt": "2026-05-30T22:44:12.298Z",
+    "trackingSince": "2025-01-08",
+    "counts": {
+      "sources": 98,
+      "promises": 12,
+      "reviewedPromises": 9,
+      "claims": 12,
+      "metrics": 7,
+      "liveMetrics": 4,
+      "timeline": 16
+    },
+    "derived": {
+      "warRoomSignals": 26,
+      "urgentSignals": 20,
+      "investigationLeads": 16,
+      "highPriorityLeads": 7,
+      "hottestTopics": [
+        {
+          "id": "city_government",
+          "label": "City Government",
+          "pressureScore": 100
+        },
+        {
+          "id": "homelessness",
+          "label": "Homelessness",
+          "pressureScore": 100
+        },
+        {
+          "id": "economy",
+          "label": "Downtown Economy",
+          "pressureScore": 49
+        }
+      ]
+    },
+    "topicLabels": [
+      "City Government",
+      "Climate",
+      "Downtown Economy",
+      "Homelessness",
+      "Housing",
+      "Public Safety"
+    ],
+    "majorHeadline": "In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
+    "completenessScore": 88
+  }
+]

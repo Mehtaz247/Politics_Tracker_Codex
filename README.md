@@ -6,7 +6,7 @@ An MVP website for tracking Daniel Lurie's announcements, promises, claims, evid
 
 - Shows a Daniel Lurie dashboard with announcement sources, structured promises, claim-check tasks, topic summaries, progress indicators, event timelines, Public SF connector status, and SVG charts.
 - Stores the current dashboard payload in `public/data/daniel-lurie-tracker.json` so the website can render fast and transparently.
-- Provides a recurring ingestion workflow that pulls Daniel Lurie sources from Google News RSS, direct local news RSS feeds, Anthropic web search, official SF pages, and Public SF/DataSF metrics, then asks Claude to enrich promises, claims, and timeline items when configured.
+- Provides a recurring ingestion workflow that pulls Daniel Lurie sources from Google News RSS, direct local news RSS feeds, Anthropic web search, official SF pages, and Public SF/DataSF metrics, then asks Claude to enrich current claims, timeline items, and major-news selection when configured.
 - Includes a GitHub Actions schedule that can refresh tracker data every six hours when repository secrets are configured.
 
 ## Vercel deployment
@@ -35,7 +35,7 @@ Open the local URL printed in the terminal. The MVP uses browser-native JavaScri
 ```bash
 npm run validate:data
 npm run build
-npm run ingest:daniel-lurie -- --dry-run
+npm run ingest:refresh -- --dry-run
 ```
 
 ## Source policy
@@ -47,13 +47,29 @@ The MVP is configured for a **balanced** source strategy: official San Francisco
 Manual local refresh:
 
 ```bash
-npm run ingest:daniel-lurie
+npm run ingest:refresh
 ```
 
-The ingestion script works in two modes:
+Manual promise reseed:
+
+```bash
+npm run ingest:promises
+```
+
+The ingestion workflow now has two phases:
+
+1. **Promise seed phase**: stores canonical campaign promises in `campaignPromiseSeed` plus `promiseSeedMeta`.
+2. **Refresh phase**: fetches current sources and metrics, rescoring persisted campaign promises against current evidence.
+
+The refresh script works in two modes:
 
 1. **Without `ANTHROPIC_API_KEY`**: fetches and normalizes deterministic source records, then keeps existing structured promises and claims.
-2. **With `ANTHROPIC_API_KEY`**: uses Anthropic web search for additional source discovery, sends the newest source summaries to the Anthropic Messages API, and accepts JSON enrichment for promises, claims, timeline items, and topic insights.
+2. **With `ANTHROPIC_API_KEY`**: uses Anthropic web search for additional source discovery, sends the newest source summaries to the Anthropic Messages API, and accepts JSON enrichment for claims, timeline items, and major-news selection.
+
+Campaign promise extraction is no longer part of the recurring six-hour refresh. It only reruns when:
+
+- `npm run ingest:promises` is invoked, or
+- the campaign source fingerprint changes.
 
 Optional environment variables:
 
@@ -74,7 +90,7 @@ Promise scores must follow these rules:
 
 ## Production workflow
 
-`.github/workflows/ingest-daniel-lurie.yml` runs every six hours and commits refreshed `public/data/daniel-lurie-tracker.json` data back to the branch. Configure the repository secret `ANTHROPIC_API_KEY` to enable AI enrichment in that scheduled job.
+`.github/workflows/ingest-daniel-lurie.yml` runs `npm run ingest:refresh` every six hours and commits refreshed `public/data/daniel-lurie-tracker.json` data back to the branch. Configure the repository secret `ANTHROPIC_API_KEY` to enable AI enrichment in that scheduled job.
 
 ## Current workflow guardrails
 

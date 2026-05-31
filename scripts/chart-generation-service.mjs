@@ -1,13 +1,13 @@
 import { existsSync, readFileSync } from 'node:fs';
 import { readFile } from 'node:fs/promises';
 
-const TRACKER_PATH = new URL('../public/data/daniel-lurie-tracker.json', import.meta.url);
+const TRACKER_DATA_DIR = new URL('../public/data/', import.meta.url);
 const RSS_PATH = new URL('../public/data/rss-feed.json', import.meta.url);
 const AI_PATH = new URL('../public/data/ai-scrape.json', import.meta.url);
 const REQUEST_TIMEOUT_MS = 120000;
 const ALLOWED_TYPES = new Set(['line', 'bar', 'donut', 'scorecard']);
 
-export async function generateChartsOnDemand({ chartRequest = '' } = {}) {
+export async function generateChartsOnDemand({ chartRequest = '', trackerSlug = 'daniel-lurie' } = {}) {
   loadLocalEnv();
   if (!process.env.ANTHROPIC_API_KEY) {
     const error = new Error('ANTHROPIC_API_KEY not set');
@@ -15,7 +15,7 @@ export async function generateChartsOnDemand({ chartRequest = '' } = {}) {
     throw error;
   }
 
-  const tracker = JSON.parse(await readFile(TRACKER_PATH, 'utf8'));
+  const tracker = JSON.parse(await readFile(resolveTrackerPath(trackerSlug), 'utf8'));
   const rss = JSON.parse(await readFile(RSS_PATH, 'utf8'));
   const ai = JSON.parse(await readFile(AI_PATH, 'utf8'));
 
@@ -32,6 +32,11 @@ export async function generateChartsOnDemand({ chartRequest = '' } = {}) {
     generatedAt: new Date().toISOString(),
     charts: cleanGeneratedCharts(payload.charts || [], { tracker, requestedMetric, requestedChartType }),
   };
+}
+
+function resolveTrackerPath(trackerSlug) {
+  const safeSlug = String(trackerSlug || 'daniel-lurie').replace(/[^a-z0-9-]/gi, '');
+  return new URL(`./${safeSlug}-tracker.json`, TRACKER_DATA_DIR);
 }
 
 async function requestChartSpec({ tracker, rssItems, aiItems, chartRequest }) {

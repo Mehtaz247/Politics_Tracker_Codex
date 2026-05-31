@@ -25,14 +25,14 @@ const icon = {
 };
 
 let trackerData;
+let trackerContext;
 let sourceById = new Map();
 let activeStatus = 'all';
 let activeTopic = 'all';
 
 async function boot() {
-  const response = await fetch('/data/daniel-lurie-tracker.json');
-  if (!response.ok) throw new Error(`Unable to load tracker data: ${response.status}`);
-  trackerData = await response.json();
+  trackerContext = await loadTrackerPage('daniel-lurie');
+  trackerData = trackerContext.data;
   sourceById = new Map((trackerData.sources || []).map((source) => [source.id, source]));
   render();
 }
@@ -52,13 +52,9 @@ function render() {
   document.getElementById('root').innerHTML = `
     <header class="hero hero-compact">
       <nav>
-        <a class="brand" href="/">${icon.bot} Politics Tracker MVP</a>
+        <a class="brand" href="${trackerContext.trackerHref('/')}">${icon.bot} Politics Tracker MVP</a>
         <div class="nav-links">
-          <a href="/promises.html">Promises</a>
-          <a href="/news.html">Major News</a>
-          <a href="/charts.html">Charts</a>
-          <a href="/rss.html">RSS</a>
-          <a href="/ai-scrape.html">AI Scrape</a>
+          ${trackerContext.navLinksHtml('/promises.html')}
         </div>
       </nav>
       <div class="hero-content">
@@ -126,6 +122,7 @@ function renderPromiseCard(promise) {
     <p>${escapeHtml(promise.statusNote || '')}</p>
     ${renderTrackingSurface(promise)}
     ${promise.progressBasis ? `<p class="progress-basis">${escapeHtml(promise.progressBasis)}</p>` : ''}
+    <a class="claim-source-link" href="${trackerContext.trackerHref('/notebook.html', { promise: promise.id })}">Open notebook</a>
     ${renderEvidenceLinks(promise)}
     <div class="promise-meta promise-meta-roomy">
       <span>${pretty(promise.topic)}</span>
@@ -230,3 +227,4 @@ function escapeHtml(value) {
 boot().catch((error) => {
   document.getElementById('root').textContent = `Unable to load promise tracker: ${error.message}`;
 });
+import { loadTrackerPage } from './tracker-loader.js';

@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import { writeFile, readFile } from 'node:fs/promises';
 import { existsSync, readFileSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { collectSfPublicMetrics } from './connectors/sf-public-data.mjs';
 
 const DATA_PATH = new URL('../public/data/daniel-lurie-tracker.json', import.meta.url);
-const isDryRun = process.argv.includes('--dry-run');
 const USER_AGENT = 'PoliticsTrackerMVP/0.2 (+https://example.local)';
 const MAX_SOURCES = 120;
 const MAX_SCRAPED_SOURCES = 24;
@@ -316,6 +316,8 @@ const TOPIC_ALIASES = new Map([
 
 const STATUS_VALUES = new Set(['not_started', 'in_progress', 'completed', 'delayed', 'broken', 'unclear']);
 const REVIEW_STATUSES = new Set(['pending_review', 'approved', 'rejected', 'needs_more_evidence']);
+const cli = parseCliArgs(process.argv.slice(2));
+
 async function main() {
   loadLocalEnv();
 
@@ -341,8 +343,13 @@ async function main() {
   const mergedSources = pinReferencedSources(existing, mergeByUrl(existing.sources, scrapedSources)).slice(0, MAX_SOURCES);
   const metrics = mergeMetrics(existing.metrics || [], publicSf.metrics);
   const mergedCampaignSources = mergedSources.filter((source) => source.sourceType === 'campaign');
-  const campaignPromiseSeed = await extractCampaignPromisesWithAi(mergedCampaignSources);
-  const scoredPromises = scorePromiseCatalog(buildPromiseCatalog(campaignPromiseSeed, mergedCampaignSources), mergedSources, metrics, existing.promises || []);
+  const persistedCampaignPromiseSeed = resolvePersistedCampaignPromiseSeed(existing, mergedCampaignSources);
+  const campaignSourceFingerprint = fingerprintCampaignSources(mergedCampaignSources);
+  const shouldRefreshPromiseSeed = shouldRefreshCampaignPromiseSeed(existing.promiseSeedMeta, campaignSourceFingerprint);
+  const campaignPromiseSeed = shouldRefreshPromiseSeed
+    ? await refreshCampaignPromiseSeed(persistedCampaignPromiseSeed, mergedCampaignSources)
+    : persistedCampaignPromiseSeed;
+  const scoredPromises = scorePromiseCatalog(campaignPromiseSeed, mergedSources, metrics, existing.promises || []);
   const majorNews = await selectMajorNews(mergedSources);
 
   const baseData = {
@@ -353,6 +360,13 @@ async function main() {
     },
     sources: mergedSources,
     metrics,
+    campaignPromiseSeed,
+    promiseSeedMeta: buildPromiseSeedMeta({
+      existingMeta: existing.promiseSeedMeta,
+      fingerprint: campaignSourceFingerprint,
+      refreshed: shouldRefreshPromiseSeed,
+      seedCount: campaignPromiseSeed.length,
+    }),
     promises: scoredPromises,
     majorNews,
   };
@@ -365,18 +379,69 @@ async function main() {
     majorNews,
   });
 
-  if (isDryRun) {
+  if (cli.isDryRun) {
     const scrapedCount = mergedSources.filter((source) => source.scrapeStatus === 'scraped').length;
     const activeMetricCount = metrics.filter((metric) => metric.observations?.length).length;
     console.log(`Dry run complete: ${googleNewsItems.length} Google News items, ${directNewsItems.length} direct news items, ${webSearchItems.length} Anthropic web-search items, ${officialSources.length} official links, ${campaignSources.length} campaign pages, ${mergedSources.length} merged sources.`);
     console.log(`Scraped article/page excerpts: ${scrapedCount}; active Public SF metrics: ${activeMetricCount}/${metrics.length}.`);
     console.log(`Topics detected: ${[...new Set(mergedSources.map((source) => source.topic))].join(', ')}`);
+    console.log(`Mode: ${cli.mode}; promise seed refreshed: ${shouldRefreshPromiseSeed}; promise seed size: ${campaignPromiseSeed.length}.`);
     console.log(`Promises scored: ${scoredPromises.length}; major news items: ${majorNews.length}.`);
     return;
   }
 
   await writeFile(DATA_PATH, `${JSON.stringify(nextData, null, 2)}\n`);
   console.log(`Daniel Lurie tracker updated with ${nextData.sources.length} sources and ${nextData.metrics.length} Public SF metrics.`);
+}
+
+function parseCliArgs(args) {
+  const mode = args.includes('--refresh-promises') || args.includes('--mode=promises') ? 'promises' : 'refresh';
+  return {
+    mode,
+    isDryRun: args.includes('--dry-run'),
+  };
+}
+
+function shouldRefreshCampaignPromiseSeed(existingMeta, fingerprint) {
+  if (cli.mode === 'promises') return true;
+  return existingMeta?.fingerprint !== fingerprint;
+}
+
+async function refreshCampaignPromiseSeed(fallbackSeed, campaignSources) {
+  const extractedSeed = await extractCampaignPromisesWithAi(campaignSources);
+  if (extractedSeed.length) return cleanCampaignPromiseSeed(buildPromiseCatalog(extractedSeed, campaignSources), campaignSources);
+  return fallbackSeed;
+}
+
+function resolvePersistedCampaignPromiseSeed(existing, campaignSources) {
+  const rawSeed = Array.isArray(existing.campaignPromiseSeed) && existing.campaignPromiseSeed.length
+    ? existing.campaignPromiseSeed
+    : deriveCampaignPromiseSeedFromScoredPromises(existing.promises || []);
+  const cleanedSeed = cleanCampaignPromiseSeed(rawSeed, campaignSources);
+  if (cleanedSeed.length) return cleanedSeed;
+  return cleanCampaignPromiseSeed(buildPromiseCatalog([], campaignSources), campaignSources);
+}
+
+function buildPromiseSeedMeta({ existingMeta, fingerprint, refreshed, seedCount }) {
+  return {
+    fingerprint,
+    seedCount,
+    refreshedAt: refreshed ? new Date().toISOString() : (existingMeta?.refreshedAt || null),
+    source: refreshed ? (process.env.ANTHROPIC_API_KEY ? 'anthropic_or_fallback' : 'fallback') : (existingMeta?.source || 'persisted'),
+  };
+}
+
+function fingerprintCampaignSources(campaignSources) {
+  return createHash('sha256')
+    .update(JSON.stringify(campaignSources.map((source) => ({
+      id: source.id,
+      url: source.url,
+      publishedAt: source.publishedAt,
+      title: source.title,
+      summary: source.summary,
+    }))))
+    .digest('hex')
+    .slice(0, 16);
 }
 
 function loadLocalEnv() {
@@ -820,6 +885,21 @@ function buildPromiseCatalog(aiPromises, campaignSources) {
   }
 
   return catalog;
+}
+
+function deriveCampaignPromiseSeedFromScoredPromises(promises) {
+  return (promises || []).map((promise) => ({
+    id: promise.id,
+    text: promise.text,
+    dateMade: promise.dateMade,
+    deadline: promise.deadline,
+    topic: promise.topic,
+    aiConfidence: promise.aiConfidence,
+    trackingType: promise.trackingType,
+    targetValue: promise.targetValue,
+    unit: promise.unit,
+    campaignSourceIds: promise.campaignSourceIds,
+  }));
 }
 
 function matchesBlueprint(blueprint, promise) {
@@ -1529,6 +1609,7 @@ function parseAiJson(text) {
 function finalizeTrackerData(data) {
   const sourceIds = new Set(data.sources.map((source) => source.id));
   const metricIds = new Set(data.metrics.map((metric) => metric.id));
+  const campaignPromiseSeed = cleanCampaignPromiseSeed(data.campaignPromiseSeed || [], data.sources.filter((source) => source.sourceType === 'campaign'));
   const promises = cleanPromises(data.promises || [], sourceIds, metricIds);
   const claims = cleanClaims(data.claims || [], sourceIds);
   const timeline = cleanTimeline(data.timeline || [], sourceIds);
@@ -1537,6 +1618,7 @@ function finalizeTrackerData(data) {
   return {
     ...data,
     connectors: updateConnectors(data.connectors || []),
+    campaignPromiseSeed,
     promises,
     claims,
     timeline,
@@ -1567,6 +1649,25 @@ function updateConnectors(connectors) {
   const byId = new Map(connectors.map((connector) => [connector.id, connector]));
   for (const connector of updates) byId.set(connector.id, { ...byId.get(connector.id), ...connector });
   return [...byId.values()];
+}
+
+function cleanCampaignPromiseSeed(seed, campaignSources) {
+  const campaignSourceIds = new Set(campaignSources.map((source) => source.id));
+  return (seed || [])
+    .map((promise) => ({
+      id: slugify(promise.id || promise.text || crypto.randomUUID()),
+      text: String(promise.text || '').trim(),
+      dateMade: normalizeDate(promise.dateMade) || 'unknown',
+      deadline: normalizeDate(promise.deadline) || 'unknown',
+      topic: normalizeTopic(promise.topic || detectTopic(promise.text)),
+      aiConfidence: clamp(Number(promise.aiConfidence ?? 0.7), 0.5, 0.99),
+      trackingType: String(promise.trackingType || 'milestone').trim(),
+      targetValue: Number.isFinite(promise.targetValue) ? Number(promise.targetValue) : null,
+      unit: promise.unit ? String(promise.unit).trim() : null,
+      campaignSourceIds: arrayOfStrings(promise.campaignSourceIds).filter((id) => campaignSourceIds.has(id)),
+    }))
+    .filter((promise) => promise.text)
+    .filter((promise, index, items) => items.findIndex((item) => item.id === promise.id) === index);
 }
 
 function cleanPromises(promises, sourceIds, metricIds) {

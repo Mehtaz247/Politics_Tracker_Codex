@@ -1,64 +1,90 @@
 #!/usr/bin/env node
-import { readFile } from 'node:fs/promises';
+import { readdir, readFile } from 'node:fs/promises';
 
-const DATA_PATH = new URL('../public/data/daniel-lurie-tracker.json', import.meta.url);
-const data = JSON.parse(await readFile(DATA_PATH, 'utf8'));
-const requiredTopLevel = ['subject', 'workflow', 'sources', 'promises', 'claims', 'metrics', 'topics', 'connectors', 'timeline', 'majorNews'];
-const errors = [];
-
-for (const key of requiredTopLevel) {
-  if (!(key in data)) errors.push(`Missing top-level key: ${key}`);
-}
-
-for (const [collectionName, requiredFields] of Object.entries({
+const dataDir = new URL('../public/data/', import.meta.url);
+const trackerFiles = (await readdir(dataDir)).filter((file) => file.endsWith('-tracker.json')).sort();
+const requiredTopLevel = ['subject', 'workflow', 'sources', 'campaignPromiseSeed', 'promiseSeedMeta', 'promises', 'claims', 'metrics', 'topics', 'connectors', 'timeline', 'majorNews'];
+const collectionRequirements = {
   sources: ['id', 'title', 'sourceType', 'url', 'publishedAt', 'topic', 'summary', 'confidence'],
+  campaignPromiseSeed: ['id', 'text', 'dateMade', 'deadline', 'topic', 'aiConfidence', 'trackingType', 'campaignSourceIds'],
   promises: ['id', 'text', 'dateMade', 'deadline', 'topic', 'status', 'progress', 'evidenceSourceIds', 'aiConfidence', 'statusNote', 'reviewStatus'],
   metrics: ['id', 'label', 'topic', 'unit', 'source', 'sourceUrl', 'datasetId', 'baseline', 'latest', 'direction', 'observations', 'status'],
   timeline: ['id', 'date', 'type', 'title', 'topic', 'impact', 'sourceIds'],
   connectors: ['id', 'label', 'status', 'cadence', 'output', 'nextStep'],
   majorNews: ['id', 'headline', 'url', 'publishedAt', 'publisher', 'topic', 'whyItMatters'],
-})) {
-  for (const [index, item] of (data[collectionName] || []).entries()) {
-    for (const field of requiredFields) {
-      if (!(field in item)) errors.push(`${collectionName}[${index}] missing ${field}`);
-    }
-  }
-}
-
-
+};
 const validReviewStatuses = new Set(['pending_review', 'approved', 'rejected', 'needs_more_evidence']);
-for (const promise of data.promises || []) {
-  if (!validReviewStatuses.has(promise.reviewStatus)) errors.push(`Promise ${promise.id} has invalid reviewStatus ${promise.reviewStatus}`);
-  const trackingType = promise.trackingType || 'milestone';
-  if (Number.isFinite(promise.progress)) {
-    if (promise.reviewStatus !== 'approved') errors.push(`Promise ${promise.id} has progress but is not approved`);
-    if (!promise.evidenceSourceIds?.length) errors.push(`Promise ${promise.id} has progress but no evidence sources`);
-  } else if (promise.reviewStatus === 'approved' && trackingType === 'quantitative') {
-    errors.push(`Promise ${promise.id} is approved but has no numeric progress`);
-  }
+
+const allErrors = [];
+const summaries = [];
+
+for (const file of trackerFiles) {
+  const data = JSON.parse(await readFile(new URL(file, dataDir), 'utf8'));
+  const errors = validateTracker(data, file);
+  allErrors.push(...errors);
+  summaries.push(`${file}: ${data.sources.length} sources, ${data.promises.length} promises, ${data.metrics.length} metrics, ${data.timeline.length} timeline items.`);
 }
 
-if ('approval' in data) {
-  errors.push('Approval ratings are out of scope for this MVP; remove the top-level approval key.');
-}
-
-const sourceIds = new Set(data.sources.map((source) => source.id));
-for (const promise of data.promises) {
-  for (const sourceId of promise.evidenceSourceIds) {
-    if (!sourceIds.has(sourceId)) errors.push(`Promise ${promise.id} references missing source ${sourceId}`);
-  }
-}
-for (const event of data.timeline) {
-  for (const sourceId of event.sourceIds) {
-    if (!sourceIds.has(sourceId)) errors.push(`Timeline item ${event.id} references missing source ${sourceId}`);
-  }
-}
-for (const item of data.majorNews || []) {
-  if (!item.url.startsWith('http')) errors.push(`Major news item ${item.id} has invalid url ${item.url}`);
-}
-if (errors.length) {
-  console.error(errors.join('\n'));
+if (allErrors.length) {
+  console.error(allErrors.join('\n'));
   process.exitCode = 1;
 } else {
-  console.log(`Validated ${data.sources.length} sources, ${data.promises.length} promises, ${data.metrics.length} metrics, and ${data.timeline.length} timeline items.`);
+  console.log(summaries.join('\n'));
+}
+
+function validateTracker(data, file) {
+  const errors = [];
+
+  for (const key of requiredTopLevel) {
+    if (!(key in data)) errors.push(`${file}: Missing top-level key: ${key}`);
+  }
+
+  for (const [collectionName, requiredFields] of Object.entries(collectionRequirements)) {
+    for (const [index, item] of (data[collectionName] || []).entries()) {
+      for (const field of requiredFields) {
+        if (!(field in item)) errors.push(`${file}: ${collectionName}[${index}] missing ${field}`);
+      }
+    }
+  }
+
+  for (const field of ['fingerprint', 'seedCount', 'refreshedAt', 'source']) {
+    if (!(field in (data.promiseSeedMeta || {}))) errors.push(`${file}: promiseSeedMeta missing ${field}`);
+  }
+
+  for (const promise of data.promises || []) {
+    if (!validReviewStatuses.has(promise.reviewStatus)) errors.push(`${file}: Promise ${promise.id} has invalid reviewStatus ${promise.reviewStatus}`);
+    const trackingType = promise.trackingType || 'milestone';
+    if (Number.isFinite(promise.progress)) {
+      if (promise.reviewStatus !== 'approved') errors.push(`${file}: Promise ${promise.id} has progress but is not approved`);
+      if (!promise.evidenceSourceIds?.length) errors.push(`${file}: Promise ${promise.id} has progress but no evidence sources`);
+    } else if (promise.reviewStatus === 'approved' && trackingType === 'quantitative') {
+      errors.push(`${file}: Promise ${promise.id} is approved but has no numeric progress`);
+    }
+  }
+
+  if ('approval' in data) {
+    errors.push(`${file}: Approval ratings are out of scope for this MVP; remove the top-level approval key.`);
+  }
+
+  const sourceIds = new Set((data.sources || []).map((source) => source.id));
+  for (const promise of data.campaignPromiseSeed || []) {
+    for (const sourceId of promise.campaignSourceIds || []) {
+      if (!sourceIds.has(sourceId)) errors.push(`${file}: Campaign promise seed ${promise.id} references missing source ${sourceId}`);
+    }
+  }
+  for (const promise of data.promises || []) {
+    for (const sourceId of promise.evidenceSourceIds || []) {
+      if (!sourceIds.has(sourceId)) errors.push(`${file}: Promise ${promise.id} references missing source ${sourceId}`);
+    }
+  }
+  for (const event of data.timeline || []) {
+    for (const sourceId of event.sourceIds || []) {
+      if (!sourceIds.has(sourceId)) errors.push(`${file}: Timeline item ${event.id} references missing source ${sourceId}`);
+    }
+  }
+  for (const item of data.majorNews || []) {
+    if (!item.url.startsWith('http')) errors.push(`${file}: Major news item ${item.id} has invalid url ${item.url}`);
+  }
+
+  return errors;
 }

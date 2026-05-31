@@ -3,10 +3,10 @@ import { loadPageData, renderSourceTestPage } from './source-test-shared.js';
 async function boot() {
   const data = await loadPageData('/data/rss-feed.json');
   const uniquePublishers = new Set(data.items.map((item) => item.publisher).filter(Boolean));
-  renderSourceTestPage({
+  await renderSourceTestPage({
     title: 'RSS Feed',
     eyebrow: 'RSS ingestion test',
-    description: 'Latest Daniel Lurie-related items gathered from Google News RSS and direct publisher feeds.',
+    description: 'Latest tracked-politician items gathered from Google News RSS and direct publisher feeds.',
     updatedAt: data.updatedAt,
     summaryCards: [
       { icon: '📰', label: 'Items captured', value: data.items.length, detail: 'Combined RSS records written by the test run' },
