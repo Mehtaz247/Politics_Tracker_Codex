@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-05-30T22:26:00.292Z",
+    "lastUpdated": "2026-05-31T04:55:15.029Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -1288,7 +1288,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Latest overdose-related EMS responses were 169, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
+      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -1761,7 +1761,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-05-30T22:25:59.355Z"
+      "lastRefreshed": "2026-05-31T04:55:14.650Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -1780,7 +1780,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-05-30T22:25:59.355Z"
+      "lastRefreshed": "2026-05-31T04:55:14.650Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -1790,78 +1790,13 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": 30,
-      "latest": 169,
+      "baseline": null,
+      "latest": null,
       "direction": "down_is_good",
-      "observations": [
-        {
-          "date": "2024-12-01",
-          "value": 30
-        },
-        {
-          "date": "2025-01-01",
-          "value": 262
-        },
-        {
-          "date": "2025-02-01",
-          "value": 274
-        },
-        {
-          "date": "2025-03-01",
-          "value": 342
-        },
-        {
-          "date": "2025-04-01",
-          "value": 275
-        },
-        {
-          "date": "2025-05-01",
-          "value": 330
-        },
-        {
-          "date": "2025-06-01",
-          "value": 244
-        },
-        {
-          "date": "2025-07-01",
-          "value": 239
-        },
-        {
-          "date": "2025-08-01",
-          "value": 294
-        },
-        {
-          "date": "2025-09-01",
-          "value": 219
-        },
-        {
-          "date": "2025-10-01",
-          "value": 235
-        },
-        {
-          "date": "2025-11-01",
-          "value": 300
-        },
-        {
-          "date": "2025-12-01",
-          "value": 175
-        },
-        {
-          "date": "2026-01-01",
-          "value": 263
-        },
-        {
-          "date": "2026-02-01",
-          "value": 198
-        },
-        {
-          "date": "2026-03-01",
-          "value": 169
-        }
-      ],
-      "status": "active",
+      "observations": [],
+      "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-05-30T22:25:59.355Z",
+      "lastRefreshed": "2026-05-31T04:55:14.650Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -1882,25 +1817,25 @@
       "latest": 41664,
       "observations": [
         {
-          "date": "2024-12-31",
+          "date": "2025-01-01",
           "value": 55904
         },
         {
-          "date": "2025-03-31",
+          "date": "2025-04-01",
           "value": 46460
         },
         {
-          "date": "2025-06-30",
+          "date": "2025-07-01",
           "value": 51108
         },
         {
-          "date": "2025-09-30",
+          "date": "2025-10-01",
           "value": 41664
         }
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-05-30T22:25:59.355Z"
+      "lastRefreshed": "2026-05-31T04:55:14.650Z"
     },
     {
       "id": "housing-permits-issued",
@@ -1988,7 +1923,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-05-30T22:25:59.355Z"
+      "lastRefreshed": "2026-05-31T04:55:14.650Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2076,7 +2011,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-05-30T22:25:59.355Z"
+      "lastRefreshed": "2026-05-31T04:55:14.650Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2095,7 +2030,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-05-30T22:25:59.355Z"
+      "lastRefreshed": "2026-05-31T04:55:14.650Z"
     }
   ],
   "topics": [
@@ -2145,7 +2080,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
