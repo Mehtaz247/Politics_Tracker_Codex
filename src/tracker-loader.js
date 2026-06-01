@@ -1,9 +1,9 @@
 const TRACKER_PAGES = [
   ['/', 'Home'],
-  ['/trackers.html', 'Trackers'],
   ['/briefing.html', 'Briefing'],
-  ['/playbook.html', 'Playbook'],
   ['/promises.html', 'Promises'],
+  ['/playbook.html', 'Playbook'],
+  ['/trackers.html', 'Trackers'],
   ['/claims.html', 'Claim Check'],
   ['/search.html', 'Search'],
   ['/topic.html', 'Dossiers'],
