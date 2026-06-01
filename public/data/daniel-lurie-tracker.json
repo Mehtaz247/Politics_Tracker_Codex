@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-01T12:13:19.858Z",
+    "lastUpdated": "2026-06-01T18:19:41.372Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -1134,6 +1134,19 @@
       "confidence": 0.68
     },
     {
+      "id": "video-mayor-lurie-s-security-get-in-fight-in-tenderloin-sfpd-officer-left-bleedi",
+      "title": "Video: Mayor Lurie's security get in fight in Tenderloin, SFPD officer left bleeding",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/03/sf-daniel-lurie-car-bodyguard-attacked-tenderloin/",
+      "discoveryUrl": "https://missionlocal.org/2026/03/sf-daniel-lurie-car-bodyguard-attacked-tenderloin/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-03-18",
+      "topic": "public_safety",
+      "summary": "Mayor's security detail involved in altercation in Tenderloin when Lurie stopped to ask people blocking street to move. Two officers injured, two suspects arrested. Judge later released suspect saying he was attacked first.",
+      "confidence": 0.9
+    },
+    {
       "id": "mayor-lurie-s-charter-reform-would-enable-him-to-remake-city-hall-2026-03-17",
       "title": "Mayor Lurie's charter reform would enable him to remake City Hall",
       "sourceType": "news",
@@ -1285,6 +1298,19 @@
       "confidence": 0.9
     },
     {
+      "id": "san-francisco-mayor-daniel-lurie-discusses-city-s-progress-during-his-first-year",
+      "title": "San Francisco Mayor Daniel Lurie discusses city's progress during his first year in office",
+      "sourceType": "news",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-daniel-lurie-reflects-on-first-year-in-office/",
+      "discoveryUrl": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-daniel-lurie-reflects-on-first-year-in-office/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "CBS San Francisco",
+      "publishedAt": "2025-12-18",
+      "topic": "public_safety",
+      "summary": "Lurie touts crime reductions: crime down 30% in Union Square, 40% in Financial District. City using license plate readers and drones as first responders. Retailers like Nintendo, Pop Mart, Uniqlo, and Zara opening or returning to downtown.",
+      "confidence": 0.9
+    },
+    {
       "id": "mayor-lurie-cuts-ribbon-on-new-affordable-housing-in-bayview-https-www-sf-gov-ne",
       "title": "Mayor Lurie Cuts Ribbon On New Affordable Housing in Bayview | SF.gov",
       "sourceType": "official",
@@ -1307,6 +1333,19 @@
       "publishedAt": "2025-09-04",
       "topic": "transit",
       "summary": "Lurie proposed a parcel tax to help close SFMTA's $322 million deficit, costing renters about $65 annually and homeowners $129 annually. The proposal is one of two measures being considered, alongside a regional sales tax increase for Bay Area transit agencies.",
+      "confidence": 0.9
+    },
+    {
+      "id": "mayor-lurie-takes-key-step-towards-opening-new-real-time-investigation-center-20",
+      "title": "Mayor Lurie Takes Key Step Towards Opening New Real-Time Investigation Center",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-takes-key-step-towards-opening-new-real-time-investigation-center-that-will-leverage-new-technology-to-improve-public-safety",
+      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-takes-key-step-towards-opening-new-real-time-investigation-center-that-will-leverage-new-technology-to-improve-public-safety",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2025-08-05",
+      "topic": "public_safety",
+      "summary": "Signing legislation to accept $9.4 million grant from Ripple for new Real-Time Investigation Center to expand crime-fighting technology including drones and automated license plate readers. Overall crime down nearly 30% across San Francisco.",
       "confidence": 0.9
     },
     {
@@ -1333,6 +1372,19 @@
       "publishedAt": "2025-06-24",
       "topic": "housing",
       "summary": "Lurie introduced Family Zoning legislation to create housing at all income levels while meeting state requirements to rezone for 82,069 new residential units by 2031. The plan updates zoning laws to allow denser housing near transit while protecting existing tenants and supporting small businesses.",
+      "confidence": 0.9
+    },
+    {
+      "id": "mayor-lurie-breaks-ground-on-new-100-affordable-housing-developments-2025-06-18",
+      "title": "Mayor Lurie Breaks Ground On New 100% Affordable Housing Developments",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-breaks-ground-on-new-100-affordable-housing-developments",
+      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-breaks-ground-on-new-100-affordable-housing-developments",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2025-06-18",
+      "topic": "housing",
+      "summary": "Groundbreaking on two developments (750 Golden Gate and 850 Turk) creating 167 permanently affordable homes for low-income families and school district employees, converting former parking lots into housing.",
       "confidence": 0.9
     },
     {
@@ -1375,6 +1427,19 @@
       "confidence": 0.9
     },
     {
+      "id": "san-francisco-mayor-daniel-lurie-sets-sights-on-city-s-future-public-safety-afte",
+      "title": "San Francisco Mayor Daniel Lurie sets sights on city's future, public safety after 100 days in office",
+      "sourceType": "news",
+      "url": "https://abc7news.com/post/san-francisco-mayor-daniel-lurie-sets-sights-citys-future-100-days-office/16198027/",
+      "discoveryUrl": "https://abc7news.com/post/san-francisco-mayor-daniel-lurie-sets-sights-citys-future-100-days-office/16198027/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "ABC7 San Francisco",
+      "publishedAt": "2025-04-19",
+      "topic": "public_safety",
+      "summary": "At 100-day mark, Lurie reports property crime down 35%, violent crime down 15%, and car break-ins at 22-year lows. Police department had largest recruitment class in eight years in January but still short around 500 officers.",
+      "confidence": 0.9
+    },
+    {
       "id": "sf-mayor-daniel-lurie-touts-progress-on-crime-homelessness-in-his-first-100-days",
       "title": "SF Mayor Daniel Lurie Touts Progress on Crime, Homelessness in His First 100 Days",
       "sourceType": "news",
@@ -1385,58 +1450,6 @@
       "publishedAt": "2025-04-18",
       "topic": "housing",
       "summary": "At his 100-day mark, Lurie reported street encampments dropping, violent crime down 15%, and car break-ins at a 22-year low. He expressed support for westside zoning changes to meet the state mandate for 82,000 new housing units by 2031, stating the city must build housing at all levels or face state intervention.",
-      "confidence": 0.9
-    },
-    {
-      "id": "mayor-lurie-launches-first-in-state-traffic-safety-program-2025-03-20",
-      "title": "Mayor Lurie Launches First-In-State Traffic Safety Program",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-launches-first-in-state-traffic-safety-program",
-      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-launches-first-in-state-traffic-safety-program",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF.gov",
-      "publishedAt": "2025-03-20",
-      "topic": "public_safety",
-      "summary": "San Francisco became the first city in California to implement automated speed camera enforcement at 33 locations on the High Injury Network. The program includes a 60-day no-fee warning period and discounted citations for low-income residents. One year later, the program achieved an 80% decline in speeding.",
-      "confidence": 0.9
-    },
-    {
-      "id": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
-      "title": "Mayor Lurie Unveils 'Breaking the Cycle,' Vision for Tackling San Francisco's Homelessness and Behavioral Health Crisis",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
-      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF.gov",
-      "publishedAt": "2025-03-18",
-      "topic": "homelessness",
-      "summary": "Lurie unveiled Breaking the Cycle, a comprehensive plan to transform the city's health and homelessness response through better coordination, data-driven policy, and accountability. The plan includes a 24/7 stabilization center, expanded treatment capacity, and integrated neighborhood-based street outreach teams funded by $37.5 million in private funding.",
-      "confidence": 0.9
-    },
-    {
-      "id": "mayor-lurie-launches-innovative-program-to-prevent-family-homelessness-2025-03-0",
-      "title": "Mayor Lurie Launches Innovative Program to Prevent Family Homelessness",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/mayor-lurie-launches-innovative-program-to-prevent-family-homelessness",
-      "discoveryUrl": "https://www.sf.gov/mayor-lurie-launches-innovative-program-to-prevent-family-homelessness",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF.gov",
-      "publishedAt": "2025-03-04",
-      "topic": "homelessness",
-      "summary": "An 18-month Family Homelessness Prevention Pilot launched with $11 million from Tipping Point Community, providing financial assistance, employment support, and legal services to families on the brink of homelessness. The city is also investing $50 million to shelter 600 families and house over 450 families.",
-      "confidence": 0.9
-    },
-    {
-      "id": "mayor-lurie-launches-permit-reform-effort-with-focus-on-housing-and-small-busine",
-      "title": "Mayor Lurie Launches Permit Reform Effort With Focus on Housing and Small Business",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/mayor-lurie-launches-permit-reform-effort-with-focus-on-housing-and-small-business",
-      "discoveryUrl": "https://www.sf.gov/mayor-lurie-launches-permit-reform-effort-with-focus-on-housing-and-small-business",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF.gov",
-      "publishedAt": "2025-01-21",
-      "topic": "economy",
-      "summary": "PermitSF initiative aims to streamline permitting by creating consolidated online applications, developing public-facing permit tracking tools, and potentially merging key functions into a single department. The effort is designed to make permitting faster, more predictable, and transparent to support housing and small business development.",
       "confidence": 0.9
     }
   ],
@@ -1906,7 +1919,7 @@
       "topic": "homelessness",
       "verdict": "unverified",
       "confidence": 0.55,
-      "evidencePlan": "Verify against official HUD Point-in-Time count data, methodology, historical counts 2011-2026, and independent audit."
+      "evidencePlan": "Verify against official HUD Point-in-Time count data, methodology documentation, historical counts 2011-2026, and independent audit confirmation."
     },
     {
       "id": "claim-tourism-record-breaking",
@@ -1933,7 +1946,7 @@
       "topic": "housing",
       "verdict": "partially_verified",
       "confidence": 0.82,
-      "evidencePlan": "Legislation introduction confirmed; track Board vote, November 2026 ballot measure, and actual allocation amounts when budget approved."
+      "evidencePlan": "Legislation introduced May 2026; track Board vote, November 2026 ballot measure outcome, and actual allocation amounts when budget approved."
     },
     {
       "id": "claim-breaking-cycle-37-5m",
@@ -1942,7 +1955,7 @@
       "topic": "homelessness",
       "verdict": "verified",
       "confidence": 0.92,
-      "evidencePlan": "Official announcement with seed funding amount; verify disbursement and accountability mechanisms."
+      "evidencePlan": "Official announcement with seed funding amount confirmed; verify disbursement schedule and accountability mechanisms."
     },
     {
       "id": "claim-net-403-shelter-beds",
@@ -1951,7 +1964,7 @@
       "topic": "homelessness",
       "verdict": "partially_verified",
       "confidence": 0.82,
-      "evidencePlan": "Mission Local analysis cited; verify against HSH shelter capacity reports and opening/closing records."
+      "evidencePlan": "Mission Local analysis cited; verify against HSH shelter capacity reports, opening/closing records, and independent count."
     },
     {
       "id": "claim-crime-down-30-percent",
@@ -1960,7 +1973,7 @@
       "topic": "public_safety",
       "verdict": "partially_verified",
       "confidence": 0.75,
-      "evidencePlan": "Official statement cited; verify through SFPD crime statistics and independent analysis."
+      "evidencePlan": "Official statement cited; verify through SFPD crime statistics, comparison to 2024 baseline, and independent analysis."
     },
     {
       "id": "claim-car-break-ins-22-year-low",
@@ -1969,7 +1982,7 @@
       "topic": "public_safety",
       "verdict": "partially_verified",
       "confidence": 0.75,
-      "evidencePlan": "Official statement cited; verify through SFPD auto burglary data and historical comparison."
+      "evidencePlan": "Official statement cited; verify through SFPD auto burglary data and historical comparison back to 2004."
     },
     {
       "id": "claim-homicides-lowest-since-1954",
@@ -1987,7 +2000,7 @@
       "topic": "city_government",
       "verdict": "verified",
       "confidence": 0.9,
-      "evidencePlan": "Official budget documentation; verify through Controller's Office deficit projections."
+      "evidencePlan": "Official budget documentation; verify through Controller's Office deficit projections and Board of Supervisors budget analysis."
     },
     {
       "id": "claim-street-encampments-lowest-since-2019",
@@ -1996,7 +2009,7 @@
       "topic": "homelessness",
       "verdict": "partially_verified",
       "confidence": 0.7,
-      "evidencePlan": "Official statement cited; verify through HSH encampment count data and 311 request trends."
+      "evidencePlan": "Official statement cited; verify through HSH encampment count data, 311 request trends, and independent street counts."
     },
     {
       "id": "claim-first-sfpd-staffing-increase",
@@ -2005,7 +2018,7 @@
       "topic": "public_safety",
       "verdict": "partially_verified",
       "confidence": 0.82,
-      "evidencePlan": "Official statement cited; verify through SFPD staffing reports and academy graduation records."
+      "evidencePlan": "Official statement cited; verify through SFPD staffing reports, academy graduation records, and year-over-year comparison."
     }
   ],
   "metrics": [
@@ -2026,7 +2039,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-01T12:13:04.761Z"
+      "lastRefreshed": "2026-06-01T18:19:23.772Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2045,7 +2058,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-01T12:13:04.761Z"
+      "lastRefreshed": "2026-06-01T18:19:23.772Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2122,7 +2135,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-01T12:13:04.761Z",
+      "lastRefreshed": "2026-06-01T18:19:23.772Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2161,7 +2174,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-01T12:13:04.761Z"
+      "lastRefreshed": "2026-06-01T18:19:23.772Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2249,7 +2262,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-01T12:13:04.761Z"
+      "lastRefreshed": "2026-06-01T18:19:23.772Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2337,7 +2350,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-01T12:13:04.761Z"
+      "lastRefreshed": "2026-06-01T18:19:23.772Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2356,7 +2369,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-01T12:13:04.761Z"
+      "lastRefreshed": "2026-06-01T18:19:23.772Z"
     }
   ],
   "topics": [
@@ -2642,35 +2655,35 @@
   "majorNews": [
     {
       "id": "mayor-lurie-x27-s-statement-on-carb-decision-to-gut-state-funding-for-transit-an",
-      "headline": "Mayor Lurie condemns CARB decision eliminating billions in state funding for transit and affordable housing",
+      "headline": "Mayor Lurie condemns CARB decision to eliminate billions in state funding for transit and affordable housing",
       "url": "https://www.sf.gov/news-mayor-luries-statement-on-carb-decision-to-gut-state-funding-for-transit-and-affordable-housing/",
       "publishedAt": "2026-05-30",
       "publisher": "SF.gov",
       "topic": "transit",
-      "whyItMatters": "This state-level decision threatens San Francisco's fragile economic recovery by jeopardizing critical Muni operations and affordable housing development, directly undermining the mayor's transit and housing priorities amid an already severe $643 million city budget deficit.",
+      "whyItMatters": "The California Air Resources Board's decision threatens San Francisco's fragile economic recovery by eliminating critical state funding for Muni, BART, and affordable housing—directly jeopardizing the city's transit system facing significant budget gaps and housing production goals that are central to Mayor Lurie's agenda.",
       "sourceId": "mayor-lurie-x27-s-statement-on-carb-decision-to-gut-state-funding-for-transit-an",
       "selectionMethod": "anthropic"
     },
     {
       "id": "mayor-lurie-releases-his-budget-next-week-here-s-how-trump-royally-screwed-it-20",
-      "headline": "Trump federal cuts double San Francisco's budget pain as Mayor Lurie prepares draft budget proposal",
+      "headline": "Trump administration cuts compound SF's $643M deficit as Lurie prepares June 1 budget release",
       "url": "https://sfstandard.com/2026/05/29/mayor-lurie-releases-budget-next-week-s-trump-royally-screwed/",
       "publishedAt": "2026-05-29",
       "publisher": "San Francisco Standard",
       "topic": "city_government",
-      "whyItMatters": "Federal policy changes have worsened the city's $643 million deficit—which would be half that size without Washington's cuts—forcing Mayor Lurie to trim all 55 departments while facing potential disenrollment of 45,000 residents from healthcare and the threat of a historic labor strike.",
+      "whyItMatters": "Federal policy changes could cost San Francisco roughly $300 million, nearly halving what the city's deficit would have been otherwise. With $2 billion of the city's $16 billion budget flowing from Washington, the mayor faces devastating cuts across all departments while labor signals potential historic strike action.",
       "sourceId": "mayor-lurie-releases-his-budget-next-week-here-s-how-trump-royally-screwed-it-20",
       "selectionMethod": "anthropic"
     },
     {
-      "id": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor",
-      "headline": "Mayor Lurie appoints Aly Bonde as Chief of Staff after Staci Slaughter's departure, reshapes City Hall leadership",
-      "url": "https://www.sf.gov/news-mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayors-office-leadership-team/",
-      "publishedAt": "2026-05-27",
+      "id": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
+      "headline": "Lurie, Melgar propose more than doubling affordable housing fund to $125M annually through 2058",
+      "url": "https://www.sf.gov/news-mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-housing/",
+      "publishedAt": "2026-05-19",
       "publisher": "SF.gov",
-      "topic": "transit",
-      "whyItMatters": "This midterm leadership transition—with Slaughter's unexpected return to retirement and Bonde's promotion alongside two other senior staff changes—represents a significant reconfiguration of the mayor's inner circle at a critical juncture as the administration faces budget crises and prepares for challenging labor negotiations.",
-      "sourceId": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor-",
+      "topic": "housing",
+      "whyItMatters": "The charter amendment would generate up to $3 billion over three decades by tying funding to property tax growth, representing the city's most significant affordable housing investment expansion. However, it comes with a trade-off: dramatically reducing inclusionary housing requirements from 15% to 5% for at least three years.",
+      "sourceId": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
       "selectionMethod": "anthropic"
     }
   ],
