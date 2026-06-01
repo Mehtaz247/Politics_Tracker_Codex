@@ -5,7 +5,7 @@
     "label": "Daniel Lurie",
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
-    "updatedAt": "2026-05-30T22:44:12.298Z",
+    "updatedAt": "2026-05-31T04:55:15.029Z",
     "trackingSince": "2025-01-08",
     "counts": {
       "sources": 98,
@@ -13,14 +13,29 @@
       "reviewedPromises": 9,
       "claims": 12,
       "metrics": 7,
-      "liveMetrics": 4,
+      "liveMetrics": 3,
       "timeline": 16
     },
     "derived": {
       "warRoomSignals": 26,
-      "urgentSignals": 20,
-      "investigationLeads": 16,
-      "highPriorityLeads": 7,
+      "urgentSignals": 19,
+      "investigationLeads": 17,
+      "highPriorityLeads": 8,
+      "agendaItems": 26,
+      "criticalAgendaItems": 3,
+      "narratives": 11,
+      "liabilityNarratives": 6,
+      "fragilePromises": 7,
+      "sourceHotspots": 18,
+      "unusedHighConfidenceSources": 33,
+      "interviewQuestions": 38,
+      "hardQuestions": 11,
+      "tensions": 13,
+      "highTensions": 4,
+      "recordsRequests": 26,
+      "urgentRecordsRequests": 15,
+      "topicPackets": 6,
+      "highPressurePackets": 2,
       "hottestTopics": [
         {
           "id": "city_government",
@@ -48,6 +63,6 @@
       "Public Safety"
     ],
     "majorHeadline": "In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
-    "completenessScore": 88
+    "completenessScore": 85
   }
 ]

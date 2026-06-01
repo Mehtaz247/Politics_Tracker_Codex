@@ -61,38 +61,25 @@ function render() {
         ${trackerContext.trackerPickerHtml()}
       </div>
     </section>
-    <section class="dashboard-grid summary-grid">
-      ${metricCard(icon.database, 'Tracked sources', data.sources.length, `${verifiedSourceCount} high-confidence sources`)}
-      ${metricCard(icon.shield, 'Reviewed promises', approvedPromises.length, `${data.promises.length} total commitments tracked`)}
-      ${metricCard(icon.gauge, 'Verified progress', averageProgress === null ? 'Needs data' : `${averageProgress}%`, 'Shown only when evidence supports scoring')}
-    </section>
     <section class="section">
       <div class="panel">
-        ${sectionTitle(icon.sparkles, 'Research tools', 'Jump directly into the right workflow')}
+        ${sectionTitle(icon.sparkles, 'Start here', 'Core workflows')}
         <div class="connector-grid">
-          ${researchToolCard('War room', 'Open the operator view for urgent alerts across broken promises, evidence gaps, unresolved claims, dark metrics, and workflow friction.', '/war-room.html')}
-          ${researchToolCard('Reporting leads', 'Turn unresolved claims, dark metrics, and weakly-supported promises into concrete verification tasks and records requests.', '/investigations.html')}
-          ${researchToolCard('Topic radar', 'See which policy lanes are hottest right now using derived pressure scores, broken promises, open claims, and live-metric coverage.', '/radar.html')}
-          ${researchToolCard('Daily briefing', 'Start with the shortest useful overview of what matters right now.', '/briefing.html')}
-          ${researchToolCard('Search desk', 'Search across promises, claims, metrics, timeline, sources, and major news at once.', '/search.html')}
-          ${researchToolCard('Topic dossiers', 'Open a single policy-area packet with promises, claims, metrics, timeline, news, and sources together.', '/topic.html')}
-          ${researchToolCard('Promise notebook', 'Open a case-file view for one promise with campaign basis, current evidence, metrics, claims, and timeline context.', '/notebook.html')}
-          ${researchToolCard('Accountability grid', 'Scan every promise in one dense matrix with coverage scoring, evidence counts, live metrics, related claims, and audit gaps.', '/accountability.html')}
-          ${researchToolCard('Coverage & gaps', 'See source mix, review coverage, metric readiness, workflow health, and topic blind spots.', '/coverage.html')}
-          ${researchToolCard('Data desk', 'Use raw tracker JSON, section endpoints, and export links for downstream analysis and auditing.', '/data.html')}
-          ${researchToolCard('Power map', 'See the institutions, supervisors, labor groups, and donors shaping the mayor’s environment.', '/network.html')}
-          ${researchToolCard('Source explorer', 'Browse the normalized source corpus by publisher, topic, and confidence.', '/sources.html')}
+          ${researchToolCard('Briefing', 'Start with the shortest useful overview of what matters right now.', '/briefing.html')}
+          ${researchToolCard('Promises', 'Review campaign commitments, delivery status, and verified progress.', '/promises.html')}
+          ${researchToolCard('Playbook', 'Open a one-page operating memo for any topic with risks, opportunities, deadlines, records asks, and questions.', '/playbook.html')}
+          ${researchToolCard('Claim Check', 'See which claims are verified, contested, or still unresolved.', '/claims.html')}
+          ${researchToolCard('Major News', 'Read the most important current coverage around the politician.', '/news.html')}
+          ${researchToolCard('Search', 'Search across promises, claims, metrics, timeline, and sources at once.', '/search.html')}
+          ${researchToolCard('Dossiers', 'Open a single policy-area packet with promises, claims, metrics, timeline, news, and sources together.', '/topic.html')}
+          ${researchToolCard('Metrics', 'Track the public indicators tied to the mayor’s agenda.', '/metrics.html')}
         </div>
       </div>
     </section>
-    <section class="section two-column">
+    <section class="section">
       <div class="panel">
         ${sectionTitle(icon.news, 'Major news', 'Current political developments that matter most')}
         <div class="brief-grid">${majorNews.map(newsCard).join('')}</div>
-      </div>
-      <div class="panel">
-        ${sectionTitle(icon.claims, 'Claim watchlist', 'Assertions that still need proof or follow-up')}
-        <div class="watchlist-grid">${highRiskClaims.map(claimWatchCard).join('')}</div>
       </div>
     </section>
     <section class="section two-column">
@@ -118,21 +105,10 @@ function render() {
         <div class="topic-grid">${data.topics.map(topicCard).join('')}</div>
       </div>
     </section>
-    <section class="section two-column">
+    <section class="section">
       <div class="panel">
         ${sectionTitle(icon.clock, 'Recent timeline', 'Key recent events tied to the tracker')}
         <div class="timeline">${data.timeline.slice(0, 6).map(timelineItem).join('')}</div>
-      </div>
-      <div class="panel">
-        ${sectionTitle(icon.watch, 'Pipeline health', 'What the tracker is pulling from and how often')}
-        <div class="connector-grid">${data.connectors.map(connectorCard).join('')}</div>
-      </div>
-    </section>
-    <section class="section">
-      <div class="panel">
-        ${sectionTitle(icon.database, 'Latest sources', 'Newest normalized source records')}
-        <p class="method-note"><a class="claim-source-link" href="/sources.html">Open source explorer</a></p>
-        <div class="source-list">${data.sources.slice(0, 8).map(sourceItem).join('')}</div>
       </div>
     </section>
   `;
@@ -175,11 +151,11 @@ function hero(subject, sourceCount, averageProgress) {
       <div class="hero-content">
         <div>
           <p class="eyebrow">${subject.name} tracker</p>
-          <h1>Track promises, evidence, and progress without the noise.</h1>
-          <p class="hero-copy">A simpler view of the mayor tracker: reviewed promises, core metrics, and the latest source-backed updates in one place.</p>
-          <div class="hero-tags"><span>${subject.role}</span><span>${subject.jurisdiction}</span><span>${sourceCount} sources in queue</span></div>
+          <h1>Track promises, evidence, and progress in one place.</h1>
+          <p class="hero-copy">A clear operating view of the mayor: major news, promises, claims, metrics, and topic-level briefing pages without the extra dashboard noise.</p>
+          <div class="hero-tags"><span>${subject.role}</span><span>${subject.jurisdiction}</span><span>${approvedPromisesLabel(sourceCount)}</span></div>
         </div>
-          <div class="hero-card">${averageProgress === null ? noDataBadge('Awaiting verified metrics') : donut(averageProgress, 'promise progress')}<p>Charts are generated on demand from the charts page, while source tests live in their own pages.</p></div>
+          <div class="hero-card">${averageProgress === null ? noDataBadge('Awaiting verified metrics') : donut(averageProgress, 'promise progress')}<p>Progress only appears when the evidence is strong enough to support a score.</p></div>
       </div>
     </header>`;
 }
@@ -189,7 +165,7 @@ function metricCard(iconText, label, value, detail) {
 }
 
 function researchToolCard(label, detail, href) {
-  return `<article class="source-test-card connector-card"><strong>${label}</strong><p>${detail}</p><a class="claim-source-link" href="${trackerContext.trackerHref(href)}">Open tool</a></article>`;
+  return `<article class="source-test-card connector-card"><strong>${label}</strong><p>${detail}</p><a class="claim-source-link" href="${trackerContext.trackerHref(href)}">Open</a></article>`;
 }
 
 function sectionTitle(iconText, eyebrow, title) {
@@ -219,6 +195,10 @@ function claimWatchCard(claim) {
     <p>${claim.evidencePlan}</p>
     <a class="claim-source-link" href="${trackerContext.trackerHref('/claims.html')}">Open claim desk</a>
   </article>`;
+}
+
+function approvedPromisesLabel(sourceCount) {
+  return `${sourceCount} tracked sources`;
 }
 
 function emptyState(message) {

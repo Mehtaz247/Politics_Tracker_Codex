@@ -88,6 +88,27 @@ function renderTrackerCard(entry) {
     </div>
     <div class="metric-detail-grid metric-detail-grid-secondary">
       <span><strong>Urgent signals</strong>${entry.derived?.urgentSignals || 0}</span>
+      <span><strong>Agenda load</strong>${entry.derived?.agendaItems || 0}</span>
+      <span><strong>Agenda urgent</strong>${entry.derived?.criticalAgendaItems || 0}</span>
+    </div>
+    <div class="metric-detail-grid metric-detail-grid-secondary">
+      <span><strong>Narratives</strong>${entry.derived?.narratives || 0}</span>
+      <span><strong>Liability lanes</strong>${entry.derived?.liabilityNarratives || 0}</span>
+      <span><strong>Fragile promises</strong>${entry.derived?.fragilePromises || 0}</span>
+      <span><strong>Source hotspots</strong>${entry.derived?.sourceHotspots || 0}</span>
+    </div>
+    <div class="metric-detail-grid metric-detail-grid-secondary">
+      <span><strong>Unused strong sources</strong>${entry.derived?.unusedHighConfidenceSources || 0}</span>
+      <span><strong>Records requests</strong>${entry.derived?.recordsRequests || 0}</span>
+      <span><strong>Urgent records</strong>${entry.derived?.urgentRecordsRequests || 0}</span>
+      <span><strong>Topic playbooks</strong>${entry.derived?.topicPackets || 0}</span>
+      <span><strong>High-pressure playbooks</strong>${entry.derived?.highPressurePackets || 0}</span>
+      <span><strong>Interview questions</strong>${entry.derived?.interviewQuestions || 0}</span>
+      <span><strong>Hard questions</strong>${entry.derived?.hardQuestions || 0}</span>
+    </div>
+    <div class="metric-detail-grid metric-detail-grid-secondary">
+      <span><strong>Tensions</strong>${entry.derived?.tensions || 0}</span>
+      <span><strong>High tensions</strong>${entry.derived?.highTensions || 0}</span>
       <span><strong>Lead queue</strong>${entry.derived?.investigationLeads || 0}</span>
       <span><strong>High-priority leads</strong>${entry.derived?.highPriorityLeads || 0}</span>
       <span><strong>War room load</strong>${entry.derived?.warRoomSignals || 0}</span>
@@ -100,6 +121,13 @@ function renderTrackerCard(entry) {
     </div>` : ''}
     <div class="tracker-directory-links">
       <a class="claim-source-link" href="${trackerHref('/', entry.slug)}">Open home</a>
+      <a class="claim-source-link" href="${trackerHref('/agenda.html', entry.slug)}">Open agenda</a>
+      <a class="claim-source-link" href="${trackerHref('/playbook.html', entry.slug)}">Open playbook</a>
+      <a class="claim-source-link" href="${trackerHref('/narratives.html', entry.slug)}">Open narratives</a>
+      <a class="claim-source-link" href="${trackerHref('/evidence.html', entry.slug)}">Open evidence</a>
+      <a class="claim-source-link" href="${trackerHref('/records.html', entry.slug)}">Open records</a>
+      <a class="claim-source-link" href="${trackerHref('/interview.html', entry.slug)}">Open interview prep</a>
+      <a class="claim-source-link" href="${trackerHref('/tensions.html', entry.slug)}">Open tensions</a>
       <a class="claim-source-link" href="${trackerHref('/briefing.html', entry.slug)}">Open briefing</a>
       <a class="claim-source-link" href="${trackerHref('/radar.html', entry.slug)}">Open radar</a>
       <a class="claim-source-link" href="${trackerHref('/topic.html', entry.slug)}">Open dossiers</a>

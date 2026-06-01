@@ -1,6 +1,6 @@
 {
   "slug": "daniel-lurie",
-  "generatedAt": "2026-05-31T09:10:52.296Z",
+  "generatedAt": "2026-06-01T19:25:22.050Z",
   "warRoom": {
     "signals": [
       {
@@ -169,17 +169,6 @@
         "meta": "climate · 0 related metrics"
       },
       {
-        "id": "metric-slip-overdose-related-911-responses",
-        "type": "metric_slip",
-        "severity": "high",
-        "topic": "public_safety",
-        "metricId": "overdose-related-911-responses",
-        "title": "Overdose-related EMS 911 responses",
-        "detail": "169 responses latest versus 30 responses baseline.",
-        "action": "The live signal is moving against the intended direction.",
-        "meta": "public safety · off-signal"
-      },
-      {
         "id": "metric-slip-overdose-response-naloxone-distribution",
         "type": "metric_slip",
         "severity": "high",
@@ -279,6 +268,17 @@
         "meta": "homelessness · needs_verified_source"
       },
       {
+        "id": "dark-metric-overdose-related-911-responses",
+        "type": "dark_metric",
+        "severity": "medium",
+        "topic": "public_safety",
+        "metricId": "overdose-related-911-responses",
+        "title": "Overdose-related EMS 911 responses",
+        "detail": "Tracked metric exists but still has no live observations.",
+        "action": "This is a tracked indicator without a usable signal yet.",
+        "meta": "public safety · needs_verified_source"
+      },
+      {
         "id": "dark-metric-downtown-office-vacancy-rate",
         "type": "dark_metric",
         "severity": "medium",
@@ -330,6 +330,19 @@
         "recordsToPull": "Find a recurring public dataset, recurring departmental report, or stable API endpoint that can support this metric.",
         "sourceLabel": "No stable dataset URL yet",
         "sourceUrl": null
+      },
+      {
+        "id": "metric-overdose-related-911-responses",
+        "type": "data",
+        "priority": "high",
+        "topic": "public_safety",
+        "metricId": "overdose-related-911-responses",
+        "title": "Overdose-related EMS 911 responses",
+        "whyItMatters": "No live observations yet for a tracked indicator tied to 5 promises.",
+        "nextStep": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
+        "recordsToPull": "Verify DataSF dataset ed3a-sn39, field stability, refresh cadence, and any necessary topic-specific filters.",
+        "sourceLabel": "https://data.sfgov.org/d/ed3a-sn39",
+        "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39"
       },
       {
         "id": "metric-downtown-office-vacancy-rate",
@@ -557,12 +570,12 @@
       "claimCount": 0,
       "openClaimCount": 0,
       "metricCount": 2,
-      "liveMetricCount": 2,
-      "darkMetricCount": 0,
-      "urgentSignalCount": 3,
-      "highPriorityLeadCount": 1,
+      "liveMetricCount": 1,
+      "darkMetricCount": 1,
+      "urgentSignalCount": 2,
+      "highPriorityLeadCount": 2,
       "averageProgress": null,
-      "pressureScore": 43,
+      "pressureScore": 48,
       "riskLevel": "medium",
       "headline": null,
       "insight": "1 promise still need stronger review support."
@@ -605,5 +618,3466 @@
       "headline": null,
       "insight": "1 promise still need stronger review support."
     }
-  ]
+  ],
+  "agenda": {
+    "items": [
+      {
+        "id": "agenda-promise-past-due-promise-increase-shelter-beds",
+        "type": "deadline",
+        "priority": "critical",
+        "topic": "homelessness",
+        "promiseId": "promise-increase-shelter-beds",
+        "title": "Open 1,500 new shelter and treatment beds within six months of taking office",
+        "detail": "Deadline passed 328 days ago.",
+        "whyItMatters": "Mission Local reports a net increase of 403 beds against the 1,500-bed campaign target after the six-month deadline.",
+        "nextStep": "Check for any new evidence, implementation change, or explicit retreat from the original commitment.",
+        "dueDate": "2025-07-08"
+      },
+      {
+        "id": "agenda-metric-stale-overdose-response-naloxone-distribution",
+        "type": "data_refresh",
+        "priority": "high",
+        "topic": "public_safety",
+        "metricId": "overdose-response-naloxone-distribution",
+        "title": "Naloxone distributed by SFDPH-funded programs",
+        "detail": "Latest observation is 242 days old (2025-10-01).",
+        "whyItMatters": "Old indicator data weakens the tracker’s ability to judge current progress or regression.",
+        "nextStep": "https://data.sfgov.org/d/ubf6-e57x",
+        "dueDate": "2025-10-01"
+      },
+      {
+        "id": "agenda-claim-claim-15-year-homelessness-low",
+        "type": "verification",
+        "priority": "high",
+        "topic": "homelessness",
+        "claimId": "claim-15-year-homelessness-low",
+        "title": "San Francisco has reached lowest level of unsheltered homelessness in 15 years",
+        "detail": "unverified",
+        "whyItMatters": "Unresolved claims shape the public narrative before the tracker has settled the evidence.",
+        "nextStep": "Verify against official HUD Point-in-Time count data, methodology, historical counts 2011-2026, and independent audit",
+        "dueDate": null
+      },
+      {
+        "id": "agenda-news-in-bad-budget-year-mayor-lurie-to-maintain-immigrant-legal-services-funding",
+        "type": "narrative",
+        "priority": "medium",
+        "topic": "city_government",
+        "title": "In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
+        "detail": "Mission Local · 2026-05-28",
+        "whyItMatters": "Mayor Lurie to maintain $20 million for legal services despite $600 million deficit. But will last year's emergency funds be renewed?",
+        "nextStep": "Monitor for follow-on reporting, official response, and any change in tracker status or evidence coverage.",
+        "dueDate": "2026-05-28",
+        "url": "https://missionlocal.org/2026/05/sf-budget-immigration-funding-rapid-response/"
+      },
+      {
+        "id": "agenda-timeline-2026-05-21-analysis-shows-net-increase-of-only-403-shelter-beds-multiple-shelters-closed",
+        "type": "recent_shift",
+        "priority": "medium",
+        "topic": "homelessness",
+        "title": "Analysis shows net increase of only 403 shelter beds, multiple shelters closed",
+        "detail": "10 days ago · policy",
+        "whyItMatters": "major",
+        "nextStep": "Track what this development changes in implementation, opposition, or downstream metrics.",
+        "dueDate": "2026-05-21"
+      },
+      {
+        "id": "agenda-news-mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds",
+        "type": "narrative",
+        "priority": "medium",
+        "topic": "homelessness",
+        "title": "Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds",
+        "detail": "Mission Local · 2026-05-21",
+        "whyItMatters": "Mission Local does the math on San Francisco's shifting homeless approach toward treatment — and away from traditional shelters.",
+        "nextStep": "Monitor for follow-on reporting, official response, and any change in tracker status or evidence coverage.",
+        "dueDate": "2026-05-21",
+        "url": "https://missionlocal.org/2026/05/sf-lurie-shelter-beds/"
+      },
+      {
+        "id": "agenda-timeline-2026-05-20-legislation-signed-to-streamline-block-party-and-neighborhood-event-permits",
+        "type": "recent_shift",
+        "priority": "medium",
+        "topic": "city_government",
+        "title": "Legislation signed to streamline block party and neighborhood event permits",
+        "detail": "11 days ago · policy",
+        "whyItMatters": "minor",
+        "nextStep": "Track what this development changes in implementation, opposition, or downstream metrics.",
+        "dueDate": "2026-05-20"
+      },
+      {
+        "id": "agenda-timeline-2026-05-19-mayor-and-sup-melgar-announce-125m-annual-affordable-housing-fund-plan-for-november-ballot",
+        "type": "recent_shift",
+        "priority": "medium",
+        "topic": "housing",
+        "title": "Mayor and Sup. Melgar announce $125M annual affordable housing fund plan for November ballot",
+        "detail": "12 days ago · policy",
+        "whyItMatters": "major",
+        "nextStep": "Track what this development changes in implementation, opposition, or downstream metrics.",
+        "dueDate": "2026-05-19"
+      },
+      {
+        "id": "agenda-news-mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-housing-sf-gov",
+        "type": "narrative",
+        "priority": "medium",
+        "topic": "housing",
+        "title": "Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov",
+        "detail": "SF.gov · 2026-05-19",
+        "whyItMatters": "Expansion of Housing Trust Fund, Updates to Inclusionary Housing Requirements Will Jumpstart Building and Preservation of Affordable Housing Citywide, Encourage Creation of New Housing at All Income Levels; Investment Continues Mayor Lurie, Supervisor Melgar’s Work to Add More Housing in San Francisco and Make the City More Affordable",
+        "nextStep": "Monitor for follow-on reporting, official response, and any change in tracker status or evidence coverage.",
+        "dueDate": "2026-05-19",
+        "url": "https://www.sf.gov/news-mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-housing/"
+      },
+      {
+        "id": "agenda-metric-dark-homeless-encampment-311-requests",
+        "type": "data_refresh",
+        "priority": "medium",
+        "topic": "homelessness",
+        "metricId": "homeless-encampment-311-requests",
+        "title": "311 encampment requests",
+        "detail": "No live observation exists yet for this tracked indicator.",
+        "whyItMatters": "A missing indicator makes it harder to tell whether the administration is actually moving the underlying condition.",
+        "nextStep": "DataSF 311 Cases filtered to service_name = Encampments",
+        "dueDate": null
+      },
+      {
+        "id": "agenda-metric-dark-homeless-shelter-waitlist",
+        "type": "data_refresh",
+        "priority": "medium",
+        "topic": "homelessness",
+        "metricId": "homeless-shelter-waitlist",
+        "title": "HSH shelter waitlist",
+        "detail": "No live observation exists yet for this tracked indicator.",
+        "whyItMatters": "A missing indicator makes it harder to tell whether the administration is actually moving the underlying condition.",
+        "nextStep": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
+        "dueDate": null
+      },
+      {
+        "id": "agenda-metric-dark-overdose-related-911-responses",
+        "type": "data_refresh",
+        "priority": "medium",
+        "topic": "public_safety",
+        "metricId": "overdose-related-911-responses",
+        "title": "Overdose-related EMS 911 responses",
+        "detail": "No live observation exists yet for this tracked indicator.",
+        "whyItMatters": "A missing indicator makes it harder to tell whether the administration is actually moving the underlying condition.",
+        "nextStep": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
+        "dueDate": null
+      },
+      {
+        "id": "agenda-metric-dark-downtown-office-vacancy-rate",
+        "type": "data_refresh",
+        "priority": "medium",
+        "topic": "economy",
+        "metricId": "downtown-office-vacancy-rate",
+        "title": "Office vacancy rate",
+        "detail": "No live observation exists yet for this tracked indicator.",
+        "whyItMatters": "A missing indicator makes it harder to tell whether the administration is actually moving the underlying condition.",
+        "nextStep": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
+        "dueDate": null
+      },
+      {
+        "id": "agenda-claim-claim-tourism-record-breaking",
+        "type": "verification",
+        "priority": "medium",
+        "topic": "economy",
+        "claimId": "claim-tourism-record-breaking",
+        "title": "2026 tourism spending forecasted to cross pre-pandemic record",
+        "detail": "partially verified",
+        "whyItMatters": "Unresolved claims shape the public narrative before the tracker has settled the evidence.",
+        "nextStep": "SF Travel forecast cited; verify final 2026 visitor spending data when published and compare to 2019 baseline",
+        "dueDate": null
+      },
+      {
+        "id": "agenda-claim-claim-convention-bookings-up-69-percent",
+        "type": "verification",
+        "priority": "medium",
+        "topic": "economy",
+        "claimId": "claim-convention-bookings-up-69-percent",
+        "title": "Hotel occupancy from Moscone Center conferences up 69% since 2024",
+        "detail": "partially verified",
+        "whyItMatters": "Unresolved claims shape the public narrative before the tracker has settled the evidence.",
+        "nextStep": "SF Travel data cited; verify through independent hotel occupancy data and Moscone Center booking records",
+        "dueDate": null
+      },
+      {
+        "id": "agenda-claim-claim-affordable-housing-fund-doubling",
+        "type": "verification",
+        "priority": "medium",
+        "topic": "housing",
+        "claimId": "claim-affordable-housing-fund-doubling",
+        "title": "Affordable housing funding will more than double from $52M to $125M annually through property tax allocation",
+        "detail": "partially verified",
+        "whyItMatters": "Unresolved claims shape the public narrative before the tracker has settled the evidence.",
+        "nextStep": "Legislation introduction confirmed; track Board vote, November 2026 ballot measure, and actual allocation amounts when budget approved",
+        "dueDate": null
+      },
+      {
+        "id": "agenda-claim-claim-127-layoffs",
+        "type": "verification",
+        "priority": "medium",
+        "topic": "city_government",
+        "claimId": "claim-127-layoffs",
+        "title": "Mayor sent pink slips to 127 city staffers as part of budget cuts",
+        "detail": "partially verified",
+        "whyItMatters": "Unresolved claims shape the public narrative before the tracker has settled the evidence.",
+        "nextStep": "Verify through city HR records and departmental budget documents; track final count after Board approval",
+        "dueDate": null
+      },
+      {
+        "id": "agenda-claim-claim-inclusionary-rate-reduction",
+        "type": "verification",
+        "priority": "medium",
+        "topic": "housing",
+        "claimId": "claim-inclusionary-rate-reduction",
+        "title": "Affordable housing proposal would reduce inclusionary rate from 15% to 5% for at least three years",
+        "detail": "partially verified",
+        "whyItMatters": "Unresolved claims shape the public narrative before the tracker has settled the evidence.",
+        "nextStep": "Verify city committee recommendation, ordinance text, and final Board approval of inclusionary rate changes",
+        "dueDate": null
+      },
+      {
+        "id": "agenda-claim-claim-net-403-shelter-beds",
+        "type": "verification",
+        "priority": "medium",
+        "topic": "homelessness",
+        "claimId": "claim-net-403-shelter-beds",
+        "title": "Net increase of only 403 shelter beds since taking office, far below 1,500 goal",
+        "detail": "partially verified",
+        "whyItMatters": "Unresolved claims shape the public narrative before the tracker has settled the evidence.",
+        "nextStep": "Mission Local analysis cited; verify against HSH shelter capacity reports and opening/closing records",
+        "dueDate": null
+      },
+      {
+        "id": "agenda-claim-claim-free-city-cut-30-percent",
+        "type": "verification",
+        "priority": "medium",
+        "topic": "city_government",
+        "claimId": "claim-free-city-cut-30-percent",
+        "title": "Budget proposes 30% cut to Free City College cash grants program, from $9.3M to $6.4M",
+        "detail": "partially verified",
+        "whyItMatters": "Unresolved claims shape the public narrative before the tracker has settled the evidence.",
+        "nextStep": "Budget hearing and media reports cited; verify through official June 1 budget proposal and Board approval process",
+        "dueDate": null
+      },
+      {
+        "id": "agenda-claim-claim-labor-strike-threat",
+        "type": "verification",
+        "priority": "medium",
+        "topic": "city_government",
+        "claimId": "claim-labor-strike-threat",
+        "title": "SEIU 1021 warns of potential citywide strike after CA Public Employment Relations Board restored strike rights",
+        "detail": "partially verified",
+        "whyItMatters": "Unresolved claims shape the public narrative before the tracker has settled the evidence.",
+        "nextStep": "CA Public Employment Relations Board decision confirmed; verify contract expiration dates and strike authorization procedures",
+        "dueDate": null
+      },
+      {
+        "id": "agenda-claim-claim-pac-spending-supervisor-races",
+        "type": "verification",
+        "priority": "medium",
+        "topic": "city_government",
+        "claimId": "claim-pac-spending-supervisor-races",
+        "title": "Over $4 million poured into supervisor races, with $2.1M from PACs including Lurie allies and GrowSF",
+        "detail": "partially verified",
+        "whyItMatters": "Unresolved claims shape the public narrative before the tracker has settled the evidence.",
+        "nextStep": "Campaign finance filings cited; verify final totals through SF Ethics Commission records after June 2 election",
+        "dueDate": null
+      },
+      {
+        "id": "agenda-timeline-2026-05-26-chief-of-staff-staci-slaughter-announces-departure-aly-bonde-to-replace",
+        "type": "recent_shift",
+        "priority": "low",
+        "topic": "city_government",
+        "title": "Chief of Staff Staci Slaughter announces departure; Aly Bonde to replace",
+        "detail": "5 days ago · appointment",
+        "whyItMatters": "moderate",
+        "nextStep": "Track what this development changes in implementation, opposition, or downstream metrics.",
+        "dueDate": "2026-05-26"
+      },
+      {
+        "id": "agenda-timeline-2026-05-13-sarah-madland-appointed-as-rec-park-general-manager",
+        "type": "recent_shift",
+        "priority": "low",
+        "topic": "city_government",
+        "title": "Sarah Madland appointed as Rec & Park general manager",
+        "detail": "18 days ago · appointment",
+        "whyItMatters": "moderate",
+        "nextStep": "Track what this development changes in implementation, opposition, or downstream metrics.",
+        "dueDate": "2026-05-13"
+      },
+      {
+        "id": "agenda-timeline-2026-05-13-people-s-budget-coalition-delivers-1-500-postcards-opposing-budget-cuts",
+        "type": "recent_shift",
+        "priority": "low",
+        "topic": "city_government",
+        "title": "People's Budget Coalition delivers 1,500 postcards opposing budget cuts",
+        "detail": "18 days ago · protest",
+        "whyItMatters": "moderate",
+        "nextStep": "Track what this development changes in implementation, opposition, or downstream metrics.",
+        "dueDate": "2026-05-13"
+      },
+      {
+        "id": "agenda-timeline-2026-05-12-administration-announces-lowest-unsheltered-homelessness-in-15-years",
+        "type": "recent_shift",
+        "priority": "low",
+        "topic": "homelessness",
+        "title": "Administration announces lowest unsheltered homelessness in 15 years",
+        "detail": "19 days ago · announcement",
+        "whyItMatters": "major",
+        "nextStep": "Track what this development changes in implementation, opposition, or downstream metrics.",
+        "dueDate": "2026-05-12"
+      }
+    ]
+  },
+  "narratives": {
+    "items": [
+      {
+        "id": "narrative-liability-city_government",
+        "tone": "liability",
+        "type": "pressure",
+        "topic": "city_government",
+        "topicLabel": "City Government",
+        "title": "City Government is a political pressure lane right now",
+        "summary": "City Government is accumulating enough high-severity signals to stay on the political pressure board. In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
+        "confidence": 0.84,
+        "evidencePoints": [
+          "7 high-severity war-room signals",
+          "Current headline: In bad budget year, Mayor Lurie to maintain immigrant legal services funding"
+        ],
+        "recommendedUse": "Use this to explain where the mayor is most vulnerable to sustained negative coverage or accountability attacks.",
+        "linksTo": [
+          "war-room",
+          "topic",
+          "accountability"
+        ]
+      },
+      {
+        "id": "narrative-liability-homelessness",
+        "tone": "liability",
+        "type": "pressure",
+        "topic": "homelessness",
+        "topicLabel": "Homelessness",
+        "title": "Homelessness is a political pressure lane right now",
+        "summary": "Homelessness is being defined by a broken commitment, and the lane is already carrying a direct accountability story. Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds",
+        "confidence": 0.84,
+        "evidencePoints": [
+          "1 broken promise in this lane",
+          "3 high-severity war-room signals",
+          "Current headline: Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds"
+        ],
+        "recommendedUse": "Use this to explain where the mayor is most vulnerable to sustained negative coverage or accountability attacks.",
+        "linksTo": [
+          "war-room",
+          "topic",
+          "accountability"
+        ]
+      },
+      {
+        "id": "narrative-liability-economy",
+        "tone": "liability",
+        "type": "pressure",
+        "topic": "economy",
+        "topicLabel": "Downtown Economy",
+        "title": "Downtown Economy is a political pressure lane right now",
+        "summary": "Downtown Economy is accumulating enough high-severity signals to stay on the political pressure board.",
+        "confidence": 0.84,
+        "evidencePoints": [
+          "2 high-severity war-room signals"
+        ],
+        "recommendedUse": "Use this to explain where the mayor is most vulnerable to sustained negative coverage or accountability attacks.",
+        "linksTo": [
+          "war-room",
+          "topic",
+          "accountability"
+        ]
+      },
+      {
+        "id": "narrative-liability-public_safety",
+        "tone": "liability",
+        "type": "pressure",
+        "topic": "public_safety",
+        "topicLabel": "Public Safety",
+        "title": "Public Safety is a political pressure lane right now",
+        "summary": "Public Safety has live indicators moving the wrong way, creating a measurable liability instead of a messaging-only problem.",
+        "confidence": 0.84,
+        "evidencePoints": [
+          "2 high-severity war-room signals",
+          "1 live metric moving against the intended direction"
+        ],
+        "recommendedUse": "Use this to explain where the mayor is most vulnerable to sustained negative coverage or accountability attacks.",
+        "linksTo": [
+          "war-room",
+          "topic",
+          "accountability"
+        ]
+      },
+      {
+        "id": "narrative-liability-housing",
+        "tone": "liability",
+        "type": "pressure",
+        "topic": "housing",
+        "topicLabel": "Housing",
+        "title": "Housing is a political pressure lane right now",
+        "summary": "Housing has live indicators moving the wrong way, creating a measurable liability instead of a messaging-only problem. Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov",
+        "confidence": 0.84,
+        "evidencePoints": [
+          "3 high-severity war-room signals",
+          "2 live metrics moving against the intended direction",
+          "Current headline: Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov"
+        ],
+        "recommendedUse": "Use this to explain where the mayor is most vulnerable to sustained negative coverage or accountability attacks.",
+        "linksTo": [
+          "war-room",
+          "topic",
+          "accountability"
+        ]
+      },
+      {
+        "id": "narrative-liability-climate",
+        "tone": "liability",
+        "type": "pressure",
+        "topic": "climate",
+        "topicLabel": "Climate",
+        "title": "Climate is a political pressure lane right now",
+        "summary": "Climate is accumulating enough high-severity signals to stay on the political pressure board.",
+        "confidence": 0.84,
+        "evidencePoints": [
+          "2 high-severity war-room signals"
+        ],
+        "recommendedUse": "Use this to explain where the mayor is most vulnerable to sustained negative coverage or accountability attacks.",
+        "linksTo": [
+          "war-room",
+          "topic",
+          "accountability"
+        ]
+      },
+      {
+        "id": "narrative-contested-city_government",
+        "tone": "contested",
+        "type": "verification",
+        "topic": "city_government",
+        "topicLabel": "City Government",
+        "title": "City Government is being shaped by unresolved claims",
+        "summary": "City Government mixes some settled facts with still-contested assertions, so the public storyline is only partially stable.",
+        "confidence": 0.79,
+        "evidencePoints": [
+          "4 claims remain unresolved or only partially verified",
+          "1 claim is already settled",
+          "Most visible story: In bad budget year, Mayor Lurie to maintain immigrant legal services funding"
+        ],
+        "recommendedUse": "Use this to show where the narrative is still unstable and depends on better evidence, records, or final numbers.",
+        "linksTo": [
+          "claims",
+          "investigations",
+          "topic"
+        ]
+      },
+      {
+        "id": "narrative-contested-homelessness",
+        "tone": "contested",
+        "type": "verification",
+        "topic": "homelessness",
+        "topicLabel": "Homelessness",
+        "title": "Homelessness is being shaped by unresolved claims",
+        "summary": "Homelessness contains unresolved claims that could harden into conventional wisdom before the tracker settles the evidence.",
+        "confidence": 0.79,
+        "evidencePoints": [
+          "2 claims remain unresolved or only partially verified",
+          "1 claim is already settled",
+          "Most visible story: Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds"
+        ],
+        "recommendedUse": "Use this to show where the narrative is still unstable and depends on better evidence, records, or final numbers.",
+        "linksTo": [
+          "claims",
+          "investigations",
+          "topic"
+        ]
+      },
+      {
+        "id": "narrative-contested-economy",
+        "tone": "contested",
+        "type": "verification",
+        "topic": "economy",
+        "topicLabel": "Downtown Economy",
+        "title": "Downtown Economy is being shaped by unresolved claims",
+        "summary": "Downtown Economy is still driven by claims that need better records, methodology, or final votes before they should be treated as settled.",
+        "confidence": 0.79,
+        "evidencePoints": [
+          "2 claims remain unresolved or only partially verified",
+          "No fully settled claim in this lane yet"
+        ],
+        "recommendedUse": "Use this to show where the narrative is still unstable and depends on better evidence, records, or final numbers.",
+        "linksTo": [
+          "claims",
+          "investigations",
+          "topic"
+        ]
+      },
+      {
+        "id": "narrative-contested-housing",
+        "tone": "contested",
+        "type": "verification",
+        "topic": "housing",
+        "topicLabel": "Housing",
+        "title": "Housing is being shaped by unresolved claims",
+        "summary": "Housing is still driven by claims that need better records, methodology, or final votes before they should be treated as settled.",
+        "confidence": 0.79,
+        "evidencePoints": [
+          "2 claims remain unresolved or only partially verified",
+          "No fully settled claim in this lane yet",
+          "Most visible story: Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov"
+        ],
+        "recommendedUse": "Use this to show where the narrative is still unstable and depends on better evidence, records, or final numbers.",
+        "linksTo": [
+          "claims",
+          "investigations",
+          "topic"
+        ]
+      },
+      {
+        "id": "narrative-progress-public_safety",
+        "tone": "progress",
+        "type": "momentum",
+        "topic": "public_safety",
+        "topicLabel": "Public Safety",
+        "title": "Public Safety has a usable progress story",
+        "summary": "Public Safety has at least one clearly delivered promise, giving the administration a concrete success story.",
+        "confidence": 0.76,
+        "evidencePoints": [
+          "1 completed promise"
+        ],
+        "recommendedUse": "Use this when explaining where the administration can point to concrete movement instead of just announcements.",
+        "linksTo": [
+          "briefing",
+          "metrics",
+          "topic"
+        ]
+      }
+    ]
+  },
+  "evidence": {
+    "fragilePromises": [
+      {
+        "id": "promise-new-downtown-police-district",
+        "title": "Create a new downtown police district focused on the hospitality zone",
+        "topic": "public_safety",
+        "reviewStatus": "needs_more_evidence",
+        "evidenceCount": 1,
+        "campaignSources": 1,
+        "nonCampaignSources": 0,
+        "uniquePublishers": 1,
+        "status": "in_progress"
+      },
+      {
+        "id": "promise-ethics-enforcement",
+        "title": "Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall",
+        "topic": "city_government",
+        "reviewStatus": "needs_more_evidence",
+        "evidenceCount": 1,
+        "campaignSources": 1,
+        "nonCampaignSources": 0,
+        "uniquePublishers": 1,
+        "status": "in_progress"
+      },
+      {
+        "id": "promise-climate-innovation-hub",
+        "title": "Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment",
+        "topic": "climate",
+        "reviewStatus": "needs_more_evidence",
+        "evidenceCount": 3,
+        "campaignSources": 3,
+        "nonCampaignSources": 0,
+        "uniquePublishers": 1,
+        "status": "in_progress"
+      },
+      {
+        "id": "promise-increase-shelter-beds",
+        "title": "Open 1,500 new shelter and treatment beds within six months of taking office",
+        "topic": "homelessness",
+        "reviewStatus": "approved",
+        "evidenceCount": 2,
+        "campaignSources": 1,
+        "nonCampaignSources": 1,
+        "uniquePublishers": 2,
+        "status": "broken"
+      },
+      {
+        "id": "promise-fentanyl-state-of-emergency",
+        "title": "Declare a citywide fentanyl state of emergency to move resources faster",
+        "topic": "public_safety",
+        "reviewStatus": "approved",
+        "evidenceCount": 2,
+        "campaignSources": 1,
+        "nonCampaignSources": 1,
+        "uniquePublishers": 2,
+        "status": "completed"
+      },
+      {
+        "id": "promise-treatment-or-arrest",
+        "title": "Give people committing low-level offenses tied to addiction or mental illness a choice between immediate treatment or arrest",
+        "topic": "public_safety",
+        "reviewStatus": "approved",
+        "evidenceCount": 2,
+        "campaignSources": 1,
+        "nonCampaignSources": 1,
+        "uniquePublishers": 2,
+        "status": "in_progress"
+      },
+      {
+        "id": "promise-centralize-contracts-and-construction",
+        "title": "Centralize contract oversight and construction management to cut corruption and city waste",
+        "topic": "city_government",
+        "reviewStatus": "approved",
+        "evidenceCount": 2,
+        "campaignSources": 1,
+        "nonCampaignSources": 1,
+        "uniquePublishers": 2,
+        "status": "in_progress"
+      }
+    ],
+    "sourceHotspots": [
+      {
+        "id": "campaign-public-safety",
+        "title": "Daniel Lurie campaign public safety priorities",
+        "topic": "public_safety",
+        "sourceType": "campaign",
+        "confidence": 0.94,
+        "publisher": null,
+        "promiseIds": [
+          "promise-end-open-air-drug-markets",
+          "promise-rebuild-police-staffing",
+          "promise-new-downtown-police-district",
+          "promise-revitalize-downtown-and-small-business",
+          "promise-climate-innovation-hub"
+        ],
+        "claimIds": [],
+        "timelineIds": [],
+        "totalLinks": 5
+      },
+      {
+        "id": "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s",
+        "title": "Mayor Lurie Launches Breaking The Cycle Fund To Deliver Transformation Of City&#x27;s Behavioral Health and Homelessness Response | SF.gov",
+        "topic": "homelessness",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": "SF.gov",
+        "promiseIds": [
+          "promise-treatment-or-arrest",
+          "promise-end-open-air-drug-markets"
+        ],
+        "claimIds": [
+          "claim-breaking-cycle-37-5m"
+        ],
+        "timelineIds": [
+          "timeline-breaking-cycle-fund-launch"
+        ],
+        "totalLinks": 4
+      },
+      {
+        "id": "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-",
+        "title": "Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds",
+        "topic": "homelessness",
+        "sourceType": "news",
+        "confidence": 0.82,
+        "publisher": "Mission Local",
+        "promiseIds": [
+          "promise-increase-shelter-beds"
+        ],
+        "claimIds": [
+          "claim-net-403-shelter-beds"
+        ],
+        "timelineIds": [
+          "timeline-shelter-bed-closures"
+        ],
+        "totalLinks": 3
+      },
+      {
+        "id": "campaign-mental-health-drugs",
+        "title": "Daniel Lurie campaign mental health and drug crisis priorities",
+        "topic": "public_safety",
+        "sourceType": "campaign",
+        "confidence": 0.94,
+        "publisher": null,
+        "promiseIds": [
+          "promise-fentanyl-state-of-emergency",
+          "promise-treatment-or-arrest",
+          "promise-end-open-air-drug-markets"
+        ],
+        "claimIds": [],
+        "timelineIds": [],
+        "totalLinks": 3
+      },
+      {
+        "id": "campaign-accountability",
+        "title": "Daniel Lurie campaign accountability and anti-corruption priorities",
+        "topic": "city_government",
+        "sourceType": "campaign",
+        "confidence": 0.94,
+        "publisher": null,
+        "promiseIds": [
+          "promise-streamline-permitting",
+          "promise-centralize-contracts-and-construction",
+          "promise-ethics-enforcement"
+        ],
+        "claimIds": [],
+        "timelineIds": [],
+        "totalLinks": 3
+      },
+      {
+        "id": "mayor-lurie-signs-legislation-to-make-it-easier-to-throw-block-parties-and-neigh",
+        "title": "Mayor Lurie Signs Legislation To Make It Easier To Throw Block Parties And Neighborhood Events | SF.gov",
+        "topic": "public_safety",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [
+          "promise-streamline-permitting",
+          "promise-revitalize-downtown-and-small-business"
+        ],
+        "claimIds": [],
+        "timelineIds": [
+          "timeline-block-party-legislation"
+        ],
+        "totalLinks": 3
+      },
+      {
+        "id": "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
+        "title": "S.F. eyes $125M annually for affordable housing, more than double current funding",
+        "topic": "transit",
+        "sourceType": "news",
+        "confidence": 0.9,
+        "publisher": "Mission Local",
+        "promiseIds": [
+          "promise-build-more-housing"
+        ],
+        "claimIds": [
+          "claim-affordable-housing-fund-doubling"
+        ],
+        "timelineIds": [
+          "timeline-affordable-housing-fund-deal"
+        ],
+        "totalLinks": 3
+      },
+      {
+        "id": "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h",
+        "title": "Mayor Lurie Celebrates Visitors Coming Back To San Francisco In Record Numbers | SF.gov",
+        "topic": "economy",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [
+          "claim-tourism-record-breaking",
+          "claim-convention-bookings-up-69-percent"
+        ],
+        "timelineIds": [
+          "timeline-tourism-forecast"
+        ],
+        "totalLinks": 3
+      },
+      {
+        "id": "fentanyl-powers",
+        "title": "Emergency powers for fentanyl crisis response",
+        "topic": "public_safety",
+        "sourceType": "news",
+        "confidence": 0.84,
+        "publisher": null,
+        "promiseIds": [
+          "promise-fentanyl-state-of-emergency"
+        ],
+        "claimIds": [],
+        "timelineIds": [
+          "timeline-fentanyl-emergency-powers"
+        ],
+        "totalLinks": 2
+      },
+      {
+        "id": "campaign-housing",
+        "title": "Daniel Lurie campaign housing priorities",
+        "topic": "housing",
+        "sourceType": "campaign",
+        "confidence": 0.94,
+        "publisher": null,
+        "promiseIds": [
+          "promise-streamline-permitting",
+          "promise-build-more-housing"
+        ],
+        "claimIds": [],
+        "timelineIds": [],
+        "totalLinks": 2
+      },
+      {
+        "id": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
+        "title": "Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov",
+        "topic": "economy",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [
+          "promise-build-more-housing"
+        ],
+        "claimIds": [],
+        "timelineIds": [
+          "timeline-affordable-housing-fund-deal"
+        ],
+        "totalLinks": 2
+      },
+      {
+        "id": "campaign-small-business-downtown",
+        "title": "Daniel Lurie campaign small business and downtown revitalization priorities",
+        "topic": "economy",
+        "sourceType": "campaign",
+        "confidence": 0.94,
+        "publisher": null,
+        "promiseIds": [
+          "promise-revitalize-downtown-and-small-business",
+          "promise-climate-innovation-hub"
+        ],
+        "claimIds": [],
+        "timelineIds": [],
+        "totalLinks": 2
+      },
+      {
+        "id": "campaign-climate-hub",
+        "title": "Daniel Lurie campaign climate innovation hub priorities",
+        "topic": "climate",
+        "sourceType": "campaign",
+        "confidence": 0.94,
+        "publisher": null,
+        "promiseIds": [
+          "promise-revitalize-downtown-and-small-business",
+          "promise-climate-innovation-hub"
+        ],
+        "claimIds": [],
+        "timelineIds": [],
+        "totalLinks": 2
+      },
+      {
+        "id": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
+        "title": "Mayor Lurie Presents Balanced, Responsible Budget to Advance San Francisco&#x27;s Recovery | SF.gov",
+        "topic": "homelessness",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": "SF.gov",
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": [
+          "timeline-inauguration",
+          "timeline-budget-presented"
+        ],
+        "totalLinks": 2
+      },
+      {
+        "id": "mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-home",
+        "title": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years - SF.gov",
+        "topic": "homelessness",
+        "sourceType": "news",
+        "confidence": 0.78,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [
+          "claim-15-year-homelessness-low"
+        ],
+        "timelineIds": [
+          "timeline-homelessness-announcement"
+        ],
+        "totalLinks": 2
+      },
+      {
+        "id": "sf-mayor-supervisors-announce-proposal-to-double-funding-for-affordable-housing-",
+        "title": "SF Mayor, Supervisors Announce Proposal to Double Funding For Affordable Housing",
+        "topic": "housing",
+        "sourceType": "news",
+        "confidence": 0.8,
+        "publisher": "SFist",
+        "promiseIds": [],
+        "claimIds": [
+          "claim-inclusionary-rate-reduction"
+        ],
+        "timelineIds": [
+          "timeline-affordable-housing-fund-deal"
+        ],
+        "totalLinks": 2
+      },
+      {
+        "id": "sf-mayor-s-chief-of-staff-and-confidante-staci-slaughter-to-step-down-2026-05-26",
+        "title": "SF Mayor&#x27;s Chief of Staff and Confidante Staci Slaughter to Step Down",
+        "topic": "homelessness",
+        "sourceType": "news",
+        "confidence": 0.8,
+        "publisher": "SFist",
+        "promiseIds": [],
+        "claimIds": [
+          "claim-chief-of-staff-departure"
+        ],
+        "timelineIds": [
+          "timeline-chief-of-staff-departure"
+        ],
+        "totalLinks": 2
+      },
+      {
+        "id": "we-can-shut-down-the-city-lurie-s-budget-cuts-spark-a-showdown-with-labor-2026-0",
+        "title": "‘We can shut down the city’: Lurie’s budget cuts spark a showdown with labor",
+        "topic": "public_safety",
+        "sourceType": "news",
+        "confidence": 0.9,
+        "publisher": "SF Standard",
+        "promiseIds": [],
+        "claimIds": [
+          "claim-127-layoffs",
+          "claim-labor-strike-threat"
+        ],
+        "timelineIds": [],
+        "totalLinks": 2
+      }
+    ],
+    "unusedHighConfidenceSources": [
+      {
+        "id": "sf-mayor-news",
+        "title": "News from the Office of the Mayor | SF.gov",
+        "topic": "homelessness",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "datasf-311-cases",
+        "title": "311 Cases",
+        "topic": "homelessness",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "datasf-overdose-related-911-responses",
+        "title": "Overdose-Related 911 Responses by Emergency Medical Services",
+        "topic": "public_safety",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "datasf-substance-use-services",
+        "title": "San Francisco Department of Public Health Substance Use Services",
+        "topic": "public_safety",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "datasf-building-permits",
+        "title": "Building Permits",
+        "topic": "housing",
+        "sourceType": "official",
+        "confidence": 0.95,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "s-f-economy-may-have-reached-inflection-point-says-controller-yes-that-s-good-ne",
+        "title": "S.F. economy may have reached 'inflection point,' says controller. Yes, that's good news.",
+        "topic": "economy",
+        "sourceType": "news",
+        "confidence": 0.9,
+        "publisher": "Mission Local",
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-continues-support-for-arts-organizations-with-new-grant-opportunitie",
+        "title": "Mayor Lurie Continues Support For Arts Organizations With New Grant Opportunities | SF.gov",
+        "topic": "economy",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-cuts-ribbon-on-terry-francois-boulevard-bike-and-pedestrian-safety-i",
+        "title": "Mayor Lurie Cuts Ribbon On Terry Francois Boulevard Bike And Pedestrian Safety Improvement Project | SF.gov",
+        "topic": "public_safety",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears-2026-05-01",
+        "title": "SF Mayor Daniel Lurie pushes Muni funding measures as deadline nears",
+        "topic": "transit",
+        "sourceType": "news",
+        "confidence": 0.9,
+        "publisher": "NBC Bay Area",
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-celebrates-completion-of-high-speed-fiber-network-at-all-san-francis",
+        "title": "Mayor Lurie Celebrates Completion Of High-Speed Fiber Network At All San Francisco Fire Stations | SF.gov",
+        "topic": "public_safety",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-nominates-larry-low-to-police-commission-https-www-sf-gov-news-mayor",
+        "title": "Mayor Lurie Nominates Larry Low To Police Commission | SF.gov",
+        "topic": "public_safety",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-celebrates-80-decline-in-speeding-after-one-year-of-san-francisco-s-",
+        "title": "Mayor Lurie Celebrates 80% Decline In Speeding After One Year Of San Francisco's First-In-State Traffic Safety Program",
+        "topic": "transit",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": "SF.gov",
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-celebrates-groundbreaking-of-improved-twin-peaks-promenade-https-www",
+        "title": "Mayor Lurie Celebrates Groundbreaking Of Improved Twin Peaks Promenade | SF.gov",
+        "topic": "economy",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-celebrates-80-decline-in-speeding-after-one-year-of-san-francisco-x2",
+        "title": "Mayor Lurie Celebrates 80% Decline In Speeding After One Year Of San Francisco&#x27;s First-In-State Traffic Safety Program | SF.gov",
+        "topic": "public_safety",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-launches-next-step-to-deliver-faster-more-transparent-permitting-as-",
+        "title": "Mayor Lurie Launches Next Step To Deliver Faster, More Transparent Permitting As New Digital Portal Shows Results | SF.gov",
+        "topic": "economy",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-appoints-matthew-goudeau-as-city-x27-s-first-executive-director-of-a",
+        "title": "Mayor Lurie Appoints Matthew Goudeau As City&#x27;s First Executive Director Of Arts And Culture | SF.gov",
+        "topic": "economy",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-partners-with-49ers-to-kick-off-youth-football-program-build-on-viol",
+        "title": "Mayor Lurie Partners With 49ers To Kick Off Youth Football Program, Build On Violence Prevention Work | SF.gov",
+        "topic": "public_safety",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-celebrates-mou-between-asian-art-museum-and-national-museum-of-korea",
+        "title": "Mayor Lurie Celebrates MOU Between Asian Art Museum and National Museum of Korea | SF.gov",
+        "topic": "economy",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "with-cost-of-living-rising-cuts-to-affordability-programs-put-san-francisco-on-e",
+        "title": "With Cost of Living Rising, Cuts to Affordability Programs Put San Francisco on Edge",
+        "topic": "housing",
+        "sourceType": "news",
+        "confidence": 0.9,
+        "publisher": "KQED",
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-announces-priority-street-repaving-projects-https-www-sf-gov-news-ma",
+        "title": "Mayor Lurie Announces Priority Street Repaving Projects | SF.gov",
+        "topic": "homelessness",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-signs-mou-between-san-francisco-and-american-chamber-of-commerce-in-",
+        "title": "Mayor Lurie Signs MOU Between San Francisco And American Chamber Of Commerce In Korea | SF.gov",
+        "topic": "public_safety",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-celebrates-mou-between-sfmoma-and-korea-national-museum-of-modern-an",
+        "title": "Mayor Lurie Celebrates MOU Between SFMOMA And Korea National Museum Of Modern And Contemporary Art | SF.gov",
+        "topic": "economy",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-builds-on-momentum-of-neighborhood-street-teams-announces-next-phase",
+        "title": "Mayor Lurie Builds On Momentum Of Neighborhood Street Teams, Announces Next Phase Of Coordinated Street Outreach To Improve Street Conditions | SF.gov",
+        "topic": "homelessness",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-celebrates-signing-of-mou-between-sf-ballet-and-shanghai-internation",
+        "title": "Mayor Lurie Celebrates Signing Of MOU Between SF Ballet And Shanghai International Arts Festival | SF.gov",
+        "topic": "economy",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-signs-mou-between-san-francisco-and-shanghai-https-www-sf-gov-news-m",
+        "title": "Mayor Lurie Signs MOU Between San Francisco And Shanghai | SF.gov",
+        "topic": "economy",
+        "sourceType": "official",
+        "confidence": 0.9,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "mayor-lurie-s-charter-reform-would-enable-him-to-remake-city-hall-2026-03-17",
+        "title": "Mayor Lurie's charter reform would enable him to remake City Hall",
+        "topic": "city_government",
+        "sourceType": "news",
+        "confidence": 0.9,
+        "publisher": "Mission Local",
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "s-f-mayor-board-president-propose-3-ballot-measures-to-boost-executive-power-202",
+        "title": "S.F. mayor, board president propose 3 ballot measures to boost executive power",
+        "topic": "city_government",
+        "sourceType": "news",
+        "confidence": 0.9,
+        "publisher": "Mission Local",
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "sf-mayor-to-introduce-measure-to-prevent-muni-service-cuts-2026-03-03",
+        "title": "SF mayor to introduce measure to prevent Muni service cuts",
+        "topic": "transit",
+        "sourceType": "news",
+        "confidence": 0.9,
+        "publisher": "NBC Bay Area",
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "daniel-lurie-sparked-confrontation-that-injured-security-team-police-report-2026",
+        "title": "Daniel Lurie sparked confrontation that injured security team: Police report",
+        "topic": "public_safety",
+        "sourceType": "news",
+        "confidence": 0.87,
+        "publisher": "San Francisco Standard",
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "sf-office-vacancy-rate",
+        "title": "Office Vacancy Rate",
+        "topic": "economy",
+        "sourceType": "official",
+        "confidence": 0.86,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "sf-healthy-streets-dashboard",
+        "title": "Healthy streets data and information",
+        "topic": "homelessness",
+        "sourceType": "official",
+        "confidence": 0.85,
+        "publisher": null,
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "lgbtq-nonprofits-urge-sf-mayor-lurie-to-reconsider-17-million-in-budget-cuts-202",
+        "title": "LGBTQ+ nonprofits urge SF Mayor Lurie to reconsider $17 million in budget cuts",
+        "topic": "city_government",
+        "sourceType": "news",
+        "confidence": 0.85,
+        "publisher": "KTVU",
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      },
+      {
+        "id": "these-billionaires-were-against-daniel-lurie-now-they-re-for-him-to-the-tune-of-",
+        "title": "These billionaires were against Daniel Lurie. Now they're for him—to the tune of $4 million",
+        "topic": "economy",
+        "sourceType": "news",
+        "confidence": 0.85,
+        "publisher": "Mission Local",
+        "promiseIds": [],
+        "claimIds": [],
+        "timelineIds": []
+      }
+    ],
+    "topicCoverage": [
+      {
+        "id": "climate",
+        "label": "Climate",
+        "promiseCount": 1,
+        "claimCount": 0,
+        "uniqueEvidenceSources": 3,
+        "publisherDiversity": 1,
+        "campaignWeight": 3,
+        "officialWeight": 0,
+        "newsWeight": 0,
+        "evidenceDensity": 3,
+        "weakCoverage": true
+      },
+      {
+        "id": "homelessness",
+        "label": "Homelessness",
+        "promiseCount": 1,
+        "claimCount": 3,
+        "uniqueEvidenceSources": 4,
+        "publisherDiversity": 4,
+        "campaignWeight": 1,
+        "officialWeight": 1,
+        "newsWeight": 2,
+        "evidenceDensity": 4,
+        "weakCoverage": false
+      },
+      {
+        "id": "housing",
+        "label": "Housing",
+        "promiseCount": 1,
+        "claimCount": 2,
+        "uniqueEvidenceSources": 4,
+        "publisherDiversity": 4,
+        "campaignWeight": 1,
+        "officialWeight": 1,
+        "newsWeight": 2,
+        "evidenceDensity": 4,
+        "weakCoverage": false
+      },
+      {
+        "id": "economy",
+        "label": "Downtown Economy",
+        "promiseCount": 1,
+        "claimCount": 2,
+        "uniqueEvidenceSources": 6,
+        "publisherDiversity": 2,
+        "campaignWeight": 4,
+        "officialWeight": 2,
+        "newsWeight": 0,
+        "evidenceDensity": 6,
+        "weakCoverage": false
+      },
+      {
+        "id": "public_safety",
+        "label": "Public Safety",
+        "promiseCount": 5,
+        "claimCount": 0,
+        "uniqueEvidenceSources": 6,
+        "publisherDiversity": 4,
+        "campaignWeight": 2,
+        "officialWeight": 2,
+        "newsWeight": 2,
+        "evidenceDensity": 1.2,
+        "weakCoverage": false
+      },
+      {
+        "id": "city_government",
+        "label": "City Government",
+        "promiseCount": 3,
+        "claimCount": 5,
+        "uniqueEvidenceSources": 8,
+        "publisherDiversity": 5,
+        "campaignWeight": 2,
+        "officialWeight": 1,
+        "newsWeight": 5,
+        "evidenceDensity": 2.67,
+        "weakCoverage": false
+      }
+    ]
+  },
+  "interview": {
+    "questions": [
+      {
+        "id": "question-broken-promise-increase-shelter-beds",
+        "category": "delivery_gap",
+        "priority": "high",
+        "topic": "homelessness",
+        "title": "Why did this promise miss its target?",
+        "question": "You promised to \"Open 1,500 new shelter and treatment beds within six months of taking office\". Why should voters accept the current result instead of viewing this as a broken commitment?",
+        "receipt": "Mission Local reports a net increase of 403 beds against the 1,500-bed campaign target after the six-month deadline.",
+        "followUp": "403 net new beds identified in reporting against a 1,500-bed campaign target.",
+        "relatedPath": {
+          "path": "/notebook.html",
+          "query": {
+            "promise": "promise-increase-shelter-beds"
+          }
+        }
+      },
+      {
+        "id": "question-metric-slip-overdose-response-naloxone-distribution",
+        "category": "metric_slip",
+        "priority": "high",
+        "topic": "public_safety",
+        "title": "Why is the live indicator moving the wrong way?",
+        "question": "The tracker shows naloxone distributed by sfdph-funded programs at 41,664 doses versus a baseline of 55,904 doses. Why is this getting worse under your watch?",
+        "receipt": "Latest 41,664 doses versus baseline 55,904 doses.",
+        "followUp": "What is the administration doing now that should show up in the next data release?",
+        "relatedPath": {
+          "path": "/metrics.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-metric-slip-housing-permits-issued",
+        "category": "metric_slip",
+        "priority": "high",
+        "topic": "housing",
+        "title": "Why is the live indicator moving the wrong way?",
+        "question": "The tracker shows housing-related building permits issued at 1,221 permits versus a baseline of 1,422 permits. Why is this getting worse under your watch?",
+        "receipt": "Latest 1,221 permits versus baseline 1,422 permits.",
+        "followUp": "What is the administration doing now that should show up in the next data release?",
+        "relatedPath": {
+          "path": "/metrics.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-metric-slip-housing-units-proposed-in-issued-permits",
+        "category": "metric_slip",
+        "priority": "high",
+        "topic": "housing",
+        "title": "Why is the live indicator moving the wrong way?",
+        "question": "The tracker shows net proposed units in issued housing permits at 426 units versus a baseline of 696 units. Why is this getting worse under your watch?",
+        "receipt": "Latest 426 units versus baseline 696 units.",
+        "followUp": "What is the administration doing now that should show up in the next data release?",
+        "relatedPath": {
+          "path": "/metrics.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-claim-claim-15-year-homelessness-low",
+        "category": "claim_check",
+        "priority": "high",
+        "topic": "homelessness",
+        "title": "Can this claim be backed up right now?",
+        "question": "Your orbit has advanced the claim that \"San Francisco has reached lowest level of unsheltered homelessness in 15 years\". What primary evidence should the public rely on today, not later, to evaluate that statement?",
+        "receipt": "Verify against official HUD Point-in-Time count data, methodology, historical counts 2011-2026, and independent audit",
+        "followUp": "If that evidence is not public yet, why should anyone treat the claim as settled now?",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-narrative-narrative-liability-city_government",
+        "category": "narrative_pressure",
+        "priority": "high",
+        "topic": "city_government",
+        "title": "City Government is defining the story around you",
+        "question": "Right now, city government is one of the clearest political liabilities in your tracker. What is your best evidence that this story is turning, rather than hardening against you?",
+        "receipt": "City Government is accumulating enough high-severity signals to stay on the political pressure board. In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
+        "followUp": "7 high-severity war-room signals",
+        "relatedPath": {
+          "path": "/narratives.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-narrative-narrative-liability-homelessness",
+        "category": "narrative_pressure",
+        "priority": "high",
+        "topic": "homelessness",
+        "title": "Homelessness is defining the story around you",
+        "question": "Right now, homelessness is one of the clearest political liabilities in your tracker. What is your best evidence that this story is turning, rather than hardening against you?",
+        "receipt": "Homelessness is being defined by a broken commitment, and the lane is already carrying a direct accountability story. Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds",
+        "followUp": "1 broken promise in this lane",
+        "relatedPath": {
+          "path": "/narratives.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-narrative-narrative-liability-economy",
+        "category": "narrative_pressure",
+        "priority": "high",
+        "topic": "economy",
+        "title": "Downtown Economy is defining the story around you",
+        "question": "Right now, downtown economy is one of the clearest political liabilities in your tracker. What is your best evidence that this story is turning, rather than hardening against you?",
+        "receipt": "Downtown Economy is accumulating enough high-severity signals to stay on the political pressure board.",
+        "followUp": "2 high-severity war-room signals",
+        "relatedPath": {
+          "path": "/narratives.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-narrative-narrative-liability-public_safety",
+        "category": "narrative_pressure",
+        "priority": "high",
+        "topic": "public_safety",
+        "title": "Public Safety is defining the story around you",
+        "question": "Right now, public safety is one of the clearest political liabilities in your tracker. What is your best evidence that this story is turning, rather than hardening against you?",
+        "receipt": "Public Safety has live indicators moving the wrong way, creating a measurable liability instead of a messaging-only problem.",
+        "followUp": "2 high-severity war-room signals",
+        "relatedPath": {
+          "path": "/narratives.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-narrative-narrative-liability-housing",
+        "category": "narrative_pressure",
+        "priority": "high",
+        "topic": "housing",
+        "title": "Housing is defining the story around you",
+        "question": "Right now, housing is one of the clearest political liabilities in your tracker. What is your best evidence that this story is turning, rather than hardening against you?",
+        "receipt": "Housing has live indicators moving the wrong way, creating a measurable liability instead of a messaging-only problem. Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov",
+        "followUp": "3 high-severity war-room signals",
+        "relatedPath": {
+          "path": "/narratives.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-narrative-narrative-liability-climate",
+        "category": "narrative_pressure",
+        "priority": "high",
+        "topic": "climate",
+        "title": "Climate is defining the story around you",
+        "question": "Right now, climate is one of the clearest political liabilities in your tracker. What is your best evidence that this story is turning, rather than hardening against you?",
+        "receipt": "Climate is accumulating enough high-severity signals to stay on the political pressure board.",
+        "followUp": "2 high-severity war-room signals",
+        "relatedPath": {
+          "path": "/narratives.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-claim-claim-tourism-record-breaking",
+        "category": "claim_check",
+        "priority": "medium",
+        "topic": "economy",
+        "title": "Can this claim be backed up right now?",
+        "question": "Your orbit has advanced the claim that \"2026 tourism spending forecasted to cross pre-pandemic record\". What primary evidence should the public rely on today, not later, to evaluate that statement?",
+        "receipt": "SF Travel forecast cited; verify final 2026 visitor spending data when published and compare to 2019 baseline",
+        "followUp": "If that evidence is not public yet, why should anyone treat the claim as settled now?",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-claim-claim-convention-bookings-up-69-percent",
+        "category": "claim_check",
+        "priority": "medium",
+        "topic": "economy",
+        "title": "Can this claim be backed up right now?",
+        "question": "Your orbit has advanced the claim that \"Hotel occupancy from Moscone Center conferences up 69% since 2024\". What primary evidence should the public rely on today, not later, to evaluate that statement?",
+        "receipt": "SF Travel data cited; verify through independent hotel occupancy data and Moscone Center booking records",
+        "followUp": "If that evidence is not public yet, why should anyone treat the claim as settled now?",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-claim-claim-affordable-housing-fund-doubling",
+        "category": "claim_check",
+        "priority": "medium",
+        "topic": "housing",
+        "title": "Can this claim be backed up right now?",
+        "question": "Your orbit has advanced the claim that \"Affordable housing funding will more than double from $52M to $125M annually through property tax allocation\". What primary evidence should the public rely on today, not later, to evaluate that statement?",
+        "receipt": "Legislation introduction confirmed; track Board vote, November 2026 ballot measure, and actual allocation amounts when budget approved",
+        "followUp": "If that evidence is not public yet, why should anyone treat the claim as settled now?",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-claim-claim-127-layoffs",
+        "category": "claim_check",
+        "priority": "medium",
+        "topic": "city_government",
+        "title": "Can this claim be backed up right now?",
+        "question": "Your orbit has advanced the claim that \"Mayor sent pink slips to 127 city staffers as part of budget cuts\". What primary evidence should the public rely on today, not later, to evaluate that statement?",
+        "receipt": "Verify through city HR records and departmental budget documents; track final count after Board approval",
+        "followUp": "If that evidence is not public yet, why should anyone treat the claim as settled now?",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-claim-claim-inclusionary-rate-reduction",
+        "category": "claim_check",
+        "priority": "medium",
+        "topic": "housing",
+        "title": "Can this claim be backed up right now?",
+        "question": "Your orbit has advanced the claim that \"Affordable housing proposal would reduce inclusionary rate from 15% to 5% for at least three years\". What primary evidence should the public rely on today, not later, to evaluate that statement?",
+        "receipt": "Verify city committee recommendation, ordinance text, and final Board approval of inclusionary rate changes",
+        "followUp": "If that evidence is not public yet, why should anyone treat the claim as settled now?",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-claim-claim-net-403-shelter-beds",
+        "category": "claim_check",
+        "priority": "medium",
+        "topic": "homelessness",
+        "title": "Can this claim be backed up right now?",
+        "question": "Your orbit has advanced the claim that \"Net increase of only 403 shelter beds since taking office, far below 1,500 goal\". What primary evidence should the public rely on today, not later, to evaluate that statement?",
+        "receipt": "Mission Local analysis cited; verify against HSH shelter capacity reports and opening/closing records",
+        "followUp": "If that evidence is not public yet, why should anyone treat the claim as settled now?",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-claim-claim-free-city-cut-30-percent",
+        "category": "claim_check",
+        "priority": "medium",
+        "topic": "city_government",
+        "title": "Can this claim be backed up right now?",
+        "question": "Your orbit has advanced the claim that \"Budget proposes 30% cut to Free City College cash grants program, from $9.3M to $6.4M\". What primary evidence should the public rely on today, not later, to evaluate that statement?",
+        "receipt": "Budget hearing and media reports cited; verify through official June 1 budget proposal and Board approval process",
+        "followUp": "If that evidence is not public yet, why should anyone treat the claim as settled now?",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-claim-claim-labor-strike-threat",
+        "category": "claim_check",
+        "priority": "medium",
+        "topic": "city_government",
+        "title": "Can this claim be backed up right now?",
+        "question": "Your orbit has advanced the claim that \"SEIU 1021 warns of potential citywide strike after CA Public Employment Relations Board restored strike rights\". What primary evidence should the public rely on today, not later, to evaluate that statement?",
+        "receipt": "CA Public Employment Relations Board decision confirmed; verify contract expiration dates and strike authorization procedures",
+        "followUp": "If that evidence is not public yet, why should anyone treat the claim as settled now?",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-claim-claim-pac-spending-supervisor-races",
+        "category": "claim_check",
+        "priority": "medium",
+        "topic": "city_government",
+        "title": "Can this claim be backed up right now?",
+        "question": "Your orbit has advanced the claim that \"Over $4 million poured into supervisor races, with $2.1M from PACs including Lurie allies and GrowSF\". What primary evidence should the public rely on today, not later, to evaluate that statement?",
+        "receipt": "Campaign finance filings cited; verify final totals through SF Ethics Commission records after June 2 election",
+        "followUp": "If that evidence is not public yet, why should anyone treat the claim as settled now?",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-review-promise-new-downtown-police-district",
+        "category": "proof_gap",
+        "priority": "medium",
+        "topic": "public_safety",
+        "title": "What proof exists for this promise lane?",
+        "question": "What public evidence should people look at to confirm progress on your promise to \"Create a new downtown police district focused on the hospitality zone\"?",
+        "receipt": "The campaign promise is documented, but current source coverage does not verify that a new police district has been created.",
+        "followUp": "Can you point to a public document, vote, dataset, or agency action that independently proves movement here?",
+        "relatedPath": {
+          "path": "/promises.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-review-promise-ethics-enforcement",
+        "category": "proof_gap",
+        "priority": "medium",
+        "topic": "city_government",
+        "title": "What proof exists for this promise lane?",
+        "question": "What public evidence should people look at to confirm progress on your promise to \"Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall\"?",
+        "receipt": "The anti-corruption promise is clearly documented in the campaign platform, but the current source set does not yet prove implementation outcomes.",
+        "followUp": "Can you point to a public document, vote, dataset, or agency action that independently proves movement here?",
+        "relatedPath": {
+          "path": "/promises.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-review-promise-climate-innovation-hub",
+        "category": "proof_gap",
+        "priority": "medium",
+        "topic": "climate",
+        "title": "What proof exists for this promise lane?",
+        "question": "What public evidence should people look at to confirm progress on your promise to \"Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment\"?",
+        "receipt": "The campaign promise is documented, but the current source set does not yet verify launch of a formal Climate Innovation Hub.",
+        "followUp": "Can you point to a public document, vote, dataset, or agency action that independently proves movement here?",
+        "relatedPath": {
+          "path": "/promises.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-progress-promise-treatment-or-arrest",
+        "category": "implementation",
+        "priority": "medium",
+        "topic": "public_safety",
+        "title": "How close is this promise to completion?",
+        "question": "You say work is underway on \"Give people committing low-level offenses tied to addiction or mental illness a choice between immediate treatment or arrest\". What remains unfinished, and by when should people expect a clearer result?",
+        "receipt": "3 of 4 implementation milestones are evidenced.",
+        "followUp": "What specific milestone or number would mark the next real step instead of another announcement?",
+        "relatedPath": {
+          "path": "/notebook.html",
+          "query": {
+            "promise": "promise-treatment-or-arrest"
+          }
+        }
+      },
+      {
+        "id": "question-progress-promise-end-open-air-drug-markets",
+        "category": "implementation",
+        "priority": "medium",
+        "topic": "public_safety",
+        "title": "How close is this promise to completion?",
+        "question": "You say work is underway on \"End the era of open-air drug markets with coordinated enforcement and treatment response\". What remains unfinished, and by when should people expect a clearer result?",
+        "receipt": "3 of 4 implementation milestones are evidenced.",
+        "followUp": "What specific milestone or number would mark the next real step instead of another announcement?",
+        "relatedPath": {
+          "path": "/notebook.html",
+          "query": {
+            "promise": "promise-end-open-air-drug-markets"
+          }
+        }
+      },
+      {
+        "id": "question-progress-promise-rebuild-police-staffing",
+        "category": "implementation",
+        "priority": "medium",
+        "topic": "public_safety",
+        "title": "How close is this promise to completion?",
+        "question": "You say work is underway on \"Rebuild police and sheriff staffing and improve public safety citywide\". What remains unfinished, and by when should people expect a clearer result?",
+        "receipt": "3 of 4 staffing milestones are evidenced.",
+        "followUp": "What specific milestone or number would mark the next real step instead of another announcement?",
+        "relatedPath": {
+          "path": "/notebook.html",
+          "query": {
+            "promise": "promise-rebuild-police-staffing"
+          }
+        }
+      },
+      {
+        "id": "question-progress-promise-streamline-permitting",
+        "category": "implementation",
+        "priority": "medium",
+        "topic": "city_government",
+        "title": "How close is this promise to completion?",
+        "question": "You say work is underway on \"Make permitting faster and more transparent by overhauling the broken permitting system\". What remains unfinished, and by when should people expect a clearer result?",
+        "receipt": "3 of 4 permitting milestones are evidenced.",
+        "followUp": "What specific milestone or number would mark the next real step instead of another announcement?",
+        "relatedPath": {
+          "path": "/notebook.html",
+          "query": {
+            "promise": "promise-streamline-permitting"
+          }
+        }
+      },
+      {
+        "id": "question-progress-promise-centralize-contracts-and-construction",
+        "category": "implementation",
+        "priority": "medium",
+        "topic": "city_government",
+        "title": "How close is this promise to completion?",
+        "question": "You say work is underway on \"Centralize contract oversight and construction management to cut corruption and city waste\". What remains unfinished, and by when should people expect a clearer result?",
+        "receipt": "2 of 3 contracting-reform milestones are evidenced.",
+        "followUp": "What specific milestone or number would mark the next real step instead of another announcement?",
+        "relatedPath": {
+          "path": "/notebook.html",
+          "query": {
+            "promise": "promise-centralize-contracts-and-construction"
+          }
+        }
+      },
+      {
+        "id": "question-progress-promise-build-more-housing",
+        "category": "implementation",
+        "priority": "medium",
+        "topic": "housing",
+        "title": "How close is this promise to completion?",
+        "question": "You say work is underway on \"Build more housing faster and more affordably to address the city’s affordability crisis\". What remains unfinished, and by when should people expect a clearer result?",
+        "receipt": "3 of 4 housing milestones are evidenced.",
+        "followUp": "What specific milestone or number would mark the next real step instead of another announcement?",
+        "relatedPath": {
+          "path": "/notebook.html",
+          "query": {
+            "promise": "promise-build-more-housing"
+          }
+        }
+      },
+      {
+        "id": "question-progress-promise-revitalize-downtown-and-small-business",
+        "category": "implementation",
+        "priority": "medium",
+        "topic": "economy",
+        "title": "How close is this promise to completion?",
+        "question": "You say work is underway on \"Revitalize downtown and help small businesses thrive\". What remains unfinished, and by when should people expect a clearer result?",
+        "receipt": "1 of 4 downtown-recovery milestones are evidenced.",
+        "followUp": "What specific milestone or number would mark the next real step instead of another announcement?",
+        "relatedPath": {
+          "path": "/notebook.html",
+          "query": {
+            "promise": "promise-revitalize-downtown-and-small-business"
+          }
+        }
+      },
+      {
+        "id": "question-metric-dark-homeless-encampment-311-requests",
+        "category": "data_gap",
+        "priority": "medium",
+        "topic": "homelessness",
+        "title": "Why is there no usable public indicator here?",
+        "question": "If 311 encampment requests matters to this administration, why is there still no live public indicator the tracker can use to judge progress?",
+        "receipt": "needs_verified_source",
+        "followUp": "https://data.sfgov.org/d/vw6y-z8j6",
+        "relatedPath": {
+          "path": "/metrics.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-metric-dark-homeless-shelter-waitlist",
+        "category": "data_gap",
+        "priority": "medium",
+        "topic": "homelessness",
+        "title": "Why is there no usable public indicator here?",
+        "question": "If hsh shelter waitlist matters to this administration, why is there still no live public indicator the tracker can use to judge progress?",
+        "receipt": "needs_verified_source",
+        "followUp": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
+        "relatedPath": {
+          "path": "/metrics.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-metric-dark-overdose-related-911-responses",
+        "category": "data_gap",
+        "priority": "medium",
+        "topic": "public_safety",
+        "title": "Why is there no usable public indicator here?",
+        "question": "If overdose-related ems 911 responses matters to this administration, why is there still no live public indicator the tracker can use to judge progress?",
+        "receipt": "needs_verified_source",
+        "followUp": "https://data.sfgov.org/d/ed3a-sn39",
+        "relatedPath": {
+          "path": "/metrics.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-metric-dark-downtown-office-vacancy-rate",
+        "category": "data_gap",
+        "priority": "medium",
+        "topic": "economy",
+        "title": "Why is there no usable public indicator here?",
+        "question": "If office vacancy rate matters to this administration, why is there still no live public indicator the tracker can use to judge progress?",
+        "receipt": "needs_verified_source",
+        "followUp": "https://www.sf.gov/data--office-vacancy-rate",
+        "relatedPath": {
+          "path": "/metrics.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-narrative-narrative-contested-city_government",
+        "category": "narrative_contested",
+        "priority": "medium",
+        "topic": "city_government",
+        "title": "City Government is defining the story around you",
+        "question": "On city government, the public story is still contested. What single piece of public evidence should settle it in your favor?",
+        "receipt": "City Government mixes some settled facts with still-contested assertions, so the public storyline is only partially stable.",
+        "followUp": "4 claims remain unresolved or only partially verified",
+        "relatedPath": {
+          "path": "/narratives.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-narrative-narrative-contested-homelessness",
+        "category": "narrative_contested",
+        "priority": "medium",
+        "topic": "homelessness",
+        "title": "Homelessness is defining the story around you",
+        "question": "On homelessness, the public story is still contested. What single piece of public evidence should settle it in your favor?",
+        "receipt": "Homelessness contains unresolved claims that could harden into conventional wisdom before the tracker settles the evidence.",
+        "followUp": "2 claims remain unresolved or only partially verified",
+        "relatedPath": {
+          "path": "/narratives.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-narrative-narrative-contested-economy",
+        "category": "narrative_contested",
+        "priority": "medium",
+        "topic": "economy",
+        "title": "Downtown Economy is defining the story around you",
+        "question": "On downtown economy, the public story is still contested. What single piece of public evidence should settle it in your favor?",
+        "receipt": "Downtown Economy is still driven by claims that need better records, methodology, or final votes before they should be treated as settled.",
+        "followUp": "2 claims remain unresolved or only partially verified",
+        "relatedPath": {
+          "path": "/narratives.html",
+          "query": null
+        }
+      },
+      {
+        "id": "question-narrative-narrative-contested-housing",
+        "category": "narrative_contested",
+        "priority": "medium",
+        "topic": "housing",
+        "title": "Housing is defining the story around you",
+        "question": "On housing, the public story is still contested. What single piece of public evidence should settle it in your favor?",
+        "receipt": "Housing is still driven by claims that need better records, methodology, or final votes before they should be treated as settled.",
+        "followUp": "2 claims remain unresolved or only partially verified",
+        "relatedPath": {
+          "path": "/narratives.html",
+          "query": null
+        }
+      }
+    ]
+  },
+  "tensions": {
+    "items": [
+      {
+        "id": "tension-broken-vs-headline-promise-increase-shelter-beds",
+        "type": "messaging_vs_outcome",
+        "severity": "high",
+        "topic": "homelessness",
+        "title": "Positive storyline versus broken promise",
+        "tension": "The tracker shows \"Open 1,500 new shelter and treatment beds within six months of taking office\" as broken while the most visible headline in this lane is still a forward-looking or positive storyline.",
+        "sideA": "Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds",
+        "sideB": "Mission Local reports a net increase of 403 beds against the 1,500-bed campaign target after the six-month deadline.",
+        "whyItMatters": "This is where public messaging and measurable delivery are most likely to collide.",
+        "relatedPath": {
+          "path": "/notebook.html",
+          "query": {
+            "promise": "promise-increase-shelter-beds"
+          }
+        }
+      },
+      {
+        "id": "tension-metric-vs-headline-housing-permits-issued",
+        "type": "headline_vs_metric",
+        "severity": "high",
+        "topic": "housing",
+        "title": "Upbeat headline versus slipping metric",
+        "tension": "The live metric \"Housing-related building permits issued\" is moving the wrong way while this topic's headline still reads as a progress or action story.",
+        "sideA": "Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov",
+        "sideB": "Housing-related building permits issued: 1,221 permits latest versus 1,422 permits baseline",
+        "whyItMatters": "This is the classic place where announcements and measurable conditions diverge.",
+        "relatedPath": {
+          "path": "/metrics.html",
+          "query": null
+        }
+      },
+      {
+        "id": "tension-metric-vs-headline-housing-units-proposed-in-issued-permits",
+        "type": "headline_vs_metric",
+        "severity": "high",
+        "topic": "housing",
+        "title": "Upbeat headline versus slipping metric",
+        "tension": "The live metric \"Net proposed units in issued housing permits\" is moving the wrong way while this topic's headline still reads as a progress or action story.",
+        "sideA": "Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov",
+        "sideB": "Net proposed units in issued housing permits: 426 units latest versus 696 units baseline",
+        "whyItMatters": "This is the classic place where announcements and measurable conditions diverge.",
+        "relatedPath": {
+          "path": "/metrics.html",
+          "query": null
+        }
+      },
+      {
+        "id": "tension-claim-vs-headline-claim-15-year-homelessness-low",
+        "type": "headline_vs_claim",
+        "severity": "high",
+        "topic": "homelessness",
+        "title": "Headline certainty versus unresolved claim",
+        "tension": "This topic has a prominent storyline, but one of the key claims in the same lane is still not fully settled.",
+        "sideA": "Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds",
+        "sideB": "San Francisco has reached lowest level of unsheltered homelessness in 15 years (unverified)",
+        "whyItMatters": "This is where the public takeaway can become firmer than the underlying evidence warrants.",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "tension-claim-vs-headline-claim-affordable-housing-fund-doubling",
+        "type": "headline_vs_claim",
+        "severity": "medium",
+        "topic": "housing",
+        "title": "Headline certainty versus unresolved claim",
+        "tension": "This topic has a prominent storyline, but one of the key claims in the same lane is still not fully settled.",
+        "sideA": "Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov",
+        "sideB": "Affordable housing funding will more than double from $52M to $125M annually through property tax allocation (partially verified)",
+        "whyItMatters": "This is where the public takeaway can become firmer than the underlying evidence warrants.",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "tension-claim-vs-headline-claim-127-layoffs",
+        "type": "headline_vs_claim",
+        "severity": "medium",
+        "topic": "city_government",
+        "title": "Headline certainty versus unresolved claim",
+        "tension": "This topic has a prominent storyline, but one of the key claims in the same lane is still not fully settled.",
+        "sideA": "In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
+        "sideB": "Mayor sent pink slips to 127 city staffers as part of budget cuts (partially verified)",
+        "whyItMatters": "This is where the public takeaway can become firmer than the underlying evidence warrants.",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "tension-claim-vs-headline-claim-inclusionary-rate-reduction",
+        "type": "headline_vs_claim",
+        "severity": "medium",
+        "topic": "housing",
+        "title": "Headline certainty versus unresolved claim",
+        "tension": "This topic has a prominent storyline, but one of the key claims in the same lane is still not fully settled.",
+        "sideA": "Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov",
+        "sideB": "Affordable housing proposal would reduce inclusionary rate from 15% to 5% for at least three years (partially verified)",
+        "whyItMatters": "This is where the public takeaway can become firmer than the underlying evidence warrants.",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "tension-claim-vs-headline-claim-net-403-shelter-beds",
+        "type": "headline_vs_claim",
+        "severity": "medium",
+        "topic": "homelessness",
+        "title": "Headline certainty versus unresolved claim",
+        "tension": "This topic has a prominent storyline, but one of the key claims in the same lane is still not fully settled.",
+        "sideA": "Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds",
+        "sideB": "Net increase of only 403 shelter beds since taking office, far below 1,500 goal (partially verified)",
+        "whyItMatters": "This is where the public takeaway can become firmer than the underlying evidence warrants.",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "tension-claim-vs-headline-claim-free-city-cut-30-percent",
+        "type": "headline_vs_claim",
+        "severity": "medium",
+        "topic": "city_government",
+        "title": "Headline certainty versus unresolved claim",
+        "tension": "This topic has a prominent storyline, but one of the key claims in the same lane is still not fully settled.",
+        "sideA": "In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
+        "sideB": "Budget proposes 30% cut to Free City College cash grants program, from $9.3M to $6.4M (partially verified)",
+        "whyItMatters": "This is where the public takeaway can become firmer than the underlying evidence warrants.",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "tension-claim-vs-headline-claim-labor-strike-threat",
+        "type": "headline_vs_claim",
+        "severity": "medium",
+        "topic": "city_government",
+        "title": "Headline certainty versus unresolved claim",
+        "tension": "This topic has a prominent storyline, but one of the key claims in the same lane is still not fully settled.",
+        "sideA": "In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
+        "sideB": "SEIU 1021 warns of potential citywide strike after CA Public Employment Relations Board restored strike rights (partially verified)",
+        "whyItMatters": "This is where the public takeaway can become firmer than the underlying evidence warrants.",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "tension-claim-vs-headline-claim-pac-spending-supervisor-races",
+        "type": "headline_vs_claim",
+        "severity": "medium",
+        "topic": "city_government",
+        "title": "Headline certainty versus unresolved claim",
+        "tension": "This topic has a prominent storyline, but one of the key claims in the same lane is still not fully settled.",
+        "sideA": "In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
+        "sideB": "Over $4 million poured into supervisor races, with $2.1M from PACs including Lurie allies and GrowSF (partially verified)",
+        "whyItMatters": "This is where the public takeaway can become firmer than the underlying evidence warrants.",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "tension-proof-vs-headline-promise-ethics-enforcement",
+        "type": "headline_vs_proof",
+        "severity": "medium",
+        "topic": "city_government",
+        "title": "Visible storyline without settled proof",
+        "tension": "A visible storyline exists in this lane, but the underlying promise still needs stronger evidence.",
+        "sideA": "In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
+        "sideB": "Promise review status: needs more evidence",
+        "whyItMatters": "The tracker should not let a prominent narrative outrun the proof behind it.",
+        "relatedPath": {
+          "path": "/promises.html",
+          "query": null
+        }
+      },
+      {
+        "id": "tension-liability-vs-progress-public_safety",
+        "type": "progress_vs_liability",
+        "severity": "medium",
+        "topic": "public_safety",
+        "title": "Same topic supports both progress and liability stories",
+        "tension": "This lane contains enough evidence to support a progress argument and enough pressure to support a liability argument at the same time.",
+        "sideA": "Public Safety has at least one clearly delivered promise, giving the administration a concrete success story.",
+        "sideB": "Public Safety has live indicators moving the wrong way, creating a measurable liability instead of a messaging-only problem.",
+        "whyItMatters": "These are the topics most likely to produce dueling interpretations depending on which facts are foregrounded.",
+        "relatedPath": {
+          "path": "/narratives.html",
+          "query": null
+        }
+      }
+    ]
+  },
+  "records": {
+    "requests": [
+      {
+        "id": "records-metric-downtown-office-vacancy-rate",
+        "topic": "economy",
+        "priority": "high",
+        "targetAgency": "Controller / OEWD / SF Travel",
+        "title": "Dataset request for Office vacancy rate",
+        "rationale": "No live observations yet for a tracked indicator tied to 1 promise.",
+        "ask": "Request the recurring source file, field definitions, refresh cadence, and any historical exports behind \"Office vacancy rate\". Locate the underlying raw dataset or recurring release behind this public metric page and confirm field stability.",
+        "whyNow": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
+        "relatedPath": {
+          "path": "/metrics.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-promise-promise-climate-innovation-hub",
+        "topic": "climate",
+        "priority": "high",
+        "targetAgency": "Environment Department / OEWD / Mayor Office",
+        "title": "Implementation records for Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment",
+        "rationale": "Promise status is in progress and review state is needs more evidence.",
+        "ask": "Request implementation memos, program updates, public board materials, and any tracking dashboards tied to \"Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment\". Climate hub launch documents, partnership MOUs, funding commitments, and city economic-development materials.",
+        "whyNow": "Add corroborating evidence or official records before trusting the current promise call.",
+        "relatedPath": {
+          "path": "/notebook.html",
+          "query": {
+            "promise": "promise-climate-innovation-hub"
+          }
+        }
+      },
+      {
+        "id": "records-fragile-promise-climate-innovation-hub",
+        "topic": "climate",
+        "priority": "high",
+        "targetAgency": "Environment Department / OEWD / Mayor Office",
+        "title": "Corroboration packet for Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment",
+        "rationale": "This promise is still fragile because it relies on 3 evidence links with limited non-campaign support.",
+        "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment\".",
+        "whyNow": "Stronger corroboration would materially improve the trustworthiness of the current promise call.",
+        "relatedPath": {
+          "path": "/evidence.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-fragile-promise-ethics-enforcement",
+        "topic": "city_government",
+        "priority": "high",
+        "targetAgency": "Ethics Commission / Elections / Mayor Office",
+        "title": "Corroboration packet for Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall",
+        "rationale": "This promise is still fragile because it relies on 1 evidence link with limited non-campaign support.",
+        "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall\".",
+        "whyNow": "Stronger corroboration would materially improve the trustworthiness of the current promise call.",
+        "relatedPath": {
+          "path": "/evidence.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-claim-claim-15-year-homelessness-low",
+        "topic": "homelessness",
+        "priority": "high",
+        "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
+        "title": "Claim file for San Francisco has reached lowest level of unsheltered homelessness in 15 years",
+        "rationale": "1 promise share this topic lane.",
+        "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"San Francisco has reached lowest level of unsheltered homelessness in 15 years\". HUD Point-in-Time counts, local methodology notes, historical unsheltered counts, and audit appendices.",
+        "whyNow": "Verify against official HUD Point-in-Time count data, methodology, historical counts 2011-2026, and independent audit",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-metric-homeless-encampment-311-requests",
+        "topic": "homelessness",
+        "priority": "high",
+        "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
+        "title": "Dataset request for 311 encampment requests",
+        "rationale": "No live observations yet for a tracked indicator tied to 1 promise.",
+        "ask": "Request the recurring source file, field definitions, refresh cadence, and any historical exports behind \"311 encampment requests\". Verify DataSF dataset vw6y-z8j6, field stability, refresh cadence, and any necessary topic-specific filters.",
+        "whyNow": "DataSF 311 Cases filtered to service_name = Encampments",
+        "relatedPath": {
+          "path": "/metrics.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-metric-homeless-shelter-waitlist",
+        "topic": "homelessness",
+        "priority": "high",
+        "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
+        "title": "Dataset request for HSH shelter waitlist",
+        "rationale": "No live observations yet for a tracked indicator tied to 1 promise.",
+        "ask": "Request the recurring source file, field definitions, refresh cadence, and any historical exports behind \"HSH shelter waitlist\". Find a recurring public dataset, recurring departmental report, or stable API endpoint that can support this metric.",
+        "whyNow": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
+        "relatedPath": {
+          "path": "/metrics.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-promise-promise-new-downtown-police-district",
+        "topic": "public_safety",
+        "priority": "high",
+        "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
+        "title": "Implementation records for Create a new downtown police district focused on the hospitality zone",
+        "rationale": "Promise status is in progress and review state is needs more evidence.",
+        "ask": "Request implementation memos, program updates, public board materials, and any tracking dashboards tied to \"Create a new downtown police district focused on the hospitality zone\". Police deployment memos, staffing reports, emergency order text, treatment intake records, and arrest-or-diversion protocols.",
+        "whyNow": "Add corroborating evidence or official records before trusting the current promise call.",
+        "relatedPath": {
+          "path": "/notebook.html",
+          "query": {
+            "promise": "promise-new-downtown-police-district"
+          }
+        }
+      },
+      {
+        "id": "records-tension-tension-broken-vs-headline-promise-increase-shelter-beds",
+        "topic": "homelessness",
+        "priority": "high",
+        "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
+        "title": "Records request for messaging vs outcome",
+        "rationale": "This is where public messaging and measurable delivery are most likely to collide.",
+        "ask": "Request the underlying records needed to reconcile this contradiction: Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds versus Mission Local reports a net increase of 403 beds against the 1,500-bed campaign target after the six-month deadline.. Include source spreadsheets, internal status reports, public presentations, and final signed policy documents.",
+        "whyNow": "This contradiction is already sharp enough to shape public understanding, so the missing records matter immediately.",
+        "relatedPath": {
+          "path": "/notebook.html",
+          "query": {
+            "promise": "promise-increase-shelter-beds"
+          }
+        }
+      },
+      {
+        "id": "records-tension-tension-claim-vs-headline-claim-15-year-homelessness-low",
+        "topic": "homelessness",
+        "priority": "high",
+        "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
+        "title": "Records request for headline vs claim",
+        "rationale": "This is where the public takeaway can become firmer than the underlying evidence warrants.",
+        "ask": "Request the underlying records needed to reconcile this contradiction: Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds versus San Francisco has reached lowest level of unsheltered homelessness in 15 years (unverified). Include source spreadsheets, internal status reports, public presentations, and final signed policy documents.",
+        "whyNow": "This contradiction is already sharp enough to shape public understanding, so the missing records matter immediately.",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-promise-promise-ethics-enforcement",
+        "topic": "city_government",
+        "priority": "high",
+        "targetAgency": "Mayor Budget Office / Controller / Department finance offices",
+        "title": "Implementation records for Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall",
+        "rationale": "Promise status is in progress and review state is needs more evidence.",
+        "ask": "Request implementation memos, program updates, public board materials, and any tracking dashboards tied to \"Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall\". Charter amendment text, procurement reform memos, budget staffing documents, inspector general or ethics enforcement records.",
+        "whyNow": "Add corroborating evidence or official records before trusting the current promise call.",
+        "relatedPath": {
+          "path": "/notebook.html",
+          "query": {
+            "promise": "promise-ethics-enforcement"
+          }
+        }
+      },
+      {
+        "id": "records-tension-tension-metric-vs-headline-housing-permits-issued",
+        "topic": "housing",
+        "priority": "high",
+        "targetAgency": "Planning Department / Mayor Housing Office / DBI",
+        "title": "Records request for headline vs metric",
+        "rationale": "This is the classic place where announcements and measurable conditions diverge.",
+        "ask": "Request the underlying records needed to reconcile this contradiction: Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov versus Housing-related building permits issued: 1,221 permits latest versus 1,422 permits baseline. Include source spreadsheets, internal status reports, public presentations, and final signed policy documents.",
+        "whyNow": "This contradiction is already sharp enough to shape public understanding, so the missing records matter immediately.",
+        "relatedPath": {
+          "path": "/metrics.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-tension-tension-metric-vs-headline-housing-units-proposed-in-issued-permits",
+        "topic": "housing",
+        "priority": "high",
+        "targetAgency": "Planning Department / Mayor Housing Office / DBI",
+        "title": "Records request for headline vs metric",
+        "rationale": "This is the classic place where announcements and measurable conditions diverge.",
+        "ask": "Request the underlying records needed to reconcile this contradiction: Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov versus Net proposed units in issued housing permits: 426 units latest versus 696 units baseline. Include source spreadsheets, internal status reports, public presentations, and final signed policy documents.",
+        "whyNow": "This contradiction is already sharp enough to shape public understanding, so the missing records matter immediately.",
+        "relatedPath": {
+          "path": "/metrics.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-metric-overdose-related-911-responses",
+        "topic": "public_safety",
+        "priority": "high",
+        "targetAgency": "SFPD / SFDPH / DEM",
+        "title": "Dataset request for Overdose-related EMS 911 responses",
+        "rationale": "No live observations yet for a tracked indicator tied to 5 promises.",
+        "ask": "Request the recurring source file, field definitions, refresh cadence, and any historical exports behind \"Overdose-related EMS 911 responses\". Verify DataSF dataset ed3a-sn39, field stability, refresh cadence, and any necessary topic-specific filters.",
+        "whyNow": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
+        "relatedPath": {
+          "path": "/metrics.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-fragile-promise-new-downtown-police-district",
+        "topic": "public_safety",
+        "priority": "high",
+        "targetAgency": "SFPD / SFDPH / DEM",
+        "title": "Corroboration packet for Create a new downtown police district focused on the hospitality zone",
+        "rationale": "This promise is still fragile because it relies on 1 evidence link with limited non-campaign support.",
+        "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Create a new downtown police district focused on the hospitality zone\".",
+        "whyNow": "Stronger corroboration would materially improve the trustworthiness of the current promise call.",
+        "relatedPath": {
+          "path": "/evidence.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-claim-claim-tourism-record-breaking",
+        "topic": "economy",
+        "priority": "medium",
+        "targetAgency": "Controller / OEWD / SF Travel",
+        "title": "Claim file for 2026 tourism spending forecasted to cross pre-pandemic record",
+        "rationale": "1 promise share this topic lane.",
+        "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"2026 tourism spending forecasted to cross pre-pandemic record\". Primary agency records, hearing materials, stable datasets, and any cited source documents named in the claim plan.",
+        "whyNow": "SF Travel forecast cited; verify final 2026 visitor spending data when published and compare to 2019 baseline",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-claim-claim-convention-bookings-up-69-percent",
+        "topic": "economy",
+        "priority": "medium",
+        "targetAgency": "Controller / OEWD / SF Travel",
+        "title": "Claim file for Hotel occupancy from Moscone Center conferences up 69% since 2024",
+        "rationale": "1 promise share this topic lane.",
+        "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Hotel occupancy from Moscone Center conferences up 69% since 2024\". SF Travel reports, Moscone booking records, hotel occupancy series, and quarterly tourism releases.",
+        "whyNow": "SF Travel data cited; verify through independent hotel occupancy data and Moscone Center booking records",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-claim-claim-pac-spending-supervisor-races",
+        "topic": "city_government",
+        "priority": "medium",
+        "targetAgency": "Ethics Commission / Elections / Mayor Office",
+        "title": "Claim file for Over $4 million poured into supervisor races, with $2.1M from PACs including Lurie allies and GrowSF",
+        "rationale": "3 promises share this topic lane.",
+        "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Over $4 million poured into supervisor races, with $2.1M from PACs including Lurie allies and GrowSF\". SF Ethics Commission filings, PAC expenditure reports, and candidate committee disclosures.",
+        "whyNow": "Campaign finance filings cited; verify final totals through SF Ethics Commission records after June 2 election",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-claim-claim-net-403-shelter-beds",
+        "topic": "homelessness",
+        "priority": "medium",
+        "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
+        "title": "Claim file for Net increase of only 403 shelter beds since taking office, far below 1,500 goal",
+        "rationale": "1 promise share this topic lane.",
+        "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Net increase of only 403 shelter beds since taking office, far below 1,500 goal\". HSH shelter capacity reports, opening/closing records, and department memos on treatment-bed conversions.",
+        "whyNow": "Mission Local analysis cited; verify against HSH shelter capacity reports and opening/closing records",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-fragile-promise-increase-shelter-beds",
+        "topic": "homelessness",
+        "priority": "medium",
+        "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
+        "title": "Corroboration packet for Open 1,500 new shelter and treatment beds within six months of taking office",
+        "rationale": "This promise is still fragile because it relies on 2 evidence links with limited non-campaign support.",
+        "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Open 1,500 new shelter and treatment beds within six months of taking office\".",
+        "whyNow": "Stronger corroboration would materially improve the trustworthiness of the current promise call.",
+        "relatedPath": {
+          "path": "/evidence.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-claim-claim-affordable-housing-fund-doubling",
+        "topic": "housing",
+        "priority": "medium",
+        "targetAgency": "Mayor Budget Office / Controller / Department finance offices",
+        "title": "Claim file for Affordable housing funding will more than double from $52M to $125M annually through property tax allocation",
+        "rationale": "1 promise share this topic lane.",
+        "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Affordable housing funding will more than double from $52M to $125M annually through property tax allocation\". Budget proposal PDFs, Board of Supervisors hearing packets, departmental spreadsheets, and final appropriations.",
+        "whyNow": "Legislation introduction confirmed; track Board vote, November 2026 ballot measure, and actual allocation amounts when budget approved",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-claim-claim-127-layoffs",
+        "topic": "city_government",
+        "priority": "medium",
+        "targetAgency": "Mayor Budget Office / Controller / Department finance offices",
+        "title": "Claim file for Mayor sent pink slips to 127 city staffers as part of budget cuts",
+        "rationale": "3 promises share this topic lane.",
+        "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Mayor sent pink slips to 127 city staffers as part of budget cuts\". Budget proposal PDFs, Board of Supervisors hearing packets, departmental spreadsheets, and final appropriations.",
+        "whyNow": "Verify through city HR records and departmental budget documents; track final count after Board approval",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-claim-claim-free-city-cut-30-percent",
+        "topic": "city_government",
+        "priority": "medium",
+        "targetAgency": "Mayor Budget Office / Controller / Department finance offices",
+        "title": "Claim file for Budget proposes 30% cut to Free City College cash grants program, from $9.3M to $6.4M",
+        "rationale": "3 promises share this topic lane.",
+        "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Budget proposes 30% cut to Free City College cash grants program, from $9.3M to $6.4M\". Budget proposal PDFs, Board of Supervisors hearing packets, departmental spreadsheets, and final appropriations.",
+        "whyNow": "Budget hearing and media reports cited; verify through official June 1 budget proposal and Board approval process",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-claim-claim-labor-strike-threat",
+        "topic": "city_government",
+        "priority": "medium",
+        "targetAgency": "Mayor Office / relevant line department",
+        "title": "Claim file for SEIU 1021 warns of potential citywide strike after CA Public Employment Relations Board restored strike rights",
+        "rationale": "3 promises share this topic lane.",
+        "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"SEIU 1021 warns of potential citywide strike after CA Public Employment Relations Board restored strike rights\". Primary agency records, hearing materials, stable datasets, and any cited source documents named in the claim plan.",
+        "whyNow": "CA Public Employment Relations Board decision confirmed; verify contract expiration dates and strike authorization procedures",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-fragile-promise-fentanyl-state-of-emergency",
+        "topic": "public_safety",
+        "priority": "medium",
+        "targetAgency": "Mayor Office / relevant line department",
+        "title": "Corroboration packet for Declare a citywide fentanyl state of emergency to move resources faster",
+        "rationale": "This promise is still fragile because it relies on 2 evidence links with limited non-campaign support.",
+        "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Declare a citywide fentanyl state of emergency to move resources faster\".",
+        "whyNow": "Stronger corroboration would materially improve the trustworthiness of the current promise call.",
+        "relatedPath": {
+          "path": "/evidence.html",
+          "query": null
+        }
+      },
+      {
+        "id": "records-claim-claim-inclusionary-rate-reduction",
+        "topic": "housing",
+        "priority": "medium",
+        "targetAgency": "Planning Department / Mayor Housing Office / DBI",
+        "title": "Claim file for Affordable housing proposal would reduce inclusionary rate from 15% to 5% for at least three years",
+        "rationale": "1 promise share this topic lane.",
+        "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Affordable housing proposal would reduce inclusionary rate from 15% to 5% for at least three years\". Primary agency records, hearing materials, stable datasets, and any cited source documents named in the claim plan.",
+        "whyNow": "Verify city committee recommendation, ordinance text, and final Board approval of inclusionary rate changes",
+        "relatedPath": {
+          "path": "/claims.html",
+          "query": null
+        }
+      }
+    ]
+  },
+  "packets": {
+    "items": [
+      {
+        "id": "packet-city_government",
+        "topic": "city_government",
+        "label": "City Government",
+        "pressureScore": 100,
+        "riskLevel": "high",
+        "headline": "In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
+        "executiveSummary": "City Government is being shaped by unresolved claims more than settled proof. Momentum is weak because the lane still depends more on narrative and pending proof than on durable public signals. It should be handled as an active pressure lane, not a background topic.",
+        "currentState": "City Government is being shaped by unresolved claims more than settled proof.",
+        "momentum": "Momentum is weak because the lane still depends more on narrative and pending proof than on durable public signals.",
+        "keyRisks": [
+          "4 unresolved claims still shape this lane.",
+          "Proof is fragile around \"Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall\".",
+          "This topic has a prominent storyline, but one of the key claims in the same lane is still not fully settled."
+        ],
+        "keyOpportunities": [
+          "Current headline hook: In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
+          "Records pathway exists through Ethics Commission / Elections / Mayor Office."
+        ],
+        "recommendedMoves": [
+          "Release primary documentation that settles the active claim disputes before the narrative hardens.",
+          "Diversify the evidence base beyond campaign material and single-publisher support.",
+          "Pull records first from Ethics Commission / Elections / Mayor Office."
+        ],
+        "promises": {
+          "total": 3,
+          "reviewed": 2,
+          "broken": 0,
+          "averageProgress": null
+        },
+        "claims": {
+          "total": 5,
+          "open": 4
+        },
+        "metrics": {
+          "total": 0,
+          "live": 0,
+          "dark": 0
+        },
+        "deadlines": [
+          {
+            "title": "In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
+            "priority": "medium",
+            "dueDate": "2026-05-28",
+            "detail": "Mission Local · 2026-05-28",
+            "nextStep": "Monitor for follow-on reporting, official response, and any change in tracker status or evidence coverage."
+          },
+          {
+            "title": "Legislation signed to streamline block party and neighborhood event permits",
+            "priority": "medium",
+            "dueDate": "2026-05-20",
+            "detail": "11 days ago · policy",
+            "nextStep": "Track what this development changes in implementation, opposition, or downstream metrics."
+          },
+          {
+            "title": "Mayor sent pink slips to 127 city staffers as part of budget cuts",
+            "priority": "medium",
+            "dueDate": null,
+            "detail": "partially verified",
+            "nextStep": "Verify through city HR records and departmental budget documents; track final count after Board approval"
+          },
+          {
+            "title": "Budget proposes 30% cut to Free City College cash grants program, from $9.3M to $6.4M",
+            "priority": "medium",
+            "dueDate": null,
+            "detail": "partially verified",
+            "nextStep": "Budget hearing and media reports cited; verify through official June 1 budget proposal and Board approval process"
+          }
+        ],
+        "narratives": [
+          {
+            "title": "City Government is a political pressure lane right now",
+            "tone": "liability",
+            "summary": "City Government is accumulating enough high-severity signals to stay on the political pressure board. In bad budget year, Mayor Lurie to maintain immigrant legal services funding"
+          },
+          {
+            "title": "City Government is being shaped by unresolved claims",
+            "tone": "contested",
+            "summary": "City Government mixes some settled facts with still-contested assertions, so the public storyline is only partially stable."
+          }
+        ],
+        "tensions": [
+          {
+            "title": "Headline certainty versus unresolved claim",
+            "severity": "medium",
+            "tension": "This topic has a prominent storyline, but one of the key claims in the same lane is still not fully settled."
+          },
+          {
+            "title": "Headline certainty versus unresolved claim",
+            "severity": "medium",
+            "tension": "This topic has a prominent storyline, but one of the key claims in the same lane is still not fully settled."
+          },
+          {
+            "title": "Headline certainty versus unresolved claim",
+            "severity": "medium",
+            "tension": "This topic has a prominent storyline, but one of the key claims in the same lane is still not fully settled."
+          }
+        ],
+        "records": [
+          {
+            "title": "Corroboration packet for Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall",
+            "priority": "high",
+            "targetAgency": "Ethics Commission / Elections / Mayor Office",
+            "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall\"."
+          },
+          {
+            "title": "Implementation records for Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall",
+            "priority": "high",
+            "targetAgency": "Mayor Budget Office / Controller / Department finance offices",
+            "ask": "Request implementation memos, program updates, public board materials, and any tracking dashboards tied to \"Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall\". Charter amendment text, procurement reform memos, budget staffing documents, inspector general or ethics enforcement records."
+          },
+          {
+            "title": "Claim file for Over $4 million poured into supervisor races, with $2.1M from PACs including Lurie allies and GrowSF",
+            "priority": "medium",
+            "targetAgency": "Ethics Commission / Elections / Mayor Office",
+            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Over $4 million poured into supervisor races, with $2.1M from PACs including Lurie allies and GrowSF\". SF Ethics Commission filings, PAC expenditure reports, and candidate committee disclosures."
+          },
+          {
+            "title": "Claim file for Mayor sent pink slips to 127 city staffers as part of budget cuts",
+            "priority": "medium",
+            "targetAgency": "Mayor Budget Office / Controller / Department finance offices",
+            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Mayor sent pink slips to 127 city staffers as part of budget cuts\". Budget proposal PDFs, Board of Supervisors hearing packets, departmental spreadsheets, and final appropriations."
+          }
+        ],
+        "questions": [
+          {
+            "title": "City Government is defining the story around you",
+            "priority": "high",
+            "category": "narrative_pressure",
+            "question": "Right now, city government is one of the clearest political liabilities in your tracker. What is your best evidence that this story is turning, rather than hardening against you?"
+          },
+          {
+            "title": "Can this claim be backed up right now?",
+            "priority": "medium",
+            "category": "claim_check",
+            "question": "Your orbit has advanced the claim that \"Mayor sent pink slips to 127 city staffers as part of budget cuts\". What primary evidence should the public rely on today, not later, to evaluate that statement?"
+          },
+          {
+            "title": "Can this claim be backed up right now?",
+            "priority": "medium",
+            "category": "claim_check",
+            "question": "Your orbit has advanced the claim that \"Budget proposes 30% cut to Free City College cash grants program, from $9.3M to $6.4M\". What primary evidence should the public rely on today, not later, to evaluate that statement?"
+          },
+          {
+            "title": "Can this claim be backed up right now?",
+            "priority": "medium",
+            "category": "claim_check",
+            "question": "Your orbit has advanced the claim that \"SEIU 1021 warns of potential citywide strike after CA Public Employment Relations Board restored strike rights\". What primary evidence should the public rely on today, not later, to evaluate that statement?"
+          }
+        ],
+        "evidenceGaps": {
+          "fragilePromises": [
+            {
+              "title": "Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall",
+              "reviewStatus": "needs_more_evidence",
+              "evidenceCount": 1,
+              "uniquePublishers": 1
+            },
+            {
+              "title": "Centralize contract oversight and construction management to cut corruption and city waste",
+              "reviewStatus": "approved",
+              "evidenceCount": 2,
+              "uniquePublishers": 2
+            }
+          ],
+          "weakCoverage": false,
+          "publisherDiversity": 5,
+          "uniqueEvidenceSources": 8
+        },
+        "signals": [
+          {
+            "title": "Make permitting faster and more transparent by overhauling the broken permitting system",
+            "severity": "high",
+            "action": "A missing metric leaves the story dependent on narrative sources instead of trackable public data."
+          },
+          {
+            "title": "Make permitting faster and more transparent by overhauling the broken permitting system",
+            "severity": "high",
+            "action": "Multiple unresolved claims can rapidly distort the narrative around this promise area."
+          },
+          {
+            "title": "Centralize contract oversight and construction management to cut corruption and city waste",
+            "severity": "high",
+            "action": "A missing metric leaves the story dependent on narrative sources instead of trackable public data."
+          },
+          {
+            "title": "Centralize contract oversight and construction management to cut corruption and city waste",
+            "severity": "high",
+            "action": "Multiple unresolved claims can rapidly distort the narrative around this promise area."
+          }
+        ]
+      },
+      {
+        "id": "packet-homelessness",
+        "topic": "homelessness",
+        "label": "Homelessness",
+        "pressureScore": 100,
+        "riskLevel": "high",
+        "headline": "Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds",
+        "executiveSummary": "Homelessness is currently dominated by a missed delivery story. Momentum is weak because the lane still depends more on narrative and pending proof than on durable public signals. It should be handled as an active pressure lane, not a background topic.",
+        "currentState": "Homelessness is currently dominated by a missed delivery story.",
+        "momentum": "Momentum is weak because the lane still depends more on narrative and pending proof than on durable public signals.",
+        "keyRisks": [
+          "Broken promise: Open 1,500 new shelter and treatment beds within six months of taking office",
+          "2 unresolved claims still shape this lane.",
+          "2 tracked metrics still have no live observations.",
+          "Proof is fragile around \"Open 1,500 new shelter and treatment beds within six months of taking office\"."
+        ],
+        "keyOpportunities": [
+          "Current headline hook: Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds",
+          "Records pathway exists through HSH / SFDPH / Mayor Office homelessness team."
+        ],
+        "recommendedMoves": [
+          "Publish a recovery timetable and a measurable next milestone for the missed commitment.",
+          "Release primary documentation that settles the active claim disputes before the narrative hardens.",
+          "Stand up a recurring public metric so this lane can be judged on data instead of announcements.",
+          "Diversify the evidence base beyond campaign material and single-publisher support.",
+          "Pull records first from HSH / SFDPH / Mayor Office homelessness team."
+        ],
+        "promises": {
+          "total": 1,
+          "reviewed": 1,
+          "broken": 1,
+          "averageProgress": 27
+        },
+        "claims": {
+          "total": 3,
+          "open": 2
+        },
+        "metrics": {
+          "total": 2,
+          "live": 0,
+          "dark": 2
+        },
+        "deadlines": [
+          {
+            "title": "Open 1,500 new shelter and treatment beds within six months of taking office",
+            "priority": "critical",
+            "dueDate": "2025-07-08",
+            "detail": "Deadline passed 328 days ago.",
+            "nextStep": "Check for any new evidence, implementation change, or explicit retreat from the original commitment."
+          },
+          {
+            "title": "San Francisco has reached lowest level of unsheltered homelessness in 15 years",
+            "priority": "high",
+            "dueDate": null,
+            "detail": "unverified",
+            "nextStep": "Verify against official HUD Point-in-Time count data, methodology, historical counts 2011-2026, and independent audit"
+          },
+          {
+            "title": "Analysis shows net increase of only 403 shelter beds, multiple shelters closed",
+            "priority": "medium",
+            "dueDate": "2026-05-21",
+            "detail": "10 days ago · policy",
+            "nextStep": "Track what this development changes in implementation, opposition, or downstream metrics."
+          },
+          {
+            "title": "Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds",
+            "priority": "medium",
+            "dueDate": "2026-05-21",
+            "detail": "Mission Local · 2026-05-21",
+            "nextStep": "Monitor for follow-on reporting, official response, and any change in tracker status or evidence coverage."
+          }
+        ],
+        "narratives": [
+          {
+            "title": "Homelessness is a political pressure lane right now",
+            "tone": "liability",
+            "summary": "Homelessness is being defined by a broken commitment, and the lane is already carrying a direct accountability story. Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds"
+          },
+          {
+            "title": "Homelessness is being shaped by unresolved claims",
+            "tone": "contested",
+            "summary": "Homelessness contains unresolved claims that could harden into conventional wisdom before the tracker settles the evidence."
+          }
+        ],
+        "tensions": [
+          {
+            "title": "Positive storyline versus broken promise",
+            "severity": "high",
+            "tension": "The tracker shows \"Open 1,500 new shelter and treatment beds within six months of taking office\" as broken while the most visible headline in this lane is still a forward-looking or positive storyline."
+          },
+          {
+            "title": "Headline certainty versus unresolved claim",
+            "severity": "high",
+            "tension": "This topic has a prominent storyline, but one of the key claims in the same lane is still not fully settled."
+          },
+          {
+            "title": "Headline certainty versus unresolved claim",
+            "severity": "medium",
+            "tension": "This topic has a prominent storyline, but one of the key claims in the same lane is still not fully settled."
+          }
+        ],
+        "records": [
+          {
+            "title": "Claim file for San Francisco has reached lowest level of unsheltered homelessness in 15 years",
+            "priority": "high",
+            "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
+            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"San Francisco has reached lowest level of unsheltered homelessness in 15 years\". HUD Point-in-Time counts, local methodology notes, historical unsheltered counts, and audit appendices."
+          },
+          {
+            "title": "Dataset request for 311 encampment requests",
+            "priority": "high",
+            "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
+            "ask": "Request the recurring source file, field definitions, refresh cadence, and any historical exports behind \"311 encampment requests\". Verify DataSF dataset vw6y-z8j6, field stability, refresh cadence, and any necessary topic-specific filters."
+          },
+          {
+            "title": "Dataset request for HSH shelter waitlist",
+            "priority": "high",
+            "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
+            "ask": "Request the recurring source file, field definitions, refresh cadence, and any historical exports behind \"HSH shelter waitlist\". Find a recurring public dataset, recurring departmental report, or stable API endpoint that can support this metric."
+          },
+          {
+            "title": "Records request for messaging vs outcome",
+            "priority": "high",
+            "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
+            "ask": "Request the underlying records needed to reconcile this contradiction: Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds versus Mission Local reports a net increase of 403 beds against the 1,500-bed campaign target after the six-month deadline.. Include source spreadsheets, internal status reports, public presentations, and final signed policy documents."
+          }
+        ],
+        "questions": [
+          {
+            "title": "Why did this promise miss its target?",
+            "priority": "high",
+            "category": "delivery_gap",
+            "question": "You promised to \"Open 1,500 new shelter and treatment beds within six months of taking office\". Why should voters accept the current result instead of viewing this as a broken commitment?"
+          },
+          {
+            "title": "Can this claim be backed up right now?",
+            "priority": "high",
+            "category": "claim_check",
+            "question": "Your orbit has advanced the claim that \"San Francisco has reached lowest level of unsheltered homelessness in 15 years\". What primary evidence should the public rely on today, not later, to evaluate that statement?"
+          },
+          {
+            "title": "Homelessness is defining the story around you",
+            "priority": "high",
+            "category": "narrative_pressure",
+            "question": "Right now, homelessness is one of the clearest political liabilities in your tracker. What is your best evidence that this story is turning, rather than hardening against you?"
+          },
+          {
+            "title": "Can this claim be backed up right now?",
+            "priority": "medium",
+            "category": "claim_check",
+            "question": "Your orbit has advanced the claim that \"Net increase of only 403 shelter beds since taking office, far below 1,500 goal\". What primary evidence should the public rely on today, not later, to evaluate that statement?"
+          }
+        ],
+        "evidenceGaps": {
+          "fragilePromises": [
+            {
+              "title": "Open 1,500 new shelter and treatment beds within six months of taking office",
+              "reviewStatus": "approved",
+              "evidenceCount": 2,
+              "uniquePublishers": 2
+            }
+          ],
+          "weakCoverage": false,
+          "publisherDiversity": 4,
+          "uniqueEvidenceSources": 4
+        },
+        "signals": [
+          {
+            "title": "Open 1,500 new shelter and treatment beds within six months of taking office",
+            "severity": "critical",
+            "action": "Broken promises define the accountability narrative immediately."
+          },
+          {
+            "title": "Open 1,500 new shelter and treatment beds within six months of taking office",
+            "severity": "high",
+            "action": "Multiple unresolved claims can rapidly distort the narrative around this promise area."
+          },
+          {
+            "title": "San Francisco has reached lowest level of unsheltered homelessness in 15 years",
+            "severity": "high",
+            "action": "This claim is still unverified and could be repeated in coverage before the tracker resolves it."
+          },
+          {
+            "title": "Open 1,500 new shelter and treatment beds within six months of taking office",
+            "severity": "medium",
+            "action": "A missing metric leaves the story dependent on narrative sources instead of trackable public data."
+          }
+        ]
+      },
+      {
+        "id": "packet-economy",
+        "topic": "economy",
+        "label": "Downtown Economy",
+        "pressureScore": 49,
+        "riskLevel": "medium",
+        "headline": null,
+        "executiveSummary": "Downtown Economy is being shaped by unresolved claims more than settled proof. Momentum is weak because the lane still depends more on narrative and pending proof than on durable public signals. It should be handled as an active pressure lane, not a background topic.",
+        "currentState": "Downtown Economy is being shaped by unresolved claims more than settled proof.",
+        "momentum": "Momentum is weak because the lane still depends more on narrative and pending proof than on durable public signals.",
+        "keyRisks": [
+          "2 unresolved claims still shape this lane.",
+          "1 tracked metric still have no live observations."
+        ],
+        "keyOpportunities": [
+          "Records pathway exists through Controller / OEWD / SF Travel."
+        ],
+        "recommendedMoves": [
+          "Release primary documentation that settles the active claim disputes before the narrative hardens.",
+          "Stand up a recurring public metric so this lane can be judged on data instead of announcements.",
+          "Pull records first from Controller / OEWD / SF Travel."
+        ],
+        "promises": {
+          "total": 1,
+          "reviewed": 1,
+          "broken": 0,
+          "averageProgress": null
+        },
+        "claims": {
+          "total": 2,
+          "open": 2
+        },
+        "metrics": {
+          "total": 1,
+          "live": 0,
+          "dark": 1
+        },
+        "deadlines": [
+          {
+            "title": "Office vacancy rate",
+            "priority": "medium",
+            "dueDate": null,
+            "detail": "No live observation exists yet for this tracked indicator.",
+            "nextStep": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification"
+          },
+          {
+            "title": "2026 tourism spending forecasted to cross pre-pandemic record",
+            "priority": "medium",
+            "dueDate": null,
+            "detail": "partially verified",
+            "nextStep": "SF Travel forecast cited; verify final 2026 visitor spending data when published and compare to 2019 baseline"
+          },
+          {
+            "title": "Hotel occupancy from Moscone Center conferences up 69% since 2024",
+            "priority": "medium",
+            "dueDate": null,
+            "detail": "partially verified",
+            "nextStep": "SF Travel data cited; verify through independent hotel occupancy data and Moscone Center booking records"
+          }
+        ],
+        "narratives": [
+          {
+            "title": "Downtown Economy is a political pressure lane right now",
+            "tone": "liability",
+            "summary": "Downtown Economy is accumulating enough high-severity signals to stay on the political pressure board."
+          },
+          {
+            "title": "Downtown Economy is being shaped by unresolved claims",
+            "tone": "contested",
+            "summary": "Downtown Economy is still driven by claims that need better records, methodology, or final votes before they should be treated as settled."
+          }
+        ],
+        "tensions": [],
+        "records": [
+          {
+            "title": "Dataset request for Office vacancy rate",
+            "priority": "high",
+            "targetAgency": "Controller / OEWD / SF Travel",
+            "ask": "Request the recurring source file, field definitions, refresh cadence, and any historical exports behind \"Office vacancy rate\". Locate the underlying raw dataset or recurring release behind this public metric page and confirm field stability."
+          },
+          {
+            "title": "Claim file for 2026 tourism spending forecasted to cross pre-pandemic record",
+            "priority": "medium",
+            "targetAgency": "Controller / OEWD / SF Travel",
+            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"2026 tourism spending forecasted to cross pre-pandemic record\". Primary agency records, hearing materials, stable datasets, and any cited source documents named in the claim plan."
+          },
+          {
+            "title": "Claim file for Hotel occupancy from Moscone Center conferences up 69% since 2024",
+            "priority": "medium",
+            "targetAgency": "Controller / OEWD / SF Travel",
+            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Hotel occupancy from Moscone Center conferences up 69% since 2024\". SF Travel reports, Moscone booking records, hotel occupancy series, and quarterly tourism releases."
+          }
+        ],
+        "questions": [
+          {
+            "title": "Downtown Economy is defining the story around you",
+            "priority": "high",
+            "category": "narrative_pressure",
+            "question": "Right now, downtown economy is one of the clearest political liabilities in your tracker. What is your best evidence that this story is turning, rather than hardening against you?"
+          },
+          {
+            "title": "Can this claim be backed up right now?",
+            "priority": "medium",
+            "category": "claim_check",
+            "question": "Your orbit has advanced the claim that \"2026 tourism spending forecasted to cross pre-pandemic record\". What primary evidence should the public rely on today, not later, to evaluate that statement?"
+          },
+          {
+            "title": "Can this claim be backed up right now?",
+            "priority": "medium",
+            "category": "claim_check",
+            "question": "Your orbit has advanced the claim that \"Hotel occupancy from Moscone Center conferences up 69% since 2024\". What primary evidence should the public rely on today, not later, to evaluate that statement?"
+          },
+          {
+            "title": "How close is this promise to completion?",
+            "priority": "medium",
+            "category": "implementation",
+            "question": "You say work is underway on \"Revitalize downtown and help small businesses thrive\". What remains unfinished, and by when should people expect a clearer result?"
+          }
+        ],
+        "evidenceGaps": {
+          "fragilePromises": [],
+          "weakCoverage": false,
+          "publisherDiversity": 2,
+          "uniqueEvidenceSources": 6
+        },
+        "signals": [
+          {
+            "title": "Revitalize downtown and help small businesses thrive",
+            "severity": "high",
+            "action": "A missing metric leaves the story dependent on narrative sources instead of trackable public data."
+          },
+          {
+            "title": "Revitalize downtown and help small businesses thrive",
+            "severity": "high",
+            "action": "Multiple unresolved claims can rapidly distort the narrative around this promise area."
+          },
+          {
+            "title": "Office vacancy rate",
+            "severity": "medium",
+            "action": "This is a tracked indicator without a usable signal yet."
+          }
+        ]
+      },
+      {
+        "id": "packet-public_safety",
+        "topic": "public_safety",
+        "label": "Public Safety",
+        "pressureScore": 48,
+        "riskLevel": "medium",
+        "headline": null,
+        "executiveSummary": "Public Safety has measurable deterioration in at least one live indicator. Some delivery has already happened, which gives this lane a concrete proof point. It should be handled as an active pressure lane, not a background topic.",
+        "currentState": "Public Safety has measurable deterioration in at least one live indicator.",
+        "momentum": "Some delivery has already happened, which gives this lane a concrete proof point.",
+        "keyRisks": [
+          "Naloxone distributed by SFDPH-funded programs is moving the wrong way.",
+          "1 tracked metric still have no live observations.",
+          "Proof is fragile around \"Create a new downtown police district focused on the hospitality zone\".",
+          "This lane contains enough evidence to support a progress argument and enough pressure to support a liability argument at the same time."
+        ],
+        "keyOpportunities": [
+          "Public Safety has at least one clearly delivered promise, giving the administration a concrete success story.",
+          "Completed promise available: Declare a citywide fentanyl state of emergency to move resources faster",
+          "Records pathway exists through HSH / SFDPH / Mayor Office homelessness team."
+        ],
+        "recommendedMoves": [
+          "Stand up a recurring public metric so this lane can be judged on data instead of announcements.",
+          "Diversify the evidence base beyond campaign material and single-publisher support.",
+          "Pull records first from HSH / SFDPH / Mayor Office homelessness team."
+        ],
+        "promises": {
+          "total": 5,
+          "reviewed": 4,
+          "broken": 0,
+          "averageProgress": null
+        },
+        "claims": {
+          "total": 0,
+          "open": 0
+        },
+        "metrics": {
+          "total": 2,
+          "live": 1,
+          "dark": 1
+        },
+        "deadlines": [
+          {
+            "title": "Naloxone distributed by SFDPH-funded programs",
+            "priority": "high",
+            "dueDate": "2025-10-01",
+            "detail": "Latest observation is 242 days old (2025-10-01).",
+            "nextStep": "https://data.sfgov.org/d/ubf6-e57x"
+          },
+          {
+            "title": "Overdose-related EMS 911 responses",
+            "priority": "medium",
+            "dueDate": null,
+            "detail": "No live observation exists yet for this tracked indicator.",
+            "nextStep": "DataSF Overdose-Related 911 Responses by Emergency Medical Services"
+          }
+        ],
+        "narratives": [
+          {
+            "title": "Public Safety is a political pressure lane right now",
+            "tone": "liability",
+            "summary": "Public Safety has live indicators moving the wrong way, creating a measurable liability instead of a messaging-only problem."
+          },
+          {
+            "title": "Public Safety has a usable progress story",
+            "tone": "progress",
+            "summary": "Public Safety has at least one clearly delivered promise, giving the administration a concrete success story."
+          }
+        ],
+        "tensions": [
+          {
+            "title": "Same topic supports both progress and liability stories",
+            "severity": "medium",
+            "tension": "This lane contains enough evidence to support a progress argument and enough pressure to support a liability argument at the same time."
+          }
+        ],
+        "records": [
+          {
+            "title": "Implementation records for Create a new downtown police district focused on the hospitality zone",
+            "priority": "high",
+            "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
+            "ask": "Request implementation memos, program updates, public board materials, and any tracking dashboards tied to \"Create a new downtown police district focused on the hospitality zone\". Police deployment memos, staffing reports, emergency order text, treatment intake records, and arrest-or-diversion protocols."
+          },
+          {
+            "title": "Dataset request for Overdose-related EMS 911 responses",
+            "priority": "high",
+            "targetAgency": "SFPD / SFDPH / DEM",
+            "ask": "Request the recurring source file, field definitions, refresh cadence, and any historical exports behind \"Overdose-related EMS 911 responses\". Verify DataSF dataset ed3a-sn39, field stability, refresh cadence, and any necessary topic-specific filters."
+          },
+          {
+            "title": "Corroboration packet for Create a new downtown police district focused on the hospitality zone",
+            "priority": "high",
+            "targetAgency": "SFPD / SFDPH / DEM",
+            "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Create a new downtown police district focused on the hospitality zone\"."
+          },
+          {
+            "title": "Corroboration packet for Declare a citywide fentanyl state of emergency to move resources faster",
+            "priority": "medium",
+            "targetAgency": "Mayor Office / relevant line department",
+            "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Declare a citywide fentanyl state of emergency to move resources faster\"."
+          }
+        ],
+        "questions": [
+          {
+            "title": "Why is the live indicator moving the wrong way?",
+            "priority": "high",
+            "category": "metric_slip",
+            "question": "The tracker shows naloxone distributed by sfdph-funded programs at 41,664 doses versus a baseline of 55,904 doses. Why is this getting worse under your watch?"
+          },
+          {
+            "title": "Public Safety is defining the story around you",
+            "priority": "high",
+            "category": "narrative_pressure",
+            "question": "Right now, public safety is one of the clearest political liabilities in your tracker. What is your best evidence that this story is turning, rather than hardening against you?"
+          },
+          {
+            "title": "What proof exists for this promise lane?",
+            "priority": "medium",
+            "category": "proof_gap",
+            "question": "What public evidence should people look at to confirm progress on your promise to \"Create a new downtown police district focused on the hospitality zone\"?"
+          },
+          {
+            "title": "How close is this promise to completion?",
+            "priority": "medium",
+            "category": "implementation",
+            "question": "You say work is underway on \"Give people committing low-level offenses tied to addiction or mental illness a choice between immediate treatment or arrest\". What remains unfinished, and by when should people expect a clearer result?"
+          }
+        ],
+        "evidenceGaps": {
+          "fragilePromises": [
+            {
+              "title": "Create a new downtown police district focused on the hospitality zone",
+              "reviewStatus": "needs_more_evidence",
+              "evidenceCount": 1,
+              "uniquePublishers": 1
+            },
+            {
+              "title": "Declare a citywide fentanyl state of emergency to move resources faster",
+              "reviewStatus": "approved",
+              "evidenceCount": 2,
+              "uniquePublishers": 2
+            },
+            {
+              "title": "Give people committing low-level offenses tied to addiction or mental illness a choice between immediate treatment or arrest",
+              "reviewStatus": "approved",
+              "evidenceCount": 2,
+              "uniquePublishers": 2
+            }
+          ],
+          "weakCoverage": false,
+          "publisherDiversity": 4,
+          "uniqueEvidenceSources": 6
+        },
+        "signals": [
+          {
+            "title": "Create a new downtown police district focused on the hospitality zone",
+            "severity": "high",
+            "action": "Weak review state means the promise call may still be challenged."
+          },
+          {
+            "title": "Naloxone distributed by SFDPH-funded programs",
+            "severity": "high",
+            "action": "The live signal is moving against the intended direction."
+          },
+          {
+            "title": "Create a new downtown police district focused on the hospitality zone",
+            "severity": "medium",
+            "action": "Single-source support is fragile and should be corroborated."
+          },
+          {
+            "title": "Overdose-related EMS 911 responses",
+            "severity": "medium",
+            "action": "This is a tracked indicator without a usable signal yet."
+          }
+        ]
+      },
+      {
+        "id": "packet-housing",
+        "topic": "housing",
+        "label": "Housing",
+        "pressureScore": 40,
+        "riskLevel": "medium",
+        "headline": "Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov",
+        "executiveSummary": "Housing is being shaped by unresolved claims more than settled proof. 2 live metrics give this lane some measurable movement, even if the story is mixed. It should be handled as an active pressure lane, not a background topic.",
+        "currentState": "Housing is being shaped by unresolved claims more than settled proof.",
+        "momentum": "2 live metrics give this lane some measurable movement, even if the story is mixed.",
+        "keyRisks": [
+          "2 unresolved claims still shape this lane.",
+          "Housing-related building permits issued is moving the wrong way.",
+          "The live metric \"Housing-related building permits issued\" is moving the wrong way while this topic's headline still reads as a progress or action story."
+        ],
+        "keyOpportunities": [
+          "Current headline hook: Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov",
+          "Records pathway exists through Planning Department / Mayor Housing Office / DBI."
+        ],
+        "recommendedMoves": [
+          "Release primary documentation that settles the active claim disputes before the narrative hardens.",
+          "Pull records first from Planning Department / Mayor Housing Office / DBI."
+        ],
+        "promises": {
+          "total": 1,
+          "reviewed": 1,
+          "broken": 0,
+          "averageProgress": null
+        },
+        "claims": {
+          "total": 2,
+          "open": 2
+        },
+        "metrics": {
+          "total": 2,
+          "live": 2,
+          "dark": 0
+        },
+        "deadlines": [
+          {
+            "title": "Mayor and Sup. Melgar announce $125M annual affordable housing fund plan for November ballot",
+            "priority": "medium",
+            "dueDate": "2026-05-19",
+            "detail": "12 days ago · policy",
+            "nextStep": "Track what this development changes in implementation, opposition, or downstream metrics."
+          },
+          {
+            "title": "Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov",
+            "priority": "medium",
+            "dueDate": "2026-05-19",
+            "detail": "SF.gov · 2026-05-19",
+            "nextStep": "Monitor for follow-on reporting, official response, and any change in tracker status or evidence coverage."
+          },
+          {
+            "title": "Affordable housing funding will more than double from $52M to $125M annually through property tax allocation",
+            "priority": "medium",
+            "dueDate": null,
+            "detail": "partially verified",
+            "nextStep": "Legislation introduction confirmed; track Board vote, November 2026 ballot measure, and actual allocation amounts when budget approved"
+          },
+          {
+            "title": "Affordable housing proposal would reduce inclusionary rate from 15% to 5% for at least three years",
+            "priority": "medium",
+            "dueDate": null,
+            "detail": "partially verified",
+            "nextStep": "Verify city committee recommendation, ordinance text, and final Board approval of inclusionary rate changes"
+          }
+        ],
+        "narratives": [
+          {
+            "title": "Housing is a political pressure lane right now",
+            "tone": "liability",
+            "summary": "Housing has live indicators moving the wrong way, creating a measurable liability instead of a messaging-only problem. Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov"
+          },
+          {
+            "title": "Housing is being shaped by unresolved claims",
+            "tone": "contested",
+            "summary": "Housing is still driven by claims that need better records, methodology, or final votes before they should be treated as settled."
+          }
+        ],
+        "tensions": [
+          {
+            "title": "Upbeat headline versus slipping metric",
+            "severity": "high",
+            "tension": "The live metric \"Housing-related building permits issued\" is moving the wrong way while this topic's headline still reads as a progress or action story."
+          },
+          {
+            "title": "Upbeat headline versus slipping metric",
+            "severity": "high",
+            "tension": "The live metric \"Net proposed units in issued housing permits\" is moving the wrong way while this topic's headline still reads as a progress or action story."
+          },
+          {
+            "title": "Headline certainty versus unresolved claim",
+            "severity": "medium",
+            "tension": "This topic has a prominent storyline, but one of the key claims in the same lane is still not fully settled."
+          }
+        ],
+        "records": [
+          {
+            "title": "Records request for headline vs metric",
+            "priority": "high",
+            "targetAgency": "Planning Department / Mayor Housing Office / DBI",
+            "ask": "Request the underlying records needed to reconcile this contradiction: Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov versus Housing-related building permits issued: 1,221 permits latest versus 1,422 permits baseline. Include source spreadsheets, internal status reports, public presentations, and final signed policy documents."
+          },
+          {
+            "title": "Records request for headline vs metric",
+            "priority": "high",
+            "targetAgency": "Planning Department / Mayor Housing Office / DBI",
+            "ask": "Request the underlying records needed to reconcile this contradiction: Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov versus Net proposed units in issued housing permits: 426 units latest versus 696 units baseline. Include source spreadsheets, internal status reports, public presentations, and final signed policy documents."
+          },
+          {
+            "title": "Claim file for Affordable housing funding will more than double from $52M to $125M annually through property tax allocation",
+            "priority": "medium",
+            "targetAgency": "Mayor Budget Office / Controller / Department finance offices",
+            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Affordable housing funding will more than double from $52M to $125M annually through property tax allocation\". Budget proposal PDFs, Board of Supervisors hearing packets, departmental spreadsheets, and final appropriations."
+          },
+          {
+            "title": "Claim file for Affordable housing proposal would reduce inclusionary rate from 15% to 5% for at least three years",
+            "priority": "medium",
+            "targetAgency": "Planning Department / Mayor Housing Office / DBI",
+            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Affordable housing proposal would reduce inclusionary rate from 15% to 5% for at least three years\". Primary agency records, hearing materials, stable datasets, and any cited source documents named in the claim plan."
+          }
+        ],
+        "questions": [
+          {
+            "title": "Why is the live indicator moving the wrong way?",
+            "priority": "high",
+            "category": "metric_slip",
+            "question": "The tracker shows housing-related building permits issued at 1,221 permits versus a baseline of 1,422 permits. Why is this getting worse under your watch?"
+          },
+          {
+            "title": "Why is the live indicator moving the wrong way?",
+            "priority": "high",
+            "category": "metric_slip",
+            "question": "The tracker shows net proposed units in issued housing permits at 426 units versus a baseline of 696 units. Why is this getting worse under your watch?"
+          },
+          {
+            "title": "Housing is defining the story around you",
+            "priority": "high",
+            "category": "narrative_pressure",
+            "question": "Right now, housing is one of the clearest political liabilities in your tracker. What is your best evidence that this story is turning, rather than hardening against you?"
+          },
+          {
+            "title": "Can this claim be backed up right now?",
+            "priority": "medium",
+            "category": "claim_check",
+            "question": "Your orbit has advanced the claim that \"Affordable housing funding will more than double from $52M to $125M annually through property tax allocation\". What primary evidence should the public rely on today, not later, to evaluate that statement?"
+          }
+        ],
+        "evidenceGaps": {
+          "fragilePromises": [],
+          "weakCoverage": false,
+          "publisherDiversity": 4,
+          "uniqueEvidenceSources": 4
+        },
+        "signals": [
+          {
+            "title": "Build more housing faster and more affordably to address the city’s affordability crisis",
+            "severity": "high",
+            "action": "Multiple unresolved claims can rapidly distort the narrative around this promise area."
+          },
+          {
+            "title": "Housing-related building permits issued",
+            "severity": "high",
+            "action": "The live signal is moving against the intended direction."
+          },
+          {
+            "title": "Net proposed units in issued housing permits",
+            "severity": "high",
+            "action": "The live signal is moving against the intended direction."
+          }
+        ]
+      },
+      {
+        "id": "packet-climate",
+        "topic": "climate",
+        "label": "Climate",
+        "pressureScore": 39,
+        "riskLevel": "medium",
+        "headline": null,
+        "executiveSummary": "1 promise still need stronger review support. Momentum is weak because the lane still depends more on narrative and pending proof than on durable public signals. It should be handled as an active pressure lane, not a background topic.",
+        "currentState": "1 promise still need stronger review support.",
+        "momentum": "Momentum is weak because the lane still depends more on narrative and pending proof than on durable public signals.",
+        "keyRisks": [
+          "Proof is fragile around \"Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment\"."
+        ],
+        "keyOpportunities": [
+          "Records pathway exists through Environment Department / OEWD / Mayor Office."
+        ],
+        "recommendedMoves": [
+          "Diversify the evidence base beyond campaign material and single-publisher support.",
+          "Pull records first from Environment Department / OEWD / Mayor Office."
+        ],
+        "promises": {
+          "total": 1,
+          "reviewed": 0,
+          "broken": 0,
+          "averageProgress": null
+        },
+        "claims": {
+          "total": 0,
+          "open": 0
+        },
+        "metrics": {
+          "total": 0,
+          "live": 0,
+          "dark": 0
+        },
+        "deadlines": [],
+        "narratives": [
+          {
+            "title": "Climate is a political pressure lane right now",
+            "tone": "liability",
+            "summary": "Climate is accumulating enough high-severity signals to stay on the political pressure board."
+          }
+        ],
+        "tensions": [],
+        "records": [
+          {
+            "title": "Implementation records for Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment",
+            "priority": "high",
+            "targetAgency": "Environment Department / OEWD / Mayor Office",
+            "ask": "Request implementation memos, program updates, public board materials, and any tracking dashboards tied to \"Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment\". Climate hub launch documents, partnership MOUs, funding commitments, and city economic-development materials."
+          },
+          {
+            "title": "Corroboration packet for Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment",
+            "priority": "high",
+            "targetAgency": "Environment Department / OEWD / Mayor Office",
+            "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment\"."
+          }
+        ],
+        "questions": [
+          {
+            "title": "Climate is defining the story around you",
+            "priority": "high",
+            "category": "narrative_pressure",
+            "question": "Right now, climate is one of the clearest political liabilities in your tracker. What is your best evidence that this story is turning, rather than hardening against you?"
+          },
+          {
+            "title": "What proof exists for this promise lane?",
+            "priority": "medium",
+            "category": "proof_gap",
+            "question": "What public evidence should people look at to confirm progress on your promise to \"Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment\"?"
+          }
+        ],
+        "evidenceGaps": {
+          "fragilePromises": [
+            {
+              "title": "Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment",
+              "reviewStatus": "needs_more_evidence",
+              "evidenceCount": 3,
+              "uniquePublishers": 1
+            }
+          ],
+          "weakCoverage": true,
+          "publisherDiversity": 1,
+          "uniqueEvidenceSources": 3
+        },
+        "signals": [
+          {
+            "title": "Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment",
+            "severity": "high",
+            "action": "Weak review state means the promise call may still be challenged."
+          },
+          {
+            "title": "Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment",
+            "severity": "high",
+            "action": "A missing metric leaves the story dependent on narrative sources instead of trackable public data."
+          }
+        ]
+      }
+    ]
+  }
 }

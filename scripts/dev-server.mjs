@@ -93,6 +93,31 @@ const server = http.createServer(async (request, response) => {
     return;
   }
 
+  if (request.method === 'GET' && requestUrl.pathname === '/api/tracker-derived-section') {
+    try {
+      const slug = requestUrl.searchParams.get('slug') || 'daniel-lurie';
+      const section = requestUrl.searchParams.get('section');
+      if (!section) {
+        throw Object.assign(new Error('Missing required "section" query parameter'), { statusCode: 400 });
+      }
+      await findTrackerEntry(slug);
+      const derived = await readJsonFile(resolveDerivedDataPath(`${slug}-derived.json`));
+      if (!(section in derived)) {
+        throw Object.assign(new Error(`Unknown derived section: ${section}`), { statusCode: 404 });
+      }
+      response.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
+      response.end(JSON.stringify({
+        slug,
+        section,
+        generatedAt: derived.generatedAt || null,
+        data: derived[section],
+      }));
+    } catch (error) {
+      respondWithJsonError(response, error);
+    }
+    return;
+  }
+
   const safePath = decodeURIComponent(requestUrl.pathname).replace(/^\/+/, '');
   let filePath = path.join(root, safePath || 'index.html');
   if (!filePath.startsWith(root)) {
