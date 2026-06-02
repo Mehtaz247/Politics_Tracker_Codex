@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-02T16:58:50.801Z",
+    "lastUpdated": "2026-06-02T21:27:33.159Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -308,6 +308,36 @@
       "topic": "homelessness",
       "summary": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years &nbsp;&nbsp; SF.gov",
       "confidence": 0.78
+    },
+    {
+      "id": "will-mayor-daniel-lurie-keep-or-lose-allies-in-today-s-supervisor-special-electi",
+      "title": "Will Mayor Daniel Lurie Keep or Lose Allies In Today&#x27;s Supervisor Special Elections?",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/06/02/will-mayor-daniel-lurie-keep-or-lose-allies-in-special-elections/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-06-02",
+      "topic": "housing",
+      "summary": "In addition to the two bigger primary fights on the ballot today in San Francisco, for governor and for Nancy Pelosi&#x27;s Congressional seat, two moderate incumbent SF supervisors are fighting to hold on to their seats.",
+      "confidence": 0.8,
+      "excerpt": "2 June 2026 / SF Politics / Jay Barmann Will Mayor Daniel Lurie Keep or Lose Allies In Today&#x27;s Supervisor Special Elections? --> In addition to the two bigger primary fights on the ballot today in San Francisco, for governor and for Nancy Pelosi's Congressional seat, two moderate incumbent SF supervisors are fighting to hold on to their seats. There are special elections today in Districts 2 and 4, where two mayoral appointees — one appointed by London Breed on her way out the door, and one appointed recently by Daniel Lurie following a gaffe over a different appointee — are hoping to stay on the board through the end of the year. (Both special elections are just to complete their predecessors' previous terms, and they'll be back on the ballot again in November to compete for full four-year terms.) In District 2, Supervisor Stephen Sherrill hopes that some recent bad press relating to his appointment doesn't give a boost to a more progressive challenger, neighborhood activist Lori Brooke. Brooke has been the most vocally opposed to the controversial, 25-story proposed residential project on the Marina Safeway property — something that fits into Mayor Daniel Lurie's upzoning plan, but the scale of which is objectionable to many neighbors. Lurie has spoken out against the specific design of the proposed project, and Sherrill has done the same, but both have tried to be careful not to anger the YIMBY crowd by dismissing the redevelopment proposal outright. Supervisoral elections can swing by tiny margins of votes, particularly in low-turnout special elections like this one looks likely to be. So the recent revelations by former aides alleging that former Mayor London Breed only gave Sherrill the job in December 2024 as a favor to Michael Bloomberg — who in turn, al...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "lurie-and-labor-are-on-a-collision-course-tuesday-s-election-may-determine-when-",
+      "title": "Lurie and labor are on a collision course. Tuesday’s election may determine when it comes.",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/06/san-francsico-election-june-2-daniel-lurie-prop-d-alan-wong-stephen-sherrill-labor/",
+      "discoveryUrl": "https://missionlocal.org/2026/06/san-francsico-election-june-2-daniel-lurie-prop-d-alan-wong-stephen-sherrill-labor/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-06-01",
+      "topic": "homelessness",
+      "summary": "If voters rebuke Lurie on Prop. D and dump one or both of the sitting supervisors, a mayor who has walked on water would have to learn to swim",
+      "confidence": 0.9,
+      "excerpt": "My fashionable friend has identified the sleek, grey jacket Mayor Daniel Lurie has sported on his Instagram forays through San Francisco as a Brunello Cucinelli gray cashmere (MSRP: more than my car). As outerwear goes, you could do worse. But it doesn’t offer much in the way of coattails . Tuesday’s election will demonstrate whether Lurie’s political coattails are more sizable than his actual ones. Not halfway through his first term, the mayor’s polling numbers are on par with Joe Montana’s circa 1988 . He’s not just liked — he’s well-liked. But it’s not yet clear how much of the mayor’s popularity is transferable. Joe Montana, you may recall, urged us to buy Nuprin. We didn’t . Lurie, meanwhile, has urged us not to buy Proposition D, which would tax billion-dollar companies and fund social services to make up for Trump’s federal budget cuts. He has also urged voters to elect his appointee in District 4, Alan Wong, and Lurie’s donor network has been active propping up the Sunset supe. Both races are critical for San Francisco organized labor. If Prop. D fails — or if the Chamber of Commerce-spun measure designed to tank it, Prop.C, gets more votes — the city will have to deal with perhaps $300 million yearly failing to materialize in the general fund. This would likely lead to a reduction in services and the mayor pushing for even more layoffs, which is why passing Prop. D has become the raison d'être for much of city labor. Numerous city observers foresee that some manner of labor strife is on San Francisco’s horizon in the not-too-distant future. Whether that strike comes as a flex after labor beats back Lurie and a billionaire-backed campaign or comes out of a position of weakness and anger after losing that campaign is to be determined. It brings to mind the lin...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-respo",
@@ -1436,31 +1466,6 @@
       "topic": "housing",
       "summary": "The Board of Supervisors approved Mayor Lurie's Family Zoning Plan in a 7-4 vote. The plan targets neighborhoods like the Marina, Richmond, and Sunset for denser development. Supervisors debated balancing housing capacity with affordability, with opponents criticizing the lack of earmarked funding for new housing units. Small business owners in Haight Ashbury expressed concerns about displacement impacts on rent-controlled tenants.",
       "confidence": 0.9
-    },
-    {
-      "id": "time-to-build-supervisors-approve-lurie-s-upzoning-plan-for-36-000-new-homes-202",
-      "title": "Time to build: Supervisors approve Lurie's upzoning plan for 36,000 new homes",
-      "sourceType": "news",
-      "url": "https://sfstandard.com/2025/12/02/family-zoning-supervisors-vote-daniel-lurie/",
-      "discoveryUrl": "https://sfstandard.com/2025/12/02/family-zoning-supervisors-vote-daniel-lurie/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "San Francisco Standard",
-      "publishedAt": "2025-12-02",
-      "topic": "housing",
-      "summary": "The Board of Supervisors approved Mayor Lurie's Family Zoning Plan in a 7-4 vote, aiming to add roughly 36,000 units by 2031 to meet state mandate. The plan targets western and northern parts of San Francisco for upzoning where development has been limited for decades. Progressive supervisors opposed it, while pro-housing and YIMBY activists celebrated the win as a long-overdue step to address the city's estimated 82,000-unit shortage.",
-      "confidence": 0.9
-    },
-    {
-      "id": "mayor-lurie-cuts-ribbon-on-new-affordable-housing-in-bayview-https-www-sf-gov-ne",
-      "title": "Mayor Lurie Cuts Ribbon On New Affordable Housing in Bayview | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-cuts-ribbon-on-new-affordable-housing-in-bayview",
-      "publishedAt": "2025-11-08",
-      "topic": "economy",
-      "summary": "Oscar James Residents Will Bring 112 New Affordable Homes for San Francisco’s Working Families; Builds on Mayor Lurie’s Work to Make City Affordable for Future Generations.",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Cuts Ribbon On New Affordable Housing in Bayview Office of the Mayor Oscar James Residents Will Bring 112 New Affordable Homes for San Francisco’s Working Families; Builds on Mayor Lurie’s Work to Make City Affordable for Future Generations. November 8, 2025 SAN FRANCISCO – Mayor Daniel Lurie today cut the ribbon on the Oscar James Residences—112 new units of affordable housing in the Bayview-Hunters Point. The development will include two buildings and will provide homes for households earning 30%–50% of the area median income. The project represents a long-awaited step forward in the ongoing revitalization of the Hunters Point Shipyard. Named for community advocate Oscar James, who has spent decades advocating for fair housing in the Bayview, the project honors his commitment to his neighborhood. Mayor Lurie has taken steps to build housing across the city and make San Francisco more affordable. Last week, he cut the ribbon on two new affordable housing sites in Sunnydale. To continue the mayor’s work to add affordable housing in the Bayview-Hunters Point, in September, he cut the ribbon to deliver 73 units of new, 100% affordable housing . Mayor Lurie also celebrated the opening of a 100% affordable housing development in the Outer Sunset that prioritizes San Francisco Unified School District educators and staff, adding more housing for working families. Earlier this year, he announced his Family Zoning plan to create more housing and ensure that the next generation of San Franciscans can afford to raise their families in the city. “As we work to make San Francisco affordable for future generations, our administration will continue advancing projects that center affordable housing around the communities they serve—just like the Oscar James Residen...",
-      "scrapeStatus": "scraped"
     }
   ],
   "promises": [
@@ -1576,7 +1581,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
+      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -2049,7 +2054,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-02T16:58:34.995Z"
+      "lastRefreshed": "2026-06-02T21:27:14.816Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2068,7 +2073,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-02T16:58:34.995Z"
+      "lastRefreshed": "2026-06-02T21:27:14.816Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2078,74 +2083,13 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": 292,
-      "latest": 216,
+      "baseline": null,
+      "latest": null,
       "direction": "down_is_good",
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 292
-        },
-        {
-          "date": "2025-02-01",
-          "value": 274
-        },
-        {
-          "date": "2025-03-01",
-          "value": 342
-        },
-        {
-          "date": "2025-04-01",
-          "value": 275
-        },
-        {
-          "date": "2025-05-01",
-          "value": 273
-        },
-        {
-          "date": "2025-06-01",
-          "value": 301
-        },
-        {
-          "date": "2025-07-01",
-          "value": 239
-        },
-        {
-          "date": "2025-08-01",
-          "value": 294
-        },
-        {
-          "date": "2025-09-01",
-          "value": 219
-        },
-        {
-          "date": "2025-10-01",
-          "value": 235
-        },
-        {
-          "date": "2025-11-01",
-          "value": 300
-        },
-        {
-          "date": "2025-12-01",
-          "value": 148
-        },
-        {
-          "date": "2026-01-01",
-          "value": 221
-        },
-        {
-          "date": "2026-02-01",
-          "value": 220
-        },
-        {
-          "date": "2026-03-01",
-          "value": 216
-        }
-      ],
-      "status": "active",
+      "observations": [],
+      "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-02T16:58:34.995Z",
+      "lastRefreshed": "2026-06-02T21:27:14.816Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2184,7 +2128,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-02T16:58:34.995Z"
+      "lastRefreshed": "2026-06-02T21:27:14.816Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2276,7 +2220,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-02T16:58:34.995Z"
+      "lastRefreshed": "2026-06-02T21:27:14.816Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2368,7 +2312,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-02T16:58:34.995Z"
+      "lastRefreshed": "2026-06-02T21:27:14.816Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2387,7 +2331,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-02T16:58:34.995Z"
+      "lastRefreshed": "2026-06-02T21:27:14.816Z"
     }
   ],
   "topics": [
@@ -2437,7 +2381,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -2678,30 +2622,30 @@
       "publishedAt": "2026-06-01",
       "publisher": "Mission Local",
       "topic": "homelessness",
-      "whyItMatters": "Lurie's $16.9 billion budget proposal closes a massive deficit through strategic hiring freezes and eliminating 400+ vacant positions rather than mass layoffs, while prioritizing public safety and homelessness services amid federal funding cuts. This fiscal strategy will shape city operations and service delivery for years, reducing the structural deficit by $300M and setting precedent for how San Francisco manages future budget crises.",
+      "whyItMatters": "Lurie's $16.9B budget proposal addresses the city's massive deficit through strategic workforce reductions—127 layoffs plus 414 vacant positions eliminated—while prioritizing public safety and homelessness services. The approach of eliminating unfilled positions rather than mass layoffs represents a major policy choice that will shape city services for years, though critics warn it strains already understaffed departments.",
       "sourceId": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
       "selectionMethod": "anthropic"
     },
     {
-      "id": "mayor-lurie-x27-s-statement-on-carb-decision-to-gut-state-funding-for-transit-an",
-      "headline": "Mayor Lurie's Statement On CARB Decision To Gut State Funding For Transit And Affordable Housing",
-      "url": "https://www.sf.gov/news-mayor-luries-statement-on-carb-decision-to-gut-state-funding-for-transit-and-affordable-housing/",
-      "publishedAt": "2026-05-30",
-      "publisher": "SF.gov",
-      "topic": "climate",
-      "whyItMatters": "California Air Resources Board's elimination of programs providing billions for affordable housing and public transit threatens San Francisco's fragile economic recovery at a critical moment when Muni faces significant budget gaps and the city is working to build affordable housing. This state-level decision directly jeopardizes Mayor Lurie's core recovery initiatives and could derail progress on transit reliability, housing construction, and emissions goals.",
-      "sourceId": "mayor-lurie-x27-s-statement-on-carb-decision-to-gut-state-funding-for-transit-an",
+      "id": "lurie-and-labor-are-on-a-collision-course-tuesday-s-election-may-determine-when",
+      "headline": "Lurie and labor are on a collision course. Tuesday's election may determine when it comes.",
+      "url": "https://missionlocal.org/2026/06/san-francsico-election-june-2-daniel-lurie-prop-d-alan-wong-stephen-sherrill-labor/",
+      "publishedAt": "2026-06-01",
+      "publisher": "Mission Local",
+      "topic": "city_government",
+      "whyItMatters": "Tuesday's special elections test whether Lurie's high approval ratings translate to political capital: Prop D would tax billion-dollar companies to fund social services after Trump cuts, while supervisor races in Districts 2 and 4 pit Lurie's appointees against progressive challengers. The outcomes will determine if organized labor confronts Lurie from a position of strength or weakness, potentially triggering strikes that 'could shut down the city' and shaping the mayor's ability to govern through budget crises.",
+      "sourceId": "lurie-and-labor-are-on-a-collision-course-tuesday-s-election-may-determine-when-",
       "selectionMethod": "anthropic"
     },
     {
-      "id": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
-      "headline": "Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing",
-      "url": "https://www.sf.gov/news-mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-housing/",
-      "publishedAt": "2026-05-19",
+      "id": "mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-home",
+      "headline": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years",
+      "url": "https://www.sf.gov/news-mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-homelessness-in-15-years",
+      "publishedAt": "2026-05-12",
       "publisher": "SF.gov",
-      "topic": "housing",
-      "whyItMatters": "The proposed November ballot measure would more than double the Housing Trust Fund from $52M to $125M annually through 2058—potentially generating $3 billion over 30 years—representing the most significant expansion of affordable housing funding in a generation. This major policy shift addresses San Francisco's acute housing crisis and affordability challenges, though it comes with controversial changes to inclusionary housing requirements that could reshape development patterns citywide.",
-      "sourceId": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
+      "topic": "homelessness",
+      "whyItMatters": "Lurie's signature campaign promise shows measurable results with unsheltered homelessness at its lowest point in 15 years, representing a major policy achievement amid his administration's shift toward treatment-focused shelter beds over traditional shelters. This milestone strengthens Lurie's political standing heading into budget battles and validates his approach of prioritizing sobriety-required and locked treatment beds, though the net gain of only 403 shelter beds falls far short of his original 1,500-bed promise.",
+      "sourceId": "mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-home",
       "selectionMethod": "anthropic"
     }
   ],
