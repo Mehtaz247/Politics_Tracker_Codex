@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-03T11:26:15.162Z",
+    "lastUpdated": "2026-06-03T17:22:19.555Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -322,6 +322,21 @@
       "summary": "Landslide election results favoring Mayor Daniel Lurie's allies and picks point to a changed San Francisco.",
       "confidence": 0.82,
       "excerpt": "It’s not clear if Mayor Daniel Lurie is the cause of a changed San Francisco or a symptom, but, on the June 2 election results sheet , that was a distinction without a difference. Barring a truly miraculous turnaround, every last thing San Francisco’s popular mayor and his big money allies would’ve wanted came to pass, and in no uncertain terms. It’s unclear if Lurie is riding a wave or building a wave. But this, too, is a distinction without a difference. The outcomes of Tuesday night’s low-turnout election were not, on the whole, shocking. But the margins — damn near every race was a massacre — were. On the cusp of the election, the backers of Proposition A, the big earthquake bond, were sweating bullets. The measure, which required two-thirds of the vote to pass, was polling at 64 or 65 percent just a few weeks ago. On election night, the measure, carried by Lurie and the firefighters union, banked more than three-quarters of the vote. The mayor had also become the de-facto face of the No on D campaign, urging voters to spurn the “ Overpaid CEO Tax ,” lest it lead to a disastrous dispersal of city businesses. Voters seem to agree: More than 55 percent of early voters inveighed against the measure. District 2 Supervisor and close Lurie ally Stephen Sherrill has nearly 70 percent of the vote. And, in District 4, Lurie appointee Alan Wong is enjoying a near-majority in a five-way race and easily wins in ranked-choice voting. On top of that, incumbent school board president Phil Kim has a near-supermajority and prosecutor Phoebe Maffei is besting public defender Alexandra Pray for a judge spot by a 60-40 tilt. It’s unclear how many ballots are outstanding, but none of these races was even close to being close. These are wipeouts across the board, and it’s hard to fore...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "the-dan-grand-slam-how-daniel-lurie-got-everything-he-wanted-on-election-night-2",
+      "title": "The Dan Grand Slam? How Daniel Lurie got everything he wanted on election night",
+      "sourceType": "news",
+      "url": "https://sfstandard.com/2026/06/02/primary-election-night-daniel-lurie-wins-wong-sherrill/",
+      "discoveryUrl": "https://sfstandard.com/2026/06/02/primary-election-night-daniel-lurie-wins-wong-sherrill/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF Standard",
+      "publishedAt": "2026-06-03",
+      "topic": "economy",
+      "summary": "San Francisco’s mayor wasn’t on the ballot Tuesday night. But that didn’t stop him from being the city’s biggest winner.",
+      "confidence": 0.9,
+      "excerpt": "Mayor Daniel Lurie wasn’t running for reelection Tuesday night. But he may have won bigger than anybody else in San Francisco politics. The mayor, who has enjoyed a moderate majority on the Board of Supervisors since taking office in January 2025, will maintain a team of allies with the decisive wins of his two preferred incumbent supervisors: Alan Wong in District 4 and Stephen Sherrill in District 2. Both crushed their opponents in early victories. What’s more, Propositions C and D, dueling tax measures that Lurie opposed, appeared to flop with voters. Everything, it seemed, was coming up Daniel on primary night. “The early returns that we are seeing show that San Franciscans like the direction that we are going in,” the mayor told reporters at a party for Prop. A, the Earthquake Safety and Emergency Response Bond — supported by Lurie, and winning by a landslide — outside Original Joe’s in North Beach. “We are just getting started. We are going to continue to put our foot on the accelerator.” Wong, whom Lurie appointed after voters recalled former Supervisor Joel Engardio, crushed a host of challengers, including progressive activist Natalie Gee, with early results showing support from more than 52% of Sunset and Parkside voters. Wong said he knocked on more than half the doors in his district in the run-up to the election. The biggest issue in the District 4 election — and the biggest issue in the Sunset for the last six years — was the Great Highway: Should it remain a park or reopen to cars? Wong and most of his challengers advocated for the latter, but Wong seemed to have most successfully associated himself with the pro-car stance. In District 2, Sherrill walloped neighborhood organizer Lori Brooke, pulling in 70% of votes tallied by 9:45 p.m. Apparently, alle...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1455,19 +1470,6 @@
       "topic": "transit",
       "summary": "In his first State of the City address, Mayor Lurie emphasized affordability as a key challenge while touting progress on crime. He underscored the need for MUNI and BART funding, accessible City College programs, and streamlined permitting for small businesses. The administration has increased arrests of drug users and dealers, ramped up tent encampment clearings, and shifted some long-term homelessness funding toward temporary shelters.",
       "confidence": 0.9
-    },
-    {
-      "id": "opinion-daniel-lurie-mostly-thrived-in-year-1-the-next-year-could-be-shakier-202",
-      "title": "Opinion: Daniel Lurie mostly thrived in Year 1. The next year could be shakier",
-      "sourceType": "news",
-      "url": "https://sfstandard.com/opinion/2026/01/05/lurie-survived-thrived-year-1-next-year-could-dicier/",
-      "discoveryUrl": "https://sfstandard.com/opinion/2026/01/05/lurie-survived-thrived-year-1-next-year-could-dicier/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "San Francisco Standard",
-      "publishedAt": "2026-01-05",
-      "topic": "city_government",
-      "summary": "One year into office, Lurie is popular nationally and locally for changing the city's narrative. Crime down nearly 30% citywide, though previous year saw 27.5% decrease under predecessor. Upcoming challenges include supervisor elections and charter reform proposals that could become contentious.",
-      "confidence": 0.85
     }
   ],
   "promises": [
@@ -1814,7 +1816,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 4 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 8 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2056,7 +2058,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-03T11:26:00.540Z"
+      "lastRefreshed": "2026-06-03T17:22:03.753Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2075,7 +2077,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-03T11:26:00.540Z"
+      "lastRefreshed": "2026-06-03T17:22:03.753Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2091,7 +2093,7 @@
       "observations": [],
       "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-03T11:26:00.540Z",
+      "lastRefreshed": "2026-06-03T17:22:03.753Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2130,7 +2132,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-03T11:26:00.540Z"
+      "lastRefreshed": "2026-06-03T17:22:03.753Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2145,7 +2147,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 68,
+      "latest": 126,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2217,12 +2219,12 @@
         },
         {
           "date": "2026-06-01",
-          "value": 68
+          "value": 126
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-03T11:26:00.540Z"
+      "lastRefreshed": "2026-06-03T17:22:03.753Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2237,7 +2239,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 4,
+      "latest": 8,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2309,12 +2311,12 @@
         },
         {
           "date": "2026-06-01",
-          "value": 4
+          "value": 8
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-03T11:26:00.540Z"
+      "lastRefreshed": "2026-06-03T17:22:03.753Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2333,7 +2335,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-03T11:26:00.540Z"
+      "lastRefreshed": "2026-06-03T17:22:03.753Z"
     }
   ],
   "topics": [
@@ -2618,35 +2620,35 @@
   ],
   "majorNews": [
     {
-      "id": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
-      "headline": "Mayor Lurie's budget closes $642M deficit: Few layoffs, but hundreds of City Hall jobs go unfilled",
-      "url": "https://missionlocal.org/2026/06/sf-mayor-lurie-budget-proposal-2026/",
-      "publishedAt": "2026-06-01",
-      "publisher": "Mission Local",
-      "topic": "homelessness",
-      "whyItMatters": "Mayor Lurie's $16.9 billion budget proposal addresses the city's massive deficit through strategic workforce reductions—eliminating over 400 vacant positions while avoiding mass layoffs—and prioritizes public safety and homelessness services despite federal funding cuts. This budget framework will shape San Francisco's operations and service delivery for the next two fiscal years.",
-      "sourceId": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
-      "selectionMethod": "anthropic"
-    },
-    {
       "id": "8216-we-re-living-in-daniel-lurie-s-america-and-most-san-franciscans-are-pleased",
-      "headline": "'We're living in Daniel Lurie's America' — and most San Franciscans are pleased",
+      "headline": "Lurie allies sweep June 2 election in landslide victories across San Francisco",
       "url": "https://missionlocal.org/2026/06/daniel-lurie-san-francisco-election/",
       "publishedAt": "2026-06-03",
       "publisher": "Mission Local",
       "topic": "city_government",
-      "whyItMatters": "The June 2 election results represent a decisive political realignment in San Francisco, with Lurie's endorsed candidates and priorities winning by landslide margins across the board—from the earthquake bond (75%+ approval) to supervisor races. This consolidates mayoral power at City Hall and signals broad voter support for Lurie's moderate governance approach, fundamentally shifting the city's political landscape.",
+      "whyItMatters": "Mayor Lurie secured a decisive political victory with his endorsed supervisors winning by massive margins (Wong 52%+, Sherrill 70%), his earthquake bond passing with 75%+ support, and voters rejecting the CEO tax measure he opposed—demonstrating unprecedented voter alignment with the mayor's agenda and cementing his moderate Board majority heading into budget negotiations.",
       "sourceId": "8216-we-re-living-in-daniel-lurie-s-america-and-most-san-franciscans-are-pleased",
       "selectionMethod": "anthropic"
     },
     {
+      "id": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
+      "headline": "Lurie budget closes $642M deficit by eliminating 414 vacant positions, avoiding mass layoffs",
+      "url": "https://missionlocal.org/2026/06/sf-mayor-lurie-budget-proposal-2026/",
+      "publishedAt": "2026-06-01",
+      "publisher": "Mission Local",
+      "topic": "homelessness",
+      "whyItMatters": "Mayor Lurie's $16.9 billion budget proposal addresses San Francisco's structural deficit through strategic hiring freezes rather than widespread layoffs, prioritizing public safety and homeless services while preparing for federal cuts—a fiscal approach that will shape city operations and service delivery for years and sets up potential labor confrontations despite avoiding immediate job cuts.",
+      "sourceId": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
+      "selectionMethod": "anthropic"
+    },
+    {
       "id": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
-      "headline": "Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing",
+      "headline": "Lurie, Melgar propose doubling affordable housing fund to $125M annually through 2058",
       "url": "https://www.sf.gov/news-mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-housing/",
       "publishedAt": "2026-05-19",
       "publisher": "SF.gov",
       "topic": "housing",
-      "whyItMatters": "The proposed expansion of San Francisco's Housing Trust Fund from $52 million to $125 million annually—potentially generating $3 billion over 30 years—represents one of the most significant affordable housing investments in city history. This charter amendment for the November ballot directly addresses the housing crisis and could fundamentally reshape the city's ability to build and preserve affordable units citywide.",
+      "whyItMatters": "The proposed charter amendment would more than double the Housing Trust Fund from $52M to $125M annually using future property tax growth, potentially generating $3 billion over 30 years for affordable housing—representing the city's most ambitious affordable housing investment while simultaneously reducing inclusionary requirements for market-rate developers, fundamentally reshaping San Francisco's housing production strategy.",
       "sourceId": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
       "selectionMethod": "anthropic"
     }
