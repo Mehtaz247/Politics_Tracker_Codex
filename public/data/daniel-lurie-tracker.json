@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-02T21:27:33.159Z",
+    "lastUpdated": "2026-06-03T05:22:18.319Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -325,6 +325,21 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "mayor-lurie-says-most-layoffs-have-now-been-avoided-in-new-proposed-budget-2026-",
+      "title": "Mayor Lurie Says Most Layoffs Have Now Been Avoided In New Proposed Budget",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/06/01/mayor-lurie-says-most-layoffs-avoided/",
+      "discoveryUrl": "https://sfist.com/2026/06/01/mayor-lurie-says-most-layoffs-avoided/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SFist",
+      "publishedAt": "2026-06-01",
+      "topic": "homelessness",
+      "summary": "Similar to what happened last year, San Francisco Mayor Daniel Lurie had City Hall workers with an announcement about sweeping layoffs, only to later announce far fewer layoffs would actually be occurring.",
+      "confidence": 0.9,
+      "excerpt": "1 June 2026 / SF Politics / Jay Barmann Mayor Lurie Says Most Layoffs Have Now Been Avoided In New Proposed Budget --> Similar to what happened last year, San Francisco Mayor Daniel Lurie had City Hall workers with an announcement about sweeping layoffs, only to later announce far fewer layoffs would actually be occurring. With the submission of his proposed $17 billion budget, Mayor Daniel Lurie has pulled back on the number of jobs that need slashing, saying that the 127 layoffs that were initiated in April will be the end of them, per the Chronicle. \"This administration has worked to minimize impacts for city workers while safeguarding San Francisco’s long-term financial health,\" Lurie said in a statement. In total, staffing costs are being cut by $130 million in the budget blueprint, and a total of 550 City Hall positions are being elimated, but the majority of those, around 370, are currently vacant. Lurie's proposed budget now heads to the Board of Supervisors for the input and ultimate approval. The budge blueprint still leaves a shortfall for the city, however it will be down to around $600 million from the $1 billion that had been projected, and that will be over two years. That deficit is largely being caused by Trump administration cuts to federal health and food stamp programs. Lurie says he has allocated $98 million to a reserve fund to protect homeless services from federal cuts, an additional $90 million is allocated to getting homeless individuals into emergency housing, and $34 million is allocated to preserve local enrollment in food stamps and Medi-Cal programs. Also, the proposal includes $120 million to programs intended to prevent people from falling into homelessness, including rental assistance and legal services. As the Chronicle notes, Lurie...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "lurie-and-labor-are-on-a-collision-course-tuesday-s-election-may-determine-when-",
       "title": "Lurie and labor are on a collision course. Tuesday’s election may determine when it comes.",
       "sourceType": "news",
@@ -349,21 +364,6 @@
       "summary": "Balanced Budget Invests in Keeping Families on Healthcare and Food Assistance, Preventing Homelessness, Preparing for Additional Federal Cuts to Housing and Homelessness; Prioritizes Core Services to Advance Broad, Durable Economic Recovery With Investments in Public Safety, Clean and Safe Streets; Closes $642 Million Deficit While Reducing City’s Ongoing Structural Deficit by Approximately $300 Million",
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Presents Responsible Budget Strengthening Social Safety Net In Response To Significant Federal Cuts, Advancing San Francisco&#x27;s Economic Recovery Office of the Mayor Balanced Budget Invests in Keeping Families on Healthcare and Food Assistance, Preventing Homelessness, Preparing for Additional Federal Cuts to Housing and Homelessness; Prioritizes Core Services to Advance Broad, Durable Economic Recovery With Investments in Public Safety, Clean and Safe Streets; Closes $642 Million Deficit While Reducing City’s Ongoing Structural Deficit by Approximately $300 Million June 1, 2026 SAN FRANCISCO – Mayor Daniel Lurie today presented his $16.9 billion proposed budget for Fiscal Years (FY) 2026-2027 and 2027-2028, strengthening the city’s social safety net in the face of hundreds of millions of dollars of federal cuts to healthcare, while protecting core services that deliver safe, clean streets and advance San Francisco’s economic recovery. The budget closes a $642 million two-year deficit and reduces the city’s structural deficit by approximately $300 million, bringing down ongoing spending by hiring more strategically and making city services more effective and responsive. Mayor Lurie’s proposed budget builds on the work he has done in his first year and a half in office to make San Francisco’s streets safer and cleaner, foster a broad and durable economic comeback, and protect the city’s social safety net. Crime was down nearly 30% in Mayor Lurie’s first year in office, and it continues to decrease in 2026. Unsheltered homelessness is at its lowest level in 15 years , as the administration has transformed the city’s homelessness and behavioral health response. Through Mayor Lurie’s Family Opportunity Agenda, San Francisco will be the first city in...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-says-most-layoffs-have-now-been-avoided-in-new-proposed-budget-2026-",
-      "title": "Mayor Lurie Says Most Layoffs Have Now Been Avoided In New Proposed Budget",
-      "sourceType": "news",
-      "url": "https://sfist.com/2026/06/01/mayor-lurie-says-most-layoffs-avoided/",
-      "discoveryUrl": "https://sfist.com/2026/06/01/mayor-lurie-says-most-layoffs-avoided/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SFist",
-      "publishedAt": "2026-06-01",
-      "topic": "homelessness",
-      "summary": "Similar to what happened last year, San Francisco Mayor Daniel Lurie had City Hall workers with an announcement about sweeping layoffs, only to later announce far fewer layoffs would actually be occurring.",
-      "confidence": 0.9,
-      "excerpt": "1 June 2026 / SF Politics / Jay Barmann Mayor Lurie Says Most Layoffs Have Now Been Avoided In New Proposed Budget --> Similar to what happened last year, San Francisco Mayor Daniel Lurie had City Hall workers with an announcement about sweeping layoffs, only to later announce far fewer layoffs would actually be occurring. With the submission of his proposed $17 billion budget, Mayor Daniel Lurie has pulled back on the number of jobs that need slashing, saying that the 127 layoffs that were initiated in April will be the end of them, per the Chronicle. \"This administration has worked to minimize impacts for city workers while safeguarding San Francisco’s long-term financial health,\" Lurie said in a statement. In total, staffing costs are being cut by $130 million in the budget blueprint, and a total of 550 City Hall positions are being elimated, but the majority of those, around 370, are currently vacant. Lurie's proposed budget now heads to the Board of Supervisors for the input and ultimate approval. The budge blueprint still leaves a shortfall for the city, however it will be down to around $600 million from the $1 billion that had been projected, and that will be over two years. That deficit is largely being caused by Trump administration cuts to federal health and food stamp programs. Lurie says he has allocated $98 million to a reserve fund to protect homeless services from federal cuts, an additional $90 million is allocated to getting homeless individuals into emergency housing, and $34 million is allocated to preserve local enrollment in food stamps and Medi-Cal programs. Also, the proposal includes $120 million to programs intended to prevent people from falling into homelessness, including rental assistance and legal services. As the Chronicle notes, Lurie...",
       "scrapeStatus": "scraped"
     },
     {
@@ -397,18 +397,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-x27-s-statement-on-carb-decision-to-gut-state-funding-for-transit-an",
-      "title": "Mayor Lurie&#x27;s Statement On CARB Decision To Gut State Funding For Transit And Affordable Housing | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-luries-statement-on-carb-decision-to-gut-state-funding-for-transit-and-affordable-housing/",
-      "publishedAt": "2026-05-30",
-      "topic": "economy",
-      "summary": "NEWS Mayor Lurie&#x27;s Statement On CARB Decision To Gut State Funding For Transit And Affordable Housing Office of the Mayor May 30, 2026 SAN FRANCISCO – Mayor Daniel Lurie today released the following statement on the California Air Resources Board’s (CARB) decision to eliminate programs that have provided billions of dollars in state funding for affordable housing and public transit: “After years of struggle, San",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie&#x27;s Statement On CARB Decision To Gut State Funding For Transit And Affordable Housing Office of the Mayor May 30, 2026 SAN FRANCISCO – Mayor Daniel Lurie today released the following statement on the California Air Resources Board’s (CARB) decision to eliminate programs that have provided billions of dollars in state funding for affordable housing and public transit: “After years of struggle, San Francisco’s economy is recovering. Muni and BART ridership have reached post-pandemic highs, office vacancy rates continue to drop, and downtown foot traffic is continuing to increase. We’re making it easier to build housing and more affordable to raise a family here. But our recovery is fragile, and it will come to a grinding halt without reliable public transit and affordable homes to support the families and workers that power our city. “Since the start of my administration, we’ve taken steps to make Muni more reliable, efficient, and accountable as it faces a significant budget gap. We worked with partners across the Bay Area and in Sacramento to secure critical bridge funding to keep our transit systems running while we build a stronger long-term financial future for Muni. We passed the Family Zoning plan and proposed a plan to more than double our Housing Trust Fund so we can build affordable homes. “This decision puts our efforts to save transit, build affordable housing, and drive our economic recovery at risk. Since that work helps achieve our emissions goals, those goals will be jeopardized too. And that risk doesn’t just apply to San Francisco—I brought together the mayors of Los Angeles, San Diego, and Oakland, and we shared these exact concerns with CARB weeks ago . “Our city is moving in the right direction—we should keep our foot on the ac...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "mayor-lurie-is-popular-can-he-transfer-it-to-alan-wong-2026-05-30",
       "title": "Mayor Lurie is popular. Can he transfer it to Alan Wong?",
       "sourceType": "news",
@@ -424,15 +412,15 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-first-lady-prowda-invite-san-franciscans-to-sign-up-for-citywide-day",
-      "title": "Mayor Lurie, First Lady Prowda Invite San Franciscans To Sign Up For Citywide Day Of Service | SF.gov",
+      "id": "mayor-lurie-x27-s-statement-on-carb-decision-to-gut-state-funding-for-transit-an",
+      "title": "Mayor Lurie&#x27;s Statement On CARB Decision To Gut State Funding For Transit And Affordable Housing | SF.gov",
       "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-first-lady-prowda-invite-san-franciscans-to-sign-up-for-citywide-day-of-service/",
-      "publishedAt": "2026-05-29",
-      "topic": "public_safety",
-      "summary": "One City Day Service Projects Across All 11 Supervisorial Districts Invite Neighbors Across City to Connect, Serve Their Communities; Continues Mayor Lurie and First Lady Prowda’s Work to Bring Service, Accountability, Change to City Hall",
+      "url": "https://www.sf.gov/news-mayor-luries-statement-on-carb-decision-to-gut-state-funding-for-transit-and-affordable-housing/",
+      "publishedAt": "2026-05-30",
+      "topic": "economy",
+      "summary": "NEWS Mayor Lurie&#x27;s Statement On CARB Decision To Gut State Funding For Transit And Affordable Housing Office of the Mayor May 30, 2026 SAN FRANCISCO – Mayor Daniel Lurie today released the following statement on the California Air Resources Board’s (CARB) decision to eliminate programs that have provided billions of dollars in state funding for affordable housing and public transit: “After years of struggle, San",
       "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie, First Lady Prowda Invite San Franciscans To Sign Up For Citywide Day Of Service Office of the Mayor One City Day Service Projects Across All 11 Supervisorial Districts Invite Neighbors Across City to Connect, Serve Their Communities; Continues Mayor Lurie and First Lady Prowda’s Work to Bring Service, Accountability, Change to City Hall May 29, 2026 SAN FRANCISCO – Mayor Daniel Lurie and First Lady Becca Prowda today invited San Franciscans to sign up to participate in “ One City Day ,” a citywide day of service on July 11, 2026, that will build connection and strengthen civic pride. Sign-ups to volunteer on One City Day are open and include more than 150 projects and close to 100 project hosts across all 11 supervisorial districts. The day of service builds on Mayor Lurie and First Lady Prowda’s work to bring service, accountability, and change to City Hall—values that have guided both of their personal and professional journeys. The mayor and first lady first met while both working at the Robin Hood Foundation, a nonprofit dedicated to fighting poverty in New York City. Their shared commitment to serving others has shaped their lives and public service, with Mayor Lurie founding Tipping Point Community in 2005 to fight “One City Day will be an opportunity for San Franciscans to come together and give back to the city we all love,” said Mayor Lurie . “Starting May 29, Becca and I are excited to invite people who live, work, and play in San Francisco to sign up to volunteer for projects that will make a difference in their communities. We’re looking forward to this day of service and coming together across neighborhoods to build a stronger San Francisco together.” “Daniel and I have built our lives around service—it’s how we met, how we raise our ki...",
+      "excerpt": "NEWS Mayor Lurie&#x27;s Statement On CARB Decision To Gut State Funding For Transit And Affordable Housing Office of the Mayor May 30, 2026 SAN FRANCISCO – Mayor Daniel Lurie today released the following statement on the California Air Resources Board’s (CARB) decision to eliminate programs that have provided billions of dollars in state funding for affordable housing and public transit: “After years of struggle, San Francisco’s economy is recovering. Muni and BART ridership have reached post-pandemic highs, office vacancy rates continue to drop, and downtown foot traffic is continuing to increase. We’re making it easier to build housing and more affordable to raise a family here. But our recovery is fragile, and it will come to a grinding halt without reliable public transit and affordable homes to support the families and workers that power our city. “Since the start of my administration, we’ve taken steps to make Muni more reliable, efficient, and accountable as it faces a significant budget gap. We worked with partners across the Bay Area and in Sacramento to secure critical bridge funding to keep our transit systems running while we build a stronger long-term financial future for Muni. We passed the Family Zoning plan and proposed a plan to more than double our Housing Trust Fund so we can build affordable homes. “This decision puts our efforts to save transit, build affordable housing, and drive our economic recovery at risk. Since that work helps achieve our emissions goals, those goals will be jeopardized too. And that risk doesn’t just apply to San Francisco—I brought together the mayors of Los Angeles, San Diego, and Oakland, and we shared these exact concerns with CARB weeks ago . “Our city is moving in the right direction—we should keep our foot on the ac...",
       "scrapeStatus": "scraped"
     },
     {
@@ -448,6 +436,18 @@
       "summary": "San Francisco’s $600 million deficit would’ve been halved without D.C.’s policy changes, and that’s not the end of it.",
       "confidence": 0.9,
       "excerpt": "More and more, San Francisco’s 2026 budget process is resembling a slasher flick. Shadows are dancing across City Hall’s marble-wrought grand staircase, with President Donald Trump threatening to leap into view, ready to gouge hundreds of millions from the city’s coffers. The threat is real: Roughly $2 billion of San Francisco’s $16 billion budget flows from Washington, funding hundreds of grant programs across nearly every city department. Trump has already started turning off the tap. With a $643 million deficit looming, Mayor Daniel Lurie has days to reveal how the city absorbs the pain — and who feels it most. Trump has already made real cuts to healthcare. And while San Francisco has fought back — filing more than a dozen lawsuits against the administration and winning most of them so far — a single appellate loss could imperil billions. Fear that Trump may further upend any number of federal revenue streams undergirds every hard fiscal choice in front of Lurie. On June 1, the mayor will propose his draft budget to the Board of Supervisors and voters, revealing the true extent of the bloodletting. Trump’s policy choices are projected to disenroll up to 45,000 San Franciscans from healthcare and tens of thousands from food stamps. To protect those programs, Lurie is trimming across all 55 city departments rather than gutting public health and human services, his budget director, Sophia Kittler, told The Standard. “This is a loss to the whole city,” Kittler said. “We’re treating it as a citywide deficit.” The impacts are already here. Government layoffs loom, and nonprofit social safety-net programs know they face the chopping block. In anticipation of deep layoffs, labor has signaled a historic general strike is possible next year. In the meantime, tens of thousa...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-first-lady-prowda-invite-san-franciscans-to-sign-up-for-citywide-day",
+      "title": "Mayor Lurie, First Lady Prowda Invite San Franciscans To Sign Up For Citywide Day Of Service | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-first-lady-prowda-invite-san-franciscans-to-sign-up-for-citywide-day-of-service/",
+      "publishedAt": "2026-05-29",
+      "topic": "public_safety",
+      "summary": "One City Day Service Projects Across All 11 Supervisorial Districts Invite Neighbors Across City to Connect, Serve Their Communities; Continues Mayor Lurie and First Lady Prowda’s Work to Bring Service, Accountability, Change to City Hall",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie, First Lady Prowda Invite San Franciscans To Sign Up For Citywide Day Of Service Office of the Mayor One City Day Service Projects Across All 11 Supervisorial Districts Invite Neighbors Across City to Connect, Serve Their Communities; Continues Mayor Lurie and First Lady Prowda’s Work to Bring Service, Accountability, Change to City Hall May 29, 2026 SAN FRANCISCO – Mayor Daniel Lurie and First Lady Becca Prowda today invited San Franciscans to sign up to participate in “ One City Day ,” a citywide day of service on July 11, 2026, that will build connection and strengthen civic pride. Sign-ups to volunteer on One City Day are open and include more than 150 projects and close to 100 project hosts across all 11 supervisorial districts. The day of service builds on Mayor Lurie and First Lady Prowda’s work to bring service, accountability, and change to City Hall—values that have guided both of their personal and professional journeys. The mayor and first lady first met while both working at the Robin Hood Foundation, a nonprofit dedicated to fighting poverty in New York City. Their shared commitment to serving others has shaped their lives and public service, with Mayor Lurie founding Tipping Point Community in 2005 to fight “One City Day will be an opportunity for San Franciscans to come together and give back to the city we all love,” said Mayor Lurie . “Starting May 29, Becca and I are excited to invite people who live, work, and play in San Francisco to sign up to volunteer for projects that will make a difference in their communities. We’re looking forward to this day of service and coming together across neighborhoods to build a stronger San Francisco together.” “Daniel and I have built our lives around service—it’s how we met, how we raise our ki...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1581,7 +1581,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
+      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -1961,7 +1961,7 @@
       "topic": "housing",
       "verdict": "partially_verified",
       "confidence": 0.85,
-      "evidencePlan": "Legislation introduced; track Board vote, November 2026 ballot outcome, and actual budget allocation"
+      "evidencePlan": "Legislation introduced May 2026; track Board vote, November 2026 ballot outcome, and actual budget allocation"
     },
     {
       "id": "claim-breaking-cycle-37-5m",
@@ -1970,7 +1970,7 @@
       "topic": "homelessness",
       "verdict": "verified",
       "confidence": 0.92,
-      "evidencePlan": "Official announcement confirmed; verify disbursement and accountability over time"
+      "evidencePlan": "Official announcement confirmed May 2025; verify disbursement and accountability over time"
     },
     {
       "id": "claim-net-403-shelter-beds",
@@ -1979,7 +1979,7 @@
       "topic": "homelessness",
       "verdict": "partially_verified",
       "confidence": 0.82,
-      "evidencePlan": "Mission Local analysis; verify against HSH shelter capacity reports and official bed counts"
+      "evidencePlan": "Mission Local analysis May 2026; verify against HSH shelter capacity reports and official bed counts"
     },
     {
       "id": "claim-crime-down-30-percent",
@@ -1988,7 +1988,7 @@
       "topic": "public_safety",
       "verdict": "partially_verified",
       "confidence": 0.84,
-      "evidencePlan": "Official claim; verify through SFPD crime statistics and independent analysis"
+      "evidencePlan": "Official claim May 2025; verify through SFPD crime statistics and independent analysis"
     },
     {
       "id": "claim-car-break-ins-22-year-low",
@@ -1997,7 +1997,7 @@
       "topic": "public_safety",
       "verdict": "partially_verified",
       "confidence": 0.86,
-      "evidencePlan": "Official claims; verify through SFPD vehicle break-in and homicide data 2003-2026 and 1954-2026"
+      "evidencePlan": "Official claims April 2026; verify through SFPD vehicle break-in and homicide data 2003-2026 and 1954-2026"
     },
     {
       "id": "claim-stabilization-beds-increase-170-percent",
@@ -2024,7 +2024,7 @@
       "topic": "city_government",
       "verdict": "partially_verified",
       "confidence": 0.83,
-      "evidencePlan": "Official portal announcement; verify through department baseline vs post-launch metrics"
+      "evidencePlan": "Official portal announcement May 2026; verify through department baseline vs post-launch metrics"
     },
     {
       "id": "claim-budget-deficit-642m",
@@ -2033,7 +2033,7 @@
       "topic": "city_government",
       "verdict": "partially_verified",
       "confidence": 0.84,
-      "evidencePlan": "Mission Local reporting; verify through final budget adoption and actual workforce data"
+      "evidencePlan": "Mission Local reporting June 2026; verify through final budget adoption and actual workforce data"
     }
   ],
   "metrics": [
@@ -2054,7 +2054,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-02T21:27:14.816Z"
+      "lastRefreshed": "2026-06-03T05:21:38.481Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2073,7 +2073,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-02T21:27:14.816Z"
+      "lastRefreshed": "2026-06-03T05:21:38.481Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2083,13 +2083,74 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": null,
-      "latest": null,
+      "baseline": 292,
+      "latest": 216,
       "direction": "down_is_good",
-      "observations": [],
-      "status": "needs_verified_source",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 292
+        },
+        {
+          "date": "2025-02-01",
+          "value": 274
+        },
+        {
+          "date": "2025-03-01",
+          "value": 342
+        },
+        {
+          "date": "2025-04-01",
+          "value": 275
+        },
+        {
+          "date": "2025-05-01",
+          "value": 273
+        },
+        {
+          "date": "2025-06-01",
+          "value": 301
+        },
+        {
+          "date": "2025-07-01",
+          "value": 239
+        },
+        {
+          "date": "2025-08-01",
+          "value": 294
+        },
+        {
+          "date": "2025-09-01",
+          "value": 219
+        },
+        {
+          "date": "2025-10-01",
+          "value": 235
+        },
+        {
+          "date": "2025-11-01",
+          "value": 300
+        },
+        {
+          "date": "2025-12-01",
+          "value": 148
+        },
+        {
+          "date": "2026-01-01",
+          "value": 221
+        },
+        {
+          "date": "2026-02-01",
+          "value": 220
+        },
+        {
+          "date": "2026-03-01",
+          "value": 216
+        }
+      ],
+      "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-02T21:27:14.816Z",
+      "lastRefreshed": "2026-06-03T05:21:38.481Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2128,7 +2189,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-02T21:27:14.816Z"
+      "lastRefreshed": "2026-06-03T05:21:38.481Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2220,7 +2281,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-02T21:27:14.816Z"
+      "lastRefreshed": "2026-06-03T05:21:38.481Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2312,7 +2373,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-02T21:27:14.816Z"
+      "lastRefreshed": "2026-06-03T05:21:38.481Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2331,7 +2392,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-02T21:27:14.816Z"
+      "lastRefreshed": "2026-06-03T05:21:38.481Z"
     }
   ],
   "topics": [
@@ -2381,7 +2442,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
+      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -2621,8 +2682,8 @@
       "url": "https://missionlocal.org/2026/06/sf-mayor-lurie-budget-proposal-2026/",
       "publishedAt": "2026-06-01",
       "publisher": "Mission Local",
-      "topic": "homelessness",
-      "whyItMatters": "Lurie's $16.9B budget proposal addresses the city's massive deficit through strategic workforce reductions—127 layoffs plus 414 vacant positions eliminated—while prioritizing public safety and homelessness services. The approach of eliminating unfilled positions rather than mass layoffs represents a major policy choice that will shape city services for years, though critics warn it strains already understaffed departments.",
+      "topic": "public_safety",
+      "whyItMatters": "Lurie's $16.9 billion budget proposal addresses San Francisco's massive deficit through strategic cuts rather than mass layoffs, eliminating 414+ vacant positions while navigating federal funding cuts. This fiscal blueprint will shape city services for two years and reveals the administration's priorities: maintaining police/fire funding while reducing nonprofit grants, potentially affecting 1,050 nonprofit workers serving vulnerable populations.",
       "sourceId": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
       "selectionMethod": "anthropic"
     },
@@ -2633,19 +2694,19 @@
       "publishedAt": "2026-06-01",
       "publisher": "Mission Local",
       "topic": "city_government",
-      "whyItMatters": "Tuesday's special elections test whether Lurie's high approval ratings translate to political capital: Prop D would tax billion-dollar companies to fund social services after Trump cuts, while supervisor races in Districts 2 and 4 pit Lurie's appointees against progressive challengers. The outcomes will determine if organized labor confronts Lurie from a position of strength or weakness, potentially triggering strikes that 'could shut down the city' and shaping the mayor's ability to govern through budget crises.",
+      "whyItMatters": "The June 2 election serves as a critical test of Lurie's political influence beyond his high approval ratings. If voters reject Prop. D (which would tax billion-dollar companies to fund social services and offset Trump's federal cuts) and defeat his District 4 appointee Alan Wong, it could trigger labor strife and undermine the mayor's governing coalition. The outcome determines whether a potential citywide strike comes from a position of labor strength or weakness.",
       "sourceId": "lurie-and-labor-are-on-a-collision-course-tuesday-s-election-may-determine-when-",
       "selectionMethod": "anthropic"
     },
     {
-      "id": "mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-home",
-      "headline": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years",
-      "url": "https://www.sf.gov/news-mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-homelessness-in-15-years",
-      "publishedAt": "2026-05-12",
-      "publisher": "SF.gov",
-      "topic": "homelessness",
-      "whyItMatters": "Lurie's signature campaign promise shows measurable results with unsheltered homelessness at its lowest point in 15 years, representing a major policy achievement amid his administration's shift toward treatment-focused shelter beds over traditional shelters. This milestone strengthens Lurie's political standing heading into budget battles and validates his approach of prioritizing sobriety-required and locked treatment beds, though the net gain of only 403 shelter beds falls far short of his original 1,500-bed promise.",
-      "sourceId": "mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-home",
+      "id": "will-mayor-daniel-lurie-keep-or-lose-allies-in-today-s-supervisor-special-electi",
+      "headline": "Will Mayor Daniel Lurie Keep or Lose Allies In Today's Supervisor Special Elections?",
+      "url": "https://sfist.com/2026/06/02/will-mayor-daniel-lurie-keep-or-lose-allies-in-special-elections/",
+      "publishedAt": "2026-06-02",
+      "publisher": "SFist",
+      "topic": "housing",
+      "whyItMatters": "Two moderate supervisors aligned with Lurie—Stephen Sherrill (D2) and Alan Wong (D4)—face special elections that will determine whether the mayor maintains his Board of Supervisors majority. Sherrill faces scrutiny over revelations he was appointed by London Breed as a favor to Michael Bloomberg, while both supervisors are caught between YIMBY housing demands and neighborhood opposition. Loss of either seat would weaken Lurie's ability to advance his upzoning and governance agenda.",
+      "sourceId": "will-mayor-daniel-lurie-keep-or-lose-allies-in-today-s-supervisor-special-electi",
       "selectionMethod": "anthropic"
     }
   ],
