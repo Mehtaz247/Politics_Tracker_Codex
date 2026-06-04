@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-04T10:15:07.483Z",
+    "lastUpdated": "2026-06-04T20:28:26.382Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -1587,7 +1587,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
+      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -1818,7 +1818,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 8 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 58 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -1952,33 +1952,6 @@
       "evidencePlan": "SF Travel forecast cited; verify final 2026 visitor spending vs 2019 baseline when published"
     },
     {
-      "id": "claim-convention-bookings-up-69-percent",
-      "claim": "Hotel occupancy from Moscone Center conferences up 69% since 2024",
-      "sourceId": "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h",
-      "topic": "economy",
-      "verdict": "partially_verified",
-      "confidence": 0.82,
-      "evidencePlan": "SF Travel data cited; verify through hotel occupancy and Moscone Center booking records"
-    },
-    {
-      "id": "claim-affordable-housing-fund-doubling",
-      "claim": "Affordable housing funding will more than double from $52M to $125M annually",
-      "sourceId": "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
-      "topic": "housing",
-      "verdict": "partially_verified",
-      "confidence": 0.85,
-      "evidencePlan": "Legislation introduced May 2026; track Board vote, November 2026 ballot outcome, and actual budget allocation"
-    },
-    {
-      "id": "claim-breaking-cycle-37-5m",
-      "claim": "Breaking the Cycle Fund launched with $37.5M in private seed funding",
-      "sourceId": "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s",
-      "topic": "homelessness",
-      "verdict": "verified",
-      "confidence": 0.92,
-      "evidencePlan": "Official announcement confirmed May 2025; verify disbursement and accountability over time"
-    },
-    {
       "id": "claim-net-403-shelter-beds",
       "claim": "Net increase of only 403 shelter beds by April 2026; projected to drop to 303 by 2028",
       "sourceId": "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-",
@@ -2006,13 +1979,22 @@
       "evidencePlan": "Official claims April 2026; verify through SFPD vehicle break-in and homicide data"
     },
     {
-      "id": "claim-stabilization-beds-increase-170-percent",
-      "claim": "Shelters focused on stabilization and treatment increased by 170 percent",
-      "sourceId": "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-",
+      "id": "claim-breaking-cycle-37-5m",
+      "claim": "Breaking the Cycle Fund launched with $37.5M in private seed funding",
+      "sourceId": "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s",
       "topic": "homelessness",
+      "verdict": "verified",
+      "confidence": 0.92,
+      "evidencePlan": "Official announcement confirmed May 2025; verify disbursement and accountability over time"
+    },
+    {
+      "id": "claim-affordable-housing-fund-doubling",
+      "claim": "Affordable housing funding will more than double from $52M to $125M annually",
+      "sourceId": "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
+      "topic": "housing",
       "verdict": "partially_verified",
-      "confidence": 0.78,
-      "evidencePlan": "Mayor's office count cited; verify through HSH bed inventory by type with baseline vs current"
+      "confidence": 0.85,
+      "evidencePlan": "Legislation introduced May 2026; track Board vote, November 2026 ballot outcome, and actual budget allocation"
     },
     {
       "id": "claim-permit-improvements",
@@ -2024,13 +2006,13 @@
       "evidencePlan": "Official portal announcement May 2026; verify through department baseline vs post-launch metrics"
     },
     {
-      "id": "claim-budget-deficit-642m",
-      "claim": "2026 budget closes $642M deficit with minimal layoffs, 400+ vacant positions eliminated",
-      "sourceId": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
-      "topic": "city_government",
+      "id": "claim-convention-bookings-up-69-percent",
+      "claim": "Hotel occupancy from Moscone Center conferences up 69% since 2024",
+      "sourceId": "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h",
+      "topic": "economy",
       "verdict": "partially_verified",
-      "confidence": 0.84,
-      "evidencePlan": "Mission Local reporting June 2026; verify through final budget adoption and actual workforce data"
+      "confidence": 0.82,
+      "evidencePlan": "SF Travel data cited; verify through hotel occupancy and Moscone Center booking records"
     },
     {
       "id": "claim-sfpd-largest-recruit-class",
@@ -2040,6 +2022,24 @@
       "verdict": "partially_verified",
       "confidence": 0.86,
       "evidencePlan": "Official April 2026 claim; verify through SFPD staffing data and academy graduation records"
+    },
+    {
+      "id": "claim-budget-deficit-642m",
+      "claim": "2026 budget closes $642M deficit with minimal layoffs, 400+ vacant positions eliminated",
+      "sourceId": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
+      "topic": "city_government",
+      "verdict": "partially_verified",
+      "confidence": 0.84,
+      "evidencePlan": "Mission Local reporting June 2026; verify through final budget adoption and actual workforce data"
+    },
+    {
+      "id": "claim-stabilization-beds-increase-170-percent",
+      "claim": "Shelters focused on stabilization and treatment increased by 170 percent",
+      "sourceId": "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-",
+      "topic": "homelessness",
+      "verdict": "partially_verified",
+      "confidence": 0.78,
+      "evidencePlan": "Mayor's office count cited; verify through HSH bed inventory by type with baseline vs current"
     }
   ],
   "metrics": [
@@ -2060,7 +2060,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-04T10:14:49.494Z"
+      "lastRefreshed": "2026-06-04T20:28:09.628Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2079,7 +2079,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-04T10:14:49.494Z"
+      "lastRefreshed": "2026-06-04T20:28:09.628Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2089,74 +2089,13 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": 292,
-      "latest": 216,
+      "baseline": null,
+      "latest": null,
       "direction": "down_is_good",
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 292
-        },
-        {
-          "date": "2025-02-01",
-          "value": 274
-        },
-        {
-          "date": "2025-03-01",
-          "value": 342
-        },
-        {
-          "date": "2025-04-01",
-          "value": 275
-        },
-        {
-          "date": "2025-05-01",
-          "value": 273
-        },
-        {
-          "date": "2025-06-01",
-          "value": 301
-        },
-        {
-          "date": "2025-07-01",
-          "value": 239
-        },
-        {
-          "date": "2025-08-01",
-          "value": 294
-        },
-        {
-          "date": "2025-09-01",
-          "value": 219
-        },
-        {
-          "date": "2025-10-01",
-          "value": 235
-        },
-        {
-          "date": "2025-11-01",
-          "value": 300
-        },
-        {
-          "date": "2025-12-01",
-          "value": 148
-        },
-        {
-          "date": "2026-01-01",
-          "value": 221
-        },
-        {
-          "date": "2026-02-01",
-          "value": 220
-        },
-        {
-          "date": "2026-03-01",
-          "value": 216
-        }
-      ],
-      "status": "active",
+      "observations": [],
+      "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-04T10:14:49.494Z",
+      "lastRefreshed": "2026-06-04T20:28:09.628Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2195,7 +2134,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-04T10:14:49.494Z"
+      "lastRefreshed": "2026-06-04T20:28:09.628Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2210,7 +2149,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 126,
+      "latest": 197,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2282,12 +2221,12 @@
         },
         {
           "date": "2026-06-01",
-          "value": 126
+          "value": 197
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-04T10:14:49.494Z"
+      "lastRefreshed": "2026-06-04T20:28:09.628Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2302,7 +2241,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 8,
+      "latest": 58,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2374,12 +2313,12 @@
         },
         {
           "date": "2026-06-01",
-          "value": 8
+          "value": 58
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-04T10:14:49.494Z"
+      "lastRefreshed": "2026-06-04T20:28:09.628Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2398,7 +2337,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-04T10:14:49.494Z"
+      "lastRefreshed": "2026-06-04T20:28:09.628Z"
     }
   ],
   "topics": [
@@ -2448,7 +2387,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -2689,7 +2628,7 @@
       "publishedAt": "2026-06-04",
       "publisher": "SF.gov",
       "topic": "economy",
-      "whyItMatters": "PermitSF represents a major governance reform that could reshape San Francisco's economic recovery by streamlining the permitting process—a long-standing bottleneck for housing construction and small business growth. This executive directive signals Lurie's commitment to removing bureaucratic barriers that have hampered development for decades.",
+      "whyItMatters": "PermitSF represents a major governance reform addressing a long-standing barrier to San Francisco's economic recovery. By streamlining the notoriously complex permitting process with new technology and accountability measures, this initiative directly impacts the city's ability to accelerate housing construction and support small businesses—two pillars of Lurie's economic recovery agenda.",
       "sourceId": "mayor-lurie-launches-permit-reform-effort-with-focus-on-housing-and-small-busine",
       "selectionMethod": "anthropic"
     },
@@ -2700,7 +2639,7 @@
       "publishedAt": "2026-06-03",
       "publisher": "Mission Local",
       "topic": "city_government",
-      "whyItMatters": "The June 2 election results delivered landslide victories for Lurie-backed candidates and measures, fundamentally reshaping the Board of Supervisors' power dynamics. With Prop A passing with over 75% support and both allied supervisors winning decisively, Lurie now has an even stronger governing majority to advance his agenda—signaling a decisive shift in San Francisco's political direction.",
+      "whyItMatters": "The June 2 election results represent a watershed political moment, with Lurie's allies winning by landslide margins across multiple races. His appointees in Districts 2 and 4 secured decisive victories, the earthquake bond passed with over 75% support, and his opposition helped defeat the CEO tax—signaling overwhelming voter approval of Lurie's moderate governance agenda and fundamentally reshaping the city's political landscape heading into his reelection campaign.",
       "sourceId": "8216-we-re-living-in-daniel-lurie-s-america-and-most-san-franciscans-are-pleased",
       "selectionMethod": "anthropic"
     },
@@ -2711,7 +2650,7 @@
       "publishedAt": "2026-06-01",
       "publisher": "Mission Local",
       "topic": "homelessness",
-      "whyItMatters": "Lurie's $16.9 billion budget tackles a massive deficit while avoiding mass layoffs—instead eliminating over 400 vacant positions and slowing hiring. The budget prioritizes public safety, homelessness services, and protecting residents from federal funding cuts, setting the city's fiscal and policy direction for the next two years amid Trump administration reductions and ongoing structural challenges.",
+      "whyItMatters": "Lurie's $16.9 billion budget proposal addresses a massive $642 million deficit while avoiding mass layoffs feared by city unions—instead eliminating over 400 vacant positions and implementing hiring freezes. The budget prioritizes public safety and homelessness services despite federal funding cuts, setting the fiscal framework for the next two years while attempting to reduce the structural deficit by $300 million. However, cuts to nonprofit grant funding may result in over 1,000 layoffs among service providers, creating potential labor strife.",
       "sourceId": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
       "selectionMethod": "anthropic"
     }
