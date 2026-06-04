@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-04T05:13:12.953Z",
+    "lastUpdated": "2026-06-04T10:15:07.483Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -308,6 +308,21 @@
       "topic": "homelessness",
       "summary": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years &nbsp;&nbsp; SF.gov",
       "confidence": 0.78
+    },
+    {
+      "id": "mayor-lurie-launches-permit-reform-effort-with-focus-on-housing-and-small-busine",
+      "title": "Mayor Lurie Launches Permit Reform Effort With Focus on Housing and Small Business",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/mayor-lurie-launches-permit-reform-effort-with-focus-on-housing-and-small-business",
+      "discoveryUrl": "https://www.sf.gov/mayor-lurie-launches-permit-reform-effort-with-focus-on-housing-and-small-business",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2026-06-04",
+      "topic": "economy",
+      "summary": "PermitSF launched via first executive directive to reform city's permitting process, making it customer-focused, faster, and more transparent. Streamlines permitting, strengthens accountability, and deploys new technology to help drive economic recovery by helping residents and small business owners navigate process more easily.",
+      "confidence": 0.9,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "page returned bot verification challenge"
     },
     {
       "id": "8216-we-re-living-in-daniel-lurie-s-america-and-most-san-franciscans-are-pleased",
@@ -1367,6 +1382,19 @@
       "confidence": 0.68
     },
     {
+      "id": "daniel-lurie-sf-gov-2026-03-06",
+      "title": "Daniel Lurie | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/profile--daniel-lurie",
+      "discoveryUrl": "https://www.sf.gov/profile--daniel-lurie",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2026-03-06",
+      "topic": "city_government",
+      "summary": "Official profile of San Francisco's 46th mayor. Lurie founded Tipping Point Community in 2005, raising over $500 million and steering $100 million to chronic homelessness initiatives, creating a financing model to build permanent supportive housing 50% faster than before.",
+      "confidence": 0.9
+    },
+    {
       "id": "s-f-mayor-board-president-propose-3-ballot-measures-to-boost-executive-power-202",
       "title": "S.F. mayor, board president propose 3 ballot measures to boost executive power",
       "sourceType": "news",
@@ -1444,32 +1472,6 @@
       "topic": "economy",
       "summary": "San Francisco Mayor Daniel Lurie orders $100 million in budget cuts; could lead to elimination of 500 jobs &nbsp;&nbsp; ABC7 San Francisco",
       "confidence": 0.78
-    },
-    {
-      "id": "daniel-lurie-was-the-public-safety-mayor-now-he-s-trying-to-be-the-affordability",
-      "title": "Daniel Lurie was the public safety mayor. Now he's trying to be the affordability guy",
-      "sourceType": "news",
-      "url": "https://sfstandard.com/2026/01/15/san-francisco-daniel-lurie-state-of-the-city/",
-      "discoveryUrl": "https://sfstandard.com/2026/01/15/san-francisco-daniel-lurie-state-of-the-city/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "San Francisco Standard",
-      "publishedAt": "2026-01-15",
-      "topic": "economy",
-      "summary": "In his first State of the City address, Mayor Lurie shifted focus from public safety messaging to affordability, addressing child-care costs, rents, and economic pressures. He opposed California's wealth tax proposal, citing concerns about people leaving the state. Some community leaders in the Mission questioned progress, noting homelessness and drug use have moved from the Tenderloin to their neighborhood.",
-      "confidence": 0.9
-    },
-    {
-      "id": "mayor-lurie-on-san-francisco-we-are-on-our-way-back-but-we-still-have-work-to-do",
-      "title": "Mayor Lurie on San Francisco: 'We Are On Our Way Back. But We Still Have Work To Do.'",
-      "sourceType": "news",
-      "url": "https://www.kqed.org/news/12069967/mayor-lurie-on-san-francisco-we-are-on-our-way-back-but-we-still-have-work-to-do",
-      "discoveryUrl": "https://www.kqed.org/news/12069967/mayor-lurie-on-san-francisco-we-are-on-our-way-back-but-we-still-have-work-to-do",
-      "discoverySource": "Anthropic web search",
-      "publisher": "KQED",
-      "publishedAt": "2026-01-15",
-      "topic": "transit",
-      "summary": "In his first State of the City address, Mayor Lurie emphasized affordability as a key challenge while touting progress on crime. He underscored the need for MUNI and BART funding, accessible City College programs, and streamlined permitting for small businesses. The administration has increased arrests of drug users and dealers, ramped up tent encampment clearings, and shifted some long-term homelessness funding toward temporary shelters.",
-      "confidence": 0.9
     }
   ],
   "promises": [
@@ -2058,7 +2060,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-04T05:12:55.373Z"
+      "lastRefreshed": "2026-06-04T10:14:49.494Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2077,7 +2079,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-04T05:12:55.373Z"
+      "lastRefreshed": "2026-06-04T10:14:49.494Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2154,7 +2156,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-04T05:12:55.373Z",
+      "lastRefreshed": "2026-06-04T10:14:49.494Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2193,7 +2195,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-04T05:12:55.373Z"
+      "lastRefreshed": "2026-06-04T10:14:49.494Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2285,7 +2287,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-04T05:12:55.373Z"
+      "lastRefreshed": "2026-06-04T10:14:49.494Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2377,7 +2379,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-04T05:12:55.373Z"
+      "lastRefreshed": "2026-06-04T10:14:49.494Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2396,7 +2398,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-04T05:12:55.373Z"
+      "lastRefreshed": "2026-06-04T10:14:49.494Z"
     }
   ],
   "topics": [
@@ -2681,36 +2683,36 @@
   ],
   "majorNews": [
     {
+      "id": "mayor-lurie-launches-permit-reform-effort-with-focus-on-housing-and-small-busine",
+      "headline": "Mayor Lurie Launches Permit Reform Effort With Focus on Housing and Small Business",
+      "url": "https://www.sf.gov/mayor-lurie-launches-permit-reform-effort-with-focus-on-housing-and-small-business",
+      "publishedAt": "2026-06-04",
+      "publisher": "SF.gov",
+      "topic": "economy",
+      "whyItMatters": "PermitSF represents a major governance reform that could reshape San Francisco's economic recovery by streamlining the permitting process—a long-standing bottleneck for housing construction and small business growth. This executive directive signals Lurie's commitment to removing bureaucratic barriers that have hampered development for decades.",
+      "sourceId": "mayor-lurie-launches-permit-reform-effort-with-focus-on-housing-and-small-busine",
+      "selectionMethod": "anthropic"
+    },
+    {
       "id": "8216-we-re-living-in-daniel-lurie-s-america-and-most-san-franciscans-are-pleased",
-      "headline": "Landslide June election victory cements Lurie's political dominance across San Francisco",
+      "headline": "'We're living in Daniel Lurie's America' — and most San Franciscans are pleased",
       "url": "https://missionlocal.org/2026/06/daniel-lurie-san-francisco-election/",
       "publishedAt": "2026-06-03",
       "publisher": "Mission Local",
       "topic": "city_government",
-      "whyItMatters": "Mayor Lurie's allies swept the June 2 election with commanding margins—supervisors Wong and Sherrill won decisively, earthquake bond Prop A passed with over 75%, and the 'Overpaid CEO Tax' was rejected. The overwhelming victories suggest Lurie has consolidated political power and popular support just 18 months into his first term, fundamentally reshaping San Francisco's political landscape.",
+      "whyItMatters": "The June 2 election results delivered landslide victories for Lurie-backed candidates and measures, fundamentally reshaping the Board of Supervisors' power dynamics. With Prop A passing with over 75% support and both allied supervisors winning decisively, Lurie now has an even stronger governing majority to advance his agenda—signaling a decisive shift in San Francisco's political direction.",
       "sourceId": "8216-we-re-living-in-daniel-lurie-s-america-and-most-san-franciscans-are-pleased",
       "selectionMethod": "anthropic"
     },
     {
       "id": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
-      "headline": "Lurie's $16.9B budget closes $642M deficit by eliminating 400+ vacant positions, protecting services",
+      "headline": "Mayor Lurie's budget closes $642M deficit: Few layoffs, but hundreds of City Hall jobs go unfilled",
       "url": "https://missionlocal.org/2026/06/sf-mayor-lurie-budget-proposal-2026/",
       "publishedAt": "2026-06-01",
       "publisher": "Mission Local",
       "topic": "homelessness",
-      "whyItMatters": "The mayor's proposed budget avoids mass layoffs by cutting unfilled positions and slowing hiring rather than firing existing workers. It prioritizes police, fire, and homelessness services while protecting safety-net programs against federal cuts—setting fiscal direction for the next two years and reducing the structural deficit by $300 million while maintaining core city operations.",
+      "whyItMatters": "Lurie's $16.9 billion budget tackles a massive deficit while avoiding mass layoffs—instead eliminating over 400 vacant positions and slowing hiring. The budget prioritizes public safety, homelessness services, and protecting residents from federal funding cuts, setting the city's fiscal and policy direction for the next two years amid Trump administration reductions and ongoing structural challenges.",
       "sourceId": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
-      "selectionMethod": "anthropic"
-    },
-    {
-      "id": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
-      "headline": "Lurie and Melgar propose more than doubling affordable housing funding to $125M annually through 2058",
-      "url": "https://www.sf.gov/news-mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-housing/",
-      "publishedAt": "2026-05-19",
-      "publisher": "SF.gov",
-      "topic": "housing",
-      "whyItMatters": "The proposed charter amendment would expand the Housing Trust Fund from $52M to $125M per year—potentially $3.75 billion over 30 years—to accelerate affordable housing construction. The deal also includes changes to inclusionary housing requirements, representing a major policy bargain between the mayor and a key supervisor that could reshape housing development citywide if approved by voters in November.",
-      "sourceId": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
       "selectionMethod": "anthropic"
     }
   ],
