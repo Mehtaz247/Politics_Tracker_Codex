@@ -1,11 +1,11 @@
 :root {
   color: #113055;
-  background: #2f72c3;
+  background: #21cfff;
   font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
-  --bg: #2f72c3;
-  --bg-deep: #255fa6;
+  --bg: #21cfff;
+  --bg-deep: #21cfff;
   --surface: #f7fbff;
   --surface-strong: #ffffff;
   --surface-muted: #e8f1fb;
@@ -52,7 +52,7 @@ nav { display: flex; align-items: center; justify-content: space-between; gap: 1
 .nav-sidebar-toggle.nav-link-active { background: rgba(255,255,255,0.18); }
 .updated { color: #c9def7; font-size: 0.92rem; }
 .nav-sidebar-overlay { position: fixed; inset: 0; background: rgba(4, 18, 38, 0.42); z-index: 25; }
-.nav-sidebar { position: fixed; top: 0; right: 0; width: min(320px, 86vw); height: 100vh; padding: 28px 20px; background: #2a66af; border-left: 1px solid rgba(255,255,255,0.14); display: grid; align-content: start; gap: 18px; transform: translateX(100%); transition: transform 180ms ease; z-index: 30; }
+.nav-sidebar { position: fixed; top: 0; right: 0; width: min(320px, 86vw); height: 100vh; padding: 28px 20px; background: #21cfff; border-left: 1px solid rgba(255,255,255,0.14); display: grid; align-content: start; gap: 18px; transform: translateX(100%); transition: transform 180ms ease; z-index: 30; }
 .nav-sidebar.nav-sidebar-open { transform: translateX(0); }
 .nav-sidebar-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; color: #eff7ff; }
 .nav-sidebar-head strong { font-size: 1rem; letter-spacing: -0.02em; }
