@@ -62,12 +62,12 @@ nav { display: flex; align-items: center; justify-content: space-between; gap: 1
 .nav-sidebar-links a { display: block; width: 100%; }
 .nav-sidebar-visible { overflow: hidden; }
 .hero-content { display: block; }
-.eyebrow, .section-title p { margin: 0; color: #2f67a6; text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.72rem; font-weight: 800; }
+.eyebrow, .section-title p { margin: 0; color: #111111; text-transform: uppercase; letter-spacing: 0.12em; font-size: 0.72rem; font-weight: 800; }
 h1, .section-title h2, .promise-card h3, .metric-chart h3, .source-test-head h3 { font-family: "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif; }
 h1 { margin: 8px 0 14px; font-size: clamp(2.15rem, 4.4vw, 3.95rem); line-height: 0.98; letter-spacing: -0.05em; max-width: 760px; }
-.hero-copy { color: #19548f; font-size: 1.02rem; line-height: 1.65; max-width: 620px; }
+.hero-copy { color: #111111; font-size: 1.02rem; line-height: 1.65; max-width: 620px; }
 .hero-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
-.hero-tags span { padding: 8px 12px; background: rgba(255,255,255,0.28); border: 1px solid rgba(11,59,115,0.14); color: #0b3b73; }
+.hero-tags span { padding: 8px 12px; background: rgba(255,255,255,0.28); border: 1px solid rgba(11,59,115,0.14); color: #111111; }
 .chart-action-block { display: grid; gap: 8px; margin-top: 18px; max-width: 520px; }
 .chart-request-box { display: grid; gap: 7px; color: #0b3b73; font-weight: 800; }
 .chart-request-input { width: 100%; min-height: 110px; border: 1px solid var(--line); border-radius: 14px; padding: 12px 14px; color: var(--text); background: var(--surface-strong); outline: none; resize: vertical; font: inherit; line-height: 1.5; }

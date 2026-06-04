@@ -1,5 +1,6 @@
 const BASE_TRACKER_PAGES = [
   ['/', 'Home'],
+  ['/about.html', 'About'],
   ['/promises.html', 'Promises'],
   ['/charts.html', 'Charts'],
 ];

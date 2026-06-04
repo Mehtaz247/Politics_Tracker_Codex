@@ -6,6 +6,7 @@ const dist = new URL('../dist/', import.meta.url);
 await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
 await cp(new URL('../index.html', import.meta.url), new URL('./index.html', dist));
+await cp(new URL('../about.html', import.meta.url), new URL('./about.html', dist));
 await cp(new URL('../promises.html', import.meta.url), new URL('./promises.html', dist));
 await cp(new URL('../charts.html', import.meta.url), new URL('./charts.html', dist));
 await cp(new URL('../src/', import.meta.url), new URL('./src/', dist), { recursive: true });

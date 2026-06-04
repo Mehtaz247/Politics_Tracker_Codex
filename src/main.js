@@ -3,8 +3,6 @@ import { loadTrackerPage, wireTrackerPicker } from './tracker-loader.js';
 const icon = {
   chart: '📊',
   database: '🗄️',
-  refresh: '🔄',
-  sparkles: '✨',
 };
 
 let trackerData;
@@ -30,7 +28,7 @@ function render() {
     </section>` : ''}
     <section class="section">
       <div class="panel">
-        ${sectionTitle(icon.sparkles, 'Start here', 'Choose where to begin')}
+        ${sectionTitle('', 'Start here', 'Choose where to begin')}
         <div class="connector-grid">
           ${researchToolCard('Open Promises', 'Review campaign commitments, delivery status, and verified progress.', '/promises.html')}
           ${researchToolCard('Open Charts', 'Generate and view chart renditions from the saved tracker data.', '/charts.html')}
@@ -57,7 +55,7 @@ function hero(subject) {
           <h1>Track what was promised.</h1>
           <p class="hero-copy">Use this site to review campaign promises and open chart views built from the tracker data.</p>
           <div class="hero-tags">
-            <span>${icon.refresh} Updated ${new Date(subject.lastUpdated).toLocaleDateString()}</span>
+            <span>Updated ${new Date(subject.lastUpdated).toLocaleDateString()}</span>
             <span>${subject.role}</span>
           </div>
         </div>
@@ -70,7 +68,7 @@ function researchToolCard(label, detail, href) {
 }
 
 function sectionTitle(iconText, eyebrow, title) {
-  return `<div class="section-title"><div class="section-icon">${iconText}</div><div><p>${eyebrow}</p><h2>${title}</h2></div></div>`;
+  return `<div class="section-title">${iconText ? `<div class="section-icon">${iconText}</div>` : ''}<div><p>${eyebrow}</p><h2>${title}</h2></div></div>`;
 }
 
 boot().catch((error) => {
