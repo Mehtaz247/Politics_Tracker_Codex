@@ -40,7 +40,7 @@ function render() {
     <section class="dashboard-grid summary-grid">
       <article class="metric-card"><div class="metric-icon">📈</div><span>Charts live</span><strong>${chartCount}</strong><p>Default views come from tracker data; new charts appear only when requested</p></article>
       <article class="metric-card"><div class="metric-icon">🗄️</div><span>Observed metrics</span><strong>${data.metrics.filter((metric) => metric.observations?.length).length}</strong><p>Available for AI interpretation and chart selection</p></article>
-      <article class="metric-card"><div class="metric-icon">🤖</div><span>AI role</span><strong>Specs only</strong><p>AI interprets data and returns fixed-format chart specs, not frontend code</p></article>
+      <article class="metric-card"><div class="metric-icon">📐</div><span>AI role</span><strong>Specs only</strong><p>AI interprets data and returns fixed-format chart specs, not frontend code</p></article>
     </section>
   `;
   const chartsSection = `
@@ -68,7 +68,7 @@ function render() {
   root.innerHTML = `
     <header class="hero ${isCleanPromptView ? 'hero-compact' : ''}">
       <nav>
-        <a class="brand" href="${trackerContext.trackerHref('/')}">${icon.bot} Politics Tracker MVP</a>
+        <a class="brand" href="${trackerContext.trackerHref('/')}">Politics Tracker</a>
         <div class="nav-links">
           ${trackerContext.navLinksHtml('/charts.html')}
         </div>
@@ -76,15 +76,15 @@ function render() {
       <div class="hero-content">
         <div>
           <p class="eyebrow">Visual reporting</p>
-          <h1>${isPromptMode ? 'Prompt-generated chart view.' : 'Clean chart views built from the tracker data.'}</h1>
-          <p class="hero-copy">${isPromptMode ? 'This view was generated directly from the prompt in the URL. The backend interpreted tracker data and the page rendered the resulting chart spec.' : 'Ask for charts only when you want them. The backend requests fixed chart-spec JSON, then the page renders those specs with existing code.'}</p>
+          <h1>${isPromptMode ? 'Prompt-generated chart view.' : 'Build chart views from tracker data.'}</h1>
+          <p class="hero-copy">${isPromptMode ? 'This view was generated from the prompt and rendered from saved tracker data.' : 'Ask for a chart when you need one. The page turns the request into a structured view from stored tracker data.'}</p>
           <div class="chart-action-block">
             <label class="chart-request-box">
               <span>Describe the chart you want</span>
               <textarea class="chart-request-input" placeholder="Example: Show a line chart for homelessness trend and a bar chart comparing public safety indicators.">${escapeHtml(chartRequestText)}</textarea>
             </label>
             <button type="button" class="chart-generate-button" ${isGenerating ? 'disabled' : ''}>${isGenerating ? 'Generating…' : 'Generate charts'}</button>
-            <p class="chart-action-warning">this number of charts may be limited in the future;</p>
+            <p class="chart-action-warning">Use a specific metric, topic, or time trend for the cleanest result.</p>
             ${generationError ? `<p class="chart-action-error">${escapeHtml(generationError)}</p>` : ''}
           </div>
           <div class="hero-tags">
@@ -93,14 +93,9 @@ function render() {
             <span>${data.metrics.filter((metric) => metric.observations?.length).length} metrics with observations</span>
           </div>
         </div>
-        <div class="hero-card">
-          <div class="metric-icon">${icon.chart}</div>
-          <strong>${chartCount}</strong>
-          <p>Default charts come from saved tracker data, and AI requests return structured specs instead of UI code.</p>
-        </div>
       </div>
     </header>
-    ${isCleanPromptView ? chartsSection : (isPromptMode ? `${chartsSection}${summarySection}` : `${summarySection}${chartsSection}`)}
+    ${isCleanPromptView ? chartsSection : chartsSection}
   `;
 
   document.querySelector('.chart-generate-button')?.addEventListener('click', generateCharts);

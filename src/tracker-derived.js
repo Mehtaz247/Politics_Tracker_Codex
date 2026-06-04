@@ -619,7 +619,7 @@ export function buildInterviewPrep(data, warRoomSignals = buildWarRoomSignals(da
         question: `You promised to "${promise.text}". Why should voters accept the current result instead of viewing this as a broken commitment?`,
         receipt: promise.statusNote || 'The tracker shows this promise as broken.',
         followUp: promise.progressBasis || 'What concrete number, date, or operational change would count as recovery from this miss?',
-        relatedPath: { path: '/notebook.html', query: { promise: promise.id } },
+        relatedPath: { path: '/promises.html', query: null },
       });
     } else if (promise.reviewStatus !== 'approved') {
       questions.push({
@@ -643,7 +643,7 @@ export function buildInterviewPrep(data, warRoomSignals = buildWarRoomSignals(da
         question: `You say work is underway on "${promise.text}". What remains unfinished, and by when should people expect a clearer result?`,
         receipt: promise.progressBasis,
         followUp: 'What specific milestone or number would mark the next real step instead of another announcement?',
-        relatedPath: { path: '/notebook.html', query: { promise: promise.id } },
+        relatedPath: { path: '/promises.html', query: null },
       });
     }
   }
@@ -704,7 +704,7 @@ export function buildInterviewPrep(data, warRoomSignals = buildWarRoomSignals(da
         : `On ${narrative.topicLabel.toLowerCase()}, the public story is still contested. What single piece of public evidence should settle it in your favor?`,
       receipt: narrative.summary,
       followUp: narrative.evidencePoints[0] || 'What would materially change this storyline in the next few weeks?',
-      relatedPath: { path: '/narratives.html', query: null },
+      relatedPath: { path: '/playbook.html', query: null },
     });
   }
 
@@ -738,7 +738,7 @@ export function buildTensionItems(data, warRoomSignals = buildWarRoomSignals(dat
         sideA: headline.headline,
         sideB: promise.statusNote || promise.text,
         whyItMatters: 'This is where public messaging and measurable delivery are most likely to collide.',
-        relatedPath: { path: '/notebook.html', query: { promise: promise.id } },
+        relatedPath: { path: '/promises.html', query: null },
       });
     }
 
@@ -809,7 +809,7 @@ export function buildTensionItems(data, warRoomSignals = buildWarRoomSignals(dat
       sideA: progressNarrative.summary,
       sideB: narrative.summary,
       whyItMatters: 'These are the topics most likely to produce dueling interpretations depending on which facts are foregrounded.',
-      relatedPath: { path: '/narratives.html', query: null },
+      relatedPath: { path: '/playbook.html', query: null },
     });
   }
 
@@ -840,8 +840,8 @@ export function buildRecordsRequests(data, investigationLeads = buildInvestigati
         : lead.metricId
           ? { path: '/metrics.html', query: null }
           : lead.promiseId
-            ? { path: '/notebook.html', query: { promise: lead.promiseId } }
-            : { path: '/investigations.html', query: null },
+            ? { path: '/promises.html', query: null }
+            : { path: '/sources.html', query: null },
     });
   }
 
@@ -855,7 +855,7 @@ export function buildRecordsRequests(data, investigationLeads = buildInvestigati
       rationale: `This promise is still fragile because it relies on ${item.evidenceCount} evidence link${item.evidenceCount === 1 ? '' : 's'} with limited non-campaign support.`,
       ask: `Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to "${item.title}".`,
       whyNow: 'Stronger corroboration would materially improve the trustworthiness of the current promise call.',
-      relatedPath: { path: '/evidence.html', query: null },
+      relatedPath: { path: '/playbook.html', query: null },
     });
   }
 
@@ -869,7 +869,7 @@ export function buildRecordsRequests(data, investigationLeads = buildInvestigati
       rationale: tension.whyItMatters,
       ask: `Request the underlying records needed to reconcile this contradiction: ${tension.sideA} versus ${tension.sideB}. Include source spreadsheets, internal status reports, public presentations, and final signed policy documents.`,
       whyNow: 'This contradiction is already sharp enough to shape public understanding, so the missing records matter immediately.',
-      relatedPath: tension.relatedPath || { path: '/tensions.html', query: null },
+      relatedPath: tension.relatedPath || { path: '/playbook.html', query: null },
     });
   }
 
@@ -993,6 +993,7 @@ export function buildTopicPackets(
         priority: item.priority,
         targetAgency: item.targetAgency,
         ask: item.ask,
+        whyNow: item.whyNow,
       })),
       questions: topicQuestions.map((item) => ({
         title: item.title,

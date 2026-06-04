@@ -1,3 +1,5 @@
+import { loadTrackerPage } from './tracker-loader.js';
+
 const STATUS_COPY = {
   not_started: 'Not started',
   in_progress: 'In progress',
@@ -52,7 +54,7 @@ function render() {
   document.getElementById('root').innerHTML = `
     <header class="hero hero-compact">
       <nav>
-        <a class="brand" href="${trackerContext.trackerHref('/')}">${icon.bot} Politics Tracker MVP</a>
+        <a class="brand" href="${trackerContext.trackerHref('/')}">Politics Tracker</a>
         <div class="nav-links">
           ${trackerContext.navLinksHtml('/promises.html')}
         </div>
@@ -60,22 +62,16 @@ function render() {
       <div class="hero-content">
         <div>
           <p class="eyebrow">Promise tracker</p>
-          <h1>Campaign promises, sorted and scored against current evidence.</h1>
-          <p class="hero-copy">This page separates campaign commitments from later announcements. Quantitative promises get target bars, binary promises get explicit delivered-or-not states, and broader reforms use milestone trackers with enough space to read the evidence clearly.</p>
+          <h1>Campaign promises and where they stand now.</h1>
+          <p class="hero-copy">Use this page for the core accountability question: what was promised, what has proof, and what is still incomplete or broken.</p>
           <div class="hero-tags">
             <span>${trackerData.promises.length} tracked promises</span>
             <span>${quantitative.length} quantitative</span>
-            <span>${binary.length} binary</span>
-            <span>${milestones.length} milestone-based</span>
+            <span>${binary.length + milestones.length} non-numeric</span>
           </div>
         </div>
       </div>
     </header>
-    <section class="dashboard-grid summary-grid">
-      ${metricCard(icon.flag, 'Tracked promises', trackerData.promises.length, 'Campaign commitments detected from campaign pages and current sources')}
-      ${metricCard(icon.chart, 'Quantified promises', quantitative.length, 'Promises with current-versus-target or hard percentage evidence')}
-      ${metricCard(icon.tracker, 'Updated', new Date(trackerData.subject.lastUpdated).toLocaleDateString(), 'Current evidence pulled from tracker refresh')}
-    </section>
     <section class="section">
       <div class="panel">
         ${sectionTitle(icon.tracker, 'Promise catalog', 'Major campaign commitments and their current status')}
@@ -122,14 +118,23 @@ function renderPromiseCard(promise) {
     <p>${escapeHtml(promise.statusNote || '')}</p>
     ${renderTrackingSurface(promise)}
     ${promise.progressBasis ? `<p class="progress-basis">${escapeHtml(promise.progressBasis)}</p>` : ''}
-    <a class="claim-source-link" href="${trackerContext.trackerHref('/notebook.html', { promise: promise.id })}">Open notebook</a>
     ${renderEvidenceLinks(promise)}
     <div class="promise-meta promise-meta-roomy">
       <span>${pretty(promise.topic)}</span>
       <span>${deadline}</span>
       <span>${sourceCount} supporting sources</span>
     </div>
+    <div class="tracker-directory-links">
+      ${renderPromiseSourceLink(promise)}
+    </div>
   </article>`;
+}
+
+function renderPromiseSourceLink(promise) {
+  const sourceId = promise.evidenceSourceIds?.[0];
+  const source = sourceId ? sourceById.get(sourceId) : null;
+  if (!source?.url) return '';
+  return `<a class="claim-source-link" href="${source.url}" target="_blank" rel="noreferrer">${icon.source} Open source</a>`;
 }
 
 function renderTrackingSurface(promise) {
@@ -183,10 +188,6 @@ function renderEvidenceLinks(promise) {
   </div>`;
 }
 
-function metricCard(iconText, label, value, detail) {
-  return `<article class="metric-card"><div class="metric-icon">${iconText}</div><span>${label}</span><strong>${value}</strong><p>${detail}</p></article>`;
-}
-
 function sectionTitle(iconText, eyebrow, title) {
   return `<div class="section-title"><div class="section-icon">${iconText}</div><div><p>${eyebrow}</p><h2>${title}</h2></div></div>`;
 }
@@ -223,8 +224,6 @@ function shortSourceLabel(source) {
 function escapeHtml(value) {
   return String(value).replace(/[&<>"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[character]));
 }
-
 boot().catch((error) => {
   document.getElementById('root').textContent = `Unable to load promise tracker: ${error.message}`;
 });
-import { loadTrackerPage } from './tracker-loader.js';

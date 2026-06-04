@@ -1,6 +1,6 @@
 {
   "slug": "daniel-lurie",
-  "generatedAt": "2026-06-01T19:58:16.460Z",
+  "generatedAt": "2026-06-04T10:24:46.704Z",
   "warRoom": {
     "signals": [
       {
@@ -1988,10 +1988,8 @@
         "receipt": "Mission Local reports a net increase of 403 beds against the 1,500-bed campaign target after the six-month deadline.",
         "followUp": "403 net new beds identified in reporting against a 1,500-bed campaign target.",
         "relatedPath": {
-          "path": "/notebook.html",
-          "query": {
-            "promise": "promise-increase-shelter-beds"
-          }
+          "path": "/promises.html",
+          "query": null
         }
       },
       {
@@ -2060,7 +2058,7 @@
         "receipt": "City Government is accumulating enough high-severity signals to stay on the political pressure board. In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
         "followUp": "7 high-severity war-room signals",
         "relatedPath": {
-          "path": "/narratives.html",
+          "path": "/playbook.html",
           "query": null
         }
       },
@@ -2074,7 +2072,7 @@
         "receipt": "Homelessness is being defined by a broken commitment, and the lane is already carrying a direct accountability story. Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds",
         "followUp": "1 broken promise in this lane",
         "relatedPath": {
-          "path": "/narratives.html",
+          "path": "/playbook.html",
           "query": null
         }
       },
@@ -2088,7 +2086,7 @@
         "receipt": "Downtown Economy is accumulating enough high-severity signals to stay on the political pressure board.",
         "followUp": "2 high-severity war-room signals",
         "relatedPath": {
-          "path": "/narratives.html",
+          "path": "/playbook.html",
           "query": null
         }
       },
@@ -2102,7 +2100,7 @@
         "receipt": "Public Safety has live indicators moving the wrong way, creating a measurable liability instead of a messaging-only problem.",
         "followUp": "2 high-severity war-room signals",
         "relatedPath": {
-          "path": "/narratives.html",
+          "path": "/playbook.html",
           "query": null
         }
       },
@@ -2116,7 +2114,7 @@
         "receipt": "Housing has live indicators moving the wrong way, creating a measurable liability instead of a messaging-only problem. Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov",
         "followUp": "3 high-severity war-room signals",
         "relatedPath": {
-          "path": "/narratives.html",
+          "path": "/playbook.html",
           "query": null
         }
       },
@@ -2130,7 +2128,7 @@
         "receipt": "Climate is accumulating enough high-severity signals to stay on the political pressure board.",
         "followUp": "2 high-severity war-room signals",
         "relatedPath": {
-          "path": "/narratives.html",
+          "path": "/playbook.html",
           "query": null
         }
       },
@@ -2312,10 +2310,8 @@
         "receipt": "3 of 4 implementation milestones are evidenced.",
         "followUp": "What specific milestone or number would mark the next real step instead of another announcement?",
         "relatedPath": {
-          "path": "/notebook.html",
-          "query": {
-            "promise": "promise-treatment-or-arrest"
-          }
+          "path": "/promises.html",
+          "query": null
         }
       },
       {
@@ -2328,10 +2324,8 @@
         "receipt": "3 of 4 implementation milestones are evidenced.",
         "followUp": "What specific milestone or number would mark the next real step instead of another announcement?",
         "relatedPath": {
-          "path": "/notebook.html",
-          "query": {
-            "promise": "promise-end-open-air-drug-markets"
-          }
+          "path": "/promises.html",
+          "query": null
         }
       },
       {
@@ -2344,10 +2338,8 @@
         "receipt": "3 of 4 staffing milestones are evidenced.",
         "followUp": "What specific milestone or number would mark the next real step instead of another announcement?",
         "relatedPath": {
-          "path": "/notebook.html",
-          "query": {
-            "promise": "promise-rebuild-police-staffing"
-          }
+          "path": "/promises.html",
+          "query": null
         }
       },
       {
@@ -2360,10 +2352,8 @@
         "receipt": "3 of 4 permitting milestones are evidenced.",
         "followUp": "What specific milestone or number would mark the next real step instead of another announcement?",
         "relatedPath": {
-          "path": "/notebook.html",
-          "query": {
-            "promise": "promise-streamline-permitting"
-          }
+          "path": "/promises.html",
+          "query": null
         }
       },
       {
@@ -2376,10 +2366,8 @@
         "receipt": "2 of 3 contracting-reform milestones are evidenced.",
         "followUp": "What specific milestone or number would mark the next real step instead of another announcement?",
         "relatedPath": {
-          "path": "/notebook.html",
-          "query": {
-            "promise": "promise-centralize-contracts-and-construction"
-          }
+          "path": "/promises.html",
+          "query": null
         }
       },
       {
@@ -2392,10 +2380,8 @@
         "receipt": "3 of 4 housing milestones are evidenced.",
         "followUp": "What specific milestone or number would mark the next real step instead of another announcement?",
         "relatedPath": {
-          "path": "/notebook.html",
-          "query": {
-            "promise": "promise-build-more-housing"
-          }
+          "path": "/promises.html",
+          "query": null
         }
       },
       {
@@ -2408,10 +2394,8 @@
         "receipt": "1 of 4 downtown-recovery milestones are evidenced.",
         "followUp": "What specific milestone or number would mark the next real step instead of another announcement?",
         "relatedPath": {
-          "path": "/notebook.html",
-          "query": {
-            "promise": "promise-revitalize-downtown-and-small-business"
-          }
+          "path": "/promises.html",
+          "query": null
         }
       },
       {
@@ -2480,7 +2464,7 @@
         "receipt": "City Government mixes some settled facts with still-contested assertions, so the public storyline is only partially stable.",
         "followUp": "4 claims remain unresolved or only partially verified",
         "relatedPath": {
-          "path": "/narratives.html",
+          "path": "/playbook.html",
           "query": null
         }
       },
@@ -2494,7 +2478,7 @@
         "receipt": "Homelessness contains unresolved claims that could harden into conventional wisdom before the tracker settles the evidence.",
         "followUp": "2 claims remain unresolved or only partially verified",
         "relatedPath": {
-          "path": "/narratives.html",
+          "path": "/playbook.html",
           "query": null
         }
       },
@@ -2508,7 +2492,7 @@
         "receipt": "Downtown Economy is still driven by claims that need better records, methodology, or final votes before they should be treated as settled.",
         "followUp": "2 claims remain unresolved or only partially verified",
         "relatedPath": {
-          "path": "/narratives.html",
+          "path": "/playbook.html",
           "query": null
         }
       },
@@ -2522,7 +2506,7 @@
         "receipt": "Housing is still driven by claims that need better records, methodology, or final votes before they should be treated as settled.",
         "followUp": "2 claims remain unresolved or only partially verified",
         "relatedPath": {
-          "path": "/narratives.html",
+          "path": "/playbook.html",
           "query": null
         }
       }
@@ -2541,10 +2525,8 @@
         "sideB": "Mission Local reports a net increase of 403 beds against the 1,500-bed campaign target after the six-month deadline.",
         "whyItMatters": "This is where public messaging and measurable delivery are most likely to collide.",
         "relatedPath": {
-          "path": "/notebook.html",
-          "query": {
-            "promise": "promise-increase-shelter-beds"
-          }
+          "path": "/promises.html",
+          "query": null
         }
       },
       {
@@ -2723,7 +2705,7 @@
         "sideB": "Public Safety has live indicators moving the wrong way, creating a measurable liability instead of a messaging-only problem.",
         "whyItMatters": "These are the topics most likely to produce dueling interpretations depending on which facts are foregrounded.",
         "relatedPath": {
-          "path": "/narratives.html",
+          "path": "/playbook.html",
           "query": null
         }
       }
@@ -2755,10 +2737,8 @@
         "ask": "Request implementation memos, program updates, public board materials, and any tracking dashboards tied to \"Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment\". Climate hub launch documents, partnership MOUs, funding commitments, and city economic-development materials.",
         "whyNow": "Add corroborating evidence or official records before trusting the current promise call.",
         "relatedPath": {
-          "path": "/notebook.html",
-          "query": {
-            "promise": "promise-climate-innovation-hub"
-          }
+          "path": "/promises.html",
+          "query": null
         }
       },
       {
@@ -2771,7 +2751,7 @@
         "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment\".",
         "whyNow": "Stronger corroboration would materially improve the trustworthiness of the current promise call.",
         "relatedPath": {
-          "path": "/evidence.html",
+          "path": "/playbook.html",
           "query": null
         }
       },
@@ -2785,7 +2765,7 @@
         "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall\".",
         "whyNow": "Stronger corroboration would materially improve the trustworthiness of the current promise call.",
         "relatedPath": {
-          "path": "/evidence.html",
+          "path": "/playbook.html",
           "query": null
         }
       },
@@ -2841,10 +2821,8 @@
         "ask": "Request implementation memos, program updates, public board materials, and any tracking dashboards tied to \"Create a new downtown police district focused on the hospitality zone\". Police deployment memos, staffing reports, emergency order text, treatment intake records, and arrest-or-diversion protocols.",
         "whyNow": "Add corroborating evidence or official records before trusting the current promise call.",
         "relatedPath": {
-          "path": "/notebook.html",
-          "query": {
-            "promise": "promise-new-downtown-police-district"
-          }
+          "path": "/promises.html",
+          "query": null
         }
       },
       {
@@ -2857,10 +2835,8 @@
         "ask": "Request the underlying records needed to reconcile this contradiction: Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds versus Mission Local reports a net increase of 403 beds against the 1,500-bed campaign target after the six-month deadline.. Include source spreadsheets, internal status reports, public presentations, and final signed policy documents.",
         "whyNow": "This contradiction is already sharp enough to shape public understanding, so the missing records matter immediately.",
         "relatedPath": {
-          "path": "/notebook.html",
-          "query": {
-            "promise": "promise-increase-shelter-beds"
-          }
+          "path": "/promises.html",
+          "query": null
         }
       },
       {
@@ -2887,10 +2863,8 @@
         "ask": "Request implementation memos, program updates, public board materials, and any tracking dashboards tied to \"Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall\". Charter amendment text, procurement reform memos, budget staffing documents, inspector general or ethics enforcement records.",
         "whyNow": "Add corroborating evidence or official records before trusting the current promise call.",
         "relatedPath": {
-          "path": "/notebook.html",
-          "query": {
-            "promise": "promise-ethics-enforcement"
-          }
+          "path": "/promises.html",
+          "query": null
         }
       },
       {
@@ -2945,7 +2919,7 @@
         "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Create a new downtown police district focused on the hospitality zone\".",
         "whyNow": "Stronger corroboration would materially improve the trustworthiness of the current promise call.",
         "relatedPath": {
-          "path": "/evidence.html",
+          "path": "/playbook.html",
           "query": null
         }
       },
@@ -3015,7 +2989,7 @@
         "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Open 1,500 new shelter and treatment beds within six months of taking office\".",
         "whyNow": "Stronger corroboration would materially improve the trustworthiness of the current promise call.",
         "relatedPath": {
-          "path": "/evidence.html",
+          "path": "/playbook.html",
           "query": null
         }
       },
@@ -3085,7 +3059,7 @@
         "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Declare a citywide fentanyl state of emergency to move resources faster\".",
         "whyNow": "Stronger corroboration would materially improve the trustworthiness of the current promise call.",
         "relatedPath": {
-          "path": "/evidence.html",
+          "path": "/playbook.html",
           "query": null
         }
       },
@@ -3210,25 +3184,29 @@
             "title": "Corroboration packet for Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall",
             "priority": "high",
             "targetAgency": "Ethics Commission / Elections / Mayor Office",
-            "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall\"."
+            "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall\".",
+            "whyNow": "Stronger corroboration would materially improve the trustworthiness of the current promise call."
           },
           {
             "title": "Implementation records for Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall",
             "priority": "high",
             "targetAgency": "Mayor Budget Office / Controller / Department finance offices",
-            "ask": "Request implementation memos, program updates, public board materials, and any tracking dashboards tied to \"Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall\". Charter amendment text, procurement reform memos, budget staffing documents, inspector general or ethics enforcement records."
+            "ask": "Request implementation memos, program updates, public board materials, and any tracking dashboards tied to \"Strengthen ethics enforcement to restore accountability and reduce corruption at City Hall\". Charter amendment text, procurement reform memos, budget staffing documents, inspector general or ethics enforcement records.",
+            "whyNow": "Add corroborating evidence or official records before trusting the current promise call."
           },
           {
             "title": "Claim file for Over $4 million poured into supervisor races, with $2.1M from PACs including Lurie allies and GrowSF",
             "priority": "medium",
             "targetAgency": "Ethics Commission / Elections / Mayor Office",
-            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Over $4 million poured into supervisor races, with $2.1M from PACs including Lurie allies and GrowSF\". SF Ethics Commission filings, PAC expenditure reports, and candidate committee disclosures."
+            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Over $4 million poured into supervisor races, with $2.1M from PACs including Lurie allies and GrowSF\". SF Ethics Commission filings, PAC expenditure reports, and candidate committee disclosures.",
+            "whyNow": "Campaign finance filings cited; verify final totals through SF Ethics Commission records after June 2 election"
           },
           {
             "title": "Claim file for Mayor sent pink slips to 127 city staffers as part of budget cuts",
             "priority": "medium",
             "targetAgency": "Mayor Budget Office / Controller / Department finance offices",
-            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Mayor sent pink slips to 127 city staffers as part of budget cuts\". Budget proposal PDFs, Board of Supervisors hearing packets, departmental spreadsheets, and final appropriations."
+            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Mayor sent pink slips to 127 city staffers as part of budget cuts\". Budget proposal PDFs, Board of Supervisors hearing packets, departmental spreadsheets, and final appropriations.",
+            "whyNow": "Verify through city HR records and departmental budget documents; track final count after Board approval"
           }
         ],
         "questions": [
@@ -3405,25 +3383,29 @@
             "title": "Claim file for San Francisco has reached lowest level of unsheltered homelessness in 15 years",
             "priority": "high",
             "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
-            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"San Francisco has reached lowest level of unsheltered homelessness in 15 years\". HUD Point-in-Time counts, local methodology notes, historical unsheltered counts, and audit appendices."
+            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"San Francisco has reached lowest level of unsheltered homelessness in 15 years\". HUD Point-in-Time counts, local methodology notes, historical unsheltered counts, and audit appendices.",
+            "whyNow": "Verify against official HUD Point-in-Time count data, methodology, historical counts 2011-2026, and independent audit"
           },
           {
             "title": "Dataset request for 311 encampment requests",
             "priority": "high",
             "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
-            "ask": "Request the recurring source file, field definitions, refresh cadence, and any historical exports behind \"311 encampment requests\". Verify DataSF dataset vw6y-z8j6, field stability, refresh cadence, and any necessary topic-specific filters."
+            "ask": "Request the recurring source file, field definitions, refresh cadence, and any historical exports behind \"311 encampment requests\". Verify DataSF dataset vw6y-z8j6, field stability, refresh cadence, and any necessary topic-specific filters.",
+            "whyNow": "DataSF 311 Cases filtered to service_name = Encampments"
           },
           {
             "title": "Dataset request for HSH shelter waitlist",
             "priority": "high",
             "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
-            "ask": "Request the recurring source file, field definitions, refresh cadence, and any historical exports behind \"HSH shelter waitlist\". Find a recurring public dataset, recurring departmental report, or stable API endpoint that can support this metric."
+            "ask": "Request the recurring source file, field definitions, refresh cadence, and any historical exports behind \"HSH shelter waitlist\". Find a recurring public dataset, recurring departmental report, or stable API endpoint that can support this metric.",
+            "whyNow": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields"
           },
           {
             "title": "Records request for messaging vs outcome",
             "priority": "high",
             "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
-            "ask": "Request the underlying records needed to reconcile this contradiction: Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds versus Mission Local reports a net increase of 403 beds against the 1,500-bed campaign target after the six-month deadline.. Include source spreadsheets, internal status reports, public presentations, and final signed policy documents."
+            "ask": "Request the underlying records needed to reconcile this contradiction: Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds versus Mission Local reports a net increase of 403 beds against the 1,500-bed campaign target after the six-month deadline.. Include source spreadsheets, internal status reports, public presentations, and final signed policy documents.",
+            "whyNow": "This contradiction is already sharp enough to shape public understanding, so the missing records matter immediately."
           }
         ],
         "questions": [
@@ -3566,19 +3548,22 @@
             "title": "Dataset request for Office vacancy rate",
             "priority": "high",
             "targetAgency": "Controller / OEWD / SF Travel",
-            "ask": "Request the recurring source file, field definitions, refresh cadence, and any historical exports behind \"Office vacancy rate\". Locate the underlying raw dataset or recurring release behind this public metric page and confirm field stability."
+            "ask": "Request the recurring source file, field definitions, refresh cadence, and any historical exports behind \"Office vacancy rate\". Locate the underlying raw dataset or recurring release behind this public metric page and confirm field stability.",
+            "whyNow": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification"
           },
           {
             "title": "Claim file for 2026 tourism spending forecasted to cross pre-pandemic record",
             "priority": "medium",
             "targetAgency": "Controller / OEWD / SF Travel",
-            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"2026 tourism spending forecasted to cross pre-pandemic record\". Primary agency records, hearing materials, stable datasets, and any cited source documents named in the claim plan."
+            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"2026 tourism spending forecasted to cross pre-pandemic record\". Primary agency records, hearing materials, stable datasets, and any cited source documents named in the claim plan.",
+            "whyNow": "SF Travel forecast cited; verify final 2026 visitor spending data when published and compare to 2019 baseline"
           },
           {
             "title": "Claim file for Hotel occupancy from Moscone Center conferences up 69% since 2024",
             "priority": "medium",
             "targetAgency": "Controller / OEWD / SF Travel",
-            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Hotel occupancy from Moscone Center conferences up 69% since 2024\". SF Travel reports, Moscone booking records, hotel occupancy series, and quarterly tourism releases."
+            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Hotel occupancy from Moscone Center conferences up 69% since 2024\". SF Travel reports, Moscone booking records, hotel occupancy series, and quarterly tourism releases.",
+            "whyNow": "SF Travel data cited; verify through independent hotel occupancy data and Moscone Center booking records"
           }
         ],
         "questions": [
@@ -3712,25 +3697,29 @@
             "title": "Implementation records for Create a new downtown police district focused on the hospitality zone",
             "priority": "high",
             "targetAgency": "HSH / SFDPH / Mayor Office homelessness team",
-            "ask": "Request implementation memos, program updates, public board materials, and any tracking dashboards tied to \"Create a new downtown police district focused on the hospitality zone\". Police deployment memos, staffing reports, emergency order text, treatment intake records, and arrest-or-diversion protocols."
+            "ask": "Request implementation memos, program updates, public board materials, and any tracking dashboards tied to \"Create a new downtown police district focused on the hospitality zone\". Police deployment memos, staffing reports, emergency order text, treatment intake records, and arrest-or-diversion protocols.",
+            "whyNow": "Add corroborating evidence or official records before trusting the current promise call."
           },
           {
             "title": "Dataset request for Overdose-related EMS 911 responses",
             "priority": "high",
             "targetAgency": "SFPD / SFDPH / DEM",
-            "ask": "Request the recurring source file, field definitions, refresh cadence, and any historical exports behind \"Overdose-related EMS 911 responses\". Verify DataSF dataset ed3a-sn39, field stability, refresh cadence, and any necessary topic-specific filters."
+            "ask": "Request the recurring source file, field definitions, refresh cadence, and any historical exports behind \"Overdose-related EMS 911 responses\". Verify DataSF dataset ed3a-sn39, field stability, refresh cadence, and any necessary topic-specific filters.",
+            "whyNow": "DataSF Overdose-Related 911 Responses by Emergency Medical Services"
           },
           {
             "title": "Corroboration packet for Create a new downtown police district focused on the hospitality zone",
             "priority": "high",
             "targetAgency": "SFPD / SFDPH / DEM",
-            "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Create a new downtown police district focused on the hospitality zone\"."
+            "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Create a new downtown police district focused on the hospitality zone\".",
+            "whyNow": "Stronger corroboration would materially improve the trustworthiness of the current promise call."
           },
           {
             "title": "Corroboration packet for Declare a citywide fentanyl state of emergency to move resources faster",
             "priority": "medium",
             "targetAgency": "Mayor Office / relevant line department",
-            "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Declare a citywide fentanyl state of emergency to move resources faster\"."
+            "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Declare a citywide fentanyl state of emergency to move resources faster\".",
+            "whyNow": "Stronger corroboration would materially improve the trustworthiness of the current promise call."
           }
         ],
         "questions": [
@@ -3909,25 +3898,29 @@
             "title": "Records request for headline vs metric",
             "priority": "high",
             "targetAgency": "Planning Department / Mayor Housing Office / DBI",
-            "ask": "Request the underlying records needed to reconcile this contradiction: Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov versus Housing-related building permits issued: 1,221 permits latest versus 1,422 permits baseline. Include source spreadsheets, internal status reports, public presentations, and final signed policy documents."
+            "ask": "Request the underlying records needed to reconcile this contradiction: Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov versus Housing-related building permits issued: 1,221 permits latest versus 1,422 permits baseline. Include source spreadsheets, internal status reports, public presentations, and final signed policy documents.",
+            "whyNow": "This contradiction is already sharp enough to shape public understanding, so the missing records matter immediately."
           },
           {
             "title": "Records request for headline vs metric",
             "priority": "high",
             "targetAgency": "Planning Department / Mayor Housing Office / DBI",
-            "ask": "Request the underlying records needed to reconcile this contradiction: Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov versus Net proposed units in issued housing permits: 426 units latest versus 696 units baseline. Include source spreadsheets, internal status reports, public presentations, and final signed policy documents."
+            "ask": "Request the underlying records needed to reconcile this contradiction: Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov versus Net proposed units in issued housing permits: 426 units latest versus 696 units baseline. Include source spreadsheets, internal status reports, public presentations, and final signed policy documents.",
+            "whyNow": "This contradiction is already sharp enough to shape public understanding, so the missing records matter immediately."
           },
           {
             "title": "Claim file for Affordable housing funding will more than double from $52M to $125M annually through property tax allocation",
             "priority": "medium",
             "targetAgency": "Mayor Budget Office / Controller / Department finance offices",
-            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Affordable housing funding will more than double from $52M to $125M annually through property tax allocation\". Budget proposal PDFs, Board of Supervisors hearing packets, departmental spreadsheets, and final appropriations."
+            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Affordable housing funding will more than double from $52M to $125M annually through property tax allocation\". Budget proposal PDFs, Board of Supervisors hearing packets, departmental spreadsheets, and final appropriations.",
+            "whyNow": "Legislation introduction confirmed; track Board vote, November 2026 ballot measure, and actual allocation amounts when budget approved"
           },
           {
             "title": "Claim file for Affordable housing proposal would reduce inclusionary rate from 15% to 5% for at least three years",
             "priority": "medium",
             "targetAgency": "Planning Department / Mayor Housing Office / DBI",
-            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Affordable housing proposal would reduce inclusionary rate from 15% to 5% for at least three years\". Primary agency records, hearing materials, stable datasets, and any cited source documents named in the claim plan."
+            "ask": "Request the primary records, methodology documents, internal memos, and published data needed to verify the claim \"Affordable housing proposal would reduce inclusionary rate from 15% to 5% for at least three years\". Primary agency records, hearing materials, stable datasets, and any cited source documents named in the claim plan.",
+            "whyNow": "Verify city committee recommendation, ordinance text, and final Board approval of inclusionary rate changes"
           }
         ],
         "questions": [
@@ -4029,13 +4022,15 @@
             "title": "Implementation records for Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment",
             "priority": "high",
             "targetAgency": "Environment Department / OEWD / Mayor Office",
-            "ask": "Request implementation memos, program updates, public board materials, and any tracking dashboards tied to \"Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment\". Climate hub launch documents, partnership MOUs, funding commitments, and city economic-development materials."
+            "ask": "Request implementation memos, program updates, public board materials, and any tracking dashboards tied to \"Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment\". Climate hub launch documents, partnership MOUs, funding commitments, and city economic-development materials.",
+            "whyNow": "Add corroborating evidence or official records before trusting the current promise call."
           },
           {
             "title": "Corroboration packet for Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment",
             "priority": "high",
             "targetAgency": "Environment Department / OEWD / Mayor Office",
-            "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment\"."
+            "ask": "Request implementation memos, departmental status updates, public board materials, internal dashboards, and any execution timeline tied to \"Launch a Climate Innovation Hub downtown to attract jobs, companies, and investment\".",
+            "whyNow": "Stronger corroboration would materially improve the trustworthiness of the current promise call."
           }
         ],
         "questions": [

@@ -1,21 +1,8 @@
-const TRACKER_PAGES = [
+const BASE_TRACKER_PAGES = [
   ['/', 'Home'],
-  ['/briefing.html', 'Briefing'],
   ['/promises.html', 'Promises'],
-  ['/playbook.html', 'Playbook'],
-  ['/trackers.html', 'Trackers'],
-  ['/claims.html', 'Claim Check'],
-  ['/search.html', 'Search'],
-  ['/topic.html', 'Dossiers'],
-  ['/timeline.html', 'Timeline'],
-  ['/news.html', 'Major News'],
-  ['/metrics.html', 'Metrics'],
-  ['/sources.html', 'Sources'],
   ['/charts.html', 'Charts'],
 ];
-
-const PRIMARY_TRACKER_PAGES = TRACKER_PAGES.slice(0, 4);
-const SECONDARY_TRACKER_PAGES = TRACKER_PAGES.slice(4);
 
 installSharedNavHandlers();
 
@@ -43,7 +30,7 @@ export async function loadTrackerPage(defaultSlug = 'daniel-lurie') {
     trackers,
     data,
     trackerHref: (path, extra = {}) => trackerHref(path, tracker.slug, extra),
-    navLinksHtml: (currentPath = '') => renderTrackerNavLinks(tracker.slug, currentPath, tracker.label),
+    navLinksHtml: (currentPath = '') => renderTrackerNavLinks(tracker.slug, currentPath),
     trackerPickerHtml: () => renderTrackerPicker(trackers, tracker.slug),
   };
 }
@@ -65,31 +52,13 @@ export function trackerHref(path, slug, extra = {}) {
   return relative === '/?tracker=' + slug ? `/${url.search}` : relative;
 }
 
-export function renderTrackerNavLinks(slug, currentPath = '', trackerLabel = '') {
-  const primaryLinks = PRIMARY_TRACKER_PAGES.map(([path, label]) => {
+export function renderTrackerNavLinks(slug, currentPath = '') {
+  const primaryLinks = BASE_TRACKER_PAGES.map(([path, label]) => {
     const href = trackerHref(path, slug);
     const active = currentPath === path ? ' nav-link-active' : '';
     return `<a class="${active.trim()}" href="${href}">${label}</a>`;
   }).join('');
-  const secondaryLinks = SECONDARY_TRACKER_PAGES.map(([path, label]) => {
-    const href = trackerHref(path, slug);
-    const active = currentPath === path ? ' nav-link-active' : '';
-    return `<a class="${active.trim()}" href="${href}">${label}</a>`;
-  }).join('');
-  const sidebarActive = PRIMARY_TRACKER_PAGES.some(([path]) => path === currentPath) ? '' : ' nav-link-active';
-  return `
-    <div class="nav-primary-links">${primaryLinks}</div>
-    <button class="nav-sidebar-toggle${sidebarActive}" type="button" data-nav-toggle aria-expanded="false" aria-controls="tracker-sidebar-nav">More</button>
-    ${trackerLabel ? `<span class="updated">${escapeHtml(trackerLabel)}</span>` : ''}
-    <div class="nav-sidebar-overlay" data-nav-overlay hidden></div>
-    <aside class="nav-sidebar" id="tracker-sidebar-nav" data-nav-sidebar aria-hidden="true">
-      <div class="nav-sidebar-head">
-        <strong>More pages</strong>
-        <button class="nav-sidebar-close" type="button" data-nav-close aria-label="Close navigation">Close</button>
-      </div>
-      <div class="nav-sidebar-links">${secondaryLinks}</div>
-    </aside>
-  `;
+  return `<div class="nav-primary-links">${primaryLinks}</div>`;
 }
 
 export function renderTrackerPicker(trackers, activeSlug) {
@@ -114,36 +83,4 @@ function escapeHtml(value) {
   return String(value).replace(/[&<>"]/g, (character) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[character]));
 }
 
-function installSharedNavHandlers() {
-  if (typeof document === 'undefined' || window.__trackerNavHandlersInstalled) return;
-  window.__trackerNavHandlersInstalled = true;
-
-  document.addEventListener('click', (event) => {
-    const toggle = event.target.closest('[data-nav-toggle]');
-    if (toggle) {
-      setSidebarOpen(true);
-      return;
-    }
-
-    const close = event.target.closest('[data-nav-close], [data-nav-overlay]');
-    if (close) {
-      setSidebarOpen(false);
-    }
-  });
-
-  document.addEventListener('keydown', (event) => {
-    if (event.key === 'Escape') setSidebarOpen(false);
-  });
-}
-
-function setSidebarOpen(isOpen) {
-  const sidebar = document.querySelector('[data-nav-sidebar]');
-  const overlay = document.querySelector('[data-nav-overlay]');
-  const toggle = document.querySelector('[data-nav-toggle]');
-  if (!sidebar || !overlay || !toggle) return;
-  sidebar.classList.toggle('nav-sidebar-open', isOpen);
-  sidebar.setAttribute('aria-hidden', String(!isOpen));
-  overlay.hidden = !isOpen;
-  toggle.setAttribute('aria-expanded', String(isOpen));
-  document.body.classList.toggle('nav-sidebar-visible', isOpen);
-}
+function installSharedNavHandlers() {}
