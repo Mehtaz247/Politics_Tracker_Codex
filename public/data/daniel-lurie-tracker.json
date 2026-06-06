@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-06T04:32:08.355Z",
+    "lastUpdated": "2026-06-06T08:49:18.240Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -310,6 +310,21 @@
       "confidence": 0.78
     },
     {
+      "id": "iconic-pink-triangle-takes-shape-on-twin-peaks-as-san-francisco-kicks-off-pride-",
+      "title": "Iconic Pink Triangle takes shape on Twin Peaks as San Francisco kicks off Pride Month]]>",
+      "sourceType": "news",
+      "url": "https://abc7news.com/post/pride-month-2026-iconic-pink-triangle-takes-shape-twin-peaks-san-francisco-kicks-off-flag-raising/19242879/]]>",
+      "discoveryUrl": "https://abc7news.com/feed/",
+      "discoverySource": "ABC7 Bay Area",
+      "publisher": "ABC7 Bay Area",
+      "publishedAt": "2026-06-06",
+      "topic": "city_government",
+      "summary": "Pride Month in San Francisco is underway, marked by one of the city's most powerful and enduring symbols: the Pink Triangle rising once again on Twin Peaks. Across the city on Friday, Pride celebrations also began at San Francisco City Hall, where Mayor Daniel Lurie raised the Pride flag.]]>",
+      "confidence": 0.76,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "403 Forbidden"
+    },
+    {
       "id": "day-around-the-bay-alan-wong-s-district-4-win-strengthens-mayor-lurie-s-agenda-2",
       "title": "Day Around the Bay: Alan Wong’s District 4 Win Strengthens Mayor Lurie’s Agenda",
       "sourceType": "news",
@@ -355,18 +370,18 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "8216-we-re-living-in-daniel-lurie-s-america-and-most-san-franciscans-are-pleased",
-      "title": "&#8216;We're living in Daniel Lurie's America' — and most San Franciscans are pleased",
+      "id": "we-re-living-in-daniel-lurie-s-america-and-most-san-franciscans-are-content-2026",
+      "title": "&#8216;We're living in Daniel Lurie's America,' and most San Franciscans are content",
       "sourceType": "news",
       "url": "https://missionlocal.org/2026/06/daniel-lurie-san-francisco-election/",
-      "discoveryUrl": "https://missionlocal.org/feed/",
-      "discoverySource": "Mission Local",
+      "discoveryUrl": "https://missionlocal.org/2026/06/daniel-lurie-san-francisco-election/",
+      "discoverySource": "Anthropic web search",
       "publisher": "Mission Local",
       "publishedAt": "2026-06-03",
       "topic": "economy",
       "summary": "Landslide election results favoring Mayor Daniel Lurie's allies and picks point to a changed San Francisco.",
-      "confidence": 0.82,
-      "excerpt": "It’s not clear if Mayor Daniel Lurie is the cause of a changed San Francisco or a symptom, but, on the June 2 election results sheet , that was a distinction without a difference. Barring a truly miraculous turnaround, every last thing San Francisco’s popular mayor and his big money allies would’ve wanted came to pass, and in no uncertain terms. It’s unclear if Lurie is riding a wave or building a wave. But this, too, is a distinction without a difference. The outcomes of Tuesday night’s low-turnout election were not, on the whole, shocking. But the margins — damn near every race was a massacre — were. On the cusp of the election, the backers of Proposition A, the big earthquake bond, were sweating bullets. The measure, which required two-thirds of the vote to pass, was polling at 64 or 65 percent just a few weeks ago. On election night, the measure, carried by Lurie and the firefighters union, banked more than three-quarters of the vote. The mayor had also become the de-facto face of the No on D campaign, urging voters to spurn the “ Overpaid CEO Tax ,” lest it lead to a disastrous dispersal of city businesses. Voters seem to agree: More than 55 percent of early voters inveighed against the measure. District 2 Supervisor and close Lurie ally Stephen Sherrill has nearly 70 percent of the vote. And, in District 4, Lurie appointee Alan Wong is enjoying a near-majority in a five-way race and easily wins in ranked-choice voting. On top of that, incumbent school board president Phil Kim has a near-supermajority and prosecutor Phoebe Maffei is besting public defender Alexandra Pray for a judge spot by a 60-40 tilt. It’s unclear how many ballots are outstanding, but none of these races was even close to being close. These are wipeouts across the board, and it’s hard to fore...",
+      "confidence": 0.9,
+      "excerpt": "It’s not clear if Mayor Daniel Lurie is the cause of a changed San Francisco or a symptom, but, on the June 2 election results sheet, that was a distinction without a difference. Barring a near-miraculous turnaround, every last thing San Francisco’s popular mayor and his big money allies would’ve wanted came to pass, and in no uncertain terms. It’s unclear if Lurie is riding a wave or building a wave. But this, too, is a distinction without a difference. The outcomes of Tuesday night’s low-turnout election were not, on the whole, shocking. But the margins — damn near every race was a massacre — were. On the cusp of the election, the backers of Proposition A, the big earthquake bond, were sweating bullets. The measure, which required two-thirds of the vote to pass, was polling at 64 or 65 percent just a few weeks ago. On election night, the measure, carried by Lurie and the firefighters union, banked more than three-quarters of the vote. The mayor had also become the de facto face of the No on D campaign, urging voters to spurn the “ Overpaid CEO Tax ,” lest it lead to a disastrous dispersal of city businesses. Voters seem to agree: More than 55 percent of early voters inveighed against the measure. District 2 Supervisor and close Lurie ally Stephen Sherrill has nearly 70 percent of the vote. And, in District 4, Lurie appointee Alan Wong is enjoying a near-majority in a five-way race and easily wins in ranked-choice voting. On top of that, incumbent school board president Phil Kim has a near-supermajority and prosecutor Phoebe Maffei is besting public defender Alexandra Pray for a judge spot by a 60-40 tilt. The Department of Elections reported on June 3 that some 122,400 ballots remain to be counted. But, with the possible exception of Prop. D, the &#8220;Overpaid CE...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1475,19 +1490,6 @@
       "topic": "city_government",
       "summary": "2 men charged after altercation with SF mayor's security detail &nbsp;&nbsp; NBC Bay Area",
       "confidence": 0.68
-    },
-    {
-      "id": "daniel-lurie-sf-gov-2026-03-06",
-      "title": "Daniel Lurie | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/profile--daniel-lurie",
-      "discoveryUrl": "https://www.sf.gov/profile--daniel-lurie",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF.gov",
-      "publishedAt": "2026-03-06",
-      "topic": "city_government",
-      "summary": "Official profile of San Francisco's 46th mayor. Lurie founded Tipping Point Community in 2005, raising over $500 million and steering $100 million to chronic homelessness initiatives, creating a financing model to build permanent supportive housing 50% faster than before.",
-      "confidence": 0.9
     }
   ],
   "promises": [
@@ -1603,7 +1605,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
+      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -1834,12 +1836,12 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units null versus baseline null.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 352 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
       ],
-      "progressBasis": "2 of 4 housing milestones are evidenced.",
+      "progressBasis": "3 of 4 housing milestones are evidenced.",
       "trackingType": "milestone",
       "targetValue": null,
       "currentValue": null,
@@ -1856,7 +1858,7 @@
         },
         {
           "label": "Independent improvement in permit-output trend verified",
-          "complete": false
+          "complete": true
         },
         {
           "label": "Campaign housing-delivery promise fully achieved",
@@ -2076,7 +2078,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-06T04:31:49.411Z"
+      "lastRefreshed": "2026-06-06T08:49:00.037Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2095,7 +2097,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-06T04:31:49.412Z"
+      "lastRefreshed": "2026-06-06T08:49:00.037Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2105,74 +2107,13 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": 292,
-      "latest": 216,
+      "baseline": null,
+      "latest": null,
       "direction": "down_is_good",
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 292
-        },
-        {
-          "date": "2025-02-01",
-          "value": 274
-        },
-        {
-          "date": "2025-03-01",
-          "value": 342
-        },
-        {
-          "date": "2025-04-01",
-          "value": 275
-        },
-        {
-          "date": "2025-05-01",
-          "value": 273
-        },
-        {
-          "date": "2025-06-01",
-          "value": 301
-        },
-        {
-          "date": "2025-07-01",
-          "value": 239
-        },
-        {
-          "date": "2025-08-01",
-          "value": 294
-        },
-        {
-          "date": "2025-09-01",
-          "value": 219
-        },
-        {
-          "date": "2025-10-01",
-          "value": 235
-        },
-        {
-          "date": "2025-11-01",
-          "value": 300
-        },
-        {
-          "date": "2025-12-01",
-          "value": 148
-        },
-        {
-          "date": "2026-01-01",
-          "value": 221
-        },
-        {
-          "date": "2026-02-01",
-          "value": 220
-        },
-        {
-          "date": "2026-03-01",
-          "value": 216
-        }
-      ],
-      "status": "active",
+      "observations": [],
+      "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-06T04:31:49.412Z",
+      "lastRefreshed": "2026-06-06T08:49:00.037Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2211,7 +2152,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-06T04:31:49.412Z"
+      "lastRefreshed": "2026-06-06T08:49:00.037Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2224,13 +2165,86 @@
       "evidenceSourceIds": [
         "datasf-building-permits"
       ],
-      "status": "needs_verified_source",
-      "baseline": null,
-      "latest": null,
-      "observations": [],
+      "status": "active",
+      "baseline": 1422,
+      "latest": 263,
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 1422
+        },
+        {
+          "date": "2025-02-01",
+          "value": 1315
+        },
+        {
+          "date": "2025-03-01",
+          "value": 1367
+        },
+        {
+          "date": "2025-04-01",
+          "value": 1509
+        },
+        {
+          "date": "2025-05-01",
+          "value": 1414
+        },
+        {
+          "date": "2025-06-01",
+          "value": 1457
+        },
+        {
+          "date": "2025-07-01",
+          "value": 1558
+        },
+        {
+          "date": "2025-08-01",
+          "value": 1529
+        },
+        {
+          "date": "2025-09-01",
+          "value": 1507
+        },
+        {
+          "date": "2025-10-01",
+          "value": 1515
+        },
+        {
+          "date": "2025-11-01",
+          "value": 1327
+        },
+        {
+          "date": "2025-12-01",
+          "value": 1382
+        },
+        {
+          "date": "2026-01-01",
+          "value": 1425
+        },
+        {
+          "date": "2026-02-01",
+          "value": 1262
+        },
+        {
+          "date": "2026-03-01",
+          "value": 1336
+        },
+        {
+          "date": "2026-04-01",
+          "value": 1403
+        },
+        {
+          "date": "2026-05-01",
+          "value": 1221
+        },
+        {
+          "date": "2026-06-01",
+          "value": 263
+        }
+      ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-06T04:31:49.412Z"
+      "lastRefreshed": "2026-06-06T08:49:00.037Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2243,13 +2257,86 @@
       "evidenceSourceIds": [
         "datasf-building-permits"
       ],
-      "status": "needs_verified_source",
-      "baseline": null,
-      "latest": null,
-      "observations": [],
+      "status": "active",
+      "baseline": 696,
+      "latest": 352,
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 696
+        },
+        {
+          "date": "2025-02-01",
+          "value": 1001
+        },
+        {
+          "date": "2025-03-01",
+          "value": 2285
+        },
+        {
+          "date": "2025-04-01",
+          "value": 808
+        },
+        {
+          "date": "2025-05-01",
+          "value": 1279
+        },
+        {
+          "date": "2025-06-01",
+          "value": 1130
+        },
+        {
+          "date": "2025-07-01",
+          "value": 686
+        },
+        {
+          "date": "2025-08-01",
+          "value": 292
+        },
+        {
+          "date": "2025-09-01",
+          "value": 642
+        },
+        {
+          "date": "2025-10-01",
+          "value": 758
+        },
+        {
+          "date": "2025-11-01",
+          "value": 792
+        },
+        {
+          "date": "2025-12-01",
+          "value": 253
+        },
+        {
+          "date": "2026-01-01",
+          "value": 545
+        },
+        {
+          "date": "2026-02-01",
+          "value": 473
+        },
+        {
+          "date": "2026-03-01",
+          "value": 625
+        },
+        {
+          "date": "2026-04-01",
+          "value": 790
+        },
+        {
+          "date": "2026-05-01",
+          "value": 426
+        },
+        {
+          "date": "2026-06-01",
+          "value": 352
+        }
+      ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-06T04:31:49.412Z"
+      "lastRefreshed": "2026-06-06T08:49:00.037Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2268,7 +2355,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-06T04:31:49.412Z"
+      "lastRefreshed": "2026-06-06T08:49:00.037Z"
     }
   ],
   "topics": [
@@ -2310,7 +2397,7 @@
       "promiseCount": 1,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
+      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
     },
     {
       "id": "public_safety",
@@ -2318,7 +2405,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -2554,34 +2641,34 @@
   "majorNews": [
     {
       "id": "mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-respo",
-      "headline": "Mayor Lurie Presents $16.9B Budget Closing $642M Deficit, Strengthening Social Safety Net Amid Federal Cuts",
+      "headline": "Mayor Lurie Presents $16.9B Budget Closing $642M Deficit While Protecting Social Safety Net",
       "url": "https://www.sf.gov/news-mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-response-to-significant-federal-cuts-advancing-san-franciscos-economic-recovery/",
       "publishedAt": "2026-06-01",
       "publisher": "SF.gov",
       "topic": "homelessness",
-      "whyItMatters": "Lurie's balanced budget proposal addresses a massive structural deficit while protecting core services and social programs threatened by federal cuts, avoiding further layoffs after 127 earlier this year. The budget prioritizes public safety and homelessness services while reducing the ongoing structural deficit by $300M, setting San Francisco's fiscal trajectory for the next two years.",
+      "whyItMatters": "Lurie's budget addresses a massive deficit while responding to federal cuts, reducing the structural deficit by ~$300M and prioritizing homelessness prevention and public safety. The budget eliminates 550 positions (mostly vacant) while avoiding the mass layoffs unions feared, setting the city's fiscal course through 2028 amid economic recovery and federal uncertainty.",
       "sourceId": "mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-respo",
       "selectionMethod": "anthropic"
     },
     {
-      "id": "8216-we-re-living-in-daniel-lurie-s-america-and-most-san-franciscans-are-pleased",
-      "headline": "Landslide Election Results Give Mayor Lurie Total Victory: Allies Win, Tax Measures Fail",
-      "url": "https://missionlocal.org/2026/06/daniel-lurie-san-francisco-election/",
-      "publishedAt": "2026-06-03",
+      "id": "alan-wong-the-candidate-didn-t-win-the-election-alan-wong-mayor-lurie-s-ally-did",
+      "headline": "Alan Wong Wins District 4 Supervisor Race in Landslide, Strengthening Mayor Lurie's Board Majority",
+      "url": "https://missionlocal.org/2026/06/sf-daniel-lurie-alan-wong-election/",
+      "publishedAt": "2026-06-04",
       "publisher": "Mission Local",
       "topic": "city_government",
-      "whyItMatters": "June 2 election results delivered decisive wins for every Lurie priority: his appointees Wong (70-30) and Sherrill (70% vote) crushed challengers, earthquake bond passed with 75%+ support, and the 'Overpaid CEO Tax' failed 55-45. The overwhelming margins—not close races but 'wipeouts across the board'—demonstrate Lurie's unprecedented political dominance and suggest a fundamental shift in San Francisco's political landscape at the 18-month mark of his tenure.",
-      "sourceId": "8216-we-re-living-in-daniel-lurie-s-america-and-most-san-franciscans-are-pleased",
+      "whyItMatters": "Wong's decisive 70-30 victory, powered by nearly $1M in PAC spending from Lurie allies, demonstrates the mayor's political strength and secures his agenda at the Board of Supervisors. The race became a referendum on Lurie himself, with Wong's campaign centered entirely on being the mayor's trusted partner—a strategy that proved overwhelmingly successful and signals Lurie's ability to shape citywide politics.",
+      "sourceId": "alan-wong-the-candidate-didn-t-win-the-election-alan-wong-mayor-lurie-s-ally-did",
       "selectionMethod": "anthropic"
     },
     {
       "id": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
-      "headline": "Lurie and Melgar Announce Plan to More Than Double Housing Trust Fund to $125M Annually",
+      "headline": "Lurie and Supervisor Melgar Propose Doubling Housing Trust Fund to $125M Annually",
       "url": "https://www.sf.gov/news-mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-housing/",
       "publishedAt": "2026-05-19",
       "publisher": "SF.gov",
       "topic": "housing",
-      "whyItMatters": "The proposed charter amendment would expand affordable housing funding from $52M to $125M+ annually through 2058—potentially $3B+ over 30 years—by allocating future property tax growth from last year's upzoning. This represents a major policy bargain between Lurie and progressives, trading dramatically increased affordable housing investment for reduced inclusionary requirements, fundamentally reshaping San Francisco's housing development landscape for decades.",
+      "whyItMatters": "The proposed charter amendment would more than double affordable housing funding from $52M to $125M annually through 2058, potentially generating $3B over 30 years by allocating future property tax growth. This represents a major policy shift linking upzoning gains to low-income housing production, though it comes with a controversial trade-off: reducing inclusionary requirements from 15% to 5% for at least three years to accelerate overall housing development.",
       "sourceId": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
       "selectionMethod": "anthropic"
     }
