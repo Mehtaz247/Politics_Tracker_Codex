@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-07T04:59:46.288Z",
+    "lastUpdated": "2026-06-07T09:43:19.776Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -325,18 +325,6 @@
       "scrapeError": "403 Forbidden"
     },
     {
-      "id": "mayor-lurie-announces-appointments-of-civic-leaders-to-city-institutions-https-w",
-      "title": "Mayor Lurie Announces Appointments Of Civic Leaders To City Institutions | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-announces-appointments-of-civic-leaders-to-city-institutions/",
-      "publishedAt": "2026-06-05",
-      "topic": "economy",
-      "summary": "Appointees Will Work With Mayor Lurie to Support San Francisco’s Families, Drive City’s Economic Comeback",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Announces Appointments Of Civic Leaders To City Institutions Office of the Mayor Appointees Will Work With Mayor Lurie to Support San Francisco’s Families, Drive City’s Economic Comeback June 5, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced appointments and reappointments to San Francisco committees and commissions. The mayor appointed Channie Barker and Aditya Lakshminarayan to the Veterans’ Affair Commission, Patrick Boileau to the Citizens’ General Obligation Bond Oversight Committee, Robyn Sue Fisher and Fernay McPherson to the Small Business Commission, Gavin Jay to the Southeast Community Facility Commission, Emily Mathis to the Mayor’s Disability Council, Jonathan Moscone to the Film Commission, Gabriela Ortega to the Free City College Oversight Committee, James Pappas to the Office of Community Investment and Infrastructure Oversight Board, Derrick Tyler to the Mission Bay Transportation Improvement Fund Advisory Council, and Katie Zheng to the San Francisco Public Utilities Commissions (SFPUC) Citizen Advisory Committee. Mayor Lurie also reappointed Joseph Baba to the San Francisco Veterans Affairs Commission and Linda Fadeke Richardson, Jeanette Howard, and Timothy Reyff to the Treasure Island Development Authority (TIDA) Board of Directors. “This group of capable leaders will help us make sure our government is working for San Franciscans—from small business owners and veterans to City College students and people with disabilities,” said Mayor Lurie . “I look forward to their work on behalf of our residents, and I want to thank them for stepping up to serve our city.” Channie Barker is a U.S. Air Force veteran and graduate student in counseling psychology with a professional background spanning financial operations, recruiting, a...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "day-around-the-bay-alan-wong-s-district-4-win-strengthens-mayor-lurie-s-agenda-2",
       "title": "Day Around the Bay: Alan Wong’s District 4 Win Strengthens Mayor Lurie’s Agenda",
       "sourceType": "news",
@@ -349,6 +337,18 @@
       "summary": "Lovers Point Beach in Monterey County is closed over the potential presence of a shark; two SoCal lawyers were penalized after including false, AI-generated information in a court briefing; and Alan Wong won big after joining forces with Lurie.",
       "confidence": 0.8,
       "excerpt": "4 June 2026 / SF News / Leanne Maxwell Day Around the Bay: Alan Wong’s District 4 Win Strengthens Mayor Lurie’s Agenda --> Local: Alan Wong’s alliance with Mayor Daniel Lurie likely gave him the edge he needed to secure the District 4 Supervisor position, and Lurie can count on Wong’s support for his agenda. [ Mission Local ] A dead whale floating in Monterey Bay Wednesday prompted the temporary closure of Lovers Point Beach over fears of a potential large predator in the area following the death of open water swimmer Erica Fox in December. [ KPIX ] Pacifica’s Municipal Pier is currently closed while officials figure out how to fix damage to the pier, including cracks and concrete separation, due to erosion. [ KTVU ] Muni announced it’s discontinuing its Muni Mobile app on August 1, and riders can now purchase day passes with their Clipper cards. [ SFMTA ] National: Two Southern California lawyers were fined $2,500 each and suspended from the court for six months after it was discovered their briefs, which were written using artificial intelligence, cited cases that didn’t exist. [ Chronicle ] Florida-based artist Robert Wyland is suing FIFA after they painted over his 17,000-square-foot mural in Dallas that’s been there for more than 25 years to make way for World Cup promotions. [ Art News ] Following the news that a flurry of musical acts dropped out of President Donald Trump’s US 250th birthday celebration last week, Trump announced he’s cancelling the concert portion of the event altogether, but he will be holding a Ultimate Fighting Championship (UFC) fight on the White House lawn. [ BBC ] Video of the Day: Iconic Oakland art center Creative Growth had its annual runway and gala show Saturday, which appeared to be THE event of the year, attracting high-profile...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-announces-appointments-of-civic-leaders-to-city-institutions-https-w",
+      "title": "Mayor Lurie Announces Appointments Of Civic Leaders To City Institutions | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-announces-appointments-of-civic-leaders-to-city-institutions/",
+      "publishedAt": "2026-06-05",
+      "topic": "economy",
+      "summary": "Appointees Will Work With Mayor Lurie to Support San Francisco’s Families, Drive City’s Economic Comeback",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Announces Appointments Of Civic Leaders To City Institutions Office of the Mayor Appointees Will Work With Mayor Lurie to Support San Francisco’s Families, Drive City’s Economic Comeback June 5, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced appointments and reappointments to San Francisco committees and commissions. The mayor appointed Channie Barker and Aditya Lakshminarayan to the Veterans’ Affair Commission, Patrick Boileau to the Citizens’ General Obligation Bond Oversight Committee, Robyn Sue Fisher and Fernay McPherson to the Small Business Commission, Gavin Jay to the Southeast Community Facility Commission, Emily Mathis to the Mayor’s Disability Council, Jonathan Moscone to the Film Commission, Gabriela Ortega to the Free City College Oversight Committee, James Pappas to the Office of Community Investment and Infrastructure Oversight Board, Derrick Tyler to the Mission Bay Transportation Improvement Fund Advisory Council, and Katie Zheng to the San Francisco Public Utilities Commissions (SFPUC) Citizen Advisory Committee. Mayor Lurie also reappointed Joseph Baba to the San Francisco Veterans Affairs Commission and Linda Fadeke Richardson, Jeanette Howard, and Timothy Reyff to the Treasure Island Development Authority (TIDA) Board of Directors. “This group of capable leaders will help us make sure our government is working for San Franciscans—from small business owners and veterans to City College students and people with disabilities,” said Mayor Lurie . “I look forward to their work on behalf of our residents, and I want to thank them for stepping up to serve our city.” Channie Barker is a U.S. Air Force veteran and graduate student in counseling psychology with a professional background spanning financial operations, recruiting, a...",
       "scrapeStatus": "scraped"
     },
     {
@@ -382,18 +382,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown-",
-      "title": "Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown/",
-      "publishedAt": "2026-06-03",
-      "topic": "public_safety",
-      "summary": "Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown Office of the Mayor Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback June 3, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the end of Small Business Month with two store openings downtown and three businesses expanding through the Vacant to Vibrant program. Two new small businesses, Whole Cakes and Bruno’s Italian Taste, are opening with the help of the Office of Economic and Workforce Development’s (OEWD) Downtown Vibrancy Loan Fund. Vacant to Vibrant pop‑up Dandelion Chocolate has signed a long‑term lease on Powell Street and is expanding to add a cafe, and two new Vacant to Vibrant pop‑ups—LOLA Embarcadero and Cowrie Collective at the Palace Hotel—are activating spaces downtown. The new storefronts and Vacant to Vibrant expansions continue to accelerate San Francisco’s economic recovery. In September, Mayor Lurie unveiled his “Heart of the City” plan to create a downtown where people live, work, play, and learn. Last year, Union Square and Yerba Buena welcomed 44 new storefronts, including new Vacant to Vibrant pop-ups , the RealReal, AT&T and Nintendo . Since the mayor took office, crime continues to go down in Union Square and the Financial District , 20 new liquor licenses have been issued to support nightlife , office leasing has surged 66.7% , and San Francisco now leads major U.S. cities in return-to-office rates . And through initiatives like First Year Free , expanded entertainment zones , small business grants , and streamlined business regulations , Mayor Lurie has taken steps to strengthen small...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "we-re-living-in-daniel-lurie-s-america-and-most-san-franciscans-are-content-2026",
       "title": "&#8216;We're living in Daniel Lurie's America,' and most San Franciscans are content",
       "sourceType": "news",
@@ -406,6 +394,18 @@
       "summary": "Landslide election results favoring Mayor Daniel Lurie's allies and picks point to a changed San Francisco.",
       "confidence": 0.9,
       "excerpt": "It’s not clear if Mayor Daniel Lurie is the cause of a changed San Francisco or a symptom, but, on the June 2 election results sheet, that was a distinction without a difference. Barring a near-miraculous turnaround, every last thing San Francisco’s popular mayor and his big money allies would’ve wanted came to pass, and in no uncertain terms. It’s unclear if Lurie is riding a wave or building a wave. But this, too, is a distinction without a difference. The outcomes of Tuesday night’s low-turnout election were not, on the whole, shocking. But the margins — damn near every race was a massacre — were. On the cusp of the election, the backers of Proposition A, the big earthquake bond, were sweating bullets. The measure, which required two-thirds of the vote to pass, was polling at 64 or 65 percent just a few weeks ago. On election night, the measure, carried by Lurie and the firefighters union, banked more than three-quarters of the vote. The mayor had also become the de facto face of the No on D campaign, urging voters to spurn the “ Overpaid CEO Tax ,” lest it lead to a disastrous dispersal of city businesses. Voters seem to agree: More than 55 percent of early voters inveighed against the measure. District 2 Supervisor and close Lurie ally Stephen Sherrill has nearly 70 percent of the vote. And, in District 4, Lurie appointee Alan Wong is enjoying a near-majority in a five-way race and easily wins in ranked-choice voting. On top of that, incumbent school board president Phil Kim has a near-supermajority and prosecutor Phoebe Maffei is besting public defender Alexandra Pray for a judge spot by a 60-40 tilt. The Department of Elections reported on June 3 that some 122,400 ballots remain to be counted. But, with the possible exception of Prop. D, the &#8220;Overpaid CE...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown-",
+      "title": "Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown/",
+      "publishedAt": "2026-06-03",
+      "topic": "public_safety",
+      "summary": "Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown Office of the Mayor Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback June 3, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the end of Small Business Month with two store openings downtown and three businesses expanding through the Vacant to Vibrant program. Two new small businesses, Whole Cakes and Bruno’s Italian Taste, are opening with the help of the Office of Economic and Workforce Development’s (OEWD) Downtown Vibrancy Loan Fund. Vacant to Vibrant pop‑up Dandelion Chocolate has signed a long‑term lease on Powell Street and is expanding to add a cafe, and two new Vacant to Vibrant pop‑ups—LOLA Embarcadero and Cowrie Collective at the Palace Hotel—are activating spaces downtown. The new storefronts and Vacant to Vibrant expansions continue to accelerate San Francisco’s economic recovery. In September, Mayor Lurie unveiled his “Heart of the City” plan to create a downtown where people live, work, play, and learn. Last year, Union Square and Yerba Buena welcomed 44 new storefronts, including new Vacant to Vibrant pop-ups , the RealReal, AT&T and Nintendo . Since the mayor took office, crime continues to go down in Union Square and the Financial District , 20 new liquor licenses have been issued to support nightlife , office leasing has surged 66.7% , and San Francisco now leads major U.S. cities in return-to-office rates . And through initiatives like First Year Free , expanded entertainment zones , small business grants , and streamlined business regulations , Mayor Lurie has taken steps to strengthen small...",
       "scrapeStatus": "scraped"
     },
     {
@@ -424,18 +424,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-celebrates-opening-of-affordable-homes-for-seniors-in-the-mission-ht",
-      "title": "Mayor Lurie Celebrates Opening Of Affordable Homes For Seniors In The Mission | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-opening-of-affordable-homes-for-seniors-in-the-mission/",
-      "publishedAt": "2026-06-02",
-      "topic": "homelessness",
-      "summary": "New Housing Site Will Provide 145 Units for Seniors Exiting Homelessness; Continues Mayor Lurie’s Work to Add Housing in San Francisco",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Celebrates Opening Of Affordable Homes For Seniors In The Mission Office of the Mayor New Housing Site Will Provide 145 Units for Seniors Exiting Homelessness; Continues Mayor Lurie’s Work to Add Housing in San Francisco June 2, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the grand opening of 1633 Valencia, a new supportive housing community with 145 homes for older adults exiting homelessness and substantial onsite services and community‑focused amenities. The opening of 1633 Valencia builds on Mayor Lurie’s work to build more housing in San Francisco and make San Francisco more affordable for working families. Last month, Mayor Lurie partnered with District 7 Supervisor Myrna Melgar on a plan to expand the city’s Housing Trust Fund and update inclusionary housing requirements . He has celebrated the opening of new housing sites across the city, including in the Bayview , Sunnydale , Civic Center , Inner Richmond , and Outer Sunset . Last year, the mayor signed his Family Zoning plan to ensure future generations of San Franciscans can afford to raise their children in the city. “Our city has not built enough housing, and the cost has fallen to our seniors—people who spent decades contributing to this community and deserve stability, dignity, and care. Today, I’m proud to open 145 new supportive homes for San Francisco seniors,” said Mayor Lurie . “This space used to sit largely unused, and now it will be a site where people can age with dignity, build connections with their neighbors, and find the stability they need to thrive. We will continue building a system where housing comes with healthcare and where success is not just about whether someone has a place to sleep but about whether their life is actually getting better.” Completed...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "election-updates-scott-wiener-leads-for-congress-and-mayor-lurie-has-a-big-night",
       "title": "Election updates: Scott Wiener leads for Congress, and Mayor Lurie has a big night",
       "sourceType": "news",
@@ -448,6 +436,18 @@
       "summary": "San Francisco is voting for two city supervisors, several ballot measures, and who will replace Nancy Pelosi in Congress. Follow along.",
       "confidence": 0.82,
       "excerpt": "Check here for election results from across San Francisco. Mission Local had reporters out across San Francisco on Election Day, bringing you updates from polling places, parties and more. Read the full day's dispatches below. Here's the latest: &#8220;We're living in Daniel Lurie's America:&#8221; Columnist Joe Eskenazi on what Tuesday's results tell us about Lurie, &#8220;Let's go San Francisco!&#8221; and a changed city. Read more › Connie Chan besting Saikat Chakrabarti for No. 2 spot: But in the race to replace Nancy Pelosi, Scott Wiener remains well in the lead. Read more › &#8220;Overpaid CEO tax&#8221; losing — but rival measure tanking: It's too close to call Prop. D, the business tax increase. But countermeasure Prop. C is dead. Read more › Phil Kim keeps seat on school board: The incumbent board president won handily. His opponents are gearing up for another run in November. Read more › Sunset supe keeps his seat: Alan Wong is trouncing rival Natalie Gee, who has not yet conceded the race. Read more › Stephen Sherrill up in District 2 : The incumbent, and Mayor Lurie ally, was winning easily over Lori Brooke. Read more › Concessions, victory speeches, and looking ahead to November Connie Chan is all smiles as the ballots come in on June 2, 2026. Photo by Abigail Vân Neely. 10:40 p.m. — Stephen Sherrill declares victory in District 2. Lori Brooke doesn't concede, and doesn’t seem to plan to. As Stephen Sherrill is celebrating his all-but-certain victory with Mayor Daniel Lurie a five minute walk away, his opponent, Lori Brooke has not conceded, and doesn’t seem to plan to. At Brooke's watch party, her vibes are high. She's having fun, chatting with friends and taking photos of her daughter and her daughter's boyfriend. She’s hoping to see an increase in her...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-celebrates-opening-of-affordable-homes-for-seniors-in-the-mission-ht",
+      "title": "Mayor Lurie Celebrates Opening Of Affordable Homes For Seniors In The Mission | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-opening-of-affordable-homes-for-seniors-in-the-mission/",
+      "publishedAt": "2026-06-02",
+      "topic": "homelessness",
+      "summary": "New Housing Site Will Provide 145 Units for Seniors Exiting Homelessness; Continues Mayor Lurie’s Work to Add Housing in San Francisco",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Celebrates Opening Of Affordable Homes For Seniors In The Mission Office of the Mayor New Housing Site Will Provide 145 Units for Seniors Exiting Homelessness; Continues Mayor Lurie’s Work to Add Housing in San Francisco June 2, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the grand opening of 1633 Valencia, a new supportive housing community with 145 homes for older adults exiting homelessness and substantial onsite services and community‑focused amenities. The opening of 1633 Valencia builds on Mayor Lurie’s work to build more housing in San Francisco and make San Francisco more affordable for working families. Last month, Mayor Lurie partnered with District 7 Supervisor Myrna Melgar on a plan to expand the city’s Housing Trust Fund and update inclusionary housing requirements . He has celebrated the opening of new housing sites across the city, including in the Bayview , Sunnydale , Civic Center , Inner Richmond , and Outer Sunset . Last year, the mayor signed his Family Zoning plan to ensure future generations of San Franciscans can afford to raise their children in the city. “Our city has not built enough housing, and the cost has fallen to our seniors—people who spent decades contributing to this community and deserve stability, dignity, and care. Today, I’m proud to open 145 new supportive homes for San Francisco seniors,” said Mayor Lurie . “This space used to sit largely unused, and now it will be a site where people can age with dignity, build connections with their neighbors, and find the stability they need to thrive. We will continue building a system where housing comes with healthcare and where success is not just about whether someone has a place to sleep but about whether their life is actually getting better.” Completed...",
       "scrapeStatus": "scraped"
     },
     {
@@ -2080,7 +2080,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-07T04:59:33.163Z"
+      "lastRefreshed": "2026-06-07T09:43:01.716Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2099,7 +2099,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-07T04:59:33.163Z"
+      "lastRefreshed": "2026-06-07T09:43:01.716Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2115,7 +2115,7 @@
       "observations": [],
       "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-07T04:59:33.163Z",
+      "lastRefreshed": "2026-06-07T09:43:01.716Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2154,7 +2154,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-07T04:59:33.163Z"
+      "lastRefreshed": "2026-06-07T09:43:01.716Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2246,7 +2246,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-07T04:59:33.163Z"
+      "lastRefreshed": "2026-06-07T09:43:01.716Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2338,7 +2338,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-07T04:59:33.163Z"
+      "lastRefreshed": "2026-06-07T09:43:01.716Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2357,7 +2357,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-07T04:59:33.163Z"
+      "lastRefreshed": "2026-06-07T09:43:01.716Z"
     }
   ],
   "topics": [
@@ -2500,7 +2500,7 @@
       "date": "2025-04-01",
       "type": "initiative",
       "title": "24/7 police-friendly stabilization center opened",
-      "topic": "homelessness",
+      "topic": "public_safety",
       "impact": "major",
       "sourceIds": [
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
@@ -2606,6 +2606,17 @@
       ]
     },
     {
+      "id": "timeline-police-legislation",
+      "date": "2026-05-11",
+      "type": "policy",
+      "title": "Police support legislation signed",
+      "topic": "public_safety",
+      "impact": "moderate",
+      "sourceIds": [
+        "mayor-lurie-signs-legislation-to-support-san-francisco-police-officers-continue-"
+      ]
+    },
+    {
       "id": "timeline-affordable-housing-fund-deal",
       "date": "2026-05-19",
       "type": "policy",
@@ -2627,17 +2638,6 @@
       "sourceIds": [
         "mayor-lurie-signs-legislation-to-make-it-easier-to-throw-block-parties-and-neigh"
       ]
-    },
-    {
-      "id": "timeline-budget-2026",
-      "date": "2026-06-01",
-      "type": "policy",
-      "title": "$16.9B budget proposal closes $642M deficit with 550 total job cuts",
-      "topic": "city_government",
-      "impact": "major",
-      "sourceIds": [
-        "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j"
-      ]
     }
   ],
   "majorNews": [
@@ -2648,29 +2648,29 @@
       "publishedAt": "2026-05-12",
       "publisher": "SF.gov",
       "topic": "homelessness",
-      "whyItMatters": "This represents a major policy achievement for Mayor Lurie's administration, demonstrating measurable progress on one of San Francisco's most critical challenges. The milestone validates his shift toward treatment-focused shelter beds and signals significant impact on street conditions citywide.",
+      "whyItMatters": "This represents a major policy achievement for the Lurie administration, demonstrating measurable progress on one of San Francisco's most critical challenges and validating the mayor's strategic shift toward treatment-focused beds over traditional shelters.",
       "sourceId": null,
       "selectionMethod": "anthropic"
     },
     {
-      "id": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
-      "headline": "Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing",
-      "url": "https://www.sf.gov/news-mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-housing/",
-      "publishedAt": "2026-05-19",
-      "publisher": "SF.gov",
-      "topic": "housing",
-      "whyItMatters": "Doubling the Housing Trust Fund from $52M to $125M annually represents a generational investment in affordable housing that could generate $3.75 billion over 30 years. This partnership with Supervisor Melgar demonstrates significant political coalition-building and addresses San Francisco's housing affordability crisis with concrete funding mechanisms tied to property tax growth.",
-      "sourceId": null,
-      "selectionMethod": "anthropic"
-    },
-    {
-      "id": "mayor-lurie-presents-responsible-budget-strengthening-social-safety-net",
-      "headline": "Mayor Lurie Presents Responsible Budget Strengthening Social Safety Net In Response To Significant Federal Cuts",
+      "id": "mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-respo",
+      "headline": "Mayor Lurie Presents $16.9 Billion Budget Closing $642M Deficit While Protecting Social Safety Net",
       "url": "https://www.sf.gov/news-mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-response-to-significant-federal-cuts-advancing-san-franciscos-economic-recovery/",
       "publishedAt": "2026-06-01",
       "publisher": "SF.gov",
       "topic": "city_government",
-      "whyItMatters": "This $16.9 billion budget proposal closes a $642 million deficit while protecting core services amid devastating federal cuts threatening tens of thousands with healthcare and food stamp losses. The mayor's approach of avoiding mass layoffs while restructuring city government sets the fiscal trajectory for San Francisco and demonstrates how the city navigates the collision between local priorities and federal disinvestment.",
+      "whyItMatters": "The budget proposal addresses San Francisco's structural deficit and federal funding cuts while avoiding mass layoffs—eliminating 550 positions mostly through vacancies rather than direct cuts. This fiscal strategy will shape city services for the next two years and tests Lurie's ability to maintain core functions amid economic constraints.",
+      "sourceId": null,
+      "selectionMethod": "anthropic"
+    },
+    {
+      "id": "alan-wong-the-candidate-didnt-win-the-election-alan-wong-mayor-luries-ally-did",
+      "headline": "Alan Wong's District 4 Victory Strengthens Mayor Lurie's Board Majority",
+      "url": "https://missionlocal.org/2026/06/sf-daniel-lurie-alan-wong-election/",
+      "publishedAt": "2026-06-04",
+      "publisher": "Mission Local",
+      "topic": "city_government",
+      "whyItMatters": "Wong's decisive 70-30 victory, backed by nearly $1 million in PAC spending from mayoral allies, solidifies Lurie's moderate majority on the Board of Supervisors. The election outcome demonstrates the mayor's significant political influence and ability to transfer popularity to allied candidates—a critical factor for advancing his legislative agenda through 2026.",
       "sourceId": null,
       "selectionMethod": "anthropic"
     }
