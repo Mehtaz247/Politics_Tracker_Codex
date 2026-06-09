@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-09T10:05:43.821Z",
+    "lastUpdated": "2026-06-09T15:30:35.482Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -1843,7 +1843,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 522 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 526 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2085,7 +2085,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-09T10:05:43.711Z"
+      "lastRefreshed": "2026-06-09T15:30:35.311Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2104,7 +2104,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-09T10:05:43.711Z"
+      "lastRefreshed": "2026-06-09T15:30:35.311Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2120,7 +2120,7 @@
       "observations": [],
       "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-09T10:05:43.711Z",
+      "lastRefreshed": "2026-06-09T15:30:35.311Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2159,7 +2159,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-09T10:05:43.711Z"
+      "lastRefreshed": "2026-06-09T15:30:35.311Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2174,7 +2174,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 348,
+      "latest": 402,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2246,12 +2246,12 @@
         },
         {
           "date": "2026-06-01",
-          "value": 348
+          "value": 402
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-09T10:05:43.711Z"
+      "lastRefreshed": "2026-06-09T15:30:35.311Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2266,7 +2266,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 522,
+      "latest": 526,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2338,12 +2338,12 @@
         },
         {
           "date": "2026-06-01",
-          "value": 522
+          "value": 526
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-09T10:05:43.711Z"
+      "lastRefreshed": "2026-06-09T15:30:35.311Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2362,7 +2362,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-09T10:05:43.711Z"
+      "lastRefreshed": "2026-06-09T15:30:35.311Z"
     }
   ],
   "topics": [
