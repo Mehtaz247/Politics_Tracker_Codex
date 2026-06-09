@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-08T20:36:43.846Z",
+    "lastUpdated": "2026-06-09T04:38:51.573Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -307,6 +307,36 @@
       "summary": "After 127 layoffs earlier this year, mayor instead moves to eliminate over 400 vacant positions, save money through turnover and slowed hiring",
       "confidence": 0.9,
       "excerpt": "Mayor Daniel Lurie revealed Monday that he is looking to close the city’s $642 million deficit not through culling the workforce today, but slowing down hiring for years and eliminating vacant positions. The proposal eliminates over 400 vacant positions that the city had budgeted for but left unfilled, and cuts another nine jobs. That, plus the 127 layoffs announced in the spring, would mean around 550 City Hall job cuts this budget season. The $16.9 billion budget would also benefit from increased revenue, namely tax receipts received via the city’s 2024 tax reform measure, Proposition M , and increases in public health revenue. And in line with last year’s budget , Lurie is prioritizing funding for departments attuned with his key initiatives, namely public safety and homelessness. Lurie increased funding for the police and fire departments, whose staff saw 14 percent salary bumps after union contract negotiations earlier this year, as well as departments most affected by cuts to federal funding, like the Department of Public Health. “We didn’t tell departments to do more with less,” Lurie said during an announcement livestreamed from the Human Services Agency Mission District office. “We said, focus on what matters most to our recovery and deliver results.” A large chunk of the city’s savings come from staffing cuts — the 127 layoffs announced earlier , the nine more announced today, and the 414 or so unfilled positions. Unions have called for no more cuts to city services or personnel. Though this budget has few layoffs, union leaders in April said they opposed cuts to unfilled positions. “Any cuts to that system will further strain city departments which are already understaffed,” said Bianca Polovina, then-president of IFPTE 21, a union of city workers. “All th...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "san-francisco-s-overpaid-ceo-tax-measure-fails-2026-06-09",
+      "title": "San Francisco’s ‘Overpaid CEO’ tax measure fails",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/06/sf-overpaid-ceo-tax-fails-union-prop-d/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-06-09",
+      "topic": "economy",
+      "summary": "Prop. D was backed by labor unions to help close the city deficit. But Mayor Daniel Lurie and the Chamber of Commerce opposed it.",
+      "confidence": 0.82,
+      "excerpt": "San Francisco’s “Overpaid CEO” tax has failed . The measure would have raised taxes on businesses whose top executive makes more than 100 times more than the company’s median employee, but it is trailing 54-46. The tax, also known as Proposition D, was placed on the ballot by labor unions to help fill the city’s $600 million deficit . Because of the deficit, Mayor Daniel Lurie has cut programs and laid off city employees . Proponents argued that the new revenue from the tax measure was necessary for maintaining essential city services, such as healthcare, after President Donald Trump cut funding for Medicare. “The consequences are real,” said Scott Mann, spokesperson for the Yes on D campaign. “The cuts that follow will fall hardest on the people who can least afford it — the patients who depend on our public hospitals, the families who rely on city services, and the workers who make this city run.” This persuaded a supermajority of the Board of Supervisors to support the measure . But opposing it was Lurie and the city’s Chamber of Commerce. They expressed concern that it would lead to businesses leaving the city or refusing to open up at a time when the mayor has made filling vacant storefronts a priority, particularly in downtown. “We have defeated Prop. D thanks to voters who have watched the city recover and are not interested in gambling on the progress we’ve made,” said Rodney Fong, president and CEO of the San Francisco Chamber of Commerce. The campaign opposing Prop. D spent $5.8 million, outstripping the Yes on D campaign, which spent $2.7 million. Some of that money went to Proposition C, a competing measure that the Chamber of Commerce placed on the ballot. Prop. C kept the city’s tax structure mostly the same, but included language saying if both measure...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-supe-mahmood-hit-the-brakes-on-controversial-s-f-real-estate-tax-cut",
+      "title": "Mayor Lurie, Supe Mahmood hit the brakes on controversial S.F. real estate tax cut",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/06/sf-mayor-mahmood-brakes-transfer-tax-cut/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-06-09",
+      "topic": "economy",
+      "summary": "City leaders are tabling their plan to slash the taxes paid by sellers of San Francisco properties of $10M or more",
+      "confidence": 0.82,
+      "excerpt": "Supervisor Bilal Mahmood and Mayor Daniel Lurie are pausing their plan to halve the city's transfer tax on sales of multi-million dollar properties, Mission Local has learned. Mahmood said he recognizes San Francisco is in a budget crisis, and he and the mayor are “shifting focus” to find new revenue streams for the city. “Until that is resolved we are not proceeding,” Mahmood said. The idea behind the proposal was to stimulate housing development and provide jobs for union construction workers, but the so-called BUILD Act raised concerns because even sellers of properties of $10 million or more that provided no new housing or construction work would have received a hefty tax break. Want the latest on the Mission and San Francisco? Sign up for our free daily newsletter below. Sign up A controller’s office report from March estimates that the city's present tax rate would raise some $400 million for the general fund in the next few years, critical income for the city amid a massive budget deficit that has already resulted in widespread cuts to jobs and services. The mayor and Mahmood were proposing to halve that tax. The BUILD Act would have slashed the transfer tax rate put in place by Proposition I in 2020: Taxes would drop from 5.75 percent to 2.75 percent for properties worth over $10 million, and from 6 percent to 3 percent for those over $25 million. Prop. I, which increased those rates to where they are today, was a major achievement of Mahmood’s predecessor, former District 5 Supervisor Dean Preston, and passed with 58 percent of the vote. Mahmood says he pledged city labor that he would not proceed with the tax break unless he could make it revenue neutral. To do so, Mahmood and Lurie had promised a November ballot measure to apply the tax to certain properti...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1467,29 +1497,6 @@
       "topic": "city_government",
       "summary": "Giants’ Buster Posey or S.F. Mayor Daniel Lurie: Who had a better first year? &nbsp;&nbsp; San Francisco Chronicle",
       "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-supervisor-melgar-and-department-on-the-status-of-women-launch-san-f",
-      "title": "Mayor Lurie, Supervisor Melgar, and Department on the Status of Women Launch San Francisco Women’s Agenda - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOUVRWMFJWUTIzck81dUMzRkhRYVRMU0ozUjdqQ3loSWU2aVVISkNndUtETzdkX3lvLVZYa1huVzF1Vm8wS2Jsb3dqRTJVWFp1U28wREhBR2lvZHd3ZHN6UG5UUGlYOVA3VmxfMWllV011b21vc1YtaUlha1UyNTdzZnlzb0lzNEZNNUFfNnQxT0ZoZEJrM1hLZHJrX19YTklISWh1VEVNUi1qaVJ1RlBtMzNUZkJoeXpQMkdZWEREQ0RZZ0pm?oc=5",
-      "publishedAt": "2026-03-20",
-      "topic": "city_government",
-      "summary": "Mayor Lurie, Supervisor Melgar, and Department on the Status of Women Launch San Francisco Women’s Agenda &nbsp;&nbsp; SF.gov",
-      "confidence": 0.68
-    },
-    {
-      "id": "how-is-lurie-doing-on-mental-health-and-homeless-crises-these-7-charts-tell-the-",
-      "title": "How is Lurie doing on mental health and homeless crises? These 7 charts tell the story",
-      "sourceType": "news",
-      "url": "https://sfstandard.com/2026/03/18/lurie-doing-mental-health-homeless-crises-7-charts-tell-story/",
-      "discoveryUrl": "https://sfstandard.com/2026/03/18/lurie-doing-mental-health-homeless-crises-7-charts-tell-story/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "San Francisco Standard",
-      "publishedAt": "2026-03-18",
-      "topic": "city_government",
-      "summary": "One year into Breaking the Cycle, Mayor Lurie has made progress on reducing visible street homelessness and improving billing for services through Medicare, but challenges remain in permanently housing people, with $34 million shifted from housing funds to shelter system in budget negotiations.",
-      "confidence": 0.9
     }
   ],
   "promises": [
@@ -2078,7 +2085,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-08T20:36:43.734Z"
+      "lastRefreshed": "2026-06-09T04:38:51.141Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2097,7 +2104,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-08T20:36:43.734Z"
+      "lastRefreshed": "2026-06-09T04:38:51.142Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2174,7 +2181,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-08T20:36:43.734Z",
+      "lastRefreshed": "2026-06-09T04:38:51.142Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2213,7 +2220,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-08T20:36:43.734Z"
+      "lastRefreshed": "2026-06-09T04:38:51.142Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2305,7 +2312,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-08T20:36:43.734Z"
+      "lastRefreshed": "2026-06-09T04:38:51.142Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2397,7 +2404,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-08T20:36:43.734Z"
+      "lastRefreshed": "2026-06-09T04:38:51.142Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2416,7 +2423,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-08T20:36:43.734Z"
+      "lastRefreshed": "2026-06-09T04:38:51.142Z"
     }
   ],
   "topics": [
@@ -2712,17 +2719,6 @@
       "selectionMethod": "fallback"
     },
     {
-      "id": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
-      "headline": "Mayor Lurie, Supervisor Melgar Announce Transformative Funding For Affordable Housing | SF.gov",
-      "url": "https://www.sf.gov/news-mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-housing/",
-      "publishedAt": "2026-05-19",
-      "publisher": "SF.gov",
-      "topic": "housing",
-      "whyItMatters": "Expansion of Housing Trust Fund, Updates to Inclusionary Housing Requirements Will Jumpstart Building and Preservation of Affordable Housing Citywide, Encourage Creation of New Housing at All Income Levels; Investment Continues Mayor Lurie, Supervisor Melgar’s Work to Add More Housing in San Francisco and Make the City More Affordable",
-      "sourceId": "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou",
-      "selectionMethod": "fallback"
-    },
-    {
       "id": "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds",
       "headline": "Mayor Lurie has added hundreds of new S.F. shelter beds, but also closed hundreds",
       "url": "https://missionlocal.org/2026/05/sf-lurie-shelter-beds/",
@@ -2731,6 +2727,17 @@
       "topic": "homelessness",
       "whyItMatters": "Mission Local does the math on San Francisco's shifting homeless approach toward treatment — and away from traditional shelters.",
       "sourceId": "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-",
+      "selectionMethod": "fallback"
+    },
+    {
+      "id": "amid-opposition-california-regulators-approve-major-changes-to-cap-and-trade-pro",
+      "headline": "Amid Opposition, California Regulators Approve Major Changes To Cap-And-Trade Program",
+      "url": "https://www.kqed.org/news/12085401/amid-opposition-california-regulators-approve-major-changes-to-cap-and-trade-program",
+      "publishedAt": "2026-05-30",
+      "publisher": "KQED",
+      "topic": "climate",
+      "whyItMatters": "Climate, transportation and affordable housing advocates worry the changes could result in a loss of funding.",
+      "sourceId": "amid-opposition-california-regulators-approve-major-changes-to-cap-and-trade-pro",
       "selectionMethod": "fallback"
     }
   ],
