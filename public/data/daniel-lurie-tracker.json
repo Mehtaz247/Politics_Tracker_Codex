@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-11T16:31:10.598Z",
+    "lastUpdated": "2026-06-11T20:39:11.401Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -310,6 +310,21 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "long-awaited-powell-street-redesign-advances-after-lurie-signs-private-funding-m",
+      "title": "Long-Awaited Powell Street Redesign Advances After Lurie Signs Private Funding Measure",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/06/11/long-awaited-powell-street-redesign-advances-after-lurie-signs-private-funding-measure/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-06-11",
+      "topic": "economy",
+      "summary": "Following legislation signed by Mayor Daniel Lurie, the city accepted $14.5 million in private funding from SF’s Downtown Development Corporation to push forward the long overdue revitalization of the Powell Street corridor.",
+      "confidence": 0.8,
+      "excerpt": "11 June 2026 / SF News / Leanne Maxwell Long-Awaited Powell Street Redesign Advances After Lurie Signs Private Funding Measure --> Following legislation signed by Mayor Daniel Lurie, the city accepted $14.5 million in private funding from SF’s Downtown Development Corporation to push forward the long overdue revitalization of the Powell Street corridor. San Francisco Mayor Daniel Lurie approved a measure Wednesday allowing the city to accept private donations for the long-delayed Powell Street Promenade refresh project, supported by a $14.5 million commitment from the San Francisco Downtown Development Corporation, as KTVU reports . Construction is expected to break ground this fall, with most work completed by 2027. As SFist reported last year, the redesign focuses on the three-block stretch between Market and Geary streets, with plans for wider sidewalks, new landscaping, along with a series of decorative lighting features, including programmable lanterns inspired by the area’s historic architecture. A large, suspended, spherical LED installation near the Cable Car Turnaround, which will change colors with the seasons — rainbow for Pride, green and red for Christmas, etc. — anchors the design. Rendering by Field Operations Rendering by Field Operations Designers from Field Operations, the firm behind Presidio Tunnel Tops and New York’s High Line, partnered with Sitelab Urban Studio on the winning proposal after a competitive design process, as the Chronicle reports . The project also reportedly includes upgraded cable car boarding areas and improved connections between the Powell Street turnaround and Union Square. Muni will also be replacing its aging cable car mechanical and electrical systems underground. “San Francisco will have 24 million visitors this year, s...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "supe-melgar-delays-proposed-smoking-ban-at-sf-bar-patios-following-backlash-2026",
       "title": "Supe Melgar Delays Proposed Smoking Ban at SF Bar Patios Following Backlash",
       "sourceType": "news",
@@ -569,6 +584,21 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "the-dan-grand-slam-how-daniel-lurie-got-everything-he-wanted-on-election-night-2",
+      "title": "The Dan Grand Slam? How Daniel Lurie got everything he wanted on election night",
+      "sourceType": "news",
+      "url": "https://sfstandard.com/2026/06/02/primary-election-night-daniel-lurie-wins-wong-sherrill/",
+      "discoveryUrl": "https://sfstandard.com/2026/06/02/primary-election-night-daniel-lurie-wins-wong-sherrill/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF Standard",
+      "publishedAt": "2026-06-03",
+      "topic": "economy",
+      "summary": "San Francisco’s mayor wasn’t on the ballot Tuesday night. But that didn’t stop him from being the city’s biggest winner.",
+      "confidence": 0.9,
+      "excerpt": "Mayor Daniel Lurie wasn’t running for reelection Tuesday night. But he may have won bigger than anybody else in San Francisco politics. The mayor, who has enjoyed a moderate majority on the Board of Supervisors since taking office in January 2025, will maintain a team of allies with the decisive wins of his two preferred incumbent supervisors: Alan Wong in District 4 and Stephen Sherrill in District 2. Both crushed their opponents in early victories. What’s more, Propositions C and D, dueling tax measures that Lurie opposed, appeared to flop with voters. Everything, it seemed, was coming up Daniel on primary night. “The early returns that we are seeing show that San Franciscans like the direction that we are going in,” the mayor told reporters at a party for Prop. A, the Earthquake Safety and Emergency Response Bond — supported by Lurie, and winning by a landslide — outside Original Joe’s in North Beach. “We are just getting started. We are going to continue to put our foot on the accelerator.” Wong, whom Lurie appointed after voters recalled former Supervisor Joel Engardio, crushed a host of challengers, including progressive activist Natalie Gee, with early results showing support from more than 52% of Sunset and Parkside voters. Wong said he knocked on more than half the doors in his district in the run-up to the election. The biggest issue in the District 4 election — and the biggest issue in the Sunset for the last six years — was the Great Highway: Should it remain a park or reopen to cars? Wong and most of his challengers advocated for the latter, but Wong seemed to have most successfully associated himself with the pro-car stance. In District 2, Sherrill walloped neighborhood organizer Lori Brooke, pulling in 70% of votes tallied by 9:45 p.m. Apparently, alle...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown-",
       "title": "Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown | SF.gov",
       "sourceType": "official",
@@ -593,21 +623,6 @@
       "summary": "Landslide election results favoring Mayor Daniel Lurie's allies and picks point to a changed San Francisco.",
       "confidence": 0.9,
       "excerpt": "It’s not clear if Mayor Daniel Lurie is the cause of a changed San Francisco or a symptom, but, on the June 2 election results sheet, that was a distinction without a difference. Barring a near-miraculous turnaround, every last thing San Francisco’s popular mayor and his big money allies would’ve wanted came to pass, and in no uncertain terms. It’s unclear if Lurie is riding a wave or building a wave. But this, too, is a distinction without a difference. The outcomes of Tuesday night’s low-turnout election were not, on the whole, shocking. But the margins — damn near every race was a massacre — were. On the cusp of the election, the backers of Proposition A, the big earthquake bond, were sweating bullets. The measure, which required two-thirds of the vote to pass, was polling at 64 or 65 percent just a few weeks ago. On election night, the measure, carried by Lurie and the firefighters union, banked more than three-quarters of the vote. The mayor had also become the de facto face of the No on D campaign, urging voters to spurn the “ Overpaid CEO Tax ,” lest it lead to a disastrous dispersal of city businesses. Voters seem to agree: More than 55 percent of early voters inveighed against the measure. District 2 Supervisor and close Lurie ally Stephen Sherrill has nearly 70 percent of the vote. And, in District 4, Lurie appointee Alan Wong is enjoying a near-majority in a five-way race and easily wins in ranked-choice voting. On top of that, incumbent school board president Phil Kim has a near-supermajority and prosecutor Phoebe Maffei is besting public defender Alexandra Pray for a judge spot by a 60-40 tilt. The Department of Elections reported on June 3 that some 122,400 ballots remain to be counted. But, with the possible exception of Prop. D, the &#8220;Overpaid CE...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "the-dan-grand-slam-how-daniel-lurie-got-everything-he-wanted-on-election-night-2",
-      "title": "The Dan Grand Slam? How Daniel Lurie got everything he wanted on election night",
-      "sourceType": "news",
-      "url": "https://sfstandard.com/2026/06/02/primary-election-night-daniel-lurie-wins-wong-sherrill/",
-      "discoveryUrl": "https://sfstandard.com/2026/06/02/primary-election-night-daniel-lurie-wins-wong-sherrill/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF Standard",
-      "publishedAt": "2026-06-03",
-      "topic": "economy",
-      "summary": "San Francisco’s mayor wasn’t on the ballot Tuesday night. But that didn’t stop him from being the city’s biggest winner.",
-      "confidence": 0.9,
-      "excerpt": "Mayor Daniel Lurie wasn’t running for reelection Tuesday night. But he may have won bigger than anybody else in San Francisco politics. The mayor, who has enjoyed a moderate majority on the Board of Supervisors since taking office in January 2025, will maintain a team of allies with the decisive wins of his two preferred incumbent supervisors: Alan Wong in District 4 and Stephen Sherrill in District 2. Both crushed their opponents in early victories. What’s more, Propositions C and D, dueling tax measures that Lurie opposed, appeared to flop with voters. Everything, it seemed, was coming up Daniel on primary night. “The early returns that we are seeing show that San Franciscans like the direction that we are going in,” the mayor told reporters at a party for Prop. A, the Earthquake Safety and Emergency Response Bond — supported by Lurie, and winning by a landslide — outside Original Joe’s in North Beach. “We are just getting started. We are going to continue to put our foot on the accelerator.” Wong, whom Lurie appointed after voters recalled former Supervisor Joel Engardio, crushed a host of challengers, including progressive activist Natalie Gee, with early results showing support from more than 52% of Sunset and Parkside voters. Wong said he knocked on more than half the doors in his district in the run-up to the election. The biggest issue in the District 4 election — and the biggest issue in the Sunset for the last six years — was the Great Highway: Should it remain a park or reopen to cars? Wong and most of his challengers advocated for the latter, but Wong seemed to have most successfully associated himself with the pro-car stance. In District 2, Sherrill walloped neighborhood organizer Lori Brooke, pulling in 70% of votes tallied by 9:45 p.m. Apparently, alle...",
       "scrapeStatus": "scraped"
     },
     {
@@ -653,18 +668,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-respo",
-      "title": "Mayor Lurie Presents Responsible Budget Strengthening Social Safety Net In Response To Significant Federal Cuts, Advancing San Francisco&#x27;s Economic Recovery | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-response-to-significant-federal-cuts-advancing-san-franciscos-economic-recovery/",
-      "publishedAt": "2026-06-01",
-      "topic": "homelessness",
-      "summary": "Balanced Budget Invests in Keeping Families on Healthcare and Food Assistance, Preventing Homelessness, Preparing for Additional Federal Cuts to Housing and Homelessness; Prioritizes Core Services to Advance Broad, Durable Economic Recovery With Investments in Public Safety, Clean and Safe Streets; Closes $642 Million Deficit While Reducing City’s Ongoing Structural Deficit by Approximately $300 Million",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Presents Responsible Budget Strengthening Social Safety Net In Response To Significant Federal Cuts, Advancing San Francisco&#x27;s Economic Recovery Office of the Mayor Balanced Budget Invests in Keeping Families on Healthcare and Food Assistance, Preventing Homelessness, Preparing for Additional Federal Cuts to Housing and Homelessness; Prioritizes Core Services to Advance Broad, Durable Economic Recovery With Investments in Public Safety, Clean and Safe Streets; Closes $642 Million Deficit While Reducing City’s Ongoing Structural Deficit by Approximately $300 Million June 1, 2026 SAN FRANCISCO – Mayor Daniel Lurie today presented his $16.9 billion proposed budget for Fiscal Years (FY) 2026-2027 and 2027-2028, strengthening the city’s social safety net in the face of hundreds of millions of dollars of federal cuts to healthcare, while protecting core services that deliver safe, clean streets and advance San Francisco’s economic recovery. The budget closes a $642 million two-year deficit and reduces the city’s structural deficit by approximately $300 million, bringing down ongoing spending by hiring more strategically and making city services more effective and responsive. Mayor Lurie’s proposed budget builds on the work he has done in his first year and a half in office to make San Francisco’s streets safer and cleaner, foster a broad and durable economic comeback, and protect the city’s social safety net. Crime was down nearly 30% in Mayor Lurie’s first year in office, and it continues to decrease in 2026. Unsheltered homelessness is at its lowest level in 15 years , as the administration has transformed the city’s homelessness and behavioral health response. Through Mayor Lurie’s Family Opportunity Agenda, San Francisco will be the first city in...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "mayor-lurie-says-most-layoffs-have-now-been-avoided-in-new-proposed-budget-2026-",
       "title": "Mayor Lurie Says Most Layoffs Have Now Been Avoided In New Proposed Budget",
       "sourceType": "news",
@@ -680,18 +683,18 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "sf-city-jobs-are-safe-this-year-next-year-is-another-story-2026-06-01",
-      "title": "Lurie’s budget spares city jobs — but grant funding cuts may lead to nonprofit layoffs",
+      "id": "lurie-and-labor-are-on-a-collision-course-tuesday-s-election-may-determine-when-",
+      "title": "Lurie and labor are on a collision course. Tuesday’s election may determine when it comes.",
       "sourceType": "news",
-      "url": "https://sfstandard.com/2026/06/01/daniel-lurie-budget-2026-city-layoffs-deficit-san-francisco/",
-      "discoveryUrl": "https://sfstandard.com/2026/06/01/daniel-lurie-budget-2026-city-layoffs-deficit-san-francisco/",
+      "url": "https://missionlocal.org/2026/06/san-francsico-election-june-2-daniel-lurie-prop-d-alan-wong-stephen-sherrill-labor/",
+      "discoveryUrl": "https://missionlocal.org/2026/06/san-francsico-election-june-2-daniel-lurie-prop-d-alan-wong-stephen-sherrill-labor/",
       "discoverySource": "Anthropic web search",
-      "publisher": "San Francisco Standard",
+      "publisher": "Mission Local",
       "publishedAt": "2026-06-01",
       "topic": "homelessness",
-      "summary": "The mayor avoided the layoffs unions feared, thanks to a surprise surplus and a hiring freeze. A $1B deficit by 2029 may not be so kind.",
+      "summary": "If voters rebuke Lurie on Prop. D and dump one or both of the sitting supervisors, a mayor who has walked on water would have to learn to swim",
       "confidence": 0.9,
-      "excerpt": "San Francisco City Hall jobs are safe, for now — but next year, not so much. Mayor Daniel Lurie released his annual proposed budget on Monday, aiming to close a $643 million deficit. Despite devastating federal disinvestment and a still-recovering economy, additional layoffs did not materialize this year. The budget cuts some social safety net programs as the city seeks to offset expected federal reductions that threaten to leave tens of thousands of San Franciscans without health care and food stamps. “Today, I am proud to submit a balanced budget that is fiscally responsible and strengthens our social safety net, so even in the face of federal cuts, San Franciscans know they can count on this city,” Lurie said in livestreamed remarks to the city. It’s not all roses: the budget slashes grant funding to nonprofit services focused on helping the poorest citizens, immigrants, and communities of color. The funding loss may result in as many as 1,050 layoffs among nonprofit service providers, advocates said Monday. Earlier this year, dire budget projections led labor unions to brace for layoffs among the city’s 34,000 employees in Lurie’s budget proposal, and in April, the mayor handed out a small set of pink slips to 127 employees. Speaking to The Standard last month, SEIU 1021, which represents one of the largest swaths of city employees, warned that strikes next year could “shut down the city.” In a statement, SEIU 1021 San Francisco Vice President Kristin Hardy said, “We are pleased and relieved to see that Mayor Lurie did not include further layoffs in the next fiscal year’s budget. San Francisco is at a pivotal moment in its recovery, and we cannot afford to go backward.” Still, she added, the union continues to fight against nonprofit reductions, and for Lurie to...",
+      "excerpt": "My fashionable friend has identified the sleek, grey jacket Mayor Daniel Lurie has sported on his Instagram forays through San Francisco as a Brunello Cucinelli gray cashmere (MSRP: more than my car). As outerwear goes, you could do worse. But it doesn’t offer much in the way of coattails . Tuesday’s election will demonstrate whether Lurie’s political coattails are more sizable than his actual ones. Not halfway through his first term, the mayor’s polling numbers are on par with Joe Montana’s circa 1988 . He’s not just liked — he’s well-liked. But it’s not yet clear how much of the mayor’s popularity is transferable. Joe Montana, you may recall, urged us to buy Nuprin. We didn’t . Lurie, meanwhile, has urged us not to buy Proposition D, which would tax billion-dollar companies and fund social services to make up for Trump’s federal budget cuts. He has also urged voters to elect his appointee in District 4, Alan Wong, and Lurie’s donor network has been active propping up the Sunset supe. Both races are critical for San Francisco organized labor. If Prop. D fails — or if the Chamber of Commerce-spun measure designed to tank it, Prop.C, gets more votes — the city will have to deal with perhaps $300 million yearly failing to materialize in the general fund. This would likely lead to a reduction in services and the mayor pushing for even more layoffs, which is why passing Prop. D has become the raison d'être for much of city labor. Numerous city observers foresee that some manner of labor strife is on San Francisco’s horizon in the not-too-distant future. Whether that strike comes as a flex after labor beats back Lurie and a billionaire-backed campaign or comes out of a position of weakness and anger after losing that campaign is to be determined. It brings to mind the lin...",
       "scrapeStatus": "scraped"
     },
     {
@@ -710,18 +713,30 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "lurie-and-labor-are-on-a-collision-course-tuesday-s-election-may-determine-when-",
-      "title": "Lurie and labor are on a collision course. Tuesday’s election may determine when it comes.",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/06/san-francsico-election-june-2-daniel-lurie-prop-d-alan-wong-stephen-sherrill-labor/",
-      "discoveryUrl": "https://missionlocal.org/2026/06/san-francsico-election-june-2-daniel-lurie-prop-d-alan-wong-stephen-sherrill-labor/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "Mission Local",
+      "id": "mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-respo",
+      "title": "Mayor Lurie Presents Responsible Budget Strengthening Social Safety Net In Response To Significant Federal Cuts, Advancing San Francisco&#x27;s Economic Recovery | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-response-to-significant-federal-cuts-advancing-san-franciscos-economic-recovery/",
       "publishedAt": "2026-06-01",
       "topic": "homelessness",
-      "summary": "If voters rebuke Lurie on Prop. D and dump one or both of the sitting supervisors, a mayor who has walked on water would have to learn to swim",
+      "summary": "Balanced Budget Invests in Keeping Families on Healthcare and Food Assistance, Preventing Homelessness, Preparing for Additional Federal Cuts to Housing and Homelessness; Prioritizes Core Services to Advance Broad, Durable Economic Recovery With Investments in Public Safety, Clean and Safe Streets; Closes $642 Million Deficit While Reducing City’s Ongoing Structural Deficit by Approximately $300 Million",
       "confidence": 0.9,
-      "excerpt": "My fashionable friend has identified the sleek, grey jacket Mayor Daniel Lurie has sported on his Instagram forays through San Francisco as a Brunello Cucinelli gray cashmere (MSRP: more than my car). As outerwear goes, you could do worse. But it doesn’t offer much in the way of coattails . Tuesday’s election will demonstrate whether Lurie’s political coattails are more sizable than his actual ones. Not halfway through his first term, the mayor’s polling numbers are on par with Joe Montana’s circa 1988 . He’s not just liked — he’s well-liked. But it’s not yet clear how much of the mayor’s popularity is transferable. Joe Montana, you may recall, urged us to buy Nuprin. We didn’t . Lurie, meanwhile, has urged us not to buy Proposition D, which would tax billion-dollar companies and fund social services to make up for Trump’s federal budget cuts. He has also urged voters to elect his appointee in District 4, Alan Wong, and Lurie’s donor network has been active propping up the Sunset supe. Both races are critical for San Francisco organized labor. If Prop. D fails — or if the Chamber of Commerce-spun measure designed to tank it, Prop.C, gets more votes — the city will have to deal with perhaps $300 million yearly failing to materialize in the general fund. This would likely lead to a reduction in services and the mayor pushing for even more layoffs, which is why passing Prop. D has become the raison d'être for much of city labor. Numerous city observers foresee that some manner of labor strife is on San Francisco’s horizon in the not-too-distant future. Whether that strike comes as a flex after labor beats back Lurie and a billionaire-backed campaign or comes out of a position of weakness and anger after losing that campaign is to be determined. It brings to mind the lin...",
+      "excerpt": "NEWS Mayor Lurie Presents Responsible Budget Strengthening Social Safety Net In Response To Significant Federal Cuts, Advancing San Francisco&#x27;s Economic Recovery Office of the Mayor Balanced Budget Invests in Keeping Families on Healthcare and Food Assistance, Preventing Homelessness, Preparing for Additional Federal Cuts to Housing and Homelessness; Prioritizes Core Services to Advance Broad, Durable Economic Recovery With Investments in Public Safety, Clean and Safe Streets; Closes $642 Million Deficit While Reducing City’s Ongoing Structural Deficit by Approximately $300 Million June 1, 2026 SAN FRANCISCO – Mayor Daniel Lurie today presented his $16.9 billion proposed budget for Fiscal Years (FY) 2026-2027 and 2027-2028, strengthening the city’s social safety net in the face of hundreds of millions of dollars of federal cuts to healthcare, while protecting core services that deliver safe, clean streets and advance San Francisco’s economic recovery. The budget closes a $642 million two-year deficit and reduces the city’s structural deficit by approximately $300 million, bringing down ongoing spending by hiring more strategically and making city services more effective and responsive. Mayor Lurie’s proposed budget builds on the work he has done in his first year and a half in office to make San Francisco’s streets safer and cleaner, foster a broad and durable economic comeback, and protect the city’s social safety net. Crime was down nearly 30% in Mayor Lurie’s first year in office, and it continues to decrease in 2026. Unsheltered homelessness is at its lowest level in 15 years , as the administration has transformed the city’s homelessness and behavioral health response. Through Mayor Lurie’s Family Opportunity Agenda, San Francisco will be the first city in...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "sf-city-jobs-are-safe-this-year-next-year-is-another-story-2026-06-01",
+      "title": "Lurie’s budget spares city jobs — but grant funding cuts may lead to nonprofit layoffs",
+      "sourceType": "news",
+      "url": "https://sfstandard.com/2026/06/01/daniel-lurie-budget-2026-city-layoffs-deficit-san-francisco/",
+      "discoveryUrl": "https://sfstandard.com/2026/06/01/daniel-lurie-budget-2026-city-layoffs-deficit-san-francisco/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "San Francisco Standard",
+      "publishedAt": "2026-06-01",
+      "topic": "homelessness",
+      "summary": "The mayor avoided the layoffs unions feared, thanks to a surprise surplus and a hiring freeze. A $1B deficit by 2029 may not be so kind.",
+      "confidence": 0.9,
+      "excerpt": "San Francisco City Hall jobs are safe, for now — but next year, not so much. Mayor Daniel Lurie released his annual proposed budget on Monday, aiming to close a $643 million deficit. Despite devastating federal disinvestment and a still-recovering economy, additional layoffs did not materialize this year. The budget cuts some social safety net programs as the city seeks to offset expected federal reductions that threaten to leave tens of thousands of San Franciscans without health care and food stamps. “Today, I am proud to submit a balanced budget that is fiscally responsible and strengthens our social safety net, so even in the face of federal cuts, San Franciscans know they can count on this city,” Lurie said in livestreamed remarks to the city. It’s not all roses: the budget slashes grant funding to nonprofit services focused on helping the poorest citizens, immigrants, and communities of color. The funding loss may result in as many as 1,050 layoffs among nonprofit service providers, advocates said Monday. Earlier this year, dire budget projections led labor unions to brace for layoffs among the city’s 34,000 employees in Lurie’s budget proposal, and in April, the mayor handed out a small set of pink slips to 127 employees. Speaking to The Standard last month, SEIU 1021, which represents one of the largest swaths of city employees, warned that strikes next year could “shut down the city.” In a statement, SEIU 1021 San Francisco Vice President Kristin Hardy said, “We are pleased and relieved to see that Mayor Lurie did not include further layoffs in the next fiscal year’s budget. San Francisco is at a pivotal moment in its recovery, and we cannot afford to go backward.” Still, she added, the union continues to fight against nonprofit reductions, and for Lurie to...",
       "scrapeStatus": "scraped"
     },
     {
@@ -767,18 +782,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-first-lady-prowda-invite-san-franciscans-to-sign-up-for-citywide-day",
-      "title": "Mayor Lurie, First Lady Prowda Invite San Franciscans To Sign Up For Citywide Day Of Service | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-first-lady-prowda-invite-san-franciscans-to-sign-up-for-citywide-day-of-service/",
-      "publishedAt": "2026-05-29",
-      "topic": "public_safety",
-      "summary": "One City Day Service Projects Across All 11 Supervisorial Districts Invite Neighbors Across City to Connect, Serve Their Communities; Continues Mayor Lurie and First Lady Prowda’s Work to Bring Service, Accountability, Change to City Hall",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie, First Lady Prowda Invite San Franciscans To Sign Up For Citywide Day Of Service Office of the Mayor One City Day Service Projects Across All 11 Supervisorial Districts Invite Neighbors Across City to Connect, Serve Their Communities; Continues Mayor Lurie and First Lady Prowda’s Work to Bring Service, Accountability, Change to City Hall May 29, 2026 SAN FRANCISCO – Mayor Daniel Lurie and First Lady Becca Prowda today invited San Franciscans to sign up to participate in “ One City Day ,” a citywide day of service on July 11, 2026, that will build connection and strengthen civic pride. Sign-ups to volunteer on One City Day are open and include more than 150 projects and close to 100 project hosts across all 11 supervisorial districts. The day of service builds on Mayor Lurie and First Lady Prowda’s work to bring service, accountability, and change to City Hall—values that have guided both of their personal and professional journeys. The mayor and first lady first met while both working at the Robin Hood Foundation, a nonprofit dedicated to fighting poverty in New York City. Their shared commitment to serving others has shaped their lives and public service, with Mayor Lurie founding Tipping Point Community in 2005 to fight “One City Day will be an opportunity for San Franciscans to come together and give back to the city we all love,” said Mayor Lurie . “Starting May 29, Becca and I are excited to invite people who live, work, and play in San Francisco to sign up to volunteer for projects that will make a difference in their communities. We’re looking forward to this day of service and coming together across neighborhoods to build a stronger San Francisco together.” “Daniel and I have built our lives around service—it’s how we met, how we raise our ki...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "mayor-lurie-releases-budget-next-week-here-s-how-trump-royally-screwed-it-2026-0",
       "title": "Mayor Lurie releases his budget next week. Here’s how Trump royally screwed it",
       "sourceType": "news",
@@ -791,6 +794,18 @@
       "summary": "San Francisco’s $600 million deficit would’ve been halved without D.C.’s policy changes, and that’s not the end of it.",
       "confidence": 0.9,
       "excerpt": "More and more, San Francisco’s 2026 budget process is resembling a slasher flick. Shadows are dancing across City Hall’s marble-wrought grand staircase, with President Donald Trump threatening to leap into view, ready to gouge hundreds of millions from the city’s coffers. The threat is real: Roughly $2 billion of San Francisco’s $16 billion budget flows from Washington, funding hundreds of grant programs across nearly every city department. Trump has already started turning off the tap. With a $643 million deficit looming, Mayor Daniel Lurie has days to reveal how the city absorbs the pain — and who feels it most. Trump has already made real cuts to healthcare. And while San Francisco has fought back — filing more than a dozen lawsuits against the administration and winning most of them so far — a single appellate loss could imperil billions. Fear that Trump may further upend any number of federal revenue streams undergirds every hard fiscal choice in front of Lurie. On June 1, the mayor will propose his draft budget to the Board of Supervisors and voters, revealing the true extent of the bloodletting. Trump’s policy choices are projected to disenroll up to 45,000 San Franciscans from healthcare and tens of thousands from food stamps. To protect those programs, Lurie is trimming across all 55 city departments rather than gutting public health and human services, his budget director, Sophia Kittler, told The Standard. “This is a loss to the whole city,” Kittler said. “We’re treating it as a citywide deficit.” The impacts are already here. Government layoffs loom, and nonprofit social safety-net programs know they face the chopping block. In anticipation of deep layoffs, labor has signaled a historic general strike is possible next year. In the meantime, tens of thousa...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-first-lady-prowda-invite-san-franciscans-to-sign-up-for-citywide-day",
+      "title": "Mayor Lurie, First Lady Prowda Invite San Franciscans To Sign Up For Citywide Day Of Service | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-first-lady-prowda-invite-san-franciscans-to-sign-up-for-citywide-day-of-service/",
+      "publishedAt": "2026-05-29",
+      "topic": "public_safety",
+      "summary": "One City Day Service Projects Across All 11 Supervisorial Districts Invite Neighbors Across City to Connect, Serve Their Communities; Continues Mayor Lurie and First Lady Prowda’s Work to Bring Service, Accountability, Change to City Hall",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie, First Lady Prowda Invite San Franciscans To Sign Up For Citywide Day Of Service Office of the Mayor One City Day Service Projects Across All 11 Supervisorial Districts Invite Neighbors Across City to Connect, Serve Their Communities; Continues Mayor Lurie and First Lady Prowda’s Work to Bring Service, Accountability, Change to City Hall May 29, 2026 SAN FRANCISCO – Mayor Daniel Lurie and First Lady Becca Prowda today invited San Franciscans to sign up to participate in “ One City Day ,” a citywide day of service on July 11, 2026, that will build connection and strengthen civic pride. Sign-ups to volunteer on One City Day are open and include more than 150 projects and close to 100 project hosts across all 11 supervisorial districts. The day of service builds on Mayor Lurie and First Lady Prowda’s work to bring service, accountability, and change to City Hall—values that have guided both of their personal and professional journeys. The mayor and first lady first met while both working at the Robin Hood Foundation, a nonprofit dedicated to fighting poverty in New York City. Their shared commitment to serving others has shaped their lives and public service, with Mayor Lurie founding Tipping Point Community in 2005 to fight “One City Day will be an opportunity for San Franciscans to come together and give back to the city we all love,” said Mayor Lurie . “Starting May 29, Becca and I are excited to invite people who live, work, and play in San Francisco to sign up to volunteer for projects that will make a difference in their communities. We’re looking forward to this day of service and coming together across neighborhoods to build a stronger San Francisco together.” “Daniel and I have built our lives around service—it’s how we met, how we raise our ki...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1515,16 +1530,6 @@
       "topic": "city_government",
       "summary": "San Francisco Mayor Daniel Lurie, city leaders announce 1-day ceasefire to curb gun violence, hours before Mission shooting &nbsp;&nbsp; ABC7 San Francisco",
       "confidence": 0.68
-    },
-    {
-      "id": "san-francisco-leaders-community-announce-24-hour-violence-ceasefire-nbc-bay-area",
-      "title": "San Francisco leaders, community announce 24-hour violence ceasefire - NBC Bay Area",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZ05YdEtGaHdhUHNJSzVYUW5mOHhRR25oT3dYM1VQU1d5RUh6bEczVWpQazdvRzI0aHR3SlNHbE1neXVQenBTWGFleS1USURXYWQ2R1lMRS0zN3VHbi1WakhzYjRGSlBCZURheElQazk3ZmJxdFlFOVVhcE9md1V5SEM0U1dUUdIBjgFBVV95cUxQT01QdUM3VVBSSDZ1RzF6cG9reklyOC04RkpIeFUtaWplekZ5Z282ZjdBVVJNWThPWTFuNEFlb2dKRHk4cVd5b1FCN0VtTmdwb29sdmtoSlloRjI3eVNqOUJiRk5kRlhkTjlBdFlvbVNweDBXOEtCSlBIQVVGQjJ5YVM3b1ZRcHc2N1lNdGVn?oc=5",
-      "publishedAt": "2026-04-09",
-      "topic": "transit",
-      "summary": "San Francisco leaders, community announce 24-hour violence ceasefire &nbsp;&nbsp; NBC Bay Area",
-      "confidence": 0.78
     }
   ],
   "promises": [
@@ -1640,7 +1645,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
+      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -1993,106 +1998,106 @@
       "topic": "homelessness",
       "verdict": "unverified",
       "confidence": 0.68,
-      "evidencePlan": "Verify against official HUD Point-in-Time count data 2011-2026, methodology documentation, and independent analysis"
+      "evidencePlan": "Verify against official HUD Point-in-Time count data 2011-2026 and methodology documentation"
     },
     {
-      "id": "claim-tourism-record-breaking",
+      "id": "claim-tourism-record",
       "claim": "2026 tourism spending forecasted to cross pre-pandemic record",
       "sourceId": "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h",
       "topic": "economy",
       "verdict": "partially_verified",
-      "confidence": 0.8,
-      "evidencePlan": "SF Travel forecast cited May 2026; verify final 2026 visitor spending vs 2019 baseline when published"
+      "confidence": 0.82,
+      "evidencePlan": "SF Travel forecast May 2026; verify final 2026 visitor spending vs 2019 baseline"
     },
     {
-      "id": "claim-net-403-shelter-beds",
-      "claim": "Net increase of only 403 shelter beds by April 2026; projected to drop to 303 by 2028",
+      "id": "claim-net-403-beds",
+      "claim": "Net increase of only 403 shelter beds by April 2026, projected 303 by 2028",
       "sourceId": "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-",
       "topic": "homelessness",
       "verdict": "partially_verified",
-      "confidence": 0.82,
-      "evidencePlan": "Mission Local analysis May 2026; verify against HSH shelter capacity reports and official bed-count data"
+      "confidence": 0.84,
+      "evidencePlan": "Mission Local analysis May 2026; verify through HSH shelter capacity reports"
     },
     {
-      "id": "claim-crime-down-30-percent",
+      "id": "claim-crime-down-30",
       "claim": "Overall crime down nearly 30% under Lurie administration",
       "sourceId": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
       "topic": "public_safety",
       "verdict": "partially_verified",
-      "confidence": 0.84,
-      "evidencePlan": "Official claim May 2025; verify through SFPD crime statistics and independent analysis"
+      "confidence": 0.82,
+      "evidencePlan": "Official May 2025 claim; verify through SFPD crime statistics 2024-2025"
     },
     {
-      "id": "claim-car-break-ins-22-year-low",
+      "id": "claim-car-break-ins-low",
       "claim": "Car break-ins at 22-year low, homicides at lowest level since 1954",
       "sourceId": "mayor-lurie-appoints-steven-betz-as-chief-of-public-safety-https-www-sf-gov-news",
       "topic": "public_safety",
       "verdict": "partially_verified",
       "confidence": 0.86,
-      "evidencePlan": "Official claims April 2026; verify through SFPD vehicle break-in and homicide trend data 2002-2026, 1954-2026"
+      "evidencePlan": "Official April 2026 claim; verify through SFPD vehicle break-in and homicide data"
     },
     {
-      "id": "claim-breaking-cycle-37-5m",
+      "id": "claim-breaking-cycle-37m",
       "claim": "Breaking the Cycle Fund launched with $37.5M in private seed funding",
       "sourceId": "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s",
       "topic": "homelessness",
       "verdict": "verified",
       "confidence": 0.92,
-      "evidencePlan": "Official announcement May 2025; track disbursement and accountability over time"
+      "evidencePlan": "Official announcement May 2025; track disbursement and impact over time"
     },
     {
-      "id": "claim-affordable-housing-fund-doubling",
-      "claim": "Affordable housing funding will more than double from $52M to $125M annually",
+      "id": "claim-housing-fund-doubling",
+      "claim": "Affordable housing funding to double from $52M to $125M annually",
       "sourceId": "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
       "topic": "housing",
       "verdict": "partially_verified",
-      "confidence": 0.85,
-      "evidencePlan": "Legislation introduced May 2026; track Board vote, November 2026 ballot outcome, actual budget allocation"
+      "confidence": 0.84,
+      "evidencePlan": "Legislation introduced May 2026; track Board vote and November ballot outcome"
     },
     {
       "id": "claim-permit-improvements",
-      "claim": "PermitSF cut Fire Department wait times in half and reduced Permit Center trips by 15%",
+      "claim": "PermitSF cut Fire wait times 50% and Permit Center trips 15%",
       "sourceId": "mayor-lurie-signs-legislation-to-make-it-easier-to-throw-block-parties-and-neigh",
       "topic": "city_government",
       "verdict": "partially_verified",
-      "confidence": 0.83,
-      "evidencePlan": "Official portal announcement May 2026; verify through department baseline vs post-launch metrics"
+      "confidence": 0.82,
+      "evidencePlan": "Official May 2026 portal announcement; verify through department baseline metrics"
     },
     {
-      "id": "claim-convention-bookings-up-69-percent",
-      "claim": "Hotel occupancy from Moscone Center conferences up 69% since 2024",
+      "id": "claim-moscone-bookings-up",
+      "claim": "Hotel occupancy from Moscone conferences up 69% since 2024",
       "sourceId": "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h",
       "topic": "economy",
       "verdict": "partially_verified",
-      "confidence": 0.82,
-      "evidencePlan": "SF Travel data cited May 2026; verify through hotel occupancy and Moscone Center booking records"
+      "confidence": 0.8,
+      "evidencePlan": "SF Travel data May 2026; verify through hotel occupancy and Moscone records"
     },
     {
-      "id": "claim-sfpd-largest-recruit-class",
+      "id": "claim-largest-recruit-class",
       "claim": "SFPD graduated largest recruit class since 2017, first net staffing increase in years",
       "sourceId": "mayor-lurie-appoints-steven-betz-as-chief-of-public-safety-https-www-sf-gov-news",
       "topic": "public_safety",
       "verdict": "partially_verified",
       "confidence": 0.86,
-      "evidencePlan": "Official April 2026 claim; verify through SFPD staffing data and academy graduation records"
+      "evidencePlan": "Official April 2026 claim; verify through SFPD staffing and academy records"
     },
     {
-      "id": "claim-budget-deficit-642m",
-      "claim": "2026 budget closes $642M deficit with minimal layoffs, 400+ vacant positions eliminated",
+      "id": "claim-budget-deficit",
+      "claim": "2026 budget closes $642M deficit with 127 layoffs plus 400+ vacant positions eliminated",
       "sourceId": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
       "topic": "city_government",
       "verdict": "partially_verified",
       "confidence": 0.84,
-      "evidencePlan": "Mission Local reporting June 2026; verify through final budget adoption and actual workforce data"
+      "evidencePlan": "Mission Local June 2026; verify through final budget adoption and workforce data"
     },
     {
-      "id": "claim-stabilization-beds-increase-170-percent",
-      "claim": "Shelters focused on stabilization and treatment increased by 170 percent",
+      "id": "claim-stabilization-beds-170",
+      "claim": "Stabilization and treatment shelters increased by 170 percent",
       "sourceId": "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-",
       "topic": "homelessness",
       "verdict": "partially_verified",
       "confidence": 0.78,
-      "evidencePlan": "Mayor's office count cited May 2026; verify through HSH bed inventory by type with baseline vs current"
+      "evidencePlan": "Mayor's office count May 2026; verify through HSH bed inventory by type with baseline"
     }
   ],
   "metrics": [
@@ -2113,7 +2118,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-11T16:31:10.051Z"
+      "lastRefreshed": "2026-06-11T20:38:52.857Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2132,7 +2137,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-11T16:31:10.051Z"
+      "lastRefreshed": "2026-06-11T20:38:52.857Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2142,13 +2147,74 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": null,
-      "latest": null,
+      "baseline": 292,
+      "latest": 216,
       "direction": "down_is_good",
-      "observations": [],
-      "status": "needs_verified_source",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 292
+        },
+        {
+          "date": "2025-02-01",
+          "value": 274
+        },
+        {
+          "date": "2025-03-01",
+          "value": 342
+        },
+        {
+          "date": "2025-04-01",
+          "value": 275
+        },
+        {
+          "date": "2025-05-01",
+          "value": 273
+        },
+        {
+          "date": "2025-06-01",
+          "value": 301
+        },
+        {
+          "date": "2025-07-01",
+          "value": 239
+        },
+        {
+          "date": "2025-08-01",
+          "value": 294
+        },
+        {
+          "date": "2025-09-01",
+          "value": 219
+        },
+        {
+          "date": "2025-10-01",
+          "value": 235
+        },
+        {
+          "date": "2025-11-01",
+          "value": 300
+        },
+        {
+          "date": "2025-12-01",
+          "value": 148
+        },
+        {
+          "date": "2026-01-01",
+          "value": 221
+        },
+        {
+          "date": "2026-02-01",
+          "value": 220
+        },
+        {
+          "date": "2026-03-01",
+          "value": 216
+        }
+      ],
+      "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-11T16:31:10.051Z",
+      "lastRefreshed": "2026-06-11T20:38:52.857Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2187,7 +2253,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-11T16:31:10.051Z"
+      "lastRefreshed": "2026-06-11T20:38:52.857Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2279,7 +2345,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-11T16:31:10.051Z"
+      "lastRefreshed": "2026-06-11T20:38:52.857Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2371,7 +2437,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-11T16:31:10.051Z"
+      "lastRefreshed": "2026-06-11T20:38:52.857Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2390,7 +2456,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-11T16:31:10.051Z"
+      "lastRefreshed": "2026-06-11T20:38:52.857Z"
     }
   ],
   "topics": [
@@ -2440,7 +2506,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
+      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -2506,7 +2572,7 @@
       ]
     },
     {
-      "id": "timeline-fentanyl-emergency-powers",
+      "id": "timeline-fentanyl-emergency",
       "date": "2025-02-04",
       "type": "policy",
       "title": "Board passes Fentanyl State of Emergency Ordinance 10-1",
@@ -2518,7 +2584,7 @@
       ]
     },
     {
-      "id": "timeline-integrated-outreach-launch",
+      "id": "timeline-integrated-outreach",
       "date": "2025-03-01",
       "type": "initiative",
       "title": "Integrated neighborhood-based street outreach model launched",
@@ -2529,7 +2595,7 @@
       ]
     },
     {
-      "id": "timeline-stabilization-center-opens",
+      "id": "timeline-stabilization-center",
       "date": "2025-04-01",
       "type": "initiative",
       "title": "24/7 police-friendly stabilization center opened",
@@ -2540,7 +2606,7 @@
       ]
     },
     {
-      "id": "timeline-breaking-cycle-fund-launch",
+      "id": "timeline-breaking-cycle-fund",
       "date": "2025-05-08",
       "type": "initiative",
       "title": "Breaking the Cycle Fund launched with $37.5M private seed funding",
@@ -2562,10 +2628,10 @@
       ]
     },
     {
-      "id": "timeline-shelter-beds-deadline",
+      "id": "timeline-shelter-deadline",
       "date": "2025-07-08",
       "type": "milestone",
-      "title": "Six-month shelter bed deadline passes with 403 net beds added (27% of 1,500 goal)",
+      "title": "Six-month shelter bed deadline passes: 403 net beds added (27% of goal)",
       "topic": "homelessness",
       "impact": "major",
       "sourceIds": [
@@ -2573,7 +2639,7 @@
       ]
     },
     {
-      "id": "timeline-union-square-programming",
+      "id": "timeline-union-square",
       "date": "2026-02-10",
       "type": "initiative",
       "title": "Union Square programming launched through summer 2027",
@@ -2584,7 +2650,7 @@
       ]
     },
     {
-      "id": "timeline-charter-reform-filed",
+      "id": "timeline-charter-reform",
       "date": "2026-03-12",
       "type": "policy",
       "title": "Charter reform ballot measures filed with Sup. Mandelman",
@@ -2595,7 +2661,7 @@
       ]
     },
     {
-      "id": "timeline-climate-plan-update",
+      "id": "timeline-climate-plan",
       "date": "2026-04-20",
       "type": "policy",
       "title": "Five-year Climate Action Plan update released",
@@ -2639,18 +2705,7 @@
       ]
     },
     {
-      "id": "timeline-police-legislation",
-      "date": "2026-05-11",
-      "type": "policy",
-      "title": "Police support legislation signed",
-      "topic": "public_safety",
-      "impact": "moderate",
-      "sourceIds": [
-        "mayor-lurie-signs-legislation-to-support-san-francisco-police-officers-continue-"
-      ]
-    },
-    {
-      "id": "timeline-affordable-housing-fund-deal",
+      "id": "timeline-housing-fund",
       "date": "2026-05-19",
       "type": "policy",
       "title": "Mayor and Sup. Melgar announce $125M annual affordable housing fund expansion",
@@ -2662,7 +2717,7 @@
       ]
     },
     {
-      "id": "timeline-block-party-legislation",
+      "id": "timeline-block-party",
       "date": "2026-05-20",
       "type": "policy",
       "title": "Legislation signed to streamline block party permits",
@@ -2671,41 +2726,52 @@
       "sourceIds": [
         "mayor-lurie-signs-legislation-to-make-it-easier-to-throw-block-parties-and-neigh"
       ]
+    },
+    {
+      "id": "timeline-budget-final",
+      "date": "2026-06-01",
+      "type": "policy",
+      "title": "$16.9B budget proposal closes $642M deficit with 550 total job cuts",
+      "topic": "city_government",
+      "impact": "major",
+      "sourceIds": [
+        "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j"
+      ]
     }
   ],
   "majorNews": [
     {
       "id": "mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-respo",
-      "headline": "Mayor Lurie Presents Responsible Budget Strengthening Social Safety Net In Response To Significant Federal Cuts, Advancing San Francisco&#x27;s Economic Recovery | SF.gov",
+      "headline": "Mayor Lurie Presents $16.9B Budget Closing $642M Deficit While Strengthening Social Safety Net",
       "url": "https://www.sf.gov/news-mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-response-to-significant-federal-cuts-advancing-san-franciscos-economic-recovery/",
       "publishedAt": "2026-06-01",
       "publisher": "SF.gov",
       "topic": "homelessness",
-      "whyItMatters": "Balanced Budget Invests in Keeping Families on Healthcare and Food Assistance, Preventing Homelessness, Preparing for Additional Federal Cuts to Housing and Homelessness; Prioritizes Core Services to Advance Broad, Durable Economic Recovery With Investments in Public Safety, Clean and Safe Streets; Closes $642 Million Deficit While Reducing City’s Ongoing Structural Deficit by Approximately $300 Million",
+      "whyItMatters": "Lurie's proposed two-year budget addresses San Francisco's structural deficit while responding to federal healthcare cuts that threaten tens of thousands of residents. The budget avoids mass layoffs by eliminating 414 vacant positions and prioritizes public safety and homelessness services—defining his administration's fiscal approach and testing his ability to maintain city services amid federal funding uncertainty.",
       "sourceId": "mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-respo",
-      "selectionMethod": "fallback"
+      "selectionMethod": "anthropic"
+    },
+    {
+      "id": "alan-wong-the-candidate-didn-t-win-the-election-alan-wong-mayor-lurie-s-ally-did",
+      "headline": "Mayor Lurie's Ally Alan Wong Wins District 4 Supervisor Race by 70-30 Margin",
+      "url": "https://missionlocal.org/2026/06/sf-daniel-lurie-alan-wong-election/",
+      "publishedAt": "2026-06-04",
+      "publisher": "Mission Local",
+      "topic": "city_government",
+      "whyItMatters": "Wong's decisive victory—powered by nearly $1 million in spending from Lurie-aligned PACs—solidifies the mayor's moderate majority on the Board of Supervisors and demonstrates his ability to transfer political capital to allies. The win gives Lurie a reliable vote for his policy agenda and suggests voters are aligning with the mayor's vision for the city, potentially reshaping San Francisco's political landscape.",
+      "sourceId": "alan-wong-the-candidate-didn-t-win-the-election-alan-wong-mayor-lurie-s-ally-did",
+      "selectionMethod": "anthropic"
     },
     {
       "id": "mayor-lurie-announces-record-low-number-of-tent-encampments-large-vehicles-on-sa",
-      "headline": "Mayor Lurie Announces Record-Low Number Of Tent Encampments, Large Vehicles On San Francisco Streets | SF.gov",
+      "headline": "San Francisco Reaches Record-Low Homeless Encampments for Fourth Consecutive Quarter",
       "url": "https://www.sf.gov/news-mayor-lurie-announces-record-low-number-of-tent-encampments-large-vehicles-on-san-francisco-streets/",
       "publishedAt": "2026-06-09",
       "publisher": "SF.gov",
       "topic": "homelessness",
-      "whyItMatters": "Quarterly Count Marks Record-Low Number of Encampments for the Fourth Time and Finds Number of Tents and Structures Down 53% Under Lurie Administration; New RESET Center Has Served Hundreds of People in First Month, With Nearly One-Third Agreeing to Accept Care and Police Officers Returning to Streets in Under 20 Minutes; Follows San Francisco Reaching Lowest Level of Unsheltered Homelessness in 15 Years Under Mayor Lurie’s Breaking the Cycle Plan",
+      "whyItMatters": "With only 115 tents and structures counted citywide—down 53% under Lurie's administration—and unsheltered homelessness at 15-year lows, the mayor's 'Breaking the Cycle' strategy is producing measurable results. The new RESET Center has processed 500 people in its first month with 29% accepting ongoing care, demonstrating Lurie's coordinated approach between public safety and health services is reshaping the city's most visible crisis.",
       "sourceId": "mayor-lurie-announces-record-low-number-of-tent-encampments-large-vehicles-on-sa",
-      "selectionMethod": "fallback"
-    },
-    {
-      "id": "amid-opposition-california-regulators-approve-major-changes-to-cap-and-trade-pro",
-      "headline": "Amid Opposition, California Regulators Approve Major Changes To Cap-And-Trade Program",
-      "url": "https://www.kqed.org/news/12085401/amid-opposition-california-regulators-approve-major-changes-to-cap-and-trade-program",
-      "publishedAt": "2026-05-30",
-      "publisher": "KQED",
-      "topic": "climate",
-      "whyItMatters": "Climate, transportation and affordable housing advocates worry the changes could result in a loss of funding.",
-      "sourceId": "amid-opposition-california-regulators-approve-major-changes-to-cap-and-trade-pro",
-      "selectionMethod": "fallback"
+      "selectionMethod": "anthropic"
     }
   ],
   "campaignPromiseSeed": [
