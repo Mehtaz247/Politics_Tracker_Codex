@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-11T05:01:30.089Z",
+    "lastUpdated": "2026-06-11T11:01:14.595Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -310,6 +310,21 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "supe-melgar-delays-proposed-smoking-ban-at-sf-bar-patios-following-backlash-2026",
+      "title": "Supe Melgar Delays Proposed Smoking Ban at SF Bar Patios Following Backlash",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/06/10/supe-melgar-delays-proposed-smoking-ban-at-sf-bar-patios-following-backlash/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-06-10",
+      "topic": "economy",
+      "summary": "After facing widespread outrage over a proposed ban on smoking at bar patios in SF, Supervisor Melgar has put the plan on hold while she and Mayor Lurie continue discussions with the community.",
+      "confidence": 0.8,
+      "excerpt": "10 June 2026 / SF Politics / Leanne Maxwell Supe Melgar Delays Proposed Smoking Ban at SF Bar Patios Following Backlash --> After facing widespread outrage over a proposed ban on smoking at bar patios in SF, Supervisor Melgar has put the plan on hold while she and Mayor Lurie continue discussions with the community. Supervisor Myrna Melgar indefinitely paused a proposed ordinance that would have banned smoking on the outdoor patios of neighborhood bars and taverns, citing the need for ongoing discussions with business owners and other city leaders, as KQED reports . Melgar, who’s chair of the Land Use and Transportation Committee, was set to discuss the legislation at a committee meeting Monday. “It’s clear that we need to do a little more work,” Melgar said Monday, according to SF Examiner . “I have accepted the recommendations from a couple of my colleagues and the mayor to help with some amendments and some process issues.” As SFist reported in April, the legislation would have extended existing indoor smoking restrictions to outdoor bar seating areas, similar to rules already in place at restaurants, hotels, arenas, and other venues. Supporters argue it would close a gap in current tobacco laws and reduce secondhand smoke exposure for patrons and workers, noting that several Bay Area cities, including Oakland and San Jose, already restrict smoking in outdoor dining and drinking spaces. The Examiner reports that public health advocates say most patrons comply when rules are clear and signage is in place. “I would love to be able to enjoy a drink at an outdoor patio without choking on toxic cigarette smoke,” said Ruth Malone, a registered nurse, per KQED. “Customers aside, it is truly not okay to force bar employees to be exposed to secondhand smoke just to do thei...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "mayor-lurie-announces-second-season-of-free-movies-in-union-square-https-www-sf-",
       "title": "Mayor Lurie Announces Second Season Of Free Movies In Union Square | SF.gov",
       "sourceType": "official",
@@ -331,43 +346,6 @@
       "summary": "Private Funding Through Downtown Development Corporation Will Help Transform and Energize Critical Corridor Near Union Square; Delivers on Key Commitment in Mayor Lurie’s “Heart of the City” Plan to Transform Powell Street into a Vibrant, Dynamic Public Space and Drive Downtown’s Recovery",
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Signs Legislation Advancing $14.5 Million Grant For Powell Street Renovation To Accelerate San Francisco&#x27;s Economic Comeback Office of the Mayor Private Funding Through Downtown Development Corporation Will Help Transform and Energize Critical Corridor Near Union Square; Delivers on Key Commitment in Mayor Lurie’s “Heart of the City” Plan to Transform Powell Street into a Vibrant, Dynamic Public Space and Drive Downtown’s Recovery June 10, 2026 SAN FRANCISCO – Mayor Daniel Lurie today signed legislation allowing the city to accept $14.5 million in private funding to revitalize the Powell Street corridor, connecting the cable car turnaround at Market Street to historic Union Square and accelerating downtown’s revitalization. This funding from the San Francisco Downtown Development Corporation (DDC) will support the Powell Street Improvement Project, a public‑private partnership designed to elevate the pedestrian experience, enhance safety and cleanliness, and strengthen the corridor as a signature destination and vibrant commercial hub for both visitors and locals. The revitalization of Powell Street delivers on a key commitment in Mayor Lurie’s “ Heart of the City ” plan to make downtown San Francisco a neighborhood where people live, work, play, and learn. Powell Street and the broader area around Union Square and Yerba Buena have seen retail activity rebound in recent months, with a mix of locally grown small businesses and large retail brands such as The RealReal, AT&T , and Nintendo . Clean and safe streets have been a central part of Mayor Lurie’s downtown revitalization strategy—he established the San Francisco Police Department Hospitality Zone Task Force within one month of taking office, and overall crime dropped more than 35% last year...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "supe-melgar-delays-proposed-smoking-ban-at-sf-bar-patios-following-backlash-2026",
-      "title": "Supe Melgar Delays Proposed Smoking Ban at SF Bar Patios Following Backlash",
-      "sourceType": "news",
-      "url": "https://sfist.com/2026/06/10/supe-melgar-delays-proposed-smoking-ban-at-sf-bar-patios-following-backlash/",
-      "discoveryUrl": "https://sfist.com/rss/",
-      "discoverySource": "SFist",
-      "publisher": "SFist",
-      "publishedAt": "2026-06-10",
-      "topic": "transit",
-      "summary": "After facing widespread outrage over a proposed ban on smoking at bar patios in SF, Supervisor Melgar has put the plan on hold while she and Mayor Lurie continue discussions with the community.",
-      "confidence": 0.78
-    },
-    {
-      "id": "mayor-daniel-lurie-breaks-ground-on-transformation-of-chinatown-x27-s-historic-p",
-      "title": "Mayor Daniel Lurie Breaks Ground On Transformation Of Chinatown&#x27;s Historic Portsmouth Square | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-daniel-lurie-breaks-ground-on-transformation-of-chinatowns-historic-portsmouth-square/",
-      "publishedAt": "2026-06-09",
-      "topic": "economy",
-      "summary": "$73 Million Investment, Community-Led Project Will Upgrade Chinatown’s “Living Room” With New Community Clubhouse, Play Areas, and Event Space; Continues Mayor Lurie’s Work Under Family Opportunity Agenda to Provide Vibrant, Welcome Public Spaces for Families",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Daniel Lurie Breaks Ground On Transformation Of Chinatown&#x27;s Historic Portsmouth Square Office of the Mayor $73 Million Investment, Community-Led Project Will Upgrade Chinatown’s “Living Room” With New Community Clubhouse, Play Areas, and Event Space; Continues Mayor Lurie’s Work Under Family Opportunity Agenda to Provide Vibrant, Welcome Public Spaces for Families June 9, 2026 SAN FRANCISCO – Mayor Daniel Lurie today broke ground on the Portsmouth Square Improvement Project, a $73 million investment in Chinatown that will transform the neighborhood’s historic public square with a new community clubhouse, expanded play areas, flexible event space, and more room for residents to gather. Known as Chinatown’s “Living Room,” Portsmouth Square is San Francisco’s oldest public square and one of San Francisco’s most important historic sites. The square has been at the center of San Francisco&#x27;s story since the city&#x27;s earliest days, serving as the site of California&#x27;s first public school and as a gathering place for generations of residents at the heart of Chinatown. The project builds on Mayor Lurie’s work to provide dynamic, accessible public spaces for San Francisco’s families and young people, while bringing down the costs of housing, childcare, education, food, healthcare, and transportation through his Family Opportunity Agenda . Mayor Lurie has marked significant milestones for street safety projects in Mission Rock and on Twin Peaks Boulevard , following significant work to revitalize the city’s eastern waterfront, including through the expansion of the India Basin Waterfront Park . Mayor Lurie has also leveraged public spaces to drive the city’s economic recovery, bringing more free entertainment including a free concert series returning...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-announces-record-low-number-of-tent-encampments-large-vehicles-on-sa",
-      "title": "Mayor Lurie Announces Record-Low Number Of Tent Encampments, Large Vehicles On San Francisco Streets | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-announces-record-low-number-of-tent-encampments-large-vehicles-on-san-francisco-streets/",
-      "publishedAt": "2026-06-09",
-      "topic": "homelessness",
-      "summary": "Quarterly Count Marks Record-Low Number of Encampments for the Fourth Time and Finds Number of Tents and Structures Down 53% Under Lurie Administration; New RESET Center Has Served Hundreds of People in First Month, With Nearly One-Third Agreeing to Accept Care and Police Officers Returning to Streets in Under 20 Minutes; Follows San Francisco Reaching Lowest Level of Unsheltered Homelessness in 15 Years Under Mayor Lurie’s Breaking the Cycle Plan",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Announces Record-Low Number Of Tent Encampments, Large Vehicles On San Francisco Streets Office of the Mayor Quarterly Count Marks Record-Low Number of Encampments for the Fourth Time and Finds Number of Tents and Structures Down 53% Under Lurie Administration; New RESET Center Has Served Hundreds of People in First Month, With Nearly One-Third Agreeing to Accept Care and Police Officers Returning to Streets in Under 20 Minutes; Follows San Francisco Reaching Lowest Level of Unsheltered Homelessness in 15 Years Under Mayor Lurie’s Breaking the Cycle Plan June 9, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced that San Francisco has reached a record-low number of tent encampments on city streets for the fourth time during his administration. The city has also reached a record-low number of large vehicles since the city started counting in 2018, dropping 31% from the last count in February, according to the latest quarterly tent count conducted by the Department of Emergency Management (DEM). Mayor Lurie also announced new data from the new Rapid Enforcement, Support, Evaluation, and Triage (RESET) Center, which has seen more than 500 admissions in its first month of operations, with nearly one-third accepting a referral to longer-term care. With the RESET Center, San Francisco Police Department (SFPD) officers are getting back on the beat in an average of 19 minutes, much more quickly than in a traditional jail booking process. San Francisco’s continued progress in addressing homelessness follows data from the 2026 Point in Time (PIT) Count that showed unsheltered homelessness at the lowest levels in 15 years , with an 85% decrease in the number of people living in tents and structures and 1,000 fewer people living on the street than there wer...",
       "scrapeStatus": "scraped"
     },
     {
@@ -398,6 +376,30 @@
       "summary": "Mayor Daniel Lurie has not exactly been warmly embraced by everyone in the city&#x27;s LGBTQ+ community in the last week, as Pride Month celebrations begin.",
       "confidence": 0.8,
       "excerpt": "9 June 2026 / SF Politics / Jay Barmann Mayor Daniel Lurie Gets Shouted Down By LGBTQ Protesters at Two Separate Events as Pride Month Kicks Off --> Mayor Daniel Lurie has not exactly been warmly embraced by everyone in the city's LGBTQ+ community in the last week, as Pride Month celebrations begin. Things began awkwardly last week with the official raising of the Rainbow Flag at City Hall. As KTVU reported , Mayor Lurie was heckled by by protesters who were angry about proposed budget cuts affecting grants to LGBTQ-serving organizations in the city — though it appears most of that funding was restored in the mayor's last submitted budget draft. As the Bay Area Reporter reported last week, \"most\" of the proposed cuts to the Mayor's Office of Housing and Community Development, which provides many grants to LGBTQ organizations, were averted, though it remains unclear what is still planned to be cut. Other grants to community organizations, including a grant to the Castro Merchants Association, have been restored, though some healthcare related funding may remain on the chopping block. While Lurie was booed and shouted down at the flag-raising event, he said, \"You want me to wait? Let them have their voice? Hey, this is San Francisco. We expect this.\" According to KTVU, Lurie then said, \"I understand deeply that there is anxiety about the budget. That is why this year we made significant investments in health care, and we will continue to support the organizations doing critical work for the LGBTQ+ community.\" At a second event on Saturday, June 6, celebrating the 90th birthday of Cliff's Variety in the Castro, Lurie was similarly shouted down by a protester when he took the stage. The exchange is documented in the video below, which was posted to TikTok and Instagram,...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-daniel-lurie-breaks-ground-on-transformation-of-chinatown-x27-s-historic-p",
+      "title": "Mayor Daniel Lurie Breaks Ground On Transformation Of Chinatown&#x27;s Historic Portsmouth Square | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-daniel-lurie-breaks-ground-on-transformation-of-chinatowns-historic-portsmouth-square/",
+      "publishedAt": "2026-06-09",
+      "topic": "economy",
+      "summary": "$73 Million Investment, Community-Led Project Will Upgrade Chinatown’s “Living Room” With New Community Clubhouse, Play Areas, and Event Space; Continues Mayor Lurie’s Work Under Family Opportunity Agenda to Provide Vibrant, Welcome Public Spaces for Families",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Daniel Lurie Breaks Ground On Transformation Of Chinatown&#x27;s Historic Portsmouth Square Office of the Mayor $73 Million Investment, Community-Led Project Will Upgrade Chinatown’s “Living Room” With New Community Clubhouse, Play Areas, and Event Space; Continues Mayor Lurie’s Work Under Family Opportunity Agenda to Provide Vibrant, Welcome Public Spaces for Families June 9, 2026 SAN FRANCISCO – Mayor Daniel Lurie today broke ground on the Portsmouth Square Improvement Project, a $73 million investment in Chinatown that will transform the neighborhood’s historic public square with a new community clubhouse, expanded play areas, flexible event space, and more room for residents to gather. Known as Chinatown’s “Living Room,” Portsmouth Square is San Francisco’s oldest public square and one of San Francisco’s most important historic sites. The square has been at the center of San Francisco&#x27;s story since the city&#x27;s earliest days, serving as the site of California&#x27;s first public school and as a gathering place for generations of residents at the heart of Chinatown. The project builds on Mayor Lurie’s work to provide dynamic, accessible public spaces for San Francisco’s families and young people, while bringing down the costs of housing, childcare, education, food, healthcare, and transportation through his Family Opportunity Agenda . Mayor Lurie has marked significant milestones for street safety projects in Mission Rock and on Twin Peaks Boulevard , following significant work to revitalize the city’s eastern waterfront, including through the expansion of the India Basin Waterfront Park . Mayor Lurie has also leveraged public spaces to drive the city’s economic recovery, bringing more free entertainment including a free concert series returning...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-announces-record-low-number-of-tent-encampments-large-vehicles-on-sa",
+      "title": "Mayor Lurie Announces Record-Low Number Of Tent Encampments, Large Vehicles On San Francisco Streets | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-announces-record-low-number-of-tent-encampments-large-vehicles-on-san-francisco-streets/",
+      "publishedAt": "2026-06-09",
+      "topic": "homelessness",
+      "summary": "Quarterly Count Marks Record-Low Number of Encampments for the Fourth Time and Finds Number of Tents and Structures Down 53% Under Lurie Administration; New RESET Center Has Served Hundreds of People in First Month, With Nearly One-Third Agreeing to Accept Care and Police Officers Returning to Streets in Under 20 Minutes; Follows San Francisco Reaching Lowest Level of Unsheltered Homelessness in 15 Years Under Mayor Lurie’s Breaking the Cycle Plan",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Announces Record-Low Number Of Tent Encampments, Large Vehicles On San Francisco Streets Office of the Mayor Quarterly Count Marks Record-Low Number of Encampments for the Fourth Time and Finds Number of Tents and Structures Down 53% Under Lurie Administration; New RESET Center Has Served Hundreds of People in First Month, With Nearly One-Third Agreeing to Accept Care and Police Officers Returning to Streets in Under 20 Minutes; Follows San Francisco Reaching Lowest Level of Unsheltered Homelessness in 15 Years Under Mayor Lurie’s Breaking the Cycle Plan June 9, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced that San Francisco has reached a record-low number of tent encampments on city streets for the fourth time during his administration. The city has also reached a record-low number of large vehicles since the city started counting in 2018, dropping 31% from the last count in February, according to the latest quarterly tent count conducted by the Department of Emergency Management (DEM). Mayor Lurie also announced new data from the new Rapid Enforcement, Support, Evaluation, and Triage (RESET) Center, which has seen more than 500 admissions in its first month of operations, with nearly one-third accepting a referral to longer-term care. With the RESET Center, San Francisco Police Department (SFPD) officers are getting back on the beat in an average of 19 minutes, much more quickly than in a traditional jail booking process. San Francisco’s continued progress in addressing homelessness follows data from the 2026 Point in Time (PIT) Count that showed unsheltered homelessness at the lowest levels in 15 years , with an 85% decrease in the number of people living in tents and structures and 1,000 fewer people living on the street than there wer...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1638,7 +1640,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
+      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -2111,7 +2113,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-11T05:01:29.957Z"
+      "lastRefreshed": "2026-06-11T11:01:14.425Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2130,7 +2132,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-11T05:01:29.957Z"
+      "lastRefreshed": "2026-06-11T11:01:14.425Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2140,13 +2142,74 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": null,
-      "latest": null,
+      "baseline": 292,
+      "latest": 216,
       "direction": "down_is_good",
-      "observations": [],
-      "status": "needs_verified_source",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 292
+        },
+        {
+          "date": "2025-02-01",
+          "value": 274
+        },
+        {
+          "date": "2025-03-01",
+          "value": 342
+        },
+        {
+          "date": "2025-04-01",
+          "value": 275
+        },
+        {
+          "date": "2025-05-01",
+          "value": 273
+        },
+        {
+          "date": "2025-06-01",
+          "value": 301
+        },
+        {
+          "date": "2025-07-01",
+          "value": 239
+        },
+        {
+          "date": "2025-08-01",
+          "value": 294
+        },
+        {
+          "date": "2025-09-01",
+          "value": 219
+        },
+        {
+          "date": "2025-10-01",
+          "value": 235
+        },
+        {
+          "date": "2025-11-01",
+          "value": 300
+        },
+        {
+          "date": "2025-12-01",
+          "value": 148
+        },
+        {
+          "date": "2026-01-01",
+          "value": 221
+        },
+        {
+          "date": "2026-02-01",
+          "value": 220
+        },
+        {
+          "date": "2026-03-01",
+          "value": 216
+        }
+      ],
+      "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-11T05:01:29.957Z",
+      "lastRefreshed": "2026-06-11T11:01:14.425Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2185,7 +2248,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-11T05:01:29.957Z"
+      "lastRefreshed": "2026-06-11T11:01:14.425Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2277,7 +2340,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-11T05:01:29.957Z"
+      "lastRefreshed": "2026-06-11T11:01:14.425Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2369,7 +2432,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-11T05:01:29.957Z"
+      "lastRefreshed": "2026-06-11T11:01:14.425Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2388,7 +2451,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-11T05:01:29.957Z"
+      "lastRefreshed": "2026-06-11T11:01:14.425Z"
     }
   ],
   "topics": [
@@ -2438,7 +2501,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
+      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
