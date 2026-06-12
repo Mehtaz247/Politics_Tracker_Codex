@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-12T05:08:36.097Z",
+    "lastUpdated": "2026-06-12T10:42:27.242Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -911,6 +911,21 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor-",
+      "title": "Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor's Office Leadership Team - SF.gov",
+      "sourceType": "news",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1ROMkNFQThBekRnT2xTQ20zTGxGSDk2b0c0NnhYVTVQTkF5UXhlU2ZDSF8ycE1jZ3NHYUhIMXF5cjA0eWZZNVcyQ0dLMDBnOFhOMnNWMlhOenpxMzhMSC1NLUJYNk1Iek5sMGJqbjBPTmJQOV9uTzR1OUdyWVlNdHdfa2ExMEdlQy1lR2F4MDU0c0MwMFVkNnBhdFljQnZYeHgyMVBxc1RyRnRTaUNGNlFhbzZYMi00WHhPeGlfSld4OUtZN2c?oc=5",
+      "discoverySource": "Google News",
+      "publishedAt": "2026-05-27",
+      "topic": "economy",
+      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
+      "confidence": 0.8,
+      "resolvedFrom": "google_news",
+      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "mayor-lurie-awards-more-than-21-million-in-funding-to-support-workforce-developm",
       "title": "Mayor Lurie Awards More Than $21 Million In Funding To Support Workforce Development, Connect San Franciscans To Good-Paying Jobs | SF.gov",
       "sourceType": "official",
@@ -1532,16 +1547,6 @@
       "topic": "city_government",
       "summary": "Mayor Lurie in Asia: S.F. expanding ties with sister city through arts, science &nbsp;&nbsp; San Francisco Chronicle",
       "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-signs-mou-between-san-francisco-and-shanghai-sf-gov-2026-04-20",
-      "title": "Mayor Lurie Signs MOU Between San Francisco And Shanghai - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWVpmTHVQU3NoVllnQ3FUNmVoYU44UENBNmtKVmF0YjN1dGdBX2Z4Y2R6YWQ1Nm4yMnJSYU9rRHppSThuQnAwT3dOVkM1ODVUb1JlRUhpOU9lVjJOUm1IZjc4N21LYnRGY3V2LWhZNTFTaVVRT0tSZF9zelRCOHBxQVQwWGkzYWM?oc=5",
-      "publishedAt": "2026-04-20",
-      "topic": "city_government",
-      "summary": "Mayor Lurie Signs MOU Between San Francisco And Shanghai &nbsp;&nbsp; SF.gov",
-      "confidence": 0.68
     }
   ],
   "promises": [
@@ -1657,7 +1662,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
+      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -2130,7 +2135,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-12T05:08:19.982Z"
+      "lastRefreshed": "2026-06-12T10:42:26.859Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2149,7 +2154,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-12T05:08:19.982Z"
+      "lastRefreshed": "2026-06-12T10:42:26.859Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2159,13 +2164,74 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": null,
-      "latest": null,
+      "baseline": 292,
+      "latest": 216,
       "direction": "down_is_good",
-      "observations": [],
-      "status": "needs_verified_source",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 292
+        },
+        {
+          "date": "2025-02-01",
+          "value": 274
+        },
+        {
+          "date": "2025-03-01",
+          "value": 342
+        },
+        {
+          "date": "2025-04-01",
+          "value": 275
+        },
+        {
+          "date": "2025-05-01",
+          "value": 273
+        },
+        {
+          "date": "2025-06-01",
+          "value": 301
+        },
+        {
+          "date": "2025-07-01",
+          "value": 239
+        },
+        {
+          "date": "2025-08-01",
+          "value": 294
+        },
+        {
+          "date": "2025-09-01",
+          "value": 219
+        },
+        {
+          "date": "2025-10-01",
+          "value": 235
+        },
+        {
+          "date": "2025-11-01",
+          "value": 300
+        },
+        {
+          "date": "2025-12-01",
+          "value": 148
+        },
+        {
+          "date": "2026-01-01",
+          "value": 221
+        },
+        {
+          "date": "2026-02-01",
+          "value": 220
+        },
+        {
+          "date": "2026-03-01",
+          "value": 216
+        }
+      ],
+      "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-12T05:08:19.982Z",
+      "lastRefreshed": "2026-06-12T10:42:26.859Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2204,7 +2270,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-12T05:08:19.982Z"
+      "lastRefreshed": "2026-06-12T10:42:26.859Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2296,7 +2362,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-12T05:08:19.982Z"
+      "lastRefreshed": "2026-06-12T10:42:26.859Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2388,7 +2454,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-12T05:08:19.982Z"
+      "lastRefreshed": "2026-06-12T10:42:26.859Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2407,7 +2473,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-12T05:08:19.982Z"
+      "lastRefreshed": "2026-06-12T10:42:26.859Z"
     }
   ],
   "topics": [
@@ -2457,7 +2523,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
+      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -2692,37 +2758,37 @@
   ],
   "majorNews": [
     {
-      "id": "lurie-mahmood-introduce-commercial-foreclosure-tax-following-pause-on-build-act",
-      "headline": "Lurie, Mahmood Introduce Commercial Foreclosure Tax Following Pause on BUILD Act",
-      "url": "https://sfist.com/2026/06/11/lurie-mahmood-introduce-commercial-foreclosure-tax-following-pause-on-build-act/",
-      "publishedAt": "2026-06-12",
-      "publisher": "SFist",
-      "topic": "economy",
-      "whyItMatters": "After shelving the controversial BUILD Act that would have halved transfer taxes on $10M+ properties, Lurie pivots to a foreclosure tax expected to generate $67M annually. This represents a significant shift in the mayor's revenue strategy amid a $642M deficit, closing a tax loophole while backing away from business tax cuts that drew criticism for benefiting high-value sales without requiring new housing development.",
-      "sourceId": "lurie-mahmood-introduce-commercial-foreclosure-tax-following-pause-on-build-act-",
-      "selectionMethod": "anthropic"
-    },
-    {
-      "id": "mayor-lurie-launches-permit-reform-effort-with-focus-on-housing-and-small-busine",
-      "headline": "Mayor Lurie Launches Permit Reform Effort With Focus on Housing and Small Business",
-      "url": "https://www.sf.gov/mayor-lurie-launches-permit-reform-effort-with-focus-on-housing-and-small-business",
-      "publishedAt": "2026-06-12",
+      "id": "mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-respo",
+      "headline": "Mayor Lurie Presents Responsible Budget Strengthening Social Safety Net In Response To Significant Federal Cuts, Advancing San Francisco&#x27;s Economic Recovery | SF.gov",
+      "url": "https://www.sf.gov/news-mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-response-to-significant-federal-cuts-advancing-san-franciscos-economic-recovery/",
+      "publishedAt": "2026-06-01",
       "publisher": "SF.gov",
-      "topic": "economy",
-      "whyItMatters": "PermitSF initiative directly addresses a core governance challenge that has hampered housing production and small business growth for years. By streamlining the notoriously complex permitting process with new technology and accountability measures, this reform could accelerate housing development and economic recovery—two key pillars of Lurie's administration and critical to the city's long-term viability.",
-      "sourceId": "mayor-lurie-launches-permit-reform-effort-with-focus-on-housing-and-small-busine",
-      "selectionMethod": "anthropic"
+      "topic": "homelessness",
+      "whyItMatters": "Balanced Budget Invests in Keeping Families on Healthcare and Food Assistance, Preventing Homelessness, Preparing for Additional Federal Cuts to Housing and Homelessness; Prioritizes Core Services to Advance Broad, Durable Economic Recovery With Investments in Public Safety, Clean and Safe Streets; Closes $642 Million Deficit While Reducing City’s Ongoing Structural Deficit by Approximately $300 Million",
+      "sourceId": "mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-respo",
+      "selectionMethod": "fallback"
     },
     {
       "id": "mayor-lurie-announces-record-low-number-of-tent-encampments-large-vehicles-on-sa",
-      "headline": "Mayor Lurie Announces Record-Low Number Of Tent Encampments, Large Vehicles On San Francisco Streets",
+      "headline": "Mayor Lurie Announces Record-Low Number Of Tent Encampments, Large Vehicles On San Francisco Streets | SF.gov",
       "url": "https://www.sf.gov/news-mayor-lurie-announces-record-low-number-of-tent-encampments-large-vehicles-on-san-francisco-streets/",
       "publishedAt": "2026-06-09",
       "publisher": "SF.gov",
       "topic": "homelessness",
-      "whyItMatters": "The fourth consecutive record-low encampment count (tents/structures down 53% under Lurie) combined with the RESET Center serving 500+ people in its first month demonstrates measurable progress on homelessness—the issue that has defined mayoral races and shaped public perception of city governance. Data showing unsheltered homelessness at 15-year lows validates Lurie's Breaking the Cycle strategy and influences ongoing budget debates about homeless services.",
+      "whyItMatters": "Quarterly Count Marks Record-Low Number of Encampments for the Fourth Time and Finds Number of Tents and Structures Down 53% Under Lurie Administration; New RESET Center Has Served Hundreds of People in First Month, With Nearly One-Third Agreeing to Accept Care and Police Officers Returning to Streets in Under 20 Minutes; Follows San Francisco Reaching Lowest Level of Unsheltered Homelessness in 15 Years Under Mayor Lurie’s Breaking the Cycle Plan",
       "sourceId": "mayor-lurie-announces-record-low-number-of-tent-encampments-large-vehicles-on-sa",
-      "selectionMethod": "anthropic"
+      "selectionMethod": "fallback"
+    },
+    {
+      "id": "amid-opposition-california-regulators-approve-major-changes-to-cap-and-trade-pro",
+      "headline": "Amid Opposition, California Regulators Approve Major Changes To Cap-And-Trade Program",
+      "url": "https://www.kqed.org/news/12085401/amid-opposition-california-regulators-approve-major-changes-to-cap-and-trade-program",
+      "publishedAt": "2026-05-30",
+      "publisher": "KQED",
+      "topic": "climate",
+      "whyItMatters": "Climate, transportation and affordable housing advocates worry the changes could result in a loss of funding.",
+      "sourceId": "amid-opposition-california-regulators-approve-major-changes-to-cap-and-trade-pro",
+      "selectionMethod": "fallback"
     }
   ],
   "campaignPromiseSeed": [
