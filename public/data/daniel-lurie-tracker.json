@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-13T09:37:26.720Z",
+    "lastUpdated": "2026-06-13T14:30:06.730Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -310,6 +310,18 @@
       "confidence": 0.78
     },
     {
+      "id": "mayor-lurie-announces-appointments-of-city-leaders-to-key-roles-https-www-sf-gov",
+      "title": "Mayor Lurie Announces Appointments Of City Leaders To Key Roles | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-announces-appointments-of-city-leaders-to-key-roles/",
+      "publishedAt": "2026-06-12",
+      "topic": "public_safety",
+      "summary": "NEWS Mayor Lurie Announces Appointments Of City Leaders To Key Roles Office of the Mayor June 12, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced his intention to nominate several city leaders for reappointment to key San Francisco committees and commissions. He nominated the following individuals: Joshua Arce and Kate Herrmann Stacy to the Public Utilities Commission; Eleanor Blume and Paul Woolford to the P",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Announces Appointments Of City Leaders To Key Roles Office of the Mayor June 12, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced his intention to nominate several city leaders for reappointment to key San Francisco committees and commissions. He nominated the following individuals: Joshua Arce and Kate Herrmann Stacy to the Public Utilities Commission; Eleanor Blume and Paul Woolford to the Public Works Commission; Yvette Byes Edwards to the Children, Youth, and Their Families Oversight and Advisory Committee; Azalina Eusope to the Sanitation and Streets Commission; Lindsey MacLise to the Building Inspection Commission; Larry J. Mazzola, Jr. to the Recreation and Parks Commission; Leonard Poggio to the Entertainment Commission; and John Trasviña to the Board of Appeals. “These dedicated San Franciscans have been serving our city in so many ways, and I’m looking forward to their continued service,” said Mayor Lurie . “Their work is critical to making the city cleaner, healthier, and more vibrant. I’m grateful for their commitment to our city and their partnership in moving our recovery forward.” Joshua Arce (Public Utilities Commission) is a public sector executive and labor advocate who currently serves as the president of the San Francisco Public Utilities Commission (SFPUC). Since joining the commission in October 2024, he has overseen a $2.2 billion annual budget and a $12.5 billion 10-year capital plan aimed at modernizing the city’s water, wastewater, and power infrastructure. His leadership at the SFPUC has been defined by a focus on infrastructure reliability and fiscal responsibility, notably implementing strategies that reduced projected rate increases by 9%. A former director of workforce development for San Francisco, Arce brings 1...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "mexico-fans-gather-in-the-mission-for-world-cup-kickoff-and-mayor-lurie-drops-in",
       "title": "Mexico fans gather in the Mission for World Cup kickoff — and Mayor Lurie drops in",
       "sourceType": "news",
@@ -337,18 +349,6 @@
       "summary": "After putting the larger BUILD Act proposal on hold, which would have cut transfer taxes in half on property sales above $10 million, Mayor Lurie and Supervisor Mahmood are pursuing a commercial foreclosure tax that’s initially expected to generate $67 million a year.",
       "confidence": 0.8,
       "excerpt": "11 June 2026 / SF Politics / Leanne Maxwell Lurie, Mahmood Introduce Commercial Foreclosure Tax Following Pause on BUILD Act --> After putting the larger BUILD Act proposal on hold, which would have cut transfer taxes in half on property sales above $10 million, Mayor Lurie and Supervisor Mahmood are pursuing a commercial foreclosure tax that’s initially expected to generate $67 million a year. Mayor Daniel Lurie and Supervisor Bilal Mahmood’s proposed foreclosure tax, which was pulled from the now-paused BUILD Act, would impose a transfer tax of 3% to 6% when commercial properties change hands through foreclosure, as the Chronicle reports . Single-family homes, condos, and residential buildings with fewer than five units would be exempt from the tax. This would reportedly close a longstanding loophole that currently allows those transactions to avoid the city's transfer tax altogether while generating around $67 million a year for the first three years. The measure would repeal an exemption that San Francisco created in 1984 for foreclosed properties, which Mahmood and Lurie argue has cost the city substantial revenue over the years. According to Mission Local , the proposal already has support from several supervisors and is expected to qualify for the November ballot. As SFist reported previously, the larger BUILD Act, which would have cut transfer taxes in half on property sales of $10 million or more, was shelved earlier this week. Mahmood cited the city's ongoing budget crisis and the need to identify replacement revenue before moving forward. The aim of the BUILD Act was to increase housing development and construction jobs, but it drew criticism because it would have extended tax breaks to high-value property sales regardless of whether they produced new hous...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-announces-appointments-of-city-leaders-to-key-roles-https-www-sf-gov",
-      "title": "Mayor Lurie Announces Appointments Of City Leaders To Key Roles | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-announces-appointments-of-city-leaders-to-key-roles/",
-      "publishedAt": "2026-06-12",
-      "topic": "public_safety",
-      "summary": "NEWS Mayor Lurie Announces Appointments Of City Leaders To Key Roles Office of the Mayor June 12, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced his intention to nominate several city leaders for reappointment to key San Francisco committees and commissions. He nominated the following individuals: Joshua Arce and Kate Herrmann Stacy to the Public Utilities Commission; Eleanor Blume and Paul Woolford to the P",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Announces Appointments Of City Leaders To Key Roles Office of the Mayor June 12, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced his intention to nominate several city leaders for reappointment to key San Francisco committees and commissions. He nominated the following individuals: Joshua Arce and Kate Herrmann Stacy to the Public Utilities Commission; Eleanor Blume and Paul Woolford to the Public Works Commission; Yvette Byes Edwards to the Children, Youth, and Their Families Oversight and Advisory Committee; Azalina Eusope to the Sanitation and Streets Commission; Lindsey MacLise to the Building Inspection Commission; Larry J. Mazzola, Jr. to the Recreation and Parks Commission; Leonard Poggio to the Entertainment Commission; and John Trasviña to the Board of Appeals. “These dedicated San Franciscans have been serving our city in so many ways, and I’m looking forward to their continued service,” said Mayor Lurie . “Their work is critical to making the city cleaner, healthier, and more vibrant. I’m grateful for their commitment to our city and their partnership in moving our recovery forward.” Joshua Arce (Public Utilities Commission) is a public sector executive and labor advocate who currently serves as the president of the San Francisco Public Utilities Commission (SFPUC). Since joining the commission in October 2024, he has overseen a $2.2 billion annual budget and a $12.5 billion 10-year capital plan aimed at modernizing the city’s water, wastewater, and power infrastructure. His leadership at the SFPUC has been defined by a focus on infrastructure reliability and fiscal responsibility, notably implementing strategies that reduced projected rate increases by 9%. A former director of workforce development for San Francisco, Arce brings 1...",
       "scrapeStatus": "scraped"
     },
     {
@@ -923,21 +923,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor-",
-      "title": "Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor's Office Leadership Team - SF.gov",
-      "sourceType": "news",
-      "url": "https://www.google-analytics.com/analytics.js",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1ROMkNFQThBekRnT2xTQ20zTGxGSDk2b0c0NnhYVTVQTkF5UXhlU2ZDSF8ycE1jZ3NHYUhIMXF5cjA0eWZZNVcyQ0dLMDBnOFhOMnNWMlhOenpxMzhMSC1NLUJYNk1Iek5sMGJqbjBPTmJQOV9uTzR1OUdyWVlNdHdfa2ExMEdlQy1lR2F4MDU0c0MwMFVkNnBhdFljQnZYeHgyMVBxc1RyRnRTaUNGNlFhbzZYMi00WHhPeGlfSld4OUtZN2c?oc=5",
-      "discoverySource": "Google News",
-      "publishedAt": "2026-05-27",
-      "topic": "economy",
-      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
-      "confidence": 0.8,
-      "resolvedFrom": "google_news",
-      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "mayor-lurie-awards-more-than-21-million-in-funding-to-support-workforce-developm",
       "title": "Mayor Lurie Awards More Than $21 Million In Funding To Support Workforce Development, Connect San Franciscans To Good-Paying Jobs | SF.gov",
       "sourceType": "official",
@@ -959,6 +944,21 @@
       "summary": "Policy Expert With Experience Across Bay Area, Bonde Has Been Serving as Deputy Chief of Staff; Adam Thongsavat to serve as Deputy Chief of Staff, Eileen Mariano as Policy Director",
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor&#x27;s Office Leadership Team Office of the Mayor Policy Expert With Experience Across Bay Area, Bonde Has Been Serving as Deputy Chief of Staff; Adam Thongsavat to serve as Deputy Chief of Staff, Eileen Mariano as Policy Director May 27, 2026 SAN FRANCISCO – Mayor Daniel Lurie today appointed Aly Bonde to serve as chief of staff, elevating a policy expert who has served in government across the Bay Area. Mayor Lurie also announced that Adam Thongsavat will serve as deputy chief of staff and Eileen Mariano as policy director, adding two accomplished Mayor’s Office veterans to the leadership team. Bonde has been serving as deputy chief of chief in the Mayor’s Office, advising Mayor Lurie on a wide range of policy issues from the behavioral health crisis to affordable housing. Thongsavat has been serving as liaison to the Board of Supervisors, facilitating Mayor Lurie’s close working relationship with the Board, while Mariano has led the office’s work in Sacramento and Washington, D.C., passing legislation to advance public safety and the city’s economic recovery while securing critical state and federal funding. Thongsavat and Mariano will continue to report to Bonde. “Aly, Adam, and Eileen have been a collaborative and effective team since we took office last year—partnering with the Board of Supervisors and the state Legislature to pass major legislation to get drugs off our streets and drive our economic recovery,” said Mayor Lurie . “We’ve done so much in our first year and a half to get San Francisco moving in the right direction again, and residents are feeling the difference. But we have so much more to do, and Aly, Adam, Eileen, and I are ready to keep our foot on the acceler...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor-",
+      "title": "Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor's Office Leadership Team - SF.gov",
+      "sourceType": "news",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1ROMkNFQThBekRnT2xTQ20zTGxGSDk2b0c0NnhYVTVQTkF5UXhlU2ZDSF8ycE1jZ3NHYUhIMXF5cjA0eWZZNVcyQ0dLMDBnOFhOMnNWMlhOenpxMzhMSC1NLUJYNk1Iek5sMGJqbjBPTmJQOV9uTzR1OUdyWVlNdHdfa2ExMEdlQy1lR2F4MDU0c0MwMFVkNnBhdFljQnZYeHgyMVBxc1RyRnRTaUNGNlFhbzZYMi00WHhPeGlfSld4OUtZN2c?oc=5",
+      "discoverySource": "Google News",
+      "publishedAt": "2026-05-27",
+      "topic": "economy",
+      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
+      "confidence": 0.8,
+      "resolvedFrom": "google_news",
+      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1895,7 +1895,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 531 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 535 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2137,7 +2137,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-13T09:37:26.602Z"
+      "lastRefreshed": "2026-06-13T14:30:06.640Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2156,7 +2156,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-13T09:37:26.602Z"
+      "lastRefreshed": "2026-06-13T14:30:06.640Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2233,7 +2233,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-13T09:37:26.602Z",
+      "lastRefreshed": "2026-06-13T14:30:06.640Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2272,7 +2272,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-13T09:37:26.602Z"
+      "lastRefreshed": "2026-06-13T14:30:06.640Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2287,7 +2287,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 588,
+      "latest": 663,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2359,12 +2359,12 @@
         },
         {
           "date": "2026-06-01",
-          "value": 588
+          "value": 663
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-13T09:37:26.602Z"
+      "lastRefreshed": "2026-06-13T14:30:06.640Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2379,7 +2379,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 531,
+      "latest": 535,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2451,12 +2451,12 @@
         },
         {
           "date": "2026-06-01",
-          "value": 531
+          "value": 535
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-13T09:37:26.602Z"
+      "lastRefreshed": "2026-06-13T14:30:06.640Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2475,7 +2475,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-13T09:37:26.602Z"
+      "lastRefreshed": "2026-06-13T14:30:06.640Z"
     }
   ],
   "topics": [
