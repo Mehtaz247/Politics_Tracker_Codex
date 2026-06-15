@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-15T12:45:11.261Z",
+    "lastUpdated": "2026-06-15T21:29:07.166Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -308,6 +308,21 @@
       "topic": "homelessness",
       "summary": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years &nbsp;&nbsp; SF.gov",
       "confidence": 0.78
+    },
+    {
+      "id": "fireworks-to-be-launched-from-golden-gate-bridge-to-celebrate-america-s-250th-ma",
+      "title": "Fireworks to be launched from Golden Gate Bridge to celebrate America's 250th, mayor says",
+      "sourceType": "news",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/golden-gate-bridge-fireworks-america-250-san-francisco-mayor-daniel-lurie-says/",
+      "discoveryUrl": "https://www.cbsnews.com/sanfrancisco/latest/rss/main",
+      "discoverySource": "CBS San Francisco",
+      "publisher": "CBS San Francisco",
+      "publishedAt": "2026-06-15",
+      "topic": "transit",
+      "summary": "Fireworks will be launched from the Golden Gate Bridge for only the third time in its history as part of the nation's 250th birthday, San Francisco Mayor Daniel Lurie announced Monday.",
+      "confidence": 0.8,
+      "excerpt": "Fireworks will be launched from the Golden Gate Bridge as part of celebrations of the country's 250th birthday, San Francisco Mayor Daniel Lurie announced.Lurie said Monday that fireworks will be launched off the Golden Gate Bridge, as part of a historic pyrotechnic display celebrating the country's 250th birthday. The fireworks are scheduled to begin on Saturday, July 4 at 9:30 p.m.\"For only the third time ever, we are launching fireworks off the two towers to celebrate the 250th of birthday of the greatest country in the world,\" Lurie said in a video posted to his social media.Previous fireworks displays on the bridge celebrated the Golden Gate's 50th anniversary in 1987 and the 75th anniversary in 2012. Officials said the fireworks will be launched from the east side of the bridge between the two towers, along with a barge off the bridge and a second barge near Pier 39. The Golden Gate Bridge display is the city's only official July 4 fireworks show in 2026, which means fireworks will not be visible along the Ferry Building or the Embarcadero. Suggested viewing locations include Crissy Field, Marina Green, Pier 39 and Fisherman's Wharf.Officials strongly urge attendees to use public transit to travel to and from the fireworks and other July 4th festivities in the city. Traffic in the Presidio and surrounding neighborhoods is expected to be significant.Parking lots at Marina Green and Crissy Field will be closed beginning at 6 a.m. on July 4 through 6 a.m. on July 5, while other lots are expected to fill up early and have special event parking fees. All lots at the south end of the bridge will be closed will be closed from 11 a.m. on July 4 through the end of the fireworks display.Drivers planning to travel between San Francisco and Marin County on the 4th are also...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "mexico-fans-gather-in-the-mission-for-world-cup-kickoff-and-mayor-lurie-drops-in",
@@ -1537,18 +1552,6 @@
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Celebrates Signing Of MOU Between SF Ballet And Shanghai International Arts Festival Office of the Mayor Signed in Shanghai, Memorandum of Understanding Will Begin Three-Year Partnership to Explore Bringing San Francisco Ballet Performers to Shanghai; Continues Mayor Lurie’s Work to Drive San Francisco’s Economic Recovery Through Arts and Culture April 20, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the signing of a memorandum of understanding (MOU) between the San Francisco Ballet and the Shanghai International Arts Festival on the second day of his first international trip to Shanghai and Seoul. The MOU will establish a three-year framework to explore presenting San Francisco Ballet performances in Shanghai as part of a future Shanghai International Arts Festival, while expanding partnership and collaboration between the arts organization and cultural exchange between the two cities. Signed during Mayor Lurie’s trip to Shanghai and Seoul, the MOU builds on Mayor Lurie’s work to elevate San Francisco as a global arts, culture, and dance city while ensuring the local arts community continue to drive the city’s comeback. Since the start of 2026, the mayor has announced free live music and performances in neighborhoods across San Francisco. Early in his administration, the mayor announced the inaugural SF Music Week to spotlight San Francisco’s renowned music scene and launched a citywide show guide to boost local arts and entertainment. This year, he celebrated the return of SF Music Week this year following last year’s free downtown concert series and a successful \"Summer of Music\" that drew tens of thousands and generated over $150 million in local economic activity. “San Francisco’s arts and culture institutions are critical to driving...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-signs-mou-between-san-francisco-and-shanghai-https-www-sf-gov-news-m",
-      "title": "Mayor Lurie Signs MOU Between San Francisco And Shanghai | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-signs-mou-between-san-francisco-and-shanghai/",
-      "publishedAt": "2026-04-20",
-      "topic": "economy",
-      "summary": "Signed in Shanghai Marking 46th Anniversary of Sister City Relationship, Memorandum of Understanding Will Begin Three-Year Partnership Between Cities, Expanding Arts and Culture, Tourism; Builds on Mayor Lurie’s Work to Ensure Arts and Culture are Driving San Francisco’s Comeback",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Signs MOU Between San Francisco And Shanghai Office of the Mayor Signed in Shanghai Marking 46th Anniversary of Sister City Relationship, Memorandum of Understanding Will Begin Three-Year Partnership Between Cities, Expanding Arts and Culture, Tourism; Builds on Mayor Lurie’s Work to Ensure Arts and Culture are Driving San Francisco’s Comeback April 20, 2026 SAN FRANCISCO – Mayor Daniel Lurie today signed a memorandum of understanding (MOU) between the cities of San Francisco and Shanghai, marking the 46th anniversary of the sister city relationship on the second day of his first international trip to Shanghai and Seoul. The MOU will establish a three-year framework to expand collaboration across arts and culture, tourism, sports, education, and youth exchange, while strengthening partnerships, connection, and understanding between the two cities. Signed during Mayor Lurie’s trip to Shanghai and Seoul, the MOU builds on Mayor Lurie’s work to accelerate San Francisco’s economic recovery through the arts. To continue to drive the city’s economic comeback, the mayor has taken steps to strengthen city arts and culture institutions , partnered with the private and philanthropic sectors to contribute to downtown’s recovery, and launched a plan to accelerate the city’s downtown comeback . “On the 46th anniversary of our sister city relationship, San Francisco and Shanghai are reaffirming our commitment to strengthening cooperation across arts, culture, tourism, education, sports, and civic exchange,” said Mayor Lurie . “Strong global partnerships help our cities share ideas, create opportunities for residents and young people, and deepen the connections between our communities, and I’m honored to be deepening our relationship through this MOU.” The signing...",
-      "scrapeStatus": "scraped"
     }
   ],
   "promises": [
@@ -1664,7 +1667,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
+      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -2137,7 +2140,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-15T12:45:11.145Z"
+      "lastRefreshed": "2026-06-15T21:29:06.999Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2156,7 +2159,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-15T12:45:11.145Z"
+      "lastRefreshed": "2026-06-15T21:29:06.999Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2166,13 +2169,74 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": null,
-      "latest": null,
+      "baseline": 292,
+      "latest": 216,
       "direction": "down_is_good",
-      "observations": [],
-      "status": "needs_verified_source",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 292
+        },
+        {
+          "date": "2025-02-01",
+          "value": 274
+        },
+        {
+          "date": "2025-03-01",
+          "value": 342
+        },
+        {
+          "date": "2025-04-01",
+          "value": 275
+        },
+        {
+          "date": "2025-05-01",
+          "value": 273
+        },
+        {
+          "date": "2025-06-01",
+          "value": 301
+        },
+        {
+          "date": "2025-07-01",
+          "value": 239
+        },
+        {
+          "date": "2025-08-01",
+          "value": 294
+        },
+        {
+          "date": "2025-09-01",
+          "value": 219
+        },
+        {
+          "date": "2025-10-01",
+          "value": 235
+        },
+        {
+          "date": "2025-11-01",
+          "value": 300
+        },
+        {
+          "date": "2025-12-01",
+          "value": 148
+        },
+        {
+          "date": "2026-01-01",
+          "value": 221
+        },
+        {
+          "date": "2026-02-01",
+          "value": 220
+        },
+        {
+          "date": "2026-03-01",
+          "value": 216
+        }
+      ],
+      "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-15T12:45:11.145Z",
+      "lastRefreshed": "2026-06-15T21:29:06.999Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2188,30 +2252,13 @@
       "evidenceSourceIds": [
         "datasf-substance-use-services"
       ],
-      "status": "active",
-      "baseline": 55904,
-      "latest": 41664,
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 55904
-        },
-        {
-          "date": "2025-04-01",
-          "value": 46460
-        },
-        {
-          "date": "2025-07-01",
-          "value": 51108
-        },
-        {
-          "date": "2025-10-01",
-          "value": 41664
-        }
-      ],
+      "status": "needs_verified_source",
+      "baseline": null,
+      "latest": null,
+      "observations": [],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-15T12:45:11.145Z"
+      "lastRefreshed": "2026-06-15T21:29:06.999Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2303,7 +2350,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-15T12:45:11.145Z"
+      "lastRefreshed": "2026-06-15T21:29:06.999Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2395,7 +2442,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-15T12:45:11.145Z"
+      "lastRefreshed": "2026-06-15T21:29:06.999Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2414,7 +2461,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-15T12:45:11.145Z"
+      "lastRefreshed": "2026-06-15T21:29:06.999Z"
     }
   ],
   "topics": [
