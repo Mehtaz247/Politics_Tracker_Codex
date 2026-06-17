@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-16T21:21:31.463Z",
+    "lastUpdated": "2026-06-17T05:19:22.942Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -325,6 +325,18 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "mayor-lurie-to-light-up-golden-gate-bridge-for-united-states-x27-250th-anniversa",
+      "title": "Mayor Lurie To Light Up Golden Gate Bridge For United States&#x27; 250th Anniversary | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-to-light-up-golden-gate-bridge-for-united-states-250th-anniversary/",
+      "publishedAt": "2026-06-15",
+      "topic": "public_safety",
+      "summary": "Beginning at 9:30 PM, Fireworks Will Launch from Bridge for Only Third Time in Its History; Attendees Encouraged to Use Public Transit, Arrive Early, Sign Up for Emergency Alerts from AlertSF or WhatsApp",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie To Light Up Golden Gate Bridge For United States&#x27; 250th Anniversary Office of the Mayor Beginning at 9:30 PM, Fireworks Will Launch from Bridge for Only Third Time in Its History; Attendees Encouraged to Use Public Transit, Arrive Early, Sign Up for Emergency Alerts from AlertSF or WhatsApp June 15, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced that San Francisco will celebrate the 250th anniversary of the United States’ founding with a historic fireworks display launched directly from the towers of the Golden Gate Bridge on Saturday, July 4, 2026—only the third time in the bridge’s nearly 90-year history that fireworks have been deployed from the iconic span. The free, public display will begin at approximately 9:30 PM and will be visible from vantage points across San Francisco and the Bay Area. Attendees are encouraged to use the city’s Shop Dine SF Waterfront guide to find local businesses, events, and other destinations along the city’s waterfront. The historic fireworks display builds on the Lurie administration’s work to welcome visitors to San Francisco, with tourism on track to break records in 2026 following San Francisco International Airport’s busiest-ever Memorial Day . The San Francisco Bay Area is currently a host of the FIFA World Cup , after successfully hosting the Super Bowl in February and NBA All-Star Weekend last year—collectively driving a projected $1.4 billion in economic activity and supporting the city’s economic recovery. “The Golden Gate Bridge is as iconic as any landmark in the United States, so it’s an ideal place to launch fireworks for our country’s 250th anniversary,” said Mayor Lurie . “If you’re looking for somewhere to celebrate July Fourth, there’s nowhere better than the city with the most beauti...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "fireworks-to-be-launched-from-golden-gate-bridge-to-celebrate-america-s-250th-ma",
       "title": "Fireworks to be launched from Golden Gate Bridge to celebrate America's 250th, mayor says",
       "sourceType": "news",
@@ -340,15 +352,15 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-to-light-up-golden-gate-bridge-for-united-states-x27-250th-anniversa",
-      "title": "Mayor Lurie To Light Up Golden Gate Bridge For United States&#x27; 250th Anniversary | SF.gov",
+      "id": "mayor-lurie-announces-appointments-of-city-leaders-to-key-roles-https-www-sf-gov",
+      "title": "Mayor Lurie Announces Appointments Of City Leaders To Key Roles | SF.gov",
       "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-to-light-up-golden-gate-bridge-for-united-states-250th-anniversary/",
-      "publishedAt": "2026-06-15",
+      "url": "https://www.sf.gov/news-mayor-lurie-announces-appointments-of-city-leaders-to-key-roles/",
+      "publishedAt": "2026-06-12",
       "topic": "public_safety",
-      "summary": "Beginning at 9:30 PM, Fireworks Will Launch from Bridge for Only Third Time in Its History; Attendees Encouraged to Use Public Transit, Arrive Early, Sign Up for Emergency Alerts from AlertSF or WhatsApp",
+      "summary": "NEWS Mayor Lurie Announces Appointments Of City Leaders To Key Roles Office of the Mayor June 12, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced his intention to nominate several city leaders for reappointment to key San Francisco committees and commissions. He nominated the following individuals: Joshua Arce and Kate Herrmann Stacy to the Public Utilities Commission; Eleanor Blume and Paul Woolford to the P",
       "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie To Light Up Golden Gate Bridge For United States&#x27; 250th Anniversary Office of the Mayor Beginning at 9:30 PM, Fireworks Will Launch from Bridge for Only Third Time in Its History; Attendees Encouraged to Use Public Transit, Arrive Early, Sign Up for Emergency Alerts from AlertSF or WhatsApp June 15, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced that San Francisco will celebrate the 250th anniversary of the United States’ founding with a historic fireworks display launched directly from the towers of the Golden Gate Bridge on Saturday, July 4, 2026—only the third time in the bridge’s nearly 90-year history that fireworks have been deployed from the iconic span. The free, public display will begin at approximately 9:30 PM and will be visible from vantage points across San Francisco and the Bay Area. Attendees are encouraged to use the city’s Shop Dine SF Waterfront guide to find local businesses, events, and other destinations along the city’s waterfront. The historic fireworks display builds on the Lurie administration’s work to welcome visitors to San Francisco, with tourism on track to break records in 2026 following San Francisco International Airport’s busiest-ever Memorial Day . The San Francisco Bay Area is currently a host of the FIFA World Cup , after successfully hosting the Super Bowl in February and NBA All-Star Weekend last year—collectively driving a projected $1.4 billion in economic activity and supporting the city’s economic recovery. “The Golden Gate Bridge is as iconic as any landmark in the United States, so it’s an ideal place to launch fireworks for our country’s 250th anniversary,” said Mayor Lurie . “If you’re looking for somewhere to celebrate July Fourth, there’s nowhere better than the city with the most beauti...",
+      "excerpt": "NEWS Mayor Lurie Announces Appointments Of City Leaders To Key Roles Office of the Mayor June 12, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced his intention to nominate several city leaders for reappointment to key San Francisco committees and commissions. He nominated the following individuals: Joshua Arce and Kate Herrmann Stacy to the Public Utilities Commission; Eleanor Blume and Paul Woolford to the Public Works Commission; Yvette Byes Edwards to the Children, Youth, and Their Families Oversight and Advisory Committee; Azalina Eusope to the Sanitation and Streets Commission; Lindsey MacLise to the Building Inspection Commission; Larry J. Mazzola, Jr. to the Recreation and Parks Commission; Leonard Poggio to the Entertainment Commission; and John Trasviña to the Board of Appeals. “These dedicated San Franciscans have been serving our city in so many ways, and I’m looking forward to their continued service,” said Mayor Lurie . “Their work is critical to making the city cleaner, healthier, and more vibrant. I’m grateful for their commitment to our city and their partnership in moving our recovery forward.” Joshua Arce (Public Utilities Commission) is a public sector executive and labor advocate who currently serves as the president of the San Francisco Public Utilities Commission (SFPUC). Since joining the commission in October 2024, he has overseen a $2.2 billion annual budget and a $12.5 billion 10-year capital plan aimed at modernizing the city’s water, wastewater, and power infrastructure. His leadership at the SFPUC has been defined by a focus on infrastructure reliability and fiscal responsibility, notably implementing strategies that reduced projected rate increases by 9%. A former director of workforce development for San Francisco, Arce brings 1...",
       "scrapeStatus": "scraped"
     },
     {
@@ -364,18 +376,6 @@
       "summary": "The FIFA World Cup kicked off its first game in Mexico City at the Estadio Azteca on Thursday, with home team Mexico facing off against former World Cup Flags, jersey-bearing dogs, lots of beer, and the mayor?",
       "confidence": 0.82,
       "excerpt": "The FIFA World Cup kicked off its first game in Mexico City at the Estadio Azteca on Thursday, with home team Mexico facing off against former World Cup hosts, South Africa. David Venegas, originally from Jalisco, Mexico, watched it from a table at the Napper Tandy. At noon today, the Irish pub was packed, and the sound of the crowd cheering most definitely exceeded the legal decibel levels for the city (in the best way possible). “Every four years we wait for this,” Venegas said. “All my life I've been playing soccer. It's in my family. I go to Mexico a lot, so soccer's in my blood, and it's super important to me.” Want the latest on the Mission and San Francisco? Sign up for our free daily newsletter below. Sign up Soccer fans cheering at Napper Tandy on the World Cup opener day, June 11, 2026. Photo by Zoe Malen. Lin Lin, soccer fan, at Napper Tandy on the World Cup opener day, June 11, 2026. Photo by Zoe Malen. Soccer fan at Rosamunde on the World Cup opener day, June 11, 2026. Photo by Zoe Malen. Soccer fans at Napper Tandy on the World Cup opener day, June 11, 2026. Photo by Zoe Malen. A fan wearing a Mexico jersey at Napper Tandy on the World Cup opener day, June 11, 2026. Photo by Zoe Malen. Many Mexican-Americans who had come to watch the game said that they wished they could have attended the match in person — but ticket prices cost anywhere from $1,000 to $4,000 for the ceremonial kick-off. Moosa Ahmed, a SoMa resident and Team USA supporter, couldn’t make an in-person viewing happen. “So I had half of my mind on going to Mexico, but then the other half was to just go to the Mission, so now I'm here,” he said. “I feel bad that the prices are really high for tickets and hotels, but hey, I'm watching it on TV. And I love that it's in our time zone, so we can...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-announces-appointments-of-city-leaders-to-key-roles-https-www-sf-gov",
-      "title": "Mayor Lurie Announces Appointments Of City Leaders To Key Roles | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-announces-appointments-of-city-leaders-to-key-roles/",
-      "publishedAt": "2026-06-12",
-      "topic": "public_safety",
-      "summary": "NEWS Mayor Lurie Announces Appointments Of City Leaders To Key Roles Office of the Mayor June 12, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced his intention to nominate several city leaders for reappointment to key San Francisco committees and commissions. He nominated the following individuals: Joshua Arce and Kate Herrmann Stacy to the Public Utilities Commission; Eleanor Blume and Paul Woolford to the P",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Announces Appointments Of City Leaders To Key Roles Office of the Mayor June 12, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced his intention to nominate several city leaders for reappointment to key San Francisco committees and commissions. He nominated the following individuals: Joshua Arce and Kate Herrmann Stacy to the Public Utilities Commission; Eleanor Blume and Paul Woolford to the Public Works Commission; Yvette Byes Edwards to the Children, Youth, and Their Families Oversight and Advisory Committee; Azalina Eusope to the Sanitation and Streets Commission; Lindsey MacLise to the Building Inspection Commission; Larry J. Mazzola, Jr. to the Recreation and Parks Commission; Leonard Poggio to the Entertainment Commission; and John Trasviña to the Board of Appeals. “These dedicated San Franciscans have been serving our city in so many ways, and I’m looking forward to their continued service,” said Mayor Lurie . “Their work is critical to making the city cleaner, healthier, and more vibrant. I’m grateful for their commitment to our city and their partnership in moving our recovery forward.” Joshua Arce (Public Utilities Commission) is a public sector executive and labor advocate who currently serves as the president of the San Francisco Public Utilities Commission (SFPUC). Since joining the commission in October 2024, he has overseen a $2.2 billion annual budget and a $12.5 billion 10-year capital plan aimed at modernizing the city’s water, wastewater, and power infrastructure. His leadership at the SFPUC has been defined by a focus on infrastructure reliability and fiscal responsibility, notably implementing strategies that reduced projected rate increases by 9%. A former director of workforce development for San Francisco, Arce brings 1...",
       "scrapeStatus": "scraped"
     },
     {
@@ -965,21 +965,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor-",
-      "title": "Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor's Office Leadership Team - SF.gov",
-      "sourceType": "news",
-      "url": "https://www.google-analytics.com/analytics.js",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1ROMkNFQThBekRnT2xTQ20zTGxGSDk2b0c0NnhYVTVQTkF5UXhlU2ZDSF8ycE1jZ3NHYUhIMXF5cjA0eWZZNVcyQ0dLMDBnOFhOMnNWMlhOenpxMzhMSC1NLUJYNk1Iek5sMGJqbjBPTmJQOV9uTzR1OUdyWVlNdHdfa2ExMEdlQy1lR2F4MDU0c0MwMFVkNnBhdFljQnZYeHgyMVBxc1RyRnRTaUNGNlFhbzZYMi00WHhPeGlfSld4OUtZN2c?oc=5",
-      "discoverySource": "Google News",
-      "publishedAt": "2026-05-27",
-      "topic": "economy",
-      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
-      "confidence": 0.8,
-      "resolvedFrom": "google_news",
-      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "mayor-lurie-awards-more-than-21-million-in-funding-to-support-workforce-developm",
       "title": "Mayor Lurie Awards More Than $21 Million In Funding To Support Workforce Development, Connect San Franciscans To Good-Paying Jobs | SF.gov",
       "sourceType": "official",
@@ -1001,6 +986,21 @@
       "summary": "Policy Expert With Experience Across Bay Area, Bonde Has Been Serving as Deputy Chief of Staff; Adam Thongsavat to serve as Deputy Chief of Staff, Eileen Mariano as Policy Director",
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor&#x27;s Office Leadership Team Office of the Mayor Policy Expert With Experience Across Bay Area, Bonde Has Been Serving as Deputy Chief of Staff; Adam Thongsavat to serve as Deputy Chief of Staff, Eileen Mariano as Policy Director May 27, 2026 SAN FRANCISCO – Mayor Daniel Lurie today appointed Aly Bonde to serve as chief of staff, elevating a policy expert who has served in government across the Bay Area. Mayor Lurie also announced that Adam Thongsavat will serve as deputy chief of staff and Eileen Mariano as policy director, adding two accomplished Mayor’s Office veterans to the leadership team. Bonde has been serving as deputy chief of chief in the Mayor’s Office, advising Mayor Lurie on a wide range of policy issues from the behavioral health crisis to affordable housing. Thongsavat has been serving as liaison to the Board of Supervisors, facilitating Mayor Lurie’s close working relationship with the Board, while Mariano has led the office’s work in Sacramento and Washington, D.C., passing legislation to advance public safety and the city’s economic recovery while securing critical state and federal funding. Thongsavat and Mariano will continue to report to Bonde. “Aly, Adam, and Eileen have been a collaborative and effective team since we took office last year—partnering with the Board of Supervisors and the state Legislature to pass major legislation to get drugs off our streets and drive our economic recovery,” said Mayor Lurie . “We’ve done so much in our first year and a half to get San Francisco moving in the right direction again, and residents are feeling the difference. But we have so much more to do, and Aly, Adam, Eileen, and I are ready to keep our foot on the acceler...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor-",
+      "title": "Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor's Office Leadership Team - SF.gov",
+      "sourceType": "news",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1ROMkNFQThBekRnT2xTQ20zTGxGSDk2b0c0NnhYVTVQTkF5UXhlU2ZDSF8ycE1jZ3NHYUhIMXF5cjA0eWZZNVcyQ0dLMDBnOFhOMnNWMlhOenpxMzhMSC1NLUJYNk1Iek5sMGJqbjBPTmJQOV9uTzR1OUdyWVlNdHdfa2ExMEdlQy1lR2F4MDU0c0MwMFVkNnBhdFljQnZYeHgyMVBxc1RyRnRTaUNGNlFhbzZYMi00WHhPeGlfSld4OUtZN2c?oc=5",
+      "discoverySource": "Google News",
+      "publishedAt": "2026-05-27",
+      "topic": "economy",
+      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
+      "confidence": 0.8,
+      "resolvedFrom": "google_news",
+      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
       "scrapeStatus": "scraped"
     },
     {
@@ -2143,7 +2143,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-16T21:21:31.179Z"
+      "lastRefreshed": "2026-06-17T05:19:22.784Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2162,7 +2162,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-16T21:21:31.179Z"
+      "lastRefreshed": "2026-06-17T05:19:22.784Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2239,7 +2239,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-16T21:21:31.179Z",
+      "lastRefreshed": "2026-06-17T05:19:22.784Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2282,7 +2282,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-16T21:21:31.179Z"
+      "lastRefreshed": "2026-06-17T05:19:22.784Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2374,7 +2374,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-16T21:21:31.179Z"
+      "lastRefreshed": "2026-06-17T05:19:22.784Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2466,7 +2466,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-16T21:21:31.179Z"
+      "lastRefreshed": "2026-06-17T05:19:22.784Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2485,7 +2485,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-16T21:21:31.179Z"
+      "lastRefreshed": "2026-06-17T05:19:22.784Z"
     }
   ],
   "topics": [
