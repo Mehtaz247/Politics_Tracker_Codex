@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-18T10:50:47.451Z",
+    "lastUpdated": "2026-06-18T15:56:29.995Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -308,6 +308,18 @@
       "topic": "homelessness",
       "summary": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years &nbsp;&nbsp; SF.gov",
       "confidence": 0.78
+    },
+    {
+      "id": "mayor-lurie-announces-san-francisco-zoo-to-offer-low-cost-admission-for-low-inco",
+      "title": "Mayor Lurie Announces San Francisco Zoo To Offer Low-Cost Admission For Low-Income Residents | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-announces-san-francisco-zoo-to-offer-low-cost-admission-for-low-income-residents/",
+      "publishedAt": "2026-06-17",
+      "topic": "economy",
+      "summary": "Starting Today, Residents With Medi-Cal or CalFresh Cards Can Receive Reduced $3 Admission Through City’s Museums for All Program; Builds on Mayor Lurie’s Work Under Family Opportunity Agenda to Help Working Families Afford to Live in San Francisco",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Announces San Francisco Zoo To Offer Low-Cost Admission For Low-Income Residents Office of the Mayor Starting Today, Residents With Medi-Cal or CalFresh Cards Can Receive Reduced $3 Admission Through City’s Museums for All Program; Builds on Mayor Lurie’s Work Under Family Opportunity Agenda to Help Working Families Afford to Live in San Francisco June 17, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced that the San Francisco Zoo and Gardens will begin offering reduced-price $3 admission to San Franciscans who receive public benefits through the San Francisco Museums for All program, run by the San Francisco Human Services Agency (SFHSA) in partnership with Treasurer José Cisneros. Last year, more than 200,000 people used Museums for All to access over 25 participating museums across the city. The expansion of free cultural activities in San Francisco builds on Mayor Lurie’s work through his Family Opportunity Agenda to make bring down costs for working families. Under the Family Opportunity Agenda , Mayor Lurie has taken steps to expand free and lowcost childcare , while advancing housing production and affordability through the Family Zoning Plan and the Affordable Housing Trust Fund . Last week, he launched a new season of free movies in Union Square , beginning with “KPop Demon Hunters” on June 20. “Our world-class arts and culture organizations are here to serve every San Franciscan, not just those who can pay for it,” said Mayor Lurie . “Starting today, San Franciscans with Medi-Cal or CalFresh cards can visit our zoo for just $3, joining dozens of cultural institutions that are already part of our Museums for All program. From affordable childcare to free movies in Union Square, we are working every day to make San Francisco a city whe...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "mayor-lurie-s-5-9m-permitting-contract-broke-no-rules-but-wasn-t-done-right-repo",
@@ -965,21 +977,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor-",
-      "title": "Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor's Office Leadership Team - SF.gov",
-      "sourceType": "news",
-      "url": "https://www.google-analytics.com/analytics.js",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1ROMkNFQThBekRnT2xTQ20zTGxGSDk2b0c0NnhYVTVQTkF5UXhlU2ZDSF8ycE1jZ3NHYUhIMXF5cjA0eWZZNVcyQ0dLMDBnOFhOMnNWMlhOenpxMzhMSC1NLUJYNk1Iek5sMGJqbjBPTmJQOV9uTzR1OUdyWVlNdHdfa2ExMEdlQy1lR2F4MDU0c0MwMFVkNnBhdFljQnZYeHgyMVBxc1RyRnRTaUNGNlFhbzZYMi00WHhPeGlfSld4OUtZN2c?oc=5",
-      "discoverySource": "Google News",
-      "publishedAt": "2026-05-27",
-      "topic": "economy",
-      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
-      "confidence": 0.8,
-      "resolvedFrom": "google_news",
-      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "mayor-lurie-awards-more-than-21-million-in-funding-to-support-workforce-developm",
       "title": "Mayor Lurie Awards More Than $21 Million In Funding To Support Workforce Development, Connect San Franciscans To Good-Paying Jobs | SF.gov",
       "sourceType": "official",
@@ -1001,6 +998,21 @@
       "summary": "Policy Expert With Experience Across Bay Area, Bonde Has Been Serving as Deputy Chief of Staff; Adam Thongsavat to serve as Deputy Chief of Staff, Eileen Mariano as Policy Director",
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor&#x27;s Office Leadership Team Office of the Mayor Policy Expert With Experience Across Bay Area, Bonde Has Been Serving as Deputy Chief of Staff; Adam Thongsavat to serve as Deputy Chief of Staff, Eileen Mariano as Policy Director May 27, 2026 SAN FRANCISCO – Mayor Daniel Lurie today appointed Aly Bonde to serve as chief of staff, elevating a policy expert who has served in government across the Bay Area. Mayor Lurie also announced that Adam Thongsavat will serve as deputy chief of staff and Eileen Mariano as policy director, adding two accomplished Mayor’s Office veterans to the leadership team. Bonde has been serving as deputy chief of chief in the Mayor’s Office, advising Mayor Lurie on a wide range of policy issues from the behavioral health crisis to affordable housing. Thongsavat has been serving as liaison to the Board of Supervisors, facilitating Mayor Lurie’s close working relationship with the Board, while Mariano has led the office’s work in Sacramento and Washington, D.C., passing legislation to advance public safety and the city’s economic recovery while securing critical state and federal funding. Thongsavat and Mariano will continue to report to Bonde. “Aly, Adam, and Eileen have been a collaborative and effective team since we took office last year—partnering with the Board of Supervisors and the state Legislature to pass major legislation to get drugs off our streets and drive our economic recovery,” said Mayor Lurie . “We’ve done so much in our first year and a half to get San Francisco moving in the right direction again, and residents are feeling the difference. But we have so much more to do, and Aly, Adam, Eileen, and I are ready to keep our foot on the acceler...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor-",
+      "title": "Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor's Office Leadership Team - SF.gov",
+      "sourceType": "news",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1ROMkNFQThBekRnT2xTQ20zTGxGSDk2b0c0NnhYVTVQTkF5UXhlU2ZDSF8ycE1jZ3NHYUhIMXF5cjA0eWZZNVcyQ0dLMDBnOFhOMnNWMlhOenpxMzhMSC1NLUJYNk1Iek5sMGJqbjBPTmJQOV9uTzR1OUdyWVlNdHdfa2ExMEdlQy1lR2F4MDU0c0MwMFVkNnBhdFljQnZYeHgyMVBxc1RyRnRTaUNGNlFhbzZYMi00WHhPeGlfSld4OUtZN2c?oc=5",
+      "discoverySource": "Google News",
+      "publishedAt": "2026-05-27",
+      "topic": "economy",
+      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
+      "confidence": 0.8,
+      "resolvedFrom": "google_news",
+      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1543,18 +1555,6 @@
       "confidence": 0.9,
       "excerpt": "Mayor Lurie Signs MOU Between San Francisco And American Chamber Of Commerce In Korea Office of the Mayor Signed in Seoul, Memorandum of Understanding Will Build Upon 50-Year Sister City Relationship, Support Economic Engagement in Two-Year Partnership; Continues Mayor Lurie’s Work to Accelerate San Francisco’s Economic Comeback April 22, 2026 SAN FRANCISCO – Mayor Daniel Lurie today signed a memorandum of understanding (MOU) between San Francisco and the American Chamber of Commerce in Korea (AMCHAM) building upon the 50-year sister city relationship between San Francisco and Seoul. The MOU will help connect businesses and institutions in the two cities, create opportunities for trade and investment, and support collaboration across key industries. It will also encourage the sharing of ideas, people, and organizations to strengthen the connection between San Francisco and Seoul. Signed on Mayor Lurie’s first day in Seoul, the MOU builds on his work to accelerate San Francisco’s economic recovery and drive the city’s comeback. Last September, the mayor unveiled his “Heart of the City” executive directive , with more than $60 million committed to the Downtown Development Corporation to foster a downtown where people live, work, play, and learn. Since he took office, San Francisco downtown and business community are coming back, with crime down 40% in Union Square and the financial district, office leasing surging 67% , and San Francisco leading major US cities in return to office rates . “As San Francisco and Seoul celebrate their 50-year sister city relationship, we are thrilled to celebrate the relationship between our business communities,” said Mayor Lurie . “This agreement will strengthen engagement between our cities’ economies and expand opportunities for trade...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-celebrates-mou-between-sfmoma-and-korea-national-museum-of-modern-an",
-      "title": "Mayor Lurie Celebrates MOU Between SFMOMA And Korea National Museum Of Modern And Contemporary Art | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-mou-between-sfmoma-and-korea-national-museum-of-modern-and-contemporary-art/",
-      "publishedAt": "2026-04-22",
-      "topic": "economy",
-      "summary": "Signed in Seoul, Memorandum of Understanding Will Strengthen Institutional Partnerships, Connect Cultures and Communities Through Art; Continues Mayor Lurie’s Work to Drive San Francisco’s Economic Recovery Through Arts and Culture",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Celebrates MOU Between SFMOMA And Korea National Museum Of Modern And Contemporary Art Office of the Mayor Signed in Seoul, Memorandum of Understanding Will Strengthen Institutional Partnerships, Connect Cultures and Communities Through Art; Continues Mayor Lurie’s Work to Drive San Francisco’s Economic Recovery Through Arts and Culture April 22, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the signing of a memorandum of understanding (MOU) between the San Francisco Museum of Modern Art (SFMOMA) and the National Museum of Modern and Contemporary Art, Korea (MMCA). The MOU between arts organizations will form a partnership to promote cultural exchange, artistic research, and public engagement through joint artistic and scholarly initiatives. Signed in Seoul during Mayor Lurie’s visit commemorating 50 years of the sister city relationship between San Francisco and Seoul, the MOU builds on his efforts to accelerate San Francisco’s economic recovery through the arts. To continue driving San Francisco’s comeback with arts and culture, the mayor is advancing the city’s creative economy with a search for San Francisco’s new executive director of arts and culture . In his first year in office, he launched SF LIVE , a citywide show guide and online events calendar designed to boost ticket sales for live arts venues, and brought back SF Music Week , which returned this year , further strengthening San Francisco’s position as a vital music hub. The mayor has also taken steps to strengthen local arts and culture institutions , built partnerships with the private and philanthropic sectors , and advanced a plan to accelerate downtown San Francisco’s comeback . “As San Francisco and Seoul celebrate 50 years as sister cities, partnerships like this one h...",
-      "scrapeStatus": "scraped"
     }
   ],
   "promises": [
@@ -1901,7 +1901,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 551 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 734 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2143,7 +2143,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-18T10:50:47.310Z"
+      "lastRefreshed": "2026-06-18T15:56:29.863Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2162,7 +2162,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-18T10:50:47.310Z"
+      "lastRefreshed": "2026-06-18T15:56:29.863Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2178,7 +2178,7 @@
       "observations": [],
       "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-18T10:50:47.310Z",
+      "lastRefreshed": "2026-06-18T15:56:29.863Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2221,7 +2221,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-18T10:50:47.310Z"
+      "lastRefreshed": "2026-06-18T15:56:29.863Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2236,7 +2236,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 806,
+      "latest": 895,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2308,12 +2308,12 @@
         },
         {
           "date": "2026-06-01",
-          "value": 806
+          "value": 895
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-18T10:50:47.310Z"
+      "lastRefreshed": "2026-06-18T15:56:29.863Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2328,7 +2328,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 551,
+      "latest": 734,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2400,12 +2400,12 @@
         },
         {
           "date": "2026-06-01",
-          "value": 551
+          "value": 734
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-18T10:50:47.310Z"
+      "lastRefreshed": "2026-06-18T15:56:29.863Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2424,7 +2424,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-18T10:50:47.310Z"
+      "lastRefreshed": "2026-06-18T15:56:29.863Z"
     }
   ],
   "topics": [
@@ -2731,14 +2731,14 @@
       "selectionMethod": "fallback"
     },
     {
-      "id": "mayor-lurie-x27-s-statement-on-carb-decision-to-gut-state-funding-for-transit-an",
-      "headline": "Mayor Lurie&#x27;s Statement On CARB Decision To Gut State Funding For Transit And Affordable Housing | SF.gov",
-      "url": "https://www.sf.gov/news-mayor-luries-statement-on-carb-decision-to-gut-state-funding-for-transit-and-affordable-housing/",
-      "publishedAt": "2026-05-30",
-      "publisher": "SF.gov",
-      "topic": "economy",
-      "whyItMatters": "NEWS Mayor Lurie&#x27;s Statement On CARB Decision To Gut State Funding For Transit And Affordable Housing Office of the Mayor May 30, 2026 SAN FRANCISCO – Mayor Daniel Lurie today released the following statement on the California Air Resources Board’s (CARB) decision to eliminate programs that have provided billions of dollars in state funding for affordable housing and public transit: “After years of struggle, San",
-      "sourceId": "mayor-lurie-x27-s-statement-on-carb-decision-to-gut-state-funding-for-transit-an",
+      "id": "san-francisco-mayor-touts-record-low-number-of-encampments-and-rvs-on-city-stree",
+      "headline": "San Francisco Mayor touts record low number of encampments and RVs on city streets",
+      "url": "https://www.cbsnews.com/sanfrancisco/video/san-francisco-mayor-touts-record-low-number-of-encampments-and-rvs-on-city-streets/",
+      "publishedAt": "2026-06-09",
+      "publisher": "CBS San Francisco",
+      "topic": "homelessness",
+      "whyItMatters": "Crime and homeless encampments in San Francisco are falling according to Mayor Daniel Lurie. Veronica Macias reports.",
+      "sourceId": "san-francisco-mayor-touts-record-low-number-of-encampments-and-rvs-on-city-stree",
       "selectionMethod": "fallback"
     }
   ],
