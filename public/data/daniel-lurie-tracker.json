@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-19T20:06:16.238Z",
+    "lastUpdated": "2026-06-20T04:42:48.343Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -310,18 +310,6 @@
       "confidence": 0.78
     },
     {
-      "id": "mayor-lurie-announces-installation-with-49-beams-of-light-to-rise-above-civic-ce",
-      "title": "Mayor Lurie Announces Installation With 49 Beams Of Light To Rise Above Civic Center During Historic Summer For San Francisco | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-announces-installation-with-49-beams-of-light-to-rise-above-civic-center-during-historic-summer-for-san-francisco/",
-      "publishedAt": "2026-06-18",
-      "topic": "economy",
-      "summary": "Visible Across San Francisco and Bay Area, “7X7” Installation Will Transform Civic Center Plaza Between June 21 and July 4; Builds on Mayor Lurie’s Work to Invite Visitors to San Francisco, Drive City’s Economic Recovery",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Announces Installation With 49 Beams Of Light To Rise Above Civic Center During Historic Summer For San Francisco Office of the Mayor Visible Across San Francisco and Bay Area, “7X7” Installation Will Transform Civic Center Plaza Between June 21 and July 4; Builds on Mayor Lurie’s Work to Invite Visitors to San Francisco, Drive City’s Economic Recovery June 18, 2026 SAN FRANCISCO – Mayor Daniel Lurie today unveiled “7X7,” a free public artwork that will light up Civic Center Plaza with 49 beams of light in an array of colors—just as San Francisco welcomes visitors from around the world for Pride, the FIFA World Cup, and the United States’ 250th anniversary. Conceived and produced by Illuminate, “7X7” will send 49 beams of light into the sky—one for each square mile of San Francisco—from June 21 through July 4. “7X7” will be visible from across San Francisco and the Bay Area, inviting visitors to approach the artwork or interact with it from across the city’s neighborhoods, creating an immersive experience from sunset to sunrise. The installation builds on Mayor Lurie’s work to welcome visitors to San Francisco, with tourism on track to break records in 2026 following San Francisco International Airport’s busiest-ever Memorial Day . The San Francisco Bay Area is currently hosting the FIFA World Cup , after successfully hosting the Super Bowl and NBA All-Star Weekend—events projected to generate $1.4 billion in economic activity and help accelerate the city&#x27;s economic recovery. On July 4, San Francisco will follow Pride Weekend with an historic Fourth of July fireworks display launching from the Golden Gate Bridge. “As our city welcomes people from around the world this summer for Pride, July Fourth, and the World Cup, we are showing the creativit...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "mayor-daniel-lurie-supervisor-matt-dorsey-add-to-chorus-of-condemnation-for-gian",
       "title": "Mayor Daniel Lurie, Supervisor Matt Dorsey Add to Chorus of Condemnation for Giants Pride Night Controversy",
       "sourceType": "news",
@@ -334,6 +322,18 @@
       "summary": "The SF Giants continue to face a public relations fiasco in their hometown and across the nation, even as prominent Republicans have chosen to dig in on the side of the self-described Christian pitchers who decided to score points with MAGA World on Pride Night.",
       "confidence": 0.8,
       "excerpt": "18 June 2026 / Bay Area Sports / Jay Barmann Mayor Daniel Lurie, Supervisor Matt Dorsey Add to Chorus of Condemnation for Giants Pride Night Controversy --> The SF Giants continue to face a public relations fiasco in their hometown and across the nation, even as prominent Republicans have chosen to dig in on the side of the self-described Christian pitchers who decided to score points with MAGA World on Pride Night. San Francisco Mayor Daniel Lurie has officially weighed in on the controversy involving four Giants pitchers and the defacement of Pride Night Giants caps. Lurie said, speaking to the Bay Area Reporter Wednesday, \"I think a few people made it about themselves and not about the community, and here in San Francisco, the LGBTQ+ community is what makes this city so special. My first thought is, ‘This is why we need Pride Month. We still have a long way to go.’\" Lurie also said that he was \"personally really upset, and disappointed\" by the players' actions. And when asked if he had reached out the Giants yet, he said he had not, but he added, \"I think we should stand up as a city and say that a few people do not represent the values of our city. And I think, you know, I go back and I'd give credit to the Giants, one of the first organizations to have a Pride Night. … There’s a lot of positives there, and let’s build off of that.\" Three of the pitchers — starter Landen Roupp, and relievers JT Brubaker and Ryan Walker — wrote a Bible verse on their caps next to the rainbow version of Giants logo. That verse, Gen 9:12-16, has apparently been used in right-wing Christian circles to suggest that God created the rainbow and it doesn't belong to Pride or queer people. A fourth pitcher, Sam Hentges, opted not to wear the cap at all, but to swap it out for a standard c...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-announces-installation-with-49-beams-of-light-to-rise-above-civic-ce",
+      "title": "Mayor Lurie Announces Installation With 49 Beams Of Light To Rise Above Civic Center During Historic Summer For San Francisco | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-announces-installation-with-49-beams-of-light-to-rise-above-civic-center-during-historic-summer-for-san-francisco/",
+      "publishedAt": "2026-06-18",
+      "topic": "economy",
+      "summary": "Visible Across San Francisco and Bay Area, “7X7” Installation Will Transform Civic Center Plaza Between June 21 and July 4; Builds on Mayor Lurie’s Work to Invite Visitors to San Francisco, Drive City’s Economic Recovery",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Announces Installation With 49 Beams Of Light To Rise Above Civic Center During Historic Summer For San Francisco Office of the Mayor Visible Across San Francisco and Bay Area, “7X7” Installation Will Transform Civic Center Plaza Between June 21 and July 4; Builds on Mayor Lurie’s Work to Invite Visitors to San Francisco, Drive City’s Economic Recovery June 18, 2026 SAN FRANCISCO – Mayor Daniel Lurie today unveiled “7X7,” a free public artwork that will light up Civic Center Plaza with 49 beams of light in an array of colors—just as San Francisco welcomes visitors from around the world for Pride, the FIFA World Cup, and the United States’ 250th anniversary. Conceived and produced by Illuminate, “7X7” will send 49 beams of light into the sky—one for each square mile of San Francisco—from June 21 through July 4. “7X7” will be visible from across San Francisco and the Bay Area, inviting visitors to approach the artwork or interact with it from across the city’s neighborhoods, creating an immersive experience from sunset to sunrise. The installation builds on Mayor Lurie’s work to welcome visitors to San Francisco, with tourism on track to break records in 2026 following San Francisco International Airport’s busiest-ever Memorial Day . The San Francisco Bay Area is currently hosting the FIFA World Cup , after successfully hosting the Super Bowl and NBA All-Star Weekend—events projected to generate $1.4 billion in economic activity and help accelerate the city&#x27;s economic recovery. On July 4, San Francisco will follow Pride Weekend with an historic Fourth of July fireworks display launching from the Golden Gate Bridge. “As our city welcomes people from around the world this summer for Pride, July Fourth, and the World Cup, we are showing the creativit...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1004,6 +1004,21 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor-",
+      "title": "Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor's Office Leadership Team - SF.gov",
+      "sourceType": "news",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1ROMkNFQThBekRnT2xTQ20zTGxGSDk2b0c0NnhYVTVQTkF5UXhlU2ZDSF8ycE1jZ3NHYUhIMXF5cjA0eWZZNVcyQ0dLMDBnOFhOMnNWMlhOenpxMzhMSC1NLUJYNk1Iek5sMGJqbjBPTmJQOV9uTzR1OUdyWVlNdHdfa2ExMEdlQy1lR2F4MDU0c0MwMFVkNnBhdFljQnZYeHgyMVBxc1RyRnRTaUNGNlFhbzZYMi00WHhPeGlfSld4OUtZN2c?oc=5",
+      "discoverySource": "Google News",
+      "publishedAt": "2026-05-27",
+      "topic": "economy",
+      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
+      "confidence": 0.8,
+      "resolvedFrom": "google_news",
+      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "mayor-lurie-awards-more-than-21-million-in-funding-to-support-workforce-developm",
       "title": "Mayor Lurie Awards More Than $21 Million In Funding To Support Workforce Development, Connect San Franciscans To Good-Paying Jobs | SF.gov",
       "sourceType": "official",
@@ -1025,21 +1040,6 @@
       "summary": "Policy Expert With Experience Across Bay Area, Bonde Has Been Serving as Deputy Chief of Staff; Adam Thongsavat to serve as Deputy Chief of Staff, Eileen Mariano as Policy Director",
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor&#x27;s Office Leadership Team Office of the Mayor Policy Expert With Experience Across Bay Area, Bonde Has Been Serving as Deputy Chief of Staff; Adam Thongsavat to serve as Deputy Chief of Staff, Eileen Mariano as Policy Director May 27, 2026 SAN FRANCISCO – Mayor Daniel Lurie today appointed Aly Bonde to serve as chief of staff, elevating a policy expert who has served in government across the Bay Area. Mayor Lurie also announced that Adam Thongsavat will serve as deputy chief of staff and Eileen Mariano as policy director, adding two accomplished Mayor’s Office veterans to the leadership team. Bonde has been serving as deputy chief of chief in the Mayor’s Office, advising Mayor Lurie on a wide range of policy issues from the behavioral health crisis to affordable housing. Thongsavat has been serving as liaison to the Board of Supervisors, facilitating Mayor Lurie’s close working relationship with the Board, while Mariano has led the office’s work in Sacramento and Washington, D.C., passing legislation to advance public safety and the city’s economic recovery while securing critical state and federal funding. Thongsavat and Mariano will continue to report to Bonde. “Aly, Adam, and Eileen have been a collaborative and effective team since we took office last year—partnering with the Board of Supervisors and the state Legislature to pass major legislation to get drugs off our streets and drive our economic recovery,” said Mayor Lurie . “We’ve done so much in our first year and a half to get San Francisco moving in the right direction again, and residents are feeling the difference. But we have so much more to do, and Aly, Adam, Eileen, and I are ready to keep our foot on the acceler...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor-",
-      "title": "Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor's Office Leadership Team - SF.gov",
-      "sourceType": "news",
-      "url": "https://www.google-analytics.com/analytics.js",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1ROMkNFQThBekRnT2xTQ20zTGxGSDk2b0c0NnhYVTVQTkF5UXhlU2ZDSF8ycE1jZ3NHYUhIMXF5cjA0eWZZNVcyQ0dLMDBnOFhOMnNWMlhOenpxMzhMSC1NLUJYNk1Iek5sMGJqbjBPTmJQOV9uTzR1OUdyWVlNdHdfa2ExMEdlQy1lR2F4MDU0c0MwMFVkNnBhdFljQnZYeHgyMVBxc1RyRnRTaUNGNlFhbzZYMi00WHhPeGlfSld4OUtZN2c?oc=5",
-      "discoverySource": "Google News",
-      "publishedAt": "2026-05-27",
-      "topic": "economy",
-      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
-      "confidence": 0.8,
-      "resolvedFrom": "google_news",
-      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
       "scrapeStatus": "scraped"
     },
     {
@@ -2146,7 +2146,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-19T20:06:16.100Z"
+      "lastRefreshed": "2026-06-20T04:42:48.224Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2165,7 +2165,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-19T20:06:16.100Z"
+      "lastRefreshed": "2026-06-20T04:42:48.224Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2242,7 +2242,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-19T20:06:16.100Z",
+      "lastRefreshed": "2026-06-20T04:42:48.224Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2285,7 +2285,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-19T20:06:16.100Z"
+      "lastRefreshed": "2026-06-20T04:42:48.224Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2377,7 +2377,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-19T20:06:16.100Z"
+      "lastRefreshed": "2026-06-20T04:42:48.224Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2469,7 +2469,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-19T20:06:16.100Z"
+      "lastRefreshed": "2026-06-20T04:42:48.224Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2488,7 +2488,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-19T20:06:16.100Z"
+      "lastRefreshed": "2026-06-20T04:42:48.224Z"
     }
   ],
   "topics": [
