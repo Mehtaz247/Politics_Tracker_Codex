@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-24T20:12:42.109Z",
+    "lastUpdated": "2026-06-25T04:37:22.957Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -2145,7 +2145,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-24T20:12:41.903Z"
+      "lastRefreshed": "2026-06-25T04:37:22.794Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2164,7 +2164,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-24T20:12:41.903Z"
+      "lastRefreshed": "2026-06-25T04:37:22.794Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2241,7 +2241,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-24T20:12:41.903Z",
+      "lastRefreshed": "2026-06-25T04:37:22.794Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2284,7 +2284,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-24T20:12:41.903Z"
+      "lastRefreshed": "2026-06-25T04:37:22.794Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2376,7 +2376,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-24T20:12:41.903Z"
+      "lastRefreshed": "2026-06-25T04:37:22.794Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2468,7 +2468,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-24T20:12:41.903Z"
+      "lastRefreshed": "2026-06-25T04:37:22.794Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2487,7 +2487,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-24T20:12:41.903Z"
+      "lastRefreshed": "2026-06-25T04:37:22.794Z"
     }
   ],
   "topics": [
