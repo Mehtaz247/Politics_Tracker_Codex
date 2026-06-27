@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-26T20:13:16.351Z",
+    "lastUpdated": "2026-06-27T04:19:12.813Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -33,13 +33,15 @@
   "sources": [
     {
       "id": "campaign-shelter-homelessness",
-      "title": "Daniel Lurie campaign shelter and homelessness priorities",
+      "title": "Thank You Letter - Daniel Lurie for Mayor",
       "sourceType": "campaign",
       "url": "https://daniellurie.com/priorities/shelter-amp-homelessness/",
-      "publishedAt": "2024-05-15",
+      "publishedAt": "2024-11-04",
       "topic": "homelessness",
-      "summary": "Campaign platform page covering shelter, homelessness, and unsheltered-street commitments.",
-      "confidence": 0.94
+      "summary": "Dear Fellow San Franciscans, we launched this campaign 13 months ago with the strong belief that it’s time for accountable leadership in City Hall.",
+      "confidence": 0.94,
+      "excerpt": "Dear Fellow San Franciscans, We launched this campaign 13 months ago with the strong belief that it’s time for accountable leadership in City Hall. After years of record-high budgets, worse outcomes, and more excuses, San Franciscans are ready for change. Over the past 13 months, I’ve had the great experience of meeting with San Franciscans in every corner of our city. I heard your frustrations but also your hope and desire to write our next chapter. After 260 meet and greets, more than 100 merchant walks, over 120,000 doors knocked, and countless conversations with San Franciscans, I am proud to report that hope is alive and well in our city! This hope is powered by our love for the city we call home. But hope alone is not enough. Strong values are not enough. They have to be drivers of action and results. Now we must show how the government can deliver: Clean and safe streets for all. Tackling our drug and behavioral health crisis. Shaking up the corrupt and ineffective bureaucracy. Building enough housing to turn around our affordability crisis. Breathing life back into our downtown, and ensuring our small businesses are thriving. Here’s the truth: Turning around this city is not going to happen overnight. No matter who wins this election, we have extremely difficult challenges ahead. But here’s another truth: our opportunities and advantages are more powerful. This moment calls for leadership rooted in true public service, one that puts the people of San Francisco above all else. To tackle these issues, we need to work together and turn the page on the politics of demonizing each other on every issue. You poured your whole selves into this campaign. Now, I am asking you to pour that same passion and energy into turning our city around. It’s time for us to roll up...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-",
@@ -58,13 +60,15 @@
     },
     {
       "id": "campaign-mental-health-drugs",
-      "title": "Daniel Lurie campaign mental health and drug crisis priorities",
+      "title": "Thank You Letter - Daniel Lurie for Mayor",
       "sourceType": "campaign",
       "url": "https://daniellurie.com/priorities/mental-health-amp-drug-crisis/",
-      "publishedAt": "2024-02-26",
-      "topic": "public_safety",
-      "summary": "Campaign platform page covering fentanyl emergency powers, treatment, and street-crisis response.",
-      "confidence": 0.94
+      "publishedAt": "2024-11-04",
+      "topic": "homelessness",
+      "summary": "Dear Fellow San Franciscans, we launched this campaign 13 months ago with the strong belief that it’s time for accountable leadership in City Hall.",
+      "confidence": 0.94,
+      "excerpt": "Dear Fellow San Franciscans, We launched this campaign 13 months ago with the strong belief that it’s time for accountable leadership in City Hall. After years of record-high budgets, worse outcomes, and more excuses, San Franciscans are ready for change. Over the past 13 months, I’ve had the great experience of meeting with San Franciscans in every corner of our city. I heard your frustrations but also your hope and desire to write our next chapter. After 260 meet and greets, more than 100 merchant walks, over 120,000 doors knocked, and countless conversations with San Franciscans, I am proud to report that hope is alive and well in our city! This hope is powered by our love for the city we call home. But hope alone is not enough. Strong values are not enough. They have to be drivers of action and results. Now we must show how the government can deliver: Clean and safe streets for all. Tackling our drug and behavioral health crisis. Shaking up the corrupt and ineffective bureaucracy. Building enough housing to turn around our affordability crisis. Breathing life back into our downtown, and ensuring our small businesses are thriving. Here’s the truth: Turning around this city is not going to happen overnight. No matter who wins this election, we have extremely difficult challenges ahead. But here’s another truth: our opportunities and advantages are more powerful. This moment calls for leadership rooted in true public service, one that puts the people of San Francisco above all else. To tackle these issues, we need to work together and turn the page on the politics of demonizing each other on every issue. You poured your whole selves into this campaign. Now, I am asking you to pour that same passion and energy into turning our city around. It’s time for us to roll up...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "fentanyl-powers",
@@ -93,13 +97,15 @@
     },
     {
       "id": "campaign-public-safety",
-      "title": "Daniel Lurie campaign public safety priorities",
+      "title": "Thank You Letter - Daniel Lurie for Mayor",
       "sourceType": "campaign",
       "url": "https://daniellurie.com/priorities/public-safety/",
-      "publishedAt": "2024-08-21",
-      "topic": "public_safety",
-      "summary": "Campaign platform page covering police staffing, retail theft, and downtown safety commitments.",
-      "confidence": 0.94
+      "publishedAt": "2024-11-04",
+      "topic": "homelessness",
+      "summary": "Dear Fellow San Franciscans, we launched this campaign 13 months ago with the strong belief that it’s time for accountable leadership in City Hall.",
+      "confidence": 0.94,
+      "excerpt": "Dear Fellow San Franciscans, We launched this campaign 13 months ago with the strong belief that it’s time for accountable leadership in City Hall. After years of record-high budgets, worse outcomes, and more excuses, San Franciscans are ready for change. Over the past 13 months, I’ve had the great experience of meeting with San Franciscans in every corner of our city. I heard your frustrations but also your hope and desire to write our next chapter. After 260 meet and greets, more than 100 merchant walks, over 120,000 doors knocked, and countless conversations with San Franciscans, I am proud to report that hope is alive and well in our city! This hope is powered by our love for the city we call home. But hope alone is not enough. Strong values are not enough. They have to be drivers of action and results. Now we must show how the government can deliver: Clean and safe streets for all. Tackling our drug and behavioral health crisis. Shaking up the corrupt and ineffective bureaucracy. Building enough housing to turn around our affordability crisis. Breathing life back into our downtown, and ensuring our small businesses are thriving. Here’s the truth: Turning around this city is not going to happen overnight. No matter who wins this election, we have extremely difficult challenges ahead. But here’s another truth: our opportunities and advantages are more powerful. This moment calls for leadership rooted in true public service, one that puts the people of San Francisco above all else. To tackle these issues, we need to work together and turn the page on the politics of demonizing each other on every issue. You poured your whole selves into this campaign. Now, I am asking you to pour that same passion and energy into turning our city around. It’s time for us to roll up...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "mayor-lurie-signs-legislation-to-support-san-francisco-police-officers-continue-",
@@ -125,23 +131,27 @@
     },
     {
       "id": "campaign-accountability",
-      "title": "Daniel Lurie campaign accountability and anti-corruption priorities",
+      "title": "Thank You Letter - Daniel Lurie for Mayor",
       "sourceType": "campaign",
       "url": "https://daniellurie.com/priorities/accountability-amp-anti-corruption/",
-      "publishedAt": "2024-08-19",
-      "topic": "city_government",
-      "summary": "Campaign platform page covering ethics enforcement, anti-corruption, and bureaucracy reform.",
-      "confidence": 0.94
+      "publishedAt": "2024-11-04",
+      "topic": "homelessness",
+      "summary": "Dear Fellow San Franciscans, we launched this campaign 13 months ago with the strong belief that it’s time for accountable leadership in City Hall.",
+      "confidence": 0.94,
+      "excerpt": "Dear Fellow San Franciscans, We launched this campaign 13 months ago with the strong belief that it’s time for accountable leadership in City Hall. After years of record-high budgets, worse outcomes, and more excuses, San Franciscans are ready for change. Over the past 13 months, I’ve had the great experience of meeting with San Franciscans in every corner of our city. I heard your frustrations but also your hope and desire to write our next chapter. After 260 meet and greets, more than 100 merchant walks, over 120,000 doors knocked, and countless conversations with San Franciscans, I am proud to report that hope is alive and well in our city! This hope is powered by our love for the city we call home. But hope alone is not enough. Strong values are not enough. They have to be drivers of action and results. Now we must show how the government can deliver: Clean and safe streets for all. Tackling our drug and behavioral health crisis. Shaking up the corrupt and ineffective bureaucracy. Building enough housing to turn around our affordability crisis. Breathing life back into our downtown, and ensuring our small businesses are thriving. Here’s the truth: Turning around this city is not going to happen overnight. No matter who wins this election, we have extremely difficult challenges ahead. But here’s another truth: our opportunities and advantages are more powerful. This moment calls for leadership rooted in true public service, one that puts the people of San Francisco above all else. To tackle these issues, we need to work together and turn the page on the politics of demonizing each other on every issue. You poured your whole selves into this campaign. Now, I am asking you to pour that same passion and energy into turning our city around. It’s time for us to roll up...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "campaign-housing",
-      "title": "Daniel Lurie campaign housing priorities",
+      "title": "Thank You Letter - Daniel Lurie for Mayor",
       "sourceType": "campaign",
       "url": "https://daniellurie.com/priorities/housing/",
-      "publishedAt": "2024-07-15",
-      "topic": "housing",
-      "summary": "Campaign platform page covering faster housing delivery, affordability, and production reforms.",
-      "confidence": 0.94
+      "publishedAt": "2024-11-04",
+      "topic": "homelessness",
+      "summary": "Dear Fellow San Franciscans, we launched this campaign 13 months ago with the strong belief that it’s time for accountable leadership in City Hall.",
+      "confidence": 0.94,
+      "excerpt": "Dear Fellow San Franciscans, We launched this campaign 13 months ago with the strong belief that it’s time for accountable leadership in City Hall. After years of record-high budgets, worse outcomes, and more excuses, San Franciscans are ready for change. Over the past 13 months, I’ve had the great experience of meeting with San Franciscans in every corner of our city. I heard your frustrations but also your hope and desire to write our next chapter. After 260 meet and greets, more than 100 merchant walks, over 120,000 doors knocked, and countless conversations with San Franciscans, I am proud to report that hope is alive and well in our city! This hope is powered by our love for the city we call home. But hope alone is not enough. Strong values are not enough. They have to be drivers of action and results. Now we must show how the government can deliver: Clean and safe streets for all. Tackling our drug and behavioral health crisis. Shaking up the corrupt and ineffective bureaucracy. Building enough housing to turn around our affordability crisis. Breathing life back into our downtown, and ensuring our small businesses are thriving. Here’s the truth: Turning around this city is not going to happen overnight. No matter who wins this election, we have extremely difficult challenges ahead. But here’s another truth: our opportunities and advantages are more powerful. This moment calls for leadership rooted in true public service, one that puts the people of San Francisco above all else. To tackle these issues, we need to work together and turn the page on the politics of demonizing each other on every issue. You poured your whole selves into this campaign. Now, I am asking you to pour that same passion and energy into turning our city around. It’s time for us to roll up...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "mayor-lurie-signs-legislation-to-make-it-easier-to-throw-block-parties-and-neigh",
@@ -197,33 +207,39 @@
     },
     {
       "id": "campaign-home",
-      "title": "Daniel Lurie campaign thank you letter",
+      "title": "Thank You Letter - Daniel Lurie for Mayor",
       "sourceType": "campaign",
       "url": "https://daniellurie.com/",
       "publishedAt": "2024-11-04",
-      "topic": "city_government",
-      "summary": "Campaign closing letter summarizing the core commitments of the 2024 mayoral campaign.",
-      "confidence": 0.94
+      "topic": "homelessness",
+      "summary": "Dear Fellow San Franciscans, we launched this campaign 13 months ago with the strong belief that it’s time for accountable leadership in City Hall.",
+      "confidence": 0.94,
+      "excerpt": "Dear Fellow San Franciscans, We launched this campaign 13 months ago with the strong belief that it’s time for accountable leadership in City Hall. After years of record-high budgets, worse outcomes, and more excuses, San Franciscans are ready for change. Over the past 13 months, I’ve had the great experience of meeting with San Franciscans in every corner of our city. I heard your frustrations but also your hope and desire to write our next chapter. After 260 meet and greets, more than 100 merchant walks, over 120,000 doors knocked, and countless conversations with San Franciscans, I am proud to report that hope is alive and well in our city! This hope is powered by our love for the city we call home. But hope alone is not enough. Strong values are not enough. They have to be drivers of action and results. Now we must show how the government can deliver: Clean and safe streets for all. Tackling our drug and behavioral health crisis. Shaking up the corrupt and ineffective bureaucracy. Building enough housing to turn around our affordability crisis. Breathing life back into our downtown, and ensuring our small businesses are thriving. Here’s the truth: Turning around this city is not going to happen overnight. No matter who wins this election, we have extremely difficult challenges ahead. But here’s another truth: our opportunities and advantages are more powerful. This moment calls for leadership rooted in true public service, one that puts the people of San Francisco above all else. To tackle these issues, we need to work together and turn the page on the politics of demonizing each other on every issue. You poured your whole selves into this campaign. Now, I am asking you to pour that same passion and energy into turning our city around. It’s time for us to roll up...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "campaign-small-business-downtown",
-      "title": "Daniel Lurie campaign small business and downtown revitalization priorities",
+      "title": "Thank You Letter - Daniel Lurie for Mayor",
       "sourceType": "campaign",
       "url": "https://daniellurie.com/priorities/small-business-amp-downtown-revitalization/",
-      "publishedAt": "2024-06-07",
-      "topic": "economy",
-      "summary": "Campaign platform page covering downtown recovery, small business support, and revitalization.",
-      "confidence": 0.94
+      "publishedAt": "2024-11-04",
+      "topic": "homelessness",
+      "summary": "Dear Fellow San Franciscans, we launched this campaign 13 months ago with the strong belief that it’s time for accountable leadership in City Hall.",
+      "confidence": 0.94,
+      "excerpt": "Dear Fellow San Franciscans, We launched this campaign 13 months ago with the strong belief that it’s time for accountable leadership in City Hall. After years of record-high budgets, worse outcomes, and more excuses, San Franciscans are ready for change. Over the past 13 months, I’ve had the great experience of meeting with San Franciscans in every corner of our city. I heard your frustrations but also your hope and desire to write our next chapter. After 260 meet and greets, more than 100 merchant walks, over 120,000 doors knocked, and countless conversations with San Franciscans, I am proud to report that hope is alive and well in our city! This hope is powered by our love for the city we call home. But hope alone is not enough. Strong values are not enough. They have to be drivers of action and results. Now we must show how the government can deliver: Clean and safe streets for all. Tackling our drug and behavioral health crisis. Shaking up the corrupt and ineffective bureaucracy. Building enough housing to turn around our affordability crisis. Breathing life back into our downtown, and ensuring our small businesses are thriving. Here’s the truth: Turning around this city is not going to happen overnight. No matter who wins this election, we have extremely difficult challenges ahead. But here’s another truth: our opportunities and advantages are more powerful. This moment calls for leadership rooted in true public service, one that puts the people of San Francisco above all else. To tackle these issues, we need to work together and turn the page on the politics of demonizing each other on every issue. You poured your whole selves into this campaign. Now, I am asking you to pour that same passion and energy into turning our city around. It’s time for us to roll up...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "campaign-climate-hub",
-      "title": "Daniel Lurie campaign climate innovation hub priorities",
+      "title": "Climate Hub - Daniel Lurie for Mayor",
       "sourceType": "campaign",
       "url": "https://daniellurie.com/tc/climate-policy-tc/",
-      "publishedAt": "2024-06-07",
-      "topic": "climate",
-      "summary": "Campaign plan for a downtown climate innovation hub tied to job growth and office reuse.",
-      "confidence": 0.94
+      "publishedAt": "2024-12-20",
+      "topic": "public_safety",
+      "summary": "Explore our comprehensive climate policy focused on sustainability, clean energy, and environmental justice. Join us in the fight against climate change today!",
+      "confidence": 0.94,
+      "excerpt": "English 繁体中文 简体中文 Downtown Climate Innovation Hub Accelerate SF’s Recovery & Lead a Clean Energy Revolution At a Glance Maintain safe and clean streets as the foundation of downtown’s recovery. Incentivize cleantech industries to locate in vacant office space downtown. Leverage our lead in artificial intelligence to accelerate a cleantech revolution. Restore San Francisco's leadership in the fight against climate change. The Details The cleantech revolution is coming, and I will ensure it happens in San Francisco. Our downtown area is experiencing a slow recovery with a record-breaking 37% office vacancy rate . Experts predict a full recovery could take decades, if it happens at all. This impacts everything from city tax revenues to the vitality of small businesses and public safety. It’s a sad reality that San Francisco has 35 million square feet of available office space—the equivalent of 22 Salesforce Towers. We’ve experienced one of the slowest recoveries of any major city in the country. But this also presents an opportunity. We Can Make San Francisco a Global Leader in Clean Technology My administration will incentivize cleantech industries to occupy our vacant office spaces. We will create a Climate Innovation Hub by : Lowering Business Taxes: I will reduce business taxes on cleantech companies. A measure likely to be on the November ballot, which I support, will be one important step toward doing this by providing an estimated 59% tax decrease. Fast-Tracking Permitting: Fast lane-permitting for tenant improvements will lessen the time and cost associated with getting businesses up and running. Experts say my My City Hall Accountability Plan will lessen the time it takes to get a building permit by four months. I will make that even faster for new and expandin...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
@@ -2147,7 +2163,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-26T20:13:16.218Z"
+      "lastRefreshed": "2026-06-27T04:19:12.569Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2166,7 +2182,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-26T20:13:16.218Z"
+      "lastRefreshed": "2026-06-27T04:19:12.569Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2182,7 +2198,7 @@
       "observations": [],
       "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-26T20:13:16.218Z",
+      "lastRefreshed": "2026-06-27T04:19:12.569Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2225,7 +2241,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-26T20:13:16.218Z"
+      "lastRefreshed": "2026-06-27T04:19:12.569Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2317,7 +2333,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-26T20:13:16.218Z"
+      "lastRefreshed": "2026-06-27T04:19:12.569Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2409,7 +2425,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-26T20:13:16.218Z"
+      "lastRefreshed": "2026-06-27T04:19:12.569Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2428,7 +2444,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-26T20:13:16.218Z"
+      "lastRefreshed": "2026-06-27T04:19:12.569Z"
     }
   ],
   "topics": [
@@ -2924,9 +2940,9 @@
     }
   ],
   "promiseSeedMeta": {
-    "fingerprint": "5520896f8fc88b27",
+    "fingerprint": "08a49f8c37fa2a3b",
     "seedCount": 12,
-    "refreshedAt": "2026-05-31T04:55:15.029Z",
-    "source": "rehydrated_from_promises"
+    "refreshedAt": "2026-06-27T04:19:12.813Z",
+    "source": "anthropic_or_fallback"
   }
 }
