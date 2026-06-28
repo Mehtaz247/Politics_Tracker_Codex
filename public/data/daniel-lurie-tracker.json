@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-28T14:18:22.797Z",
+    "lastUpdated": "2026-06-28T19:49:42.502Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -326,6 +326,18 @@
       "confidence": 0.78
     },
     {
+      "id": "mayor-lurie-x27-s-statement-on-board-of-supervisor-x27-s-committee-unanimous-vot",
+      "title": "Mayor Lurie&#x27;s Statement On Board Of Supervisor&#x27;s Committee Unanimous Vote In Support Of City Budget | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-luries-statement-on-board-of-supervisors-committee-unanimous-vote-in-support-of-city-budget/",
+      "publishedAt": "2026-06-26",
+      "topic": "homelessness",
+      "summary": "NEWS Mayor Lurie&#x27;s Statement On Board Of Supervisor&#x27;s Committee Unanimous Vote In Support Of City Budget Office of the Mayor June 26, 2026 SAN FRANCISCO – Mayor Daniel Lurie today released the following statement after the Board of Supervisors Budget and Appropriations Committee voted unanimously to advance the city budget: “San Franciscans made it clear this month that they feel our city is finally moving",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie&#x27;s Statement On Board Of Supervisor&#x27;s Committee Unanimous Vote In Support Of City Budget Office of the Mayor June 26, 2026 SAN FRANCISCO – Mayor Daniel Lurie today released the following statement after the Board of Supervisors Budget and Appropriations Committee voted unanimously to advance the city budget: “San Franciscans made it clear this month that they feel our city is finally moving in the right direction. Thanks to the continued close partnership between the Mayor’s Office and the Board of Supervisors, this budget will keep our city moving forward. “Last summer, just as our city was getting back on track, the federal government cut hundreds of millions of dollars from healthcare and food assistance that San Franciscans rely on. Facing those cuts and threats of more, we chose to strengthen the social safety net and invest in our LGBTQ+ and immigrant communities. We protected core services and doubled down on building a broad and durable economic recovery, and we did it responsibly—by ending years of government spending money that we don’t have. “This budget helps families stay on healthcare and food assistance, supports efforts to prevent homelessness, invests in public safety and clean streets, and continues the work of creating the conditions for families, businesses, and communities to thrive. And it builds on the progress we made last year to stabilize the city&#x27;s finances by reducing our structural deficit, strengthening our reserves to prepare for uncertainty from Washington and Sacramento, and bringing spending more in line with revenues while protecting the services San Franciscans rely on every day. “I want to thank Board President Rafael Mandelman and Budget Chair Connie Chan; Budget and Appropriations Committee members...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "sf-supes-reverse-28-5-million-in-proposed-cuts-to-social-programs-in-new-city-bu",
       "title": "SF Supes Reverse $28.5 Million In Proposed Cuts to Social Programs In New City Budget Deal",
       "sourceType": "news",
@@ -338,18 +350,6 @@
       "summary": "About 90% of the funding cuts proposed in SF Mayor Daniel Lurie’s original city budget plan were reversed in a deal negotiated by the Board of Supes’ budget committee Thursday, with much of the credit going toward Supervisor Connie Chan.",
       "confidence": 0.8,
       "excerpt": "26 June 2026 / SF Politics / Leanne Maxwell SF Supes Reverse $28.5 Million In Proposed Cuts to Social Programs In New City Budget Deal --> About 90% of the funding cuts proposed in SF Mayor Daniel Lurie’s original city budget plan were reversed in a deal negotiated by the Board of Supes’ budget committee Thursday, with much of the credit going toward Supervisor Connie Chan. Supervisors wrapped up negotiations on the city's $16.9 billion budget Thursday, reaching a deal weeks earlier than usual and restoring $28.5 million in proposed cuts to social programs over the next two years, as the Chronicle reports . Board President Rafael Mandelman said it was the earliest budget agreement he'd seen in his eight years on the board, crediting Budget Chair Connie Chan's negotiating skills. Mandelman highlighted Chan's “ability to both terrorize people at the right moment and also negotiate and cajole and bring colleagues together and figure out what different folks need, in their districts.” According to Mission Local , Mandelman also noted there was simply \"less to fight about\" after years of previous cuts and Mayor Daniel Lurie's decision to lay off 127 city workers in April rather than hash out layoffs during budget season. The restored funding includes $5.6 million to keep Free City College at its current level, preserving cash grants that help thousands of low-income students cover books, transportation, and other basic expenses while attending school, per the Chronicle. Chan, a member of the Free City College Oversight Committe, shared a reel celebrating Thursday's win. View this post on Instagram A post shared by FreeCitySF (@freecitysf) Supervisors also reinstated funding for HIV prevention programs, LGBTQ+ services, and the Workers' Rights Community Collaborative, whic...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-x27-s-statement-on-board-of-supervisor-x27-s-committee-unanimous-vot",
-      "title": "Mayor Lurie&#x27;s Statement On Board Of Supervisor&#x27;s Committee Unanimous Vote In Support Of City Budget | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-luries-statement-on-board-of-supervisors-committee-unanimous-vote-in-support-of-city-budget/",
-      "publishedAt": "2026-06-26",
-      "topic": "homelessness",
-      "summary": "NEWS Mayor Lurie&#x27;s Statement On Board Of Supervisor&#x27;s Committee Unanimous Vote In Support Of City Budget Office of the Mayor June 26, 2026 SAN FRANCISCO – Mayor Daniel Lurie today released the following statement after the Board of Supervisors Budget and Appropriations Committee voted unanimously to advance the city budget: “San Franciscans made it clear this month that they feel our city is finally moving",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie&#x27;s Statement On Board Of Supervisor&#x27;s Committee Unanimous Vote In Support Of City Budget Office of the Mayor June 26, 2026 SAN FRANCISCO – Mayor Daniel Lurie today released the following statement after the Board of Supervisors Budget and Appropriations Committee voted unanimously to advance the city budget: “San Franciscans made it clear this month that they feel our city is finally moving in the right direction. Thanks to the continued close partnership between the Mayor’s Office and the Board of Supervisors, this budget will keep our city moving forward. “Last summer, just as our city was getting back on track, the federal government cut hundreds of millions of dollars from healthcare and food assistance that San Franciscans rely on. Facing those cuts and threats of more, we chose to strengthen the social safety net and invest in our LGBTQ+ and immigrant communities. We protected core services and doubled down on building a broad and durable economic recovery, and we did it responsibly—by ending years of government spending money that we don’t have. “This budget helps families stay on healthcare and food assistance, supports efforts to prevent homelessness, invests in public safety and clean streets, and continues the work of creating the conditions for families, businesses, and communities to thrive. And it builds on the progress we made last year to stabilize the city&#x27;s finances by reducing our structural deficit, strengthening our reserves to prepare for uncertainty from Washington and Sacramento, and bringing spending more in line with revenues while protecting the services San Franciscans rely on every day. “I want to thank Board President Rafael Mandelman and Budget Chair Connie Chan; Budget and Appropriations Committee members...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1071,21 +1071,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor-",
-      "title": "Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor's Office Leadership Team - SF.gov",
-      "sourceType": "news",
-      "url": "https://www.google-analytics.com/analytics.js",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1ROMkNFQThBekRnT2xTQ20zTGxGSDk2b0c0NnhYVTVQTkF5UXhlU2ZDSF8ycE1jZ3NHYUhIMXF5cjA0eWZZNVcyQ0dLMDBnOFhOMnNWMlhOenpxMzhMSC1NLUJYNk1Iek5sMGJqbjBPTmJQOV9uTzR1OUdyWVlNdHdfa2ExMEdlQy1lR2F4MDU0c0MwMFVkNnBhdFljQnZYeHgyMVBxc1RyRnRTaUNGNlFhbzZYMi00WHhPeGlfSld4OUtZN2c?oc=5",
-      "discoverySource": "Google News",
-      "publishedAt": "2026-05-27",
-      "topic": "economy",
-      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
-      "confidence": 0.8,
-      "resolvedFrom": "google_news",
-      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "mayor-lurie-awards-more-than-21-million-in-funding-to-support-workforce-developm",
       "title": "Mayor Lurie Awards More Than $21 Million In Funding To Support Workforce Development, Connect San Franciscans To Good-Paying Jobs | SF.gov",
       "sourceType": "official",
@@ -1107,6 +1092,21 @@
       "summary": "Policy Expert With Experience Across Bay Area, Bonde Has Been Serving as Deputy Chief of Staff; Adam Thongsavat to serve as Deputy Chief of Staff, Eileen Mariano as Policy Director",
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor&#x27;s Office Leadership Team Office of the Mayor Policy Expert With Experience Across Bay Area, Bonde Has Been Serving as Deputy Chief of Staff; Adam Thongsavat to serve as Deputy Chief of Staff, Eileen Mariano as Policy Director May 27, 2026 SAN FRANCISCO – Mayor Daniel Lurie today appointed Aly Bonde to serve as chief of staff, elevating a policy expert who has served in government across the Bay Area. Mayor Lurie also announced that Adam Thongsavat will serve as deputy chief of staff and Eileen Mariano as policy director, adding two accomplished Mayor’s Office veterans to the leadership team. Bonde has been serving as deputy chief of chief in the Mayor’s Office, advising Mayor Lurie on a wide range of policy issues from the behavioral health crisis to affordable housing. Thongsavat has been serving as liaison to the Board of Supervisors, facilitating Mayor Lurie’s close working relationship with the Board, while Mariano has led the office’s work in Sacramento and Washington, D.C., passing legislation to advance public safety and the city’s economic recovery while securing critical state and federal funding. Thongsavat and Mariano will continue to report to Bonde. “Aly, Adam, and Eileen have been a collaborative and effective team since we took office last year—partnering with the Board of Supervisors and the state Legislature to pass major legislation to get drugs off our streets and drive our economic recovery,” said Mayor Lurie . “We’ve done so much in our first year and a half to get San Francisco moving in the right direction again, and residents are feeling the difference. But we have so much more to do, and Aly, Adam, Eileen, and I are ready to keep our foot on the acceler...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor-",
+      "title": "Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor's Office Leadership Team - SF.gov",
+      "sourceType": "news",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1ROMkNFQThBekRnT2xTQ20zTGxGSDk2b0c0NnhYVTVQTkF5UXhlU2ZDSF8ycE1jZ3NHYUhIMXF5cjA0eWZZNVcyQ0dLMDBnOFhOMnNWMlhOenpxMzhMSC1NLUJYNk1Iek5sMGJqbjBPTmJQOV9uTzR1OUdyWVlNdHdfa2ExMEdlQy1lR2F4MDU0c0MwMFVkNnBhdFljQnZYeHgyMVBxc1RyRnRTaUNGNlFhbzZYMi00WHhPeGlfSld4OUtZN2c?oc=5",
+      "discoverySource": "Google News",
+      "publishedAt": "2026-05-27",
+      "topic": "economy",
+      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
+      "confidence": 0.8,
+      "resolvedFrom": "google_news",
+      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
       "scrapeStatus": "scraped"
     },
     {
@@ -2163,7 +2163,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-28T14:18:22.608Z"
+      "lastRefreshed": "2026-06-28T19:49:42.268Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2182,7 +2182,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-28T14:18:22.608Z"
+      "lastRefreshed": "2026-06-28T19:49:42.268Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2259,7 +2259,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-28T14:18:22.608Z",
+      "lastRefreshed": "2026-06-28T19:49:42.268Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2302,7 +2302,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-28T14:18:22.608Z"
+      "lastRefreshed": "2026-06-28T19:49:42.268Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2394,7 +2394,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-28T14:18:22.608Z"
+      "lastRefreshed": "2026-06-28T19:49:42.268Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2486,7 +2486,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-28T14:18:22.608Z"
+      "lastRefreshed": "2026-06-28T19:49:42.268Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2505,7 +2505,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-28T14:18:22.608Z"
+      "lastRefreshed": "2026-06-28T19:49:42.268Z"
     }
   ],
   "topics": [
