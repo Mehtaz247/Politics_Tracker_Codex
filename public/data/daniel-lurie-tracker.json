@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-30T14:45:24.776Z",
+    "lastUpdated": "2026-06-30T20:22:52.254Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -326,18 +326,39 @@
       "confidence": 0.78
     },
     {
-      "id": "sf-supes-reverse-28-5-million-in-proposed-cuts-to-social-programs-in-new-city-bu",
-      "title": "SF Supes Reverse $28.5 Million In Proposed Cuts to Social Programs In New City Budget Deal",
-      "sourceType": "news",
-      "url": "https://sfist.com/2026/06/26/sf-supervisors-negotiate-new-city-budget-deal-reversing-28-5-million-in-proposed-cuts-to-social-programs/",
-      "discoveryUrl": "https://sfist.com/rss/",
-      "discoverySource": "SFist",
-      "publisher": "SFist",
-      "publishedAt": "2026-06-26",
-      "topic": "transit",
-      "summary": "About 90% of the funding cuts proposed in SF Mayor Daniel Lurie’s original city budget plan were reversed in a deal negotiated by the Board of Supes’ budget committee Thursday, with much of the credit going toward Supervisor Connie Chan.",
-      "confidence": 0.8,
-      "excerpt": "26 June 2026 / SF Politics / Leanne Maxwell SF Supes Reverse $28.5 Million In Proposed Cuts to Social Programs In New City Budget Deal --> About 90% of the funding cuts proposed in SF Mayor Daniel Lurie’s original city budget plan were reversed in a deal negotiated by the Board of Supes’ budget committee Thursday, with much of the credit going toward Supervisor Connie Chan. Supervisors wrapped up negotiations on the city's $16.9 billion budget Thursday, reaching a deal weeks earlier than usual and restoring $28.5 million in proposed cuts to social programs over the next two years, as the Chronicle reports . Board President Rafael Mandelman said it was the earliest budget agreement he'd seen in his eight years on the board, crediting Budget Chair Connie Chan's negotiating skills. Mandelman highlighted Chan's “ability to both terrorize people at the right moment and also negotiate and cajole and bring colleagues together and figure out what different folks need, in their districts.” According to Mission Local , Mandelman also noted there was simply \"less to fight about\" after years of previous cuts and Mayor Daniel Lurie's decision to lay off 127 city workers in April rather than hash out layoffs during budget season. The restored funding includes $5.6 million to keep Free City College at its current level, preserving cash grants that help thousands of low-income students cover books, transportation, and other basic expenses while attending school, per the Chronicle. Chan, a member of the Free City College Oversight Committe, shared a reel celebrating Thursday's win. View this post on Instagram A post shared by FreeCitySF (@freecitysf) Supervisors also reinstated funding for HIV prevention programs, LGBTQ+ services, and the Workers' Rights Community Collaborative, whic...",
+      "id": "mayor-lurie-opens-64-new-affordable-homes-for-transitional-age-youth-low-income-",
+      "title": "Mayor Lurie Opens 64 New Affordable Homes For Transitional-Age Youth, Low-Income Families | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-opens-64-new-affordable-homes-for-transitional-age-youth-low-income-families/",
+      "publishedAt": "2026-06-30",
+      "topic": "homelessness",
+      "summary": "New Hayes Valley Development at 78 Haight Includes Onsite Supportive Services and Community‑Oriented Amenities; Continues Mayor Lurie’s Work to Build Affordable Homes, Bring Down Costs for Families",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Opens 64 New Affordable Homes For Transitional-Age Youth, Low-Income Families Office of the Mayor New Hayes Valley Development at 78 Haight Includes Onsite Supportive Services and Community‑Oriented Amenities; Continues Mayor Lurie’s Work to Build Affordable Homes, Bring Down Costs for Families June 30, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the grand opening of 78 Haight Street, a new 64‑unit affordable housing community in Hayes Valley that provides permanent homes and comprehensive support services for transitional‑age youth and low‑income families. The seven‑story development repurposes one of the final former Central Freeway parcels into a vibrant, service‑rich residential community. Mayor Lurie has taken steps to support affordable housing construction and make San Francisco more affordable for families through his Family Opportunity Agenda . In the last six months, Mayor Lurie has opened new affordable homes across San Francisco’s Bayview , Hunters View , and Mission neighborhoods. In May, he and District 7 Supervisor Myrna Melgar introduced an affordable housing package to expand the city’s Housing Trust Fund , accelerating new construction and preserve existing homes. Earlier this year, he signed his Family Zoning plan to create more housing and ensure that the next generation of San Franciscans can afford to raise their families in the city. “Behind every front door is someone who can stop worrying about where they&#x27;ll sleep, someone who can put down roots, and someone who has the opportunity to build a future here in San Francisco,” said Mayor Lurie . “With this opening today, more San Franciscans will have an affordable place to call home. Every time we open more doors like those at 78 Haight Street, we send a messag...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-declares-july-1-jersey-day-encourages-city-employees-to-wear-team-co",
+      "title": "Mayor Lurie Declares July 1 \"Jersey Day,\" Encourages City Employees To Wear Team Colors Ahead Of Team USA World Cup Match In Bay Area | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-declares-july-1-jersey-day-encourages-city-employees-to-wear-team-colors-ahead-of-team-usa-world-cup-match-in-bay-area/",
+      "publishedAt": "2026-06-30",
+      "topic": "homelessness",
+      "summary": "In Partnership with Bay Area Host Committee, Jersey Day Invites City Workers, San Franciscans, and Bay Area Residents to Celebrate FIFA World Cup by Wearing Soccer Jerseys or Team Colors; Residents and Visitors Can Use City’s Shop Dine World Cup SF Guide to Find Local Restaurants and Bars, Sign Up for Emergency Alerts Through AlertSF; San Francisco Bay Area Ready to Host Team USA First Knockout Stage Match, Building on Successful Super Bowl and Record-Breaking Tourism Numbers This Year",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Declares July 1 \"Jersey Day,\" Encourages City Employees To Wear Team Colors Ahead Of Team USA World Cup Match In Bay Area Office of the Mayor In Partnership with Bay Area Host Committee, Jersey Day Invites City Workers, San Franciscans, and Bay Area Residents to Celebrate FIFA World Cup by Wearing Soccer Jerseys or Team Colors; Residents and Visitors Can Use City’s Shop Dine World Cup SF Guide to Find Local Restaurants and Bars, Sign Up for Emergency Alerts Through AlertSF; San Francisco Bay Area Ready to Host Team USA First Knockout Stage Match, Building on Successful Super Bowl and Record-Breaking Tourism Numbers This Year June 30, 2026 SAN FRANCISCO – Mayor Daniel Lurie today declared that tomorrow, July 1, 2026, will be “Jersey Day” for the City and County of San Francisco, inviting city employees to wear soccer jerseys in celebration of the United States’ FIFA World Cup match in the Bay Area. To celebrate Team USA’s first knockout stage match of the World Cup, which will be played tomorrow in the Bay Area, Mayor Lurie has given permission to non-uniformed city employees to wear their favorite soccer team jersey or sport their team colors to work—building excitement ahead of a major event for the city and the region. In partnership with the Bay Area Host Committee, Jersey Day will also go beyond the City and County of San Francisco, with other cities and private employers expected to join the effort today. San Francisco is on track for record-breaking tourism numbers in 2026 as the city’s economy recovers, following the busiest-ever Memorial Day at San Francisco International Airport, a safe NBA All-Star Weekend that generated more than $300 million in economic impact, and a successful Super Bowl 60 that generated roughly $425 million in economic...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-launches-streamlined-digital-permits-for-small-businesses-homeowners",
+      "title": "Mayor Lurie Launches Streamlined, Digital Permits For Small Businesses, Homeowners | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-launches-streamlined-digital-permits-for-small-businesses-homeowners/",
+      "publishedAt": "2026-06-29",
+      "topic": "economy",
+      "summary": "Newest Permits on Digital PermitSF Portal Will Make It Easier to Install Signs and Awnings or Replace Roofs, So Permits That Took Days to Submit Can Be Issued in as Little as Four Minutes; Builds on Mayor Lurie’s Common-Sense PermitSF Efforts to Reduce Bureaucracy and Accelerate San Francisco’s Economic Recovery",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Launches Streamlined, Digital Permits For Small Businesses, Homeowners Office of the Mayor Newest Permits on Digital PermitSF Portal Will Make It Easier to Install Signs and Awnings or Replace Roofs, So Permits That Took Days to Submit Can Be Issued in as Little as Four Minutes; Builds on Mayor Lurie’s Common-Sense PermitSF Efforts to Reduce Bureaucracy and Accelerate San Francisco’s Economic Recovery June 29, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced that two types of permits are now available on San Francisco&#x27;s digital PermitSF portal, making it easier for business owners to install signs and awnings while speeding up the process for property owners to replace roofs. Applicants can now submit all necessary materials to obtain either permit through a single, streamlined, online application—with redundant steps or paper required. Since launching PermitSF last year to make permitting fast, predictable, and transparent, the Lurie administration has introduced more than 20 ordinances , including common-sense reforms to remove burdens for homeowners to park in their driveway and for businesses to set up cafe tables on the sidewalk and paint their own business name on their storefront . One year after launch, Mayor Lurie launched a fully digital permitting portal that is allowing homeowners and business owners to obtain the permits they need online, without making any in-person trips to the Permit Center. To continue that work, the mayor announced plans to create a more coordinated and accountable permitting process by merging the Department of Building Inspection, the Planning Department, and the Permit Center . “We don’t have to make easy things hard anymore in San Francisco,” said Mayor Lurie . “Every hour we save a small business ow...",
       "scrapeStatus": "scraped"
     },
     {
@@ -350,6 +371,21 @@
       "summary": "NEWS Mayor Lurie&#x27;s Statement On Board Of Supervisor&#x27;s Committee Unanimous Vote In Support Of City Budget Office of the Mayor June 26, 2026 SAN FRANCISCO – Mayor Daniel Lurie today released the following statement after the Board of Supervisors Budget and Appropriations Committee voted unanimously to advance the city budget: “San Franciscans made it clear this month that they feel our city is finally moving",
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie&#x27;s Statement On Board Of Supervisor&#x27;s Committee Unanimous Vote In Support Of City Budget Office of the Mayor June 26, 2026 SAN FRANCISCO – Mayor Daniel Lurie today released the following statement after the Board of Supervisors Budget and Appropriations Committee voted unanimously to advance the city budget: “San Franciscans made it clear this month that they feel our city is finally moving in the right direction. Thanks to the continued close partnership between the Mayor’s Office and the Board of Supervisors, this budget will keep our city moving forward. “Last summer, just as our city was getting back on track, the federal government cut hundreds of millions of dollars from healthcare and food assistance that San Franciscans rely on. Facing those cuts and threats of more, we chose to strengthen the social safety net and invest in our LGBTQ+ and immigrant communities. We protected core services and doubled down on building a broad and durable economic recovery, and we did it responsibly—by ending years of government spending money that we don’t have. “This budget helps families stay on healthcare and food assistance, supports efforts to prevent homelessness, invests in public safety and clean streets, and continues the work of creating the conditions for families, businesses, and communities to thrive. And it builds on the progress we made last year to stabilize the city&#x27;s finances by reducing our structural deficit, strengthening our reserves to prepare for uncertainty from Washington and Sacramento, and bringing spending more in line with revenues while protecting the services San Franciscans rely on every day. “I want to thank Board President Rafael Mandelman and Budget Chair Connie Chan; Budget and Appropriations Committee members...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "sf-supes-reverse-28-5-million-in-proposed-cuts-to-social-programs-in-new-city-bu",
+      "title": "SF Supes Reverse $28.5 Million In Proposed Cuts to Social Programs In New City Budget Deal",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/06/26/sf-supervisors-negotiate-new-city-budget-deal-reversing-28-5-million-in-proposed-cuts-to-social-programs/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-06-26",
+      "topic": "transit",
+      "summary": "About 90% of the funding cuts proposed in SF Mayor Daniel Lurie’s original city budget plan were reversed in a deal negotiated by the Board of Supes’ budget committee Thursday, with much of the credit going toward Supervisor Connie Chan.",
+      "confidence": 0.8,
+      "excerpt": "26 June 2026 / SF Politics / Leanne Maxwell SF Supes Reverse $28.5 Million In Proposed Cuts to Social Programs In New City Budget Deal --> About 90% of the funding cuts proposed in SF Mayor Daniel Lurie’s original city budget plan were reversed in a deal negotiated by the Board of Supes’ budget committee Thursday, with much of the credit going toward Supervisor Connie Chan. Supervisors wrapped up negotiations on the city's $16.9 billion budget Thursday, reaching a deal weeks earlier than usual and restoring $28.5 million in proposed cuts to social programs over the next two years, as the Chronicle reports . Board President Rafael Mandelman said it was the earliest budget agreement he'd seen in his eight years on the board, crediting Budget Chair Connie Chan's negotiating skills. Mandelman highlighted Chan's “ability to both terrorize people at the right moment and also negotiate and cajole and bring colleagues together and figure out what different folks need, in their districts.” According to Mission Local , Mandelman also noted there was simply \"less to fight about\" after years of previous cuts and Mayor Daniel Lurie's decision to lay off 127 city workers in April rather than hash out layoffs during budget season. The restored funding includes $5.6 million to keep Free City College at its current level, preserving cash grants that help thousands of low-income students cover books, transportation, and other basic expenses while attending school, per the Chronicle. Chan, a member of the Free City College Oversight Committe, shared a reel celebrating Thursday's win. View this post on Instagram A post shared by FreeCitySF (@freecitysf) Supervisors also reinstated funding for HIV prevention programs, LGBTQ+ services, and the Workers' Rights Community Collaborative, whic...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1071,21 +1107,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor-",
-      "title": "Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor's Office Leadership Team - SF.gov",
-      "sourceType": "news",
-      "url": "https://www.google-analytics.com/analytics.js",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1ROMkNFQThBekRnT2xTQ20zTGxGSDk2b0c0NnhYVTVQTkF5UXhlU2ZDSF8ycE1jZ3NHYUhIMXF5cjA0eWZZNVcyQ0dLMDBnOFhOMnNWMlhOenpxMzhMSC1NLUJYNk1Iek5sMGJqbjBPTmJQOV9uTzR1OUdyWVlNdHdfa2ExMEdlQy1lR2F4MDU0c0MwMFVkNnBhdFljQnZYeHgyMVBxc1RyRnRTaUNGNlFhbzZYMi00WHhPeGlfSld4OUtZN2c?oc=5",
-      "discoverySource": "Google News",
-      "publishedAt": "2026-05-27",
-      "topic": "economy",
-      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
-      "confidence": 0.8,
-      "resolvedFrom": "google_news",
-      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "mayor-lurie-awards-more-than-21-million-in-funding-to-support-workforce-developm",
       "title": "Mayor Lurie Awards More Than $21 Million In Funding To Support Workforce Development, Connect San Franciscans To Good-Paying Jobs | SF.gov",
       "sourceType": "official",
@@ -1107,6 +1128,21 @@
       "summary": "Policy Expert With Experience Across Bay Area, Bonde Has Been Serving as Deputy Chief of Staff; Adam Thongsavat to serve as Deputy Chief of Staff, Eileen Mariano as Policy Director",
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor&#x27;s Office Leadership Team Office of the Mayor Policy Expert With Experience Across Bay Area, Bonde Has Been Serving as Deputy Chief of Staff; Adam Thongsavat to serve as Deputy Chief of Staff, Eileen Mariano as Policy Director May 27, 2026 SAN FRANCISCO – Mayor Daniel Lurie today appointed Aly Bonde to serve as chief of staff, elevating a policy expert who has served in government across the Bay Area. Mayor Lurie also announced that Adam Thongsavat will serve as deputy chief of staff and Eileen Mariano as policy director, adding two accomplished Mayor’s Office veterans to the leadership team. Bonde has been serving as deputy chief of chief in the Mayor’s Office, advising Mayor Lurie on a wide range of policy issues from the behavioral health crisis to affordable housing. Thongsavat has been serving as liaison to the Board of Supervisors, facilitating Mayor Lurie’s close working relationship with the Board, while Mariano has led the office’s work in Sacramento and Washington, D.C., passing legislation to advance public safety and the city’s economic recovery while securing critical state and federal funding. Thongsavat and Mariano will continue to report to Bonde. “Aly, Adam, and Eileen have been a collaborative and effective team since we took office last year—partnering with the Board of Supervisors and the state Legislature to pass major legislation to get drugs off our streets and drive our economic recovery,” said Mayor Lurie . “We’ve done so much in our first year and a half to get San Francisco moving in the right direction again, and residents are feeling the difference. But we have so much more to do, and Aly, Adam, Eileen, and I are ready to keep our foot on the acceler...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor-",
+      "title": "Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor's Office Leadership Team - SF.gov",
+      "sourceType": "news",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1ROMkNFQThBekRnT2xTQ20zTGxGSDk2b0c0NnhYVTVQTkF5UXhlU2ZDSF8ycE1jZ3NHYUhIMXF5cjA0eWZZNVcyQ0dLMDBnOFhOMnNWMlhOenpxMzhMSC1NLUJYNk1Iek5sMGJqbjBPTmJQOV9uTzR1OUdyWVlNdHdfa2ExMEdlQy1lR2F4MDU0c0MwMFVkNnBhdFljQnZYeHgyMVBxc1RyRnRTaUNGNlFhbzZYMi00WHhPeGlfSld4OUtZN2c?oc=5",
+      "discoverySource": "Google News",
+      "publishedAt": "2026-05-27",
+      "topic": "economy",
+      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
+      "confidence": 0.8,
+      "resolvedFrom": "google_news",
+      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1543,38 +1579,6 @@
       "topic": "public_safety",
       "summary": "San Francisco Mayor Daniel Lurie announces Steven Betz as new public safety chief &nbsp;&nbsp; ABC7 San Francisco",
       "confidence": 0.78
-    },
-    {
-      "id": "lurie-appoints-sf-s-first-arts-director-forges-arts-partnerships-in-shanghai-sfi",
-      "title": "Lurie Appoints SF’s First Arts Director, Forges Arts Partnerships In Shanghai - SFist",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMzlKT3VIUjdUMU1PTWxOZy1RTTBpOHh1MVJPSDNfeFBCekxXNEhNRXNUQ1UxdTlBTnZhcUEzZ0x6dzh3cjI2WS0yNnJ4bzR6TUNHVEtEbGhyc3lHWVBYZEw3cTk0Y0JJUUQ2akpweDd6MEE5TEV3QUdzNnpGLXljeEpFM0h2V1BRZV9wSkFCTTNMb0l2Z1lXMXpUcXBqeUt3ZUp4QUIyUW55S0FPMlZfOA?oc=5",
-      "publishedAt": "2026-04-28",
-      "topic": "city_government",
-      "summary": "Lurie Appoints SF’s First Arts Director, Forges Arts Partnerships In Shanghai &nbsp;&nbsp; SFist",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-appoints-matthew-goudeau-as-city-x27-s-first-executive-director-of-a",
-      "title": "Mayor Lurie Appoints Matthew Goudeau As City&#x27;s First Executive Director Of Arts And Culture | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-appoints-matthew-goudeau-as-citys-first-executive-director-of-arts-and-culture/",
-      "publishedAt": "2026-04-27",
-      "topic": "economy",
-      "summary": "Selected Following National Search, Goudeau Brings Years of Leadership Experience in San Francisco Arts Community; Arts Grant Funding on Track to Grow as City’s Economy Recovers; Continues Mayor Lurie’s Work to Support City&#x27;s Creative Ecosystem Through Unified Strategy While Ensuring Arts Continue to Drive San Francisco’s Comeback",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Appoints Matthew Goudeau As City&#x27;s First Executive Director Of Arts And Culture Office of the Mayor Selected Following National Search, Goudeau Brings Years of Leadership Experience in San Francisco Arts Community; Arts Grant Funding on Track to Grow as City’s Economy Recovers; Continues Mayor Lurie’s Work to Support City&#x27;s Creative Ecosystem Through Unified Strategy While Ensuring Arts Continue to Drive San Francisco’s Comeback April 27, 2026 SAN FRANCISCO – Mayor Daniel Lurie today appointed Matthew Goudeau as San Francisco’s first-ever executive director of arts and culture. Currently a senior leader at the Yerba Buena Center for the Arts and a former director of Grants for the Arts, Goudeau will bring deep knowledge of the city’s arts community from his years leading cultural organizations to this new role, where he will strengthen the city’s support for the arts by bringing together the San Francisco Arts Commission, Grants for the Arts, and the Film Commission into one department. He will work with Mayor Lurie to advance San Francisco’s creative economy and public arts programming while ensuring the arts remain a cornerstone of the city’s identity and economic vitality. Goudeau’s selection followed a thorough search process that drew more than 250 applicants and identified strong community interest in selecting a leader with roots in San Francisco’s arts ecosystem. Goudeau’s appointment to lead San Francisco’s creative economy strategy continues Mayor Lurie’s work to support the arts and culture institutions driving the city’s economic recovery. The mayor this weekend returned from his first international trip, where he signed eight memorandums of understanding strengthening connections between arts and culture organizations in San Fr...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-appoints-matthew-goudeau-as-city-s-first-executive-director-of-arts-",
-      "title": "Mayor Lurie Appoints Matthew Goudeau As City's First Executive Director Of Arts And Culture - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQTlZBaEJpb1dlaHE1ZlBTd05qRThORURVR2ZkOGlmNnd6b3RpNGF4WVNUNklucTlObTN5YnVKajBVRy1XYm9taHJDS2lGWXVnS0pxSlVLQU9NWUQ2ejVjejJaUjQzcTFoX2NXVjR2OVZOMnAwSU91R2FER25kUFJRY2tNWVBNY1IyeWlzaWE0TUxQRWoydEdxblVtUlFZdEpWSXluSFExY1BIVUZGTkoxTVJ1djU?oc=5",
-      "publishedAt": "2026-04-27",
-      "topic": "city_government",
-      "summary": "Mayor Lurie Appoints Matthew Goudeau As City's First Executive Director Of Arts And Culture SF.gov",
-      "confidence": 0.68
     }
   ],
   "promises": [
@@ -1690,7 +1694,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
+      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -2163,7 +2167,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-30T14:45:24.574Z"
+      "lastRefreshed": "2026-06-30T20:22:51.789Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2182,7 +2186,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-30T14:45:24.574Z"
+      "lastRefreshed": "2026-06-30T20:22:51.789Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2192,74 +2196,13 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": 292,
-      "latest": 216,
+      "baseline": null,
+      "latest": null,
       "direction": "down_is_good",
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 292
-        },
-        {
-          "date": "2025-02-01",
-          "value": 274
-        },
-        {
-          "date": "2025-03-01",
-          "value": 342
-        },
-        {
-          "date": "2025-04-01",
-          "value": 275
-        },
-        {
-          "date": "2025-05-01",
-          "value": 273
-        },
-        {
-          "date": "2025-06-01",
-          "value": 301
-        },
-        {
-          "date": "2025-07-01",
-          "value": 239
-        },
-        {
-          "date": "2025-08-01",
-          "value": 294
-        },
-        {
-          "date": "2025-09-01",
-          "value": 219
-        },
-        {
-          "date": "2025-10-01",
-          "value": 235
-        },
-        {
-          "date": "2025-11-01",
-          "value": 300
-        },
-        {
-          "date": "2025-12-01",
-          "value": 148
-        },
-        {
-          "date": "2026-01-01",
-          "value": 221
-        },
-        {
-          "date": "2026-02-01",
-          "value": 220
-        },
-        {
-          "date": "2026-03-01",
-          "value": 216
-        }
-      ],
-      "status": "active",
+      "observations": [],
+      "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-30T14:45:24.574Z",
+      "lastRefreshed": "2026-06-30T20:22:51.789Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2302,7 +2245,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-30T14:45:24.574Z"
+      "lastRefreshed": "2026-06-30T20:22:51.789Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2394,7 +2337,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-30T14:45:24.574Z"
+      "lastRefreshed": "2026-06-30T20:22:51.789Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2486,7 +2429,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-30T14:45:24.574Z"
+      "lastRefreshed": "2026-06-30T20:22:51.789Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2505,7 +2448,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-30T14:45:24.574Z"
+      "lastRefreshed": "2026-06-30T20:22:51.789Z"
     }
   ],
   "topics": [
@@ -2555,7 +2498,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
