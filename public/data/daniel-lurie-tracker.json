@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-06-30T20:22:52.254Z",
+    "lastUpdated": "2026-07-01T04:57:45.160Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -825,18 +825,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown-",
-      "title": "Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown/",
-      "publishedAt": "2026-06-03",
-      "topic": "public_safety",
-      "summary": "Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown Office of the Mayor Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback June 3, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the end of Small Business Month with two store openings downtown and three businesses expanding through the Vacant to Vibrant program. Two new small businesses, Whole Cakes and Bruno’s Italian Taste, are opening with the help of the Office of Economic and Workforce Development’s (OEWD) Downtown Vibrancy Loan Fund. Vacant to Vibrant pop‑up Dandelion Chocolate has signed a long‑term lease on Powell Street and is expanding to add a cafe, and two new Vacant to Vibrant pop‑ups—LOLA Embarcadero and Cowrie Collective at the Palace Hotel—are activating spaces downtown. The new storefronts and Vacant to Vibrant expansions continue to accelerate San Francisco’s economic recovery. In September, Mayor Lurie unveiled his “Heart of the City” plan to create a downtown where people live, work, play, and learn. Last year, Union Square and Yerba Buena welcomed 44 new storefronts, including new Vacant to Vibrant pop-ups , the RealReal, AT&T and Nintendo . Since the mayor took office, crime continues to go down in Union Square and the Financial District , 20 new liquor licenses have been issued to support nightlife , office leasing has surged 66.7% , and San Francisco now leads major U.S. cities in return-to-office rates . And through initiatives like First Year Free , expanded entertainment zones , small business grants , and streamlined business regulations , Mayor Lurie has taken steps to strengthen small...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "the-dan-grand-slam-how-daniel-lurie-got-everything-he-wanted-on-election-night-2",
       "title": "The Dan Grand Slam? How Daniel Lurie got everything he wanted on election night",
       "sourceType": "news",
@@ -849,6 +837,18 @@
       "summary": "San Francisco’s mayor wasn’t on the ballot Tuesday night. But that didn’t stop him from being the city’s biggest winner.",
       "confidence": 0.9,
       "excerpt": "Mayor Daniel Lurie wasn’t running for reelection Tuesday night. But he may have won bigger than anybody else in San Francisco politics. The mayor, who has enjoyed a moderate majority on the Board of Supervisors since taking office in January 2025, will maintain a team of allies with the decisive wins of his two preferred incumbent supervisors: Alan Wong in District 4 and Stephen Sherrill in District 2. Both crushed their opponents in early victories. What’s more, Propositions C and D, dueling tax measures that Lurie opposed, appeared to flop with voters. Everything, it seemed, was coming up Daniel on primary night. “The early returns that we are seeing show that San Franciscans like the direction that we are going in,” the mayor told reporters at a party for Prop. A, the Earthquake Safety and Emergency Response Bond — supported by Lurie, and winning by a landslide — outside Original Joe’s in North Beach. “We are just getting started. We are going to continue to put our foot on the accelerator.” Wong, whom Lurie appointed after voters recalled former Supervisor Joel Engardio, crushed a host of challengers, including progressive activist Natalie Gee, with early results showing support from more than 52% of Sunset and Parkside voters. Wong said he knocked on more than half the doors in his district in the run-up to the election. The biggest issue in the District 4 election — and the biggest issue in the Sunset for the last six years — was the Great Highway: Should it remain a park or reopen to cars? Wong and most of his challengers advocated for the latter, but Wong seemed to have most successfully associated himself with the pro-car stance. In District 2, Sherrill walloped neighborhood organizer Lori Brooke, pulling in 70% of votes tallied by 9:45 p.m. Apparently, alle...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown-",
+      "title": "Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown/",
+      "publishedAt": "2026-06-03",
+      "topic": "public_safety",
+      "summary": "Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown Office of the Mayor Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback June 3, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the end of Small Business Month with two store openings downtown and three businesses expanding through the Vacant to Vibrant program. Two new small businesses, Whole Cakes and Bruno’s Italian Taste, are opening with the help of the Office of Economic and Workforce Development’s (OEWD) Downtown Vibrancy Loan Fund. Vacant to Vibrant pop‑up Dandelion Chocolate has signed a long‑term lease on Powell Street and is expanding to add a cafe, and two new Vacant to Vibrant pop‑ups—LOLA Embarcadero and Cowrie Collective at the Palace Hotel—are activating spaces downtown. The new storefronts and Vacant to Vibrant expansions continue to accelerate San Francisco’s economic recovery. In September, Mayor Lurie unveiled his “Heart of the City” plan to create a downtown where people live, work, play, and learn. Last year, Union Square and Yerba Buena welcomed 44 new storefronts, including new Vacant to Vibrant pop-ups , the RealReal, AT&T and Nintendo . Since the mayor took office, crime continues to go down in Union Square and the Financial District , 20 new liquor licenses have been issued to support nightlife , office leasing has surged 66.7% , and San Francisco now leads major U.S. cities in return-to-office rates . And through initiatives like First Year Free , expanded entertainment zones , small business grants , and streamlined business regulations , Mayor Lurie has taken steps to strengthen small...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1023,18 +1023,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-first-lady-prowda-invite-san-franciscans-to-sign-up-for-citywide-day",
-      "title": "Mayor Lurie, First Lady Prowda Invite San Franciscans To Sign Up For Citywide Day Of Service | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-first-lady-prowda-invite-san-franciscans-to-sign-up-for-citywide-day-of-service/",
-      "publishedAt": "2026-05-29",
-      "topic": "public_safety",
-      "summary": "One City Day Service Projects Across All 11 Supervisorial Districts Invite Neighbors Across City to Connect, Serve Their Communities; Continues Mayor Lurie and First Lady Prowda’s Work to Bring Service, Accountability, Change to City Hall",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie, First Lady Prowda Invite San Franciscans To Sign Up For Citywide Day Of Service Office of the Mayor One City Day Service Projects Across All 11 Supervisorial Districts Invite Neighbors Across City to Connect, Serve Their Communities; Continues Mayor Lurie and First Lady Prowda’s Work to Bring Service, Accountability, Change to City Hall May 29, 2026 SAN FRANCISCO – Mayor Daniel Lurie and First Lady Becca Prowda today invited San Franciscans to sign up to participate in “ One City Day ,” a citywide day of service on July 11, 2026, that will build connection and strengthen civic pride. Sign-ups to volunteer on One City Day are open and include more than 150 projects and close to 100 project hosts across all 11 supervisorial districts. The day of service builds on Mayor Lurie and First Lady Prowda’s work to bring service, accountability, and change to City Hall—values that have guided both of their personal and professional journeys. The mayor and first lady first met while both working at the Robin Hood Foundation, a nonprofit dedicated to fighting poverty in New York City. Their shared commitment to serving others has shaped their lives and public service, with Mayor Lurie founding Tipping Point Community in 2005 to fight “One City Day will be an opportunity for San Franciscans to come together and give back to the city we all love,” said Mayor Lurie . “Starting May 29, Becca and I are excited to invite people who live, work, and play in San Francisco to sign up to volunteer for projects that will make a difference in their communities. We’re looking forward to this day of service and coming together across neighborhoods to build a stronger San Francisco together.” “Daniel and I have built our lives around service—it’s how we met, how we raise our ki...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "mayor-lurie-releases-budget-next-week-here-s-how-trump-royally-screwed-it-2026-0",
       "title": "Mayor Lurie releases his budget next week. Here’s how Trump royally screwed it",
       "sourceType": "news",
@@ -1047,6 +1035,18 @@
       "summary": "San Francisco’s $600 million deficit would’ve been halved without D.C.’s policy changes, and that’s not the end of it.",
       "confidence": 0.9,
       "excerpt": "More and more, San Francisco’s 2026 budget process is resembling a slasher flick. Shadows are dancing across City Hall’s marble-wrought grand staircase, with President Donald Trump threatening to leap into view, ready to gouge hundreds of millions from the city’s coffers. The threat is real: Roughly $2 billion of San Francisco’s $16 billion budget flows from Washington, funding hundreds of grant programs across nearly every city department. Trump has already started turning off the tap. With a $643 million deficit looming, Mayor Daniel Lurie has days to reveal how the city absorbs the pain — and who feels it most. Trump has already made real cuts to healthcare. And while San Francisco has fought back — filing more than a dozen lawsuits against the administration and winning most of them so far — a single appellate loss could imperil billions. Fear that Trump may further upend any number of federal revenue streams undergirds every hard fiscal choice in front of Lurie. On June 1, the mayor will propose his draft budget to the Board of Supervisors and voters, revealing the true extent of the bloodletting. Trump’s policy choices are projected to disenroll up to 45,000 San Franciscans from healthcare and tens of thousands from food stamps. To protect those programs, Lurie is trimming across all 55 city departments rather than gutting public health and human services, his budget director, Sophia Kittler, told The Standard. “This is a loss to the whole city,” Kittler said. “We’re treating it as a citywide deficit.” The impacts are already here. Government layoffs loom, and nonprofit social safety-net programs know they face the chopping block. In anticipation of deep layoffs, labor has signaled a historic general strike is possible next year. In the meantime, tens of thousa...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-first-lady-prowda-invite-san-franciscans-to-sign-up-for-citywide-day",
+      "title": "Mayor Lurie, First Lady Prowda Invite San Franciscans To Sign Up For Citywide Day Of Service | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-first-lady-prowda-invite-san-franciscans-to-sign-up-for-citywide-day-of-service/",
+      "publishedAt": "2026-05-29",
+      "topic": "public_safety",
+      "summary": "One City Day Service Projects Across All 11 Supervisorial Districts Invite Neighbors Across City to Connect, Serve Their Communities; Continues Mayor Lurie and First Lady Prowda’s Work to Bring Service, Accountability, Change to City Hall",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie, First Lady Prowda Invite San Franciscans To Sign Up For Citywide Day Of Service Office of the Mayor One City Day Service Projects Across All 11 Supervisorial Districts Invite Neighbors Across City to Connect, Serve Their Communities; Continues Mayor Lurie and First Lady Prowda’s Work to Bring Service, Accountability, Change to City Hall May 29, 2026 SAN FRANCISCO – Mayor Daniel Lurie and First Lady Becca Prowda today invited San Franciscans to sign up to participate in “ One City Day ,” a citywide day of service on July 11, 2026, that will build connection and strengthen civic pride. Sign-ups to volunteer on One City Day are open and include more than 150 projects and close to 100 project hosts across all 11 supervisorial districts. The day of service builds on Mayor Lurie and First Lady Prowda’s work to bring service, accountability, and change to City Hall—values that have guided both of their personal and professional journeys. The mayor and first lady first met while both working at the Robin Hood Foundation, a nonprofit dedicated to fighting poverty in New York City. Their shared commitment to serving others has shaped their lives and public service, with Mayor Lurie founding Tipping Point Community in 2005 to fight “One City Day will be an opportunity for San Franciscans to come together and give back to the city we all love,” said Mayor Lurie . “Starting May 29, Becca and I are excited to invite people who live, work, and play in San Francisco to sign up to volunteer for projects that will make a difference in their communities. We’re looking forward to this day of service and coming together across neighborhoods to build a stronger San Francisco together.” “Daniel and I have built our lives around service—it’s how we met, how we raise our ki...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1107,6 +1107,21 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor-",
+      "title": "Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor's Office Leadership Team - SF.gov",
+      "sourceType": "news",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1ROMkNFQThBekRnT2xTQ20zTGxGSDk2b0c0NnhYVTVQTkF5UXhlU2ZDSF8ycE1jZ3NHYUhIMXF5cjA0eWZZNVcyQ0dLMDBnOFhOMnNWMlhOenpxMzhMSC1NLUJYNk1Iek5sMGJqbjBPTmJQOV9uTzR1OUdyWVlNdHdfa2ExMEdlQy1lR2F4MDU0c0MwMFVkNnBhdFljQnZYeHgyMVBxc1RyRnRTaUNGNlFhbzZYMi00WHhPeGlfSld4OUtZN2c?oc=5",
+      "discoverySource": "Google News",
+      "publishedAt": "2026-05-27",
+      "topic": "economy",
+      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
+      "confidence": 0.8,
+      "resolvedFrom": "google_news",
+      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "mayor-lurie-awards-more-than-21-million-in-funding-to-support-workforce-developm",
       "title": "Mayor Lurie Awards More Than $21 Million In Funding To Support Workforce Development, Connect San Franciscans To Good-Paying Jobs | SF.gov",
       "sourceType": "official",
@@ -1128,21 +1143,6 @@
       "summary": "Policy Expert With Experience Across Bay Area, Bonde Has Been Serving as Deputy Chief of Staff; Adam Thongsavat to serve as Deputy Chief of Staff, Eileen Mariano as Policy Director",
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor&#x27;s Office Leadership Team Office of the Mayor Policy Expert With Experience Across Bay Area, Bonde Has Been Serving as Deputy Chief of Staff; Adam Thongsavat to serve as Deputy Chief of Staff, Eileen Mariano as Policy Director May 27, 2026 SAN FRANCISCO – Mayor Daniel Lurie today appointed Aly Bonde to serve as chief of staff, elevating a policy expert who has served in government across the Bay Area. Mayor Lurie also announced that Adam Thongsavat will serve as deputy chief of staff and Eileen Mariano as policy director, adding two accomplished Mayor’s Office veterans to the leadership team. Bonde has been serving as deputy chief of chief in the Mayor’s Office, advising Mayor Lurie on a wide range of policy issues from the behavioral health crisis to affordable housing. Thongsavat has been serving as liaison to the Board of Supervisors, facilitating Mayor Lurie’s close working relationship with the Board, while Mariano has led the office’s work in Sacramento and Washington, D.C., passing legislation to advance public safety and the city’s economic recovery while securing critical state and federal funding. Thongsavat and Mariano will continue to report to Bonde. “Aly, Adam, and Eileen have been a collaborative and effective team since we took office last year—partnering with the Board of Supervisors and the state Legislature to pass major legislation to get drugs off our streets and drive our economic recovery,” said Mayor Lurie . “We’ve done so much in our first year and a half to get San Francisco moving in the right direction again, and residents are feeling the difference. But we have so much more to do, and Aly, Adam, Eileen, and I are ready to keep our foot on the acceler...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-elevates-aly-bonde-to-chief-of-staff-announces-new-members-of-mayor-",
-      "title": "Mayor Lurie Elevates Aly Bonde To Chief Of Staff, Announces New Members Of Mayor's Office Leadership Team - SF.gov",
-      "sourceType": "news",
-      "url": "https://www.google-analytics.com/analytics.js",
-      "discoveryUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPR1ROMkNFQThBekRnT2xTQ20zTGxGSDk2b0c0NnhYVTVQTkF5UXhlU2ZDSF8ycE1jZ3NHYUhIMXF5cjA0eWZZNVcyQ0dLMDBnOFhOMnNWMlhOenpxMzhMSC1NLUJYNk1Iek5sMGJqbjBPTmJQOV9uTzR1OUdyWVlNdHdfa2ExMEdlQy1lR2F4MDU0c0MwMFVkNnBhdFljQnZYeHgyMVBxc1RyRnRTaUNGNlFhbzZYMi00WHhPeGlfSld4OUtZN2c?oc=5",
-      "discoverySource": "Google News",
-      "publishedAt": "2026-05-27",
-      "topic": "economy",
-      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
-      "confidence": 0.8,
-      "resolvedFrom": "google_news",
-      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1486,18 +1486,6 @@
     },
     {
       "id": "mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundre",
-      "title": "Mayor Lurie Announces Major Expansion Of Free And Low-Cost Childcare With Hundreds Of New Spots For Families With Infants And Toddlers | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundreds-of-new-spots-for-families-with-infants-and-toddlers/",
-      "publishedAt": "2026-04-30",
-      "topic": "economy",
-      "summary": "Nearly 750 New Seats Will Allow Hundreds of Families in Neighborhoods Across City to Take Advantage of Free Childcare for Families Making 150% of Median Income, 50% Subsidy for Those Making Double Median Income; Applications Open Today, Two Months Early, for Additional Providers to Join Early Learning for All Provider Network; Under Mayor Lurie’s Family Opportunity Agenda, San Francisco is Becoming First U.S. City to Ensure Every Family With Kids Under Five Has Access to Childcare",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Announces Major Expansion Of Free And Low-Cost Childcare With Hundreds Of New Spots For Families With Infants And Toddlers Office of the Mayor Nearly 750 New Seats Will Allow Hundreds of Families in Neighborhoods Across City to Take Advantage of Free Childcare for Families Making 150% of Median Income, 50% Subsidy for Those Making Double Median Income; Applications Open Today, Two Months Early, for Additional Providers to Join Early Learning for All Provider Network; Under Mayor Lurie’s Family Opportunity Agenda, San Francisco is Becoming First U.S. City to Ensure Every Family With Kids Under Five Has Access to Childcare April 30, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced a major expansion of free and low-cost childcare for San Francisco families, a significant step under his Family Opportunity Agenda to make San Francisco the first U.S. city to ensure every family with children under five years old has access to childcare and save families tens of thousands of dollars every year. Beginning this summer, nearly 750 new early learning spots will become available, with a focus on infants and toddlers, in neighborhoods across the city, including the Sunset, Parkside, Richmond, Mission, Bayview, Portola, Mission Bay, Excelsior, Glen Park, and SoMa. The new slots will expand the city’s early childhood system for infants and toddlers by more than 8%—broadening access to affordable, high-quality childcare for working families as the city opens applications for more providers to join the Department of Early Childhood’s (DEC) Early Learning for All (ELFA) network. The significant expansion builds on Mayor Lurie’s investment in free and low-cost childcare through his Family Opportunity Agenda. In January, he announced a plan to leverage unspent 20...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundre",
       "title": "Mayor Lurie Announces Major Expansion Of Free And Low-Cost Childcare With Hundreds Of New Spots For Families With Infants And Toddlers",
       "sourceType": "official",
       "url": "https://www.sf.gov/departments--office-mayor",
@@ -1508,6 +1496,18 @@
       "topic": "city_government",
       "summary": "The Mayor's Office announced a major expansion of free and low-cost childcare for families with infants and toddlers, part of Lurie's affordability agenda. Additional announcements included celebrating an 80% decline in speeding after one year of the city's first-in-state traffic safety program.",
       "confidence": 0.9
+    },
+    {
+      "id": "mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundre",
+      "title": "Mayor Lurie Announces Major Expansion Of Free And Low-Cost Childcare With Hundreds Of New Spots For Families With Infants And Toddlers | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundreds-of-new-spots-for-families-with-infants-and-toddlers/",
+      "publishedAt": "2026-04-30",
+      "topic": "economy",
+      "summary": "Nearly 750 New Seats Will Allow Hundreds of Families in Neighborhoods Across City to Take Advantage of Free Childcare for Families Making 150% of Median Income, 50% Subsidy for Those Making Double Median Income; Applications Open Today, Two Months Early, for Additional Providers to Join Early Learning for All Provider Network; Under Mayor Lurie’s Family Opportunity Agenda, San Francisco is Becoming First U.S. City to Ensure Every Family With Kids Under Five Has Access to Childcare",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Announces Major Expansion Of Free And Low-Cost Childcare With Hundreds Of New Spots For Families With Infants And Toddlers Office of the Mayor Nearly 750 New Seats Will Allow Hundreds of Families in Neighborhoods Across City to Take Advantage of Free Childcare for Families Making 150% of Median Income, 50% Subsidy for Those Making Double Median Income; Applications Open Today, Two Months Early, for Additional Providers to Join Early Learning for All Provider Network; Under Mayor Lurie’s Family Opportunity Agenda, San Francisco is Becoming First U.S. City to Ensure Every Family With Kids Under Five Has Access to Childcare April 30, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced a major expansion of free and low-cost childcare for San Francisco families, a significant step under his Family Opportunity Agenda to make San Francisco the first U.S. city to ensure every family with children under five years old has access to childcare and save families tens of thousands of dollars every year. Beginning this summer, nearly 750 new early learning spots will become available, with a focus on infants and toddlers, in neighborhoods across the city, including the Sunset, Parkside, Richmond, Mission, Bayview, Portola, Mission Bay, Excelsior, Glen Park, and SoMa. The new slots will expand the city’s early childhood system for infants and toddlers by more than 8%—broadening access to affordable, high-quality childcare for working families as the city opens applications for more providers to join the Department of Early Childhood’s (DEC) Early Learning for All (ELFA) network. The significant expansion builds on Mayor Lurie’s investment in free and low-cost childcare through his Family Opportunity Agenda. In January, he announced a plan to leverage unspent 20...",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundre",
@@ -2056,7 +2056,7 @@
       "topic": "economy",
       "verdict": "unverified",
       "confidence": 0.82,
-      "evidencePlan": "SF Travel forecast May 2026; verify final 2026 visitor spending vs 2019 baseline"
+      "evidencePlan": "Verify SF Travel 2026 forecast against final 2019 baseline and 2026 year-end data"
     },
     {
       "id": "claim-net-403-beds",
@@ -2065,7 +2065,7 @@
       "topic": "homelessness",
       "verdict": "unverified",
       "confidence": 0.84,
-      "evidencePlan": "Mission Local analysis May 2026; verify through HSH shelter capacity reports"
+      "evidencePlan": "Verify Mission Local analysis through HSH official shelter capacity reports"
     },
     {
       "id": "claim-crime-down-30",
@@ -2074,7 +2074,7 @@
       "topic": "public_safety",
       "verdict": "unverified",
       "confidence": 0.82,
-      "evidencePlan": "Official May 2025 claim; verify through SFPD crime statistics 2024-2025"
+      "evidencePlan": "Verify through SFPD crime statistics comparing Jan 2025-May 2025 to baseline period"
     },
     {
       "id": "claim-car-break-ins-low",
@@ -2083,7 +2083,7 @@
       "topic": "public_safety",
       "verdict": "unverified",
       "confidence": 0.86,
-      "evidencePlan": "Official April 2026 claim; verify through SFPD vehicle break-in and homicide data"
+      "evidencePlan": "Verify through SFPD vehicle break-in and homicide data 2002-2026 and 1954-2026"
     },
     {
       "id": "claim-breaking-cycle-37m",
@@ -2092,7 +2092,7 @@
       "topic": "homelessness",
       "verdict": "unverified",
       "confidence": 0.92,
-      "evidencePlan": "Official announcement May 2025; track disbursement and impact over time"
+      "evidencePlan": "Track disbursement records and donor commitments over time"
     },
     {
       "id": "claim-housing-fund-doubling",
@@ -2101,7 +2101,7 @@
       "topic": "housing",
       "verdict": "unverified",
       "confidence": 0.84,
-      "evidencePlan": "Legislation introduced May 2026; track Board vote and November ballot outcome"
+      "evidencePlan": "Track Board of Supervisors action and November 2026 ballot outcome"
     },
     {
       "id": "claim-permit-improvements",
@@ -2110,7 +2110,7 @@
       "topic": "city_government",
       "verdict": "unverified",
       "confidence": 0.82,
-      "evidencePlan": "Official May 2026 portal announcement; verify through department baseline metrics"
+      "evidencePlan": "Verify through department baseline metrics and PermitSF usage data"
     },
     {
       "id": "claim-moscone-bookings-up",
@@ -2119,7 +2119,7 @@
       "topic": "economy",
       "verdict": "unverified",
       "confidence": 0.8,
-      "evidencePlan": "SF Travel data May 2026; verify through hotel occupancy and Moscone records"
+      "evidencePlan": "Verify through SF Travel data and Moscone Center booking records"
     },
     {
       "id": "claim-largest-recruit-class",
@@ -2128,7 +2128,7 @@
       "topic": "public_safety",
       "verdict": "unverified",
       "confidence": 0.86,
-      "evidencePlan": "Official April 2026 claim; verify through SFPD staffing and academy records"
+      "evidencePlan": "Verify through SFPD academy records and staffing reports 2017-2026"
     },
     {
       "id": "claim-budget-deficit",
@@ -2137,7 +2137,7 @@
       "topic": "city_government",
       "verdict": "unverified",
       "confidence": 0.84,
-      "evidencePlan": "Mission Local June 2026; verify through final budget adoption and workforce data"
+      "evidencePlan": "Verify through final budget adoption documents and workforce data"
     },
     {
       "id": "claim-stabilization-beds-170",
@@ -2146,7 +2146,7 @@
       "topic": "homelessness",
       "verdict": "unverified",
       "confidence": 0.78,
-      "evidencePlan": "Mayor's office count May 2026; verify through HSH bed inventory by type with baseline"
+      "evidencePlan": "Verify through HSH bed inventory by type with baseline comparison"
     }
   ],
   "metrics": [
@@ -2167,7 +2167,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-06-30T20:22:51.789Z"
+      "lastRefreshed": "2026-07-01T04:57:31.613Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2186,7 +2186,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-06-30T20:22:51.789Z"
+      "lastRefreshed": "2026-07-01T04:57:31.613Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2202,7 +2202,7 @@
       "observations": [],
       "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-06-30T20:22:51.789Z",
+      "lastRefreshed": "2026-07-01T04:57:31.613Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2245,7 +2245,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-06-30T20:22:51.789Z"
+      "lastRefreshed": "2026-07-01T04:57:31.613Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2337,7 +2337,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-06-30T20:22:51.789Z"
+      "lastRefreshed": "2026-07-01T04:57:31.613Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2429,7 +2429,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-06-30T20:22:51.789Z"
+      "lastRefreshed": "2026-07-01T04:57:31.613Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2448,7 +2448,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-06-30T20:22:51.789Z"
+      "lastRefreshed": "2026-07-01T04:57:31.613Z"
     }
   ],
   "topics": [
@@ -2590,7 +2590,7 @@
       "id": "timeline-stabilization-center",
       "date": "2025-04-01",
       "type": "initiative",
-      "title": "24/7 police-friendly stabilization center opened",
+      "title": "24/7 police-friendly stabilization center opened at 822 Geary",
       "topic": "public_safety",
       "impact": "major",
       "sourceIds": [
@@ -2601,7 +2601,7 @@
       "id": "timeline-breaking-cycle-fund",
       "date": "2025-05-08",
       "type": "initiative",
-      "title": "Breaking the Cycle Fund launched with $37.5M private seed funding",
+      "title": "Breaking the Cycle Fund launched with $37.5M private commitments",
       "topic": "homelessness",
       "impact": "major",
       "sourceIds": [
@@ -2623,7 +2623,7 @@
       "id": "timeline-shelter-deadline",
       "date": "2025-07-08",
       "type": "milestone",
-      "title": "Six-month shelter bed deadline passes: 403 net beds added (27% of goal)",
+      "title": "Six-month shelter bed deadline: 403 net beds added vs 1,500 goal",
       "topic": "homelessness",
       "impact": "major",
       "sourceIds": [
@@ -2678,7 +2678,7 @@
       "id": "timeline-tourism-forecast",
       "date": "2026-05-07",
       "type": "milestone",
-      "title": "SF Travel forecasts 2026 tourism to surpass pre-pandemic record",
+      "title": "Tourism forecasted to surpass pre-pandemic spending record",
       "topic": "economy",
       "impact": "major",
       "sourceIds": [
@@ -2700,7 +2700,7 @@
       "id": "timeline-housing-fund",
       "date": "2026-05-19",
       "type": "policy",
-      "title": "Mayor and Sup. Melgar announce $125M annual affordable housing fund expansion",
+      "title": "Mayor and Sup. Melgar propose $125M annual affordable housing fund",
       "topic": "housing",
       "impact": "major",
       "sourceIds": [
@@ -2723,7 +2723,7 @@
       "id": "timeline-budget-final",
       "date": "2026-06-01",
       "type": "policy",
-      "title": "$16.9B budget proposal closes $642M deficit with 550 total job cuts",
+      "title": "$16.9B budget closes $642M deficit with 550 total job cuts",
       "topic": "city_government",
       "impact": "major",
       "sourceIds": [
@@ -2733,37 +2733,37 @@
   ],
   "majorNews": [
     {
-      "id": "sf-supes-reverse-28-5-million-in-proposed-cuts-to-social-programs-in-new-city-bu",
-      "headline": "SF Supes Reverse $28.5 Million In Proposed Cuts to Social Programs In New City Budget Deal",
-      "url": "https://sfist.com/2026/06/26/sf-supervisors-negotiate-new-city-budget-deal-reversing-28-5-million-in-proposed-cuts-to-social-programs/",
+      "id": "mayor-lurie-s-statement-on-board-of-supervisor-x27-s-committee-unanimous-vot",
+      "headline": "Board of Supervisors Budget Committee Unanimously Approves City Budget with $28.5M in Restored Social Program Funding",
+      "url": "https://www.sf.gov/news-mayor-luries-statement-on-board-of-supervisors-committee-unanimous-vote-in-support-of-city-budget/",
       "publishedAt": "2026-06-26",
-      "publisher": "SFist",
-      "topic": "city_government",
-      "whyItMatters": "About 90% of the funding cuts proposed in SF Mayor Daniel Lurie’s original city budget plan were reversed in a deal negotiated by the Board of Supes’ budget committee Thursday, with much of the credit going toward Supervisor Connie Chan.",
-      "sourceId": "sf-supes-reverse-28-5-million-in-proposed-cuts-to-social-programs-in-new-city-bu",
-      "selectionMethod": "fallback"
-    },
-    {
-      "id": "mayor-lurie-announces-record-low-number-of-tent-encampments-large-vehicles-on-sa",
-      "headline": "Mayor Lurie Announces Record-Low Number Of Tent Encampments, Large Vehicles On San Francisco Streets | SF.gov",
-      "url": "https://www.sf.gov/news-mayor-lurie-announces-record-low-number-of-tent-encampments-large-vehicles-on-san-francisco-streets/",
-      "publishedAt": "2026-06-09",
       "publisher": "SF.gov",
-      "topic": "homelessness",
-      "whyItMatters": "Quarterly Count Marks Record-Low Number of Encampments for the Fourth Time and Finds Number of Tents and Structures Down 53% Under Lurie Administration; New RESET Center Has Served Hundreds of People in First Month, With Nearly One-Third Agreeing to Accept Care and Police Officers Returning to Streets in Under 20 Minutes; Follows San Francisco Reaching Lowest Level of Unsheltered Homelessness in 15 Years Under Mayor Lurie’s Breaking the Cycle Plan",
-      "sourceId": "mayor-lurie-announces-record-low-number-of-tent-encampments-large-vehicles-on-sa",
-      "selectionMethod": "fallback"
+      "topic": "city_government",
+      "whyItMatters": "The unanimous approval of the $16.9 billion city budget represents unprecedented early agreement between the mayor and Board of Supervisors, with supervisors restoring $28.5 million in proposed cuts to social programs while addressing the structural deficit and strengthening reserves against federal funding uncertainty.",
+      "sourceId": null,
+      "selectionMethod": "anthropic"
     },
     {
-      "id": "san-francisco-mayor-touts-record-low-number-of-encampments-and-rvs-on-city-stree",
-      "headline": "San Francisco Mayor touts record low number of encampments and RVs on city streets",
-      "url": "https://www.cbsnews.com/sanfrancisco/video/san-francisco-mayor-touts-record-low-number-of-encampments-and-rvs-on-city-streets/",
-      "publishedAt": "2026-06-09",
-      "publisher": "CBS San Francisco",
-      "topic": "homelessness",
-      "whyItMatters": "Crime and homeless encampments in San Francisco are falling according to Mayor Daniel Lurie. Veronica Macias reports.",
-      "sourceId": "san-francisco-mayor-touts-record-low-number-of-encampments-and-rvs-on-city-stree",
-      "selectionMethod": "fallback"
+      "id": "mayor-lurie-launches-streamlined-digital-permits-for-small-businesses-homeowners",
+      "headline": "Mayor Lurie Launches Digital Permits Reducing Processing Time from Days to Four Minutes",
+      "url": "https://www.sf.gov/news-mayor-lurie-launches-streamlined-digital-permits-for-small-businesses-homeowners/",
+      "publishedAt": "2026-06-29",
+      "publisher": "SF.gov",
+      "topic": "economy",
+      "whyItMatters": "The expansion of PermitSF's digital portal to include sign, awning, and roof permits represents significant progress in reducing bureaucratic barriers for small businesses and homeowners, directly supporting economic recovery by streamlining processes that previously required in-person trips and days of processing time.",
+      "sourceId": "mayor-lurie-launches-streamlined-digital-permits-for-small-businesses-homeowners",
+      "selectionMethod": "anthropic"
+    },
+    {
+      "id": "mayor-lurie-s-5-9m-permitting-contract-broke-no-rules-but-wasn-t-done-right-repo",
+      "headline": "City Report Finds Mayor's $5.9M OpenGov Permitting Contract Did Not Follow Best Practices",
+      "url": "https://missionlocal.org/2026/06/mayor-luries-permitting-contract-report/",
+      "publishedAt": "2026-06-16",
+      "publisher": "Mission Local",
+      "topic": "housing",
+      "whyItMatters": "An independent Budget and Legislative Analyst investigation found that while the OpenGov contract for PermitSF did not violate city requirements, it bypassed competitive bidding despite competitors offering superior products at lower prices, raising transparency concerns about a cornerstone initiative of the Lurie administration.",
+      "sourceId": "mayor-lurie-s-5-9m-permitting-contract-broke-no-rules-but-wasn-t-done-right-repo",
+      "selectionMethod": "anthropic"
     }
   ],
   "campaignPromiseSeed": [
