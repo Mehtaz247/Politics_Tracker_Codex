@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-07-04T19:41:24.019Z",
+    "lastUpdated": "2026-07-05T04:33:45.053Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -1574,16 +1574,16 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-on-san-francisco-we-are-on-our-way-back-but-we-still-have-work-to-do",
-      "title": "Mayor Lurie on San Francisco: 'We Are On Our Way Back. But We Still Have Work To Do.'",
+      "id": "more-power-to-lurie-new-ballot-measure-could-give-sf-mayors-bigger-say-in-hiring",
+      "title": "More power to Lurie? New ballot measure could give SF mayors bigger say in hiring",
       "sourceType": "news",
-      "url": "https://www.kqed.org/news/12069967/mayor-lurie-on-san-francisco-we-are-on-our-way-back-but-we-still-have-work-to-do",
-      "discoveryUrl": "https://www.kqed.org/news/12069967/mayor-lurie-on-san-francisco-we-are-on-our-way-back-but-we-still-have-work-to-do",
+      "url": "https://sfstandard.com/2026/03/05/mayoral-authority-charter-amendment-lurie/",
+      "discoveryUrl": "https://sfstandard.com/2026/03/05/mayoral-authority-charter-amendment-lurie/",
       "discoverySource": "Anthropic web search",
-      "publisher": "KQED",
-      "publishedAt": "2026-01-15",
-      "topic": "public_safety",
-      "summary": "In his first State of the City address, Lurie touted progress on crime and public safety but acknowledged affordability remains a key challenge. He shifted focus toward making San Francisco more affordable for working families, emphasizing MUNI and BART funding, childcare subsidies, and affordable housing.",
+      "publisher": "SF Standard",
+      "publishedAt": "2026-03-05",
+      "topic": "city_government",
+      "summary": "Mayor Lurie and Board President Mandelman are preparing measures for the November 2026 election to increase mayoral authority and control, including granting the mayor ability to hire department heads like the police chief. The measures are designed to overhaul the city's 500-plus-page governing document and create more accountability.",
       "confidence": 0.9
     }
   ],
@@ -2062,7 +2062,7 @@
       "topic": "public_safety",
       "verdict": "needs_more_evidence",
       "confidence": 0.86,
-      "evidencePlan": "Verify via SFPD CompStat year-over-year comparison for Mayor Lurie's tenure"
+      "evidencePlan": "Verify via SFPD CompStat year-over-year comparison for 2025"
     },
     {
       "id": "claim-car-breakins-22year-low",
@@ -2071,7 +2071,7 @@
       "topic": "public_safety",
       "verdict": "needs_more_evidence",
       "confidence": 0.88,
-      "evidencePlan": "Verify via SFPD historical larceny theft data 2003-2025"
+      "evidencePlan": "Verify via SFPD larceny theft data 2003-2025"
     },
     {
       "id": "claim-homicides-1954-low",
@@ -2173,7 +2173,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-07-04T19:41:11.881Z"
+      "lastRefreshed": "2026-07-05T04:33:33.183Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2192,7 +2192,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-07-04T19:41:11.881Z"
+      "lastRefreshed": "2026-07-05T04:33:33.183Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2269,7 +2269,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-07-04T19:41:11.881Z",
+      "lastRefreshed": "2026-07-05T04:33:33.183Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2312,7 +2312,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-07-04T19:41:11.881Z"
+      "lastRefreshed": "2026-07-05T04:33:33.183Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2408,7 +2408,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-07-04T19:41:11.881Z"
+      "lastRefreshed": "2026-07-05T04:33:33.183Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2504,7 +2504,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-07-04T19:41:11.881Z"
+      "lastRefreshed": "2026-07-05T04:33:33.183Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2523,7 +2523,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-07-04T19:41:11.881Z"
+      "lastRefreshed": "2026-07-05T04:33:33.183Z"
     }
   ],
   "topics": [
@@ -2814,7 +2814,7 @@
       "publishedAt": "2026-06-29",
       "publisher": "SF.gov",
       "topic": "economy",
-      "whyItMatters": "Significant governance reform reducing bureaucracy by digitizing permits that previously took days to now as little as four minutes, directly impacting small business operations and accelerating economic recovery through the PermitSF portal expansion.",
+      "whyItMatters": "Represents significant bureaucratic reform reducing permit processing from days to minutes, directly impacting economic recovery by making it easier for businesses to operate and property owners to make improvements—a core governance priority for addressing SF's reputation for red tape.",
       "sourceId": "mayor-lurie-launches-streamlined-digital-permits-for-small-businesses-homeowners",
       "selectionMethod": "anthropic"
     },
@@ -2825,7 +2825,7 @@
       "publishedAt": "2026-06-26",
       "publisher": "SFist",
       "topic": "city_government",
-      "whyItMatters": "Major budget outcome with Board of Supervisors reversing 90% of Lurie's proposed cuts, restoring funding for Free City College, HIV prevention, and social services—representing significant political check on mayoral priorities and affecting thousands of residents dependent on these programs.",
+      "whyItMatters": "Major budget agreement reached weeks earlier than usual, reversing 90% of Mayor Lurie's proposed social program cuts including Free City College funding, demonstrating the political dynamics between the mayor and Board of Supervisors on fiscal priorities and social safety net protection.",
       "sourceId": "sf-supes-reverse-28-5-million-in-proposed-cuts-to-social-programs-in-new-city-bu",
       "selectionMethod": "anthropic"
     },
@@ -2836,7 +2836,7 @@
       "publishedAt": "2026-06-16",
       "publisher": "Mission Local",
       "topic": "housing",
-      "whyItMatters": "Independent Budget and Legislative Analyst investigation finds Lurie's signature PermitSF contract award didn't follow best practices despite being legal, raising governance transparency concerns about vendor selection process and potential favoritism with ties between OpenGov officials and the mayor.",
+      "whyItMatters": "Independent city report finds Mayor Lurie's flagship PermitSF contract award violated best practices despite being legal, raising accountability questions about the administration's procurement processes and vendor selection despite ties between OpenGov officials and the mayor's former nonprofit.",
       "sourceId": "mayor-lurie-s-5-9m-permitting-contract-broke-no-rules-but-wasn-t-done-right-repo",
       "selectionMethod": "anthropic"
     }
