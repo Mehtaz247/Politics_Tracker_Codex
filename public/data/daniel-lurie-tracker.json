@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-07-06T04:43:57.297Z",
+    "lastUpdated": "2026-07-06T11:07:35.487Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -311,16 +311,31 @@
       "confidence": 0.78
     },
     {
+      "id": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
+      "title": "Mayor Lurie Unveils 'Breaking the Cycle,' Vision for Tackling San Francisco's Homelessness and Behavioral Health Crisis",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
+      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2026-07-06",
+      "topic": "homelessness",
+      "summary": "Mayor Lurie signed an executive directive outlining a roadmap to tackle the homelessness and behavioral health crisis. The plan enables more effective coordination across departments, policymaking rooted in evidence and reliable data, and accountability for government and nonprofit partners to deliver results.",
+      "confidence": 0.9,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "page returned bot verification challenge"
+    },
+    {
       "id": "mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-p",
-      "title": "Mayor Lurie Signs Legislation to Address RV and Vehicular Homelessness, Restore Public Spaces in San Francisco",
+      "title": "Mayor Lurie Signs Legislation to Address RV and Vehicular Homelessness, Restore Public Spaces",
       "sourceType": "official",
       "url": "https://www.sf.gov/news-mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-public-spaces-in-san-francisco",
       "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-public-spaces-in-san-francisco",
       "discoverySource": "Anthropic web search",
       "publisher": "SF.gov",
-      "publishedAt": "2026-07-05",
+      "publishedAt": "2026-07-06",
       "topic": "homelessness",
-      "summary": "Mayor Lurie signed legislation establishing a 24/7 two-hour parking restriction citywide for large vehicles while offering housing to those experiencing vehicular homelessness. The plan includes $13 million over two fiscal years for rapid rehousing subsidies, a vehicle buyback program, and outreach resources.",
+      "summary": "Lurie signed legislation establishing a 24/7 two-hour parking restriction citywide for large vehicles and offering permanent or interim housing to those experiencing vehicular homelessness. He secured $13 million over two fiscal years in the city budget for rapid rehousing subsidies, a vehicle buyback program, and outreach resources.",
       "confidence": 0.9,
       "scrapeStatus": "fetch_failed",
       "scrapeError": "page returned bot verification challenge"
@@ -1575,18 +1590,6 @@
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Celebrates Groundbreaking Of Improved Twin Peaks Promenade Office of the Mayor Projects Transforms Part of Twin Peaks Boulevard Into Full-Time Promenade With New Amenities, Accessibility Improvements; Continues Mayor Lurie’s Work Under Family Opportunity Agenda to Make San Francisco Welcoming for Families, Including Providing Vibrant Public Spaces April 29, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the groundbreaking of the Twin Peaks Promenade Project , marking a major step forward in the work to improve one of the city’s most scenic open spaces. Led by the San Francisco Recreation and Park Department (RPD), the project will transform a stretch of Twin Peaks Boulevard that has been closed to vehicles since 2020 into a pedestrian- and cyclist-first promenade designed to support walking, biking, and recreation, while improving accessibility for all visitors. The project continues Mayor Lurie’s work to make San Francisco more affordable and welcoming for families, including by fostering vibrant public spaces accessible at no cost. In his first year in office, the mayor broke ground on the final phase of the India Basin Waterfront Park Project and cut the ribbon on Treasure Island’s first public park —which are strengthening community and encouraging economic activity in the neighborhoods. The mayor has also taken steps to bring more energy to some of the city’s most beloved public spaces, announcing a free concert series returning to Golden Gate Park through the summer and fall as well as free concerts and food trucks in Civic Center Plaza . \"San Francisco’s parks and public spaces are among our city’s greatest treasures, and they are lifelines for parents,” said Mayor Lurie . “This project will make Twin Peaks more accessible and more v...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-celebrates-80-decline-in-speeding-after-one-year-of-san-francisco-x2",
-      "title": "Mayor Lurie Celebrates 80% Decline In Speeding After One Year Of San Francisco&#x27;s First-In-State Traffic Safety Program | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-80-decline-in-speeding-after-one-year-of-san-franciscos-first-in-state-traffic-safety-program/",
-      "publishedAt": "2026-04-29",
-      "topic": "public_safety",
-      "summary": "One Year After Launching Automated Speed Camera Pilot, New Data Shows Significant Reduction in Dangerous Speeding at Dozens of Locations; Delivers on Key Commitment in Mayor Lurie’s Street Safety Initiative, Keeping Streets Safer for All San Franciscans",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Celebrates 80% Decline In Speeding After One Year Of San Francisco&#x27;s First-In-State Traffic Safety Program Office of the Mayor One Year After Launching Automated Speed Camera Pilot, New Data Shows Significant Reduction in Dangerous Speeding at Dozens of Locations; Delivers on Key Commitment in Mayor Lurie’s Street Safety Initiative, Keeping Streets Safer for All San Franciscans April 29, 2026 SAN FRANCISCO – Mayor Daniel Lurie today marked one year of San Francisco’s first-in-the-state automated speed camera enforcement program , which has spurred an 80% decline in speeding at 33 locations across the city where cameras are currently installed. New data from the San Francisco Municipal Transportation Authority (SFMTA) shows that after one year, the program has helped significantly change driver behavior, reducing dangerous incidents of speeding and making San Franciscans safer. The new data marks a significant milestone for Mayor Lurie’s Street Safety Initiative , a citywide effort launched last year make city streets safer for pedestrians, drivers, cyclists, transit riders, children, and seniors. In the initiative’s first 100 days, the city took significant steps on street safety, including publishing the new High Injury Network map and convening leaders from across agencies to coordinate citywide safety priorities. Public safety has been Mayor Lurie’s top priority, and crime dropped 25% citywide in 2025. “Public safety has always been my number one priority, and it’s clear after one year that this program is making San Franciscans safer,” said Mayor Lurie . “We are leading the way for the entire state, with proven strategies and data to hold us accountable. And the results are clear: Drivers are changing their behavior to drive more safely, kee...",
-      "scrapeStatus": "scraped"
     }
   ],
   "promises": [
@@ -2175,7 +2178,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-07-06T04:43:43.562Z"
+      "lastRefreshed": "2026-07-06T11:07:22.841Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2194,7 +2197,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-07-06T04:43:43.562Z"
+      "lastRefreshed": "2026-07-06T11:07:22.841Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2271,7 +2274,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-07-06T04:43:43.562Z",
+      "lastRefreshed": "2026-07-06T11:07:22.841Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2287,34 +2290,13 @@
       "evidenceSourceIds": [
         "datasf-substance-use-services"
       ],
-      "status": "active",
-      "baseline": 55904,
-      "latest": 56619,
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 55904
-        },
-        {
-          "date": "2025-04-01",
-          "value": 46460
-        },
-        {
-          "date": "2025-07-01",
-          "value": 51108
-        },
-        {
-          "date": "2025-10-01",
-          "value": 41664
-        },
-        {
-          "date": "2026-01-01",
-          "value": 56619
-        }
-      ],
+      "status": "needs_verified_source",
+      "baseline": null,
+      "latest": null,
+      "observations": [],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-07-06T04:43:43.562Z"
+      "lastRefreshed": "2026-07-06T11:07:22.841Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2410,7 +2392,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-07-06T04:43:43.562Z"
+      "lastRefreshed": "2026-07-06T11:07:22.841Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2506,7 +2488,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-07-06T04:43:43.562Z"
+      "lastRefreshed": "2026-07-06T11:07:22.841Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2525,7 +2507,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-07-06T04:43:43.562Z"
+      "lastRefreshed": "2026-07-06T11:07:22.841Z"
     }
   ],
   "topics": [
@@ -2575,7 +2557,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -2810,13 +2792,24 @@
   ],
   "majorNews": [
     {
-      "id": "mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-p",
-      "headline": "Mayor Lurie Signs Legislation to Address RV and Vehicular Homelessness, Restore Public Spaces in San Francisco",
-      "url": "https://www.sf.gov/news-mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-public-spaces-in-san-francisco",
-      "publishedAt": "2026-07-05",
+      "id": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
+      "headline": "Mayor Lurie Unveils 'Breaking the Cycle,' Vision for Tackling San Francisco's Homelessness and Behavioral Health Crisis",
+      "url": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
+      "publishedAt": "2026-07-06",
       "publisher": "SF.gov",
       "topic": "homelessness",
-      "whyItMatters": "Major policy shift establishing citywide 24/7 two-hour parking restrictions for large vehicles while dedicating $13 million over two years for rapid rehousing subsidies and vehicle buyback programs, directly addressing visible homelessness and public space usage with enforceable regulations and housing alternatives.",
+      "whyItMatters": "Major policy directive addressing SF's most visible crisis through coordinated departmental action, evidence-based policymaking, and accountability measures for government and nonprofit partners—represents comprehensive governance approach to homelessness.",
+      "sourceId": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
+      "selectionMethod": "anthropic"
+    },
+    {
+      "id": "mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-p",
+      "headline": "Mayor Lurie Signs Legislation to Address RV and Vehicular Homelessness, Restore Public Spaces",
+      "url": "https://www.sf.gov/news-mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-public-spaces-in-san-francisco",
+      "publishedAt": "2026-07-06",
+      "publisher": "SF.gov",
+      "topic": "homelessness",
+      "whyItMatters": "Significant policy change establishing citywide parking restrictions for large vehicles while securing $13M for housing subsidies and vehicle buyback programs—directly impacts public space use and homelessness intervention strategy with measurable budget commitment.",
       "sourceId": "mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-p",
       "selectionMethod": "anthropic"
     },
@@ -2826,20 +2819,9 @@
       "url": "https://www.kqed.org/news/12089007/san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts",
       "publishedAt": "2026-06-26",
       "publisher": "KQED",
-      "topic": "homelessness",
-      "whyItMatters": "The Board of Supervisors approved the city's $16.9 billion budget weeks earlier than usual, closing a $600 million deficit while restoring $28 million for critical social services including immigrant support, LGBTQ+ programs, and homelessness services, demonstrating rare political alignment and fiscal strategy amid federal funding cuts.",
+      "topic": "city_government",
+      "whyItMatters": "Critical fiscal governance milestone closing $600M deficit while restoring $28M to social services—demonstrates political compromise between mayor and supervisors, protects safety net amid federal cuts, and sets financial trajectory for entire city government.",
       "sourceId": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
-      "selectionMethod": "anthropic"
-    },
-    {
-      "id": "mayor-lurie-launches-streamlined-digital-permits-for-small-businesses-homeowners",
-      "headline": "Mayor Lurie Launches Streamlined, Digital Permits For Small Businesses, Homeowners",
-      "url": "https://www.sf.gov/news-mayor-lurie-launches-streamlined-digital-permits-for-small-businesses-homeowners/",
-      "publishedAt": "2026-06-29",
-      "publisher": "SF.gov",
-      "topic": "economy",
-      "whyItMatters": "Expansion of digital PermitSF portal reduces permit processing from days to as little as four minutes for signs, awnings, and roof replacements, representing concrete progress on bureaucracy reduction that directly impacts economic recovery by lowering barriers for small businesses and property owners citywide.",
-      "sourceId": "mayor-lurie-launches-streamlined-digital-permits-for-small-businesses-homeowners",
       "selectionMethod": "anthropic"
     }
   ],
