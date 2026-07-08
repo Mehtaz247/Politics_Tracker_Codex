@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-07-08T08:47:10.837Z",
+    "lastUpdated": "2026-07-08T14:44:08.647Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -321,6 +321,21 @@
       "publishedAt": "2026-07-06",
       "topic": "homelessness",
       "summary": "Lurie signed legislation establishing a 24/7 two-hour parking restriction citywide for large vehicles and offering permanent or interim housing to those experiencing vehicular homelessness. He secured $13 million over two fiscal years in the city budget for rapid rehousing subsidies, a vehicle buyback program, and outreach resources.",
+      "confidence": 0.9,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "page returned bot verification challenge"
+    },
+    {
+      "id": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
+      "title": "Mayor Lurie Unveils 'Breaking the Cycle,' Vision for Tackling San Francisco's Homelessness and Behavioral Health Crisis",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
+      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2026-07-08",
+      "topic": "homelessness",
+      "summary": "Mayor Lurie signed an executive directive outlining immediate actions and long-term reforms to address homelessness and behavioral health crisis, including restructuring street outreach teams, opening a 24/7 stabilization center, and implementing accountability measures for government and nonprofit partners.",
       "confidence": 0.9,
       "scrapeStatus": "fetch_failed",
       "scrapeError": "page returned bot verification challenge"
@@ -894,6 +909,21 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "the-dan-grand-slam-how-daniel-lurie-got-everything-he-wanted-on-election-night-2",
+      "title": "The Dan Grand Slam? How Daniel Lurie got everything he wanted on election night",
+      "sourceType": "news",
+      "url": "https://sfstandard.com/2026/06/02/primary-election-night-daniel-lurie-wins-wong-sherrill/",
+      "discoveryUrl": "https://sfstandard.com/2026/06/02/primary-election-night-daniel-lurie-wins-wong-sherrill/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF Standard",
+      "publishedAt": "2026-06-03",
+      "topic": "economy",
+      "summary": "San Francisco’s mayor wasn’t on the ballot Tuesday night. But that didn’t stop him from being the city’s biggest winner.",
+      "confidence": 0.9,
+      "excerpt": "Mayor Daniel Lurie wasn’t running for reelection Tuesday night. But he may have won bigger than anybody else in San Francisco politics. The mayor, who has enjoyed a moderate majority on the Board of Supervisors since taking office in January 2025, will maintain a team of allies with the decisive wins of his two preferred incumbent supervisors: Alan Wong in District 4 and Stephen Sherrill in District 2. Both crushed their opponents in early victories. What’s more, Propositions C and D, dueling tax measures that Lurie opposed, appeared to flop with voters. Everything, it seemed, was coming up Daniel on primary night. “The early returns that we are seeing show that San Franciscans like the direction that we are going in,” the mayor told reporters at a party for Prop. A, the Earthquake Safety and Emergency Response Bond — supported by Lurie, and winning by a landslide — outside Original Joe’s in North Beach. “We are just getting started. We are going to continue to put our foot on the accelerator.” Wong, whom Lurie appointed after voters recalled former Supervisor Joel Engardio, crushed a host of challengers, including progressive activist Natalie Gee, with early results showing support from more than 52% of Sunset and Parkside voters. Wong said he knocked on more than half the doors in his district in the run-up to the election. The biggest issue in the District 4 election — and the biggest issue in the Sunset for the last six years — was the Great Highway: Should it remain a park or reopen to cars? Wong and most of his challengers advocated for the latter, but Wong seemed to have most successfully associated himself with the pro-car stance. In District 2, Sherrill walloped neighborhood organizer Lori Brooke, pulling in 70% of votes tallied by 9:45 p.m. Apparently, alle...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown-",
       "title": "Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown | SF.gov",
       "sourceType": "official",
@@ -918,21 +948,6 @@
       "summary": "Landslide election results favoring Mayor Daniel Lurie's allies and picks point to a changed San Francisco.",
       "confidence": 0.9,
       "excerpt": "It’s not clear if Mayor Daniel Lurie is the cause of a changed San Francisco or a symptom, but, on the June 2 election results sheet, that was a distinction without a difference. Barring a near-miraculous turnaround, every last thing San Francisco’s popular mayor and his big money allies would’ve wanted came to pass, and in no uncertain terms. It’s unclear if Lurie is riding a wave or building a wave. But this, too, is a distinction without a difference. The outcomes of Tuesday night’s low-turnout election were not, on the whole, shocking. But the margins — damn near every race was a massacre — were. On the cusp of the election, the backers of Proposition A, the big earthquake bond, were sweating bullets. The measure, which required two-thirds of the vote to pass, was polling at 64 or 65 percent just a few weeks ago. On election night, the measure, carried by Lurie and the firefighters union, banked more than three-quarters of the vote. The mayor had also become the de facto face of the No on D campaign, urging voters to spurn the “ Overpaid CEO Tax ,” lest it lead to a disastrous dispersal of city businesses. Voters seem to agree: More than 55 percent of early voters inveighed against the measure. District 2 Supervisor and close Lurie ally Stephen Sherrill has nearly 70 percent of the vote. And, in District 4, Lurie appointee Alan Wong is enjoying a near-majority in a five-way race and easily wins in ranked-choice voting. On top of that, incumbent school board president Phil Kim has a near-supermajority and prosecutor Phoebe Maffei is besting public defender Alexandra Pray for a judge spot by a 60-40 tilt. The Department of Elections reported on June 3 that some 122,400 ballots remain to be counted. But, with the possible exception of Prop. D, the &#8220;Overpaid CE...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "the-dan-grand-slam-how-daniel-lurie-got-everything-he-wanted-on-election-night-2",
-      "title": "The Dan Grand Slam? How Daniel Lurie got everything he wanted on election night",
-      "sourceType": "news",
-      "url": "https://sfstandard.com/2026/06/02/primary-election-night-daniel-lurie-wins-wong-sherrill/",
-      "discoveryUrl": "https://sfstandard.com/2026/06/02/primary-election-night-daniel-lurie-wins-wong-sherrill/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF Standard",
-      "publishedAt": "2026-06-03",
-      "topic": "economy",
-      "summary": "San Francisco’s mayor wasn’t on the ballot Tuesday night. But that didn’t stop him from being the city’s biggest winner.",
-      "confidence": 0.9,
-      "excerpt": "Mayor Daniel Lurie wasn’t running for reelection Tuesday night. But he may have won bigger than anybody else in San Francisco politics. The mayor, who has enjoyed a moderate majority on the Board of Supervisors since taking office in January 2025, will maintain a team of allies with the decisive wins of his two preferred incumbent supervisors: Alan Wong in District 4 and Stephen Sherrill in District 2. Both crushed their opponents in early victories. What’s more, Propositions C and D, dueling tax measures that Lurie opposed, appeared to flop with voters. Everything, it seemed, was coming up Daniel on primary night. “The early returns that we are seeing show that San Franciscans like the direction that we are going in,” the mayor told reporters at a party for Prop. A, the Earthquake Safety and Emergency Response Bond — supported by Lurie, and winning by a landslide — outside Original Joe’s in North Beach. “We are just getting started. We are going to continue to put our foot on the accelerator.” Wong, whom Lurie appointed after voters recalled former Supervisor Joel Engardio, crushed a host of challengers, including progressive activist Natalie Gee, with early results showing support from more than 52% of Sunset and Parkside voters. Wong said he knocked on more than half the doors in his district in the run-up to the election. The biggest issue in the District 4 election — and the biggest issue in the Sunset for the last six years — was the Great Highway: Should it remain a park or reopen to cars? Wong and most of his challengers advocated for the latter, but Wong seemed to have most successfully associated himself with the pro-car stance. In District 2, Sherrill walloped neighborhood organizer Lori Brooke, pulling in 70% of votes tallied by 9:45 p.m. Apparently, alle...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1580,18 +1595,6 @@
       "topic": "city_government",
       "summary": "The Mayor's Office announced a major expansion of free and low-cost childcare for families with infants and toddlers, part of Lurie's affordability agenda. Additional announcements included celebrating an 80% decline in speeding after one year of the city's first-in-state traffic safety program.",
       "confidence": 0.9
-    },
-    {
-      "id": "mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundre",
-      "title": "Mayor Lurie Announces Major Expansion Of Free And Low-Cost Childcare With Hundreds Of New Spots For Families With Infants And Toddlers | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundreds-of-new-spots-for-families-with-infants-and-toddlers/",
-      "publishedAt": "2026-04-30",
-      "topic": "economy",
-      "summary": "Nearly 750 New Seats Will Allow Hundreds of Families in Neighborhoods Across City to Take Advantage of Free Childcare for Families Making 150% of Median Income, 50% Subsidy for Those Making Double Median Income; Applications Open Today, Two Months Early, for Additional Providers to Join Early Learning for All Provider Network; Under Mayor Lurie’s Family Opportunity Agenda, San Francisco is Becoming First U.S. City to Ensure Every Family With Kids Under Five Has Access to Childcare",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Announces Major Expansion Of Free And Low-Cost Childcare With Hundreds Of New Spots For Families With Infants And Toddlers Office of the Mayor Nearly 750 New Seats Will Allow Hundreds of Families in Neighborhoods Across City to Take Advantage of Free Childcare for Families Making 150% of Median Income, 50% Subsidy for Those Making Double Median Income; Applications Open Today, Two Months Early, for Additional Providers to Join Early Learning for All Provider Network; Under Mayor Lurie’s Family Opportunity Agenda, San Francisco is Becoming First U.S. City to Ensure Every Family With Kids Under Five Has Access to Childcare April 30, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced a major expansion of free and low-cost childcare for San Francisco families, a significant step under his Family Opportunity Agenda to make San Francisco the first U.S. city to ensure every family with children under five years old has access to childcare and save families tens of thousands of dollars every year. Beginning this summer, nearly 750 new early learning spots will become available, with a focus on infants and toddlers, in neighborhoods across the city, including the Sunset, Parkside, Richmond, Mission, Bayview, Portola, Mission Bay, Excelsior, Glen Park, and SoMa. The new slots will expand the city’s early childhood system for infants and toddlers by more than 8%—broadening access to affordable, high-quality childcare for working families as the city opens applications for more providers to join the Department of Early Childhood’s (DEC) Early Learning for All (ELFA) network. The significant expansion builds on Mayor Lurie’s investment in free and low-cost childcare through his Family Opportunity Agenda. In January, he announced a plan to leverage unspent 20...",
-      "scrapeStatus": "scraped"
     }
   ],
   "promises": [
@@ -1707,7 +1710,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
+      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -1938,7 +1941,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 439 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 458 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2162,7 +2165,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-07-08T08:46:55.482Z"
+      "lastRefreshed": "2026-07-08T14:43:54.487Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2181,7 +2184,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-07-08T08:46:55.483Z"
+      "lastRefreshed": "2026-07-08T14:43:54.487Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2191,13 +2194,74 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": null,
-      "latest": null,
+      "baseline": 292,
+      "latest": 216,
       "direction": "down_is_good",
-      "observations": [],
-      "status": "needs_verified_source",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 292
+        },
+        {
+          "date": "2025-02-01",
+          "value": 274
+        },
+        {
+          "date": "2025-03-01",
+          "value": 342
+        },
+        {
+          "date": "2025-04-01",
+          "value": 275
+        },
+        {
+          "date": "2025-05-01",
+          "value": 273
+        },
+        {
+          "date": "2025-06-01",
+          "value": 301
+        },
+        {
+          "date": "2025-07-01",
+          "value": 239
+        },
+        {
+          "date": "2025-08-01",
+          "value": 294
+        },
+        {
+          "date": "2025-09-01",
+          "value": 219
+        },
+        {
+          "date": "2025-10-01",
+          "value": 235
+        },
+        {
+          "date": "2025-11-01",
+          "value": 300
+        },
+        {
+          "date": "2025-12-01",
+          "value": 148
+        },
+        {
+          "date": "2026-01-01",
+          "value": 221
+        },
+        {
+          "date": "2026-02-01",
+          "value": 220
+        },
+        {
+          "date": "2026-03-01",
+          "value": 216
+        }
+      ],
+      "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-07-08T08:46:55.483Z",
+      "lastRefreshed": "2026-07-08T14:43:54.487Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2240,7 +2304,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-07-08T08:46:55.483Z"
+      "lastRefreshed": "2026-07-08T14:43:54.487Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2255,7 +2319,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 176,
+      "latest": 223,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2331,12 +2395,12 @@
         },
         {
           "date": "2026-07-01",
-          "value": 176
+          "value": 223
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-07-08T08:46:55.483Z"
+      "lastRefreshed": "2026-07-08T14:43:54.487Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2351,7 +2415,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 439,
+      "latest": 458,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2423,16 +2487,16 @@
         },
         {
           "date": "2026-06-01",
-          "value": 1324
+          "value": 1322
         },
         {
           "date": "2026-07-01",
-          "value": 439
+          "value": 458
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-07-08T08:46:55.483Z"
+      "lastRefreshed": "2026-07-08T14:43:54.487Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2451,7 +2515,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-07-08T08:46:55.483Z"
+      "lastRefreshed": "2026-07-08T14:43:54.487Z"
     }
   ],
   "topics": [
@@ -2501,7 +2565,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
+      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -2732,29 +2796,18 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
         "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou"
       ]
-    },
-    {
-      "id": "timeline-rv-legislation",
-      "date": "2026-07-06",
-      "type": "policy",
-      "title": "RV and vehicular homelessness legislation signed with $13M funding",
-      "topic": "homelessness",
-      "impact": "major",
-      "sourceIds": [
-        "mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-p"
-      ]
     }
   ],
   "majorNews": [
     {
-      "id": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
-      "headline": "Mayor Lurie's charter-reform effort gets $1.5M boost from tech execs, philanthropist",
-      "url": "https://missionlocal.org/2026/07/daniel-lurie-san-francisco-charter-reform-ballot-measure/",
-      "publishedAt": "2026-07-06",
-      "publisher": "Mission Local",
-      "topic": "economy",
-      "whyItMatters": "Major funding influx of $1.5 million from tech leaders including Laurene Powell Jobs' Emerson Collective signals significant political backing for Lurie's three November ballot measures that would fundamentally restructure San Francisco governance by expanding mayoral power, raising ballot measure thresholds, and centralizing contracting authority—changes that could reshape City Hall operations for years.",
-      "sourceId": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
+      "id": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
+      "headline": "Mayor Lurie Unveils 'Breaking the Cycle,' Vision for Tackling San Francisco's Homelessness and Behavioral Health Crisis",
+      "url": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
+      "publishedAt": "2026-07-08",
+      "publisher": "SF.gov",
+      "topic": "homelessness",
+      "whyItMatters": "Major policy initiative restructuring the city's approach to homelessness through executive directive, including immediate operational changes to street outreach teams, opening a 24/7 stabilization center, and implementing accountability measures for government and nonprofit partners—representing a comprehensive shift in how SF addresses its most visible crisis.",
+      "sourceId": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
       "selectionMethod": "anthropic"
     },
     {
@@ -2764,19 +2817,19 @@
       "publishedAt": "2026-07-06",
       "publisher": "SF.gov",
       "topic": "homelessness",
-      "whyItMatters": "Establishes citywide policy addressing vehicular homelessness through new 24/7 two-hour parking restrictions for large vehicles combined with $13 million in housing subsidies and services over two years, representing a major policy shift that balances enforcement with support and could significantly impact both visible homelessness and public space usage across the city.",
+      "whyItMatters": "Establishes citywide 24/7 two-hour parking restrictions for large vehicles and commits $13 million over two fiscal years for rapid rehousing subsidies and vehicle buyback programs—a significant policy change addressing vehicular homelessness with both enforcement and housing solutions that will impact neighborhoods across the city.",
       "sourceId": "mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-p",
       "selectionMethod": "anthropic"
     },
     {
-      "id": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
-      "headline": "San Francisco Finalizes $17 Billion Budget, Restores Millions in Proposed Cuts",
-      "url": "https://www.kqed.org/news/12089007/san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts",
-      "publishedAt": "2026-06-26",
-      "publisher": "KQED",
+      "id": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
+      "headline": "Mayor Lurie's charter-reform effort gets $1.5M boost from tech execs, philanthropist",
+      "url": "https://missionlocal.org/2026/07/daniel-lurie-san-francisco-charter-reform-ballot-measure/",
+      "publishedAt": "2026-07-06",
+      "publisher": "Mission Local",
       "topic": "city_government",
-      "whyItMatters": "Board of Supervisors unanimously approved the $16.9 billion budget addressing a $600 million deficit while restoring $28.5 million in proposed cuts to critical social services, demonstrating rare bipartisan cooperation and establishing over $1 billion in reserves to protect against federal funding cuts—setting the city's fiscal trajectory and service levels for the next two years amid federal uncertainty.",
-      "sourceId": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
+      "whyItMatters": "Three ballot measures backed by $8.6 million total would fundamentally reshape city governance by expanding mayoral power to reorganize and consolidate 24 departments, raising signature thresholds for ballot measures, and centralizing government contracts—representing the most significant structural changes to SF government in years with major implications for political power distribution.",
+      "sourceId": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
       "selectionMethod": "anthropic"
     }
   ],
