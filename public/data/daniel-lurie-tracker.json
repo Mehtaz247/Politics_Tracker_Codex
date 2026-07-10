@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-07-10T04:18:56.532Z",
+    "lastUpdated": "2026-07-10T09:56:19.991Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -970,6 +970,19 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "san-francisco-mayor-unveils-budget-aimed-at-addressing-642-million-deficit-2026-",
+      "title": "San Francisco mayor unveils budget aimed at addressing $642 million deficit",
+      "sourceType": "news",
+      "url": "https://www.nbcbayarea.com/news/local/san-francisco-mayor-city-budget-deficit/4092734/",
+      "discoveryUrl": "https://www.nbcbayarea.com/news/local/san-francisco-mayor-city-budget-deficit/4092734/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "NBC Bay Area",
+      "publishedAt": "2026-06-02",
+      "topic": "city_government",
+      "summary": "Mayor Lurie revealed his proposed budget for the next two fiscal years designed to protect or restore many city services while closing a $642 million deficit. The mayor said his proposal deals with overspending in the past and anticipated cuts from the federal government.",
+      "confidence": 0.9
+    },
+    {
       "id": "election-updates-scott-wiener-leads-for-congress-and-mayor-lurie-has-a-big-night",
       "title": "Election updates: Scott Wiener leads for Congress, and Mayor Lurie has a big night",
       "sourceType": "news",
@@ -1579,16 +1592,6 @@
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Announces Plan To Tackle Fare Evasion On Public Transit, Make Muni More Accountable Office of the Mayor SFMTA Will Hire More Fare Inspectors to Strengthen Enforcement Efforts, Protecting Muni Service Despite Amid Significant Budget Challenges; Continues Mayor Lurie’s Work to Deliver Safe, Accessible, Accountable Muni, Support San Francisco’s Economic Recovery With Strong Public Transit System May 5, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced a new effort to address fare evasion on Muni, as part of his commitment to building a stronger long-term financial future for the system and a more accountable San Francisco Municipal Transportation Agency (SFMTA). The new initiative will expand Muni’s transit fare inspector team to strengthen enforcement and encourage fare payment by riders. It will also transition riders to more visible forms of payment and improve data collection to effectively reduce fare evasion—all helping protect Muni service despite significant fiscal challenges. The work to strengthen fare enforcement on Muni continues Mayor Lurie’s work with SFMTA to deliver a safer, more accessible, and more accountable Muni. In April, the SFMTA board of directors approved a balanced two-year budget for Fiscal Years 2026-2027 and 2027-2028 that prioritizes financial accountability and efficiency improvements, fare compliance, and other sources of revenue generation to preserve Muni services and programs. Since 2020, the SFMTA has identified approximately $246 million in cost savings as part of an agency-wide effort to maximize efficiencies and cost savings. “We know that Muni is facing serious financial challenges—but we’re not standing still. We have taken decisive steps to ensure Muni is operating efficiently, approving a balanced two-ye...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-announces-plan-to-tackle-fare-evasion-on-public-transit-make-muni-mo",
-      "title": "Mayor Lurie Announces Plan To Tackle Fare Evasion On Public Transit, Make Muni More Accountable - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQcTRKTUR4RUlCWTdVaU8za1ZlT3oxMU13Z3dkX1k0R2hVOWZaeFl2YW45SWpjZWNWTnNsT3ZDUjRsWVJYbE5ncXg1QkxDVzVjbFpnRjd5ZWRaNnNVVVpOOUp1ZWh2SFQ1R01SRUVrZ2RLZ1BZVEQxSlRhSndIS1l1RGI4b3dwdXhScmZqUU5PTm5lVXZpOTFCOXF2eVo4cXh3cGhRNzdkSXdCSTZ1aUlPYjV2OTRXT191Z0E?oc=5",
-      "publishedAt": "2026-05-05",
-      "topic": "transit",
-      "summary": "Mayor Lurie Announces Plan To Tackle Fare Evasion On Public Transit, Make Muni More Accountable SF.gov",
-      "confidence": 0.78
     }
   ],
   "promises": [
@@ -2177,7 +2180,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-07-10T04:18:42.790Z"
+      "lastRefreshed": "2026-07-10T09:56:05.630Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2196,7 +2199,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-07-10T04:18:42.790Z"
+      "lastRefreshed": "2026-07-10T09:56:05.630Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2212,7 +2215,7 @@
       "observations": [],
       "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-07-10T04:18:42.790Z",
+      "lastRefreshed": "2026-07-10T09:56:05.630Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2255,7 +2258,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-07-10T04:18:42.790Z"
+      "lastRefreshed": "2026-07-10T09:56:05.630Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2351,7 +2354,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-07-10T04:18:42.790Z"
+      "lastRefreshed": "2026-07-10T09:56:05.630Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2447,7 +2450,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-07-10T04:18:42.790Z"
+      "lastRefreshed": "2026-07-10T09:56:05.630Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2466,7 +2469,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-07-10T04:18:42.790Z"
+      "lastRefreshed": "2026-07-10T09:56:05.630Z"
     }
   ],
   "topics": [
@@ -2751,36 +2754,36 @@
   ],
   "majorNews": [
     {
-      "id": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
-      "headline": "Mayor Lurie's charter-reform effort gets $1.5M boost from tech execs, philanthropist",
-      "url": "https://missionlocal.org/2026/07/daniel-lurie-san-francisco-charter-reform-ballot-measure/",
-      "publishedAt": "2026-07-06",
-      "publisher": "Mission Local",
-      "topic": "economy",
-      "whyItMatters": "Major fundraising for three November ballot measures that would significantly restructure city government by expanding mayoral power, raising ballot measure signature thresholds, and centralizing contracts. The $1.5M from tech leaders including Laurene Powell Jobs' Emerson Collective signals strong elite support for fundamental governance changes that critics say could limit grassroots organizing.",
-      "sourceId": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
-      "selectionMethod": "anthropic"
-    },
-    {
       "id": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
       "headline": "San Francisco Finalizes $17 Billion Budget, Restores Millions in Proposed Cuts",
       "url": "https://www.kqed.org/news/12089007/san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts",
       "publishedAt": "2026-06-26",
       "publisher": "KQED",
       "topic": "homelessness",
-      "whyItMatters": "The Board of Supervisors' early, unanimous approval of a $16.9 billion budget represents significant fiscal governance as the city addresses a $600M deficit amid federal funding cuts. The restoration of $28.5 million for social services, LGBTQ+ programs, and homelessness initiatives after weeks of protests shows successful advocacy pressure while maintaining over $1 billion in reserves against further federal cuts.",
+      "whyItMatters": "The Board of Supervisors unanimously approved the city's $16.9 billion budget, addressing a $600 million deficit while restoring $28.5 million in cuts to social services, healthcare, and homelessness programs. This represents a significant governance achievement with citywide fiscal and policy implications, particularly strengthening the social safety net against federal cuts while maintaining over $1 billion in reserves.",
       "sourceId": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
       "selectionMethod": "anthropic"
     },
     {
-      "id": "mayor-lurie-takes-new-steps-to-keep-san-franciscans-on-critical-food-assistance",
-      "headline": "Mayor Lurie Takes New Steps To Keep San Franciscans On Critical Food Assistance After Federal Cuts",
-      "url": "https://www.sf.gov/news-mayor-lurie-takes-new-steps-to-keep-san-franciscans-on-critical-food-assistance-after-federal-cuts/",
+      "id": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
+      "headline": "Mayor Lurie's charter-reform effort gets $1.5M boost from tech execs, philanthropist",
+      "url": "https://missionlocal.org/2026/07/daniel-lurie-san-francisco-charter-reform-ballot-measure/",
       "publishedAt": "2026-07-06",
+      "publisher": "Mission Local",
+      "topic": "economy",
+      "whyItMatters": "Major tech and philanthropic figures including Laurene Powell Jobs' Emerson Collective ($500K) and venture capitalist John Doerr ($500K) are funding three November ballot measures that would fundamentally restructure city government by expanding mayoral power over departments, raising ballot measure signature thresholds, and centralizing contracts. These reforms could significantly alter San Francisco's governance structure and political power dynamics.",
+      "sourceId": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
+      "selectionMethod": "anthropic"
+    },
+    {
+      "id": "mayor-lurie-breaks-ground-on-76-million-modernization-of-public-health-center-in",
+      "headline": "Mayor Lurie Breaks Ground On $76 Million Modernization Of Public Health Center In Chinatown",
+      "url": "https://www.sf.gov/news-mayor-lurie-breaks-ground-on-76-million-modernization-of-public-health-center-in-chinatown/",
+      "publishedAt": "2026-07-07",
       "publisher": "SF.gov",
       "topic": "transit",
-      "whyItMatters": "Launches CalFresh Community Works Program to help approximately 17,000 San Franciscans meet new federal work requirements to retain food assistance benefits. Represents critical city response to federal policy changes threatening the social safety net, with $34 million in budget investments to prevent tens of thousands from losing essential benefits amid hundreds of millions in healthcare cuts from H.R. 1.",
-      "sourceId": "mayor-lurie-takes-new-steps-to-keep-san-franciscans-on-critical-food-assistance-",
+      "whyItMatters": "The city's most seismically vulnerable health clinic serving Chinatown and AAPI immigrant communities will undergo a complete $76 million renovation with seismic upgrades and expanded services. This demonstrates the administration's commitment to healthcare infrastructure despite hundreds of millions in federal healthcare cuts through H.R. 1, with broader implications for public health equity and disaster preparedness.",
+      "sourceId": "mayor-lurie-breaks-ground-on-76-million-modernization-of-public-health-center-in",
       "selectionMethod": "anthropic"
     }
   ],
