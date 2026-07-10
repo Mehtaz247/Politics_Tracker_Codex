@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-07-10T09:56:19.991Z",
+    "lastUpdated": "2026-07-10T15:05:55.855Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -1025,21 +1025,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "sf-city-jobs-are-safe-this-year-next-year-is-another-story-2026-06-01",
-      "title": "Lurie’s budget spares city jobs — but grant funding cuts may lead to nonprofit layoffs",
-      "sourceType": "news",
-      "url": "https://sfstandard.com/2026/06/01/daniel-lurie-budget-2026-city-layoffs-deficit-san-francisco/",
-      "discoveryUrl": "https://sfstandard.com/2026/06/01/daniel-lurie-budget-2026-city-layoffs-deficit-san-francisco/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "San Francisco Standard",
-      "publishedAt": "2026-06-01",
-      "topic": "homelessness",
-      "summary": "The mayor avoided the layoffs unions feared, thanks to a surprise surplus and a hiring freeze. A $1B deficit by 2029 may not be so kind.",
-      "confidence": 0.9,
-      "excerpt": "San Francisco City Hall jobs are safe, for now — but next year, not so much. Mayor Daniel Lurie released his annual proposed budget on Monday, aiming to close a $643 million deficit. Despite devastating federal disinvestment and a still-recovering economy, additional layoffs did not materialize this year. The budget cuts some social safety net programs as the city seeks to offset expected federal reductions that threaten to leave tens of thousands of San Franciscans without health care and food stamps. “Today, I am proud to submit a balanced budget that is fiscally responsible and strengthens our social safety net, so even in the face of federal cuts, San Franciscans know they can count on this city,” Lurie said in livestreamed remarks to the city. It’s not all roses: the budget slashes grant funding to nonprofit services focused on helping the poorest citizens, immigrants, and communities of color. The funding loss may result in as many as 1,050 layoffs among nonprofit service providers, advocates said Monday. Earlier this year, dire budget projections led labor unions to brace for layoffs among the city’s 34,000 employees in Lurie’s budget proposal, and in April, the mayor handed out a small set of pink slips to 127 employees. Speaking to The Standard last month, SEIU 1021, which represents one of the largest swaths of city employees, warned that strikes next year could “shut down the city.” In a statement, SEIU 1021 San Francisco Vice President Kristin Hardy said, “We are pleased and relieved to see that Mayor Lurie did not include further layoffs in the next fiscal year’s budget. San Francisco is at a pivotal moment in its recovery, and we cannot afford to go backward.” Still, she added, the union continues to fight against nonprofit reductions, and for Lurie to...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
       "title": "Mayor Lurie’s budget closes $642M deficit: Few layoffs, but hundreds of City Hall jobs go unfilled",
       "sourceType": "news",
@@ -1052,6 +1037,21 @@
       "summary": "After 127 layoffs earlier this year, mayor instead moves to eliminate over 400 vacant positions, save money through turnover and slowed hiring",
       "confidence": 0.9,
       "excerpt": "Mayor Daniel Lurie revealed Monday that he is looking to close the city’s $642 million deficit not through culling the workforce today, but slowing down hiring for years and eliminating vacant positions. The proposal eliminates over 400 vacant positions that the city had budgeted for but left unfilled, and cuts another nine jobs. That, plus the 127 layoffs announced in the spring, would mean around 550 City Hall job cuts this budget season. The $16.9 billion budget would also benefit from increased revenue, namely tax receipts received via the city’s 2024 tax reform measure, Proposition M , and increases in public health revenue. And in line with last year’s budget , Lurie is prioritizing funding for departments attuned with his key initiatives, namely public safety and homelessness. Lurie increased funding for the police and fire departments, whose staff saw 14 percent salary bumps after union contract negotiations earlier this year, as well as departments most affected by cuts to federal funding, like the Department of Public Health. “We didn’t tell departments to do more with less,” Lurie said during an announcement livestreamed from the Human Services Agency Mission District office. “We said, focus on what matters most to our recovery and deliver results.” A large chunk of the city’s savings come from staffing cuts — the 127 layoffs announced earlier , the nine more announced today, and the 414 or so unfilled positions. Unions have called for no more cuts to city services or personnel. Though this budget has few layoffs, union leaders in April said they opposed cuts to unfilled positions. “Any cuts to that system will further strain city departments which are already understaffed,” said Bianca Polovina, then-president of IFPTE 21, a union of city workers. “All th...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "sf-city-jobs-are-safe-this-year-next-year-is-another-story-2026-06-01",
+      "title": "Lurie’s budget spares city jobs — but grant funding cuts may lead to nonprofit layoffs",
+      "sourceType": "news",
+      "url": "https://sfstandard.com/2026/06/01/daniel-lurie-budget-2026-city-layoffs-deficit-san-francisco/",
+      "discoveryUrl": "https://sfstandard.com/2026/06/01/daniel-lurie-budget-2026-city-layoffs-deficit-san-francisco/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "San Francisco Standard",
+      "publishedAt": "2026-06-01",
+      "topic": "homelessness",
+      "summary": "The mayor avoided the layoffs unions feared, thanks to a surprise surplus and a hiring freeze. A $1B deficit by 2029 may not be so kind.",
+      "confidence": 0.9,
+      "excerpt": "San Francisco City Hall jobs are safe, for now — but next year, not so much. Mayor Daniel Lurie released his annual proposed budget on Monday, aiming to close a $643 million deficit. Despite devastating federal disinvestment and a still-recovering economy, additional layoffs did not materialize this year. The budget cuts some social safety net programs as the city seeks to offset expected federal reductions that threaten to leave tens of thousands of San Franciscans without health care and food stamps. “Today, I am proud to submit a balanced budget that is fiscally responsible and strengthens our social safety net, so even in the face of federal cuts, San Franciscans know they can count on this city,” Lurie said in livestreamed remarks to the city. It’s not all roses: the budget slashes grant funding to nonprofit services focused on helping the poorest citizens, immigrants, and communities of color. The funding loss may result in as many as 1,050 layoffs among nonprofit service providers, advocates said Monday. Earlier this year, dire budget projections led labor unions to brace for layoffs among the city’s 34,000 employees in Lurie’s budget proposal, and in April, the mayor handed out a small set of pink slips to 127 employees. Speaking to The Standard last month, SEIU 1021, which represents one of the largest swaths of city employees, warned that strikes next year could “shut down the city.” In a statement, SEIU 1021 San Francisco Vice President Kristin Hardy said, “We are pleased and relieved to see that Mayor Lurie did not include further layoffs in the next fiscal year’s budget. San Francisco is at a pivotal moment in its recovery, and we cannot afford to go backward.” Still, she added, the union continues to fight against nonprofit reductions, and for Lurie to...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1707,7 +1707,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
+      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -1938,7 +1938,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 459 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 464 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2180,7 +2180,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-07-10T09:56:05.630Z"
+      "lastRefreshed": "2026-07-10T15:05:38.877Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2199,7 +2199,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-07-10T09:56:05.630Z"
+      "lastRefreshed": "2026-07-10T15:05:38.877Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2209,13 +2209,74 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": null,
-      "latest": null,
+      "baseline": 292,
+      "latest": 216,
       "direction": "down_is_good",
-      "observations": [],
-      "status": "needs_verified_source",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 292
+        },
+        {
+          "date": "2025-02-01",
+          "value": 274
+        },
+        {
+          "date": "2025-03-01",
+          "value": 342
+        },
+        {
+          "date": "2025-04-01",
+          "value": 275
+        },
+        {
+          "date": "2025-05-01",
+          "value": 273
+        },
+        {
+          "date": "2025-06-01",
+          "value": 301
+        },
+        {
+          "date": "2025-07-01",
+          "value": 239
+        },
+        {
+          "date": "2025-08-01",
+          "value": 294
+        },
+        {
+          "date": "2025-09-01",
+          "value": 219
+        },
+        {
+          "date": "2025-10-01",
+          "value": 235
+        },
+        {
+          "date": "2025-11-01",
+          "value": 300
+        },
+        {
+          "date": "2025-12-01",
+          "value": 148
+        },
+        {
+          "date": "2026-01-01",
+          "value": 221
+        },
+        {
+          "date": "2026-02-01",
+          "value": 220
+        },
+        {
+          "date": "2026-03-01",
+          "value": 216
+        }
+      ],
+      "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-07-10T09:56:05.630Z",
+      "lastRefreshed": "2026-07-10T15:05:38.877Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2258,7 +2319,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-07-10T09:56:05.630Z"
+      "lastRefreshed": "2026-07-10T15:05:38.877Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2273,7 +2334,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 272,
+      "latest": 314,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2349,12 +2410,12 @@
         },
         {
           "date": "2026-07-01",
-          "value": 272
+          "value": 314
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-07-10T09:56:05.630Z"
+      "lastRefreshed": "2026-07-10T15:05:38.877Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2369,7 +2430,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 459,
+      "latest": 464,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2445,12 +2506,12 @@
         },
         {
           "date": "2026-07-01",
-          "value": 459
+          "value": 464
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-07-10T09:56:05.630Z"
+      "lastRefreshed": "2026-07-10T15:05:38.877Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2469,7 +2530,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-07-10T09:56:05.630Z"
+      "lastRefreshed": "2026-07-10T15:05:38.877Z"
     }
   ],
   "topics": [
@@ -2519,7 +2580,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
+      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -2754,25 +2815,25 @@
   ],
   "majorNews": [
     {
-      "id": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
-      "headline": "San Francisco Finalizes $17 Billion Budget, Restores Millions in Proposed Cuts",
-      "url": "https://www.kqed.org/news/12089007/san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts",
-      "publishedAt": "2026-06-26",
-      "publisher": "KQED",
-      "topic": "homelessness",
-      "whyItMatters": "The Board of Supervisors unanimously approved the city's $16.9 billion budget, addressing a $600 million deficit while restoring $28.5 million in cuts to social services, healthcare, and homelessness programs. This represents a significant governance achievement with citywide fiscal and policy implications, particularly strengthening the social safety net against federal cuts while maintaining over $1 billion in reserves.",
-      "sourceId": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
-      "selectionMethod": "anthropic"
-    },
-    {
       "id": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
       "headline": "Mayor Lurie's charter-reform effort gets $1.5M boost from tech execs, philanthropist",
       "url": "https://missionlocal.org/2026/07/daniel-lurie-san-francisco-charter-reform-ballot-measure/",
       "publishedAt": "2026-07-06",
       "publisher": "Mission Local",
       "topic": "economy",
-      "whyItMatters": "Major tech and philanthropic figures including Laurene Powell Jobs' Emerson Collective ($500K) and venture capitalist John Doerr ($500K) are funding three November ballot measures that would fundamentally restructure city government by expanding mayoral power over departments, raising ballot measure signature thresholds, and centralizing contracts. These reforms could significantly alter San Francisco's governance structure and political power dynamics.",
+      "whyItMatters": "This represents a major political initiative to fundamentally restructure SF government by expanding mayoral power, consolidating 24 city departments, and raising ballot measure thresholds. The $1.5M in contributions from tech leaders like Laurene Powell Jobs' Emerson Collective and venture capitalist John Doerr signals significant elite support for governance reforms that critics say could limit grassroots organizing while supporters argue will reduce bureaucratic gridlock.",
       "sourceId": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
+      "selectionMethod": "anthropic"
+    },
+    {
+      "id": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
+      "headline": "San Francisco Finalizes $17 Billion Budget, Restores Millions in Proposed Cuts",
+      "url": "https://www.kqed.org/news/12089007/san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts",
+      "publishedAt": "2026-06-26",
+      "publisher": "KQED",
+      "topic": "homelessness",
+      "whyItMatters": "The Board of Supervisors' unanimous passage of a $16.9 billion budget addresses a $600 million deficit while restoring $28.5 million in proposed cuts to critical services for immigrants, LGBTQ+ residents, mental health programs, and homelessness initiatives. The budget also establishes over $1 billion in reserves to protect against federal cuts from the Trump administration, representing a significant governance achievement balancing fiscal responsibility with social safety net preservation.",
+      "sourceId": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
       "selectionMethod": "anthropic"
     },
     {
@@ -2782,7 +2843,7 @@
       "publishedAt": "2026-07-07",
       "publisher": "SF.gov",
       "topic": "transit",
-      "whyItMatters": "The city's most seismically vulnerable health clinic serving Chinatown and AAPI immigrant communities will undergo a complete $76 million renovation with seismic upgrades and expanded services. This demonstrates the administration's commitment to healthcare infrastructure despite hundreds of millions in federal healthcare cuts through H.R. 1, with broader implications for public health equity and disaster preparedness.",
+      "whyItMatters": "This major infrastructure investment addresses the city's most seismically vulnerable health clinic while expanding dental care and exam capacity for Chinatown's immigrant and AAPI communities. The project demonstrates the city's commitment to healthcare infrastructure despite hundreds of millions in federal healthcare cuts through H.R. 1, representing both earthquake preparedness and health equity priorities for a vulnerable population.",
       "sourceId": "mayor-lurie-breaks-ground-on-76-million-modernization-of-public-health-center-in",
       "selectionMethod": "anthropic"
     }
