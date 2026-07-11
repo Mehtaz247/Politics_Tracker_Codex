@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-07-11T03:46:50.231Z",
+    "lastUpdated": "2026-07-11T08:17:44.240Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -322,6 +322,21 @@
       "topic": "homelessness",
       "summary": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years &nbsp;&nbsp; SF.gov",
       "confidence": 0.78
+    },
+    {
+      "id": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
+      "title": "Mayor Lurie Unveils 'Breaking the Cycle,' Vision for Tackling San Francisco's Homelessness and Behavioral Health Crisis",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
+      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2026-07-11",
+      "topic": "homelessness",
+      "summary": "Mayor Lurie signed an executive directive outlining a roadmap to fundamentally transform the city's health and homelessness response. The plan includes immediate actions and longer-term reforms focused on coordination across departments, evidence-based policymaking, accountability for nonprofit partners, and connecting people to services while keeping public spaces safe and clean.",
+      "confidence": 0.9,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "page returned bot verification challenge"
     },
     {
       "id": "excelsior-buzz-jerry-day-returns-to-the-excelsior-aug-1-2026-07-10",
@@ -955,18 +970,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown-",
-      "title": "Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown/",
-      "publishedAt": "2026-06-03",
-      "topic": "public_safety",
-      "summary": "Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown Office of the Mayor Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback June 3, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the end of Small Business Month with two store openings downtown and three businesses expanding through the Vacant to Vibrant program. Two new small businesses, Whole Cakes and Bruno’s Italian Taste, are opening with the help of the Office of Economic and Workforce Development’s (OEWD) Downtown Vibrancy Loan Fund. Vacant to Vibrant pop‑up Dandelion Chocolate has signed a long‑term lease on Powell Street and is expanding to add a cafe, and two new Vacant to Vibrant pop‑ups—LOLA Embarcadero and Cowrie Collective at the Palace Hotel—are activating spaces downtown. The new storefronts and Vacant to Vibrant expansions continue to accelerate San Francisco’s economic recovery. In September, Mayor Lurie unveiled his “Heart of the City” plan to create a downtown where people live, work, play, and learn. Last year, Union Square and Yerba Buena welcomed 44 new storefronts, including new Vacant to Vibrant pop-ups , the RealReal, AT&T and Nintendo . Since the mayor took office, crime continues to go down in Union Square and the Financial District , 20 new liquor licenses have been issued to support nightlife , office leasing has surged 66.7% , and San Francisco now leads major U.S. cities in return-to-office rates . And through initiatives like First Year Free , expanded entertainment zones , small business grants , and streamlined business regulations , Mayor Lurie has taken steps to strengthen small...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "the-dan-grand-slam-how-daniel-lurie-got-everything-he-wanted-on-election-night-2",
       "title": "The Dan Grand Slam? How Daniel Lurie got everything he wanted on election night",
       "sourceType": "news",
@@ -979,6 +982,18 @@
       "summary": "San Francisco’s mayor wasn’t on the ballot Tuesday night. But that didn’t stop him from being the city’s biggest winner.",
       "confidence": 0.9,
       "excerpt": "Mayor Daniel Lurie wasn’t running for reelection Tuesday night. But he may have won bigger than anybody else in San Francisco politics. The mayor, who has enjoyed a moderate majority on the Board of Supervisors since taking office in January 2025, will maintain a team of allies with the decisive wins of his two preferred incumbent supervisors: Alan Wong in District 4 and Stephen Sherrill in District 2. Both crushed their opponents in early victories. What’s more, Propositions C and D, dueling tax measures that Lurie opposed, appeared to flop with voters. Everything, it seemed, was coming up Daniel on primary night. “The early returns that we are seeing show that San Franciscans like the direction that we are going in,” the mayor told reporters at a party for Prop. A, the Earthquake Safety and Emergency Response Bond — supported by Lurie, and winning by a landslide — outside Original Joe’s in North Beach. “We are just getting started. We are going to continue to put our foot on the accelerator.” Wong, whom Lurie appointed after voters recalled former Supervisor Joel Engardio, crushed a host of challengers, including progressive activist Natalie Gee, with early results showing support from more than 52% of Sunset and Parkside voters. Wong said he knocked on more than half the doors in his district in the run-up to the election. The biggest issue in the District 4 election — and the biggest issue in the Sunset for the last six years — was the Great Highway: Should it remain a park or reopen to cars? Wong and most of his challengers advocated for the latter, but Wong seemed to have most successfully associated himself with the pro-car stance. In District 2, Sherrill walloped neighborhood organizer Lori Brooke, pulling in 70% of votes tallied by 9:45 p.m. Apparently, alle...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown-",
+      "title": "Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown/",
+      "publishedAt": "2026-06-03",
+      "topic": "public_safety",
+      "summary": "Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown Office of the Mayor Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback June 3, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the end of Small Business Month with two store openings downtown and three businesses expanding through the Vacant to Vibrant program. Two new small businesses, Whole Cakes and Bruno’s Italian Taste, are opening with the help of the Office of Economic and Workforce Development’s (OEWD) Downtown Vibrancy Loan Fund. Vacant to Vibrant pop‑up Dandelion Chocolate has signed a long‑term lease on Powell Street and is expanding to add a cafe, and two new Vacant to Vibrant pop‑ups—LOLA Embarcadero and Cowrie Collective at the Palace Hotel—are activating spaces downtown. The new storefronts and Vacant to Vibrant expansions continue to accelerate San Francisco’s economic recovery. In September, Mayor Lurie unveiled his “Heart of the City” plan to create a downtown where people live, work, play, and learn. Last year, Union Square and Yerba Buena welcomed 44 new storefronts, including new Vacant to Vibrant pop-ups , the RealReal, AT&T and Nintendo . Since the mayor took office, crime continues to go down in Union Square and the Financial District , 20 new liquor licenses have been issued to support nightlife , office leasing has surged 66.7% , and San Francisco now leads major U.S. cities in return-to-office rates . And through initiatives like First Year Free , expanded entertainment zones , small business grants , and streamlined business regulations , Mayor Lurie has taken steps to strengthen small...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1580,21 +1595,6 @@
       "topic": "city_government",
       "summary": "At conservative-leaning forum, S.F. leaders love pragmatism, efficiency, and Daniel Lurie &nbsp;&nbsp; Mission Local",
       "confidence": 0.68
-    },
-    {
-      "id": "sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears-2026-05-01",
-      "title": "SF Mayor Daniel Lurie pushes Muni funding measures as deadline nears",
-      "sourceType": "news",
-      "url": "https://www.nbcbayarea.com/news/local/sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears/4080452/",
-      "discoveryUrl": "https://www.nbcbayarea.com/news/local/sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears/4080452/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "NBC Bay Area",
-      "publishedAt": "2026-05-06",
-      "topic": "transit",
-      "summary": "San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot.",
-      "confidence": 0.9,
-      "excerpt": "San Francisco SF Mayor Daniel Lurie pushes Muni funding measures as deadline nears By Ginger Conejero Saab &bull; Published May 6, 2026 &bull; Updated on May 6, 2026 at 11:58 am BOOKMARKER NBC Universal, Inc. San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot. San Francisco Mayor Daniel Lurie was out Wednesday morning gathering signatures to help two transit measures make the November ballot. Lurie was near the Market and Castro Muni stop, encouraging people to support the “Stronger Muni for All” measure and a regional proposal known as “Connect Bay Area.” Watch NBC Bay Area News free wherever you are WATCH HERE Both measures aim to provide long-term funding for transit. The local measure would fund Muni, while the regional measure would support agencies like BART and Caltrain. The mayor said Muni does not receive state funding and is relying on a proposed parcel tax. That would cost renters about $65 a year and most homeowners about $129 annually. “It is a price, so I’m not discounting that, but it is something we have to pay,” Lurie said. Meanwhile, the city is increasing enforcement on Muni, adding about 30% more fare inspectors. The agency recently reported its highest ridership since the start of the pandemic. Regionally, leaders are also backing a sales tax measure that could generate about $980 million a year to help avoid major service cuts. That regional measure needs about 186,000 valid signatures to qualify for the November ballot. San Francisco May 5 SFMTA beefs up efforts to crackdown on Muni fare evaders San Francisco Apr 28 Getting back on track: Muni records highest ridership since pandemic low This article tagged under: San Francisco on now 1:30PM: NBC Bay Area News Mi...",
-      "scrapeStatus": "scraped"
     }
   ],
   "promises": [
@@ -1710,7 +1710,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
+      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -2183,7 +2183,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-07-11T03:46:35.452Z"
+      "lastRefreshed": "2026-07-11T08:17:30.062Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2202,7 +2202,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-07-11T03:46:35.452Z"
+      "lastRefreshed": "2026-07-11T08:17:30.062Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2212,13 +2212,74 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": null,
-      "latest": null,
+      "baseline": 292,
+      "latest": 216,
       "direction": "down_is_good",
-      "observations": [],
-      "status": "needs_verified_source",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 292
+        },
+        {
+          "date": "2025-02-01",
+          "value": 274
+        },
+        {
+          "date": "2025-03-01",
+          "value": 342
+        },
+        {
+          "date": "2025-04-01",
+          "value": 275
+        },
+        {
+          "date": "2025-05-01",
+          "value": 273
+        },
+        {
+          "date": "2025-06-01",
+          "value": 301
+        },
+        {
+          "date": "2025-07-01",
+          "value": 239
+        },
+        {
+          "date": "2025-08-01",
+          "value": 294
+        },
+        {
+          "date": "2025-09-01",
+          "value": 219
+        },
+        {
+          "date": "2025-10-01",
+          "value": 235
+        },
+        {
+          "date": "2025-11-01",
+          "value": 300
+        },
+        {
+          "date": "2025-12-01",
+          "value": 148
+        },
+        {
+          "date": "2026-01-01",
+          "value": 221
+        },
+        {
+          "date": "2026-02-01",
+          "value": 220
+        },
+        {
+          "date": "2026-03-01",
+          "value": 216
+        }
+      ],
+      "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-07-11T03:46:35.452Z",
+      "lastRefreshed": "2026-07-11T08:17:30.062Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2261,7 +2322,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-07-11T03:46:35.452Z"
+      "lastRefreshed": "2026-07-11T08:17:30.062Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2357,7 +2418,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-07-11T03:46:35.452Z"
+      "lastRefreshed": "2026-07-11T08:17:30.062Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2453,7 +2514,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-07-11T03:46:35.452Z"
+      "lastRefreshed": "2026-07-11T08:17:30.062Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2472,7 +2533,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-07-11T03:46:35.452Z"
+      "lastRefreshed": "2026-07-11T08:17:30.062Z"
     }
   ],
   "topics": [
@@ -2522,7 +2583,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
+      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -2735,7 +2796,7 @@
       "id": "timeline-police-legislation",
       "date": "2026-05-11",
       "type": "policy",
-      "title": "Legislation signed to support police officers and drive down crime",
+      "title": "Legislation signed to support police officers",
       "topic": "public_safety",
       "impact": "major",
       "sourceIds": [
@@ -2757,13 +2818,24 @@
   ],
   "majorNews": [
     {
+      "id": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
+      "headline": "Mayor Lurie Unveils 'Breaking the Cycle,' Vision for Tackling San Francisco's Homelessness and Behavioral Health Crisis",
+      "url": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
+      "publishedAt": "2026-07-11",
+      "publisher": "SF.gov",
+      "topic": "homelessness",
+      "whyItMatters": "This executive directive represents a fundamental transformation of the city's approach to its most pressing crisis, establishing new accountability measures for nonprofits, coordinating across departments, and directly impacting thousands of residents through evidence-based policy reforms.",
+      "sourceId": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
+      "selectionMethod": "anthropic"
+    },
+    {
       "id": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
       "headline": "Mayor Lurie's charter-reform effort gets $1.5M boost from tech execs, philanthropist",
       "url": "https://missionlocal.org/2026/07/daniel-lurie-san-francisco-charter-reform-ballot-measure/",
       "publishedAt": "2026-07-06",
       "publisher": "Mission Local",
-      "topic": "economy",
-      "whyItMatters": "Mayor Lurie's three November ballot measures would fundamentally reshape city government by expanding mayoral power to reorganize departments, fire department heads, and centralize contracts while raising barriers for grassroots ballot initiatives. The $1.5M in recent donations—including $500K each from Laurene Powell Jobs' Emerson Collective and venture capitalist John Doerr—signals major political and financial backing for this charter reform effort that could redefine the balance of power at City Hall.",
+      "topic": "city_government",
+      "whyItMatters": "Three November ballot measures backed by $8.6 million could fundamentally restructure San Francisco's government by expanding mayoral power over 24 departments, raising the threshold for ballot measures, and centralizing contract authority—representing the most significant governance reforms in decades.",
       "sourceId": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
       "selectionMethod": "anthropic"
     },
@@ -2773,20 +2845,9 @@
       "url": "https://www.kqed.org/news/12089007/san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts",
       "publishedAt": "2026-06-26",
       "publisher": "KQED",
-      "topic": "homelessness",
-      "whyItMatters": "The Board of Supervisors unanimously approved San Francisco's $16.9 billion budget, reversing $28.5 million in proposed cuts and restoring funding for immigrant services, LGBTQ+ programs, homelessness services, and Free City College—while building over $1 billion in reserves against federal cuts. This budget represents a critical test of Lurie's governance approach, balancing fiscal constraints from federal healthcare cuts with protected social services, and demonstrates early collaborative success between the new mayor and supervisors.",
+      "topic": "city_government",
+      "whyItMatters": "The $16.9 billion budget addresses a $600 million deficit while restoring $28 million in social services, includes over $1 billion in reserves against federal cuts, and marks the earliest budget agreement in eight years—setting fiscal priorities that will impact every San Francisco resident and service.",
       "sourceId": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
-      "selectionMethod": "anthropic"
-    },
-    {
-      "id": "mayor-lurie-launches-streamlined-digital-permits-for-small-businesses-homeowners",
-      "headline": "Mayor Lurie Launches Streamlined, Digital Permits For Small Businesses, Homeowners",
-      "url": "https://www.sf.gov/news-mayor-lurie-launches-streamlined-digital-permits-for-small-businesses-homeowners/",
-      "publishedAt": "2026-06-29",
-      "publisher": "SF.gov",
-      "topic": "economy",
-      "whyItMatters": "The expansion of the PermitSF digital portal to include signs, awnings, and roofing permits—reducing processing from days to as little as four minutes—demonstrates tangible progress on Lurie's campaign promise to reduce bureaucracy. Combined with plans to merge the Department of Building Inspection, Planning Department, and Permit Center, this represents a substantive government efficiency reform that directly affects business operations and economic recovery citywide.",
-      "sourceId": "mayor-lurie-launches-streamlined-digital-permits-for-small-businesses-homeowners",
       "selectionMethod": "anthropic"
     }
   ],
