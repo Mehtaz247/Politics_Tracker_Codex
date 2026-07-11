@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-07-11T13:59:06.681Z",
+    "lastUpdated": "2026-07-11T19:35:49.987Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -1067,21 +1067,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
-      "title": "Mayor Lurie’s budget closes $642M deficit: Few layoffs, but hundreds of City Hall jobs go unfilled",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/06/sf-mayor-lurie-budget-proposal-2026/",
-      "discoveryUrl": "https://missionlocal.org/2026/06/sf-mayor-lurie-budget-proposal-2026/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "Mission Local",
-      "publishedAt": "2026-06-01",
-      "topic": "homelessness",
-      "summary": "After 127 layoffs earlier this year, mayor instead moves to eliminate over 400 vacant positions, save money through turnover and slowed hiring",
-      "confidence": 0.9,
-      "excerpt": "Mayor Daniel Lurie revealed Monday that he is looking to close the city’s $642 million deficit not through culling the workforce today, but slowing down hiring for years and eliminating vacant positions. The proposal eliminates over 400 vacant positions that the city had budgeted for but left unfilled, and cuts another nine jobs. That, plus the 127 layoffs announced in the spring, would mean around 550 City Hall job cuts this budget season. The $16.9 billion budget would also benefit from increased revenue, namely tax receipts received via the city’s 2024 tax reform measure, Proposition M , and increases in public health revenue. And in line with last year’s budget , Lurie is prioritizing funding for departments attuned with his key initiatives, namely public safety and homelessness. Lurie increased funding for the police and fire departments, whose staff saw 14 percent salary bumps after union contract negotiations earlier this year, as well as departments most affected by cuts to federal funding, like the Department of Public Health. “We didn’t tell departments to do more with less,” Lurie said during an announcement livestreamed from the Human Services Agency Mission District office. “We said, focus on what matters most to our recovery and deliver results.” A large chunk of the city’s savings come from staffing cuts — the 127 layoffs announced earlier , the nine more announced today, and the 414 or so unfilled positions. Unions have called for no more cuts to city services or personnel. Though this budget has few layoffs, union leaders in April said they opposed cuts to unfilled positions. “Any cuts to that system will further strain city departments which are already understaffed,” said Bianca Polovina, then-president of IFPTE 21, a union of city workers. “All th...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "with-layoffs-ahead-san-francisco-mayor-lurie-unveils-17-billion-city-budget-2026",
       "title": "With Layoffs Ahead, San Francisco Mayor Lurie Unveils $17 Billion City Budget",
       "sourceType": "news",
@@ -1094,6 +1079,21 @@
       "summary": "San Francisco Mayor Daniel Lurie’s proposal aims to narrow the city’s budget shortfall by around $300 million.",
       "confidence": 0.9,
       "excerpt": "News With Layoffs Ahead, San Francisco Mayor Lurie Unveils $17 Billion City Budget San Francisco Mayor Daniel Lurie’s proposal aims to narrow the city’s budget shortfall by around $300 million. Jun 1, 2026 Updated 3:52 pm PT Sydney Johnson Mayor Daniel Lurie speaks on his support for California Senate Bill 63 at a press conference at Embarcadero Plaza in San Francisco on Jan. 23, 2026. (Tâm Vũ/KQED) San Francisco Mayor Daniel Lurie wants to preserve the city&rsquo;s law enforcement spending and boost benefits programs as departments across the city face cuts to close the city&rsquo;s multimillion-dollar budget deficit. On Monday, Lurie released his anticipated $16.9 billion budget proposal for the next two fiscal years. It reduces the city&rsquo;s more than $600 million projected budget shortfall by $300 million through a combination of department reorganizations, eliminating positions and other spending reductions. The plan has sparked pushback from some worker advocates, who say the cuts will harm residents. But Lurie said failing to address the gaping deficit now would mean even steeper reductions in the future. &ldquo;Under my administration, we will not fall back on temporary fixes that force deeper cuts year after year,&rdquo; Lurie said as he announced his proposal on Monday outside one of the city&rsquo;s Human Services Agency offices, which could receive a major boost in the budget to address federal funding cuts. &ldquo;I know these decisions have very real impacts. But if we fail to act now, our structural deficit will grow to $1 billion, and the difficult choices before us today will become even more painful and costly tomorrow.&rdquo; The budget now goes before the Board of Supervisors, who can request and negotiate changes. The final budget must be appr...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
+      "title": "Mayor Lurie’s budget closes $642M deficit: Few layoffs, but hundreds of City Hall jobs go unfilled",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/06/sf-mayor-lurie-budget-proposal-2026/",
+      "discoveryUrl": "https://missionlocal.org/2026/06/sf-mayor-lurie-budget-proposal-2026/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-06-01",
+      "topic": "homelessness",
+      "summary": "After 127 layoffs earlier this year, mayor instead moves to eliminate over 400 vacant positions, save money through turnover and slowed hiring",
+      "confidence": 0.9,
+      "excerpt": "Mayor Daniel Lurie revealed Monday that he is looking to close the city’s $642 million deficit not through culling the workforce today, but slowing down hiring for years and eliminating vacant positions. The proposal eliminates over 400 vacant positions that the city had budgeted for but left unfilled, and cuts another nine jobs. That, plus the 127 layoffs announced in the spring, would mean around 550 City Hall job cuts this budget season. The $16.9 billion budget would also benefit from increased revenue, namely tax receipts received via the city’s 2024 tax reform measure, Proposition M , and increases in public health revenue. And in line with last year’s budget , Lurie is prioritizing funding for departments attuned with his key initiatives, namely public safety and homelessness. Lurie increased funding for the police and fire departments, whose staff saw 14 percent salary bumps after union contract negotiations earlier this year, as well as departments most affected by cuts to federal funding, like the Department of Public Health. “We didn’t tell departments to do more with less,” Lurie said during an announcement livestreamed from the Human Services Agency Mission District office. “We said, focus on what matters most to our recovery and deliver results.” A large chunk of the city’s savings come from staffing cuts — the 127 layoffs announced earlier , the nine more announced today, and the 414 or so unfilled positions. Unions have called for no more cuts to city services or personnel. Though this budget has few layoffs, union leaders in April said they opposed cuts to unfilled positions. “Any cuts to that system will further strain city departments which are already understaffed,” said Bianca Polovina, then-president of IFPTE 21, a union of city workers. “All th...",
       "scrapeStatus": "scraped"
     },
     {
@@ -2067,7 +2067,7 @@
     },
     {
       "id": "claim-crime-down-30",
-      "claim": "Overall crime down nearly 30% in 2025 under Mayor Lurie",
+      "claim": "Overall crime down nearly 30% in 2025",
       "sourceId": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
       "topic": "public_safety",
       "verdict": "needs_more_evidence",
@@ -2103,7 +2103,7 @@
     },
     {
       "id": "claim-tourism-prepandemic",
-      "claim": "2026 tourism spending forecasted to cross pre-pandemic record",
+      "claim": "2026 tourism spending forecasted to surpass pre-pandemic record",
       "sourceId": "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h",
       "topic": "economy",
       "verdict": "needs_more_evidence",
@@ -2130,21 +2130,12 @@
     },
     {
       "id": "claim-rv-funding-13m",
-      "claim": "$13M secured over two fiscal years for RV homelessness response programs",
+      "claim": "$13M secured for RV homelessness response programs over two fiscal years",
       "sourceId": "mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-p",
       "topic": "homelessness",
       "verdict": "needs_more_evidence",
       "confidence": 0.88,
       "evidencePlan": "Verify via city budget FY25-27 allocation documents"
-    },
-    {
-      "id": "claim-budget-800m-deficit",
-      "claim": "Closed $800M deficit with balanced $15.9B budget for FY25-27",
-      "sourceId": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
-      "topic": "city_government",
-      "verdict": "needs_more_evidence",
-      "confidence": 0.86,
-      "evidencePlan": "Verify via Controller reconciliation and Board adoption records"
     },
     {
       "id": "claim-hotel-convention-69",
@@ -2163,6 +2154,15 @@
       "verdict": "needs_more_evidence",
       "confidence": 0.86,
       "evidencePlan": "Verify via city vehicular homelessness survey methodology"
+    },
+    {
+      "id": "claim-homicides-1954-low",
+      "claim": "Homicides reached lowest level since 1954",
+      "sourceId": "mayor-lurie-appoints-steven-betz-as-chief-of-public-safety-https-www-sf-gov-news",
+      "topic": "public_safety",
+      "verdict": "needs_more_evidence",
+      "confidence": 0.84,
+      "evidencePlan": "Verify via SFPD homicide historical data 1954-2025"
     }
   ],
   "metrics": [
@@ -2183,7 +2183,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-07-11T13:58:52.040Z"
+      "lastRefreshed": "2026-07-11T19:35:35.941Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2202,7 +2202,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-07-11T13:58:52.040Z"
+      "lastRefreshed": "2026-07-11T19:35:35.941Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2279,7 +2279,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-07-11T13:58:52.040Z",
+      "lastRefreshed": "2026-07-11T19:35:35.941Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2322,7 +2322,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-07-11T13:58:52.040Z"
+      "lastRefreshed": "2026-07-11T19:35:35.941Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2418,7 +2418,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-07-11T13:58:52.040Z"
+      "lastRefreshed": "2026-07-11T19:35:35.941Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2514,7 +2514,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-07-11T13:58:52.040Z"
+      "lastRefreshed": "2026-07-11T19:35:35.941Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2533,7 +2533,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-07-11T13:58:52.040Z"
+      "lastRefreshed": "2026-07-11T19:35:35.941Z"
     }
   ],
   "topics": [
@@ -2697,7 +2697,7 @@
       "id": "timeline-budget-presented",
       "date": "2025-05-30",
       "type": "policy",
-      "title": "$15.9B balanced budget closing $800M deficit presented",
+      "title": "Balanced $15.9B budget closing $800M deficit presented",
       "topic": "city_government",
       "impact": "major",
       "sourceIds": [
@@ -2719,7 +2719,7 @@
       "id": "timeline-rv-legislation",
       "date": "2025-07-15",
       "type": "policy",
-      "title": "RV and vehicular homelessness legislation signed",
+      "title": "RV and vehicular homelessness legislation signed with $13M funding",
       "topic": "homelessness",
       "impact": "major",
       "sourceIds": [
@@ -2807,7 +2807,7 @@
       "id": "timeline-housing-fund",
       "date": "2026-05-19",
       "type": "policy",
-      "title": "$125M annual affordable housing fund proposed for November ballot",
+      "title": "$125M annual affordable housing fund proposed for November 2026 ballot",
       "topic": "housing",
       "impact": "major",
       "sourceIds": [
@@ -2824,8 +2824,19 @@
       "publishedAt": "2026-07-11",
       "publisher": "SF.gov",
       "topic": "homelessness",
-      "whyItMatters": "Represents Mayor Lurie's comprehensive policy framework to address the city's most visible and costly crisis through an executive directive that fundamentally transforms health and homelessness response across multiple departments, establishing accountability measures and evidence-based approaches with long-term governance implications.",
+      "whyItMatters": "This executive directive represents a comprehensive policy shift in addressing San Francisco's most visible crisis, fundamentally transforming the city's health and homelessness response with new coordination mechanisms, accountability measures for nonprofit partners, and evidence-based approaches that will impact thousands of residents.",
       "sourceId": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
+      "selectionMethod": "anthropic"
+    },
+    {
+      "id": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
+      "headline": "San Francisco Finalizes $17 Billion Budget, Restores Millions in Proposed Cuts",
+      "url": "https://www.kqed.org/news/12089007/san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts",
+      "publishedAt": "2026-06-26",
+      "publisher": "KQED",
+      "topic": "transit",
+      "whyItMatters": "The Board of Supervisors' unanimous approval of the $16.9 billion budget closes a $600 million deficit while restoring $28 million in social services, protecting vulnerable communities against federal cuts and demonstrating rare political consensus on the city's fiscal priorities and service delivery to residents.",
+      "sourceId": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
       "selectionMethod": "anthropic"
     },
     {
@@ -2835,19 +2846,8 @@
       "publishedAt": "2026-07-06",
       "publisher": "Mission Local",
       "topic": "city_government",
-      "whyItMatters": "Three ballot measures backed by major tech and philanthropic funding ($8.6 million total) would fundamentally restructure City Hall governance by expanding mayoral power to reorganize 24 departments, raising signature thresholds for ballot measures, and centralizing contracts—changes that would reshape the city's political structure and balance of power for years.",
+      "whyItMatters": "Three ballot measures backed by $8.6 million in total fundraising would fundamentally restructure City Hall governance by expanding mayoral powers to reorganize departments, fire department heads, and raise signature thresholds for ballot measures—a significant shift in San Francisco's power structure with major implications for democratic participation and executive authority.",
       "sourceId": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
-      "selectionMethod": "anthropic"
-    },
-    {
-      "id": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
-      "headline": "San Francisco Finalizes $17 Billion Budget, Restores Millions in Proposed Cuts",
-      "url": "https://www.kqed.org/news/12089007/san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts",
-      "publishedAt": "2026-06-26",
-      "publisher": "KQED",
-      "topic": "homelessness",
-      "whyItMatters": "The $16.9 billion budget addresses a $600 million deficit while restoring $28 million in social services and includes over $1 billion in reserves to protect against federal cuts, representing critical fiscal stabilization and policy priorities that will impact service delivery across immigrant, LGBTQ+, homelessness, and health programs citywide.",
-      "sourceId": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
       "selectionMethod": "anthropic"
     }
   ],
