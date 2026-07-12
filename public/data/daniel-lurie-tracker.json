@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-07-12T08:34:08.014Z",
+    "lastUpdated": "2026-07-12T13:59:54.079Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -324,21 +324,6 @@
       "confidence": 0.78
     },
     {
-      "id": "excelsior-buzz-jerry-day-returns-to-the-excelsior-aug-1-2026-07-10",
-      "title": "Excelsior Buzz: Jerry Day returns to the Excelsior Aug. 1",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/07/excelsior-buzz-jerry-day-returns/",
-      "discoveryUrl": "https://missionlocal.org/feed/",
-      "discoverySource": "Mission Local",
-      "publisher": "Mission Local",
-      "publishedAt": "2026-07-10",
-      "topic": "economy",
-      "summary": "But first, join a neighborhood cleanup near Jerry Garcia Street, as part of Mayor Daniel Lurie's volunteer initiative.",
-      "confidence": 0.82,
-      "excerpt": "“Excelsior Buzz” is a recurring column on changes, tidbits and other news from the Excelsior. Got news? Send us tips at xueer@missionlocal.com . Thousands gathering for the 23rd annual &#8216;Jerry Day' on Aug. 2, 2025. Photo by Jordan Montero. Jerry Day — generally considered the biggest annual event in the Excelsior — is almost upon us. Want the latest on the Mission and San Francisco? Sign up for our free daily newsletter below. Sign up On Aug. 1, for the 24th year in a row, Deadheads young and old will converge on the Jerry Garcia Amphitheater at McLaren Park. A series of free concerts will celebrate Excelsior native Jerry Garcia, who grew up on Harrington Street near Alemany Boulevard and co-founded the Grateful Dead . Garcia died in 1995. This year's lineup includes Melvin Seals & JGB, led by Hammond B-3 organist Melvin Seals , who played with the Dead for 15 years and continues to tour and perform the band’s songs. Stu Allen & Mars Hotel, a Bay Area Grateful Dead tribute band, will also play. The celebration this year will be followed by afterparties across the city. If that’s not enough Garcia for you, Forever Grateful is currently hosting several events and a Dead exhibit, but you’ll have to travel all the way to the Haight. A mural in the Excelsior District reads &#8220;Be Kind To Yourself&#8221; on Feb. 20, 2026. Photo by Mariana Garcia. This Saturday, July 11, San Francisco is holding a citywide day of service called One City Day , a volunteer initiative led by Mayor Daniel Lurie and First Lady Becca Prowda inviting residents to beautify their neighborhoods. In the Excelsior, the main event is a cleanup centered around Mission Street and Jerry Garcia Street (formerly Harrington Street.) The cleanup runs from 10:30 a.m. to noon. As for what to bring: Dress...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "mayor-lurie-celebrates-completion-of-street-safety-infrastructure-upgrades-in-ex",
       "title": "Mayor Lurie Celebrates Completion Of Street Safety, Infrastructure Upgrades In Excelsior Neighborhood | SF.gov",
       "sourceType": "official",
@@ -360,6 +345,21 @@
       "summary": "NEWS Mayor Lurie Appoints San Francisco Leaders To City Commissions And Bodies Office of the Mayor July 10, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced a series of appointments and reappointments to city committees and commissions. He nominated Mike Chen to the Planning Commission, John Peck to the Mission Bay Transportation Improvement Fund Advisory Committee, and Barbara Bella and Craig Paxton to the Ba",
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Appoints San Francisco Leaders To City Commissions And Bodies Office of the Mayor July 10, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced a series of appointments and reappointments to city committees and commissions. He nominated Mike Chen to the Planning Commission, John Peck to the Mission Bay Transportation Improvement Fund Advisory Committee, and Barbara Bella and Craig Paxton to the Ballot Simplification Committee. He renominated Lydia So to the Planning Commission and Carey Wintroub to the Recreation and Parks Commission. Mayor Lurie also appointed several new members to the Sweatfree Procurement Advisory Council and reappointed members to the Mayor’s Disability Council and Our City, Our Home Oversight Committee. “Our administration is working every day to make our city work for all of our families, and this group of capable leaders will build on that work,” said Mayor Lurie . “From working conditions to city services, we are focused on the everyday things that affect whether a family can stay in San Francisco. We’re putting our foot on the accelerator with that work, and I look forward to partnering with these leaders to move it forward.” Mayor Lurie has appointed the following individuals to join the Sweatfree Procurement Advisory Council: Ayesha Barenblat Marliz Copado Ernie Flores Rio Morales He has reappointed the following individuals to continue serving on the Mayor&#x27;s Disability Council: Dr. Joanne Azulay ( bio ) Paul Bendix ( bio ) Jan Bonville ( bio ) Cindy Fassler ( bio ) Caitlin O’Mailor ( bio ) He has reappointed the following individuals to continue serving on the Our City, Our Home Oversight Committee: Lindsay Haddix Jabari Jackson Bonnie Preston Scott Walton Planning Commission Mike Chen (new appointment) is a data...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "excelsior-buzz-jerry-day-returns-to-the-excelsior-aug-1-2026-07-10",
+      "title": "Excelsior Buzz: Jerry Day returns to the Excelsior Aug. 1",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/07/excelsior-buzz-jerry-day-returns/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-07-10",
+      "topic": "economy",
+      "summary": "But first, join a neighborhood cleanup near Jerry Garcia Street, as part of Mayor Daniel Lurie's volunteer initiative.",
+      "confidence": 0.82,
+      "excerpt": "“Excelsior Buzz” is a recurring column on changes, tidbits and other news from the Excelsior. Got news? Send us tips at xueer@missionlocal.com . Thousands gathering for the 23rd annual &#8216;Jerry Day' on Aug. 2, 2025. Photo by Jordan Montero. Jerry Day — generally considered the biggest annual event in the Excelsior — is almost upon us. Want the latest on the Mission and San Francisco? Sign up for our free daily newsletter below. Sign up On Aug. 1, for the 24th year in a row, Deadheads young and old will converge on the Jerry Garcia Amphitheater at McLaren Park. A series of free concerts will celebrate Excelsior native Jerry Garcia, who grew up on Harrington Street near Alemany Boulevard and co-founded the Grateful Dead . Garcia died in 1995. This year's lineup includes Melvin Seals & JGB, led by Hammond B-3 organist Melvin Seals , who played with the Dead for 15 years and continues to tour and perform the band’s songs. Stu Allen & Mars Hotel, a Bay Area Grateful Dead tribute band, will also play. The celebration this year will be followed by afterparties across the city. If that’s not enough Garcia for you, Forever Grateful is currently hosting several events and a Dead exhibit, but you’ll have to travel all the way to the Haight. A mural in the Excelsior District reads &#8220;Be Kind To Yourself&#8221; on Feb. 20, 2026. Photo by Mariana Garcia. This Saturday, July 11, San Francisco is holding a citywide day of service called One City Day , a volunteer initiative led by Mayor Daniel Lurie and First Lady Becca Prowda inviting residents to beautify their neighborhoods. In the Excelsior, the main event is a cleanup centered around Mission Street and Jerry Garcia Street (formerly Harrington Street.) The cleanup runs from 10:30 a.m. to noon. As for what to bring: Dress...",
       "scrapeStatus": "scraped"
     },
     {
@@ -399,6 +399,18 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "mayor-lurie-takes-new-steps-to-keep-san-franciscans-on-critical-food-assistance-",
+      "title": "Mayor Lurie Takes New Steps To Keep San Franciscans On Critical Food Assistance After Federal Cuts | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-takes-new-steps-to-keep-san-franciscans-on-critical-food-assistance-after-federal-cuts/",
+      "publishedAt": "2026-07-06",
+      "topic": "homelessness",
+      "summary": "With Tens of Thousands of San Franciscans at Risk of Losing Benefits, SFHSA’s New CalFresh Community Works Program Will Help Residents Meet New Requirements; Through New RFP, City Seeking Nonprofit Partner to Identify Volunteer Opportunities for Residents to Satisfy Work Requirements, Serve Communities; Builds on Significant Investments in Mayor Lurie’s Budget to Strengthen Social Safety Net, Keep Families on Healthcare and Food Assistance Programs",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Takes New Steps To Keep San Franciscans On Critical Food Assistance After Federal Cuts Office of the Mayor With Tens of Thousands of San Franciscans at Risk of Losing Benefits, SFHSA’s New CalFresh Community Works Program Will Help Residents Meet New Requirements; Through New RFP, City Seeking Nonprofit Partner to Identify Volunteer Opportunities for Residents to Satisfy Work Requirements, Serve Communities; Builds on Significant Investments in Mayor Lurie’s Budget to Strengthen Social Safety Net, Keep Families on Healthcare and Food Assistance Programs July 6, 2026 SAN FRANCISCO – Mayor Daniel Lurie today launched the CalFresh Community Works Program, a new effort to keep San Franciscans connected to critical food assistance as federal cuts take effect. After cuts passed in Washington last year put tens of thousands of San Franciscans at risk of losing CalFresh benefits they rely on to put food on the table, this new program run by the San Francisco Human Services Agency (SFHSA) will identify opportunities for residents to meet new work requirements to retain those benefits. Based on current caseload data, SFHSA estimates that approximately 17,000 individuals will be subject to CalFresh work requirements and will require support to meet them or risk losing their benefits. Facing hundreds of millions of dollars in federal cuts to healthcare through H.R. 1, Mayor Lurie made significant investments to strengthen the city’s social safety net in this year’s budget, including $34 million to help San Franciscans stay enrolled in Medi-Cal and CalFresh benefits. He also made major investments in the budget to keep youth and families housed, including through new investments in homelessness prevention, while establishing a new reserve with $100 million to pre...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
       "title": "Mayor Lurie’s charter-reform effort gets $1.5M boost from tech execs, philanthropist",
       "sourceType": "news",
@@ -411,18 +423,6 @@
       "summary": "Mayor Lurie's efforts to increase mayoral power got $500K from the Emerson Collective, Laurene Powell Jobs' group, among others.",
       "confidence": 0.82,
       "excerpt": "Mayor Daniel Lurie’s efforts to reform the city charter and expand the mayor’s power got a major cash infusion in recent weeks from a handful of tech and real estate investors, including Laurene Powell Jobs’ Emerson Collective. Lurie’s ballot measure committee, Clean Up City Hall, reported $1.5 million in donations between June 16 and June 30 — $500,000 from the Emerson Collective, and $500,000 from venture capitalist John Doerr. Matthew Paige, a real estate investor with Twin Tree Venture and Anthony Salewski, a Managing Partner at Genstar Capital, a private equity firm, both gave $250,000 to the committee. It marks the first recorded support for Lurie's charter efforts by Emerson, a venture capital investor and philanthropic organization founded by Jobs in Palo Alto in 2011. Stay informed on local elections — sign up for Mission Local's free daily newsletter today! Sign up Lurie’s committee is pushing three ballot measures that would remake City Hall if approved in November. One measure would raise the threshold of signatures needed to put a measure on the ballot, which critics say would make it harder for grassroots organizers, another would empower the mayor to reorganize and consolidate 24 city departments and fire their leaders, and a third would centralize government contracts through the city administrator’s office. The donations raise the committee’s total fundraising for the three measures to $8.6 million this year “Mayor Lurie is leading a broad coalition of small business, labor, and community leaders to modernize a broken Charter built by — and benefiting — City Hall insiders and special interests at the expense of everyday San Franciscans,” Lurie’s campaign spokesperson Max Szabo told Mission Local in a written statement. “The result is a system that br...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-takes-new-steps-to-keep-san-franciscans-on-critical-food-assistance-",
-      "title": "Mayor Lurie Takes New Steps To Keep San Franciscans On Critical Food Assistance After Federal Cuts | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-takes-new-steps-to-keep-san-franciscans-on-critical-food-assistance-after-federal-cuts/",
-      "publishedAt": "2026-07-06",
-      "topic": "homelessness",
-      "summary": "With Tens of Thousands of San Franciscans at Risk of Losing Benefits, SFHSA’s New CalFresh Community Works Program Will Help Residents Meet New Requirements; Through New RFP, City Seeking Nonprofit Partner to Identify Volunteer Opportunities for Residents to Satisfy Work Requirements, Serve Communities; Builds on Significant Investments in Mayor Lurie’s Budget to Strengthen Social Safety Net, Keep Families on Healthcare and Food Assistance Programs",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Takes New Steps To Keep San Franciscans On Critical Food Assistance After Federal Cuts Office of the Mayor With Tens of Thousands of San Franciscans at Risk of Losing Benefits, SFHSA’s New CalFresh Community Works Program Will Help Residents Meet New Requirements; Through New RFP, City Seeking Nonprofit Partner to Identify Volunteer Opportunities for Residents to Satisfy Work Requirements, Serve Communities; Builds on Significant Investments in Mayor Lurie’s Budget to Strengthen Social Safety Net, Keep Families on Healthcare and Food Assistance Programs July 6, 2026 SAN FRANCISCO – Mayor Daniel Lurie today launched the CalFresh Community Works Program, a new effort to keep San Franciscans connected to critical food assistance as federal cuts take effect. After cuts passed in Washington last year put tens of thousands of San Franciscans at risk of losing CalFresh benefits they rely on to put food on the table, this new program run by the San Francisco Human Services Agency (SFHSA) will identify opportunities for residents to meet new work requirements to retain those benefits. Based on current caseload data, SFHSA estimates that approximately 17,000 individuals will be subject to CalFresh work requirements and will require support to meet them or risk losing their benefits. Facing hundreds of millions of dollars in federal cuts to healthcare through H.R. 1, Mayor Lurie made significant investments to strengthen the city’s social safety net in this year’s budget, including $34 million to help San Franciscans stay enrolled in Medi-Cal and CalFresh benefits. He also made major investments in the budget to keep youth and families housed, including through new investments in homelessness prevention, while establishing a new reserve with $100 million to pre...",
       "scrapeStatus": "scraped"
     },
     {
@@ -955,6 +955,18 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown-",
+      "title": "Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown/",
+      "publishedAt": "2026-06-03",
+      "topic": "public_safety",
+      "summary": "Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown Office of the Mayor Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback June 3, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the end of Small Business Month with two store openings downtown and three businesses expanding through the Vacant to Vibrant program. Two new small businesses, Whole Cakes and Bruno’s Italian Taste, are opening with the help of the Office of Economic and Workforce Development’s (OEWD) Downtown Vibrancy Loan Fund. Vacant to Vibrant pop‑up Dandelion Chocolate has signed a long‑term lease on Powell Street and is expanding to add a cafe, and two new Vacant to Vibrant pop‑ups—LOLA Embarcadero and Cowrie Collective at the Palace Hotel—are activating spaces downtown. The new storefronts and Vacant to Vibrant expansions continue to accelerate San Francisco’s economic recovery. In September, Mayor Lurie unveiled his “Heart of the City” plan to create a downtown where people live, work, play, and learn. Last year, Union Square and Yerba Buena welcomed 44 new storefronts, including new Vacant to Vibrant pop-ups , the RealReal, AT&T and Nintendo . Since the mayor took office, crime continues to go down in Union Square and the Financial District , 20 new liquor licenses have been issued to support nightlife , office leasing has surged 66.7% , and San Francisco now leads major U.S. cities in return-to-office rates . And through initiatives like First Year Free , expanded entertainment zones , small business grants , and streamlined business regulations , Mayor Lurie has taken steps to strengthen small...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "the-dan-grand-slam-how-daniel-lurie-got-everything-he-wanted-on-election-night-2",
       "title": "The Dan Grand Slam? How Daniel Lurie got everything he wanted on election night",
       "sourceType": "news",
@@ -967,18 +979,6 @@
       "summary": "San Francisco’s mayor wasn’t on the ballot Tuesday night. But that didn’t stop him from being the city’s biggest winner.",
       "confidence": 0.9,
       "excerpt": "Mayor Daniel Lurie wasn’t running for reelection Tuesday night. But he may have won bigger than anybody else in San Francisco politics. The mayor, who has enjoyed a moderate majority on the Board of Supervisors since taking office in January 2025, will maintain a team of allies with the decisive wins of his two preferred incumbent supervisors: Alan Wong in District 4 and Stephen Sherrill in District 2. Both crushed their opponents in early victories. What’s more, Propositions C and D, dueling tax measures that Lurie opposed, appeared to flop with voters. Everything, it seemed, was coming up Daniel on primary night. “The early returns that we are seeing show that San Franciscans like the direction that we are going in,” the mayor told reporters at a party for Prop. A, the Earthquake Safety and Emergency Response Bond — supported by Lurie, and winning by a landslide — outside Original Joe’s in North Beach. “We are just getting started. We are going to continue to put our foot on the accelerator.” Wong, whom Lurie appointed after voters recalled former Supervisor Joel Engardio, crushed a host of challengers, including progressive activist Natalie Gee, with early results showing support from more than 52% of Sunset and Parkside voters. Wong said he knocked on more than half the doors in his district in the run-up to the election. The biggest issue in the District 4 election — and the biggest issue in the Sunset for the last six years — was the Great Highway: Should it remain a park or reopen to cars? Wong and most of his challengers advocated for the latter, but Wong seemed to have most successfully associated himself with the pro-car stance. In District 2, Sherrill walloped neighborhood organizer Lori Brooke, pulling in 70% of votes tallied by 9:45 p.m. Apparently, alle...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown-",
-      "title": "Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown/",
-      "publishedAt": "2026-06-03",
-      "topic": "public_safety",
-      "summary": "Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown Office of the Mayor Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback June 3, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the end of Small Business Month with two store openings downtown and three businesses expanding through the Vacant to Vibrant program. Two new small businesses, Whole Cakes and Bruno’s Italian Taste, are opening with the help of the Office of Economic and Workforce Development’s (OEWD) Downtown Vibrancy Loan Fund. Vacant to Vibrant pop‑up Dandelion Chocolate has signed a long‑term lease on Powell Street and is expanding to add a cafe, and two new Vacant to Vibrant pop‑ups—LOLA Embarcadero and Cowrie Collective at the Palace Hotel—are activating spaces downtown. The new storefronts and Vacant to Vibrant expansions continue to accelerate San Francisco’s economic recovery. In September, Mayor Lurie unveiled his “Heart of the City” plan to create a downtown where people live, work, play, and learn. Last year, Union Square and Yerba Buena welcomed 44 new storefronts, including new Vacant to Vibrant pop-ups , the RealReal, AT&T and Nintendo . Since the mayor took office, crime continues to go down in Union Square and the Financial District , 20 new liquor licenses have been issued to support nightlife , office leasing has surged 66.7% , and San Francisco now leads major U.S. cities in return-to-office rates . And through initiatives like First Year Free , expanded entertainment zones , small business grants , and streamlined business regulations , Mayor Lurie has taken steps to strengthen small...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1052,18 +1052,18 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "sf-city-jobs-are-safe-this-year-next-year-is-another-story-2026-06-01",
-      "title": "Lurie’s budget spares city jobs — but grant funding cuts may lead to nonprofit layoffs",
+      "id": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
+      "title": "Mayor Lurie’s budget closes $642M deficit: Few layoffs, but hundreds of City Hall jobs go unfilled",
       "sourceType": "news",
-      "url": "https://sfstandard.com/2026/06/01/daniel-lurie-budget-2026-city-layoffs-deficit-san-francisco/",
-      "discoveryUrl": "https://sfstandard.com/2026/06/01/daniel-lurie-budget-2026-city-layoffs-deficit-san-francisco/",
+      "url": "https://missionlocal.org/2026/06/sf-mayor-lurie-budget-proposal-2026/",
+      "discoveryUrl": "https://missionlocal.org/2026/06/sf-mayor-lurie-budget-proposal-2026/",
       "discoverySource": "Anthropic web search",
-      "publisher": "San Francisco Standard",
+      "publisher": "Mission Local",
       "publishedAt": "2026-06-01",
       "topic": "homelessness",
-      "summary": "The mayor avoided the layoffs unions feared, thanks to a surprise surplus and a hiring freeze. A $1B deficit by 2029 may not be so kind.",
+      "summary": "After 127 layoffs earlier this year, mayor instead moves to eliminate over 400 vacant positions, save money through turnover and slowed hiring",
       "confidence": 0.9,
-      "excerpt": "San Francisco City Hall jobs are safe, for now — but next year, not so much. Mayor Daniel Lurie released his annual proposed budget on Monday, aiming to close a $643 million deficit. Despite devastating federal disinvestment and a still-recovering economy, additional layoffs did not materialize this year. The budget cuts some social safety net programs as the city seeks to offset expected federal reductions that threaten to leave tens of thousands of San Franciscans without health care and food stamps. “Today, I am proud to submit a balanced budget that is fiscally responsible and strengthens our social safety net, so even in the face of federal cuts, San Franciscans know they can count on this city,” Lurie said in livestreamed remarks to the city. It’s not all roses: the budget slashes grant funding to nonprofit services focused on helping the poorest citizens, immigrants, and communities of color. The funding loss may result in as many as 1,050 layoffs among nonprofit service providers, advocates said Monday. Earlier this year, dire budget projections led labor unions to brace for layoffs among the city’s 34,000 employees in Lurie’s budget proposal, and in April, the mayor handed out a small set of pink slips to 127 employees. Speaking to The Standard last month, SEIU 1021, which represents one of the largest swaths of city employees, warned that strikes next year could “shut down the city.” In a statement, SEIU 1021 San Francisco Vice President Kristin Hardy said, “We are pleased and relieved to see that Mayor Lurie did not include further layoffs in the next fiscal year’s budget. San Francisco is at a pivotal moment in its recovery, and we cannot afford to go backward.” Still, she added, the union continues to fight against nonprofit reductions, and for Lurie to...",
+      "excerpt": "Mayor Daniel Lurie revealed Monday that he is looking to close the city’s $642 million deficit not through culling the workforce today, but slowing down hiring for years and eliminating vacant positions. The proposal eliminates over 400 vacant positions that the city had budgeted for but left unfilled, and cuts another nine jobs. That, plus the 127 layoffs announced in the spring, would mean around 550 City Hall job cuts this budget season. The $16.9 billion budget would also benefit from increased revenue, namely tax receipts received via the city’s 2024 tax reform measure, Proposition M , and increases in public health revenue. And in line with last year’s budget , Lurie is prioritizing funding for departments attuned with his key initiatives, namely public safety and homelessness. Lurie increased funding for the police and fire departments, whose staff saw 14 percent salary bumps after union contract negotiations earlier this year, as well as departments most affected by cuts to federal funding, like the Department of Public Health. “We didn’t tell departments to do more with less,” Lurie said during an announcement livestreamed from the Human Services Agency Mission District office. “We said, focus on what matters most to our recovery and deliver results.” A large chunk of the city’s savings come from staffing cuts — the 127 layoffs announced earlier , the nine more announced today, and the 414 or so unfilled positions. Unions have called for no more cuts to city services or personnel. Though this budget has few layoffs, union leaders in April said they opposed cuts to unfilled positions. “Any cuts to that system will further strain city departments which are already understaffed,” said Bianca Polovina, then-president of IFPTE 21, a union of city workers. “All th...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1082,18 +1082,18 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
-      "title": "Mayor Lurie’s budget closes $642M deficit: Few layoffs, but hundreds of City Hall jobs go unfilled",
+      "id": "sf-city-jobs-are-safe-this-year-next-year-is-another-story-2026-06-01",
+      "title": "Lurie’s budget spares city jobs — but grant funding cuts may lead to nonprofit layoffs",
       "sourceType": "news",
-      "url": "https://missionlocal.org/2026/06/sf-mayor-lurie-budget-proposal-2026/",
-      "discoveryUrl": "https://missionlocal.org/2026/06/sf-mayor-lurie-budget-proposal-2026/",
+      "url": "https://sfstandard.com/2026/06/01/daniel-lurie-budget-2026-city-layoffs-deficit-san-francisco/",
+      "discoveryUrl": "https://sfstandard.com/2026/06/01/daniel-lurie-budget-2026-city-layoffs-deficit-san-francisco/",
       "discoverySource": "Anthropic web search",
-      "publisher": "Mission Local",
+      "publisher": "San Francisco Standard",
       "publishedAt": "2026-06-01",
       "topic": "homelessness",
-      "summary": "After 127 layoffs earlier this year, mayor instead moves to eliminate over 400 vacant positions, save money through turnover and slowed hiring",
+      "summary": "The mayor avoided the layoffs unions feared, thanks to a surprise surplus and a hiring freeze. A $1B deficit by 2029 may not be so kind.",
       "confidence": 0.9,
-      "excerpt": "Mayor Daniel Lurie revealed Monday that he is looking to close the city’s $642 million deficit not through culling the workforce today, but slowing down hiring for years and eliminating vacant positions. The proposal eliminates over 400 vacant positions that the city had budgeted for but left unfilled, and cuts another nine jobs. That, plus the 127 layoffs announced in the spring, would mean around 550 City Hall job cuts this budget season. The $16.9 billion budget would also benefit from increased revenue, namely tax receipts received via the city’s 2024 tax reform measure, Proposition M , and increases in public health revenue. And in line with last year’s budget , Lurie is prioritizing funding for departments attuned with his key initiatives, namely public safety and homelessness. Lurie increased funding for the police and fire departments, whose staff saw 14 percent salary bumps after union contract negotiations earlier this year, as well as departments most affected by cuts to federal funding, like the Department of Public Health. “We didn’t tell departments to do more with less,” Lurie said during an announcement livestreamed from the Human Services Agency Mission District office. “We said, focus on what matters most to our recovery and deliver results.” A large chunk of the city’s savings come from staffing cuts — the 127 layoffs announced earlier , the nine more announced today, and the 414 or so unfilled positions. Unions have called for no more cuts to city services or personnel. Though this budget has few layoffs, union leaders in April said they opposed cuts to unfilled positions. “Any cuts to that system will further strain city departments which are already understaffed,” said Bianca Polovina, then-president of IFPTE 21, a union of city workers. “All th...",
+      "excerpt": "San Francisco City Hall jobs are safe, for now — but next year, not so much. Mayor Daniel Lurie released his annual proposed budget on Monday, aiming to close a $643 million deficit. Despite devastating federal disinvestment and a still-recovering economy, additional layoffs did not materialize this year. The budget cuts some social safety net programs as the city seeks to offset expected federal reductions that threaten to leave tens of thousands of San Franciscans without health care and food stamps. “Today, I am proud to submit a balanced budget that is fiscally responsible and strengthens our social safety net, so even in the face of federal cuts, San Franciscans know they can count on this city,” Lurie said in livestreamed remarks to the city. It’s not all roses: the budget slashes grant funding to nonprofit services focused on helping the poorest citizens, immigrants, and communities of color. The funding loss may result in as many as 1,050 layoffs among nonprofit service providers, advocates said Monday. Earlier this year, dire budget projections led labor unions to brace for layoffs among the city’s 34,000 employees in Lurie’s budget proposal, and in April, the mayor handed out a small set of pink slips to 127 employees. Speaking to The Standard last month, SEIU 1021, which represents one of the largest swaths of city employees, warned that strikes next year could “shut down the city.” In a statement, SEIU 1021 San Francisco Vice President Kristin Hardy said, “We are pleased and relieved to see that Mayor Lurie did not include further layoffs in the next fiscal year’s budget. San Francisco is at a pivotal moment in its recovery, and we cannot afford to go backward.” Still, she added, the union continues to fight against nonprofit reductions, and for Lurie to...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1708,7 +1708,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
+      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -2083,7 +2083,7 @@
     },
     {
       "id": "claim-breaking-cycle-37m",
-      "claim": "$37.5M in initial private funding commitments to Breaking the Cycle Fund",
+      "claim": "$37.5M in private funding commitments to Breaking the Cycle Fund",
       "sourceId": "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s",
       "topic": "homelessness",
       "verdict": "needs_more_evidence",
@@ -2092,7 +2092,7 @@
     },
     {
       "id": "claim-housing-fund-125m",
-      "claim": "Housing Trust Fund proposed to expand from $52M to $125M annually for 30 years",
+      "claim": "Housing Trust Fund expansion to $125M annually proposed for November 2026 ballot",
       "sourceId": "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
       "topic": "housing",
       "verdict": "needs_more_evidence",
@@ -2101,7 +2101,7 @@
     },
     {
       "id": "claim-tourism-prepandemic",
-      "claim": "2026 tourism spending forecasted to surpass pre-pandemic record",
+      "claim": "2026 tourism spending forecast to surpass pre-pandemic record",
       "sourceId": "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h",
       "topic": "economy",
       "verdict": "needs_more_evidence",
@@ -2128,7 +2128,7 @@
     },
     {
       "id": "claim-homicides-1954-low",
-      "claim": "Homicides reached lowest level since 1954",
+      "claim": "Homicides reached lowest level since 1954 in 2025",
       "sourceId": "mayor-lurie-appoints-steven-betz-as-chief-of-public-safety-https-www-sf-gov-news",
       "topic": "public_safety",
       "verdict": "needs_more_evidence",
@@ -2136,17 +2136,8 @@
       "evidencePlan": "Verify via SFPD homicide historical data 1954-2025"
     },
     {
-      "id": "claim-800m-deficit-closed",
-      "claim": "Proposed budget closes historic $800M deficit with structural changes",
-      "sourceId": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
-      "topic": "city_government",
-      "verdict": "needs_more_evidence",
-      "confidence": 0.84,
-      "evidencePlan": "Verify via Controller final budget reconciliation and Board approval"
-    },
-    {
       "id": "claim-hotel-convention-69",
-      "claim": "69% increase in hotel occupancy from Moscone Center conferences since 2024",
+      "claim": "69% increase in hotel occupancy from Moscone conferences since 2024",
       "sourceId": "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h",
       "topic": "economy",
       "verdict": "needs_more_evidence",
@@ -2155,12 +2146,21 @@
     },
     {
       "id": "claim-rv-funding-13m",
-      "claim": "$13M secured for RV homelessness response programs over two fiscal years",
+      "claim": "$13M secured for RV homelessness programs over two fiscal years",
       "sourceId": "mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-p",
       "topic": "homelessness",
       "verdict": "needs_more_evidence",
       "confidence": 0.88,
       "evidencePlan": "Verify via city budget FY25-27 allocation documents"
+    },
+    {
+      "id": "claim-street-encampments-2019-low",
+      "claim": "Street encampments at lowest number since 2019",
+      "sourceId": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
+      "topic": "homelessness",
+      "verdict": "needs_more_evidence",
+      "confidence": 0.84,
+      "evidencePlan": "Verify via HSH encampment reporting or 311 data 2019-2026"
     }
   ],
   "metrics": [
@@ -2181,7 +2181,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-07-12T08:33:50.805Z"
+      "lastRefreshed": "2026-07-12T13:59:39.549Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2200,7 +2200,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-07-12T08:33:50.806Z"
+      "lastRefreshed": "2026-07-12T13:59:39.549Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2210,74 +2210,13 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": 292,
-      "latest": 216,
+      "baseline": null,
+      "latest": null,
       "direction": "down_is_good",
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 292
-        },
-        {
-          "date": "2025-02-01",
-          "value": 274
-        },
-        {
-          "date": "2025-03-01",
-          "value": 342
-        },
-        {
-          "date": "2025-04-01",
-          "value": 275
-        },
-        {
-          "date": "2025-05-01",
-          "value": 273
-        },
-        {
-          "date": "2025-06-01",
-          "value": 301
-        },
-        {
-          "date": "2025-07-01",
-          "value": 239
-        },
-        {
-          "date": "2025-08-01",
-          "value": 294
-        },
-        {
-          "date": "2025-09-01",
-          "value": 219
-        },
-        {
-          "date": "2025-10-01",
-          "value": 235
-        },
-        {
-          "date": "2025-11-01",
-          "value": 300
-        },
-        {
-          "date": "2025-12-01",
-          "value": 148
-        },
-        {
-          "date": "2026-01-01",
-          "value": 221
-        },
-        {
-          "date": "2026-02-01",
-          "value": 220
-        },
-        {
-          "date": "2026-03-01",
-          "value": 216
-        }
-      ],
-      "status": "active",
+      "observations": [],
+      "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-07-12T08:33:50.806Z",
+      "lastRefreshed": "2026-07-12T13:59:39.549Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2320,7 +2259,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-07-12T08:33:50.806Z"
+      "lastRefreshed": "2026-07-12T13:59:39.549Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2335,7 +2274,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 368,
+      "latest": 370,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2411,12 +2350,12 @@
         },
         {
           "date": "2026-07-01",
-          "value": 368
+          "value": 370
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-07-12T08:33:50.806Z"
+      "lastRefreshed": "2026-07-12T13:59:39.549Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2512,7 +2451,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-07-12T08:33:50.806Z"
+      "lastRefreshed": "2026-07-12T13:59:39.549Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2531,7 +2470,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-07-12T08:33:50.806Z"
+      "lastRefreshed": "2026-07-12T13:59:39.549Z"
     }
   ],
   "topics": [
@@ -2581,7 +2520,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -2695,7 +2634,7 @@
       "id": "timeline-budget-presented",
       "date": "2025-05-30",
       "type": "policy",
-      "title": "Balanced $15.9B budget closing $800M deficit presented",
+      "title": "$15.9B budget closing $800M deficit presented",
       "topic": "city_government",
       "impact": "major",
       "sourceIds": [
@@ -2728,7 +2667,7 @@
       "id": "timeline-union-square",
       "date": "2026-02-10",
       "type": "initiative",
-      "title": "Union Square programming launched through summer 2027",
+      "title": "Union Square programming through summer 2027 launched",
       "topic": "economy",
       "impact": "moderate",
       "sourceIds": [
@@ -2816,36 +2755,36 @@
   ],
   "majorNews": [
     {
+      "id": "sf-supes-reverse-28-5-million-in-proposed-cuts-to-social-programs-in-new-city-bu",
+      "headline": "SF Supes Reverse $28.5 Million In Proposed Cuts to Social Programs In New City Budget Deal",
+      "url": "https://sfist.com/2026/06/26/sf-supervisors-negotiate-new-city-budget-deal-reversing-28-5-million-in-proposed-cuts-to-social-programs/",
+      "publishedAt": "2026-06-26",
+      "publisher": "SFist",
+      "topic": "city_government",
+      "whyItMatters": "Board of Supervisors unanimously approved the city's $16.9 billion budget weeks earlier than usual, reversing 90% of Mayor Lurie's proposed cuts and restoring $28.5 million for social programs, immigrant services, LGBTQ+ services, and Free City College—demonstrating effective negotiation between executive and legislative branches while addressing a $600 million deficit and federal funding cuts.",
+      "sourceId": "sf-supes-reverse-28-5-million-in-proposed-cuts-to-social-programs-in-new-city-bu",
+      "selectionMethod": "anthropic"
+    },
+    {
       "id": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
       "headline": "Mayor Lurie's charter-reform effort gets $1.5M boost from tech execs, philanthropist",
       "url": "https://missionlocal.org/2026/07/daniel-lurie-san-francisco-charter-reform-ballot-measure/",
       "publishedAt": "2026-07-06",
       "publisher": "Mission Local",
-      "topic": "city_government",
-      "whyItMatters": "Major fundraising for three November ballot measures that would significantly expand mayoral power, including restructuring 24 city departments and raising thresholds for ballot measures—representing the most significant governance reform effort of Lurie's tenure with $8.6 million raised total.",
+      "topic": "economy",
+      "whyItMatters": "Major tech donors including Laurene Powell Jobs' Emerson Collective ($500K) and venture capitalist John Doerr ($500K) backed Lurie's three November ballot measures that would significantly expand mayoral power by enabling department consolidation, firing department heads, centralizing contracts, and raising signature thresholds for ballot initiatives—potentially reshaping San Francisco's governance structure and concentration of executive authority.",
       "sourceId": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
       "selectionMethod": "anthropic"
     },
     {
-      "id": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
-      "headline": "San Francisco Finalizes $17 Billion Budget, Restores Millions in Proposed Cuts",
-      "url": "https://www.kqed.org/news/12089007/san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts",
-      "publishedAt": "2026-06-26",
-      "publisher": "KQED",
-      "topic": "city_government",
-      "whyItMatters": "Board of Supervisors unanimously approved the $16.9 billion budget addressing a $600 million deficit, restoring $28 million in social services cuts and establishing over $1 billion in reserves against federal cuts—a critical framework for the city's fiscal stability amid federal funding threats.",
-      "sourceId": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
-      "selectionMethod": "anthropic"
-    },
-    {
-      "id": "mayor-lurie-takes-new-steps-to-keep-san-franciscans-on-critical-food-assistance",
-      "headline": "Mayor Lurie Takes New Steps To Keep San Franciscans On Critical Food Assistance After Federal Cuts",
-      "url": "https://www.sf.gov/news-mayor-lurie-takes-new-steps-to-keep-san-franciscans-on-critical-food-assistance-after-federal-cuts/",
-      "publishedAt": "2026-07-06",
+      "id": "mayor-lurie-breaks-ground-on-76-million-modernization-of-public-health-center-in",
+      "headline": "Mayor Lurie Breaks Ground On $76 Million Modernization Of Public Health Center In Chinatown",
+      "url": "https://www.sf.gov/news-mayor-lurie-breaks-ground-on-76-million-modernization-of-public-health-center-in-chinatown/",
+      "publishedAt": "2026-07-07",
       "publisher": "SF.gov",
       "topic": "transit",
-      "whyItMatters": "Launch of CalFresh Community Works Program addresses federal cuts threatening food assistance for approximately 17,000 San Franciscans, implementing new work requirement compliance systems as part of $34 million budget investment to maintain the social safety net amid federal policy changes.",
-      "sourceId": "mayor-lurie-takes-new-steps-to-keep-san-franciscans-on-critical-food-assistance-",
+      "whyItMatters": "The $76 million renovation of the city's most seismically vulnerable health clinic demonstrates continued municipal investment in healthcare infrastructure and culturally competent services for immigrant communities despite hundreds of millions in federal healthcare cuts from H.R. 1, including expanded dental care and new exam rooms serving a critical patient population.",
+      "sourceId": "mayor-lurie-breaks-ground-on-76-million-modernization-of-public-health-center-in",
       "selectionMethod": "anthropic"
     }
   ],
