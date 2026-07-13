@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-07-13T09:50:36.576Z",
+    "lastUpdated": "2026-07-13T15:15:14.592Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -322,6 +322,21 @@
       "topic": "homelessness",
       "summary": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years &nbsp;&nbsp; SF.gov",
       "confidence": 0.78
+    },
+    {
+      "id": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
+      "title": "Mayor Lurie Unveils 'Breaking the Cycle,' Vision for Tackling San Francisco's Homelessness and Behavioral Health Crisis",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
+      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2026-07-13",
+      "topic": "homelessness",
+      "summary": "Mayor Lurie signed an executive directive outlining immediate actions and longer-term reforms to tackle homelessness and behavioral health crisis. The plan enables better coordination across departments, evidence-based policymaking, and accountability for government and nonprofit partners. It includes streamlining street outreach and adding capacity.",
+      "confidence": 0.9,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "page returned bot verification challenge"
     },
     {
       "id": "excelsior-buzz-jerry-day-returns-to-the-excelsior-aug-1-2026-07-10",
@@ -1583,16 +1598,6 @@
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Cuts Ribbon On Terry Francois Boulevard Bike And Pedestrian Safety Improvement Project Office of the Mayor Multi-Agency Project Enhances Safety, Accessibility, Connectivity Along San Francisco’s Eastern Waterfront; Continues Mayor Lurie’s Work Under Family Opportunity Agenda to Deliver Vibrant Public Spaces for San Francisco Families May 7, 2026 SAN FRANCISCO – Mayor Daniel Lurie today cut the ribbon on the Terry Francois Boulevard Bike and Pedestrian Safety Project, a multi-agency effort to improve safety and accessibility on a busy corridor of the Mission Rock neighborhood along San Francisco’s eastern waterfront. The project will transform Terry Francois Boulevard between China Basin Park and Mission Rock Street into a safer route for people walking, biking, and rolling with new paving along the corridor, concrete barriers separating bike lanes from vehicle traffic, a newly painted plaza, and more. The project continues Mayor Lurie’s work to make San Francisco more affordable and welcoming for families, including by fostering vibrant public spaces accessible at no cost. Just last week, the city broke ground on the Twin Peaks Promenade Project , transforming a stretch of Twin Peaks Boulevard into a pedestrian- and cyclist-first street that will support walking, biking, and recreation. The mayor has also taken steps to bring more free entertainment to some of the city’s most beloved public spaces, announcing a free concert series returning to Golden Gate Park through the summer and fall as well as free concerts and food trucks in Civic Center Plaza accelerating San Francisco’s recovery. The improved safety and accessibility on one of San Francisco’s busy streets builds on the mayor’s work to invest in San Francisco’s public safety infrastructure— la...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "at-conservative-leaning-forum-s-f-leaders-love-pragmatism-efficiency-and-daniel-",
-      "title": "At conservative-leaning forum, S.F. leaders love pragmatism, efficiency, and Daniel Lurie - Mission Local",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeXh2c09BeHI3ZU1jVTdRME43bmxIa3NLS21LMmhhYlFpemdVX2VfYnZ4RDNsSFZpNDZWNlV0Q2c5Mm1YblFJZ1p3WEVsT1c4cDVGYTI1REJRaFJvV2h6Sy1BVXMwbkxDekFjZ21lY3B1dGtSQzVLTVFSeVhETGRjTzFQaUhJaDFuMjFZ?oc=5",
-      "publishedAt": "2026-05-07",
-      "topic": "city_government",
-      "summary": "At conservative-leaning forum, S.F. leaders love pragmatism, efficiency, and Daniel Lurie &nbsp;&nbsp; Mission Local",
-      "confidence": 0.68
     }
   ],
   "promises": [
@@ -1939,12 +1944,12 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 769 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units null versus baseline null.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
       ],
-      "progressBasis": "3 of 4 housing milestones are evidenced.",
+      "progressBasis": "2 of 4 housing milestones are evidenced.",
       "trackingType": "milestone",
       "targetValue": null,
       "currentValue": null,
@@ -1961,7 +1966,7 @@
         },
         {
           "label": "Independent improvement in permit-output trend verified",
-          "complete": true
+          "complete": false
         },
         {
           "label": "Campaign housing-delivery promise fully achieved",
@@ -2181,7 +2186,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-07-13T09:50:23.305Z"
+      "lastRefreshed": "2026-07-13T15:15:01.330Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2200,7 +2205,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-07-13T09:50:23.305Z"
+      "lastRefreshed": "2026-07-13T15:15:01.330Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2277,7 +2282,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-07-13T09:50:23.305Z",
+      "lastRefreshed": "2026-07-13T15:15:01.330Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2320,7 +2325,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-07-13T09:50:23.305Z"
+      "lastRefreshed": "2026-07-13T15:15:01.330Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2333,90 +2338,13 @@
       "evidenceSourceIds": [
         "datasf-building-permits"
       ],
-      "status": "active",
-      "baseline": 1422,
-      "latest": 370,
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 1422
-        },
-        {
-          "date": "2025-02-01",
-          "value": 1315
-        },
-        {
-          "date": "2025-03-01",
-          "value": 1367
-        },
-        {
-          "date": "2025-04-01",
-          "value": 1509
-        },
-        {
-          "date": "2025-05-01",
-          "value": 1414
-        },
-        {
-          "date": "2025-06-01",
-          "value": 1457
-        },
-        {
-          "date": "2025-07-01",
-          "value": 1558
-        },
-        {
-          "date": "2025-08-01",
-          "value": 1529
-        },
-        {
-          "date": "2025-09-01",
-          "value": 1507
-        },
-        {
-          "date": "2025-10-01",
-          "value": 1515
-        },
-        {
-          "date": "2025-11-01",
-          "value": 1327
-        },
-        {
-          "date": "2025-12-01",
-          "value": 1382
-        },
-        {
-          "date": "2026-01-01",
-          "value": 1425
-        },
-        {
-          "date": "2026-02-01",
-          "value": 1262
-        },
-        {
-          "date": "2026-03-01",
-          "value": 1336
-        },
-        {
-          "date": "2026-04-01",
-          "value": 1403
-        },
-        {
-          "date": "2026-05-01",
-          "value": 1221
-        },
-        {
-          "date": "2026-06-01",
-          "value": 1366
-        },
-        {
-          "date": "2026-07-01",
-          "value": 370
-        }
-      ],
+      "status": "needs_verified_source",
+      "baseline": null,
+      "latest": null,
+      "observations": [],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-07-13T09:50:23.305Z"
+      "lastRefreshed": "2026-07-13T15:15:01.330Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2429,90 +2357,13 @@
       "evidenceSourceIds": [
         "datasf-building-permits"
       ],
-      "status": "active",
-      "baseline": 696,
-      "latest": 769,
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 696
-        },
-        {
-          "date": "2025-02-01",
-          "value": 1001
-        },
-        {
-          "date": "2025-03-01",
-          "value": 2285
-        },
-        {
-          "date": "2025-04-01",
-          "value": 808
-        },
-        {
-          "date": "2025-05-01",
-          "value": 1279
-        },
-        {
-          "date": "2025-06-01",
-          "value": 1130
-        },
-        {
-          "date": "2025-07-01",
-          "value": 686
-        },
-        {
-          "date": "2025-08-01",
-          "value": 292
-        },
-        {
-          "date": "2025-09-01",
-          "value": 642
-        },
-        {
-          "date": "2025-10-01",
-          "value": 758
-        },
-        {
-          "date": "2025-11-01",
-          "value": 792
-        },
-        {
-          "date": "2025-12-01",
-          "value": 253
-        },
-        {
-          "date": "2026-01-01",
-          "value": 545
-        },
-        {
-          "date": "2026-02-01",
-          "value": 473
-        },
-        {
-          "date": "2026-03-01",
-          "value": 625
-        },
-        {
-          "date": "2026-04-01",
-          "value": 790
-        },
-        {
-          "date": "2026-05-01",
-          "value": 426
-        },
-        {
-          "date": "2026-06-01",
-          "value": 1322
-        },
-        {
-          "date": "2026-07-01",
-          "value": 769
-        }
-      ],
+      "status": "needs_verified_source",
+      "baseline": null,
+      "latest": null,
+      "observations": [],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-07-13T09:50:23.305Z"
+      "lastRefreshed": "2026-07-13T15:15:01.330Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2531,7 +2382,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-07-13T09:50:23.305Z"
+      "lastRefreshed": "2026-07-13T15:15:01.330Z"
     }
   ],
   "topics": [
@@ -2573,7 +2424,7 @@
       "promiseCount": 1,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
     },
     {
       "id": "public_safety",
@@ -2816,14 +2667,14 @@
   ],
   "majorNews": [
     {
-      "id": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
-      "headline": "San Francisco Finalizes $17 Billion Budget, Restores Millions in Proposed Cuts",
-      "url": "https://www.kqed.org/news/12089007/san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts",
-      "publishedAt": "2026-06-26",
-      "publisher": "KQED",
-      "topic": "city_government",
-      "whyItMatters": "The Board of Supervisors unanimously approved Lurie's $16.9 billion budget, addressing a $600 million deficit while restoring $28 million in social services that were initially slated for cuts. This represents a major governance achievement showing cross-branch cooperation and protecting critical services for immigrants, LGBTQ+ residents, and vulnerable populations amid federal funding cuts.",
-      "sourceId": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
+      "id": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
+      "headline": "Mayor Lurie Unveils 'Breaking the Cycle,' Vision for Tackling San Francisco's Homelessness and Behavioral Health Crisis",
+      "url": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
+      "publishedAt": "2026-07-13",
+      "publisher": "SF.gov",
+      "topic": "homelessness",
+      "whyItMatters": "Major policy initiative addressing the city's most pressing crisis through executive directive that restructures coordination across departments, implements evidence-based reforms, and establishes accountability for government and nonprofit partners—representing a significant shift in governance approach to homelessness.",
+      "sourceId": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
       "selectionMethod": "anthropic"
     },
     {
@@ -2833,19 +2684,19 @@
       "publishedAt": "2026-07-06",
       "publisher": "Mission Local",
       "topic": "economy",
-      "whyItMatters": "Lurie's ballot measure committee received $1.5 million from tech leaders including Laurene Powell Jobs' Emerson Collective to support three November ballot measures that would significantly expand mayoral power, reorganize city departments, and change ballot access rules. These reforms could fundamentally reshape San Francisco's government structure and concentration of executive authority.",
+      "whyItMatters": "Ballot measures backed by major donors including Laurene Powell Jobs' Emerson Collective would fundamentally reshape City Hall power structure by expanding mayoral authority to reorganize departments, fire department heads, and raising ballot measure signature thresholds—changes with far-reaching governance implications that critics warn could undermine grassroots organizing.",
       "sourceId": "mayor-lurie-s-charter-reform-effort-gets-1-5m-boost-from-tech-execs-philanthropi",
       "selectionMethod": "anthropic"
     },
     {
-      "id": "mayor-lurie-breaks-ground-on-76-million-modernization-of-public-health-center-in",
-      "headline": "Mayor Lurie Breaks Ground On $76 Million Modernization Of Public Health Center In Chinatown",
-      "url": "https://www.sf.gov/news-mayor-lurie-breaks-ground-on-76-million-modernization-of-public-health-center-in-chinatown/",
-      "publishedAt": "2026-07-07",
-      "publisher": "SF.gov",
-      "topic": "transit",
-      "whyItMatters": "This $76 million infrastructure project will modernize the city's most seismically vulnerable health clinic while expanding dental care capacity, demonstrating Lurie's commitment to healthcare access despite hundreds of millions in federal healthcare cuts. The investment protects vital services for Chinatown's immigrant communities and reflects the administration's strategy to strengthen public health infrastructure amid federal uncertainty.",
-      "sourceId": "mayor-lurie-breaks-ground-on-76-million-modernization-of-public-health-center-in",
+      "id": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
+      "headline": "San Francisco Finalizes $17 Billion Budget, Restores Millions in Proposed Cuts",
+      "url": "https://www.kqed.org/news/12089007/san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts",
+      "publishedAt": "2026-06-26",
+      "publisher": "KQED",
+      "topic": "city_government",
+      "whyItMatters": "Board of Supervisors approved $16.9 billion budget addressing $600 million deficit while restoring $28 million in cuts to social services, reversing proposed layoffs, and establishing over $1 billion in reserves against federal funding cuts—demonstrating fiscal priorities and political compromise between mayor and board on core city services.",
+      "sourceId": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
       "selectionMethod": "anthropic"
     }
   ],
