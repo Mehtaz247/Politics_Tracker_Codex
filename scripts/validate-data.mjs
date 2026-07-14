@@ -3,13 +3,12 @@ import { readdir, readFile } from 'node:fs/promises';
 
 const dataDir = new URL('../public/data/', import.meta.url);
 const trackerFiles = (await readdir(dataDir)).filter((file) => file.endsWith('-tracker.json')).sort();
-const requiredTopLevel = ['subject', 'workflow', 'sources', 'campaignPromiseSeed', 'promiseSeedMeta', 'promises', 'claims', 'metrics', 'topics', 'connectors', 'timeline', 'majorNews'];
+const requiredTopLevel = ['subject', 'workflow', 'sources', 'campaignPromiseSeed', 'promiseSeedMeta', 'promises', 'metrics', 'topics', 'connectors', 'majorNews'];
 const collectionRequirements = {
   sources: ['id', 'title', 'sourceType', 'url', 'publishedAt', 'topic', 'summary', 'confidence'],
   campaignPromiseSeed: ['id', 'text', 'dateMade', 'deadline', 'topic', 'aiConfidence', 'trackingType', 'campaignSourceIds'],
   promises: ['id', 'text', 'dateMade', 'deadline', 'topic', 'status', 'progress', 'evidenceSourceIds', 'aiConfidence', 'statusNote', 'reviewStatus'],
   metrics: ['id', 'label', 'topic', 'unit', 'source', 'sourceUrl', 'datasetId', 'baseline', 'latest', 'direction', 'observations', 'status'],
-  timeline: ['id', 'date', 'type', 'title', 'topic', 'impact', 'sourceIds'],
   connectors: ['id', 'label', 'status', 'cadence', 'output', 'nextStep'],
   majorNews: ['id', 'headline', 'url', 'publishedAt', 'publisher', 'topic', 'whyItMatters'],
 };
@@ -22,7 +21,7 @@ for (const file of trackerFiles) {
   const data = JSON.parse(await readFile(new URL(file, dataDir), 'utf8'));
   const errors = validateTracker(data, file);
   allErrors.push(...errors);
-  summaries.push(`${file}: ${data.sources.length} sources, ${data.promises.length} promises, ${data.metrics.length} metrics, ${data.timeline.length} timeline items.`);
+  summaries.push(`${file}: ${data.sources.length} sources, ${data.promises.length} promises, ${data.metrics.length} metrics.`);
 }
 
 if (allErrors.length) {
@@ -75,11 +74,6 @@ function validateTracker(data, file) {
   for (const promise of data.promises || []) {
     for (const sourceId of promise.evidenceSourceIds || []) {
       if (!sourceIds.has(sourceId)) errors.push(`${file}: Promise ${promise.id} references missing source ${sourceId}`);
-    }
-  }
-  for (const event of data.timeline || []) {
-    for (const sourceId of event.sourceIds || []) {
-      if (!sourceIds.has(sourceId)) errors.push(`${file}: Timeline item ${event.id} references missing source ${sourceId}`);
     }
   }
   for (const item of data.majorNews || []) {

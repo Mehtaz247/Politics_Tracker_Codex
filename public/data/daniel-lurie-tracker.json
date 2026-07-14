@@ -17,7 +17,7 @@
     {
       "name": "AI extraction",
       "status": "ready",
-      "description": "Sources are summarized into announcements, promises, claims, topics, and evidence-backed next actions."
+      "description": "Sources are searched and ranked for evidence-backed promise and major-news updates."
     },
     {
       "name": "Human review",
@@ -25,9 +25,9 @@
       "description": "Low-confidence AI interpretations are flagged before they affect status labels or scorecards."
     },
     {
-      "name": "Visualize",
+      "name": "Present",
       "status": "ready",
-      "description": "Dashboard converts structured records into topic charts, progress bars, timeline items, and metric deltas."
+      "description": "The dashboard presents promises, sources, public metrics, and major developments."
     }
   ],
   "sources": [
@@ -2060,116 +2060,6 @@
       ]
     }
   ],
-  "claims": [
-    {
-      "id": "claim-net-403-beds",
-      "claim": "Net increase of 403 shelter beds by April 2026, projected to drop to 303 by 2028",
-      "sourceId": "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-",
-      "topic": "homelessness",
-      "verdict": "needs_more_evidence",
-      "confidence": 0.82,
-      "evidencePlan": "Verify via HSH shelter inventory reports and Controller reconciliation"
-    },
-    {
-      "id": "claim-crime-down-30",
-      "claim": "Overall crime down nearly 30% in 2025",
-      "sourceId": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
-      "topic": "public_safety",
-      "verdict": "needs_more_evidence",
-      "confidence": 0.84,
-      "evidencePlan": "Verify via SFPD CompStat year-over-year data 2024-2025"
-    },
-    {
-      "id": "claim-car-breakins-22year-low",
-      "claim": "Car break-ins fell 43% to 22-year lows in 2025",
-      "sourceId": "mayor-lurie-appoints-steven-betz-as-chief-of-public-safety-https-www-sf-gov-news",
-      "topic": "public_safety",
-      "verdict": "needs_more_evidence",
-      "confidence": 0.86,
-      "evidencePlan": "Verify via SFPD larceny theft historical data 2003-2025"
-    },
-    {
-      "id": "claim-breaking-cycle-37m",
-      "claim": "$37.5M in private funding commitments to Breaking the Cycle Fund",
-      "sourceId": "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s",
-      "topic": "homelessness",
-      "verdict": "needs_more_evidence",
-      "confidence": 0.88,
-      "evidencePlan": "Verify via Controller disbursement reports or fund documentation"
-    },
-    {
-      "id": "claim-housing-fund-125m",
-      "claim": "Housing Trust Fund expansion to $125M annually proposed for November 2026 ballot",
-      "sourceId": "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
-      "topic": "housing",
-      "verdict": "needs_more_evidence",
-      "confidence": 0.88,
-      "evidencePlan": "Track November 2026 charter amendment ballot outcome"
-    },
-    {
-      "id": "claim-tourism-prepandemic",
-      "claim": "2026 tourism spending forecast to surpass pre-pandemic record",
-      "sourceId": "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h",
-      "topic": "economy",
-      "verdict": "needs_more_evidence",
-      "confidence": 0.82,
-      "evidencePlan": "Compare SF Travel 2026 forecast against 2019 actual spending"
-    },
-    {
-      "id": "claim-unsheltered-15year-low",
-      "claim": "Unsheltered homelessness reached lowest level in 15 years",
-      "sourceId": "mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-home",
-      "topic": "homelessness",
-      "verdict": "needs_more_evidence",
-      "confidence": 0.76,
-      "evidencePlan": "Verify via Point-in-Time count data 2011-2026"
-    },
-    {
-      "id": "claim-stabilization-beds-170",
-      "claim": "Stabilization and treatment beds increased by 170%",
-      "sourceId": "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-",
-      "topic": "homelessness",
-      "verdict": "needs_more_evidence",
-      "confidence": 0.82,
-      "evidencePlan": "Verify via HSH bed inventory breakdown by bed type"
-    },
-    {
-      "id": "claim-homicides-1954-low",
-      "claim": "Homicides reached lowest level since 1954 in 2025",
-      "sourceId": "mayor-lurie-appoints-steven-betz-as-chief-of-public-safety-https-www-sf-gov-news",
-      "topic": "public_safety",
-      "verdict": "needs_more_evidence",
-      "confidence": 0.84,
-      "evidencePlan": "Verify via SFPD homicide historical data 1954-2025"
-    },
-    {
-      "id": "claim-hotel-convention-69",
-      "claim": "69% increase in hotel occupancy from Moscone conferences since 2024",
-      "sourceId": "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h",
-      "topic": "economy",
-      "verdict": "needs_more_evidence",
-      "confidence": 0.82,
-      "evidencePlan": "Compare SF Travel 2024 and 2026 conference hotel occupancy data"
-    },
-    {
-      "id": "claim-rv-funding-13m",
-      "claim": "$13M secured for RV homelessness programs over two fiscal years",
-      "sourceId": "mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-p",
-      "topic": "homelessness",
-      "verdict": "needs_more_evidence",
-      "confidence": 0.88,
-      "evidencePlan": "Verify via city budget FY25-27 allocation documents"
-    },
-    {
-      "id": "claim-street-encampments-2019-low",
-      "claim": "Street encampments at lowest number since 2019",
-      "sourceId": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
-      "topic": "homelessness",
-      "verdict": "needs_more_evidence",
-      "confidence": 0.84,
-      "evidencePlan": "Verify via HSH encampment reporting or 311 data 2019-2026"
-    }
-  ],
   "metrics": [
     {
       "id": "homeless-encampment-311-requests",
@@ -2556,187 +2446,7 @@
       "status": "ready",
       "cadence": "Every refresh when API key is configured",
       "output": "Current source discovery across approved official and news domains",
-      "nextStep": "Use search results as discovery evidence; charts still require verified public datasets."
-    }
-  ],
-  "timeline": [
-    {
-      "id": "timeline-inauguration",
-      "date": "2025-01-08",
-      "type": "milestone",
-      "title": "Daniel Lurie inaugurated as Mayor of San Francisco",
-      "topic": "city_government",
-      "impact": "major",
-      "sourceIds": [
-        "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco"
-      ]
-    },
-    {
-      "id": "timeline-fentanyl-emergency",
-      "date": "2025-02-04",
-      "type": "policy",
-      "title": "Board passes Fentanyl State of Emergency ordinance 10-1",
-      "topic": "public_safety",
-      "impact": "major",
-      "sourceIds": [
-        "fentanyl-powers",
-        "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
-      ]
-    },
-    {
-      "id": "timeline-integrated-outreach",
-      "date": "2025-03-01",
-      "type": "initiative",
-      "title": "Integrated neighborhood street outreach model launched",
-      "topic": "homelessness",
-      "impact": "major",
-      "sourceIds": [
-        "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
-      ]
-    },
-    {
-      "id": "timeline-stabilization-center",
-      "date": "2025-04-01",
-      "type": "initiative",
-      "title": "24/7 police-friendly stabilization center at 822 Geary opened",
-      "topic": "public_safety",
-      "impact": "major",
-      "sourceIds": [
-        "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
-      ]
-    },
-    {
-      "id": "timeline-breaking-cycle-fund",
-      "date": "2025-05-08",
-      "type": "initiative",
-      "title": "Breaking the Cycle Fund launched with $37.5M private commitments",
-      "topic": "homelessness",
-      "impact": "major",
-      "sourceIds": [
-        "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
-      ]
-    },
-    {
-      "id": "timeline-budget-presented",
-      "date": "2025-05-30",
-      "type": "policy",
-      "title": "$15.9B budget closing $800M deficit presented",
-      "topic": "city_government",
-      "impact": "major",
-      "sourceIds": [
-        "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco"
-      ]
-    },
-    {
-      "id": "timeline-shelter-deadline",
-      "date": "2025-07-08",
-      "type": "milestone",
-      "title": "Six-month shelter deadline: 403 net beds added vs 1,500 goal",
-      "topic": "homelessness",
-      "impact": "major",
-      "sourceIds": [
-        "mayor-lurie-has-added-hundreds-of-new-s-f-shelter-beds-but-also-closed-hundreds-"
-      ]
-    },
-    {
-      "id": "timeline-rv-legislation",
-      "date": "2025-07-15",
-      "type": "policy",
-      "title": "RV and vehicular homelessness legislation signed with $13M funding",
-      "topic": "homelessness",
-      "impact": "major",
-      "sourceIds": [
-        "mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-p"
-      ]
-    },
-    {
-      "id": "timeline-union-square",
-      "date": "2026-02-10",
-      "type": "initiative",
-      "title": "Union Square programming through summer 2027 launched",
-      "topic": "economy",
-      "impact": "moderate",
-      "sourceIds": [
-        "union-square-programming"
-      ]
-    },
-    {
-      "id": "timeline-charter-reform",
-      "date": "2026-03-12",
-      "type": "policy",
-      "title": "Charter reform ballot measures filed for November 2026",
-      "topic": "city_government",
-      "impact": "major",
-      "sourceIds": [
-        "mayor-lurie-sup-mandelman-introduce-ballot-measures-aimed-at-reforming-city-char"
-      ]
-    },
-    {
-      "id": "timeline-climate-plan",
-      "date": "2026-04-20",
-      "type": "policy",
-      "title": "Climate Action Plan five-year update released",
-      "topic": "climate",
-      "impact": "major",
-      "sourceIds": [
-        "climate-plan-update"
-      ]
-    },
-    {
-      "id": "timeline-betz-appointment",
-      "date": "2026-04-28",
-      "type": "appointment",
-      "title": "Steven Betz appointed Chief of Public Safety",
-      "topic": "public_safety",
-      "impact": "major",
-      "sourceIds": [
-        "mayor-lurie-appoints-steven-betz-as-chief-of-public-safety-https-www-sf-gov-news"
-      ]
-    },
-    {
-      "id": "timeline-tourism-forecast",
-      "date": "2026-05-07",
-      "type": "milestone",
-      "title": "Tourism spending forecast to surpass pre-pandemic record",
-      "topic": "economy",
-      "impact": "major",
-      "sourceIds": [
-        "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h"
-      ]
-    },
-    {
-      "id": "timeline-firefighter-mou",
-      "date": "2026-05-08",
-      "type": "policy",
-      "title": "Firefighters union MOU signed through June 2030",
-      "topic": "public_safety",
-      "impact": "major",
-      "sourceIds": [
-        "mayor-lurie-signs-legislation-with-firefighters-x27-union-to-support-first-respo"
-      ]
-    },
-    {
-      "id": "timeline-police-legislation",
-      "date": "2026-05-11",
-      "type": "policy",
-      "title": "Police support legislation signed",
-      "topic": "public_safety",
-      "impact": "major",
-      "sourceIds": [
-        "mayor-lurie-signs-legislation-to-support-san-francisco-police-officers-continue-"
-      ]
-    },
-    {
-      "id": "timeline-housing-fund",
-      "date": "2026-05-19",
-      "type": "policy",
-      "title": "$125M annual affordable housing fund proposed for November 2026 ballot",
-      "topic": "housing",
-      "impact": "major",
-      "sourceIds": [
-        "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19",
-        "mayor-lurie-supervisor-melgar-announce-transformative-funding-for-affordable-hou"
-      ]
+      "nextStep": "Use search results as discovery evidence and retain source provenance for reviewed promise updates."
     }
   ],
   "majorNews": [

@@ -38,11 +38,9 @@ const template = {
     source: 'scaffold',
   },
   promises: [],
-  claims: [],
   metrics: [],
   topics: [],
   connectors: [],
-  timeline: [],
   majorNews: [],
 };
 

@@ -371,13 +371,7 @@ async function main() {
     majorNews,
   };
 
-  const aiResult = await analyzeWithAi(mergedSources, baseData);
-  const nextData = finalizeTrackerData({
-    ...baseData,
-    ...(aiResult || {}),
-    promises: scoredPromises,
-    majorNews,
-  });
+  const nextData = finalizeTrackerData(baseData);
 
   if (cli.isDryRun) {
     const scrapedCount = mergedSources.filter((source) => source.scrapeStatus === 'scraped').length;
@@ -1466,8 +1460,6 @@ function sourceRichnessScore(source) {
 function pinReferencedSources(existing, sources) {
   const referencedIds = new Set([
     ...flatMap(existing.promises, (promise) => promise.evidenceSourceIds),
-    ...flatMap(existing.timeline, (item) => item.sourceIds),
-    ...flatMap(existing.claims, (claim) => [claim.sourceId]),
   ].filter(Boolean));
   const byId = new Map(sources.map((source) => [source.id, source]));
   for (const source of existing.sources || []) {
@@ -1518,67 +1510,6 @@ function inferDatasetId(url) {
   return String(url || '').match(/\/d\/([a-z0-9-]+)/i)?.[1] || null;
 }
 
-async function analyzeWithAi(sources, data) {
-  if (!process.env.ANTHROPIC_API_KEY) {
-    console.log('ANTHROPIC_API_KEY not set; skipping AI enrichment and keeping existing structured promises/claims.');
-    return null;
-  }
-
-  const prompt = `Maintain a civic accountability dashboard for Daniel Lurie, Mayor of San Francisco.
-Return compact JSON only with keys promises, claims, and timeline. Do not include topics.
-
-Rules:
-- Extract only the most important commitments, claims, and events supported by the provided source records.
-- Return at most 12 promises, 12 claims, and 16 timeline items.
-- Preserve source ids exactly in evidenceSourceIds/sourceIds/sourceId.
-- Never create approval ratings.
-- Never fabricate outcome values. If public metric evidence is missing, set progress to null and status to "unclear".
-- Use status values only: not_started, in_progress, completed, delayed, broken, unclear.
-- Use reviewStatus values only: pending_review, approved, rejected, needs_more_evidence.
-- Keep claims as verification tasks, not partisan judgments.
-
-Expected shapes:
-promise = { id, text, dateMade, deadline, topic, status, progress, evidenceSourceIds, aiConfidence, statusNote, reviewStatus, linkedMetricIds }
-claim = { id, claim, sourceId, topic, verdict, confidence, evidencePlan }
-timeline item = { id, date, type, title, topic, impact, sourceIds }
-
-Sources:
-${JSON.stringify(sources.slice(0, 24).map(sourceForAi), null, 2)}
-
-Current structured data:
-${JSON.stringify({
-  promises: data.promises,
-  claims: data.claims,
-  topics: data.topics,
-  metrics: data.metrics,
-  timeline: data.timeline,
-}, null, 2)}`;
-
-  try {
-    const response = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': process.env.ANTHROPIC_API_KEY,
-        'anthropic-version': '2023-06-01',
-      },
-      body: JSON.stringify({
-        model: process.env.ANTHROPIC_MODEL || 'claude-sonnet-4-5',
-        max_tokens: 12000,
-        system: 'You output only valid JSON. Never include markdown fences, prose, approval ratings, or fabricated metric values.',
-        messages: [{ role: 'user', content: prompt }],
-      }),
-    });
-    if (!response.ok) throw new Error(`${response.status} ${await response.text()}`);
-    const payload = await response.json();
-    const text = payload.content?.filter((block) => block.type === 'text').map((block) => block.text).join('\n') || '';
-    return parseAiJson(text);
-  } catch (error) {
-    console.warn(`AI enrichment failed: ${error.message}`);
-    return null;
-  }
-}
-
 function sourceForAi(source) {
   return {
     id: source.id,
@@ -1611,8 +1542,6 @@ function finalizeTrackerData(data) {
   const metricIds = new Set(data.metrics.map((metric) => metric.id));
   const campaignPromiseSeed = cleanCampaignPromiseSeed(data.campaignPromiseSeed || [], data.sources.filter((source) => source.sourceType === 'campaign'));
   const promises = cleanPromises(data.promises || [], sourceIds, metricIds);
-  const claims = cleanClaims(data.claims || [], sourceIds);
-  const timeline = cleanTimeline(data.timeline || [], sourceIds);
   const majorNews = cleanMajorNews(data.majorNews || [], sourceIds);
 
   return {
@@ -1620,8 +1549,6 @@ function finalizeTrackerData(data) {
     connectors: updateConnectors(data.connectors || []),
     campaignPromiseSeed,
     promises,
-    claims,
-    timeline,
     majorNews,
     topics: deriveTopics(data.topics || [], promises, data.metrics),
   };
@@ -1643,7 +1570,7 @@ function updateConnectors(connectors) {
       status: process.env.ANTHROPIC_API_KEY ? 'ready' : 'planned',
       cadence: 'Every refresh when API key is configured',
       output: 'Current source discovery across approved official and news domains',
-      nextStep: 'Use search results as discovery evidence; charts still require verified public datasets.',
+      nextStep: 'Use search results as discovery evidence and retain source provenance for reviewed promise updates.',
     },
   ];
   const byId = new Map(connectors.map((connector) => [connector.id, connector]));
@@ -1710,35 +1637,6 @@ function cleanPromises(promises, sourceIds, metricIds) {
       return cleaned;
     })
     .filter((promise) => promise.text && promise.evidenceSourceIds.length);
-}
-
-function cleanClaims(claims, sourceIds) {
-  return claims
-    .map((claim) => ({
-      id: slugify(claim.id || claim.claim || crypto.randomUUID()),
-      claim: String(claim.claim || '').trim(),
-      sourceId: sourceIds.has(claim.sourceId) ? claim.sourceId : null,
-      topic: claim.topic || detectTopic(claim.claim),
-      verdict: String(claim.verdict || 'unverified').trim(),
-      confidence: clamp(Number(claim.confidence ?? 0.5), 0, 1),
-      evidencePlan: String(claim.evidencePlan || 'Needs source-backed verification.').trim(),
-    }))
-    .filter((claim) => claim.claim && claim.sourceId);
-}
-
-function cleanTimeline(timeline, sourceIds) {
-  return timeline
-    .map((item) => ({
-      id: slugify(item.id || item.title || crypto.randomUUID()),
-      date: normalizeDate(item.date) || 'unknown',
-      type: String(item.type || 'event').trim(),
-      title: String(item.title || '').trim(),
-      topic: item.topic || detectTopic(item.title),
-      impact: String(item.impact || '').trim(),
-      sourceIds: arrayOfStrings(item.sourceIds).filter((id) => sourceIds.has(id)),
-    }))
-    .filter((item) => item.title && item.sourceIds.length)
-    .sort((a, b) => String(a.date).localeCompare(String(b.date)));
 }
 
 function cleanMajorNews(items, sourceIds) {

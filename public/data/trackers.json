@@ -5,54 +5,14 @@
     "label": "Daniel Lurie",
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
-    "updatedAt": "2026-06-04T10:15:07.483Z",
+    "updatedAt": "2026-07-14T14:17:00.027Z",
     "trackingSince": "2025-01-08",
     "counts": {
       "sources": 120,
       "promises": 12,
       "reviewedPromises": 9,
-      "claims": 12,
       "metrics": 7,
-      "liveMetrics": 4,
-      "timeline": 16
-    },
-    "derived": {
-      "warRoomSignals": 29,
-      "urgentSignals": 23,
-      "investigationLeads": 17,
-      "highPriorityLeads": 7,
-      "agendaItems": 23,
-      "criticalAgendaItems": 3,
-      "narratives": 12,
-      "liabilityNarratives": 6,
-      "fragilePromises": 7,
-      "sourceHotspots": 18,
-      "unusedHighConfidenceSources": 51,
-      "interviewQuestions": 39,
-      "hardQuestions": 11,
-      "tensions": 10,
-      "highTensions": 2,
-      "recordsRequests": 24,
-      "urgentRecordsRequests": 12,
-      "topicPackets": 6,
-      "highPressurePackets": 3,
-      "hottestTopics": [
-        {
-          "id": "city_government",
-          "label": "City Government",
-          "pressureScore": 100
-        },
-        {
-          "id": "homelessness",
-          "label": "Homelessness",
-          "pressureScore": 100
-        },
-        {
-          "id": "public_safety",
-          "label": "Public Safety",
-          "pressureScore": 100
-        }
-      ]
+      "liveMetrics": 2
     },
     "topicLabels": [
       "City Government",
@@ -62,7 +22,7 @@
       "Housing",
       "Public Safety"
     ],
-    "majorHeadline": "Mayor Lurie Launches Permit Reform Effort With Focus on Housing and Small Business",
-    "completenessScore": 88
+    "majorHeadline": "San Francisco Finalizes $17 Billion Budget, Restores Millions in Proposed Cuts | KQED",
+    "completenessScore": 77
   }
 ]

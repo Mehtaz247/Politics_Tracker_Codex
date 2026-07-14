@@ -1,12 +1,12 @@
 # Politics Tracker Codex
 
-An MVP website for tracking Daniel Lurie's announcements, promises, claims, evidence, and public San Francisco results over time.
+An accountability website for tracking Daniel Lurie's promises, evidence, major developments, and public San Francisco results over time.
 
 ## What this MVP does
 
 - Shows a Daniel Lurie dashboard with structured promises, source provenance, topic summaries, progress indicators, public metrics, and major developments.
 - Stores the current dashboard payload in `public/data/daniel-lurie-tracker.json` so the website can render fast and transparently.
-- Provides a recurring ingestion workflow that pulls Daniel Lurie sources from Google News RSS, direct local news RSS feeds, Anthropic web search, official SF pages, and Public SF/DataSF metrics, then asks Claude to enrich current claims, timeline items, and major-news selection when configured.
+- Provides a recurring ingestion workflow that pulls Daniel Lurie sources from Google News RSS, direct local news RSS feeds, Anthropic web search, official SF pages, and Public SF/DataSF metrics, then asks Claude to select major news when configured.
 - Includes a GitHub Actions schedule that can refresh tracker data every six hours when repository secrets are configured.
 
 ## Vercel deployment
@@ -63,8 +63,8 @@ The ingestion workflow now has two phases:
 
 The refresh script works in two modes:
 
-1. **Without `ANTHROPIC_API_KEY`**: fetches and normalizes deterministic source records, then keeps existing structured promises and claims.
-2. **With `ANTHROPIC_API_KEY`**: uses Anthropic web search for additional source discovery, sends the newest source summaries to the Anthropic Messages API, and accepts JSON enrichment for claims, timeline items, and major-news selection.
+1. **Without `ANTHROPIC_API_KEY`**: fetches and normalizes deterministic source records, then keeps the existing promise catalog and uses fallback major-news selection.
+2. **With `ANTHROPIC_API_KEY`**: uses Anthropic web search for additional source discovery and selects major news from the stored source records.
 
 Campaign promise extraction is no longer part of the recurring six-hour refresh. It only reruns when:
 
@@ -94,7 +94,7 @@ Promise scores must follow these rules:
 
 ## Current workflow guardrails
 
-- `scripts/validate-data.mjs` checks that source, promise, metric, connector, and timeline records keep the fields the UI expects, and rejects approval-rating data.
+- `scripts/validate-data.mjs` checks that source, promise, metric, connector, and major-news records keep the fields the UI expects, and rejects approval-rating data.
 - The dashboard includes promise search, topic/status filters, reviewed progress badges, source provenance, metric freshness labels, and evidence-linked accountability summaries.
 - No fabricated metric or progress values are shown; empty states remain until Public SF/DataSF datasets refresh successfully.
 
