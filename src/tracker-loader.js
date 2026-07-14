@@ -57,14 +57,14 @@ export function renderTrackerNavLinks(slug, currentPath = '') {
   const primaryLinks = BASE_TRACKER_PAGES.map(([path, label]) => {
     const href = trackerHref(path, slug);
     const active = currentPath === path ? ' nav-link-active' : '';
-    return `<a class="${active.trim()}" href="${href}">${label}</a>`;
+    return `<a class="${active.trim()}" href="${href}"${active ? ' aria-current="page"' : ''}>${label}</a>`;
   }).join('');
   return `<div class="nav-primary-links">${primaryLinks}</div>`;
 }
 
 export function renderTrackerPicker(trackers, activeSlug) {
-  return `<div class="filter-row tracker-picker-row">
-    ${trackers.map((tracker) => `<button data-tracker="${tracker.slug}" class="${tracker.slug === activeSlug ? 'active' : ''}">${escapeHtml(tracker.label)}</button>`).join('')}
+  return `<div class="filter-row tracker-picker-row" role="group" aria-label="Choose a tracker">
+    ${trackers.map((tracker) => `<button type="button" data-tracker="${tracker.slug}" class="${tracker.slug === activeSlug ? 'active' : ''}" aria-pressed="${tracker.slug === activeSlug}">${escapeHtml(tracker.label)}</button>`).join('')}
   </div>`;
 }
 
