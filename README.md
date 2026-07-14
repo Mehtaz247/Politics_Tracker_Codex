@@ -4,7 +4,7 @@ An MVP website for tracking Daniel Lurie's announcements, promises, claims, evid
 
 ## What this MVP does
 
-- Shows a Daniel Lurie dashboard with announcement sources, structured promises, claim-check tasks, topic summaries, progress indicators, event timelines, Public SF connector status, and SVG charts.
+- Shows a Daniel Lurie dashboard with structured promises, source provenance, topic summaries, progress indicators, public metrics, and major developments.
 - Stores the current dashboard payload in `public/data/daniel-lurie-tracker.json` so the website can render fast and transparently.
 - Provides a recurring ingestion workflow that pulls Daniel Lurie sources from Google News RSS, direct local news RSS feeds, Anthropic web search, official SF pages, and Public SF/DataSF metrics, then asks Claude to enrich current claims, timeline items, and major-news selection when configured.
 - Includes a GitHub Actions schedule that can refresh tracker data every six hours when repository secrets are configured.
@@ -95,7 +95,7 @@ Promise scores must follow these rules:
 ## Current workflow guardrails
 
 - `scripts/validate-data.mjs` checks that source, promise, metric, connector, and timeline records keep the fields the UI expects, and rejects approval-rating data.
-- The dashboard now includes promise search, topic/status filters, reviewed progress badges, source provenance, metric freshness labels, timeline coverage, connector readiness cards, and a separate charts page with on-demand AI chart generation.
+- The dashboard includes promise search, topic/status filters, reviewed progress badges, source provenance, metric freshness labels, and evidence-linked accountability summaries.
 - No fabricated metric or progress values are shown; empty states remain until Public SF/DataSF datasets refresh successfully.
 
 ## Next steps

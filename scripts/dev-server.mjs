@@ -3,7 +3,6 @@ import http from 'node:http';
 import { createReadStream, existsSync } from 'node:fs';
 import { readFile, stat } from 'node:fs/promises';
 import path from 'node:path';
-import { generateChartsOnDemand } from './chart-generation-service.mjs';
 
 const root = path.resolve(process.argv[2] || '.');
 const port = Number(process.argv[3] || process.env.PORT || 5173);
@@ -13,22 +12,6 @@ const mime = new Map([
 
 const server = http.createServer(async (request, response) => {
   const requestUrl = new URL(request.url, `http://${request.headers.host}`);
-
-  if (request.method === 'POST' && request.url === '/api/generate-charts') {
-    try {
-      const body = await readJsonBody(request);
-      const payload = await generateChartsOnDemand({
-        chartRequest: body?.chartRequest || '',
-        trackerSlug: body?.trackerSlug || 'daniel-lurie',
-      });
-      response.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
-      response.end(JSON.stringify(payload));
-    } catch (error) {
-      response.writeHead(error.statusCode || 500, { 'Content-Type': 'application/json; charset=utf-8' });
-      response.end(JSON.stringify({ error: error.message || 'Unable to generate charts' }));
-    }
-    return;
-  }
 
   if (request.method === 'GET' && requestUrl.pathname === '/api/trackers') {
     try {
@@ -118,6 +101,11 @@ const server = http.createServer(async (request, response) => {
     return;
   }
 
+  if (request.method !== 'GET') {
+    response.writeHead(405).end('Method not allowed');
+    return;
+  }
+
   const safePath = decodeURIComponent(requestUrl.pathname).replace(/^\/+/, '');
   let filePath = path.join(root, safePath || 'index.html');
   if (!filePath.startsWith(root)) {
@@ -137,17 +125,6 @@ const server = http.createServer(async (request, response) => {
     response.writeHead(404).end('Not found');
   }
 });
-
-async function readJsonBody(request) {
-  const chunks = [];
-  for await (const chunk of request) chunks.push(chunk);
-  if (!chunks.length) return {};
-  try {
-    return JSON.parse(Buffer.concat(chunks).toString('utf8'));
-  } catch {
-    return {};
-  }
-}
 
 server.listen(port, () => console.log(`Politics Tracker MVP running at http://localhost:${port}`));
 

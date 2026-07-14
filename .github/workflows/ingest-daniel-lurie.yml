@@ -2,7 +2,7 @@ name: Refresh Daniel Lurie tracker
 
 on:
   schedule:
-    - cron: '17 */6 * * *'
+    - cron: '17 0 */3 * *'
   workflow_dispatch:
 
 jobs:
