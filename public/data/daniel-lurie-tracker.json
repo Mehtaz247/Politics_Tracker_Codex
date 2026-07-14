@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-07-14T03:39:02.296Z",
+    "lastUpdated": "2026-07-14T08:29:50.959Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -339,6 +339,21 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "sf-s-trans-march-leaders-bring-demands-to-city-hall-after-arrests-and-clash-with",
+      "title": "SF's Trans March leaders bring demands to City Hall after arrests and clash with SFPD]]>",
+      "sourceType": "news",
+      "url": "https://abc7news.com/post/san-franciscos-trans-march-leaders-bring-demands-city-hall-arrests-clash-francisco-police-department/19501705/]]>",
+      "discoveryUrl": "https://abc7news.com/feed/",
+      "discoverySource": "ABC7 Bay Area",
+      "publisher": "ABC7 Bay Area",
+      "publishedAt": "2026-07-14",
+      "topic": "public_safety",
+      "summary": "Organizers of San Francisco's Trans March rallied outside City Hall on Monday and met with Mayor Daniel Lurie, calling for changes after the June 26 march ended with several arrests and a clash with San Francisco police.]]>",
+      "confidence": 0.76,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "403 Forbidden"
+    },
+    {
       "id": "mayor-lurie-first-lady-prowda-celebrate-successful-x27-one-city-day-x27-encourag",
       "title": "Mayor Lurie, First Lady Prowda Celebrate Successful &#x27;One City Day,&#x27; Encourage San Franciscans To Continue Serving Communities | SF.gov",
       "sourceType": "official",
@@ -348,6 +363,21 @@
       "summary": "More Than 4,000 People Signed Up to Participate in Over 170 Projects—Cleaning Up Litter, Planting Trees, Removing Graffiti in Neighborhoods Across City",
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie, First Lady Prowda Celebrate Successful &#x27;One City Day,&#x27; Encourage San Franciscans To Continue Serving Communities Office of the Mayor More Than 4,000 People Signed Up to Participate in Over 170 Projects—Cleaning Up Litter, Planting Trees, Removing Graffiti in Neighborhoods Across City July 13, 2026 SAN FRANCISCO – Mayor Daniel Lurie and First Lady Becca Prowda today thanked San Franciscans who participated in “One City Day,” a citywide day service, completing over 170 projects in neighborhoods throughout the city. Following the 13 kickoff events, more than 4,000 people signed up to participate in projects in their communities—including cleaning up medians and parks, weeding and planting trees, and removing graffiti. The day of service builds on Mayor Lurie and First Lady Prowda’s work to bring service, accountability, and change to City Hall—values that have guided both of their personal and professional journeys. The mayor and first lady first met while both working at the Robin Hood Foundation, a nonprofit dedicated to fighting poverty in New York City. Their shared commitment to serving others has shaped their lives and public service, with Mayor Lurie founding Tipping Point Community in 2005 to fight poverty in the Bay Area. “Our values have always been what makes our city special. San Franciscans show up for each other, and that’s what we did on Saturday,” said Mayor Lurie . “I am so inspired by the people I saw and the work they were doing to make their neighborhoods cleaner, more beautiful, and more welcoming. Thank you to everyone who showed up for each other—there are so many ways to build on the work we did, and I’m excited to keep doing that work together.” “One City Day was a love letter to San Francisco—written by more than 4,0...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "excelsior-buzz-jerry-day-returns-to-the-excelsior-aug-1-2026-07-10",
+      "title": "Excelsior Buzz: Jerry Day returns to the Excelsior Aug. 1",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/07/excelsior-buzz-jerry-day-returns/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-07-10",
+      "topic": "economy",
+      "summary": "But first, join a neighborhood cleanup near Jerry Garcia Street, as part of Mayor Daniel Lurie's volunteer initiative.",
+      "confidence": 0.82,
+      "excerpt": "“Excelsior Buzz” is a recurring column on changes, tidbits and other news from the Excelsior. Got news? Send us tips at xueer@missionlocal.com . Thousands gathering for the 23rd annual &#8216;Jerry Day' on Aug. 2, 2025. Photo by Jordan Montero. Jerry Day — generally considered the biggest annual event in the Excelsior — is almost upon us. Want the latest on the Mission and San Francisco? Sign up for our free daily newsletter below. Sign up On Aug. 1, for the 24th year in a row, Deadheads young and old will converge on the Jerry Garcia Amphitheater at McLaren Park. A series of free concerts will celebrate Excelsior native Jerry Garcia, who grew up on Harrington Street near Alemany Boulevard and co-founded the Grateful Dead . Garcia died in 1995. This year's lineup includes Melvin Seals & JGB, led by Hammond B-3 organist Melvin Seals , who played with the Dead for 15 years and continues to tour and perform the band’s songs. Stu Allen & Mars Hotel, a Bay Area Grateful Dead tribute band, will also play. The celebration this year will be followed by afterparties across the city. If that’s not enough Garcia for you, Forever Grateful is currently hosting several events and a Dead exhibit, but you’ll have to travel all the way to the Haight. A mural in the Excelsior District reads &#8220;Be Kind To Yourself&#8221; on Feb. 20, 2026. Photo by Mariana Garcia. This Saturday, July 11, San Francisco is holding a citywide day of service called One City Day , a volunteer initiative led by Mayor Daniel Lurie and First Lady Becca Prowda inviting residents to beautify their neighborhoods. In the Excelsior, the main event is a cleanup centered around Mission Street and Jerry Garcia Street (formerly Harrington Street.) The cleanup runs from 10:30 a.m. to noon. As for what to bring: Dress...",
       "scrapeStatus": "scraped"
     },
     {
@@ -372,21 +402,6 @@
       "summary": "NEWS Mayor Lurie Appoints San Francisco Leaders To City Commissions And Bodies Office of the Mayor July 10, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced a series of appointments and reappointments to city committees and commissions. He nominated Mike Chen to the Planning Commission, John Peck to the Mission Bay Transportation Improvement Fund Advisory Committee, and Barbara Bella and Craig Paxton to the Ba",
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Appoints San Francisco Leaders To City Commissions And Bodies Office of the Mayor July 10, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced a series of appointments and reappointments to city committees and commissions. He nominated Mike Chen to the Planning Commission, John Peck to the Mission Bay Transportation Improvement Fund Advisory Committee, and Barbara Bella and Craig Paxton to the Ballot Simplification Committee. He renominated Lydia So to the Planning Commission and Carey Wintroub to the Recreation and Parks Commission. Mayor Lurie also appointed several new members to the Sweatfree Procurement Advisory Council and reappointed members to the Mayor’s Disability Council and Our City, Our Home Oversight Committee. “Our administration is working every day to make our city work for all of our families, and this group of capable leaders will build on that work,” said Mayor Lurie . “From working conditions to city services, we are focused on the everyday things that affect whether a family can stay in San Francisco. We’re putting our foot on the accelerator with that work, and I look forward to partnering with these leaders to move it forward.” Mayor Lurie has appointed the following individuals to join the Sweatfree Procurement Advisory Council: Ayesha Barenblat Marliz Copado Ernie Flores Rio Morales He has reappointed the following individuals to continue serving on the Mayor&#x27;s Disability Council: Dr. Joanne Azulay ( bio ) Paul Bendix ( bio ) Jan Bonville ( bio ) Cindy Fassler ( bio ) Caitlin O’Mailor ( bio ) He has reappointed the following individuals to continue serving on the Our City, Our Home Oversight Committee: Lindsay Haddix Jabari Jackson Bonnie Preston Scott Walton Planning Commission Mike Chen (new appointment) is a data...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "excelsior-buzz-jerry-day-returns-to-the-excelsior-aug-1-2026-07-10",
-      "title": "Excelsior Buzz: Jerry Day returns to the Excelsior Aug. 1",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/07/excelsior-buzz-jerry-day-returns/",
-      "discoveryUrl": "https://missionlocal.org/feed/",
-      "discoverySource": "Mission Local",
-      "publisher": "Mission Local",
-      "publishedAt": "2026-07-10",
-      "topic": "economy",
-      "summary": "But first, join a neighborhood cleanup near Jerry Garcia Street, as part of Mayor Daniel Lurie's volunteer initiative.",
-      "confidence": 0.82,
-      "excerpt": "“Excelsior Buzz” is a recurring column on changes, tidbits and other news from the Excelsior. Got news? Send us tips at xueer@missionlocal.com . Thousands gathering for the 23rd annual &#8216;Jerry Day' on Aug. 2, 2025. Photo by Jordan Montero. Jerry Day — generally considered the biggest annual event in the Excelsior — is almost upon us. Want the latest on the Mission and San Francisco? Sign up for our free daily newsletter below. Sign up On Aug. 1, for the 24th year in a row, Deadheads young and old will converge on the Jerry Garcia Amphitheater at McLaren Park. A series of free concerts will celebrate Excelsior native Jerry Garcia, who grew up on Harrington Street near Alemany Boulevard and co-founded the Grateful Dead . Garcia died in 1995. This year's lineup includes Melvin Seals & JGB, led by Hammond B-3 organist Melvin Seals , who played with the Dead for 15 years and continues to tour and perform the band’s songs. Stu Allen & Mars Hotel, a Bay Area Grateful Dead tribute band, will also play. The celebration this year will be followed by afterparties across the city. If that’s not enough Garcia for you, Forever Grateful is currently hosting several events and a Dead exhibit, but you’ll have to travel all the way to the Haight. A mural in the Excelsior District reads &#8220;Be Kind To Yourself&#8221; on Feb. 20, 2026. Photo by Mariana Garcia. This Saturday, July 11, San Francisco is holding a citywide day of service called One City Day , a volunteer initiative led by Mayor Daniel Lurie and First Lady Becca Prowda inviting residents to beautify their neighborhoods. In the Excelsior, the main event is a cleanup centered around Mission Street and Jerry Garcia Street (formerly Harrington Street.) The cleanup runs from 10:30 a.m. to noon. As for what to bring: Dress...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1585,19 +1600,6 @@
       "topic": "city_government",
       "summary": "Golden City FC promised a $10M Kezar facelift. A year later, it’s gone dark. &nbsp;&nbsp; sfgate.com",
       "confidence": 0.68
-    },
-    {
-      "id": "sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears-2026-05-07",
-      "title": "SF Mayor Daniel Lurie pushes Muni funding measures as deadline nears",
-      "sourceType": "news",
-      "url": "https://www.nbcbayarea.com/news/local/sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears/4080452/",
-      "discoveryUrl": "https://www.nbcbayarea.com/news/local/sf-mayor-daniel-lurie-pushes-muni-funding-measures-as-deadline-nears/4080452/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "NBC Bay Area",
-      "publishedAt": "2026-05-07",
-      "topic": "transit",
-      "summary": "Mayor Lurie gathered signatures for two transit measures for the November ballot: the Stronger Muni for All measure and Connect Bay Area regional proposal. The local measure would fund Muni through a parcel tax costing renters about $65 annually and most homeowners about $129 annually.",
-      "confidence": 0.9
     }
   ],
   "promises": [
@@ -1713,7 +1715,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
+      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -2186,7 +2188,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-07-14T03:39:02.146Z"
+      "lastRefreshed": "2026-07-14T08:29:50.793Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2205,7 +2207,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-07-14T03:39:02.146Z"
+      "lastRefreshed": "2026-07-14T08:29:50.793Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2215,13 +2217,74 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": null,
-      "latest": null,
+      "baseline": 292,
+      "latest": 216,
       "direction": "down_is_good",
-      "observations": [],
-      "status": "needs_verified_source",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 292
+        },
+        {
+          "date": "2025-02-01",
+          "value": 274
+        },
+        {
+          "date": "2025-03-01",
+          "value": 342
+        },
+        {
+          "date": "2025-04-01",
+          "value": 275
+        },
+        {
+          "date": "2025-05-01",
+          "value": 273
+        },
+        {
+          "date": "2025-06-01",
+          "value": 301
+        },
+        {
+          "date": "2025-07-01",
+          "value": 239
+        },
+        {
+          "date": "2025-08-01",
+          "value": 294
+        },
+        {
+          "date": "2025-09-01",
+          "value": 219
+        },
+        {
+          "date": "2025-10-01",
+          "value": 235
+        },
+        {
+          "date": "2025-11-01",
+          "value": 300
+        },
+        {
+          "date": "2025-12-01",
+          "value": 148
+        },
+        {
+          "date": "2026-01-01",
+          "value": 221
+        },
+        {
+          "date": "2026-02-01",
+          "value": 220
+        },
+        {
+          "date": "2026-03-01",
+          "value": 216
+        }
+      ],
+      "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-07-14T03:39:02.146Z",
+      "lastRefreshed": "2026-07-14T08:29:50.793Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2237,34 +2300,13 @@
       "evidenceSourceIds": [
         "datasf-substance-use-services"
       ],
-      "status": "active",
-      "baseline": 55904,
-      "latest": 56619,
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 55904
-        },
-        {
-          "date": "2025-04-01",
-          "value": 46460
-        },
-        {
-          "date": "2025-07-01",
-          "value": 51108
-        },
-        {
-          "date": "2025-10-01",
-          "value": 41664
-        },
-        {
-          "date": "2026-01-01",
-          "value": 56619
-        }
-      ],
+      "status": "needs_verified_source",
+      "baseline": null,
+      "latest": null,
+      "observations": [],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-07-14T03:39:02.146Z"
+      "lastRefreshed": "2026-07-14T08:29:50.793Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2360,7 +2402,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-07-14T03:39:02.146Z"
+      "lastRefreshed": "2026-07-14T08:29:50.793Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2456,7 +2498,7 @@
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-07-14T03:39:02.146Z"
+      "lastRefreshed": "2026-07-14T08:29:50.793Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2475,7 +2517,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-07-14T03:39:02.146Z"
+      "lastRefreshed": "2026-07-14T08:29:50.793Z"
     }
   ],
   "topics": [
