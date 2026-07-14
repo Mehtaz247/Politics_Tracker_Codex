@@ -63,44 +63,6 @@ const server = http.createServer(async (request, response) => {
     return;
   }
 
-  if (request.method === 'GET' && requestUrl.pathname === '/api/tracker-derived') {
-    try {
-      const slug = requestUrl.searchParams.get('slug') || 'daniel-lurie';
-      await findTrackerEntry(slug);
-      const derived = await readJsonFile(resolveDerivedDataPath(`${slug}-derived.json`));
-      response.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
-      response.end(JSON.stringify(derived));
-    } catch (error) {
-      respondWithJsonError(response, error);
-    }
-    return;
-  }
-
-  if (request.method === 'GET' && requestUrl.pathname === '/api/tracker-derived-section') {
-    try {
-      const slug = requestUrl.searchParams.get('slug') || 'daniel-lurie';
-      const section = requestUrl.searchParams.get('section');
-      if (!section) {
-        throw Object.assign(new Error('Missing required "section" query parameter'), { statusCode: 400 });
-      }
-      await findTrackerEntry(slug);
-      const derived = await readJsonFile(resolveDerivedDataPath(`${slug}-derived.json`));
-      if (!(section in derived)) {
-        throw Object.assign(new Error(`Unknown derived section: ${section}`), { statusCode: 404 });
-      }
-      response.writeHead(200, { 'Content-Type': 'application/json; charset=utf-8' });
-      response.end(JSON.stringify({
-        slug,
-        section,
-        generatedAt: derived.generatedAt || null,
-        data: derived[section],
-      }));
-    } catch (error) {
-      respondWithJsonError(response, error);
-    }
-    return;
-  }
-
   if (request.method !== 'GET') {
     response.writeHead(405).end('Method not allowed');
     return;
@@ -130,10 +92,6 @@ server.listen(port, () => console.log(`Politics Tracker MVP running at http://lo
 
 function resolveDataPath(fileName) {
   return path.join(root, 'public', 'data', fileName);
-}
-
-function resolveDerivedDataPath(fileName) {
-  return path.join(root, 'public', 'data', 'derived', fileName);
 }
 
 async function readJsonFile(filePath) {
