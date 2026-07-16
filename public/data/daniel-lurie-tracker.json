@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-07-14T14:17:00.027Z",
+    "lastUpdated": "2026-07-16T03:43:49.784Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -242,86 +242,19 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
-      "title": "Mayor Lurie Presents Balanced, Responsible Budget to Advance San Francisco&#x27;s Recovery | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
-      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF.gov",
-      "publishedAt": "2025-05-30",
-      "topic": "homelessness",
-      "summary": "Proposed Budget Prioritizes Core Services With Investments in Public Safety, Clean Streets, Behavioral Health Crisis Response, Economic Revitalization; Closes $800 Million Deficit With Structural Changes to Position City for Long-Term Growth",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Presents Balanced, Responsible Budget to Advance San Francisco&#x27;s Recovery Office of the Mayor Proposed Budget Prioritizes Core Services With Investments in Public Safety, Clean Streets, Behavioral Health Crisis Response, Economic Revitalization; Closes $800 Million Deficit With Structural Changes to Position City for Long-Term Growth May 30, 2025 SAN FRANCISCO – Mayor Daniel Lurie today presented his $15.9 billion proposed budget for Fiscal Years (FY) 2025-2026 and 2026-2027, advancing San Francisco’s recovery by prioritizing core services and investing in safe, clean streets, while closing an historic $800 million deficit. With major structural changes and dedicated funding set aside given uncertainty at the state and federal levels, the proposed budget boldly and responsibly realigns the city’s spending in line with revenue and sets up the city for long-term growth. Mayor Lurie’s first budget builds on the work his administration has done since taking office on January 8 to make the city safer, cleaner, and more prosperous. Under his leadership, overall crime is down nearly 30%, car break-ins are at a 22-year low , and street encampments are at their lowest number since 2019 . Mayor Lurie established the San Francisco Police Department (SFPD) Hospitality Zone Task Force to improve public safety downtown 365 days a year, following that with his Rebuilding the Ranks plan to fully staff the SFPD and Sheriff’s Office. After working with the Board of Supervisors to overwhelmingly pass his Fentanyl State of Emergency Ordinance and unlock resources to tackle the homelessness and behavioral health crisis with urgency, Mayor Lurie unveiled his Breaking the Cycle plan to transform the city’s response to that crisis. Delivering on that plan, he introduce...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-p",
-      "title": "Mayor Lurie Signs Legislation to Address RV and Vehicular Homelessness, Restore Public Spaces in San Francisco",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-public-spaces-in-san-francisco",
-      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-public-spaces-in-san-francisco",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF.gov",
-      "publishedAt": "2025-07-15",
-      "topic": "homelessness",
-      "summary": "Mayor Lurie signed legislation establishing a 24/7 two-hour parking restriction for large vehicles citywide and offering permanent or interim housing to those experiencing vehicular homelessness. The mayor secured $13 million over two fiscal years for rapid rehousing subsidies, a vehicle buyback program, and outreach resources. The city identified 437 vehicles being used for dwelling in May 2025.",
-      "confidence": 0.9
-    },
-    {
-      "id": "union-square-programming",
-      "title": "Union Square programming through summer 2027",
-      "sourceType": "official",
-      "url": "https://sfrecpark.org/m/newsflash/home/detail/2708",
-      "publishedAt": "2026-02-10",
-      "topic": "economy",
-      "summary": "Downtown activation and programming effort tied to tourism, foot traffic, and economic recovery.",
-      "confidence": 0.89
-    },
-    {
-      "id": "climate-plan-update",
-      "title": "Five-year update to San Francisco Climate Action Plan",
-      "sourceType": "official",
-      "url": "https://www.sfenvironment.org/press/mayor-lurie-releases-five-year-update-climate-action-plan-celebrates-san-francisco-climate",
-      "publishedAt": "2026-04-20",
-      "topic": "climate",
-      "summary": "Climate Action Plan update framed around emissions, household costs, and city resilience.",
-      "confidence": 0.9
-    },
-    {
-      "id": "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h",
-      "title": "Mayor Lurie Celebrates Visitors Coming Back To San Francisco In Record Numbers | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers/",
-      "publishedAt": "2026-05-07",
-      "topic": "economy",
-      "summary": "2026 Tourism Forecasted to Cross Pre-Pandemic Spending Record, With Conventions, Major Events Fueling Momentum; Following Successful Super Bowl and Ahead of World Cup, Progress Continues Mayor Lurie’s Work to Accelerate Economic Recovery",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Celebrates Visitors Coming Back To San Francisco In Record Numbers Office of the Mayor 2026 Tourism Forecasted to Cross Pre-Pandemic Spending Record, With Conventions, Major Events Fueling Momentum; Following Successful Super Bowl and Ahead of World Cup, Progress Continues Mayor Lurie’s Work to Accelerate Economic Recovery May 7, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated new data from the San Francisco Travel Association (SF Travel) showing that visitor spending in 2026 is expected to surpass the city’s pre-pandemic record, part of the city’s second consecutive year of tourism growth. Large events and conventions are major drivers of the tourism growth: Building on a successful Super Bowl in February, San Francisco hotels are expected to see a 69% increase since 2024 in occupancy specifically from conferences at Moscone Center. The data comes from SF Travel’s 2026 tourism forecast and 2025 visitor impact results. The progress bringing visitors back to San Francisco continues Mayor Lurie’s work to accelerate San Francisco’s economic recovery. The mayor recently returned from a visit to China and South Korea , where he celebrated San Francisco’s sister city relationships and encouraged tourism to the city. In Shanghai, he partnered with the San Francisco International Airport (SFO) to promote air travel between Shanghai and San Francisco . Earlier this year, the city welcomed hundreds of thousands of visitors for a successful, safe Super Bowl week that brought hundreds of millions of dollars of economic impact to our city. “San Francisco is a city on the rise. We welcomed hundreds of thousands of visitors for a safe and successful Super Bowl week that generated hundreds of millions of dollars in economic impact, and we are continuing to...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-signs-legislation-with-firefighters-x27-union-to-support-first-respo",
-      "title": "Mayor Lurie Signs Legislation With Firefighters&#x27; Union To Support First Responders, Strengthen Public Safety | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-signs-legislation-with-firefighters-union-to-support-first-responders-strengthen-public-safety/",
-      "publishedAt": "2026-05-08",
-      "topic": "homelessness",
-      "summary": "Agreement Builds on Mayor Lurie’s Efforts to Keep Firefighters Safe, Strengthen Emergency Response, Improve Public Safety",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Signs Legislation With Firefighters&#x27; Union To Support First Responders, Strengthen Public Safety Office of the Mayor Agreement Builds on Mayor Lurie’s Efforts to Keep Firefighters Safe, Strengthen Emergency Response, Improve Public Safety May 8, 2026 SAN FRANCISCO – Mayor Daniel Lurie today signed legislation to enact new labor agreements between the City and County of San Francisco and the International Association of Fire Fighters (IAFF) Local 798 Units 1 and 2. Effective July 1, 2026, through June 30, 2030, the new memorandum of understanding (MOU) prioritizes public safety and invests in San Francisco firefighters and first responders. The legislation signed by Mayor Lurie was cosponsored by Board of Supervisors President Rafael Mandelman, District 2 Supervisor Stephen Sherrill, District 4 Supervisor Alan Wong, and District 5 Supervisor Bilal Mahmood. The MOU with Local 798 continues Mayor Lurie’s work to strengthen public safety and support firefighters amid a difficult budget cycle. At the end of his first year in office, Mayor Lurie announced the San Francisco Fire Department (SFFD) would become the largest department in the United States to transition its entire fleet to non-PFAS turnout gear , keeping firefighters safe. To continue the work to support the city&#x27;s first responders, the mayor recently announced the completion of San Francisco’s Fire Network Modernization Project to replace aging infrastructure at 51 fire stations and broke ground on a new SFFD training facility that will help firefighters and emergency responders develop the tools they need to keep San Franciscans safe. As the city prepares to navigate a difficult budget cycle , Mayor Lurie is preparing to deliver a budget that protects core services including continu...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-home",
-      "title": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years - SF.gov",
+      "id": "watch-coast-guard-officials-hold-afternoon-briefing-after-boat-sinks-near-alcatr",
+      "title": "Watch: Coast Guard, officials hold afternoon briefing after boat sinks near Alcatraz",
       "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcmZWdmsyT1JhdVNLdTNkZzItbmlkalVSR2Npc09EbDljbEFuVThINnFrXzdwaTBWRV8tVHgzVDJUa294dXhWSEI2ajNIMERQT3lKb3NtSFQ3MnNkeTZHU3hkekxhZVlPcjhxbGNZRHc4eF9qMXBlc3U1Nl9BRGhtSjQydDM2RUVhWVV1UFUyekd5V0NUWGlnUzRuZHl6TF9vcGFLOGdfME5JaUU0VnFwdHA2NjFYX3NyeXpyb3RYT3A0QQ?oc=5",
-      "publishedAt": "2026-05-12",
-      "topic": "homelessness",
-      "summary": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years &nbsp;&nbsp; SF.gov",
-      "confidence": 0.78
+      "url": "https://www.cbsnews.com/sanfrancisco/video/watch-coast-guard-officials-hold-afternoon-briefing-after-boat-sinks-near-alcatraz/",
+      "discoveryUrl": "https://www.cbsnews.com/sanfrancisco/latest/rss/main",
+      "discoverySource": "CBS San Francisco",
+      "publisher": "CBS San Francisco",
+      "publishedAt": "2026-07-15",
+      "topic": "public_safety",
+      "summary": "The U.S. Coast Guard, San Francisco Mayor Daniel Lurie and others hold a briefing Wednesday afternoon after a boat sank in San Francisco Bay near Alcatraz.",
+      "confidence": 0.8,
+      "excerpt": "Watch: Coast Guard, officials hold afternoon briefing after boat sinks near Alcatraz - CBS San Francisco Bay Area Top News SF/Peninsula News East Bay News South Bay News North Bay News Bay Area Crime Tech Health Politics LGBTQ Entertainment KPIX Special Reports First Alert Weather Radars & Maps All Sports CBS Sports HQ San Francisco 49ers San Francisco Giants Golden State Warriors Golden State Valkyries San Jose Sharks Cal Stanford College Sports Station Info KPIX What's On KPIX Contests & Promotions Advertise With Us Contact Us Download the App Galleries Memorials Watch CBS News Watch: Coast Guard, officials hold afternoon briefing after boat sinks near Alcatraz The U.S. Coast Guard, San Francisco Mayor Daniel Lurie and others hold a briefing Wednesday afternoon after a boat sank in San Francisco Bay near Alcatraz. View CBS News In CBS News App Open Chrome Safari Continue",
+      "scrapeStatus": "scraped"
     },
     {
       "id": "after-pride-weekend-arrests-trans-march-organizers-meet-with-mayor-lurie-to-call",
@@ -1564,6 +1497,16 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-home",
+      "title": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years - SF.gov",
+      "sourceType": "news",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcmZWdmsyT1JhdVNLdTNkZzItbmlkalVSR2Npc09EbDljbEFuVThINnFrXzdwaTBWRV8tVHgzVDJUa294dXhWSEI2ajNIMERQT3lKb3NtSFQ3MnNkeTZHU3hkekxhZVlPcjhxbGNZRHc4eF9qMXBlc3U1Nl9BRGhtSjQydDM2RUVhWVV1UFUyekd5V0NUWGlnUzRuZHl6TF9vcGFLOGdfME5JaUU0VnFwdHA2NjFYX3NyeXpyb3RYT3A0QQ?oc=5",
+      "publishedAt": "2026-05-12",
+      "topic": "homelessness",
+      "summary": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years &nbsp;&nbsp; SF.gov",
+      "confidence": 0.78
+    },
+    {
       "id": "we-can-shut-down-the-city-lurie-s-budget-cuts-spark-a-showdown-with-labor-2026-0",
       "title": "‘We can shut down the city’: Lurie’s budget cuts spark a showdown with labor",
       "sourceType": "news",
@@ -1592,6 +1535,18 @@
       "confidence": 0.9
     },
     {
+      "id": "mayor-lurie-signs-legislation-with-firefighters-x27-union-to-support-first-respo",
+      "title": "Mayor Lurie Signs Legislation With Firefighters&#x27; Union To Support First Responders, Strengthen Public Safety | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-signs-legislation-with-firefighters-union-to-support-first-responders-strengthen-public-safety/",
+      "publishedAt": "2026-05-08",
+      "topic": "homelessness",
+      "summary": "Agreement Builds on Mayor Lurie’s Efforts to Keep Firefighters Safe, Strengthen Emergency Response, Improve Public Safety",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Signs Legislation With Firefighters&#x27; Union To Support First Responders, Strengthen Public Safety Office of the Mayor Agreement Builds on Mayor Lurie’s Efforts to Keep Firefighters Safe, Strengthen Emergency Response, Improve Public Safety May 8, 2026 SAN FRANCISCO – Mayor Daniel Lurie today signed legislation to enact new labor agreements between the City and County of San Francisco and the International Association of Fire Fighters (IAFF) Local 798 Units 1 and 2. Effective July 1, 2026, through June 30, 2030, the new memorandum of understanding (MOU) prioritizes public safety and invests in San Francisco firefighters and first responders. The legislation signed by Mayor Lurie was cosponsored by Board of Supervisors President Rafael Mandelman, District 2 Supervisor Stephen Sherrill, District 4 Supervisor Alan Wong, and District 5 Supervisor Bilal Mahmood. The MOU with Local 798 continues Mayor Lurie’s work to strengthen public safety and support firefighters amid a difficult budget cycle. At the end of his first year in office, Mayor Lurie announced the San Francisco Fire Department (SFFD) would become the largest department in the United States to transition its entire fleet to non-PFAS turnout gear , keeping firefighters safe. To continue the work to support the city&#x27;s first responders, the mayor recently announced the completion of San Francisco’s Fire Network Modernization Project to replace aging infrastructure at 51 fire stations and broke ground on a new SFFD training facility that will help firefighters and emergency responders develop the tools they need to keep San Franciscans safe. As the city prepares to navigate a difficult budget cycle , Mayor Lurie is preparing to deliver a budget that protects core services including continu...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "golden-city-fc-promised-a-10m-kezar-facelift-a-year-later-it-s-gone-dark-sfgate-",
       "title": "Golden City FC promised a $10M Kezar facelift. A year later, it’s gone dark. - sfgate.com",
       "sourceType": "news",
@@ -1600,6 +1555,51 @@
       "topic": "city_government",
       "summary": "Golden City FC promised a $10M Kezar facelift. A year later, it’s gone dark. &nbsp;&nbsp; sfgate.com",
       "confidence": 0.68
+    },
+    {
+      "id": "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h",
+      "title": "Mayor Lurie Celebrates Visitors Coming Back To San Francisco In Record Numbers | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers/",
+      "publishedAt": "2026-05-07",
+      "topic": "economy",
+      "summary": "2026 Tourism Forecasted to Cross Pre-Pandemic Spending Record, With Conventions, Major Events Fueling Momentum; Following Successful Super Bowl and Ahead of World Cup, Progress Continues Mayor Lurie’s Work to Accelerate Economic Recovery",
+      "confidence": 0.9,
+      "excerpt": "NEWS Mayor Lurie Celebrates Visitors Coming Back To San Francisco In Record Numbers Office of the Mayor 2026 Tourism Forecasted to Cross Pre-Pandemic Spending Record, With Conventions, Major Events Fueling Momentum; Following Successful Super Bowl and Ahead of World Cup, Progress Continues Mayor Lurie’s Work to Accelerate Economic Recovery May 7, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated new data from the San Francisco Travel Association (SF Travel) showing that visitor spending in 2026 is expected to surpass the city’s pre-pandemic record, part of the city’s second consecutive year of tourism growth. Large events and conventions are major drivers of the tourism growth: Building on a successful Super Bowl in February, San Francisco hotels are expected to see a 69% increase since 2024 in occupancy specifically from conferences at Moscone Center. The data comes from SF Travel’s 2026 tourism forecast and 2025 visitor impact results. The progress bringing visitors back to San Francisco continues Mayor Lurie’s work to accelerate San Francisco’s economic recovery. The mayor recently returned from a visit to China and South Korea , where he celebrated San Francisco’s sister city relationships and encouraged tourism to the city. In Shanghai, he partnered with the San Francisco International Airport (SFO) to promote air travel between Shanghai and San Francisco . Earlier this year, the city welcomed hundreds of thousands of visitors for a successful, safe Super Bowl week that brought hundreds of millions of dollars of economic impact to our city. “San Francisco is a city on the rise. We welcomed hundreds of thousands of visitors for a safe and successful Super Bowl week that generated hundreds of millions of dollars in economic impact, and we are continuing to...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "climate-plan-update",
+      "title": "Five-year update to San Francisco Climate Action Plan",
+      "sourceType": "official",
+      "url": "https://www.sfenvironment.org/press/mayor-lurie-releases-five-year-update-climate-action-plan-celebrates-san-francisco-climate",
+      "publishedAt": "2026-04-20",
+      "topic": "climate",
+      "summary": "Climate Action Plan update framed around emissions, household costs, and city resilience.",
+      "confidence": 0.9
+    },
+    {
+      "id": "union-square-programming",
+      "title": "Union Square programming through summer 2027",
+      "sourceType": "official",
+      "url": "https://sfrecpark.org/m/newsflash/home/detail/2708",
+      "publishedAt": "2026-02-10",
+      "topic": "economy",
+      "summary": "Downtown activation and programming effort tied to tourism, foot traffic, and economic recovery.",
+      "confidence": 0.89
+    },
+    {
+      "id": "mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-p",
+      "title": "Mayor Lurie Signs Legislation to Address RV and Vehicular Homelessness, Restore Public Spaces in San Francisco",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-public-spaces-in-san-francisco",
+      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-public-spaces-in-san-francisco",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2025-07-15",
+      "topic": "homelessness",
+      "summary": "Mayor Lurie signed legislation establishing a 24/7 two-hour parking restriction for large vehicles citywide and offering permanent or interim housing to those experiencing vehicular homelessness. The mayor secured $13 million over two fiscal years for rapid rehousing subsidies, a vehicle buyback program, and outreach resources. The city identified 437 vehicles being used for dwelling in May 2025.",
+      "confidence": 0.9
     }
   ],
   "promises": [
@@ -1715,7 +1715,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
+      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -1946,7 +1946,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 771 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 775 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2078,7 +2078,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-07-14T14:16:59.819Z"
+      "lastRefreshed": "2026-07-16T03:43:49.643Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2097,7 +2097,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-07-14T14:16:59.819Z"
+      "lastRefreshed": "2026-07-16T03:43:49.643Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2107,13 +2107,74 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": null,
-      "latest": null,
+      "baseline": 292,
+      "latest": 216,
       "direction": "down_is_good",
-      "observations": [],
-      "status": "needs_verified_source",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 292
+        },
+        {
+          "date": "2025-02-01",
+          "value": 274
+        },
+        {
+          "date": "2025-03-01",
+          "value": 342
+        },
+        {
+          "date": "2025-04-01",
+          "value": 275
+        },
+        {
+          "date": "2025-05-01",
+          "value": 273
+        },
+        {
+          "date": "2025-06-01",
+          "value": 301
+        },
+        {
+          "date": "2025-07-01",
+          "value": 239
+        },
+        {
+          "date": "2025-08-01",
+          "value": 294
+        },
+        {
+          "date": "2025-09-01",
+          "value": 219
+        },
+        {
+          "date": "2025-10-01",
+          "value": 235
+        },
+        {
+          "date": "2025-11-01",
+          "value": 300
+        },
+        {
+          "date": "2025-12-01",
+          "value": 148
+        },
+        {
+          "date": "2026-01-01",
+          "value": 221
+        },
+        {
+          "date": "2026-02-01",
+          "value": 220
+        },
+        {
+          "date": "2026-03-01",
+          "value": 216
+        }
+      ],
+      "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-07-14T14:16:59.819Z",
+      "lastRefreshed": "2026-07-16T03:43:49.643Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2129,13 +2190,34 @@
       "evidenceSourceIds": [
         "datasf-substance-use-services"
       ],
-      "status": "needs_verified_source",
-      "baseline": null,
-      "latest": null,
-      "observations": [],
+      "status": "active",
+      "baseline": 55904,
+      "latest": 56619,
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 55904
+        },
+        {
+          "date": "2025-04-01",
+          "value": 46460
+        },
+        {
+          "date": "2025-07-01",
+          "value": 51108
+        },
+        {
+          "date": "2025-10-01",
+          "value": 41664
+        },
+        {
+          "date": "2026-01-01",
+          "value": 56619
+        }
+      ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-07-14T14:16:59.819Z"
+      "lastRefreshed": "2026-07-16T03:43:49.643Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2150,7 +2232,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 415,
+      "latest": 465,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2222,16 +2304,16 @@
         },
         {
           "date": "2026-06-01",
-          "value": 1366
+          "value": 1365
         },
         {
           "date": "2026-07-01",
-          "value": 415
+          "value": 465
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-07-14T14:16:59.819Z"
+      "lastRefreshed": "2026-07-16T03:43:49.643Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2246,7 +2328,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 771,
+      "latest": 775,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2322,12 +2404,12 @@
         },
         {
           "date": "2026-07-01",
-          "value": 771
+          "value": 775
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-07-14T14:16:59.819Z"
+      "lastRefreshed": "2026-07-16T03:43:49.643Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2346,7 +2428,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-07-14T14:16:59.819Z"
+      "lastRefreshed": "2026-07-16T03:43:49.643Z"
     }
   ],
   "topics": [
@@ -2396,7 +2478,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
+      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
