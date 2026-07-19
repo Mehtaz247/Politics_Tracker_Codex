@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-07-16T03:43:49.784Z",
+    "lastUpdated": "2026-07-19T04:00:48.506Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -239,6 +239,21 @@
       "summary": "Explore our comprehensive climate policy focused on sustainability, clean energy, and environmental justice. Join us in the fight against climate change today!",
       "confidence": 0.94,
       "excerpt": "English 繁体中文 简体中文 Downtown Climate Innovation Hub Accelerate SF’s Recovery & Lead a Clean Energy Revolution At a Glance Maintain safe and clean streets as the foundation of downtown’s recovery. Incentivize cleantech industries to locate in vacant office space downtown. Leverage our lead in artificial intelligence to accelerate a cleantech revolution. Restore San Francisco's leadership in the fight against climate change. The Details The cleantech revolution is coming, and I will ensure it happens in San Francisco. Our downtown area is experiencing a slow recovery with a record-breaking 37% office vacancy rate . Experts predict a full recovery could take decades, if it happens at all. This impacts everything from city tax revenues to the vitality of small businesses and public safety. It’s a sad reality that San Francisco has 35 million square feet of available office space—the equivalent of 22 Salesforce Towers. We’ve experienced one of the slowest recoveries of any major city in the country. But this also presents an opportunity. We Can Make San Francisco a Global Leader in Clean Technology My administration will incentivize cleantech industries to occupy our vacant office spaces. We will create a Climate Innovation Hub by : Lowering Business Taxes: I will reduce business taxes on cleantech companies. A measure likely to be on the November ballot, which I support, will be one important step toward doing this by providing an estimated 59% tax decrease. Fast-Tracking Permitting: Fast lane-permitting for tenant improvements will lessen the time and cost associated with getting businesses up and running. Experts say my My City Hall Accountability Plan will lessen the time it takes to get a building permit by four months. I will make that even faster for new and expandin...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "waymo-under-fire-for-july-4th-traffic-debacle-and-for-leaving-passengers-helples",
+      "title": "Waymo Under Fire For July 4th Traffic Debacle, and For Leaving Passengers Helpless In Vandalism Situations",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/07/17/waymo-under-fire-for-july-4th-traffic-debacle-and-for-leaving-passengers-helpless-in-vandalism-situations/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-07-17",
+      "topic": "economy",
+      "summary": "We have a new and scary story about a Waymo vandalism situation that left a passenger helpless and in grave danger, and Mayor Daniel Lurie has reached out to the state about Waymos compounding the traffic nightmare on July 4th, and what could be done about it.",
+      "confidence": 0.8,
+      "excerpt": "17 July 2026 / Business & Tech / Jay Barmann Waymo Under Fire For July 4th Traffic Debacle, and For Leaving Passengers Helpless In Vandalism Situations --> We have a new and scary story about a Waymo vandalism situation that left a passenger helpless and in grave danger, and Mayor Daniel Lurie has reached out to the state about Waymos compounding the traffic nightmare on July 4th, and what could be done about it. Waymo is having a bad couple of months in the press, just as the autonomous car company is in the midst of a broad expansion effort in multiple US cities. First there was a glitch that was causing Waymos in San Antonio to drive into deeply flooded streets . Then there were the construction zone troubles, which led Waymo to temporarily suspend all freeway service in May. Then there was the grand debacle of July 4th in San Francisco, in which Waymo vehicles were widely documented blocking traffic, driving over lit fireworks , and appearing to stall en masse on a key connector road in the Presidio, making the already congested traffic situation even worse. The July 4th situation served to confirm what city officials had already seen during the December power outage, when Waymos became a hazard and a liability on the streets in an emergency, causing gridlock because they were unable to navigate through intersections with no traffic signals. SF Mayor Daniel Lurie wrote a letter this week to the State Secretary of Transportation Toks Omishakin, as NBC Bay Area reports , urging state leaders to take action in creating regulation around autonomous vehicles and major events or emergencies. Lurie wrote, per the Chronicle , that on July 4th, \"Waymo vehicles struggled to navigate growing volumes of vehicular traffic and pedestrians,\" and \"By the end of the fireworks sho...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1587,19 +1602,6 @@
       "topic": "economy",
       "summary": "Downtown activation and programming effort tied to tourism, foot traffic, and economic recovery.",
       "confidence": 0.89
-    },
-    {
-      "id": "mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-p",
-      "title": "Mayor Lurie Signs Legislation to Address RV and Vehicular Homelessness, Restore Public Spaces in San Francisco",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-public-spaces-in-san-francisco",
-      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-signs-legislation-to-address-rv-and-vehicular-homelessness-restore-public-spaces-in-san-francisco",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF.gov",
-      "publishedAt": "2025-07-15",
-      "topic": "homelessness",
-      "summary": "Mayor Lurie signed legislation establishing a 24/7 two-hour parking restriction for large vehicles citywide and offering permanent or interim housing to those experiencing vehicular homelessness. The mayor secured $13 million over two fiscal years for rapid rehousing subsidies, a vehicle buyback program, and outreach resources. The city identified 437 vehicles being used for dwelling in May 2025.",
-      "confidence": 0.9
     }
   ],
   "promises": [
@@ -1946,7 +1948,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 775 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 867 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2078,7 +2080,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-07-16T03:43:49.643Z"
+      "lastRefreshed": "2026-07-19T04:00:47.627Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2097,7 +2099,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-07-16T03:43:49.643Z"
+      "lastRefreshed": "2026-07-19T04:00:47.627Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2174,7 +2176,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-07-16T03:43:49.643Z",
+      "lastRefreshed": "2026-07-19T04:00:47.627Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2217,7 +2219,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-07-16T03:43:49.643Z"
+      "lastRefreshed": "2026-07-19T04:00:47.627Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2232,7 +2234,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 465,
+      "latest": 617,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2308,12 +2310,12 @@
         },
         {
           "date": "2026-07-01",
-          "value": 465
+          "value": 617
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-07-16T03:43:49.643Z"
+      "lastRefreshed": "2026-07-19T04:00:47.627Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2328,7 +2330,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 775,
+      "latest": 867,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2404,12 +2406,12 @@
         },
         {
           "date": "2026-07-01",
-          "value": 775
+          "value": 867
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-07-16T03:43:49.643Z"
+      "lastRefreshed": "2026-07-19T04:00:47.627Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2428,7 +2430,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-07-16T03:43:49.643Z"
+      "lastRefreshed": "2026-07-19T04:00:47.627Z"
     }
   ],
   "topics": [
@@ -2533,14 +2535,25 @@
   ],
   "majorNews": [
     {
-      "id": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
-      "headline": "San Francisco Finalizes $17 Billion Budget, Restores Millions in Proposed Cuts | KQED",
-      "url": "https://www.kqed.org/news/12089007/san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts",
-      "publishedAt": "2026-06-26",
-      "publisher": "KQED",
-      "topic": "economy",
-      "whyItMatters": "The agreement moves the city toward closing its $600 million deficit and adds back $28 million for public services and jobs.",
-      "sourceId": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
+      "id": "mayor-lurie-takes-new-steps-to-keep-san-franciscans-on-critical-food-assistance",
+      "headline": "Mayor Lurie Takes New Steps To Keep San Franciscans On Critical Food Assistance After Federal Cuts | SF.gov",
+      "url": "https://www.sf.gov/news-mayor-lurie-takes-new-steps-to-keep-san-franciscans-on-critical-food-assistance-after-federal-cuts/",
+      "publishedAt": "2026-07-06",
+      "publisher": "SF.gov",
+      "topic": "transit",
+      "whyItMatters": "With Tens of Thousands of San Franciscans at Risk of Losing Benefits, SFHSA’s New CalFresh Community Works Program Will Help Residents Meet New Requirements; Through New RFP, City Seeking Nonprofit Partner to Identify Volunteer Opportunities for Residents to Satisfy Work Requirements, Serve Communities; Builds on Significant Investments in Mayor Lurie’s Budget to Strengthen Social Safety Net, Keep Families on Healthcare and Food Assistance Programs",
+      "sourceId": "mayor-lurie-takes-new-steps-to-keep-san-franciscans-on-critical-food-assistance-",
+      "selectionMethod": "fallback"
+    },
+    {
+      "id": "waymo-under-fire-for-july-4th-traffic-debacle-and-for-leaving-passengers-helples",
+      "headline": "Waymo Under Fire For July 4th Traffic Debacle, and For Leaving Passengers Helpless In Vandalism Situations",
+      "url": "https://sfist.com/2026/07/17/waymo-under-fire-for-july-4th-traffic-debacle-and-for-leaving-passengers-helpless-in-vandalism-situations/",
+      "publishedAt": "2026-07-17",
+      "publisher": "SFist",
+      "topic": "city_government",
+      "whyItMatters": "We have a new and scary story about a Waymo vandalism situation that left a passenger helpless and in grave danger, and Mayor Daniel Lurie has reached out to the state about Waymos compounding the traffic nightmare on July 4th, and what could be done about it.",
+      "sourceId": "waymo-under-fire-for-july-4th-traffic-debacle-and-for-leaving-passengers-helples",
       "selectionMethod": "fallback"
     },
     {
@@ -2552,17 +2565,6 @@
       "topic": "economy",
       "whyItMatters": "“Forever Grateful, Golden Gate Park” Opens September 5, Opening Weekend Festivities Include Free Grahame Lesh and Friends Concert; Open Through October 25, Exhibition Will Feature Ken Kesey and the Merry Pranksters&#x27; Iconic “Furthur” Bus; Follows Mayor Lurie’s Summer of Music Last Year and Major Events like Super Bowl and World Cup in Recent Months, Driving Tourism to Record Highs",
       "sourceId": "mayor-lurie-announces-new-immersive-grateful-dead-exhibition-free-concert-by-ban",
-      "selectionMethod": "fallback"
-    },
-    {
-      "id": "after-pride-weekend-arrests-trans-march-organizers-meet-with-mayor-lurie-to-call",
-      "headline": "After Pride weekend arrests, Trans March organizers meet with Mayor Lurie to call for change",
-      "url": "https://missionlocal.org/2026/07/san-francisco-trans-march-organizers-daniel-lurie-pride-arrests/",
-      "publishedAt": "2026-07-14",
-      "publisher": "Mission Local",
-      "topic": "city_government",
-      "whyItMatters": "Trans March organizers met with Mayor Daniel Lurie on Monday morning to present a letter of demands regarding two incidents of policing and the arrests of five people",
-      "sourceId": "after-pride-weekend-arrests-trans-march-organizers-meet-with-mayor-lurie-to-call",
       "selectionMethod": "fallback"
     }
   ],
