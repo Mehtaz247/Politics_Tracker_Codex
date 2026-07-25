@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-07-22T03:51:43.758Z",
+    "lastUpdated": "2026-07-25T03:42:42.005Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -239,6 +239,21 @@
       "summary": "Explore our comprehensive climate policy focused on sustainability, clean energy, and environmental justice. Join us in the fight against climate change today!",
       "confidence": 0.94,
       "excerpt": "English 繁体中文 简体中文 Downtown Climate Innovation Hub Accelerate SF’s Recovery & Lead a Clean Energy Revolution At a Glance Maintain safe and clean streets as the foundation of downtown’s recovery. Incentivize cleantech industries to locate in vacant office space downtown. Leverage our lead in artificial intelligence to accelerate a cleantech revolution. Restore San Francisco's leadership in the fight against climate change. The Details The cleantech revolution is coming, and I will ensure it happens in San Francisco. Our downtown area is experiencing a slow recovery with a record-breaking 37% office vacancy rate . Experts predict a full recovery could take decades, if it happens at all. This impacts everything from city tax revenues to the vitality of small businesses and public safety. It’s a sad reality that San Francisco has 35 million square feet of available office space—the equivalent of 22 Salesforce Towers. We’ve experienced one of the slowest recoveries of any major city in the country. But this also presents an opportunity. We Can Make San Francisco a Global Leader in Clean Technology My administration will incentivize cleantech industries to occupy our vacant office spaces. We will create a Climate Innovation Hub by : Lowering Business Taxes: I will reduce business taxes on cleantech companies. A measure likely to be on the November ballot, which I support, will be one important step toward doing this by providing an estimated 59% tax decrease. Fast-Tracking Permitting: Fast lane-permitting for tenant improvements will lessen the time and cost associated with getting businesses up and running. Experts say my My City Hall Accountability Plan will lessen the time it takes to get a building permit by four months. I will make that even faster for new and expandin...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "san-francisco-eight-story-tower-in-inner-richmond-is-1st-under-mayor-s-upzoning-",
+      "title": "San Francisco eight-story tower in Inner Richmond is 1st under mayor",
+      "sourceType": "news",
+      "url": "https://www.cbsnews.com/sanfrancisco/video/san-francisco-eight-story-tower-in-inner-richmond-is-1st-under-mayors-upzoning-plan/",
+      "discoveryUrl": "https://www.cbsnews.com/sanfrancisco/latest/rss/main",
+      "discoverySource": "CBS San Francisco",
+      "publisher": "CBS San Francisco",
+      "publishedAt": "2026-07-25",
+      "topic": "public_safety",
+      "summary": "The San Francisco Planning Commission has approved the first new project that qualifies under Mayor Daniel Lurie's plan to build more housing in neighborhoods across the city. Brad Hamilton reports.",
+      "confidence": 0.8,
+      "excerpt": "San Francisco eight-story tower in Inner Richmond is 1st under mayor's upzoning plan - CBS San Francisco Bay Area Top News SF/Peninsula News East Bay News South Bay News North Bay News Bay Area Crime Tech Health Politics LGBTQ Entertainment KPIX Special Reports First Alert Weather Radars & Maps All Sports CBS Sports HQ San Francisco 49ers San Francisco Giants Golden State Warriors Golden State Valkyries San Jose Sharks Cal Stanford College Sports Station Info KPIX What's On KPIX Contests & Promotions Advertise With Us Contact Us Download the App Galleries Memorials Watch CBS News San Francisco eight-story tower in Inner Richmond is 1st under mayor's upzoning plan The San Francisco Planning Commission has approved the first new project that qualifies under Mayor Daniel Lurie's plan to build more housing in neighborhoods across the city. Brad Hamilton reports. View CBS News In CBS News App Open Chrome Safari Continue",
       "scrapeStatus": "scraped"
     },
     {
@@ -1592,16 +1607,6 @@
       "topic": "climate",
       "summary": "Climate Action Plan update framed around emissions, household costs, and city resilience.",
       "confidence": 0.9
-    },
-    {
-      "id": "union-square-programming",
-      "title": "Union Square programming through summer 2027",
-      "sourceType": "official",
-      "url": "https://sfrecpark.org/m/newsflash/home/detail/2708",
-      "publishedAt": "2026-02-10",
-      "topic": "economy",
-      "summary": "Downtown activation and programming effort tied to tourism, foot traffic, and economic recovery.",
-      "confidence": 0.89
     }
   ],
   "promises": [
@@ -1717,7 +1722,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
+      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -1948,7 +1953,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 874 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 918 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2080,7 +2085,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-07-22T03:51:43.569Z"
+      "lastRefreshed": "2026-07-25T03:42:41.888Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2099,7 +2104,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-07-22T03:51:43.569Z"
+      "lastRefreshed": "2026-07-25T03:42:41.888Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2109,13 +2114,74 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": null,
-      "latest": null,
+      "baseline": 292,
+      "latest": 216,
       "direction": "down_is_good",
-      "observations": [],
-      "status": "needs_verified_source",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 292
+        },
+        {
+          "date": "2025-02-01",
+          "value": 274
+        },
+        {
+          "date": "2025-03-01",
+          "value": 342
+        },
+        {
+          "date": "2025-04-01",
+          "value": 275
+        },
+        {
+          "date": "2025-05-01",
+          "value": 273
+        },
+        {
+          "date": "2025-06-01",
+          "value": 301
+        },
+        {
+          "date": "2025-07-01",
+          "value": 239
+        },
+        {
+          "date": "2025-08-01",
+          "value": 294
+        },
+        {
+          "date": "2025-09-01",
+          "value": 219
+        },
+        {
+          "date": "2025-10-01",
+          "value": 235
+        },
+        {
+          "date": "2025-11-01",
+          "value": 300
+        },
+        {
+          "date": "2025-12-01",
+          "value": 148
+        },
+        {
+          "date": "2026-01-01",
+          "value": 221
+        },
+        {
+          "date": "2026-02-01",
+          "value": 220
+        },
+        {
+          "date": "2026-03-01",
+          "value": 216
+        }
+      ],
+      "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-07-22T03:51:43.569Z",
+      "lastRefreshed": "2026-07-25T03:42:41.888Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2158,7 +2224,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-07-22T03:51:43.569Z"
+      "lastRefreshed": "2026-07-25T03:42:41.888Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2173,7 +2239,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 663,
+      "latest": 827,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2249,12 +2315,12 @@
         },
         {
           "date": "2026-07-01",
-          "value": 663
+          "value": 827
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-07-22T03:51:43.569Z"
+      "lastRefreshed": "2026-07-25T03:42:41.888Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2269,7 +2335,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 874,
+      "latest": 918,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2345,12 +2411,12 @@
         },
         {
           "date": "2026-07-01",
-          "value": 874
+          "value": 918
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-07-22T03:51:43.569Z"
+      "lastRefreshed": "2026-07-25T03:42:41.888Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2369,7 +2435,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-07-22T03:51:43.569Z"
+      "lastRefreshed": "2026-07-25T03:42:41.888Z"
     }
   ],
   "topics": [
@@ -2419,7 +2485,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
+      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -2485,6 +2551,17 @@
       "selectionMethod": "fallback"
     },
     {
+      "id": "san-francisco-eight-story-tower-in-inner-richmond-is-1st-under-mayor-s-upzoning",
+      "headline": "San Francisco eight-story tower in Inner Richmond is 1st under mayor",
+      "url": "https://www.cbsnews.com/sanfrancisco/video/san-francisco-eight-story-tower-in-inner-richmond-is-1st-under-mayors-upzoning-plan/",
+      "publishedAt": "2026-07-25",
+      "publisher": "CBS San Francisco",
+      "topic": "housing",
+      "whyItMatters": "The San Francisco Planning Commission has approved the first new project that qualifies under Mayor Daniel Lurie's plan to build more housing in neighborhoods across the city. Brad Hamilton reports.",
+      "sourceId": "san-francisco-eight-story-tower-in-inner-richmond-is-1st-under-mayor-s-upzoning-",
+      "selectionMethod": "fallback"
+    },
+    {
       "id": "waymo-under-fire-for-july-4th-traffic-debacle-and-for-leaving-passengers-helples",
       "headline": "Waymo Under Fire For July 4th Traffic Debacle, and For Leaving Passengers Helpless In Vandalism Situations",
       "url": "https://sfist.com/2026/07/17/waymo-under-fire-for-july-4th-traffic-debacle-and-for-leaving-passengers-helpless-in-vandalism-situations/",
@@ -2493,17 +2570,6 @@
       "topic": "city_government",
       "whyItMatters": "We have a new and scary story about a Waymo vandalism situation that left a passenger helpless and in grave danger, and Mayor Daniel Lurie has reached out to the state about Waymos compounding the traffic nightmare on July 4th, and what could be done about it.",
       "sourceId": "waymo-under-fire-for-july-4th-traffic-debacle-and-for-leaving-passengers-helples",
-      "selectionMethod": "fallback"
-    },
-    {
-      "id": "mayor-lurie-announces-new-immersive-grateful-dead-exhibition-free-concert-by-ban",
-      "headline": "Mayor Lurie Announces New Immersive Grateful Dead Exhibition, Free Concert By Band Legend&#x27;s Son In Golden Gate Park | SF.gov",
-      "url": "https://www.sf.gov/news-mayor-lurie-announces-new-immersive-grateful-dead-exhibition-free-concert-by-band-legends-son-in-golden-gate-park/",
-      "publishedAt": "2026-07-09",
-      "publisher": "SF.gov",
-      "topic": "economy",
-      "whyItMatters": "“Forever Grateful, Golden Gate Park” Opens September 5, Opening Weekend Festivities Include Free Grahame Lesh and Friends Concert; Open Through October 25, Exhibition Will Feature Ken Kesey and the Merry Pranksters&#x27; Iconic “Furthur” Bus; Follows Mayor Lurie’s Summer of Music Last Year and Major Events like Super Bowl and World Cup in Recent Months, Driving Tourism to Record Highs",
-      "sourceId": "mayor-lurie-announces-new-immersive-grateful-dead-exhibition-free-concert-by-ban",
       "selectionMethod": "fallback"
     }
   ],
