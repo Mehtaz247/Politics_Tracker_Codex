@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-07-25T03:42:42.005Z",
+    "lastUpdated": "2026-07-28T03:42:27.378Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -239,6 +239,21 @@
       "summary": "Explore our comprehensive climate policy focused on sustainability, clean energy, and environmental justice. Join us in the fight against climate change today!",
       "confidence": 0.94,
       "excerpt": "English 繁体中文 简体中文 Downtown Climate Innovation Hub Accelerate SF’s Recovery & Lead a Clean Energy Revolution At a Glance Maintain safe and clean streets as the foundation of downtown’s recovery. Incentivize cleantech industries to locate in vacant office space downtown. Leverage our lead in artificial intelligence to accelerate a cleantech revolution. Restore San Francisco's leadership in the fight against climate change. The Details The cleantech revolution is coming, and I will ensure it happens in San Francisco. Our downtown area is experiencing a slow recovery with a record-breaking 37% office vacancy rate . Experts predict a full recovery could take decades, if it happens at all. This impacts everything from city tax revenues to the vitality of small businesses and public safety. It’s a sad reality that San Francisco has 35 million square feet of available office space—the equivalent of 22 Salesforce Towers. We’ve experienced one of the slowest recoveries of any major city in the country. But this also presents an opportunity. We Can Make San Francisco a Global Leader in Clean Technology My administration will incentivize cleantech industries to occupy our vacant office spaces. We will create a Climate Innovation Hub by : Lowering Business Taxes: I will reduce business taxes on cleantech companies. A measure likely to be on the November ballot, which I support, will be one important step toward doing this by providing an estimated 59% tax decrease. Fast-Tracking Permitting: Fast lane-permitting for tenant improvements will lessen the time and cost associated with getting businesses up and running. Experts say my My City Hall Accountability Plan will lessen the time it takes to get a building permit by four months. I will make that even faster for new and expandin...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "san-francisco-condo-tower-is-first-project-to-be-approved-under-mayor-s-neighbor",
+      "title": "San Francisco condo tower is first project to be approved under mayor's neighborhood housing push",
+      "sourceType": "news",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-condo-tower-anza-street-upzoning-housing/",
+      "discoveryUrl": "https://www.cbsnews.com/sanfrancisco/latest/rss/main",
+      "discoverySource": "CBS San Francisco",
+      "publisher": "CBS San Francisco",
+      "publishedAt": "2026-07-27",
+      "topic": "transit",
+      "summary": "The San Francisco Planning Commission has approved the first new project that qualifies under Mayor Daniel Lurie's plan to build more housing in neighborhoods across the city.",
+      "confidence": 0.8,
+      "excerpt": "The San Francisco Planning Commission has approved the first new project that qualifies under Mayor Daniel Lurie's plan to build more housing in neighborhoods across the city.The project is an eight-story condominium tower at 230 Anza Street in the Inner Richmond District across the University of San Francisco campus.Allen Cohn has lived on that block of Anza Street for two decades. And for half that time, he's hoped the property next door would find itself a new owner.\"I mean we have all been thinking, families could be living here. And for some reason, it's been allowed to go undeveloped for ten years,\" Cohn said.Cohn says what currently sits at 230 Anza Street is an eyesore. What could soon replace it is an eye-catcher. And from his perspective, not in a good way.\"And I'm afraid my little two-story building is going to look like the home in the movie 'Up,'\" Cohn joked.At Thursday night's Planning Commission meeting, the future of this long-neglected space was set into motion as the mayor's Family Zoning Plan's first new housing project. A rendering of the proposed condo tower from developer IvyHills LLC shows it rising above a neighborhood of mostly two- to three-story homes, with floor plans that range from one to three bedrooms.During the meeting, Commissioner Amy Campbell acknowledged the awkward nature of the look, while making clear why she felt this needed to happen.\"You're right, it doesn't look like it fits in and I think that's kind of the growing pains of the family zoning plan\" Campbell explained. \"But I would argue that's not that the building is too tall but that we have allowed buildings to stay small.\"Juliana Lamm-Perez, a member of SF YIMBY, a group that advocates for new housing, agrees that this project is exactly what the city needs right now. A...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1597,16 +1612,6 @@
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Celebrates Visitors Coming Back To San Francisco In Record Numbers Office of the Mayor 2026 Tourism Forecasted to Cross Pre-Pandemic Spending Record, With Conventions, Major Events Fueling Momentum; Following Successful Super Bowl and Ahead of World Cup, Progress Continues Mayor Lurie’s Work to Accelerate Economic Recovery May 7, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated new data from the San Francisco Travel Association (SF Travel) showing that visitor spending in 2026 is expected to surpass the city’s pre-pandemic record, part of the city’s second consecutive year of tourism growth. Large events and conventions are major drivers of the tourism growth: Building on a successful Super Bowl in February, San Francisco hotels are expected to see a 69% increase since 2024 in occupancy specifically from conferences at Moscone Center. The data comes from SF Travel’s 2026 tourism forecast and 2025 visitor impact results. The progress bringing visitors back to San Francisco continues Mayor Lurie’s work to accelerate San Francisco’s economic recovery. The mayor recently returned from a visit to China and South Korea , where he celebrated San Francisco’s sister city relationships and encouraged tourism to the city. In Shanghai, he partnered with the San Francisco International Airport (SFO) to promote air travel between Shanghai and San Francisco . Earlier this year, the city welcomed hundreds of thousands of visitors for a successful, safe Super Bowl week that brought hundreds of millions of dollars of economic impact to our city. “San Francisco is a city on the rise. We welcomed hundreds of thousands of visitors for a safe and successful Super Bowl week that generated hundreds of millions of dollars in economic impact, and we are continuing to...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "climate-plan-update",
-      "title": "Five-year update to San Francisco Climate Action Plan",
-      "sourceType": "official",
-      "url": "https://www.sfenvironment.org/press/mayor-lurie-releases-five-year-update-climate-action-plan-celebrates-san-francisco-climate",
-      "publishedAt": "2026-04-20",
-      "topic": "climate",
-      "summary": "Climate Action Plan update framed around emissions, household costs, and city resilience.",
-      "confidence": 0.9
     }
   ],
   "promises": [
@@ -1722,7 +1727,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
+      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -1953,7 +1958,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 918 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 920 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2085,7 +2090,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-07-25T03:42:41.888Z"
+      "lastRefreshed": "2026-07-28T03:42:27.243Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2104,7 +2109,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-07-25T03:42:41.888Z"
+      "lastRefreshed": "2026-07-28T03:42:27.243Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2114,74 +2119,13 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": 292,
-      "latest": 216,
+      "baseline": null,
+      "latest": null,
       "direction": "down_is_good",
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 292
-        },
-        {
-          "date": "2025-02-01",
-          "value": 274
-        },
-        {
-          "date": "2025-03-01",
-          "value": 342
-        },
-        {
-          "date": "2025-04-01",
-          "value": 275
-        },
-        {
-          "date": "2025-05-01",
-          "value": 273
-        },
-        {
-          "date": "2025-06-01",
-          "value": 301
-        },
-        {
-          "date": "2025-07-01",
-          "value": 239
-        },
-        {
-          "date": "2025-08-01",
-          "value": 294
-        },
-        {
-          "date": "2025-09-01",
-          "value": 219
-        },
-        {
-          "date": "2025-10-01",
-          "value": 235
-        },
-        {
-          "date": "2025-11-01",
-          "value": 300
-        },
-        {
-          "date": "2025-12-01",
-          "value": 148
-        },
-        {
-          "date": "2026-01-01",
-          "value": 221
-        },
-        {
-          "date": "2026-02-01",
-          "value": 220
-        },
-        {
-          "date": "2026-03-01",
-          "value": 216
-        }
-      ],
-      "status": "active",
+      "observations": [],
+      "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-07-25T03:42:41.888Z",
+      "lastRefreshed": "2026-07-28T03:42:27.243Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2224,7 +2168,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-07-25T03:42:41.888Z"
+      "lastRefreshed": "2026-07-28T03:42:27.243Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2239,7 +2183,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 827,
+      "latest": 875,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2315,12 +2259,12 @@
         },
         {
           "date": "2026-07-01",
-          "value": 827
+          "value": 875
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-07-25T03:42:41.888Z"
+      "lastRefreshed": "2026-07-28T03:42:27.243Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2335,7 +2279,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 918,
+      "latest": 920,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2411,12 +2355,12 @@
         },
         {
           "date": "2026-07-01",
-          "value": 918
+          "value": 920
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-07-25T03:42:41.888Z"
+      "lastRefreshed": "2026-07-28T03:42:27.243Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2435,7 +2379,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-07-25T03:42:41.888Z"
+      "lastRefreshed": "2026-07-28T03:42:27.243Z"
     }
   ],
   "topics": [
@@ -2485,7 +2429,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -2540,14 +2484,25 @@
   ],
   "majorNews": [
     {
-      "id": "mayor-lurie-takes-new-steps-to-keep-san-franciscans-on-critical-food-assistance",
-      "headline": "Mayor Lurie Takes New Steps To Keep San Franciscans On Critical Food Assistance After Federal Cuts | SF.gov",
-      "url": "https://www.sf.gov/news-mayor-lurie-takes-new-steps-to-keep-san-franciscans-on-critical-food-assistance-after-federal-cuts/",
-      "publishedAt": "2026-07-06",
+      "id": "mayor-lurie-breaks-ground-on-76-million-modernization-of-public-health-center-in",
+      "headline": "Mayor Lurie Breaks Ground On $76 Million Modernization Of Public Health Center In Chinatown | SF.gov",
+      "url": "https://www.sf.gov/news-mayor-lurie-breaks-ground-on-76-million-modernization-of-public-health-center-in-chinatown/",
+      "publishedAt": "2026-07-07",
       "publisher": "SF.gov",
-      "topic": "transit",
-      "whyItMatters": "With Tens of Thousands of San Franciscans at Risk of Losing Benefits, SFHSA’s New CalFresh Community Works Program Will Help Residents Meet New Requirements; Through New RFP, City Seeking Nonprofit Partner to Identify Volunteer Opportunities for Residents to Satisfy Work Requirements, Serve Communities; Builds on Significant Investments in Mayor Lurie’s Budget to Strengthen Social Safety Net, Keep Families on Healthcare and Food Assistance Programs",
-      "sourceId": "mayor-lurie-takes-new-steps-to-keep-san-franciscans-on-critical-food-assistance-",
+      "topic": "city_government",
+      "whyItMatters": "Top-to-Bottom Renovation Will Deliver Seismic Upgrades at City’s Most Seismically Vulnerable Clinic Along With Dental Care Expansion, New Exam Rooms; Continues Mayor Lurie’s Investments in San Franciscans’ Healthcare Despite Federal Cuts",
+      "sourceId": "mayor-lurie-breaks-ground-on-76-million-modernization-of-public-health-center-in",
+      "selectionMethod": "fallback"
+    },
+    {
+      "id": "san-francisco-condo-tower-is-first-project-to-be-approved-under-mayor-s-neighbor",
+      "headline": "San Francisco condo tower is first project to be approved under mayor's neighborhood housing push",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-condo-tower-anza-street-upzoning-housing/",
+      "publishedAt": "2026-07-27",
+      "publisher": "CBS San Francisco",
+      "topic": "housing",
+      "whyItMatters": "The San Francisco Planning Commission has approved the first new project that qualifies under Mayor Daniel Lurie's plan to build more housing in neighborhoods across the city.",
+      "sourceId": "san-francisco-condo-tower-is-first-project-to-be-approved-under-mayor-s-neighbor",
       "selectionMethod": "fallback"
     },
     {
@@ -2559,17 +2514,6 @@
       "topic": "housing",
       "whyItMatters": "The San Francisco Planning Commission has approved the first new project that qualifies under Mayor Daniel Lurie's plan to build more housing in neighborhoods across the city. Brad Hamilton reports.",
       "sourceId": "san-francisco-eight-story-tower-in-inner-richmond-is-1st-under-mayor-s-upzoning-",
-      "selectionMethod": "fallback"
-    },
-    {
-      "id": "waymo-under-fire-for-july-4th-traffic-debacle-and-for-leaving-passengers-helples",
-      "headline": "Waymo Under Fire For July 4th Traffic Debacle, and For Leaving Passengers Helpless In Vandalism Situations",
-      "url": "https://sfist.com/2026/07/17/waymo-under-fire-for-july-4th-traffic-debacle-and-for-leaving-passengers-helpless-in-vandalism-situations/",
-      "publishedAt": "2026-07-17",
-      "publisher": "SFist",
-      "topic": "city_government",
-      "whyItMatters": "We have a new and scary story about a Waymo vandalism situation that left a passenger helpless and in grave danger, and Mayor Daniel Lurie has reached out to the state about Waymos compounding the traffic nightmare on July 4th, and what could be done about it.",
-      "sourceId": "waymo-under-fire-for-july-4th-traffic-debacle-and-for-leaving-passengers-helples",
       "selectionMethod": "fallback"
     }
   ],
