@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-07-28T03:42:27.378Z",
+    "lastUpdated": "2026-07-31T03:55:51.398Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -239,6 +239,36 @@
       "summary": "Explore our comprehensive climate policy focused on sustainability, clean energy, and environmental justice. Join us in the fight against climate change today!",
       "confidence": 0.94,
       "excerpt": "English 繁体中文 简体中文 Downtown Climate Innovation Hub Accelerate SF’s Recovery & Lead a Clean Energy Revolution At a Glance Maintain safe and clean streets as the foundation of downtown’s recovery. Incentivize cleantech industries to locate in vacant office space downtown. Leverage our lead in artificial intelligence to accelerate a cleantech revolution. Restore San Francisco's leadership in the fight against climate change. The Details The cleantech revolution is coming, and I will ensure it happens in San Francisco. Our downtown area is experiencing a slow recovery with a record-breaking 37% office vacancy rate . Experts predict a full recovery could take decades, if it happens at all. This impacts everything from city tax revenues to the vitality of small businesses and public safety. It’s a sad reality that San Francisco has 35 million square feet of available office space—the equivalent of 22 Salesforce Towers. We’ve experienced one of the slowest recoveries of any major city in the country. But this also presents an opportunity. We Can Make San Francisco a Global Leader in Clean Technology My administration will incentivize cleantech industries to occupy our vacant office spaces. We will create a Climate Innovation Hub by : Lowering Business Taxes: I will reduce business taxes on cleantech companies. A measure likely to be on the November ballot, which I support, will be one important step toward doing this by providing an estimated 59% tax decrease. Fast-Tracking Permitting: Fast lane-permitting for tenant improvements will lessen the time and cost associated with getting businesses up and running. Experts say my My City Hall Accountability Plan will lessen the time it takes to get a building permit by four months. I will make that even faster for new and expandin...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "sf-mayor-lurie-s-clean-up-city-hall-measures-qualify-for-november-ballot-2026-07",
+      "title": "SF Mayor Lurie’s ‘Clean Up City Hall’ Measures Qualify For November Ballot",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/07/29/sf-mayor-luries-clean-up-city-hall-measures-qualify-for-november-ballot/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-07-30",
+      "topic": "homelessness",
+      "summary": "Three Lurie-backed measures headed to the November ballot seek to \"streamline\" City Hall, including two that would expand the mayor&#x27;s authority and one that would significantly raise the minimum number of signatures required for petitions.",
+      "confidence": 0.8,
+      "excerpt": "29 July 2026 / SF Politics / Leanne Maxwell SF Mayor Lurie’s ‘Clean Up City Hall’ Measures Qualify For November Ballot --> Three Lurie-backed measures headed to the November ballot seek to \"streamline\" City Hall, including two that would expand the mayor's authority and one that would significantly raise the minimum number of signatures required for petitions. The San Francisco Department of Elections announced this week that all three \"Clean Up City Hall\" measures met the signature threshold after a random sampling verification, according to a press release from the Clean Up City Hall campaign. As the Chronicle reports , the proposals would change how city departments are managed, overhaul contracting rules, and raise the number of signatures needed for most local ballot measures from roughly 10,600 to about 42,500. Lurie has pitched the proposals as an effort to cut through bureaucracy that he argues has made it difficult for the city to respond quickly to issues like housing, homelessness, and other longstanding challenges. His campaign has framed the measures as a way to make city government more accountable and reduce the lengthy, often confusing ballots residents regularly face. “What we are trying to do is to simplify ballots and actually make supervisors and the mayor work together to come to agreement and stop putting everything in front of the voters,” Lurie said in March, per SF Examiner . “It rewards division.” The most far-reaching proposal would give the mayor significantly more authority over the executive branch. Under the measure, the mayor could hire and remove most department heads within the executive branch, reorganize departments and reporting structures unless the Board of Supervisors rejects those changes, appoint deputy mayors to oversee city...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-s-bid-to-reshape-s-f-city-hall-gets-first-official-opponent-2026-07-",
+      "title": "Mayor Lurie’s bid to reshape S.F. City Hall gets first official opponent",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/07/sf-mayors-bid-to-reshape-city-hall-gets-first-official-opponent/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-07-28",
+      "topic": "economy",
+      "summary": "Mayor Daniel Lurie’s billionaire-backed effort had, until now, faced little formal pushback",
+      "confidence": 0.82,
+      "excerpt": "html,body{height:100%;margin:0}body{display:flex;align-items:center;justify-content:center;background:#f5f5f5;color:#555;font:14px Arial,sans-serif} Audio player will appear shortly. (function(){var f=frameElement,s=f&&f.getAttribute(\"data-ml-everlit-src\");function l(){if(!f||!s||f.hasAttribute(\"src\"))return;var r=parent.document.documentElement;if(r.classList.contains(\"ml-audio-arm-control\"))return;f.setAttribute(\"src\",s);f.removeAttribute(\"srcdoc\");f.removeAttribute(\"data-ml-everlit-src\")}if(parent.document.readyState===\"complete\")setTimeout(l,1500);else parent.addEventListener(\"load\",function(){setTimeout(l,1500)},{once:true})}()); \" title=\"Everlit Audio Player\" width=\"100%\" height=\"136px\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen> San Francisco Mayor Daniel Lurie is popular — and, if he gets his way this November, he’ll be even more powerful, too. For months, his campaign to pass three ballot measures, which is backed by some $9 million from wealthy allies and would further centralize power at City Hall, had roused no formal objections. Until now. A group of progressive activists and campaign consultants filed papers on Friday to form an official ballot committee called “Fair Ballot Access” to oppose one of the three charter amendments Lurie wants voters to pass in November. The new committee opposes the Lurie measure that would increase the number of signatures needed for a citizen-led initiative to qualify for the ballot. The threshold would rise from 2 percent of registered voters (some 10,700 today) to 8 percent (about 42,000). The measure would raise the hurdle for residents putting their own issues before voters. It would also bring San Francisco closer in line...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1590,28 +1620,6 @@
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Signs Legislation With Firefighters&#x27; Union To Support First Responders, Strengthen Public Safety Office of the Mayor Agreement Builds on Mayor Lurie’s Efforts to Keep Firefighters Safe, Strengthen Emergency Response, Improve Public Safety May 8, 2026 SAN FRANCISCO – Mayor Daniel Lurie today signed legislation to enact new labor agreements between the City and County of San Francisco and the International Association of Fire Fighters (IAFF) Local 798 Units 1 and 2. Effective July 1, 2026, through June 30, 2030, the new memorandum of understanding (MOU) prioritizes public safety and invests in San Francisco firefighters and first responders. The legislation signed by Mayor Lurie was cosponsored by Board of Supervisors President Rafael Mandelman, District 2 Supervisor Stephen Sherrill, District 4 Supervisor Alan Wong, and District 5 Supervisor Bilal Mahmood. The MOU with Local 798 continues Mayor Lurie’s work to strengthen public safety and support firefighters amid a difficult budget cycle. At the end of his first year in office, Mayor Lurie announced the San Francisco Fire Department (SFFD) would become the largest department in the United States to transition its entire fleet to non-PFAS turnout gear , keeping firefighters safe. To continue the work to support the city&#x27;s first responders, the mayor recently announced the completion of San Francisco’s Fire Network Modernization Project to replace aging infrastructure at 51 fire stations and broke ground on a new SFFD training facility that will help firefighters and emergency responders develop the tools they need to keep San Franciscans safe. As the city prepares to navigate a difficult budget cycle , Mayor Lurie is preparing to deliver a budget that protects core services including continu...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "golden-city-fc-promised-a-10m-kezar-facelift-a-year-later-it-s-gone-dark-sfgate-",
-      "title": "Golden City FC promised a $10M Kezar facelift. A year later, it’s gone dark. - sfgate.com",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SVW4wbFNyTEF6dmZQTy1FWVBjUFdJTXU1R1hnYm9WNDZjeTBDbDFMV3B6anFKS09CaWNVUTRPQkZ0VHEtQkM4bzRpaGV2MlVJZEVKOTNHdmNrR2FCTS1PR1BSeEFJRXgwVmF0ampIclh6LXFkVUtiV3ZPMmJGZw?oc=5",
-      "publishedAt": "2026-05-08",
-      "topic": "city_government",
-      "summary": "Golden City FC promised a $10M Kezar facelift. A year later, it’s gone dark. &nbsp;&nbsp; sfgate.com",
-      "confidence": 0.68
-    },
-    {
-      "id": "mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers-h",
-      "title": "Mayor Lurie Celebrates Visitors Coming Back To San Francisco In Record Numbers | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-visitors-coming-back-to-san-francisco-in-record-numbers/",
-      "publishedAt": "2026-05-07",
-      "topic": "economy",
-      "summary": "2026 Tourism Forecasted to Cross Pre-Pandemic Spending Record, With Conventions, Major Events Fueling Momentum; Following Successful Super Bowl and Ahead of World Cup, Progress Continues Mayor Lurie’s Work to Accelerate Economic Recovery",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Celebrates Visitors Coming Back To San Francisco In Record Numbers Office of the Mayor 2026 Tourism Forecasted to Cross Pre-Pandemic Spending Record, With Conventions, Major Events Fueling Momentum; Following Successful Super Bowl and Ahead of World Cup, Progress Continues Mayor Lurie’s Work to Accelerate Economic Recovery May 7, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated new data from the San Francisco Travel Association (SF Travel) showing that visitor spending in 2026 is expected to surpass the city’s pre-pandemic record, part of the city’s second consecutive year of tourism growth. Large events and conventions are major drivers of the tourism growth: Building on a successful Super Bowl in February, San Francisco hotels are expected to see a 69% increase since 2024 in occupancy specifically from conferences at Moscone Center. The data comes from SF Travel’s 2026 tourism forecast and 2025 visitor impact results. The progress bringing visitors back to San Francisco continues Mayor Lurie’s work to accelerate San Francisco’s economic recovery. The mayor recently returned from a visit to China and South Korea , where he celebrated San Francisco’s sister city relationships and encouraged tourism to the city. In Shanghai, he partnered with the San Francisco International Airport (SFO) to promote air travel between Shanghai and San Francisco . Earlier this year, the city welcomed hundreds of thousands of visitors for a successful, safe Super Bowl week that brought hundreds of millions of dollars of economic impact to our city. “San Francisco is a city on the rise. We welcomed hundreds of thousands of visitors for a safe and successful Super Bowl week that generated hundreds of millions of dollars in economic impact, and we are continuing to...",
-      "scrapeStatus": "scraped"
     }
   ],
   "promises": [
@@ -1958,7 +1966,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 920 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 933 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2090,7 +2098,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-07-28T03:42:27.243Z"
+      "lastRefreshed": "2026-07-31T03:55:51.277Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2109,7 +2117,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-07-28T03:42:27.243Z"
+      "lastRefreshed": "2026-07-31T03:55:51.277Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2125,7 +2133,7 @@
       "observations": [],
       "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-07-28T03:42:27.243Z",
+      "lastRefreshed": "2026-07-31T03:55:51.277Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2168,7 +2176,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-07-28T03:42:27.243Z"
+      "lastRefreshed": "2026-07-31T03:55:51.277Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2183,7 +2191,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 875,
+      "latest": 1034,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2259,12 +2267,12 @@
         },
         {
           "date": "2026-07-01",
-          "value": 875
+          "value": 1034
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-07-28T03:42:27.243Z"
+      "lastRefreshed": "2026-07-31T03:55:51.277Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2279,7 +2287,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 920,
+      "latest": 933,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2355,12 +2363,12 @@
         },
         {
           "date": "2026-07-01",
-          "value": 920
+          "value": 933
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-07-28T03:42:27.243Z"
+      "lastRefreshed": "2026-07-31T03:55:51.277Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2379,7 +2387,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-07-28T03:42:27.243Z"
+      "lastRefreshed": "2026-07-31T03:55:51.277Z"
     }
   ],
   "topics": [
@@ -2484,17 +2492,6 @@
   ],
   "majorNews": [
     {
-      "id": "mayor-lurie-breaks-ground-on-76-million-modernization-of-public-health-center-in",
-      "headline": "Mayor Lurie Breaks Ground On $76 Million Modernization Of Public Health Center In Chinatown | SF.gov",
-      "url": "https://www.sf.gov/news-mayor-lurie-breaks-ground-on-76-million-modernization-of-public-health-center-in-chinatown/",
-      "publishedAt": "2026-07-07",
-      "publisher": "SF.gov",
-      "topic": "city_government",
-      "whyItMatters": "Top-to-Bottom Renovation Will Deliver Seismic Upgrades at City’s Most Seismically Vulnerable Clinic Along With Dental Care Expansion, New Exam Rooms; Continues Mayor Lurie’s Investments in San Franciscans’ Healthcare Despite Federal Cuts",
-      "sourceId": "mayor-lurie-breaks-ground-on-76-million-modernization-of-public-health-center-in",
-      "selectionMethod": "fallback"
-    },
-    {
       "id": "san-francisco-condo-tower-is-first-project-to-be-approved-under-mayor-s-neighbor",
       "headline": "San Francisco condo tower is first project to be approved under mayor's neighborhood housing push",
       "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-condo-tower-anza-street-upzoning-housing/",
@@ -2514,6 +2511,17 @@
       "topic": "housing",
       "whyItMatters": "The San Francisco Planning Commission has approved the first new project that qualifies under Mayor Daniel Lurie's plan to build more housing in neighborhoods across the city. Brad Hamilton reports.",
       "sourceId": "san-francisco-eight-story-tower-in-inner-richmond-is-1st-under-mayor-s-upzoning-",
+      "selectionMethod": "fallback"
+    },
+    {
+      "id": "sf-mayor-lurie-s-clean-up-city-hall-measures-qualify-for-november-ballot-2026-07",
+      "headline": "SF Mayor Lurie’s ‘Clean Up City Hall’ Measures Qualify For November Ballot",
+      "url": "https://sfist.com/2026/07/29/sf-mayor-luries-clean-up-city-hall-measures-qualify-for-november-ballot/",
+      "publishedAt": "2026-07-30",
+      "publisher": "SFist",
+      "topic": "city_government",
+      "whyItMatters": "Three Lurie-backed measures headed to the November ballot seek to \"streamline\" City Hall, including two that would expand the mayor&#x27;s authority and one that would significantly raise the minimum number of signatures required for petitions.",
+      "sourceId": "sf-mayor-lurie-s-clean-up-city-hall-measures-qualify-for-november-ballot-2026-07",
       "selectionMethod": "fallback"
     }
   ],
