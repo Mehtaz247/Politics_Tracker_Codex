@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-07-31T03:55:51.398Z",
+    "lastUpdated": "2026-08-01T03:56:11.025Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -242,6 +242,36 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "amsterdam-style-cannabis-caf-could-come-to-valencia-next-summer-2026-07-31",
+      "title": "Amsterdam-style cannabis café could come to Valencia next summer",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/07/an-amsterdam-style-cannabis-cafe-may-open-on-valencia-street/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-07-31",
+      "topic": "economy",
+      "summary": "The café would be the first of its kind in the Bay Area. Mayor Daniel Lurie signed into law legislation legalizing cannabis cafés last week.",
+      "confidence": 0.82,
+      "excerpt": "html,body{height:100%;margin:0}body{display:flex;align-items:center;justify-content:center;background:#f5f5f5;color:#555;font:14px Arial,sans-serif} Audio player will appear shortly. (function(){var f=frameElement,s=f&&f.getAttribute(\"data-ml-everlit-src\");function l(){if(!f||!s||f.hasAttribute(\"src\"))return;var r=parent.document.documentElement;if(r.classList.contains(\"ml-audio-arm-control\"))return;f.setAttribute(\"src\",s);f.removeAttribute(\"srcdoc\");f.removeAttribute(\"data-ml-everlit-src\")}if(parent.document.readyState===\"complete\")setTimeout(l,1500);else parent.addEventListener(\"load\",function(){setTimeout(l,1500)},{once:true})}()); \" title=\"Everlit Audio Player\" width=\"100%\" height=\"136px\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen> William Dolan had been waiting for years. His quest to open a cannabis storefront at 560 Valencia St. had stretched out almost 10 years. As he waited, other cannabis businesses saturated the market. He struggled to pull together the financing to build out the space and open for business. An ordinance signed last week by Mayor Daniel Lurie changed all that. Dolan is now on track to open one of San Francisco’s first cannabis cafés — possibly the first. The legislation allows cannabis shops to serve food, nonalcoholic beverages and have live entertainment. The ordinance introduced in March by District 8 Supervisor and board president, Rafael Mandelman, implements Assembly Bill 1775, a 2024 state law that opened the door to Amsterdam-style cannabis cafés across California. San Francisco is, so far, the first city in the Bay Area to take the next step and actually amend the planning code to allow such cafés to open. Dolan, a real estate advisor...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "san-francisco-mayor-promotes-initiative-giving-him-more-authority-over-city-agen",
+      "title": "San Francisco mayor promotes initiative giving him more authority over city agencies",
+      "sourceType": "news",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-daniel-lurie-ballot-initiatives-city-charter-reform/",
+      "discoveryUrl": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-daniel-lurie-ballot-initiatives-city-charter-reform/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "CBS San Francisco",
+      "publishedAt": "2026-07-30",
+      "topic": "economy",
+      "summary": "San Francisco Mayor Daniel Lurie spent his Wednesday morning touting three ballot initiatives. The most controversial of the three would raise the threshold of signatures that citizens need to gather to qualify for the ballot.",
+      "confidence": 0.9,
+      "excerpt": "San Francisco Mayor Daniel Lurie spent his Wednesday morning touting three ballot initiatives, all part of what he calls his mission to reform City Hall and remove some of the dysfunction.\"I ran for mayor with a clear message: The system needs to change to help everyday San Franciscans,\" Lurie said.The backdrop for that message is the city's now-infamous million-dollar public toilet, a project in Noe Valley that once carried a $1.7 million price tag before being scaled back to about $200,000.\"It made international headlines as a symbol of everything that is broken, a simple project that ballooned in cost because of layers of bureaucracy,\" Lurie said.Lurie is aiming to cut through some of that bureaucracy with three proposals to change the city's charter. One, he says, could save taxpayers money, such as in the case of the toilet project, by giving the city administrator more authority over city contracts.Another would allow the mayor to hire and fire department heads and restructure city agencies.The most controversial of the three would raise the threshold of signatures that citizens need to gather to qualify for the ballot, from at least 2 percent of registered voters to 8 percent.Supporters say that would put San Francisco in line with other cities like Oakland, which has a 10 percent threshold. Kim Tavaglione with the San Francisco Labor Council is opposed to the idea.\"It means that average citizens will have to raise a lot of money to get those signatures,\" Vagalione said.She said raising the number of signatures required favors wealthy fundraisers and could make it harder for everyday people to get issues on the ballot.Lurie and his supporters said the higher signature threshold is not about disenfranchising voters, but will help streamline what can often be a...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "sf-mayor-lurie-s-clean-up-city-hall-measures-qualify-for-november-ballot-2026-07",
       "title": "SF Mayor Lurie’s ‘Clean Up City Hall’ Measures Qualify For November Ballot",
       "sourceType": "news",
@@ -314,6 +344,21 @@
       "summary": "We have a new and scary story about a Waymo vandalism situation that left a passenger helpless and in grave danger, and Mayor Daniel Lurie has reached out to the state about Waymos compounding the traffic nightmare on July 4th, and what could be done about it.",
       "confidence": 0.8,
       "excerpt": "17 July 2026 / Business & Tech / Jay Barmann Waymo Under Fire For July 4th Traffic Debacle, and For Leaving Passengers Helpless In Vandalism Situations --> We have a new and scary story about a Waymo vandalism situation that left a passenger helpless and in grave danger, and Mayor Daniel Lurie has reached out to the state about Waymos compounding the traffic nightmare on July 4th, and what could be done about it. Waymo is having a bad couple of months in the press, just as the autonomous car company is in the midst of a broad expansion effort in multiple US cities. First there was a glitch that was causing Waymos in San Antonio to drive into deeply flooded streets . Then there were the construction zone troubles, which led Waymo to temporarily suspend all freeway service in May. Then there was the grand debacle of July 4th in San Francisco, in which Waymo vehicles were widely documented blocking traffic, driving over lit fireworks , and appearing to stall en masse on a key connector road in the Presidio, making the already congested traffic situation even worse. The July 4th situation served to confirm what city officials had already seen during the December power outage, when Waymos became a hazard and a liability on the streets in an emergency, causing gridlock because they were unable to navigate through intersections with no traffic signals. SF Mayor Daniel Lurie wrote a letter this week to the State Secretary of Transportation Toks Omishakin, as NBC Bay Area reports , urging state leaders to take action in creating regulation around autonomous vehicles and major events or emergencies. Lurie wrote, per the Chronicle , that on July 4th, \"Waymo vehicles struggled to navigate growing volumes of vehicular traffic and pedestrians,\" and \"By the end of the fireworks sho...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "lurie-has-raised-8-6m-to-rewrite-how-sf-works-2026-07-15",
+      "title": "Lurie has raised $8.6M to rewrite how SF works. Nobody is really fighting him",
+      "sourceType": "news",
+      "url": "https://sfstandard.com/2026/07/15/charter-reform-daniel-lurie-2026-ballot-measure-election/",
+      "discoveryUrl": "https://sfstandard.com/2026/07/15/charter-reform-daniel-lurie-2026-ballot-measure-election/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF Standard",
+      "publishedAt": "2026-07-15",
+      "topic": "economy",
+      "summary": "The mayor wants to make the biggest changes to the city’s constitution in decades.",
+      "confidence": 0.9,
+      "excerpt": "San Francisco has the largest municipal charter in the country: a 548-page behemoth. For the first time in 30 years, Mayor Daniel Lurie is attempting to do a sweeping cleanup of what he views as an overly complicated, onerous document that hampers governance and contributes to the kind of bureaucratic dysfunction behind projects like Noe Valley’s $1.7 million toilet . It may sound boring as all hell, but a lot is at stake. Three separate ballot measures in November could remake how City Hall operates — including how much power the mayor holds and how easy it is for San Franciscans to get their own measures onto the ballot. The outcome will serve as a major test of Lurie’s promise during his 2024 campaign to make San Francisco’s government work better. What’s on the ballot? Lurie is putting forth three measures: “Fix Our Broken Ballot Process,” “Strengthening Executive Branch Accountability,” and “Modernizing City Contracting.” The first will have the most direct impact on the voting process if it passes. Lurie and his allies have argued that it’s too easy for measures to end up on the ballot, creating unnecessary political fights. (In November 2024, voters had to contend with 15 ballot measures, while Oakland had three and San Jose had one.) The proposal would increase the number of supervisor votes required to place a measure on the ballot from four to a majority of the board — six votes. It would also nix the mayor’s ability to unilaterally put a measure on the ballot, and increase the number of signatures required to get a measure on the ballot to 8% of registered voters. Lurie’s other two measures are a bit more wonky. The executive branch measure would allow him to hire and fire most agency heads, loosen the rules on removing commissioners, reorganize the city’s...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1005,15 +1050,18 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown-",
-      "title": "Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown/",
+      "id": "we-re-living-in-daniel-lurie-s-america-and-most-san-franciscans-are-content-2026",
+      "title": "&#8216;We're living in Daniel Lurie's America,' and most San Franciscans are content",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/06/daniel-lurie-san-francisco-election/",
+      "discoveryUrl": "https://missionlocal.org/2026/06/daniel-lurie-san-francisco-election/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "Mission Local",
       "publishedAt": "2026-06-03",
-      "topic": "public_safety",
-      "summary": "Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback",
+      "topic": "economy",
+      "summary": "Landslide election results favoring Mayor Daniel Lurie's allies and picks point to a changed San Francisco.",
       "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown Office of the Mayor Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback June 3, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the end of Small Business Month with two store openings downtown and three businesses expanding through the Vacant to Vibrant program. Two new small businesses, Whole Cakes and Bruno’s Italian Taste, are opening with the help of the Office of Economic and Workforce Development’s (OEWD) Downtown Vibrancy Loan Fund. Vacant to Vibrant pop‑up Dandelion Chocolate has signed a long‑term lease on Powell Street and is expanding to add a cafe, and two new Vacant to Vibrant pop‑ups—LOLA Embarcadero and Cowrie Collective at the Palace Hotel—are activating spaces downtown. The new storefronts and Vacant to Vibrant expansions continue to accelerate San Francisco’s economic recovery. In September, Mayor Lurie unveiled his “Heart of the City” plan to create a downtown where people live, work, play, and learn. Last year, Union Square and Yerba Buena welcomed 44 new storefronts, including new Vacant to Vibrant pop-ups , the RealReal, AT&T and Nintendo . Since the mayor took office, crime continues to go down in Union Square and the Financial District , 20 new liquor licenses have been issued to support nightlife , office leasing has surged 66.7% , and San Francisco now leads major U.S. cities in return-to-office rates . And through initiatives like First Year Free , expanded entertainment zones , small business grants , and streamlined business regulations , Mayor Lurie has taken steps to strengthen small...",
+      "excerpt": "It’s not clear if Mayor Daniel Lurie is the cause of a changed San Francisco or a symptom, but, on the June 2 election results sheet, that was a distinction without a difference. Barring a near-miraculous turnaround, every last thing San Francisco’s popular mayor and his big money allies would’ve wanted came to pass, and in no uncertain terms. It’s unclear if Lurie is riding a wave or building a wave. But this, too, is a distinction without a difference. The outcomes of Tuesday night’s low-turnout election were not, on the whole, shocking. But the margins — damn near every race was a massacre — were. On the cusp of the election, the backers of Proposition A, the big earthquake bond, were sweating bullets. The measure, which required two-thirds of the vote to pass, was polling at 64 or 65 percent just a few weeks ago. On election night, the measure, carried by Lurie and the firefighters union, banked more than three-quarters of the vote. The mayor had also become the de facto face of the No on D campaign, urging voters to spurn the “ Overpaid CEO Tax ,” lest it lead to a disastrous dispersal of city businesses. Voters seem to agree: More than 55 percent of early voters inveighed against the measure. District 2 Supervisor and close Lurie ally Stephen Sherrill has nearly 70 percent of the vote. And, in District 4, Lurie appointee Alan Wong is enjoying a near-majority in a five-way race and easily wins in ranked-choice voting. On top of that, incumbent school board president Phil Kim has a near-supermajority and prosecutor Phoebe Maffei is besting public defender Alexandra Pray for a judge spot by a 60-40 tilt. The Department of Elections reported on June 3 that some 122,400 ballots remain to be counted. But, with the possible exception of Prop. D, the &#8220;Overpaid CE...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1032,18 +1080,15 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "we-re-living-in-daniel-lurie-s-america-and-most-san-franciscans-are-content-2026",
-      "title": "&#8216;We're living in Daniel Lurie's America,' and most San Franciscans are content",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/06/daniel-lurie-san-francisco-election/",
-      "discoveryUrl": "https://missionlocal.org/2026/06/daniel-lurie-san-francisco-election/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "Mission Local",
+      "id": "mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown-",
+      "title": "Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown/",
       "publishedAt": "2026-06-03",
-      "topic": "economy",
-      "summary": "Landslide election results favoring Mayor Daniel Lurie's allies and picks point to a changed San Francisco.",
+      "topic": "public_safety",
+      "summary": "Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback",
       "confidence": 0.9,
-      "excerpt": "It’s not clear if Mayor Daniel Lurie is the cause of a changed San Francisco or a symptom, but, on the June 2 election results sheet, that was a distinction without a difference. Barring a near-miraculous turnaround, every last thing San Francisco’s popular mayor and his big money allies would’ve wanted came to pass, and in no uncertain terms. It’s unclear if Lurie is riding a wave or building a wave. But this, too, is a distinction without a difference. The outcomes of Tuesday night’s low-turnout election were not, on the whole, shocking. But the margins — damn near every race was a massacre — were. On the cusp of the election, the backers of Proposition A, the big earthquake bond, were sweating bullets. The measure, which required two-thirds of the vote to pass, was polling at 64 or 65 percent just a few weeks ago. On election night, the measure, carried by Lurie and the firefighters union, banked more than three-quarters of the vote. The mayor had also become the de facto face of the No on D campaign, urging voters to spurn the “ Overpaid CEO Tax ,” lest it lead to a disastrous dispersal of city businesses. Voters seem to agree: More than 55 percent of early voters inveighed against the measure. District 2 Supervisor and close Lurie ally Stephen Sherrill has nearly 70 percent of the vote. And, in District 4, Lurie appointee Alan Wong is enjoying a near-majority in a five-way race and easily wins in ranked-choice voting. On top of that, incumbent school board president Phil Kim has a near-supermajority and prosecutor Phoebe Maffei is besting public defender Alexandra Pray for a judge spot by a 60-40 tilt. The Department of Elections reported on June 3 that some 122,400 ballots remain to be counted. But, with the possible exception of Prop. D, the &#8220;Overpaid CE...",
+      "excerpt": "NEWS Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown Office of the Mayor Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback June 3, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the end of Small Business Month with two store openings downtown and three businesses expanding through the Vacant to Vibrant program. Two new small businesses, Whole Cakes and Bruno’s Italian Taste, are opening with the help of the Office of Economic and Workforce Development’s (OEWD) Downtown Vibrancy Loan Fund. Vacant to Vibrant pop‑up Dandelion Chocolate has signed a long‑term lease on Powell Street and is expanding to add a cafe, and two new Vacant to Vibrant pop‑ups—LOLA Embarcadero and Cowrie Collective at the Palace Hotel—are activating spaces downtown. The new storefronts and Vacant to Vibrant expansions continue to accelerate San Francisco’s economic recovery. In September, Mayor Lurie unveiled his “Heart of the City” plan to create a downtown where people live, work, play, and learn. Last year, Union Square and Yerba Buena welcomed 44 new storefronts, including new Vacant to Vibrant pop-ups , the RealReal, AT&T and Nintendo . Since the mayor took office, crime continues to go down in Union Square and the Financial District , 20 new liquor licenses have been issued to support nightlife , office leasing has surged 66.7% , and San Francisco now leads major U.S. cities in return-to-office rates . And through initiatives like First Year Free , expanded entertainment zones , small business grants , and streamlined business regulations , Mayor Lurie has taken steps to strengthen small...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1102,6 +1147,21 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "with-layoffs-ahead-san-francisco-mayor-lurie-unveils-17-billion-city-budget-2026",
+      "title": "With Layoffs Ahead, San Francisco Mayor Lurie Unveils $17 Billion City Budget",
+      "sourceType": "news",
+      "url": "https://www.kqed.org/news/12085729/with-layoffs-ahead-san-francisco-mayor-lurie-unveils-17-billion-city-budget",
+      "discoveryUrl": "https://www.kqed.org/news/12085729/with-layoffs-ahead-san-francisco-mayor-lurie-unveils-17-billion-city-budget",
+      "discoverySource": "Anthropic web search",
+      "publisher": "KQED",
+      "publishedAt": "2026-06-01",
+      "topic": "public_safety",
+      "summary": "San Francisco Mayor Daniel Lurie’s proposal aims to narrow the city’s budget shortfall by around $300 million.",
+      "confidence": 0.9,
+      "excerpt": "News With Layoffs Ahead, San Francisco Mayor Lurie Unveils $17 Billion City Budget San Francisco Mayor Daniel Lurie’s proposal aims to narrow the city’s budget shortfall by around $300 million. Jun 1, 2026 Updated 3:52 pm PT Sydney Johnson Mayor Daniel Lurie speaks on his support for California Senate Bill 63 at a press conference at Embarcadero Plaza in San Francisco on Jan. 23, 2026. (Tâm Vũ/KQED) San Francisco Mayor Daniel Lurie wants to preserve the city&rsquo;s law enforcement spending and boost benefits programs as departments across the city face cuts to close the city&rsquo;s multimillion-dollar budget deficit. On Monday, Lurie released his anticipated $16.9 billion budget proposal for the next two fiscal years. It reduces the city&rsquo;s more than $600 million projected budget shortfall by $300 million through a combination of department reorganizations, eliminating positions and other spending reductions. The plan has sparked pushback from some worker advocates, who say the cuts will harm residents. But Lurie said failing to address the gaping deficit now would mean even steeper reductions in the future. &ldquo;Under my administration, we will not fall back on temporary fixes that force deeper cuts year after year,&rdquo; Lurie said as he announced his proposal on Monday outside one of the city&rsquo;s Human Services Agency offices, which could receive a major boost in the budget to address federal funding cuts. &ldquo;I know these decisions have very real impacts. But if we fail to act now, our structural deficit will grow to $1 billion, and the difficult choices before us today will become even more painful and costly tomorrow.&rdquo; The budget now goes before the Board of Supervisors, who can request and negotiate changes. The final budget must be appr...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "sf-city-jobs-are-safe-this-year-next-year-is-another-story-2026-06-01",
       "title": "Lurie’s budget spares city jobs — but grant funding cuts may lead to nonprofit layoffs",
       "sourceType": "news",
@@ -1129,21 +1189,6 @@
       "summary": "After 127 layoffs earlier this year, mayor instead moves to eliminate over 400 vacant positions, save money through turnover and slowed hiring",
       "confidence": 0.9,
       "excerpt": "Mayor Daniel Lurie revealed Monday that he is looking to close the city’s $642 million deficit not through culling the workforce today, but slowing down hiring for years and eliminating vacant positions. The proposal eliminates over 400 vacant positions that the city had budgeted for but left unfilled, and cuts another nine jobs. That, plus the 127 layoffs announced in the spring, would mean around 550 City Hall job cuts this budget season. The $16.9 billion budget would also benefit from increased revenue, namely tax receipts received via the city’s 2024 tax reform measure, Proposition M , and increases in public health revenue. And in line with last year’s budget , Lurie is prioritizing funding for departments attuned with his key initiatives, namely public safety and homelessness. Lurie increased funding for the police and fire departments, whose staff saw 14 percent salary bumps after union contract negotiations earlier this year, as well as departments most affected by cuts to federal funding, like the Department of Public Health. “We didn’t tell departments to do more with less,” Lurie said during an announcement livestreamed from the Human Services Agency Mission District office. “We said, focus on what matters most to our recovery and deliver results.” A large chunk of the city’s savings come from staffing cuts — the 127 layoffs announced earlier , the nine more announced today, and the 414 or so unfilled positions. Unions have called for no more cuts to city services or personnel. Though this budget has few layoffs, union leaders in April said they opposed cuts to unfilled positions. “Any cuts to that system will further strain city departments which are already understaffed,” said Bianca Polovina, then-president of IFPTE 21, a union of city workers. “All th...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "with-layoffs-ahead-san-francisco-mayor-lurie-unveils-17-billion-city-budget-2026",
-      "title": "With Layoffs Ahead, San Francisco Mayor Lurie Unveils $17 Billion City Budget",
-      "sourceType": "news",
-      "url": "https://www.kqed.org/news/12085729/with-layoffs-ahead-san-francisco-mayor-lurie-unveils-17-billion-city-budget",
-      "discoveryUrl": "https://www.kqed.org/news/12085729/with-layoffs-ahead-san-francisco-mayor-lurie-unveils-17-billion-city-budget",
-      "discoverySource": "Anthropic web search",
-      "publisher": "KQED",
-      "publishedAt": "2026-06-01",
-      "topic": "public_safety",
-      "summary": "San Francisco Mayor Daniel Lurie’s proposal aims to narrow the city’s budget shortfall by around $300 million.",
-      "confidence": 0.9,
-      "excerpt": "News With Layoffs Ahead, San Francisco Mayor Lurie Unveils $17 Billion City Budget San Francisco Mayor Daniel Lurie’s proposal aims to narrow the city’s budget shortfall by around $300 million. Jun 1, 2026 Updated 3:52 pm PT Sydney Johnson Mayor Daniel Lurie speaks on his support for California Senate Bill 63 at a press conference at Embarcadero Plaza in San Francisco on Jan. 23, 2026. (Tâm Vũ/KQED) San Francisco Mayor Daniel Lurie wants to preserve the city&rsquo;s law enforcement spending and boost benefits programs as departments across the city face cuts to close the city&rsquo;s multimillion-dollar budget deficit. On Monday, Lurie released his anticipated $16.9 billion budget proposal for the next two fiscal years. It reduces the city&rsquo;s more than $600 million projected budget shortfall by $300 million through a combination of department reorganizations, eliminating positions and other spending reductions. The plan has sparked pushback from some worker advocates, who say the cuts will harm residents. But Lurie said failing to address the gaping deficit now would mean even steeper reductions in the future. &ldquo;Under my administration, we will not fall back on temporary fixes that force deeper cuts year after year,&rdquo; Lurie said as he announced his proposal on Monday outside one of the city&rsquo;s Human Services Agency offices, which could receive a major boost in the budget to address federal funding cuts. &ldquo;I know these decisions have very real impacts. But if we fail to act now, our structural deficit will grow to $1 billion, and the difficult choices before us today will become even more painful and costly tomorrow.&rdquo; The budget now goes before the Board of Supervisors, who can request and negotiate changes. The final budget must be appr...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1580,46 +1625,6 @@
       "topic": "homelessness",
       "summary": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years &nbsp;&nbsp; SF.gov",
       "confidence": 0.78
-    },
-    {
-      "id": "we-can-shut-down-the-city-lurie-s-budget-cuts-spark-a-showdown-with-labor-2026-0",
-      "title": "‘We can shut down the city’: Lurie’s budget cuts spark a showdown with labor",
-      "sourceType": "news",
-      "url": "https://sfstandard.com/2026/05/12/can-shut-city-lurie-s-budget-cuts-spark-showdown-labor/",
-      "discoveryUrl": "https://sfstandard.com/2026/05/12/can-shut-city-lurie-s-budget-cuts-spark-showdown-labor/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF Standard",
-      "publishedAt": "2026-05-12",
-      "topic": "public_safety",
-      "summary": "Next year, city workers will be legally able to strike for the first time in five decades.",
-      "confidence": 0.9,
-      "excerpt": "Mayor Daniel Lurie may be setting the stage for a once-in-a-generation showdown with San Francisco’s public-sector labor unions. Faced with a $643 million deficit and the threat of hundreds of millions more in federal cuts, Lurie is slashing city jobs and squeezing public services — moves that are fueling anger among the unions he’ll soon face across the bargaining table. The timing couldn’t be more fraught. Next year, for the first time since 1976 , San Francisco’s public-sector workers will have the legal right to strike, after a recent decision by the California Public Employment Relations Board struck down the city’s ability to fire picketing workers. The last time a mayor pushed them this far, 5,000 city workers walked off the job, the streets filled with trash, the buses stopped running, and the city shook. Last month, Lurie sent pink slips to 127 city staffers. His draft budget is due in June, and hundreds more positions are threatened. While the mayor’s budget must be approved by the Board of Supervisors, a Lurie-friendly, moderate Democrat majority is poised to approve whatever cuts he proposes. The only person who can stop Lurie’s budget is Lurie himself. And he may have reason to pull his punches. Kristin Hardy, regional vice president of Service Employees International Union 1021 — which represents 16,000 San Francisco employees, nearly half of all city workers — said Lurie’s proposed layoffs will ensure workers are enraged by the time they meet him at the bargaining table in 2027. If that leads workers to strike, she said, “we can shut down the whole city.” “I really don’t think that the mayor wants this,” she added, but “that’s what it looks like it’s going toward.” SEIU 1021’s members hail from nearly all of San Francisco’s 50-odd departments, guarante...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "lurie-touts-a-major-drop-in-homelessness-critics-say-methodology-changed-2026-05",
-      "title": "Lurie touts a major drop in homelessness. Critics say methodology changed",
-      "sourceType": "news",
-      "url": "https://sfstandard.com/2026/05/12/san-francisco-point-in-time-homeless-count/",
-      "discoveryUrl": "https://sfstandard.com/2026/05/12/san-francisco-point-in-time-homeless-count/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF Standard",
-      "publishedAt": "2026-05-12",
-      "topic": "homelessness",
-      "summary": "Mayor Lurie announced the lowest count of unsheltered residents in 15 years from the 2026 Point in Time Count. The overall homeless population, including those in shelters, dropped 4% from 2024. Homeless advocates claim the methodology changes were politically motivated.",
-      "confidence": 0.9
-    },
-    {
-      "id": "mayor-lurie-signs-legislation-with-firefighters-x27-union-to-support-first-respo",
-      "title": "Mayor Lurie Signs Legislation With Firefighters&#x27; Union To Support First Responders, Strengthen Public Safety | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-signs-legislation-with-firefighters-union-to-support-first-responders-strengthen-public-safety/",
-      "publishedAt": "2026-05-08",
-      "topic": "homelessness",
-      "summary": "Agreement Builds on Mayor Lurie’s Efforts to Keep Firefighters Safe, Strengthen Emergency Response, Improve Public Safety",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Signs Legislation With Firefighters&#x27; Union To Support First Responders, Strengthen Public Safety Office of the Mayor Agreement Builds on Mayor Lurie’s Efforts to Keep Firefighters Safe, Strengthen Emergency Response, Improve Public Safety May 8, 2026 SAN FRANCISCO – Mayor Daniel Lurie today signed legislation to enact new labor agreements between the City and County of San Francisco and the International Association of Fire Fighters (IAFF) Local 798 Units 1 and 2. Effective July 1, 2026, through June 30, 2030, the new memorandum of understanding (MOU) prioritizes public safety and invests in San Francisco firefighters and first responders. The legislation signed by Mayor Lurie was cosponsored by Board of Supervisors President Rafael Mandelman, District 2 Supervisor Stephen Sherrill, District 4 Supervisor Alan Wong, and District 5 Supervisor Bilal Mahmood. The MOU with Local 798 continues Mayor Lurie’s work to strengthen public safety and support firefighters amid a difficult budget cycle. At the end of his first year in office, Mayor Lurie announced the San Francisco Fire Department (SFFD) would become the largest department in the United States to transition its entire fleet to non-PFAS turnout gear , keeping firefighters safe. To continue the work to support the city&#x27;s first responders, the mayor recently announced the completion of San Francisco’s Fire Network Modernization Project to replace aging infrastructure at 51 fire stations and broke ground on a new SFFD training facility that will help firefighters and emergency responders develop the tools they need to keep San Franciscans safe. As the city prepares to navigate a difficult budget cycle , Mayor Lurie is preparing to deliver a budget that protects core services including continu...",
-      "scrapeStatus": "scraped"
     }
   ],
   "promises": [
@@ -1966,7 +1971,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 933 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 1018 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2098,7 +2103,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-07-31T03:55:51.277Z"
+      "lastRefreshed": "2026-08-01T03:55:55.383Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2117,7 +2122,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-07-31T03:55:51.277Z"
+      "lastRefreshed": "2026-08-01T03:55:55.383Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2133,7 +2138,7 @@
       "observations": [],
       "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-07-31T03:55:51.277Z",
+      "lastRefreshed": "2026-08-01T03:55:55.383Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2176,7 +2181,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-07-31T03:55:51.277Z"
+      "lastRefreshed": "2026-08-01T03:55:55.383Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2191,7 +2196,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 1034,
+      "latest": 1097,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2267,12 +2272,12 @@
         },
         {
           "date": "2026-07-01",
-          "value": 1034
+          "value": 1097
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-07-31T03:55:51.277Z"
+      "lastRefreshed": "2026-08-01T03:55:55.383Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2287,7 +2292,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 933,
+      "latest": 1018,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2363,12 +2368,12 @@
         },
         {
           "date": "2026-07-01",
-          "value": 933
+          "value": 1018
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-07-31T03:55:51.277Z"
+      "lastRefreshed": "2026-08-01T03:55:55.383Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2387,7 +2392,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-07-31T03:55:51.277Z"
+      "lastRefreshed": "2026-08-01T03:55:55.383Z"
     }
   ],
   "topics": [
@@ -2492,37 +2497,37 @@
   ],
   "majorNews": [
     {
-      "id": "san-francisco-condo-tower-is-first-project-to-be-approved-under-mayor-s-neighbor",
-      "headline": "San Francisco condo tower is first project to be approved under mayor's neighborhood housing push",
-      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-condo-tower-anza-street-upzoning-housing/",
-      "publishedAt": "2026-07-27",
+      "id": "san-francisco-mayor-promotes-initiative-giving-him-more-authority-over-city-agen",
+      "headline": "San Francisco mayor promotes initiative giving him more authority over city agencies",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-daniel-lurie-ballot-initiatives-city-charter-reform/",
+      "publishedAt": "2026-07-30",
       "publisher": "CBS San Francisco",
-      "topic": "housing",
-      "whyItMatters": "The San Francisco Planning Commission has approved the first new project that qualifies under Mayor Daniel Lurie's plan to build more housing in neighborhoods across the city.",
-      "sourceId": "san-francisco-condo-tower-is-first-project-to-be-approved-under-mayor-s-neighbor",
-      "selectionMethod": "fallback"
-    },
-    {
-      "id": "san-francisco-eight-story-tower-in-inner-richmond-is-1st-under-mayor-s-upzoning",
-      "headline": "San Francisco eight-story tower in Inner Richmond is 1st under mayor",
-      "url": "https://www.cbsnews.com/sanfrancisco/video/san-francisco-eight-story-tower-in-inner-richmond-is-1st-under-mayors-upzoning-plan/",
-      "publishedAt": "2026-07-25",
-      "publisher": "CBS San Francisco",
-      "topic": "housing",
-      "whyItMatters": "The San Francisco Planning Commission has approved the first new project that qualifies under Mayor Daniel Lurie's plan to build more housing in neighborhoods across the city. Brad Hamilton reports.",
-      "sourceId": "san-francisco-eight-story-tower-in-inner-richmond-is-1st-under-mayor-s-upzoning-",
-      "selectionMethod": "fallback"
+      "topic": "city_government",
+      "whyItMatters": "Lurie's three ballot measures would fundamentally reshape San Francisco's governance structure by expanding mayoral authority over department heads and contracts, while making it significantly harder for citizens to place initiatives on the ballot—raising the signature threshold from 2% to 8% of registered voters, a change that has drawn opposition from labor groups concerned about disenfranchising everyday citizens.",
+      "sourceId": "san-francisco-mayor-promotes-initiative-giving-him-more-authority-over-city-agen",
+      "selectionMethod": "anthropic"
     },
     {
       "id": "sf-mayor-lurie-s-clean-up-city-hall-measures-qualify-for-november-ballot-2026-07",
-      "headline": "SF Mayor Lurie’s ‘Clean Up City Hall’ Measures Qualify For November Ballot",
+      "headline": "SF Mayor Lurie's 'Clean Up City Hall' Measures Qualify For November Ballot",
       "url": "https://sfist.com/2026/07/29/sf-mayor-luries-clean-up-city-hall-measures-qualify-for-november-ballot/",
       "publishedAt": "2026-07-30",
       "publisher": "SFist",
       "topic": "city_government",
-      "whyItMatters": "Three Lurie-backed measures headed to the November ballot seek to \"streamline\" City Hall, including two that would expand the mayor&#x27;s authority and one that would significantly raise the minimum number of signatures required for petitions.",
+      "whyItMatters": "The three measures officially qualified for the November ballot after meeting signature requirements, representing the most significant proposed changes to San Francisco's 548-page charter in 30 years. If passed, they would concentrate executive power, alter how city departments operate, and quadruple the signatures needed for citizen-led ballot initiatives from roughly 10,600 to 42,500.",
       "sourceId": "sf-mayor-lurie-s-clean-up-city-hall-measures-qualify-for-november-ballot-2026-07",
-      "selectionMethod": "fallback"
+      "selectionMethod": "anthropic"
+    },
+    {
+      "id": "lurie-has-raised-8-6m-to-rewrite-how-sf-works-2026-07-15",
+      "headline": "Lurie has raised $8.6M to rewrite how SF works. Nobody is really fighting him",
+      "url": "https://sfstandard.com/2026/07/15/charter-reform-daniel-lurie-2026-ballot-measure-election/",
+      "publishedAt": "2026-07-15",
+      "publisher": "SF Standard",
+      "topic": "city_government",
+      "whyItMatters": "Lurie's campaign has amassed $8.6 million from wealthy backers to pass charter reforms with minimal organized opposition, representing a major test of his promise to fix City Hall dysfunction. The measures would give the mayor unprecedented power to hire and fire agency heads, reorganize departments, and make it substantially harder for residents to place their own measures on the ballot—changes that could permanently alter San Francisco's political landscape.",
+      "sourceId": "lurie-has-raised-8-6m-to-rewrite-how-sf-works-2026-07-15",
+      "selectionMethod": "anthropic"
     }
   ],
   "campaignPromiseSeed": [
