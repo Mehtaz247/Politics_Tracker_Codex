@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-08-01T03:56:11.025Z",
+    "lastUpdated": "2026-08-04T03:44:28.410Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -242,6 +242,36 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
+      "title": "Mayor Lurie Unveils 'Breaking the Cycle,' Vision for Tackling San Francisco's Homelessness and Behavioral Health Crisis",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
+      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2026-08-04",
+      "topic": "homelessness",
+      "summary": "Mayor Lurie signed an executive directive outlining Breaking the Cycle, a comprehensive plan to transform the city's homelessness and behavioral health response through coordinated services, evidence-based policies, and accountability measures. The plan builds on the Fentanyl State of Emergency Ordinance passed by the Board of Supervisors and includes opening a 24/7 stabilization center.",
+      "confidence": 0.9,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "page returned bot verification challenge"
+    },
+    {
+      "id": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
+      "title": "Mayor Lurie Presents Balanced, Responsible Budget to Advance San Francisco's Recovery",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
+      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2026-08-04",
+      "topic": "city_government",
+      "summary": "Mayor Lurie presented a $15.9 billion budget for FY 2025-2026 and 2026-2027, closing an $800 million deficit while prioritizing public safety and clean streets. The budget sets aside $400 million in reserves for federal and state uncertainty and invests approximately $75 million in capital projects including fire station repairs and pothole fixes.",
+      "confidence": 0.9,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "page returned bot verification challenge"
+    },
+    {
       "id": "amsterdam-style-cannabis-caf-could-come-to-valencia-next-summer-2026-07-31",
       "title": "Amsterdam-style cannabis café could come to Valencia next summer",
       "sourceType": "news",
@@ -254,6 +284,21 @@
       "summary": "The café would be the first of its kind in the Bay Area. Mayor Daniel Lurie signed into law legislation legalizing cannabis cafés last week.",
       "confidence": 0.82,
       "excerpt": "html,body{height:100%;margin:0}body{display:flex;align-items:center;justify-content:center;background:#f5f5f5;color:#555;font:14px Arial,sans-serif} Audio player will appear shortly. (function(){var f=frameElement,s=f&&f.getAttribute(\"data-ml-everlit-src\");function l(){if(!f||!s||f.hasAttribute(\"src\"))return;var r=parent.document.documentElement;if(r.classList.contains(\"ml-audio-arm-control\"))return;f.setAttribute(\"src\",s);f.removeAttribute(\"srcdoc\");f.removeAttribute(\"data-ml-everlit-src\")}if(parent.document.readyState===\"complete\")setTimeout(l,1500);else parent.addEventListener(\"load\",function(){setTimeout(l,1500)},{once:true})}()); \" title=\"Everlit Audio Player\" width=\"100%\" height=\"136px\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen> William Dolan had been waiting for years. His quest to open a cannabis storefront at 560 Valencia St. had stretched out almost 10 years. As he waited, other cannabis businesses saturated the market. He struggled to pull together the financing to build out the space and open for business. An ordinance signed last week by Mayor Daniel Lurie changed all that. Dolan is now on track to open one of San Francisco’s first cannabis cafés — possibly the first. The legislation allows cannabis shops to serve food, nonalcoholic beverages and have live entertainment. The ordinance introduced in March by District 8 Supervisor and board president, Rafael Mandelman, implements Assembly Bill 1775, a 2024 state law that opened the door to Amsterdam-style cannabis cafés across California. San Francisco is, so far, the first city in the Bay Area to take the next step and actually amend the planning code to allow such cafés to open. Dolan, a real estate advisor...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "sf-mayor-daniel-lurie-signs-largest-city-budget-ever-2026-07-30",
+      "title": "SF Mayor Daniel Lurie signs largest city budget ever",
+      "sourceType": "news",
+      "url": "https://www.nbcbayarea.com/news/local/san-francisco-16-9-billion-budget/4121212/",
+      "discoveryUrl": "https://www.nbcbayarea.com/news/local/san-francisco-16-9-billion-budget/4121212/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "NBC Bay Area",
+      "publishedAt": "2026-07-30",
+      "topic": "homelessness",
+      "summary": "San Francisco Mayor Daniel Lurie signed the city's $16.9 billion budget Thursday, closing a $640 million budget deficit.",
+      "confidence": 0.9,
+      "excerpt": "San Francisco SF Mayor Daniel Lurie signs largest city budget ever By Bob Redell &bull; Published July 30, 2026 &bull; Updated on July 30, 2026 at 11:32 am BOOKMARKER NBC Universal, Inc. San Francisco Mayor Daniel Lurie signed the city's $16.9 billion budget, closing a $640 million budget deficit. Bob Redell reports. San Francisco Mayor Daniel Lurie signed the city's $16.9 billion budget Thursday, closing a $640 million budget deficit. Lurie signed the budget at a senior community center alongside several members of the San Francisco Board of Supervisors. Watch NBC Bay Area News free wherever you are WATCH HERE The spending plan includes $34 million to help San Franciscans remain enrolled in Medi-Cal and CalFresh, $120 million for unhoused families, people living with HIV and AIDS, and LGBTQ+ community-based organizations, and $100 million set aside for potential state and federal cuts to housing and homelessness programs. It also provides $20 million to upgrade equipment for first responders and $71 million for projects including street resurfacing, drug treatment programs and mental health services. Lurie said the budget will help protect services as federal funding declines, while Supervisor Connie Chan said it reflects San Francisco's values. City officials said the budget closes a two-year deficit and avoids a scenario in which the city's deficit would have reached $1 billion within five years. This article tagged under: San Francisco on now 3PM: NBC Bay Area News Midday Trending Stories Vallejo Neighbors frustrated after illegal sideshow involving over 100 cars in Vallejo San Mateo County Bystanders resuscitate teen at San Mateo County beach Santa Cruz 16-year-old lifeguard makes daring first rescue, earns White House invite Bay Area The Ultimate Costco Challen...",
       "scrapeStatus": "scraped"
     },
     {
@@ -329,6 +374,21 @@
       "summary": "The San Francisco Planning Commission has approved the first new project that qualifies under Mayor Daniel Lurie's plan to build more housing in neighborhoods across the city. Brad Hamilton reports.",
       "confidence": 0.8,
       "excerpt": "San Francisco eight-story tower in Inner Richmond is 1st under mayor's upzoning plan - CBS San Francisco Bay Area Top News SF/Peninsula News East Bay News South Bay News North Bay News Bay Area Crime Tech Health Politics LGBTQ Entertainment KPIX Special Reports First Alert Weather Radars & Maps All Sports CBS Sports HQ San Francisco 49ers San Francisco Giants Golden State Warriors Golden State Valkyries San Jose Sharks Cal Stanford College Sports Station Info KPIX What's On KPIX Contests & Promotions Advertise With Us Contact Us Download the App Galleries Memorials Watch CBS News San Francisco eight-story tower in Inner Richmond is 1st under mayor's upzoning plan The San Francisco Planning Commission has approved the first new project that qualifies under Mayor Daniel Lurie's plan to build more housing in neighborhoods across the city. Brad Hamilton reports. View CBS News In CBS News App Open Chrome Safari Continue",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "lurie-wanted-san-francisco-to-bounce-back-now-he-s-got-an-affordability-crisis-2",
+      "title": "Lurie wanted San Francisco to bounce back. Now he’s got an affordability crisis",
+      "sourceType": "news",
+      "url": "https://sfstandard.com/2026/07/23/daniel-lurie-affordability-ai-boom-housing-san-francisco/",
+      "discoveryUrl": "https://sfstandard.com/2026/07/23/daniel-lurie-affordability-ai-boom-housing-san-francisco/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "The San Francisco Standard",
+      "publishedAt": "2026-07-23",
+      "topic": "public_safety",
+      "summary": "The boom that is reversing the doom-loop trend has also revived the city’s oldest challenge — and reshaped the mayor’s governing agenda.",
+      "confidence": 0.9,
+      "excerpt": "For years, the overwhelming perception of San Francisco was that of a crime-ridden liberal hellhole from which residents were desperate to escape. Now it feels like the hottest city in the country. The reversal comes as AI money pours in, with companies filling long-empty downtown offices , and their high-income workers driving a red-hot housing and rental market . Mayor Daniel Lurie, who rose to power in 2024 on a campaign promise to focus on public safety, has prioritized reselling San Francisco as a city on the rise — one Instagram reel at a time . It’s a remarkable turnaround for a city that spent years trying to convince residents, employers, and investors that its best days weren’t behind it. Now, as that recovery takes hold, it is reshaping Lurie’s governing agenda. The boom that is reversing the doom-loop trend has also revived San Francisco’s oldest challenge: affordability. Lurie, who spent his first 18 months in office cleaning up San Francisco’s streets , is discovering that he has a more pernicious problem to solve. “I am the first one to say we are not where we want to be,” the mayor said this week in an interview with The Standard at his City Hall office about his proposals to mitigate the high cost of living. “We have to make this city more affordable, so that families can stay here and thrive here.” That San Francisco is expensive is not breaking news. But if living costs were pricey before, there’s no adequate adjective to describe current conditions. The typical home value was about $1.4 million in June , according to Zillow, which city economists reference for their data analyses, a 9.5% increase from the year before. The median monthly rent has surged 19% over the last year to $3,558 , according to Apartment List’s July report. Those numbers illu...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1576,55 +1636,6 @@
       "topic": "homelessness",
       "summary": "Harger: San Francisco's homelessness hit a 15-year low. Seattle's mayor is running the opposite experiment. &nbsp;&nbsp; MyNorthwest.com",
       "confidence": 0.78
-    },
-    {
-      "id": "mayor-lurie-continues-support-for-arts-organizations-with-new-grant-opportunitie",
-      "title": "Mayor Lurie Continues Support For Arts Organizations With New Grant Opportunities | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-continues-support-for-arts-organizations-with-new-grant-opportunities/",
-      "publishedAt": "2026-05-13",
-      "topic": "economy",
-      "summary": "Grants Provide Operating Support for Local Arts Organizations, Including New Funding Opportunities for Small Organizations Impacted by Federal Cuts; Builds on Mayor Lurie’s Work to Support San Francisco&#x27;s Creative Ecosystem While Ensuring Arts and Culture Continue to Drive City’s Comeback",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Continues Support For Arts Organizations With New Grant Opportunities Office of the Mayor Grants Provide Operating Support for Local Arts Organizations, Including New Funding Opportunities for Small Organizations Impacted by Federal Cuts; Builds on Mayor Lurie’s Work to Support San Francisco&#x27;s Creative Ecosystem While Ensuring Arts and Culture Continue to Drive City’s Comeback May 13, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced new grant opportunities for San Francisco arts and culture organizations, including two new funding programs to support small organizations impacted by federal funding cuts and groups undertaking capital improvement projects. Alongside the new grants, Grants for the Arts (GFTA) launched its request for proposals for Fiscal Years 2027 and 2028 today, inviting arts and culture organizations to apply for general operating support grants. Funded through the city’s hotel tax, Grants for the Arts supports more than 250 organizations every year that energize neighborhoods, bring communities together, attract visitors, and help drive San Francisco’s economic recovery. The new funding continues Mayor Lurie’s work to support San Francisco’s the arts and culture ecosystem that is driving the city’s comeback. Late last month, the mayor appointed the city’s first executive director of arts and culture, Matthew Goudeau , who will oversee work to strengthen the city’s support for the arts. The mayor recently returned from his first international trip, where he signed eight memorandums of understanding strengthening connections between arts and culture organizations in San Francisco and their counterparts in Shanghai and Seoul. To continue to support the arts community, in his first year in office, Mayor Lurie launched SF LIV...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-appoints-sarah-madland-as-general-manager-of-recreation-and-park-dep",
-      "title": "Mayor Lurie Appoints Sarah Madland As General Manager Of Recreation And Park Department | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-appoints-sarah-madland-as-general-manager-of-recreation-and-park-department/",
-      "publishedAt": "2026-05-13",
-      "topic": "economy",
-      "summary": "Madland Brings Decades of Experience Serving Youth and Families, Commitment to Expanding Access to Parks and Programs; Appointment Builds on Mayor Lurie’s Family Opportunity Agenda to Make San Francisco’s Parks Welcoming for Families, Provide Vibrant Public Spaces",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Appoints Sarah Madland As General Manager Of Recreation And Park Department Office of the Mayor Madland Brings Decades of Experience Serving Youth and Families, Commitment to Expanding Access to Parks and Programs; Appointment Builds on Mayor Lurie’s Family Opportunity Agenda to Make San Francisco’s Parks Welcoming for Families, Provide Vibrant Public Spaces May 13, 2026 SAN FRANCISCO – Mayor Daniel Lurie today appointed Sarah Madland as general manager of the San Francisco Recreation and Parks Department (Rec and Park). Madland brings more than two decades of city service to the role, where she will oversee San Francisco’s world-class park system and work to expand access to recreation programs, community spaces, and neighborhood amenities that help San Franciscans of all ages stay active and engaged in their communities. In her time at Rec and Park, Madland has launched programs such as Love Dolores and San Francisco Children and Nature and helped expand a citywide volunteer network supporting parks across San Francisco. Her appointment builds on Mayor Lurie’s and the city’s work to expand welcoming public spaces and affordable recreation opportunities for families and young people. Just last week, the mayor cut the ribbon on a project to create a safer route for people walking, biking, and rolling in Mission Rock, improving conditions for families in the area. That project continues significant work to revitalize the city’s eastern waterfront, including through the expansion of the India Basin Waterfront Park . Last month, the city broke ground on the Twin Peaks Promenade Project , transforming a stretch of Twin Peaks Boulevard into a pedestrian- and cyclist-first street that will support walking, biking, and recreation. Mayor Lurie has also lever...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "s-f-activists-deliver-1-500-postcards-to-mayor-lurie-asking-him-to-stop-budget-c",
-      "title": "S.F. activists deliver 1,500 postcards to Mayor Lurie, asking him to stop budget cuts",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/05/peoples-budget-postcards/",
-      "discoveryUrl": "https://missionlocal.org/feed/",
-      "discoverySource": "Mission Local",
-      "publisher": "Mission Local",
-      "publishedAt": "2026-05-13",
-      "topic": "public_safety",
-      "summary": "The People’s Budget Coalition delivered over 1,500 postcards today to Mayor Daniel Lurie’s office today, demanding the mayor stop cutting funds to services.",
-      "confidence": 0.82,
-      "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today If you can’t get through to the mayor, try sending him a postcard. This was the strategy of the People’s Budget Coalition — made up of various nonprofits and other city-funded groups impacted by budget cuts — which delivered more than 1,500 postcards today to Mayor Daniel Lurie’s office. Each card was inscribed with an individual’s plea to keep the mayor’s budget cuts at bay. Those cuts have gutted many social programs, advocates say, including immigrant services and public-health initiatives . “People will die if these budget cuts move forward,” said Anya Worley-Ziegmann, coalition coordinator. The postcards were tied together with string, and activists lined up to deliver them to Lurie’s office. Representatives from different community groups — among them seniors and people with disabilities, neighborhood residents, and others from the HIV Advocacy Network — spoke to a representative from the mayor’s office, who stood outside, listened to each person, and took notes. Lurie’s office directed members of the press to the mayor’s remarks at a press conference earlier Tuesday morning. San Francisco is facing a $643 million deficit , and Lurie earlier this year instructed departments to cut programs, stop hiring, and review all contracts for potential savings. “We have to make painful decisions,” Lurie said during that Q&A. “I want to set our city up on firm financial footing, I want to think long term about the city.” Lurie has largely spared law enforcement from the cuts, however, and the city recently approved new police and firefighter contracts that would cost $100 million extra over two years. The mayor only has “discret...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-announces-san-francisco-has-reached-lowest-level-of-unsheltered-home",
-      "title": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years - SF.gov",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcmZWdmsyT1JhdVNLdTNkZzItbmlkalVSR2Npc09EbDljbEFuVThINnFrXzdwaTBWRV8tVHgzVDJUa294dXhWSEI2ajNIMERQT3lKb3NtSFQ3MnNkeTZHU3hkekxhZVlPcjhxbGNZRHc4eF9qMXBlc3U1Nl9BRGhtSjQydDM2RUVhWVV1UFUyekd5V0NUWGlnUzRuZHl6TF9vcGFLOGdfME5JaUU0VnFwdHA2NjFYX3NyeXpyb3RYT3A0QQ?oc=5",
-      "publishedAt": "2026-05-12",
-      "topic": "homelessness",
-      "summary": "Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years &nbsp;&nbsp; SF.gov",
-      "confidence": 0.78
     }
   ],
   "promises": [
@@ -1740,7 +1751,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
+      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -1971,7 +1982,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 1018 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 0 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2103,7 +2114,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-08-01T03:55:55.383Z"
+      "lastRefreshed": "2026-08-04T03:44:16.025Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2122,7 +2133,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-08-01T03:55:55.383Z"
+      "lastRefreshed": "2026-08-04T03:44:16.025Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2132,13 +2143,74 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": null,
-      "latest": null,
+      "baseline": 292,
+      "latest": 216,
       "direction": "down_is_good",
-      "observations": [],
-      "status": "needs_verified_source",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 292
+        },
+        {
+          "date": "2025-02-01",
+          "value": 274
+        },
+        {
+          "date": "2025-03-01",
+          "value": 342
+        },
+        {
+          "date": "2025-04-01",
+          "value": 275
+        },
+        {
+          "date": "2025-05-01",
+          "value": 273
+        },
+        {
+          "date": "2025-06-01",
+          "value": 301
+        },
+        {
+          "date": "2025-07-01",
+          "value": 239
+        },
+        {
+          "date": "2025-08-01",
+          "value": 294
+        },
+        {
+          "date": "2025-09-01",
+          "value": 219
+        },
+        {
+          "date": "2025-10-01",
+          "value": 235
+        },
+        {
+          "date": "2025-11-01",
+          "value": 300
+        },
+        {
+          "date": "2025-12-01",
+          "value": 148
+        },
+        {
+          "date": "2026-01-01",
+          "value": 221
+        },
+        {
+          "date": "2026-02-01",
+          "value": 220
+        },
+        {
+          "date": "2026-03-01",
+          "value": 216
+        }
+      ],
+      "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-08-01T03:55:55.383Z",
+      "lastRefreshed": "2026-08-04T03:44:16.025Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2181,7 +2253,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-08-01T03:55:55.383Z"
+      "lastRefreshed": "2026-08-04T03:44:16.025Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2196,7 +2268,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 1097,
+      "latest": 1,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2272,12 +2344,16 @@
         },
         {
           "date": "2026-07-01",
-          "value": 1097
+          "value": 1141
+        },
+        {
+          "date": "2026-08-01",
+          "value": 1
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-08-01T03:55:55.383Z"
+      "lastRefreshed": "2026-08-04T03:44:16.025Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2292,7 +2368,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 1018,
+      "latest": 0,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2369,11 +2445,15 @@
         {
           "date": "2026-07-01",
           "value": 1018
+        },
+        {
+          "date": "2026-08-01",
+          "value": 0
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-08-01T03:55:55.383Z"
+      "lastRefreshed": "2026-08-04T03:44:16.025Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2392,7 +2472,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-08-01T03:55:55.383Z"
+      "lastRefreshed": "2026-08-04T03:44:16.025Z"
     }
   ],
   "topics": [
@@ -2442,7 +2522,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
+      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -2497,14 +2577,25 @@
   ],
   "majorNews": [
     {
-      "id": "san-francisco-mayor-promotes-initiative-giving-him-more-authority-over-city-agen",
-      "headline": "San Francisco mayor promotes initiative giving him more authority over city agencies",
-      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-daniel-lurie-ballot-initiatives-city-charter-reform/",
-      "publishedAt": "2026-07-30",
-      "publisher": "CBS San Francisco",
+      "id": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
+      "headline": "Mayor Lurie Unveils 'Breaking the Cycle,' Vision for Tackling San Francisco's Homelessness and Behavioral Health Crisis",
+      "url": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
+      "publishedAt": "2026-08-04",
+      "publisher": "SF.gov",
+      "topic": "homelessness",
+      "whyItMatters": "Major policy initiative addressing San Francisco's defining crisis through executive directive, comprehensive service coordination, and opening a 24/7 stabilization center—represents the mayor's flagship approach to homelessness and behavioral health",
+      "sourceId": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
+      "selectionMethod": "anthropic"
+    },
+    {
+      "id": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
+      "headline": "Mayor Lurie Presents Balanced, Responsible Budget to Advance San Francisco's Recovery",
+      "url": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
+      "publishedAt": "2026-08-04",
+      "publisher": "SF.gov",
       "topic": "city_government",
-      "whyItMatters": "Lurie's three ballot measures would fundamentally reshape San Francisco's governance structure by expanding mayoral authority over department heads and contracts, while making it significantly harder for citizens to place initiatives on the ballot—raising the signature threshold from 2% to 8% of registered voters, a change that has drawn opposition from labor groups concerned about disenfranchising everyday citizens.",
-      "sourceId": "san-francisco-mayor-promotes-initiative-giving-him-more-authority-over-city-agen",
+      "whyItMatters": "Historic $15.9 billion budget closes $800 million deficit while setting aside $400 million in reserves for federal uncertainty—demonstrates fiscal governance amid economic challenges and shapes citywide priorities for two fiscal years",
+      "sourceId": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
       "selectionMethod": "anthropic"
     },
     {
@@ -2514,19 +2605,8 @@
       "publishedAt": "2026-07-30",
       "publisher": "SFist",
       "topic": "city_government",
-      "whyItMatters": "The three measures officially qualified for the November ballot after meeting signature requirements, representing the most significant proposed changes to San Francisco's 548-page charter in 30 years. If passed, they would concentrate executive power, alter how city departments operate, and quadruple the signatures needed for citizen-led ballot initiatives from roughly 10,600 to 42,500.",
+      "whyItMatters": "Three charter reform measures would fundamentally restructure city governance by expanding mayoral authority over departments and raising ballot signature thresholds from 10,600 to 42,500—potentially the most significant changes to San Francisco's governmental structure in decades",
       "sourceId": "sf-mayor-lurie-s-clean-up-city-hall-measures-qualify-for-november-ballot-2026-07",
-      "selectionMethod": "anthropic"
-    },
-    {
-      "id": "lurie-has-raised-8-6m-to-rewrite-how-sf-works-2026-07-15",
-      "headline": "Lurie has raised $8.6M to rewrite how SF works. Nobody is really fighting him",
-      "url": "https://sfstandard.com/2026/07/15/charter-reform-daniel-lurie-2026-ballot-measure-election/",
-      "publishedAt": "2026-07-15",
-      "publisher": "SF Standard",
-      "topic": "city_government",
-      "whyItMatters": "Lurie's campaign has amassed $8.6 million from wealthy backers to pass charter reforms with minimal organized opposition, representing a major test of his promise to fix City Hall dysfunction. The measures would give the mayor unprecedented power to hire and fire agency heads, reorganize departments, and make it substantially harder for residents to place their own measures on the ballot—changes that could permanently alter San Francisco's political landscape.",
-      "sourceId": "lurie-has-raised-8-6m-to-rewrite-how-sf-works-2026-07-15",
       "selectionMethod": "anthropic"
     }
   ],
