@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-08-04T03:44:28.410Z",
+    "lastUpdated": "2026-08-07T03:21:04.763Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -242,21 +242,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
-      "title": "Mayor Lurie Unveils 'Breaking the Cycle,' Vision for Tackling San Francisco's Homelessness and Behavioral Health Crisis",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
-      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF.gov",
-      "publishedAt": "2026-08-04",
-      "topic": "homelessness",
-      "summary": "Mayor Lurie signed an executive directive outlining Breaking the Cycle, a comprehensive plan to transform the city's homelessness and behavioral health response through coordinated services, evidence-based policies, and accountability measures. The plan builds on the Fentanyl State of Emergency Ordinance passed by the Board of Supervisors and includes opening a 24/7 stabilization center.",
-      "confidence": 0.9,
-      "scrapeStatus": "fetch_failed",
-      "scrapeError": "page returned bot verification challenge"
-    },
-    {
       "id": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
       "title": "Mayor Lurie Presents Balanced, Responsible Budget to Advance San Francisco's Recovery",
       "sourceType": "official",
@@ -287,21 +272,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "sf-mayor-daniel-lurie-signs-largest-city-budget-ever-2026-07-30",
-      "title": "SF Mayor Daniel Lurie signs largest city budget ever",
-      "sourceType": "news",
-      "url": "https://www.nbcbayarea.com/news/local/san-francisco-16-9-billion-budget/4121212/",
-      "discoveryUrl": "https://www.nbcbayarea.com/news/local/san-francisco-16-9-billion-budget/4121212/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "NBC Bay Area",
-      "publishedAt": "2026-07-30",
-      "topic": "homelessness",
-      "summary": "San Francisco Mayor Daniel Lurie signed the city's $16.9 billion budget Thursday, closing a $640 million budget deficit.",
-      "confidence": 0.9,
-      "excerpt": "San Francisco SF Mayor Daniel Lurie signs largest city budget ever By Bob Redell &bull; Published July 30, 2026 &bull; Updated on July 30, 2026 at 11:32 am BOOKMARKER NBC Universal, Inc. San Francisco Mayor Daniel Lurie signed the city's $16.9 billion budget, closing a $640 million budget deficit. Bob Redell reports. San Francisco Mayor Daniel Lurie signed the city's $16.9 billion budget Thursday, closing a $640 million budget deficit. Lurie signed the budget at a senior community center alongside several members of the San Francisco Board of Supervisors. Watch NBC Bay Area News free wherever you are WATCH HERE The spending plan includes $34 million to help San Franciscans remain enrolled in Medi-Cal and CalFresh, $120 million for unhoused families, people living with HIV and AIDS, and LGBTQ+ community-based organizations, and $100 million set aside for potential state and federal cuts to housing and homelessness programs. It also provides $20 million to upgrade equipment for first responders and $71 million for projects including street resurfacing, drug treatment programs and mental health services. Lurie said the budget will help protect services as federal funding declines, while Supervisor Connie Chan said it reflects San Francisco's values. City officials said the budget closes a two-year deficit and avoids a scenario in which the city's deficit would have reached $1 billion within five years. This article tagged under: San Francisco on now 3PM: NBC Bay Area News Midday Trending Stories Vallejo Neighbors frustrated after illegal sideshow involving over 100 cars in Vallejo San Mateo County Bystanders resuscitate teen at San Mateo County beach Santa Cruz 16-year-old lifeguard makes daring first rescue, earns White House invite Bay Area The Ultimate Costco Challen...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "san-francisco-mayor-promotes-initiative-giving-him-more-authority-over-city-agen",
       "title": "San Francisco mayor promotes initiative giving him more authority over city agencies",
       "sourceType": "news",
@@ -314,6 +284,21 @@
       "summary": "San Francisco Mayor Daniel Lurie spent his Wednesday morning touting three ballot initiatives. The most controversial of the three would raise the threshold of signatures that citizens need to gather to qualify for the ballot.",
       "confidence": 0.9,
       "excerpt": "San Francisco Mayor Daniel Lurie spent his Wednesday morning touting three ballot initiatives, all part of what he calls his mission to reform City Hall and remove some of the dysfunction.\"I ran for mayor with a clear message: The system needs to change to help everyday San Franciscans,\" Lurie said.The backdrop for that message is the city's now-infamous million-dollar public toilet, a project in Noe Valley that once carried a $1.7 million price tag before being scaled back to about $200,000.\"It made international headlines as a symbol of everything that is broken, a simple project that ballooned in cost because of layers of bureaucracy,\" Lurie said.Lurie is aiming to cut through some of that bureaucracy with three proposals to change the city's charter. One, he says, could save taxpayers money, such as in the case of the toilet project, by giving the city administrator more authority over city contracts.Another would allow the mayor to hire and fire department heads and restructure city agencies.The most controversial of the three would raise the threshold of signatures that citizens need to gather to qualify for the ballot, from at least 2 percent of registered voters to 8 percent.Supporters say that would put San Francisco in line with other cities like Oakland, which has a 10 percent threshold. Kim Tavaglione with the San Francisco Labor Council is opposed to the idea.\"It means that average citizens will have to raise a lot of money to get those signatures,\" Vagalione said.She said raising the number of signatures required favors wealthy fundraisers and could make it harder for everyday people to get issues on the ballot.Lurie and his supporters said the higher signature threshold is not about disenfranchising voters, but will help streamline what can often be a...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "sf-mayor-daniel-lurie-signs-largest-city-budget-ever-2026-07-30",
+      "title": "SF Mayor Daniel Lurie signs largest city budget ever",
+      "sourceType": "news",
+      "url": "https://www.nbcbayarea.com/news/local/san-francisco-16-9-billion-budget/4121212/",
+      "discoveryUrl": "https://www.nbcbayarea.com/news/local/san-francisco-16-9-billion-budget/4121212/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "NBC Bay Area",
+      "publishedAt": "2026-07-30",
+      "topic": "homelessness",
+      "summary": "San Francisco Mayor Daniel Lurie signed the city's $16.9 billion budget Thursday, closing a $640 million budget deficit.",
+      "confidence": 0.9,
+      "excerpt": "San Francisco SF Mayor Daniel Lurie signs largest city budget ever By Bob Redell &bull; Published July 30, 2026 &bull; Updated on July 30, 2026 at 11:32 am BOOKMARKER NBC Universal, Inc. San Francisco Mayor Daniel Lurie signed the city's $16.9 billion budget, closing a $640 million budget deficit. Bob Redell reports. San Francisco Mayor Daniel Lurie signed the city's $16.9 billion budget Thursday, closing a $640 million budget deficit. Lurie signed the budget at a senior community center alongside several members of the San Francisco Board of Supervisors. Watch NBC Bay Area News free wherever you are WATCH HERE The spending plan includes $34 million to help San Franciscans remain enrolled in Medi-Cal and CalFresh, $120 million for unhoused families, people living with HIV and AIDS, and LGBTQ+ community-based organizations, and $100 million set aside for potential state and federal cuts to housing and homelessness programs. It also provides $20 million to upgrade equipment for first responders and $71 million for projects including street resurfacing, drug treatment programs and mental health services. Lurie said the budget will help protect services as federal funding declines, while Supervisor Connie Chan said it reflects San Francisco's values. City officials said the budget closes a two-year deficit and avoids a scenario in which the city's deficit would have reached $1 billion within five years. This article tagged under: San Francisco on now 3PM: NBC Bay Area News Midday Trending Stories Vallejo Neighbors frustrated after illegal sideshow involving over 100 cars in Vallejo San Mateo County Bystanders resuscitate teen at San Mateo County beach Santa Cruz 16-year-old lifeguard makes daring first rescue, earns White House invite Bay Area The Ultimate Costco Challen...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1110,21 +1095,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "we-re-living-in-daniel-lurie-s-america-and-most-san-franciscans-are-content-2026",
-      "title": "&#8216;We're living in Daniel Lurie's America,' and most San Franciscans are content",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/06/daniel-lurie-san-francisco-election/",
-      "discoveryUrl": "https://missionlocal.org/2026/06/daniel-lurie-san-francisco-election/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "Mission Local",
-      "publishedAt": "2026-06-03",
-      "topic": "economy",
-      "summary": "Landslide election results favoring Mayor Daniel Lurie's allies and picks point to a changed San Francisco.",
-      "confidence": 0.9,
-      "excerpt": "It’s not clear if Mayor Daniel Lurie is the cause of a changed San Francisco or a symptom, but, on the June 2 election results sheet, that was a distinction without a difference. Barring a near-miraculous turnaround, every last thing San Francisco’s popular mayor and his big money allies would’ve wanted came to pass, and in no uncertain terms. It’s unclear if Lurie is riding a wave or building a wave. But this, too, is a distinction without a difference. The outcomes of Tuesday night’s low-turnout election were not, on the whole, shocking. But the margins — damn near every race was a massacre — were. On the cusp of the election, the backers of Proposition A, the big earthquake bond, were sweating bullets. The measure, which required two-thirds of the vote to pass, was polling at 64 or 65 percent just a few weeks ago. On election night, the measure, carried by Lurie and the firefighters union, banked more than three-quarters of the vote. The mayor had also become the de facto face of the No on D campaign, urging voters to spurn the “ Overpaid CEO Tax ,” lest it lead to a disastrous dispersal of city businesses. Voters seem to agree: More than 55 percent of early voters inveighed against the measure. District 2 Supervisor and close Lurie ally Stephen Sherrill has nearly 70 percent of the vote. And, in District 4, Lurie appointee Alan Wong is enjoying a near-majority in a five-way race and easily wins in ranked-choice voting. On top of that, incumbent school board president Phil Kim has a near-supermajority and prosecutor Phoebe Maffei is besting public defender Alexandra Pray for a judge spot by a 60-40 tilt. The Department of Elections reported on June 3 that some 122,400 ballots remain to be counted. But, with the possible exception of Prop. D, the &#8220;Overpaid CE...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "the-dan-grand-slam-how-daniel-lurie-got-everything-he-wanted-on-election-night-2",
       "title": "The Dan Grand Slam? How Daniel Lurie got everything he wanted on election night",
       "sourceType": "news",
@@ -1137,6 +1107,21 @@
       "summary": "San Francisco’s mayor wasn’t on the ballot Tuesday night. But that didn’t stop him from being the city’s biggest winner.",
       "confidence": 0.9,
       "excerpt": "Mayor Daniel Lurie wasn’t running for reelection Tuesday night. But he may have won bigger than anybody else in San Francisco politics. The mayor, who has enjoyed a moderate majority on the Board of Supervisors since taking office in January 2025, will maintain a team of allies with the decisive wins of his two preferred incumbent supervisors: Alan Wong in District 4 and Stephen Sherrill in District 2. Both crushed their opponents in early victories. What’s more, Propositions C and D, dueling tax measures that Lurie opposed, appeared to flop with voters. Everything, it seemed, was coming up Daniel on primary night. “The early returns that we are seeing show that San Franciscans like the direction that we are going in,” the mayor told reporters at a party for Prop. A, the Earthquake Safety and Emergency Response Bond — supported by Lurie, and winning by a landslide — outside Original Joe’s in North Beach. “We are just getting started. We are going to continue to put our foot on the accelerator.” Wong, whom Lurie appointed after voters recalled former Supervisor Joel Engardio, crushed a host of challengers, including progressive activist Natalie Gee, with early results showing support from more than 52% of Sunset and Parkside voters. Wong said he knocked on more than half the doors in his district in the run-up to the election. The biggest issue in the District 4 election — and the biggest issue in the Sunset for the last six years — was the Great Highway: Should it remain a park or reopen to cars? Wong and most of his challengers advocated for the latter, but Wong seemed to have most successfully associated himself with the pro-car stance. In District 2, Sherrill walloped neighborhood organizer Lori Brooke, pulling in 70% of votes tallied by 9:45 p.m. Apparently, alle...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "we-re-living-in-daniel-lurie-s-america-and-most-san-franciscans-are-content-2026",
+      "title": "&#8216;We're living in Daniel Lurie's America,' and most San Franciscans are content",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/06/daniel-lurie-san-francisco-election/",
+      "discoveryUrl": "https://missionlocal.org/2026/06/daniel-lurie-san-francisco-election/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-06-03",
+      "topic": "economy",
+      "summary": "Landslide election results favoring Mayor Daniel Lurie's allies and picks point to a changed San Francisco.",
+      "confidence": 0.9,
+      "excerpt": "It’s not clear if Mayor Daniel Lurie is the cause of a changed San Francisco or a symptom, but, on the June 2 election results sheet, that was a distinction without a difference. Barring a near-miraculous turnaround, every last thing San Francisco’s popular mayor and his big money allies would’ve wanted came to pass, and in no uncertain terms. It’s unclear if Lurie is riding a wave or building a wave. But this, too, is a distinction without a difference. The outcomes of Tuesday night’s low-turnout election were not, on the whole, shocking. But the margins — damn near every race was a massacre — were. On the cusp of the election, the backers of Proposition A, the big earthquake bond, were sweating bullets. The measure, which required two-thirds of the vote to pass, was polling at 64 or 65 percent just a few weeks ago. On election night, the measure, carried by Lurie and the firefighters union, banked more than three-quarters of the vote. The mayor had also become the de facto face of the No on D campaign, urging voters to spurn the “ Overpaid CEO Tax ,” lest it lead to a disastrous dispersal of city businesses. Voters seem to agree: More than 55 percent of early voters inveighed against the measure. District 2 Supervisor and close Lurie ally Stephen Sherrill has nearly 70 percent of the vote. And, in District 4, Lurie appointee Alan Wong is enjoying a near-majority in a five-way race and easily wins in ranked-choice voting. On top of that, incumbent school board president Phil Kim has a near-supermajority and prosecutor Phoebe Maffei is besting public defender Alexandra Pray for a judge spot by a 60-40 tilt. The Department of Elections reported on June 3 that some 122,400 ballots remain to be counted. But, with the possible exception of Prop. D, the &#8220;Overpaid CE...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1636,6 +1621,19 @@
       "topic": "homelessness",
       "summary": "Harger: San Francisco's homelessness hit a 15-year low. Seattle's mayor is running the opposite experiment. &nbsp;&nbsp; MyNorthwest.com",
       "confidence": 0.78
+    },
+    {
+      "id": "mayor-lurie-announces-major-expansion-of-free-and-low-cost-childcare-with-hundre",
+      "title": "Mayor Lurie Announces Major Expansion Of Free And Low-Cost Childcare With Hundreds Of New Spots For Families",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/departments--office-mayor",
+      "discoveryUrl": "https://www.sf.gov/departments--office-mayor",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2026-04-30",
+      "topic": "city_government",
+      "summary": "Lurie announced major expansion of free and low-cost childcare with hundreds of new spots for families with infants and toddlers, making San Francisco the first city in the country to provide access to free early childhood care for certain families with children up to age 5.",
+      "confidence": 0.9
     }
   ],
   "promises": [
@@ -1751,7 +1749,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
+      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -1982,7 +1980,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 0 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 409 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2114,7 +2112,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-08-04T03:44:16.025Z"
+      "lastRefreshed": "2026-08-07T03:20:52.681Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2133,7 +2131,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-08-04T03:44:16.025Z"
+      "lastRefreshed": "2026-08-07T03:20:52.681Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2143,74 +2141,13 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": 292,
-      "latest": 216,
+      "baseline": null,
+      "latest": null,
       "direction": "down_is_good",
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 292
-        },
-        {
-          "date": "2025-02-01",
-          "value": 274
-        },
-        {
-          "date": "2025-03-01",
-          "value": 342
-        },
-        {
-          "date": "2025-04-01",
-          "value": 275
-        },
-        {
-          "date": "2025-05-01",
-          "value": 273
-        },
-        {
-          "date": "2025-06-01",
-          "value": 301
-        },
-        {
-          "date": "2025-07-01",
-          "value": 239
-        },
-        {
-          "date": "2025-08-01",
-          "value": 294
-        },
-        {
-          "date": "2025-09-01",
-          "value": 219
-        },
-        {
-          "date": "2025-10-01",
-          "value": 235
-        },
-        {
-          "date": "2025-11-01",
-          "value": 300
-        },
-        {
-          "date": "2025-12-01",
-          "value": 148
-        },
-        {
-          "date": "2026-01-01",
-          "value": 221
-        },
-        {
-          "date": "2026-02-01",
-          "value": 220
-        },
-        {
-          "date": "2026-03-01",
-          "value": 216
-        }
-      ],
-      "status": "active",
+      "observations": [],
+      "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-08-04T03:44:16.025Z",
+      "lastRefreshed": "2026-08-07T03:20:52.681Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2253,7 +2190,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-08-04T03:44:16.025Z"
+      "lastRefreshed": "2026-08-07T03:20:52.681Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2268,7 +2205,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 1,
+      "latest": 148,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2348,12 +2285,12 @@
         },
         {
           "date": "2026-08-01",
-          "value": 1
+          "value": 148
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-08-04T03:44:16.025Z"
+      "lastRefreshed": "2026-08-07T03:20:52.681Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2368,7 +2305,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 0,
+      "latest": 409,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2448,12 +2385,12 @@
         },
         {
           "date": "2026-08-01",
-          "value": 0
+          "value": 409
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-08-04T03:44:16.025Z"
+      "lastRefreshed": "2026-08-07T03:20:52.681Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2472,7 +2409,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-08-04T03:44:16.025Z"
+      "lastRefreshed": "2026-08-07T03:20:52.681Z"
     }
   ],
   "topics": [
@@ -2522,7 +2459,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -2577,36 +2514,36 @@
   ],
   "majorNews": [
     {
-      "id": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
-      "headline": "Mayor Lurie Unveils 'Breaking the Cycle,' Vision for Tackling San Francisco's Homelessness and Behavioral Health Crisis",
-      "url": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
-      "publishedAt": "2026-08-04",
-      "publisher": "SF.gov",
-      "topic": "homelessness",
-      "whyItMatters": "Major policy initiative addressing San Francisco's defining crisis through executive directive, comprehensive service coordination, and opening a 24/7 stabilization center—represents the mayor's flagship approach to homelessness and behavioral health",
-      "sourceId": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
-      "selectionMethod": "anthropic"
-    },
-    {
       "id": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
       "headline": "Mayor Lurie Presents Balanced, Responsible Budget to Advance San Francisco's Recovery",
       "url": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
       "publishedAt": "2026-08-04",
       "publisher": "SF.gov",
-      "topic": "city_government",
-      "whyItMatters": "Historic $15.9 billion budget closes $800 million deficit while setting aside $400 million in reserves for federal uncertainty—demonstrates fiscal governance amid economic challenges and shapes citywide priorities for two fiscal years",
+      "topic": "public_safety",
+      "whyItMatters": "Lurie's $15.9 billion budget closes an $800 million deficit while maintaining critical services and setting aside $400 million in reserves for federal uncertainty, demonstrating fiscal leadership during challenging economic conditions and establishing his administration's governing priorities around public safety and infrastructure.",
       "sourceId": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
       "selectionMethod": "anthropic"
     },
     {
-      "id": "sf-mayor-lurie-s-clean-up-city-hall-measures-qualify-for-november-ballot-2026-07",
-      "headline": "SF Mayor Lurie's 'Clean Up City Hall' Measures Qualify For November Ballot",
-      "url": "https://sfist.com/2026/07/29/sf-mayor-luries-clean-up-city-hall-measures-qualify-for-november-ballot/",
+      "id": "san-francisco-mayor-promotes-initiative-giving-him-more-authority-over-city-agen",
+      "headline": "San Francisco mayor promotes initiative giving him more authority over city agencies",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-daniel-lurie-ballot-initiatives-city-charter-reform/",
       "publishedAt": "2026-07-30",
-      "publisher": "SFist",
+      "publisher": "CBS San Francisco",
       "topic": "city_government",
-      "whyItMatters": "Three charter reform measures would fundamentally restructure city governance by expanding mayoral authority over departments and raising ballot signature thresholds from 10,600 to 42,500—potentially the most significant changes to San Francisco's governmental structure in decades",
-      "sourceId": "sf-mayor-lurie-s-clean-up-city-hall-measures-qualify-for-november-ballot-2026-07",
+      "whyItMatters": "Three ballot measures would fundamentally reshape city governance by giving the mayor authority to hire/fire department heads, restructure agencies, and raising ballot signature thresholds from 2% to 8% of voters—centralizing executive power while potentially limiting citizen ballot access in a major restructuring of San Francisco's charter.",
+      "sourceId": "san-francisco-mayor-promotes-initiative-giving-him-more-authority-over-city-agen",
+      "selectionMethod": "anthropic"
+    },
+    {
+      "id": "lurie-wanted-san-francisco-to-bounce-back-now-he-s-got-an-affordability-crisis-2",
+      "headline": "Lurie wanted San Francisco to bounce back. Now he's got an affordability crisis",
+      "url": "https://sfstandard.com/2026/07/23/daniel-lurie-affordability-ai-boom-housing-san-francisco/",
+      "publishedAt": "2026-07-23",
+      "publisher": "The San Francisco Standard",
+      "topic": "public_safety",
+      "whyItMatters": "The AI-driven economic boom Lurie championed has created a new affordability crisis with home values at $1.4 million (up 9.5% yearly) and median rent at $3,558 (up 19%), forcing the mayor to pivot from his original public safety focus to addressing the city's most persistent challenge of housing affordability.",
+      "sourceId": "lurie-wanted-san-francisco-to-bounce-back-now-he-s-got-an-affordability-crisis-2",
       "selectionMethod": "anthropic"
     }
   ],
