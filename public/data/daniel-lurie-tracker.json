@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-08-10T02:39:04.946Z",
+    "lastUpdated": "2026-08-13T03:04:17.866Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -239,6 +239,21 @@
       "summary": "Explore our comprehensive climate policy focused on sustainability, clean energy, and environmental justice. Join us in the fight against climate change today!",
       "confidence": 0.94,
       "excerpt": "English 繁体中文 简体中文 Downtown Climate Innovation Hub Accelerate SF’s Recovery & Lead a Clean Energy Revolution At a Glance Maintain safe and clean streets as the foundation of downtown’s recovery. Incentivize cleantech industries to locate in vacant office space downtown. Leverage our lead in artificial intelligence to accelerate a cleantech revolution. Restore San Francisco's leadership in the fight against climate change. The Details The cleantech revolution is coming, and I will ensure it happens in San Francisco. Our downtown area is experiencing a slow recovery with a record-breaking 37% office vacancy rate . Experts predict a full recovery could take decades, if it happens at all. This impacts everything from city tax revenues to the vitality of small businesses and public safety. It’s a sad reality that San Francisco has 35 million square feet of available office space—the equivalent of 22 Salesforce Towers. We’ve experienced one of the slowest recoveries of any major city in the country. But this also presents an opportunity. We Can Make San Francisco a Global Leader in Clean Technology My administration will incentivize cleantech industries to occupy our vacant office spaces. We will create a Climate Innovation Hub by : Lowering Business Taxes: I will reduce business taxes on cleantech companies. A measure likely to be on the November ballot, which I support, will be one important step toward doing this by providing an estimated 59% tax decrease. Fast-Tracking Permitting: Fast lane-permitting for tenant improvements will lessen the time and cost associated with getting businesses up and running. Experts say my My City Hall Accountability Plan will lessen the time it takes to get a building permit by four months. I will make that even faster for new and expandin...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "will-mayor-lurie-s-coattails-remain-long-in-november-2026-08-10",
+      "title": "Will Mayor Lurie's coattails remain long in November?",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/08/daniel-lurie-san-francisco-muni-bart-charter-amendemnt/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-08-10",
+      "topic": "economy",
+      "summary": "S.F. Mayor Lurie is giving voters discordant messages heading into the next election. But he's popular enough that it may not matter.",
+      "confidence": 0.82,
+      "excerpt": "In June, we noted that Mayor Daniel Lurie’s Brunello Cucinelli outerwear did not come equipped with much in the way of coattails. The question on the eve of June’s primary election was: What about his metaphorical coattails? It turns out he had them: Voters gave Lurie everything he could’ve asked for, by gaudy margins to boot. If the mayor chooses to match his literal coattails to his metaphorical ones, he’d film his next Instagram video decked out like Arturo Toscanini . (Of note: Lurie’s actual jacket of choice at Outside Lands would appear to be this &#8220;sherpa-lined&#8221; overshirt from Yves Saint Laurent; what goes with Charli XCX better than YSL?). San Franciscans began reporting happy thoughts on the trajectory of the city to pollsters nanoseconds after Lurie sent London Breed into private life, and continue to do so. San Francisco remains a place with problems to solve, but the right-track wrong-track numbers are the best city politicos have ever seen. Lurie’s appeal is not hard to fathom: He’s an earnest and likable guy promoting “common sense” approaches to problems, and he has vast wealth (and access to others’ vast wealth) with which to spread his earnest and likable messaging . As such, Lurie’s pitch to voters is also not hard to fathom: It’s the Tom Cruise Help me help you and Sledge Hammer’s Trust me — I know what I’m doing . This is working and, logically, will continue to be deployed until it doesn’t. We have an election coming in November and, among other contests, Lurie has signature-gathered three charter-reform measures onto the ballot to consolidate and centralize mayoral power. These are promoted as “common-sense” reforms but were also boosted by $8.6 million (and counting) from the city’s wealthiest individuals and businesses. “San Francis...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1626,16 +1641,6 @@
       "topic": "economy",
       "summary": "A controller's report suggests San Francisco's economy has reached an inflection point with improvements in information sector jobs, hotel revenues, and transit ridership. Office vacancy rates fell to 33% thanks to AI activity, and hotel revenues matched 2019 levels. Mayor Lurie noted the recovery is fragile with a $1 billion budget gap ahead.",
       "confidence": 0.9
-    },
-    {
-      "id": "harger-san-francisco-s-homelessness-hit-a-15-year-low-seattle-s-mayor-is-running",
-      "title": "Harger: San Francisco's homelessness hit a 15-year low. Seattle's mayor is running the opposite experiment. - MyNorthwest.com",
-      "sourceType": "news",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1FSURseEF0REFMV3VpT05tWEhRaXRCM21yN3kzWEYyQ0g2a0lENFV4V0VOOEJSNGk5ZG01czcwMFdIUFIzVnV3SHZ5b3dSSGYzOVN4MTBySXRwOHRuZFdqbXVzNHRpaEtsTWlxazhmZ2hYSmVaZzRROHhJZw?oc=5",
-      "publishedAt": "2026-05-15",
-      "topic": "homelessness",
-      "summary": "Harger: San Francisco's homelessness hit a 15-year low. Seattle's mayor is running the opposite experiment. &nbsp;&nbsp; MyNorthwest.com",
-      "confidence": 0.78
     }
   ],
   "promises": [
@@ -1751,7 +1756,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
+      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -1982,7 +1987,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 720 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 721 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2114,7 +2119,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-08-10T02:38:51.611Z"
+      "lastRefreshed": "2026-08-13T03:04:17.620Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2133,7 +2138,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-08-10T02:38:51.611Z"
+      "lastRefreshed": "2026-08-13T03:04:17.620Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2143,74 +2148,13 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": 292,
-      "latest": 216,
+      "baseline": null,
+      "latest": null,
       "direction": "down_is_good",
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 292
-        },
-        {
-          "date": "2025-02-01",
-          "value": 274
-        },
-        {
-          "date": "2025-03-01",
-          "value": 342
-        },
-        {
-          "date": "2025-04-01",
-          "value": 275
-        },
-        {
-          "date": "2025-05-01",
-          "value": 273
-        },
-        {
-          "date": "2025-06-01",
-          "value": 301
-        },
-        {
-          "date": "2025-07-01",
-          "value": 239
-        },
-        {
-          "date": "2025-08-01",
-          "value": 294
-        },
-        {
-          "date": "2025-09-01",
-          "value": 219
-        },
-        {
-          "date": "2025-10-01",
-          "value": 235
-        },
-        {
-          "date": "2025-11-01",
-          "value": 300
-        },
-        {
-          "date": "2025-12-01",
-          "value": 148
-        },
-        {
-          "date": "2026-01-01",
-          "value": 221
-        },
-        {
-          "date": "2026-02-01",
-          "value": 220
-        },
-        {
-          "date": "2026-03-01",
-          "value": 216
-        }
-      ],
-      "status": "active",
+      "observations": [],
+      "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-08-10T02:38:51.611Z",
+      "lastRefreshed": "2026-08-13T03:04:17.620Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2226,34 +2170,13 @@
       "evidenceSourceIds": [
         "datasf-substance-use-services"
       ],
-      "status": "active",
-      "baseline": 55904,
-      "latest": 56619,
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 55904
-        },
-        {
-          "date": "2025-04-01",
-          "value": 46460
-        },
-        {
-          "date": "2025-07-01",
-          "value": 51108
-        },
-        {
-          "date": "2025-10-01",
-          "value": 41664
-        },
-        {
-          "date": "2026-01-01",
-          "value": 56619
-        }
-      ],
+      "status": "needs_verified_source",
+      "baseline": null,
+      "latest": null,
+      "observations": [],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-08-10T02:38:51.611Z"
+      "lastRefreshed": "2026-08-13T03:04:17.620Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2268,7 +2191,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 251,
+      "latest": 348,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2348,12 +2271,12 @@
         },
         {
           "date": "2026-08-01",
-          "value": 251
+          "value": 348
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-08-10T02:38:51.611Z"
+      "lastRefreshed": "2026-08-13T03:04:17.620Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2368,7 +2291,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 720,
+      "latest": 721,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2448,12 +2371,12 @@
         },
         {
           "date": "2026-08-01",
-          "value": 720
+          "value": 721
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-08-10T02:38:51.611Z"
+      "lastRefreshed": "2026-08-13T03:04:17.620Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2472,7 +2395,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-08-10T02:38:51.611Z"
+      "lastRefreshed": "2026-08-13T03:04:17.620Z"
     }
   ],
   "topics": [
@@ -2522,7 +2445,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
     }
   ],
   "connectors": [
@@ -2577,37 +2500,37 @@
   ],
   "majorNews": [
     {
-      "id": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
-      "headline": "Mayor Lurie Unveils 'Breaking the Cycle,' Vision for Tackling San Francisco's Homelessness and Behavioral Health Crisis",
-      "url": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
-      "publishedAt": "2026-08-10",
-      "publisher": "SF.gov",
-      "topic": "homelessness",
-      "whyItMatters": "Major policy initiative addressing the city's most visible crisis through executive directive that restructures homelessness response system, increases accountability for nonprofit partners, and establishes data-driven metrics for measuring outcomes.",
-      "sourceId": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
-      "selectionMethod": "anthropic"
-    },
-    {
       "id": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
       "headline": "Mayor Lurie Presents Balanced, Responsible Budget to Advance San Francisco's Recovery",
       "url": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
       "publishedAt": "2026-08-04",
       "publisher": "SF.gov",
       "topic": "public_safety",
-      "whyItMatters": "Fiscal blueprint closes $800 million deficit while setting aside $400 million in reserves for federal uncertainty, demonstrating fiscal responsibility amid economic volatility and establishing spending priorities for public safety and infrastructure across two fiscal years.",
+      "whyItMatters": "Mayor Lurie presented a $15.9 billion budget for FY 2025-2026 and 2026-2027, closing an $800 million deficit while prioritizing public safety and clean streets. The budget sets aside $400 million in reserves for federal and state uncertainty and invests approximately $75 million in capital projects including fire station repairs and pothole fixes.",
       "sourceId": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
-      "selectionMethod": "anthropic"
+      "selectionMethod": "fallback"
     },
     {
-      "id": "san-francisco-mayor-promotes-initiative-giving-him-more-authority-over-city-agen",
-      "headline": "San Francisco mayor promotes initiative giving him more authority over city agencies",
-      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-daniel-lurie-ballot-initiatives-city-charter-reform/",
-      "publishedAt": "2026-07-30",
+      "id": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
+      "headline": "Mayor Lurie Unveils 'Breaking the Cycle,' Vision for Tackling San Francisco's Homelessness and Behavioral Health Crisis",
+      "url": "https://www.sf.gov/news-mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-franciscos-homelessness-and-behavioral-health-crisis",
+      "publishedAt": "2026-08-10",
+      "publisher": "SF.gov",
+      "topic": "homelessness",
+      "whyItMatters": "Mayor Lurie signed an executive directive outlining a roadmap to transform the city's homelessness and behavioral health response. The plan includes immediate actions and longer-term reforms to improve coordination, data-driven policymaking, and accountability for government and nonprofit partners.",
+      "sourceId": "mayor-lurie-unveils-breaking-the-cycle-vision-for-tackling-san-francisco-s-homel",
+      "selectionMethod": "fallback"
+    },
+    {
+      "id": "san-francisco-condo-tower-is-first-project-to-be-approved-under-mayor-s-neighbor",
+      "headline": "San Francisco condo tower is first project to be approved under mayor's neighborhood housing push",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-condo-tower-anza-street-upzoning-housing/",
+      "publishedAt": "2026-07-27",
       "publisher": "CBS San Francisco",
-      "topic": "city_government",
-      "whyItMatters": "Fundamental governance reform that would consolidate mayoral power through charter amendments allowing direct hiring/firing of department heads and raising ballot signature thresholds from 2% to 8%, representing the most significant shift in San Francisco's power structure in years.",
-      "sourceId": "san-francisco-mayor-promotes-initiative-giving-him-more-authority-over-city-agen",
-      "selectionMethod": "anthropic"
+      "topic": "housing",
+      "whyItMatters": "The San Francisco Planning Commission has approved the first new project that qualifies under Mayor Daniel Lurie's plan to build more housing in neighborhoods across the city.",
+      "sourceId": "san-francisco-condo-tower-is-first-project-to-be-approved-under-mayor-s-neighbor",
+      "selectionMethod": "fallback"
     }
   ],
   "campaignPromiseSeed": [
