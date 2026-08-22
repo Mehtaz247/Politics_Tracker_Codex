@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-08-19T01:57:03.942Z",
+    "lastUpdated": "2026-08-22T01:53:42.180Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -239,6 +239,21 @@
       "summary": "Explore our comprehensive climate policy focused on sustainability, clean energy, and environmental justice. Join us in the fight against climate change today!",
       "confidence": 0.94,
       "excerpt": "English 繁体中文 简体中文 Downtown Climate Innovation Hub Accelerate SF’s Recovery & Lead a Clean Energy Revolution At a Glance Maintain safe and clean streets as the foundation of downtown’s recovery. Incentivize cleantech industries to locate in vacant office space downtown. Leverage our lead in artificial intelligence to accelerate a cleantech revolution. Restore San Francisco's leadership in the fight against climate change. The Details The cleantech revolution is coming, and I will ensure it happens in San Francisco. Our downtown area is experiencing a slow recovery with a record-breaking 37% office vacancy rate . Experts predict a full recovery could take decades, if it happens at all. This impacts everything from city tax revenues to the vitality of small businesses and public safety. It’s a sad reality that San Francisco has 35 million square feet of available office space—the equivalent of 22 Salesforce Towers. We’ve experienced one of the slowest recoveries of any major city in the country. But this also presents an opportunity. We Can Make San Francisco a Global Leader in Clean Technology My administration will incentivize cleantech industries to occupy our vacant office spaces. We will create a Climate Innovation Hub by : Lowering Business Taxes: I will reduce business taxes on cleantech companies. A measure likely to be on the November ballot, which I support, will be one important step toward doing this by providing an estimated 59% tax decrease. Fast-Tracking Permitting: Fast lane-permitting for tenant improvements will lessen the time and cost associated with getting businesses up and running. Experts say my My City Hall Accountability Plan will lessen the time it takes to get a building permit by four months. I will make that even faster for new and expandin...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "meet-the-district-10-candidates-how-would-you-vote-on-the-rv-ban-2026-08-20",
+      "title": "Meet the District 10 candidates: How would you vote on the RV ban?",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/08/meet-the-district-10-candidates-rv-ban/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-08-20",
+      "topic": "homelessness",
+      "summary": "It's been over one year since Mayor Daniel Lurie restricted parking for RVs to two hours. How would the District 10 candidates have voted?",
+      "confidence": 0.82,
+      "excerpt": "Welcome back to our “Meet the Candidates” series, where District 10 supervisor candidates respond to questions each week in 100 words or fewer. Answers will be published every Thursday. District 10 includes neighborhoods in the city’s largest southeast sector, including Bayview-Hunters Point, Potrero Hill, Visitacion Valley, Dogpatch, Sunnydale, Portola, and others. Each candidate is first ordered alphabetically, then rotated each week. It’s been over a year since San Francisco began cracking down on RVs parked on public streets. The enforcement followed new legislation that limited parking for large vehicles to two hours across the city. At the same time, city officials vowed to match the hundreds of people currently living in RVs with housing — as long as they could prove they had been parked in San Francisco since May 2025. The program has so far matched more than 200 households to housing, according to the mayor’s office, but Mission Local found that dozens of RV dwellers were unable to secure a permit, which would temporarily protect their vehicle from being towed while they work with the city to find housing. Others, Mission Local found, are now living in a small car or a tent. The majority of these vehicles are parked in Bayview-Hunters Point, where parking enforcement is more limited. Before the RV crackdown began, San Francisco’s Department of Homelessness and Supportive Housing had already closed its last “safe parking” site, the Bayview Vehicle Triage Center, which allowed for RVs to park for free, and connected them with social services . Supervisor Shamann Walton, who represents District 10, was one of the few supervisors who voted against the new RV parking rules. “They don’t have anywhere to put anybody,” Walton said at the time. Mission Local asked ea...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1638,16 +1653,6 @@
       "topic": "housing",
       "summary": "Official Department of Building Inspection permits dataset, including permit filing, issuance, completion dates, proposed use, and proposed units.",
       "confidence": 0.95
-    },
-    {
-      "id": "sf-healthy-streets-dashboard",
-      "title": "Healthy streets data and information",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/data--healthy-streets-data-and-information",
-      "publishedAt": "2026-05-17",
-      "topic": "homelessness",
-      "summary": "SF.gov data story states quarterly tent/structure/vehicle counts and HSOC encampment engagement data are tracked in public dashboards.",
-      "confidence": 0.85
     }
   ],
   "promises": [
@@ -1763,7 +1768,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
+      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -1994,7 +1999,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 942 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 990 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2126,7 +2131,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-08-19T01:57:03.758Z"
+      "lastRefreshed": "2026-08-22T01:53:42.003Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2145,7 +2150,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-08-19T01:57:03.758Z"
+      "lastRefreshed": "2026-08-22T01:53:42.003Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2155,13 +2160,74 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": null,
-      "latest": null,
+      "baseline": 292,
+      "latest": 216,
       "direction": "down_is_good",
-      "observations": [],
-      "status": "needs_verified_source",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 292
+        },
+        {
+          "date": "2025-02-01",
+          "value": 274
+        },
+        {
+          "date": "2025-03-01",
+          "value": 342
+        },
+        {
+          "date": "2025-04-01",
+          "value": 275
+        },
+        {
+          "date": "2025-05-01",
+          "value": 273
+        },
+        {
+          "date": "2025-06-01",
+          "value": 301
+        },
+        {
+          "date": "2025-07-01",
+          "value": 239
+        },
+        {
+          "date": "2025-08-01",
+          "value": 294
+        },
+        {
+          "date": "2025-09-01",
+          "value": 219
+        },
+        {
+          "date": "2025-10-01",
+          "value": 235
+        },
+        {
+          "date": "2025-11-01",
+          "value": 300
+        },
+        {
+          "date": "2025-12-01",
+          "value": 148
+        },
+        {
+          "date": "2026-01-01",
+          "value": 221
+        },
+        {
+          "date": "2026-02-01",
+          "value": 220
+        },
+        {
+          "date": "2026-03-01",
+          "value": 216
+        }
+      ],
+      "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-08-19T01:57:03.758Z",
+      "lastRefreshed": "2026-08-22T01:53:42.003Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2208,7 +2274,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-08-19T01:57:03.758Z"
+      "lastRefreshed": "2026-08-22T01:53:42.003Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2223,7 +2289,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 534,
+      "latest": 679,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2303,12 +2369,12 @@
         },
         {
           "date": "2026-08-01",
-          "value": 534
+          "value": 679
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-08-19T01:57:03.758Z"
+      "lastRefreshed": "2026-08-22T01:53:42.003Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2323,7 +2389,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 942,
+      "latest": 990,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2403,12 +2469,12 @@
         },
         {
           "date": "2026-08-01",
-          "value": 942
+          "value": 990
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-08-19T01:57:03.758Z"
+      "lastRefreshed": "2026-08-22T01:53:42.003Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2427,7 +2493,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-08-19T01:57:03.758Z"
+      "lastRefreshed": "2026-08-22T01:53:42.003Z"
     }
   ],
   "topics": [
@@ -2477,7 +2543,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
+      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
