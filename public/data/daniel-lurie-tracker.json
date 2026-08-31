@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-08-28T11:30:22.393Z",
+    "lastUpdated": "2026-08-31T05:44:35.870Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -239,6 +239,21 @@
       "summary": "Explore our comprehensive climate policy focused on sustainability, clean energy, and environmental justice. Join us in the fight against climate change today!",
       "confidence": 0.94,
       "excerpt": "English 繁体中文 简体中文 Downtown Climate Innovation Hub Accelerate SF’s Recovery & Lead a Clean Energy Revolution At a Glance Maintain safe and clean streets as the foundation of downtown’s recovery. Incentivize cleantech industries to locate in vacant office space downtown. Leverage our lead in artificial intelligence to accelerate a cleantech revolution. Restore San Francisco's leadership in the fight against climate change. The Details The cleantech revolution is coming, and I will ensure it happens in San Francisco. Our downtown area is experiencing a slow recovery with a record-breaking 37% office vacancy rate . Experts predict a full recovery could take decades, if it happens at all. This impacts everything from city tax revenues to the vitality of small businesses and public safety. It’s a sad reality that San Francisco has 35 million square feet of available office space—the equivalent of 22 Salesforce Towers. We’ve experienced one of the slowest recoveries of any major city in the country. But this also presents an opportunity. We Can Make San Francisco a Global Leader in Clean Technology My administration will incentivize cleantech industries to occupy our vacant office spaces. We will create a Climate Innovation Hub by : Lowering Business Taxes: I will reduce business taxes on cleantech companies. A measure likely to be on the November ballot, which I support, will be one important step toward doing this by providing an estimated 59% tax decrease. Fast-Tracking Permitting: Fast lane-permitting for tenant improvements will lessen the time and cost associated with getting businesses up and running. Experts say my My City Hall Accountability Plan will lessen the time it takes to get a building permit by four months. I will make that even faster for new and expandin...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "new-plan-emerges-to-rename-embarcadero-plaza-after-former-sf-mayor-art-agnos-202",
+      "title": "New Plan Emerges to Rename Embarcadero Plaza After Former SF Mayor Art Agnos",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/08/29/new-plan-emerges-to-rename-embarcadero-plaza-after-former-sf-mayor-art-agnos/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-08-29",
+      "topic": "economy",
+      "summary": "A new plan officially introduced on Friday calls for San Francisco's Embarcadero Plaza to be renamed Art Agnos Plaza in honor of the former mayor who championed the removal of the Embarcadero Freeway following the damage it sustained in the 1989 Loma Prieta earthquake.",
+      "confidence": 0.8,
+      "excerpt": "SF News / Zack Ruskin New Plan Emerges to Rename Embarcadero Plaza After Former SF Mayor Art Agnos Published Aug 29, 2026 · 1:34 PM PDT Credit: Tony Avelar/San Francisco Giants/Getty Images --> A new plan officially introduced on Friday calls for San Francisco's Embarcadero Plaza to be renamed Art Agnos Plaza in honor of the former mayor who championed the removal of the Embarcadero Freeway following the damage it sustained in the 1989 Loma Prieta earthquake. As the Chronicle reports , should the resolution pass the San Francisco Recreation and Park Commission's Capital Committee this upcoming Wednesday, it will then be subject to a full commission vote in the next month. If successful, the red-brick area of Embarcadero Plaza first known as Justin Herman Plaza would subsequently become Art Agnos Plaza. In a statement shared with the Chronicle, current San Francisco mayor Daniel Lurie highlighted what his predecessor was able to achieve during his time in office. \"When the Loma Prieta earthquake struck San Francisco, it was Art Agnos who helped guide our city through one of the most challenging moments in its history — and who seized that moment to transform our iconic waterfront for generations to come,” Lurie said. “As we once again reimagine a vital part of our waterfront, it is only fitting that we honor former Mayor Agnos’s legacy.” The new plans would also rename an adjacent green space in Sue Bierman Park as Sue Bierman Commons. Bierman, who died in 2006, was an activist and former Board of Supervisors member who played a major role in preventing the construction of a proposed freeway artery through Golden Gate Park. Along with Art Agnos Plaza, the two parcels would subsequently be known as Embarcadero Park and cover a span of five acres. The redesign will repo...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1643,16 +1658,6 @@
       "topic": "public_safety",
       "summary": "Official SFDPH dataset covering naloxone distribution, substance use treatment admissions, withdrawal management discharges, and MOUD clients.",
       "confidence": 0.95
-    },
-    {
-      "id": "datasf-building-permits",
-      "title": "Building Permits",
-      "sourceType": "official",
-      "url": "https://data.sfgov.org/d/i98e-djp9",
-      "publishedAt": "2026-05-17",
-      "topic": "housing",
-      "summary": "Official Department of Building Inspection permits dataset, including permit filing, issuance, completion dates, proposed use, and proposed units.",
-      "confidence": 0.95
     }
   ],
   "promises": [
@@ -1999,7 +2004,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 1385 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 1477 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2131,7 +2136,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-08-28T11:30:22.240Z"
+      "lastRefreshed": "2026-08-31T05:44:35.738Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2150,7 +2155,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-08-28T11:30:22.240Z"
+      "lastRefreshed": "2026-08-31T05:44:35.738Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2227,7 +2232,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-08-28T11:30:22.240Z",
+      "lastRefreshed": "2026-08-31T05:44:35.738Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2274,7 +2279,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-08-28T11:30:22.240Z"
+      "lastRefreshed": "2026-08-31T05:44:35.738Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2289,7 +2294,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 883,
+      "latest": 981,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2369,12 +2374,12 @@
         },
         {
           "date": "2026-08-01",
-          "value": 883
+          "value": 981
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-08-28T11:30:22.240Z"
+      "lastRefreshed": "2026-08-31T05:44:35.738Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2389,7 +2394,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 1385,
+      "latest": 1477,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2469,12 +2474,12 @@
         },
         {
           "date": "2026-08-01",
-          "value": 1385
+          "value": 1477
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-08-28T11:30:22.240Z"
+      "lastRefreshed": "2026-08-31T05:44:35.738Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2493,7 +2498,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-08-28T11:30:22.240Z"
+      "lastRefreshed": "2026-08-31T05:44:35.738Z"
     }
   ],
   "topics": [
@@ -2620,14 +2625,14 @@
       "selectionMethod": "fallback"
     },
     {
-      "id": "meet-the-district-10-candidates-how-would-you-vote-on-the-rv-ban-2026-08-20",
-      "headline": "Meet the District 10 candidates: How would you vote on the RV ban?",
-      "url": "https://missionlocal.org/2026/08/meet-the-district-10-candidates-rv-ban/",
-      "publishedAt": "2026-08-20",
-      "publisher": "Mission Local",
+      "id": "new-plan-emerges-to-rename-embarcadero-plaza-after-former-sf-mayor-art-agnos-202",
+      "headline": "New Plan Emerges to Rename Embarcadero Plaza After Former SF Mayor Art Agnos",
+      "url": "https://sfist.com/2026/08/29/new-plan-emerges-to-rename-embarcadero-plaza-after-former-sf-mayor-art-agnos/",
+      "publishedAt": "2026-08-29",
+      "publisher": "SFist",
       "topic": "city_government",
-      "whyItMatters": "It's been over one year since Mayor Daniel Lurie restricted parking for RVs to two hours. How would the District 10 candidates have voted?",
-      "sourceId": "meet-the-district-10-candidates-how-would-you-vote-on-the-rv-ban-2026-08-20",
+      "whyItMatters": "A new plan officially introduced on Friday calls for San Francisco's Embarcadero Plaza to be renamed Art Agnos Plaza in honor of the former mayor who championed the removal of the Embarcadero Freeway following the damage it sustained in the 1989 Loma Prieta earthquake.",
+      "sourceId": "new-plan-emerges-to-rename-embarcadero-plaza-after-former-sf-mayor-art-agnos-202",
       "selectionMethod": "fallback"
     }
   ],
