@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-09-01T05:18:51.082Z",
+    "lastUpdated": "2026-09-04T04:42:16.626Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -242,6 +242,36 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
+      "title": "Mayor Lurie Presents Balanced, Responsible Budget to Advance San Francisco's Recovery",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
+      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
+      "discoverySource": "Anthropic web search",
+      "publisher": "SF.gov",
+      "publishedAt": "2026-09-04",
+      "topic": "city_government",
+      "summary": "Mayor Lurie presented a $15.9 billion budget for FY 2025-2027, closing an historic $800 million deficit. The budget prioritizes public safety, clean streets, behavioral health crisis response, and economic revitalization while unlocking $90 million over three years to expand interim housing capacity.",
+      "confidence": 0.9,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "page returned bot verification challenge"
+    },
+    {
+      "id": "alioto-s-plaza-unveiled-at-fisherman-s-wharf-with-new-seating-beer-concession-20",
+      "title": "Alioto's Plaza Unveiled at Fisherman's Wharf, With New Seating, Beer Concession",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/09/02/aliotos-plaza-unveiled-at-fishermans-wharf-with-new-seating-beer-concession/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-09-03",
+      "topic": "economy",
+      "summary": "The new waterfront plaza, in the wharf space where Alioto's restaurant once stood, had its ribbon-cutting ceremony on Wednesday, with Mayor Daniel Lurie calling it \"a new reason to return\" to Fisherman's Wharf.",
+      "confidence": 0.8,
+      "excerpt": "SF News Alioto&#x27;s Plaza Unveiled at Fisherman&#x27;s Wharf, With New Seating, Beer Concession By Jay Barmann • September 2, 2026 · 6:12 PM PDT • 3 min read Photo via Port of San Francisco X Facebook Copy link The new waterfront plaza, in the wharf space where Alioto's restaurant once stood, had its ribbon-cutting ceremony on Wednesday, with Mayor Daniel Lurie calling it \"a new reason to return\" to Fisherman's Wharf. Alioto's Plaza, as it is now called, opened to the public on Wednesday, complete with new picnic-table seating, benches facing the Bay, landscaping elements, sculptural seating that looks like ocean waves, and a pop-up space for retail that is currently a temporary home for Woods Beer & Wine Co. — which has plans to open a new taproom nearby in the former Fishermen's Grotto No. 9. We last saw the plans for the plaza, which was built by the Port of San Francisco, almost exactly one year ago , ahead of the demolition of 100-year-old Alioto's in January. The massive, 11,000-square-foot restaurant had sat closed for several years, and neither the Port nor the city could find any takers for it. A decision was subsequently made to turn the space, which sits between two other buildings facing the harbor, into a public plaza. Photo via Port of SF Alioto's, which began life as a fish stand in Stall #8 at the wharf in 1925, later becoming Alioto's No. 8 restaurant, was a fixture at Fisherman's Wharf and touchstone for many local families. Its original proprietor, Nunzio Alioto Sr., died in 1933, and the restaurant was then operated by his children and grandchildren. The restaurant, like others at Fisherman's Wharf, closed when the pandemic hit and the family closed it for good in 2022 after being let out of their lease. \"For generations, San Franciscans and vis...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "san-francisco-mayor-says-city-will-redo-all-homelessness-services-contracts-2026",
       "title": "San Francisco mayor says city will redo all homelessness services contracts",
       "sourceType": "news",
@@ -302,6 +332,21 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "lurie-rejects-core-reforms-of-homelessness-oversight-audit-2026-08-24",
+      "title": "Lurie rejects core reforms of homelessness oversight audit",
+      "sourceType": "news",
+      "url": "https://sfstandard.com/2026/08/24/lurie-homelessness-oversight/",
+      "discoveryUrl": "https://sfstandard.com/2026/08/24/lurie-homelessness-oversight/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "San Francisco Standard",
+      "publishedAt": "2026-08-24",
+      "topic": "homelessness",
+      "summary": "The civil grand jury’s key recommendations aimed to increase oversight of funding and sites where unhoused people overdose.",
+      "confidence": 0.9,
+      "excerpt": "Mayor Daniel Lurie rejected several key recommendations from a highly critical San Francisco civil grand jury report on the city’s oversight of homelessness services, including proposals to publicly track deaths and overdoses by individual housing sites and subject nonprofit contracts to greater scrutiny. The June report found serious gaps in how the city oversees the nearly $500 million it spends annually on nonprofit homelessness contracts. The grand jury found that, despite collecting reports on hundreds of deaths, overdoses, and other serious incidents, city leaders have failed to systematically analyze related internal data to identify troubled housing sites or service providers. The investigation also questioned whether the 3-year-old Homelessness Oversight Commission is doing right by its name, finding that it had largely stopped reviewing contract renewals and extensions and had not fully used its authority to hold the Homelessness and Supportive Housing Department and its outside contractors accountable. The grand jury recommended that the oversight commission request audits of permanent supportive housing sites following spikes in overdoses and deaths at the facilities. Lurie wasn’t on board with that. In a detailed response to the grand jury released Monday, the mayor’s office acknowledged that the oversight commission has the authority to conduct performance audits of the city’s homelessness department, as well as systemic factors behind overdoses and deaths. However, the mayor’s office said the commission has limited analytical capacity and staffing. And Lurie hasn’t indicated a desire to change that. His office added that the homelessness department “is already partnering with departments to strategically address issues of overdoses in [permanent suppor...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "meet-the-district-10-candidates-how-would-you-vote-on-the-rv-ban-2026-08-20",
       "title": "Meet the District 10 candidates: How would you vote on the RV ban?",
       "sourceType": "news",
@@ -344,6 +389,21 @@
       "summary": "San Francisco YIMBY leader describes ‘slowly festering irritation’ with Mayor Daniel Lurie.",
       "confidence": 0.82,
       "excerpt": "Who’s better on housing, San Francisco Mayor Daniel Lurie or (socialist) New York Mayor Zohran Mamdani? That’s the question that Laura Foote, executive director of YIMBY Action, and Ryder Kessler, co-founder of Abundance New York, set out to answer in an hour-long discussion on Substack Live this morning moderated by writer Scott Alan Lucas. There was a clear answer: Kessler in New York gave his mayor an A-, and Foote in San Francisco said hers was only deserving of a B-, or maybe even a C+. “He's holding back,” Foote said. To be fair, she said, the city has made some good pro-housing moves under Lurie: He helped pass San Francisco’s first major upzoning in the city’s west and north in decades, and also recently helped lower the rate of affordable units required in new housing projects from 15 percent to 5 percent. But, she said, the city is still fighting the YIMBYs. “I'm now on my second lawsuit against the city of San Francisco,” Foote said. One of those lawsuits was against last year’s upzoning plan to allow taller buildings , which YIMBY Action felt did not go far enough — the organization accused San Francisco of violating the state law that had required it to upzone in the first place by not increasing heights as much as it should have. The second lawsuit, filed this month, was similar: It alleged the city was not in compliance with SB 79, a state law requiring that apartment buildings be allowed near public transit. On top of that, Lurie has also opposed the Marina Safeway project, a proposed 22-story development on the waterfront in a wealthy neighborhood. “I think that we have a catastrophe on our hands and need to have solutions at scale with that,” Foote said, adding that she would prefer a maximalist approach. “I wanted him to be the YIMBY hero,” she sai...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "affordable-housing-measure-would-deprive-cops-of-funding-lurie-says-2026-08-13",
+      "title": "Affordable housing measure would deprive cops of funding, Lurie says",
+      "sourceType": "news",
+      "url": "https://sfstandard.com/2026/08/13/sf-prop-i-affordable-housing-police-fire-unions-oppose/",
+      "discoveryUrl": "https://sfstandard.com/2026/08/13/sf-prop-i-affordable-housing-police-fire-unions-oppose/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "San Francisco Standard",
+      "publishedAt": "2026-08-13",
+      "topic": "public_safety",
+      "summary": "The mayor and police and fire unions came out against the Affordable Housing Guarantee Act.",
+      "confidence": 0.9,
+      "excerpt": "To meet a state mandate, San Francisco needs to plan for 46,000 additional units of affordable housing by 2031. Every single one of those units is going to cost money. And where that money will come from is the subject of endless debate. Recent discussion has focused on transfer taxes , which property owners pay when they sell or transfer ownership. In 2020, voters passed a measure to double transfer taxes on sales greater than $10 million, with the extra revenue to be directed toward affordable housing. But that intention wasn’t legally binding, and the revenue went into the general fund, meaning it goes toward a range of city services. Now, a coalition of advocates has put Proposition I on the November ballot to formally dedicate revenue from transfer taxes — about $120 million each year — to affordable housing. City departments currently enjoying funding from transfer tax revenue are, no surprise, not enthused. Police and firefighter unions and Mayor Daniel Lurie have come out against Prop. I , arguing that it takes money away from public safety. “The measure is unlikely to lead to new affordable housing and would carve a massive, permanent hole in the city’s general fund — the same fund that pays the firefighters, paramedics, and police officers who respond when San Franciscans call 911,” the unions said. They encourage voters to vote no on I and yes on Proposition C, Supervisor Myrna Melgar’s Housing Trust Fund Expansion Act, which would be funded by property taxes. The release characterized the measure as writing a “blank check to nonprofits” and argued that the city needs money to recruit first responders. “Every dollar this measure takes away is a dollar that can’t staff a firehouse, run an ambulance, or answer a 911 call,” said Sam Gebler, president of San F...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1297,21 +1357,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "with-layoffs-ahead-san-francisco-mayor-lurie-unveils-17-billion-city-budget-2026",
-      "title": "With Layoffs Ahead, San Francisco Mayor Lurie Unveils $17 Billion City Budget",
-      "sourceType": "news",
-      "url": "https://www.kqed.org/news/12085729/with-layoffs-ahead-san-francisco-mayor-lurie-unveils-17-billion-city-budget",
-      "discoveryUrl": "https://www.kqed.org/news/12085729/with-layoffs-ahead-san-francisco-mayor-lurie-unveils-17-billion-city-budget",
-      "discoverySource": "Anthropic web search",
-      "publisher": "KQED",
-      "publishedAt": "2026-06-01",
-      "topic": "public_safety",
-      "summary": "San Francisco Mayor Daniel Lurie’s proposal aims to narrow the city’s budget shortfall by around $300 million.",
-      "confidence": 0.9,
-      "excerpt": "News With Layoffs Ahead, San Francisco Mayor Lurie Unveils $17 Billion City Budget San Francisco Mayor Daniel Lurie’s proposal aims to narrow the city’s budget shortfall by around $300 million. Jun 1, 2026 Updated 3:52 pm PT Sydney Johnson Mayor Daniel Lurie speaks on his support for California Senate Bill 63 at a press conference at Embarcadero Plaza in San Francisco on Jan. 23, 2026. (Tâm Vũ/KQED) San Francisco Mayor Daniel Lurie wants to preserve the city&rsquo;s law enforcement spending and boost benefits programs as departments across the city face cuts to close the city&rsquo;s multimillion-dollar budget deficit. On Monday, Lurie released his anticipated $16.9 billion budget proposal for the next two fiscal years. It reduces the city&rsquo;s more than $600 million projected budget shortfall by $300 million through a combination of department reorganizations, eliminating positions and other spending reductions. The plan has sparked pushback from some worker advocates, who say the cuts will harm residents. But Lurie said failing to address the gaping deficit now would mean even steeper reductions in the future. &ldquo;Under my administration, we will not fall back on temporary fixes that force deeper cuts year after year,&rdquo; Lurie said as he announced his proposal on Monday outside one of the city&rsquo;s Human Services Agency offices, which could receive a major boost in the budget to address federal funding cuts. &ldquo;I know these decisions have very real impacts. But if we fail to act now, our structural deficit will grow to $1 billion, and the difficult choices before us today will become even more painful and costly tomorrow.&rdquo; The budget now goes before the Board of Supervisors, who can request and negotiate changes. The final budget must be appr...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "sf-city-jobs-are-safe-this-year-next-year-is-another-story-2026-06-01",
       "title": "Lurie’s budget spares city jobs — but grant funding cuts may lead to nonprofit layoffs",
       "sourceType": "news",
@@ -1324,6 +1369,21 @@
       "summary": "The mayor avoided the layoffs unions feared, thanks to a surprise surplus and a hiring freeze. A $1B deficit by 2029 may not be so kind.",
       "confidence": 0.9,
       "excerpt": "San Francisco City Hall jobs are safe, for now — but next year, not so much. Mayor Daniel Lurie released his annual proposed budget on Monday, aiming to close a $643 million deficit. Despite devastating federal disinvestment and a still-recovering economy, additional layoffs did not materialize this year. The budget cuts some social safety net programs as the city seeks to offset expected federal reductions that threaten to leave tens of thousands of San Franciscans without health care and food stamps. “Today, I am proud to submit a balanced budget that is fiscally responsible and strengthens our social safety net, so even in the face of federal cuts, San Franciscans know they can count on this city,” Lurie said in livestreamed remarks to the city. It’s not all roses: the budget slashes grant funding to nonprofit services focused on helping the poorest citizens, immigrants, and communities of color. The funding loss may result in as many as 1,050 layoffs among nonprofit service providers, advocates said Monday. Earlier this year, dire budget projections led labor unions to brace for layoffs among the city’s 34,000 employees in Lurie’s budget proposal, and in April, the mayor handed out a small set of pink slips to 127 employees. Speaking to The Standard last month, SEIU 1021, which represents one of the largest swaths of city employees, warned that strikes next year could “shut down the city.” In a statement, SEIU 1021 San Francisco Vice President Kristin Hardy said, “We are pleased and relieved to see that Mayor Lurie did not include further layoffs in the next fiscal year’s budget. San Francisco is at a pivotal moment in its recovery, and we cannot afford to go backward.” Still, she added, the union continues to fight against nonprofit reductions, and for Lurie to...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "with-layoffs-ahead-san-francisco-mayor-lurie-unveils-17-billion-city-budget-2026",
+      "title": "With Layoffs Ahead, San Francisco Mayor Lurie Unveils $17 Billion City Budget",
+      "sourceType": "news",
+      "url": "https://www.kqed.org/news/12085729/with-layoffs-ahead-san-francisco-mayor-lurie-unveils-17-billion-city-budget",
+      "discoveryUrl": "https://www.kqed.org/news/12085729/with-layoffs-ahead-san-francisco-mayor-lurie-unveils-17-billion-city-budget",
+      "discoverySource": "Anthropic web search",
+      "publisher": "KQED",
+      "publishedAt": "2026-06-01",
+      "topic": "public_safety",
+      "summary": "San Francisco Mayor Daniel Lurie’s proposal aims to narrow the city’s budget shortfall by around $300 million.",
+      "confidence": 0.9,
+      "excerpt": "News With Layoffs Ahead, San Francisco Mayor Lurie Unveils $17 Billion City Budget San Francisco Mayor Daniel Lurie’s proposal aims to narrow the city’s budget shortfall by around $300 million. Jun 1, 2026 Updated 3:52 pm PT Sydney Johnson Mayor Daniel Lurie speaks on his support for California Senate Bill 63 at a press conference at Embarcadero Plaza in San Francisco on Jan. 23, 2026. (Tâm Vũ/KQED) San Francisco Mayor Daniel Lurie wants to preserve the city&rsquo;s law enforcement spending and boost benefits programs as departments across the city face cuts to close the city&rsquo;s multimillion-dollar budget deficit. On Monday, Lurie released his anticipated $16.9 billion budget proposal for the next two fiscal years. It reduces the city&rsquo;s more than $600 million projected budget shortfall by $300 million through a combination of department reorganizations, eliminating positions and other spending reductions. The plan has sparked pushback from some worker advocates, who say the cuts will harm residents. But Lurie said failing to address the gaping deficit now would mean even steeper reductions in the future. &ldquo;Under my administration, we will not fall back on temporary fixes that force deeper cuts year after year,&rdquo; Lurie said as he announced his proposal on Monday outside one of the city&rsquo;s Human Services Agency offices, which could receive a major boost in the budget to address federal funding cuts. &ldquo;I know these decisions have very real impacts. But if we fail to act now, our structural deficit will grow to $1 billion, and the difficult choices before us today will become even more painful and costly tomorrow.&rdquo; The budget now goes before the Board of Supervisors, who can request and negotiate changes. The final budget must be appr...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1616,53 +1676,6 @@
       "confidence": 0.8,
       "excerpt": "21 May 2026 / SF Politics / Leanne Maxwell Lurie to Propose Cutting Cash Grants for Free City College Students By a Third --> Supervisor Connie Chan held a hearing Wednesday where community members urged the Board of Supervisors to prevent Mayor Lurie from cutting a program by 30% that offers cash grants to low-income students through City College’s \"Free City” program. San Francisco Mayor Daniel Lurie’s new budget proposal, due June 1, will include a 30% cut to “Free City Cash Grants,” a component of City College’s “Free City” program, as the Chronicle reports . The cash grants program provides low-income City College students with funds matching their $46-per-credit fees, which the state had already covered, for expenses like housing, food, and books. Lurie’s proposed cuts, which would not impact the main Free City program, would reduce funding for cash grants from $9.3 million to $6.4 million. According to 48Hills , the cash grants program, which benefitted 6,000 low-income students last year, would violate a longstanding Memorandum of Understanding between the city and the school. As SFist reported at the time, former Supervisor Jane Kim introduced the proposal to create the Free City program back in 2016, which was approved in February 2017 by former Mayor Ed Lee. At the hearing Wednesday, dozens of students, alumni, and staff urged the Board of Supervisors Budget and Appropriations Committee to protect the full funding for the program, which has been under threat for at least the past two years . “Free City is the reason I can afford to attend City College,” said Angelica Campos, a student-elected representative on the College’s Board of Trustees, speaking to 48 Hills. “I am working, studying, and building a life in San Francisco, and even small costs can decid...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "sf-mayor-supervisors-announce-proposal-to-double-funding-for-affordable-housing-",
-      "title": "SF Mayor, Supervisors Announce Proposal to Double Funding For Affordable Housing",
-      "sourceType": "news",
-      "url": "https://sfist.com/2026/05/20/sf-mayor-supervisors-announce-proposal-to-double-funding-for-affordable-housing/",
-      "discoveryUrl": "https://sfist.com/rss/",
-      "discoverySource": "SFist",
-      "publisher": "SFist",
-      "publishedAt": "2026-05-20",
-      "topic": "housing",
-      "summary": "SF leaders proposed a new charter amendment that would double the city’s Housing Trust Fund with the aim of accelerating the construction of affordable housing, with one caveat — the inclusionary rate will be significantly reduced for at least three years.",
-      "confidence": 0.8,
-      "excerpt": "20 May 2026 / SF Politics / Leanne Maxwell SF Mayor, Supervisors Announce Proposal to Double Funding For Affordable Housing --> SF leaders proposed a new charter amendment that would double the city’s Housing Trust Fund with the aim of accelerating the construction of affordable housing, with one caveat — the inclusionary rate will be significantly reduced for at least three years. Supervisor Myrna Melgar and San Francisco Mayor Daniel Lurie announced a proposed charter amendment Tuesday that would more than double the city’s Housing Trust Fund to support affordable housing construction, with funding tied to future property tax growth. If approved by voters in November, the measure would increase annual funding from $52 million to more than $125 million and extend the program through 2058, potentially generating up to $3 billion over the next three decades. The proposal still needs support from at least six supervisors to qualify for the ballot, as KRON4 reports , and Supervisors Shamann Walton, Danny Sauter, Stephen Sherrill, and Matt Dorsey have confirmed their support of the measure so far. According to Mission Local , Melgar said she spent the past year working with nonprofit and affordable housing groups on the proposal after pushing for guarantees that increased upzoning efforts would also produce more low-income housing. The city’s current inclusionary rate requires 15% affordable units in most new housing projects, though a city committee recently recommended lowering it to 5% for at least three years. Developers can also reportedly meet the requirement through fees, land dedication, or off-site affordable units. The proposal would also allow the Housing Trust Fund to back revenue bonds and other financing tools to accelerate affordable housing projects. Luri...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "sf-mayor-news",
-      "title": "News from the Office of the Mayor | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-from-the-office-of-the-mayor",
-      "publishedAt": "2026-05-18",
-      "topic": "homelessness",
-      "summary": "INFO PAGE News from the Office of the Mayor Office of the Mayor May 13, 2026: Mayor Lurie Continues Support For Arts Organizations With New Grant Opportunities May 13, 2026: Mayor Lurie Appoints Sarah Madland As General Manager Of Recreation And Park Department May 12, 2026: Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years May 11, 2026: Mayor Lurie Signs Legislation",
-      "confidence": 0.95,
-      "excerpt": "INFO PAGE News from the Office of the Mayor Office of the Mayor May 13, 2026: Mayor Lurie Continues Support For Arts Organizations With New Grant Opportunities May 13, 2026: Mayor Lurie Appoints Sarah Madland As General Manager Of Recreation And Park Department May 12, 2026: Mayor Lurie Announces San Francisco Has Reached Lowest Level Of Unsheltered Homelessness In 15 Years May 11, 2026: Mayor Lurie Signs Legislation To Support San Francisco Police Officers, Continue To Drive Down Crime May 8, 2026: Mayor Lurie Signs Legislation With Firefighters&#x27; Union To Support First Responders, Strengthen Public Safety May 7, 2026: Mayor Lurie Celebrates Visitors Coming Back To San Francisco In Record Numbers May 7, 2026: Mayor Lurie Cuts Ribbon On Terry Francois Boulevard Bike And Pedestrian Safety Improvement Project May 6, 2026: Mayor Lurie Cuts Ribbon On New Affordable Housing in Bayview May 6, 2026: Mayor Lurie Celebrates Completion Of High-Speed Fiber Network At All San Francisco Fire Stations May 6, 2026: Mayor Lurie Nominates Larry Low To Police Commission May 5, 2026: Mayor Lurie Announces Plan To Tackle Fare Evasion On Public Transit, Make Muni More Accountable April 30, 2026: Mayor Lurie Announces Major Expansion Of Free And Low-Cost Childcare With Hundreds Of New Spots For Families With Infants And Toddlers April 29, 2026: Mayor Lurie Celebrates Groundbreaking Of Improved Twin Peaks Promenade April 29, 2026: Mayor Lurie Celebrates 80% Decline In Speeding After One Year Of San Francisco&#x27;s First-In-State Traffic Safety Program April 28, 2026: Mayor Lurie Appoints Steven Betz As Chief Of Public Safety April 28, 2026: Mayor Lurie Launches Next Step To Deliver Faster, More Transparent Permitting As New Digital Portal Shows Results April 27, 2026: Mayor Lurie Appo...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "datasf-311-cases",
-      "title": "311 Cases",
-      "sourceType": "official",
-      "url": "https://data.sfgov.org/d/vw6y-z8j6",
-      "publishedAt": "2026-05-17",
-      "topic": "homelessness",
-      "summary": "Official San Francisco 311 cases dataset with request categories, subtypes, timestamps, and status fields; the connector filters it to Encampments requests.",
-      "confidence": 0.95
-    },
-    {
-      "id": "datasf-overdose-related-911-responses",
-      "title": "Overdose-Related 911 Responses by Emergency Medical Services",
-      "sourceType": "official",
-      "url": "https://data.sfgov.org/d/ed3a-sn39",
-      "publishedAt": "2026-05-17",
-      "topic": "public_safety",
-      "summary": "Official SF EMSA weekly counts of opioid overdose-related 911 calls responded to by emergency medical services.",
-      "confidence": 0.95
     }
   ],
   "promises": [
@@ -2009,7 +2022,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 1477 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 123 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2141,7 +2154,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-09-01T05:18:40.785Z"
+      "lastRefreshed": "2026-09-04T04:42:05.696Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2160,7 +2173,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-09-01T05:18:40.785Z"
+      "lastRefreshed": "2026-09-04T04:42:05.696Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2237,7 +2250,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-09-01T05:18:40.785Z",
+      "lastRefreshed": "2026-09-04T04:42:05.696Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2284,7 +2297,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-09-01T05:18:40.785Z"
+      "lastRefreshed": "2026-09-04T04:42:05.696Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2299,7 +2312,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 981,
+      "latest": 106,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2379,12 +2392,16 @@
         },
         {
           "date": "2026-08-01",
-          "value": 981
+          "value": 1036
+        },
+        {
+          "date": "2026-09-01",
+          "value": 106
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-09-01T05:18:40.785Z"
+      "lastRefreshed": "2026-09-04T04:42:05.696Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2399,7 +2416,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 1477,
+      "latest": 123,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2479,12 +2496,16 @@
         },
         {
           "date": "2026-08-01",
-          "value": 1477
+          "value": 1482
+        },
+        {
+          "date": "2026-09-01",
+          "value": 123
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-09-01T05:18:40.785Z"
+      "lastRefreshed": "2026-09-04T04:42:05.696Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2503,7 +2524,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-09-01T05:18:40.785Z"
+      "lastRefreshed": "2026-09-04T04:42:05.696Z"
     }
   ],
   "topics": [
@@ -2608,36 +2629,36 @@
   ],
   "majorNews": [
     {
-      "id": "san-francisco-mayor-says-city-will-redo-all-homelessness-services-contracts-2026",
-      "headline": "San Francisco mayor says city will redo all homelessness services contracts",
-      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-says-city-will-redo-all-homelessness-services-contracts/",
-      "publishedAt": "2026-09-01",
-      "publisher": "CBS San Francisco",
+      "id": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
+      "headline": "Mayor Lurie Presents Balanced, Responsible Budget to Advance San Francisco's Recovery",
+      "url": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
+      "publishedAt": "2026-09-04",
+      "publisher": "SF.gov",
       "topic": "homelessness",
-      "whyItMatters": "Major policy overhaul targeting San Francisco's $1 billion homelessness system through competitive re-procurement of all service contracts, with potential to consolidate programs and shift funding based on performance outcomes - represents one of Lurie's most significant governance reforms.",
-      "sourceId": "san-francisco-mayor-says-city-will-redo-all-homelessness-services-contracts-2026",
+      "whyItMatters": "Lurie's $15.9 billion budget closes a historic $800 million deficit while prioritizing core city functions including public safety, clean streets, and behavioral health—demonstrating the administration's fiscal approach and policy priorities for the next two years.",
+      "sourceId": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
       "selectionMethod": "anthropic"
     },
     {
-      "id": "mayor-lurie-blasts-prop-i-as-a-8216-slush-fund-his-office-would-control-the-mone",
-      "headline": "Mayor Lurie blasts Prop. I as a 'slush fund.' His office would control the money.",
-      "url": "https://missionlocal.org/2026/08/mayor-daniel-lurie-slush-fund-proposition-i-affordable-housing-social-housing-democratic-socialists-of-america-dsa/",
-      "publishedAt": "2026-08-17",
-      "publisher": "Mission Local",
-      "topic": "economy",
-      "whyItMatters": "High-stakes ballot measure conflict where mayor opposes DSA-backed affordable housing proposition while supporting alternative Prop. C, with political implications for mayoral authority over housing funds and relationships with left-wing organizations and labor unions.",
-      "sourceId": "mayor-lurie-blasts-prop-i-as-a-8216-slush-fund-his-office-would-control-the-mone",
+      "id": "mayor-moves-to-overhaul-500m-in-homelessness-contracts-2026-08-31",
+      "headline": "Mayor moves to overhaul $500M in homelessness contracts",
+      "url": "https://sfstandard.com/2026/08/31/lurie-moves-overhaul-500m-homelessness-contracts/",
+      "publishedAt": "2026-08-31",
+      "publisher": "SF Standard",
+      "topic": "homelessness",
+      "whyItMatters": "Launching a multi-year competitive re-procurement of all homelessness services contracts represents a fundamental restructuring of how SF spends $1 billion annually on its most visible crisis, with potential to consolidate programs and shift funding based on performance outcomes.",
+      "sourceId": "mayor-moves-to-overhaul-500m-in-homelessness-contracts-2026-08-31",
       "selectionMethod": "anthropic"
     },
     {
-      "id": "yimby-leaders-give-mayor-lurie-a-b-on-housing-mayor-mamdani-he-gets-an-a-2026-08",
-      "headline": "YIMBY leaders give Mayor Lurie a B- on housing. Mayor Mamdani? He gets an A-.",
-      "url": "https://missionlocal.org/2026/08/san-francisco-new-york-lurie-mamdani-housing-yimby/",
-      "publishedAt": "2026-08-14",
-      "publisher": "Mission Local",
-      "topic": "housing",
-      "whyItMatters": "Critical assessment from influential pro-housing coalition reveals growing tensions over Lurie's housing agenda despite upzoning victories, with YIMBY Action filing two lawsuits against the city and questioning mayor's commitment to maximalist housing solutions amid ongoing crisis.",
-      "sourceId": "yimby-leaders-give-mayor-lurie-a-b-on-housing-mayor-mamdani-he-gets-an-a-2026-08",
+      "id": "lurie-rejects-core-reforms-of-homelessness-oversight-audit-2026-08-24",
+      "headline": "Lurie rejects core reforms of homelessness oversight audit",
+      "url": "https://sfstandard.com/2026/08/24/lurie-homelessness-oversight/",
+      "publishedAt": "2026-08-24",
+      "publisher": "San Francisco Standard",
+      "topic": "homelessness",
+      "whyItMatters": "The mayor's rejection of civil grand jury recommendations to increase transparency around overdose deaths and nonprofit oversight reveals tensions over accountability in the city's $500 million homelessness system, raising questions about reform commitments.",
+      "sourceId": "lurie-rejects-core-reforms-of-homelessness-oversight-audit-2026-08-24",
       "selectionMethod": "anthropic"
     }
   ],
