@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-09-04T04:42:16.626Z",
+    "lastUpdated": "2026-09-07T04:50:57.181Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -239,6 +239,48 @@
       "summary": "Explore our comprehensive climate policy focused on sustainability, clean energy, and environmental justice. Join us in the fight against climate change today!",
       "confidence": 0.94,
       "excerpt": "English 繁体中文 简体中文 Downtown Climate Innovation Hub Accelerate SF’s Recovery & Lead a Clean Energy Revolution At a Glance Maintain safe and clean streets as the foundation of downtown’s recovery. Incentivize cleantech industries to locate in vacant office space downtown. Leverage our lead in artificial intelligence to accelerate a cleantech revolution. Restore San Francisco's leadership in the fight against climate change. The Details The cleantech revolution is coming, and I will ensure it happens in San Francisco. Our downtown area is experiencing a slow recovery with a record-breaking 37% office vacancy rate . Experts predict a full recovery could take decades, if it happens at all. This impacts everything from city tax revenues to the vitality of small businesses and public safety. It’s a sad reality that San Francisco has 35 million square feet of available office space—the equivalent of 22 Salesforce Towers. We’ve experienced one of the slowest recoveries of any major city in the country. But this also presents an opportunity. We Can Make San Francisco a Global Leader in Clean Technology My administration will incentivize cleantech industries to occupy our vacant office spaces. We will create a Climate Innovation Hub by : Lowering Business Taxes: I will reduce business taxes on cleantech companies. A measure likely to be on the November ballot, which I support, will be one important step toward doing this by providing an estimated 59% tax decrease. Fast-Tracking Permitting: Fast lane-permitting for tenant improvements will lessen the time and cost associated with getting businesses up and running. Experts say my My City Hall Accountability Plan will lessen the time it takes to get a building permit by four months. I will make that even faster for new and expandin...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "sf-mayor-news",
+      "title": "News from the Office of the Mayor",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-from-the-office-of-the-mayor",
+      "publishedAt": "2026-09-07",
+      "topic": "city_government",
+      "summary": "Official San Francisco mayoral news index used as a primary announcement source.",
+      "confidence": 0.95,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "page returned bot verification challenge"
+    },
+    {
+      "id": "mayor-lurie-will-indefinitely-continue-90-day-strategy-to-clean-up-mission-bart-",
+      "title": "Mayor Lurie will indefinitely continue ‘90 day strategy’ to clean up Mission BART plazas",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/09/mayor-lurie-will-indefinitely-continue-90-day-strategy-to-clean-up-mission-bart-plazas/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-09-04",
+      "topic": "homelessness",
+      "summary": "Multiple city agencies have worked together over the last 90 days at the Mission BART plazas. Neighbors say that results are too inconsistent.",
+      "confidence": 0.82,
+      "excerpt": "This is part of our ongoing coverage of 16th and Mission . Click here for a dashboard of crime statistics updated daily, and read an archive of past coverage here . San Francisco city officials admit there is no quick fix to what has become an intractable problem of illegal drug use and street fencing at the Mission District’s BART plazas. But, they said this week, the city is doubling down on trying to uproot it. Mayor Daniel Lurie in June announced a “90-day strategy” for the the 16th Street and 24th Street BART plazas , and a spokesperson for the Office of Economic and Workforce Development, which is coordinating a multi-agency push on the plazas, confirmed on Thursday that the plan will continue indefinitely. “While the early results of the 90-day strategy are promising, we know our work is far from finished,” read a statement from the Office of Economic and Workforce Development. &#8220;The City is continuing the coordinated work launched as part of the 90-day strategy, and there is no set end date for this next phase at this time.” Coordinated city efforts to crack down on vending and drug use around 16th Street began in March last year with the arrival of a giant San Francisco Police Department “ mobile command unit ” parked on the BART plaza. Since then, the city has deployed police raids , set up “family-friendly” pop-up markets , contracted with private firms to hire street workers to discourage loitering, promised to boost police presence , and held town halls with multiple city departments to address neighbors’ concerns. Mission Local covered the first 100 days of the 2025 crackdown on 16th Street , and continues to report on conditions around the plazas. The latest strategy leans heavily on many of the same approaches that have been tried before, and cit...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "after-500-arrests-and-citations-in-three-months-16th-and-mission-remains-unchang",
+      "title": "After 500 Arrests and Citations In Three Months, 16th and Mission Remains Unchanged",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/09/04/after-500-arrests-and-citations-in-three-months-16th-and-mission-remains-unchanged/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-09-04",
+      "topic": "homelessness",
+      "summary": "Mayor Daniel Lurie's Whac-a-Mole method of dealing with unsavory street conditions succeeded in shifting a bunch of drug activity to 16th and Mission last year, and now a crackdown there has done little to change things.",
+      "confidence": 0.8,
+      "excerpt": "SF News After 500 Arrests and Citations In Three Months, 16th and Mission Remains Unchanged By Jay Barmann • September 4, 2026 · 1:34 PM PDT • 3 min read Photo A Google Street View image from March 2025 shows the SFPD mobile command truck parked in the 16th and Mission BART Plaza, and little activity around it. X Facebook Copy link Mayor Daniel Lurie's Whac-a-Mole method of dealing with unsavory street conditions succeeded in shifting a bunch of drug activity to 16th and Mission last year, and now a crackdown there has done little to change things. A 90-day \"surge\" effort by the SFPD and other city agencies to address the chaotic conditions in and around the 16th and Mission BART plazas comes to an end today. But how much has it accomplished? As the Chronicle reports , speaking to area residents and business owners, the city's efforts to regularly power-wash the plazas, crack down on illegal vending of mostly stolen goods, and arrest people for drug offenses have only managed to create temporary pauses in the street circus. And the same goes for the 24th Street BART plazas, which have been a magnet for illegal vending dating back years now. As Ryen Motzek, president of the Mission Merchants Association, tells the paper, \"There’s been some changes, and then it goes back to the way it was. It’s not really sustainable.\" There has been ample media coverage of the uptick in drug activity and other crime around Mission Street between 15th and 17th streets, and in the alleys nearby, which coincided with an early 2025 crackdown that took place on Sixth Street, around Civic Center, and in the Tenderloin. That same period saw a brief moment when a surge of drug activity moved into Jefferson Square Park, which led to a February 2025 police raid that yielded 86 arrests — but, as...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1631,51 +1673,6 @@
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie&#x27;s Statement On Staci Slaughter&#x27;s Return To Retirement Office of the Mayor May 26, 2026 SAN FRANCISCO – Mayor Daniel Lurie today released the following statement on Chief of Staff Staci Slaughter’s decision to return to retirement: “When I took office last year, we reimagined the structure of the Mayor’s Office, brought in senior leaders with experience outside government, and built our team around common sense and a commitment to delivering results. Staci Slaughter took our priorities and mapped out the plan. She helped assemble and mentor a team of leaders to implement that plan. And she reset the tone in City Hall, fostering a culture of collaboration that the second floor hadn’t seen in years, to help turn that plan into reality. “Through it all, she invested the time to give the current and future leaders of our city the tools to succeed and grow. From the youngest Mayor’s Office staff to the most seasoned department heads, so many people across the government have benefitted from her wisdom and mentorship. “I am no exception. Staci has been an incredible partner and an even better friend. Like so many others, I will continue to benefit from her support in the months and years to come. But thanks to Staci, our team is ready now to seize the opportunities and tackle the challenges our city faces. “On behalf of a grateful city, thank you, Staci.” Slaughter has served as Mayor Lurie’s chief of staff since he took office in January 2025. In that time, crime has dropped, the rate of overdose deaths has slowed, and the rate of office vacancy has declined—and San Franciscans’ confidence in the direction of the city has risen dramatically. She previously retired in 2022 after 26 years with the San Francisco Giants, including as executive vice p...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "sf-mayor-s-chief-of-staff-and-confidante-staci-slaughter-to-step-down-2026-05-26",
-      "title": "SF Mayor&#x27;s Chief of Staff and Confidante Staci Slaughter to Step Down",
-      "sourceType": "news",
-      "url": "https://sfist.com/2026/05/26/sf-mayors-chief-of-staff-and-confidante-staci-slaughter-to-step-down/",
-      "discoveryUrl": "https://sfist.com/rss/",
-      "discoverySource": "SFist",
-      "publisher": "SFist",
-      "publishedAt": "2026-05-26",
-      "topic": "homelessness",
-      "summary": "After 18 months on the job, San Francisco Mayor Daniel Lurie&#x27;s chief of staff, Staci Slaughter, has announced she will be stepping down from the job in June.",
-      "confidence": 0.8,
-      "excerpt": "26 May 2026 / SF Politics / Jay Barmann SF Mayor&#x27;s Chief of Staff and Confidante Staci Slaughter to Step Down --> After 18 months on the job, San Francisco Mayor Daniel Lurie's chief of staff, Staci Slaughter, has announced she will be stepping down from the job in June. It may not qualify as a shakeup in City Hall, but a major power player in Mayor Daniel Lurie's administration is taking her leave midway through his second year in office, citing a desire to return to private life. Staci Slaughter, 59, will be leaving the chief of staff post in \"late June,\" per the Chronicle , and her replacement has not been selected yet. \"By every measure, the City is moving in the right direction and, for the first time in a very long time, San Franciscans feel the city is on the right track,\" says Slaughter in a statement. \"With that foundation in place, I feel this summer is the right time to return to retirement and hand the reins over to our talented Mayor’s Office team, who will keep moving San Francisco forward.\" Mayor Daniel Lurie issued a statement of appreciation for Slaughter, saying, \"When I took office last year, we reimagined the structure of the Mayor’s Office, brought in senior leaders with experience outside government, and built our team around common sense and a commitment to delivering results. Staci Slaughter took our priorities and mapped out the plan. She helped assemble and mentor a team of leaders to implement that plan. And she reset the tone in City Hall, fostering a culture of collaboration that the second floor hadn’t seen in years, to help turn that plan into reality.\" Slaughter came out of retirement to work in the newly formed Lurie administration in December 2024, having previously retired in 2022 from the San Francisco Giants organization wher...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "over-4-million-pours-into-san-francisco-supervisor-election-much-of-it-from-outs",
-      "title": "Over $4 million pours into San Francisco supervisor election, much of it from outside PACs",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/05/sf-supervisor-election-campaign-finance/",
-      "discoveryUrl": "https://missionlocal.org/feed/",
-      "discoverySource": "Mission Local",
-      "publisher": "Mission Local",
-      "publishedAt": "2026-05-22",
-      "topic": "public_safety",
-      "summary": "Mayor Lurie’s allies, GrowSF, anti-worker group, and unions spending big money San Francisco&#039;s district races in June.",
-      "confidence": 0.82,
-      "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today Millions of dollars are flowing into San Francisco’s two June supervisor contests, and a substantial sum is coming from deep-pocketed political action committees. There are no fewer than eight PACs involved in the District 2 and District 4 races, and they’ve contributed a total of $2.1 million towards their preferred candidates, according to finance filings released Thursday evening. The third-party spending is eclipsing money directly raised from donors giving up to $500. In District 4, the PAC money is nearly four times as much as funds raised by candidates. Most of that PAC money is backing Alan Wong and Stephen Sherrill, the two incumbent supervisors who are facing challengers on June 2. In District 2, the PAC money backing Sherrill is coming from Mayor Daniel Lurie’s allies , political pressure group GrowSF , and an anti-worker PAC , among others. The PAC spending is more than what Sherrill has fundraised directly: He has raised $443,102 from donors, and the PACs are spending $663,000. Those groups are: SF Believes , a PAC that was created by Mayor Lurie’s allies , which has spent $201,000 to support Sherrill. GrowSF , a group closely aligned with Lurie, has raised $267,000 in a PAC to back Sherrill. Its PAC for Sherrill, along with its voter guide, has spent over $203,500 so far. Another PAC named Committee to Support Supervisor Stephen Sherrill spent $76,000 to support Sherrill. Its top donor is Diana L. Nelson, director of an investment firm, who gave $15,000. A labor PAC, Working Families for Stephen Sherrill for Supervisor 2026 , also recently jumped into the District 2 race, spending $18,465 for Sherrill. The PA...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "lurie-to-propose-cutting-cash-grants-for-free-city-college-students-by-a-third-2",
-      "title": "Lurie to Propose Cutting Cash Grants for Free City College Students By a Third",
-      "sourceType": "news",
-      "url": "https://sfist.com/2026/05/21/lurie-to-propose-cutting-cash-grants-for-free-city-college-students-by-a-third/",
-      "discoveryUrl": "https://sfist.com/rss/",
-      "discoverySource": "SFist",
-      "publisher": "SFist",
-      "publishedAt": "2026-05-21",
-      "topic": "transit",
-      "summary": "Supervisor Connie Chan held a hearing Wednesday where community members urged the Board of Supervisors to prevent Mayor Lurie from cutting a program by 30% that offers cash grants to low-income students through City College’s \"Free City” program.",
-      "confidence": 0.8,
-      "excerpt": "21 May 2026 / SF Politics / Leanne Maxwell Lurie to Propose Cutting Cash Grants for Free City College Students By a Third --> Supervisor Connie Chan held a hearing Wednesday where community members urged the Board of Supervisors to prevent Mayor Lurie from cutting a program by 30% that offers cash grants to low-income students through City College’s \"Free City” program. San Francisco Mayor Daniel Lurie’s new budget proposal, due June 1, will include a 30% cut to “Free City Cash Grants,” a component of City College’s “Free City” program, as the Chronicle reports . The cash grants program provides low-income City College students with funds matching their $46-per-credit fees, which the state had already covered, for expenses like housing, food, and books. Lurie’s proposed cuts, which would not impact the main Free City program, would reduce funding for cash grants from $9.3 million to $6.4 million. According to 48Hills , the cash grants program, which benefitted 6,000 low-income students last year, would violate a longstanding Memorandum of Understanding between the city and the school. As SFist reported at the time, former Supervisor Jane Kim introduced the proposal to create the Free City program back in 2016, which was approved in February 2017 by former Mayor Ed Lee. At the hearing Wednesday, dozens of students, alumni, and staff urged the Board of Supervisors Budget and Appropriations Committee to protect the full funding for the program, which has been under threat for at least the past two years . “Free City is the reason I can afford to attend City College,” said Angelica Campos, a student-elected representative on the College’s Board of Trustees, speaking to 48 Hills. “I am working, studying, and building a life in San Francisco, and even small costs can decid...",
-      "scrapeStatus": "scraped"
     }
   ],
   "promises": [
@@ -2022,7 +2019,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 123 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 125 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2154,7 +2151,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-09-04T04:42:05.696Z"
+      "lastRefreshed": "2026-09-07T04:50:56.973Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2173,7 +2170,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-09-04T04:42:05.696Z"
+      "lastRefreshed": "2026-09-07T04:50:56.973Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2250,7 +2247,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-09-04T04:42:05.696Z",
+      "lastRefreshed": "2026-09-07T04:50:56.973Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2297,7 +2294,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-09-04T04:42:05.696Z"
+      "lastRefreshed": "2026-09-07T04:50:56.973Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2312,7 +2309,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 106,
+      "latest": 193,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2396,12 +2393,12 @@
         },
         {
           "date": "2026-09-01",
-          "value": 106
+          "value": 193
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-09-04T04:42:05.696Z"
+      "lastRefreshed": "2026-09-07T04:50:56.973Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2416,7 +2413,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 123,
+      "latest": 125,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2500,12 +2497,12 @@
         },
         {
           "date": "2026-09-01",
-          "value": 123
+          "value": 125
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-09-04T04:42:05.696Z"
+      "lastRefreshed": "2026-09-07T04:50:56.973Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2524,7 +2521,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-09-04T04:42:05.696Z"
+      "lastRefreshed": "2026-09-07T04:50:56.973Z"
     }
   ],
   "topics": [
@@ -2635,31 +2632,31 @@
       "publishedAt": "2026-09-04",
       "publisher": "SF.gov",
       "topic": "homelessness",
-      "whyItMatters": "Lurie's $15.9 billion budget closes a historic $800 million deficit while prioritizing core city functions including public safety, clean streets, and behavioral health—demonstrating the administration's fiscal approach and policy priorities for the next two years.",
+      "whyItMatters": "Mayor Lurie presented a $15.9 billion budget for FY 2025-2027, closing an historic $800 million deficit. The budget prioritizes public safety, clean streets, behavioral health crisis response, and economic revitalization while unlocking $90 million over three years to expand interim housing capacity.",
       "sourceId": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
-      "selectionMethod": "anthropic"
+      "selectionMethod": "fallback"
     },
     {
-      "id": "mayor-moves-to-overhaul-500m-in-homelessness-contracts-2026-08-31",
-      "headline": "Mayor moves to overhaul $500M in homelessness contracts",
-      "url": "https://sfstandard.com/2026/08/31/lurie-moves-overhaul-500m-homelessness-contracts/",
-      "publishedAt": "2026-08-31",
-      "publisher": "SF Standard",
+      "id": "san-francisco-mayor-says-city-will-redo-all-homelessness-services-contracts-2026",
+      "headline": "San Francisco mayor says city will redo all homelessness services contracts",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-says-city-will-redo-all-homelessness-services-contracts/",
+      "publishedAt": "2026-09-01",
+      "publisher": "CBS San Francisco",
       "topic": "homelessness",
-      "whyItMatters": "Launching a multi-year competitive re-procurement of all homelessness services contracts represents a fundamental restructuring of how SF spends $1 billion annually on its most visible crisis, with potential to consolidate programs and shift funding based on performance outcomes.",
-      "sourceId": "mayor-moves-to-overhaul-500m-in-homelessness-contracts-2026-08-31",
-      "selectionMethod": "anthropic"
+      "whyItMatters": "The mayor's office said the City plans to redo all contracts involving homeless services to focus on better \"outcomes and accountability for results.\"",
+      "sourceId": "san-francisco-mayor-says-city-will-redo-all-homelessness-services-contracts-2026",
+      "selectionMethod": "fallback"
     },
     {
-      "id": "lurie-rejects-core-reforms-of-homelessness-oversight-audit-2026-08-24",
-      "headline": "Lurie rejects core reforms of homelessness oversight audit",
-      "url": "https://sfstandard.com/2026/08/24/lurie-homelessness-oversight/",
-      "publishedAt": "2026-08-24",
-      "publisher": "San Francisco Standard",
-      "topic": "homelessness",
-      "whyItMatters": "The mayor's rejection of civil grand jury recommendations to increase transparency around overdose deaths and nonprofit oversight reveals tensions over accountability in the city's $500 million homelessness system, raising questions about reform commitments.",
-      "sourceId": "lurie-rejects-core-reforms-of-homelessness-oversight-audit-2026-08-24",
-      "selectionMethod": "anthropic"
+      "id": "mayor-lurie-will-indefinitely-continue-90-day-strategy-to-clean-up-mission-bart",
+      "headline": "Mayor Lurie will indefinitely continue ‘90 day strategy’ to clean up Mission BART plazas",
+      "url": "https://missionlocal.org/2026/09/mayor-lurie-will-indefinitely-continue-90-day-strategy-to-clean-up-mission-bart-plazas/",
+      "publishedAt": "2026-09-04",
+      "publisher": "Mission Local",
+      "topic": "transit",
+      "whyItMatters": "Multiple city agencies have worked together over the last 90 days at the Mission BART plazas. Neighbors say that results are too inconsistent.",
+      "sourceId": "mayor-lurie-will-indefinitely-continue-90-day-strategy-to-clean-up-mission-bart-",
+      "selectionMethod": "fallback"
     }
   ],
   "campaignPromiseSeed": [
