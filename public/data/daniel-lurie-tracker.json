@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-09-07T04:50:57.181Z",
+    "lastUpdated": "2026-09-10T04:51:09.986Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -1788,7 +1788,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
+      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -2019,12 +2019,12 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 125 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units null versus baseline null.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
       ],
-      "progressBasis": "3 of 4 housing milestones are evidenced.",
+      "progressBasis": "2 of 4 housing milestones are evidenced.",
       "trackingType": "milestone",
       "targetValue": null,
       "currentValue": null,
@@ -2041,7 +2041,7 @@
         },
         {
           "label": "Independent improvement in permit-output trend verified",
-          "complete": true
+          "complete": false
         },
         {
           "label": "Campaign housing-delivery promise fully achieved",
@@ -2151,7 +2151,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-09-07T04:50:56.973Z"
+      "lastRefreshed": "2026-09-10T04:51:09.765Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2170,7 +2170,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-09-07T04:50:56.973Z"
+      "lastRefreshed": "2026-09-10T04:51:09.765Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2180,74 +2180,13 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": 292,
-      "latest": 216,
+      "baseline": null,
+      "latest": null,
       "direction": "down_is_good",
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 292
-        },
-        {
-          "date": "2025-02-01",
-          "value": 274
-        },
-        {
-          "date": "2025-03-01",
-          "value": 342
-        },
-        {
-          "date": "2025-04-01",
-          "value": 275
-        },
-        {
-          "date": "2025-05-01",
-          "value": 273
-        },
-        {
-          "date": "2025-06-01",
-          "value": 301
-        },
-        {
-          "date": "2025-07-01",
-          "value": 239
-        },
-        {
-          "date": "2025-08-01",
-          "value": 294
-        },
-        {
-          "date": "2025-09-01",
-          "value": 219
-        },
-        {
-          "date": "2025-10-01",
-          "value": 235
-        },
-        {
-          "date": "2025-11-01",
-          "value": 300
-        },
-        {
-          "date": "2025-12-01",
-          "value": 148
-        },
-        {
-          "date": "2026-01-01",
-          "value": 221
-        },
-        {
-          "date": "2026-02-01",
-          "value": 220
-        },
-        {
-          "date": "2026-03-01",
-          "value": 216
-        }
-      ],
-      "status": "active",
+      "observations": [],
+      "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-09-07T04:50:56.973Z",
+      "lastRefreshed": "2026-09-10T04:51:09.765Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2263,38 +2202,13 @@
       "evidenceSourceIds": [
         "datasf-substance-use-services"
       ],
-      "status": "active",
-      "baseline": 55904,
-      "latest": 39624,
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 55904
-        },
-        {
-          "date": "2025-04-01",
-          "value": 46460
-        },
-        {
-          "date": "2025-07-01",
-          "value": 51108
-        },
-        {
-          "date": "2025-10-01",
-          "value": 41664
-        },
-        {
-          "date": "2026-01-01",
-          "value": 56619
-        },
-        {
-          "date": "2026-04-01",
-          "value": 39624
-        }
-      ],
+      "status": "needs_verified_source",
+      "baseline": null,
+      "latest": null,
+      "observations": [],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-09-07T04:50:56.973Z"
+      "lastRefreshed": "2026-09-10T04:51:09.765Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2307,98 +2221,13 @@
       "evidenceSourceIds": [
         "datasf-building-permits"
       ],
-      "status": "active",
-      "baseline": 1422,
-      "latest": 193,
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 1422
-        },
-        {
-          "date": "2025-02-01",
-          "value": 1315
-        },
-        {
-          "date": "2025-03-01",
-          "value": 1367
-        },
-        {
-          "date": "2025-04-01",
-          "value": 1509
-        },
-        {
-          "date": "2025-05-01",
-          "value": 1414
-        },
-        {
-          "date": "2025-06-01",
-          "value": 1457
-        },
-        {
-          "date": "2025-07-01",
-          "value": 1558
-        },
-        {
-          "date": "2025-08-01",
-          "value": 1529
-        },
-        {
-          "date": "2025-09-01",
-          "value": 1507
-        },
-        {
-          "date": "2025-10-01",
-          "value": 1515
-        },
-        {
-          "date": "2025-11-01",
-          "value": 1327
-        },
-        {
-          "date": "2025-12-01",
-          "value": 1382
-        },
-        {
-          "date": "2026-01-01",
-          "value": 1425
-        },
-        {
-          "date": "2026-02-01",
-          "value": 1262
-        },
-        {
-          "date": "2026-03-01",
-          "value": 1336
-        },
-        {
-          "date": "2026-04-01",
-          "value": 1403
-        },
-        {
-          "date": "2026-05-01",
-          "value": 1221
-        },
-        {
-          "date": "2026-06-01",
-          "value": 1365
-        },
-        {
-          "date": "2026-07-01",
-          "value": 1141
-        },
-        {
-          "date": "2026-08-01",
-          "value": 1036
-        },
-        {
-          "date": "2026-09-01",
-          "value": 193
-        }
-      ],
+      "status": "needs_verified_source",
+      "baseline": null,
+      "latest": null,
+      "observations": [],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-09-07T04:50:56.973Z"
+      "lastRefreshed": "2026-09-10T04:51:09.765Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2411,98 +2240,13 @@
       "evidenceSourceIds": [
         "datasf-building-permits"
       ],
-      "status": "active",
-      "baseline": 696,
-      "latest": 125,
-      "observations": [
-        {
-          "date": "2025-01-01",
-          "value": 696
-        },
-        {
-          "date": "2025-02-01",
-          "value": 1001
-        },
-        {
-          "date": "2025-03-01",
-          "value": 2285
-        },
-        {
-          "date": "2025-04-01",
-          "value": 808
-        },
-        {
-          "date": "2025-05-01",
-          "value": 1279
-        },
-        {
-          "date": "2025-06-01",
-          "value": 1130
-        },
-        {
-          "date": "2025-07-01",
-          "value": 686
-        },
-        {
-          "date": "2025-08-01",
-          "value": 292
-        },
-        {
-          "date": "2025-09-01",
-          "value": 642
-        },
-        {
-          "date": "2025-10-01",
-          "value": 758
-        },
-        {
-          "date": "2025-11-01",
-          "value": 792
-        },
-        {
-          "date": "2025-12-01",
-          "value": 253
-        },
-        {
-          "date": "2026-01-01",
-          "value": 545
-        },
-        {
-          "date": "2026-02-01",
-          "value": 473
-        },
-        {
-          "date": "2026-03-01",
-          "value": 625
-        },
-        {
-          "date": "2026-04-01",
-          "value": 790
-        },
-        {
-          "date": "2026-05-01",
-          "value": 426
-        },
-        {
-          "date": "2026-06-01",
-          "value": 1322
-        },
-        {
-          "date": "2026-07-01",
-          "value": 1018
-        },
-        {
-          "date": "2026-08-01",
-          "value": 1482
-        },
-        {
-          "date": "2026-09-01",
-          "value": 125
-        }
-      ],
+      "status": "needs_verified_source",
+      "baseline": null,
+      "latest": null,
+      "observations": [],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-09-07T04:50:56.973Z"
+      "lastRefreshed": "2026-09-10T04:51:09.765Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2521,7 +2265,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-09-07T04:50:56.973Z"
+      "lastRefreshed": "2026-09-10T04:51:09.765Z"
     }
   ],
   "topics": [
@@ -2563,7 +2307,7 @@
       "promiseCount": 1,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
     },
     {
       "id": "public_safety",
@@ -2571,7 +2315,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
+      "insight": "Needs a verified Public SF/DataSF metric before progress should be scored."
     }
   ],
   "connectors": [
