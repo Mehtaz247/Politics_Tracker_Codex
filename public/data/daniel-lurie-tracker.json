@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-09-19T04:43:49.160Z",
+    "lastUpdated": "2026-09-22T05:06:39.820Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -239,6 +239,51 @@
       "summary": "Explore our comprehensive climate policy focused on sustainability, clean energy, and environmental justice. Join us in the fight against climate change today!",
       "confidence": 0.94,
       "excerpt": "English 繁体中文 简体中文 Downtown Climate Innovation Hub Accelerate SF’s Recovery & Lead a Clean Energy Revolution At a Glance Maintain safe and clean streets as the foundation of downtown’s recovery. Incentivize cleantech industries to locate in vacant office space downtown. Leverage our lead in artificial intelligence to accelerate a cleantech revolution. Restore San Francisco's leadership in the fight against climate change. The Details The cleantech revolution is coming, and I will ensure it happens in San Francisco. Our downtown area is experiencing a slow recovery with a record-breaking 37% office vacancy rate . Experts predict a full recovery could take decades, if it happens at all. This impacts everything from city tax revenues to the vitality of small businesses and public safety. It’s a sad reality that San Francisco has 35 million square feet of available office space—the equivalent of 22 Salesforce Towers. We’ve experienced one of the slowest recoveries of any major city in the country. But this also presents an opportunity. We Can Make San Francisco a Global Leader in Clean Technology My administration will incentivize cleantech industries to occupy our vacant office spaces. We will create a Climate Innovation Hub by : Lowering Business Taxes: I will reduce business taxes on cleantech companies. A measure likely to be on the November ballot, which I support, will be one important step toward doing this by providing an estimated 59% tax decrease. Fast-Tracking Permitting: Fast lane-permitting for tenant improvements will lessen the time and cost associated with getting businesses up and running. Experts say my My City Hall Accountability Plan will lessen the time it takes to get a building permit by four months. I will make that even faster for new and expandin...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "meet-the-s-f-congressional-candidates-do-you-support-mayor-lurie-for-reelection-",
+      "title": "Meet the S.F. congressional candidates: Do you support Mayor Lurie for reelection?",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/09/meet-the-s-f-congressional-candidates-mayor-lurie-reelection/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-09-21",
+      "topic": "public_safety",
+      "summary": "This week’s question: How would you rate Daniel Lurie’s performance as mayor so far? Would you support him for reelection?",
+      "confidence": 0.82,
+      "excerpt": "Welcome back to our “Meet the Candidates” series, where the congressional candidates respond to a question in 100 words or less. Answers will be published every Monday. CA-11, the congressional district that Connie Chan and Scott Wiener are running to represent, includes most of San Francisco. Some southern neighborhoods (the Excelsior, Portola, Visitacion Valley and Ingleside) are a part of a neighboring district. What do the two San Francisco congressional candidates think of our mayor? That’s what we asked them this week. Whoever replaces Nancy Pelosi as the city’s representative will work with the mayor at times. Though Mayor Daniel Lurie is more ideologically aligned with Scott Wiener, he has not (yet) endorsed either candidate in the race. This week’s question: How would you rate Daniel Lurie’s performance as mayor so far? Would you support him for reelection? (The candidates are color coded based on the second question.) Mission Local color codes the answers to yes/no questions. A green background means the candidate answered yes, a red background means no, and a yellow background means that the candidate dodged the question. Answered yes Answered no Answered ambiguously Scott Wiener Job : San Francisco's State Senator Age : 56 Residency : Homeowner, moved to San Francisco in 1997 Transportation : Public transit and walking Education : Bachelor’s degree from Duke, law degree from Harvard Languages : English, Spanish Mayor Lurie is doing a phenomenal job shepherding our city’s strong recovery from the pandemic. The Mayor and I partner closely on street conditions and public safety, housing, and funding for Muni, BART, and Caltrain to prevent service cuts. The Mayor is an invaluable partner, and he has my support . When I get to Congress, I’ll continue to partne...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "new-state-law-raises-penalties-for-participating-in-sideshows-2026-09-21",
+      "title": "New State Law Raises Penalties for Participating In Sideshows",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/09/21/new-state-law-raises-penalties-for-participating-in-sideshows/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-09-21",
+      "topic": "public_safety",
+      "summary": "An Assembly bill introduced by Assemblymember Catherine Stefani that was endorsed by SF Mayor Daniel Lurie has now been signed into law, providing fines and penalties statewide for engaging in sideshow activity.",
+      "confidence": 0.8,
+      "excerpt": "SF News New State Law Raises Penalties for Participating In Sideshows By Jay Barmann • September 21, 2026 · 1:53 PM PDT • 2 min read X Facebook Copy link An Assembly bill introduced by Assemblymember Catherine Stefani that was endorsed by SF Mayor Daniel Lurie has now been signed into law, providing fines and penalties statewide for engaging in sideshow activity. There is now a patchwork of local laws around the Bay Area region meant to discourage illegal sideshows and penalize their participants — none of which have necessarily worked in any longterm way. Now a state law, just signed by Governor Gavin Newsom, raises the stakes somewhat for sideshow participants and extends penalties to dirtbikes and motorcycles as well. The governor's office announced the signing of AB 1588 on Sunday, which was celebrated by Mayor Daniel Lurie and Assemblymember and former SF supervisor Catherine Stefani. \"Crime numbers are down across the city, but numbers don't mean anything if San Franciscans don’t feel safe, and stopping sideshows will help both,\" Lurie said in a statement . \"With this new law, we are sending a clear message: Dangerous sideshows have no place in our neighborhoods, and we will use every tool available to stop them.\" SFPD Chief Derrick Lew added in a statement that his \"officers will continue to work diligently to crack down on sideshow and stunt driving and follow up on investigations to impound vehicles and hold perpetrators accountable.\" And Stefani added, \"Sideshows are dangerous, reckless, and can turn deadly in an instant. AB 1588 makes sure people who repeatedly put our communities at risk face real consequences. I am grateful to Governor Newsom for signing this bill and to Mayor Lurie for working with me to make our streets safer.\" AB 1588 expands upon exi...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "newsom-signs-san-francisco-mayor-lurie-backed-bill-toughening-sideshow-penalties",
+      "title": "Newsom signs San Francisco Mayor Lurie-backed bill toughening sideshow penalties",
+      "sourceType": "news",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/sideshow-crackdown-gov-newsom-signs-ab1588-backed-by-san-francisco-mayor-lurie/",
+      "discoveryUrl": "https://www.cbsnews.com/sanfrancisco/latest/rss/main",
+      "discoverySource": "CBS San Francisco",
+      "publisher": "CBS San Francisco",
+      "publishedAt": "2026-09-21",
+      "topic": "public_safety",
+      "summary": "A bill supported by San Francisco lawmakers that toughens penalties for drivers participating in sideshows across California has been signed into law by Gov. Gavin Newsom.",
+      "confidence": 0.8,
+      "excerpt": "A bill supported by San Francisco lawmakers that toughens penalties for drivers participating in sideshows across California has been signed into law by Gov. Gavin Newsom.On Sunday, the governor's office announced the signing of Assembly Bill 1588, which was authored by Asm. Catherine Stefani (D-San Francisco) and sponsored by Mayor Daniel Lurie, who partnered with the legislator on the bill earlier this year. \"Sideshows are dangerous, reckless, and can turn deadly in an instant,\" Stefani said in a statement. \"AB 1588 makes sure people who repeatedly put our communities at risk face real consequences.\"Lurie said, \"Crime numbers are down across the city, but numbers don't mean anything if San Franciscans don't feel safe, and stopping sideshows will help both.\" The mayor added, \"With this new law, we are sending a clear message: Dangerous sideshows have no place in our neighborhoods, and we will use every tool available to stop them.\"Late last year, Lurie signed a bill increasing fines from misdemeanor sideshow offenses in the city from $500 to $1,000.According to supporters, the measure gives law enforcement additional tools to crack down on drivers who participate in sideshows and increases penalties for repeat offenders. Among the provisions is adding motorbikes and dirt bikes to the sideshow framework, which closes enforcement gaps when unlicensed dirt bikes without plates are used to perform stunts. The measure also aligns sideshow penalties with those of street racing and makes serious bodily injury caused by a sideshow driver eligible for a felony. Vehicles used in sideshows can also be impounded for an additional 30 days upon conviction.Along with San Francisco officials, traffic safety advocates, AAA and law enforcement agencies across the state supported AB 1...",
       "scrapeStatus": "scraped"
     },
     {
@@ -551,6 +596,21 @@
       "summary": "The café would be the first of its kind in the Bay Area. Mayor Daniel Lurie signed into law legislation legalizing cannabis cafés last week.",
       "confidence": 0.82,
       "excerpt": "html,body{height:100%;margin:0}body{display:flex;align-items:center;justify-content:center;background:#f5f5f5;color:#555;font:14px Arial,sans-serif} Audio player will appear shortly. (function(){var f=frameElement,s=f&&f.getAttribute(\"data-ml-everlit-src\");function l(){if(!f||!s||f.hasAttribute(\"src\"))return;var r=parent.document.documentElement;if(r.classList.contains(\"ml-audio-arm-control\"))return;f.setAttribute(\"src\",s);f.removeAttribute(\"srcdoc\");f.removeAttribute(\"data-ml-everlit-src\")}if(parent.document.readyState===\"complete\")setTimeout(l,1500);else parent.addEventListener(\"load\",function(){setTimeout(l,1500)},{once:true})}()); \" title=\"Everlit Audio Player\" width=\"100%\" height=\"136px\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen> William Dolan had been waiting for years. His quest to open a cannabis storefront at 560 Valencia St. had stretched out almost 10 years. As he waited, other cannabis businesses saturated the market. He struggled to pull together the financing to build out the space and open for business. An ordinance signed last week by Mayor Daniel Lurie changed all that. Dolan is now on track to open one of San Francisco’s first cannabis cafés — possibly the first. The legislation allows cannabis shops to serve food, nonalcoholic beverages and have live entertainment. The ordinance introduced in March by District 8 Supervisor and board president, Rafael Mandelman, implements Assembly Bill 1775, a 2024 state law that opened the door to Amsterdam-style cannabis cafés across California. San Francisco is, so far, the first city in the Bay Area to take the next step and actually amend the planning code to allow such cafés to open. Dolan, a real estate advisor...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "sf-mayor-lurie-signs-two-year-16-9-billion-budget-bay-area-reporter-2026-07-30",
+      "title": "SF Mayor Lurie signs two-year $16.9 billion budget - Bay Area Reporter",
+      "sourceType": "news",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "discoveryUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9id3k5dnRqb3ZtdkFvTjNEX1ozMHhrUHltT0s4NlkyZUlwb1Fnb25IQ2dsQm43QzVNTGNWQmVmSFUtd3Brb0l2cA?oc=5",
+      "discoverySource": "Google News",
+      "publishedAt": "2026-07-30",
+      "topic": "housing",
+      "summary": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){retu",
+      "confidence": 0.8,
+      "resolvedFrom": "google_news",
+      "excerpt": "(function(){var aa=function(a){var b=0;return function(){return b >4);g!==64&&(c+=String.fromCharCode(f >2),h!==64&&(c+=String.fromCharCode(g =0&&(a[a.length-1]=\"\");a=a.join(\"/\");break;case \"query\":a=a.search.replace(\"?\",\"\");break;case \"extension\":a=a.pathname.split(\".\");a=a.length>1?a[a.length-1]:\"\";a=a.split(\"/\")[0];break;case \"fragment\":a=a.hash.replace(\"#\",\"\");break;default:a=a&&a.href}return a}function L(a){return a?a.replace(\":\",\"\").toLowerCase():\"\"}var N={},O=0; function P(a){var b=N[a];if(!b){b=E.createElement(\"a\");a&&(b.href=a);var c=b.pathname;c[0]!==\"/\"&&(a||y(1),c=\"/\"+c);var d=b.hostname.replace(J,\"\");b={href:b.href,protocol:b.protocol,host:b.host,hostname:d,pathname:c,search:b.search,hash:b.hash,port:b.port};O =0||l&&h[k].indexOf(m)>=0){h=!0;break a}h=!1}h&&(h=g.placement,h===void 0&&(h=g.fragment?2:1),h===b&&z(e,g.callback()))}return e}function S(){var a=G(),b=a.gl;b&&b.decorators||(b={decorators:[]},a.gl=b);return b};var V=[];function W(a){return V[a]===void 0?!1:V[a]};var ja=/(.*?)\\*(.*?)\\*(.*)/,ka=/([^?#]+)(\\?[^#]*)?(#.*)?/;function X(a){if(a=ka.exec(a))return{g:a[1],query:a[2],fragment:a[3]}}function Y(a){return new RegExp(\"(.*?)(^|&)\"+a+\"=([^&]*)&?(.*)\")} function Z(a){var b=[],c;for(c in a)if(a.hasOwnProperty(c)){var d=a[c];if(d!==void 0&&d===d&&d!==null&&d.toString()!==\"[object Object]\"){b.push(c);var e=b,f=e.push;d=String(d);t=t||u();w=w||r();for(var g=[],h=0;h >2;k=(k&3) >4;n=(n&15) >6;v&=63;l||(v=64,m||(n=64));g.push(t[ta],t[k],t[n],t[v])}f.call(e,g.join(\"\"))}}a=b.join(\"*\");return[\"1\",la(a),a].join(\"*\")} function la(a,b){a=[F.userAgent,(new Date).getTimezoneOffset(),F.userLanguage||F.language,Math.floor((new Date(Date.now())).getTime()/60/1E3)-(b===void 0?0:b),a].join(\"*\");if(!(b=Q)){b=Array(256);for(var c=0;c >>1^3988292384:d>>>1;b[c]=d}}Q=b;...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1628,63 +1688,6 @@
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie, First Lady Prowda Invite San Franciscans To Sign Up For Citywide Day Of Service Office of the Mayor One City Day Service Projects Across All 11 Supervisorial Districts Invite Neighbors Across City to Connect, Serve Their Communities; Continues Mayor Lurie and First Lady Prowda’s Work to Bring Service, Accountability, Change to City Hall May 29, 2026 SAN FRANCISCO – Mayor Daniel Lurie and First Lady Becca Prowda today invited San Franciscans to sign up to participate in “ One City Day ,” a citywide day of service on July 11, 2026, that will build connection and strengthen civic pride. Sign-ups to volunteer on One City Day are open and include more than 150 projects and close to 100 project hosts across all 11 supervisorial districts. The day of service builds on Mayor Lurie and First Lady Prowda’s work to bring service, accountability, and change to City Hall—values that have guided both of their personal and professional journeys. The mayor and first lady first met while both working at the Robin Hood Foundation, a nonprofit dedicated to fighting poverty in New York City. Their shared commitment to serving others has shaped their lives and public service, with Mayor Lurie founding Tipping Point Community in 2005 to fight “One City Day will be an opportunity for San Franciscans to come together and give back to the city we all love,” said Mayor Lurie . “Starting May 29, Becca and I are excited to invite people who live, work, and play in San Francisco to sign up to volunteer for projects that will make a difference in their communities. We’re looking forward to this day of service and coming together across neighborhoods to build a stronger San Francisco together.” “Daniel and I have built our lives around service—it’s how we met, how we raise our ki...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "measure-to-fund-muni-with-new-tax-gets-enough-signatures-for-november-election-2",
-      "title": "Measure to fund Muni with new tax gets enough signatures for November election",
-      "sourceType": "news",
-      "url": "https://sfstandard.com/2026/05/28/san-francisco-muni-parcel-tax-measure-signatures/",
-      "discoveryUrl": "https://sfstandard.com/2026/05/28/san-francisco-muni-parcel-tax-measure-signatures/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "San Francisco Standard",
-      "publishedAt": "2026-05-28",
-      "topic": "transit",
-      "summary": "Mayor Daniel Lurie supports the ballot measure that would impose a parcel tax on homeowners and landlords.",
-      "confidence": 0.9,
-      "excerpt": "Muni’s fate will be in the hands of voters this fall, after a petition for a new parcel tax to fund the transit system gathered enough signatures to qualify for the ballot, Mayor Daniel Lurie said Thursday. The Stronger Muni for All Campaign gathered 18,469 signatures, well above the 10,000 needed to qualify. Voting officials will verify the total and eliminate invalid signatures. “We’re going to continue to lead the nation in having a world-class transit system,” Lurie said. The parcel tax is one of two measures San Francisco voters will decide in November to bail out mass transit. The other is a five-county regional sales tax that would raise nearly $1 billion annually for BART, Muni, Caltrain, and other Bay Area transit agencies. Together, the measures are meant to address a $307 million budget shortfall at the San Francisco Municipal Transportation Agency stemming from lagging ridership post-pandemic and the expiration of emergency federal funding. The parcel tax alone would generate $183 million annually. Most homeowners would pay a base rate of $129 per year. Apartment building owners would pay a $249 base tax, with increases based on square footage. Commercial landlords face a $799 base tax plus size-based increases. Owners of rent-controlled buildings can pass through up to 50% of the tax to tenants, capped at $65 per unit per year. Lurie has been among the measure’s most prominent backers , arguing that a healthy Muni system is key to the city’s economic recovery. The stakes are steep. Muni has warned that if one or both measures don’t pass, it will slash service as soon as September 2027 — ending regular service at 9 p.m., cutting up to 20 bus lines, and running fewer buses on the remaining lines.",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-president-mandelman-take-action-to-protect-san-francisco-x27-s-histo",
-      "title": "Mayor Lurie, President Mandelman Take Action To Protect San Francisco&#x27;s Historic Buildings | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-president-mandelman-take-action-to-protect-san-franciscos-historic-buildings/",
-      "publishedAt": "2026-05-28",
-      "topic": "economy",
-      "summary": "New Package Will Expand Resources for Historic Preservation, Streamline Designation Process; Builds on Mayor Lurie’s Work to Make Common-Sense Reforms to City’s Permitting Process",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie, President Mandelman Take Action To Protect San Francisco&#x27;s Historic Buildings Office of the Mayor New Package Will Expand Resources for Historic Preservation, Streamline Designation Process; Builds on Mayor Lurie’s Work to Make Common-Sense Reforms to City’s Permitting Process May 28, 2026 SAN FRANCISCO – Mayor Daniel Lurie and Board of Supervisors President Rafael Mandelman today announced resources and reforms to strengthen historic preservation and celebrate the unique legacy of San Francisco’s neighborhoods. The package includes new resources to survey the city’s historic properties, legislation to streamline the landmark designation process, and a joint letter to the California Office of Historic Preservation requesting that San Francisco’s locally designated landmarks be listed on the California Register of Historic Resources. The package is expected to more than double the city’s number of designated landmarks by 2030 and ensure the landmarks receive consistent protection under state law. The Lurie administration is making it easier to protect what makes San Francisco’s neighborhoods unique while reducing delays for residents and businesses. Since launching PermitSF , the city has introduced 20 ordinances , including common-sense reforms to remove burdens for homeowners to repair their decks and park in their driveways , or for businesses to set up cafe tables on sidewalks and paint their own business names on their storefronts. Mayor Lurie recently launched a fully digital permitting portal that will allow homeowners and business owners to obtain the permits they need online—it is already cutting Fire Department wait times in half and reducing Permit Center trips by as much as 15%. And just last week, Mayor Lurie signed legislation to m...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "day-around-the-bay-wildfire-grows-in-livermore-2026-05-28",
-      "title": "Day Around the Bay: Wildfire Grows In Livermore",
-      "sourceType": "news",
-      "url": "https://sfist.com/2026/05/27/wildfire-grows-in-livermore/",
-      "discoveryUrl": "https://sfist.com/rss/",
-      "discoverySource": "SFist",
-      "publisher": "SFist",
-      "publishedAt": "2026-05-28",
-      "topic": "housing",
-      "summary": "A wildfire called the Tesla Fire, because it began near Tesla Road, has grown to three acres in Livermore; Mayor Lurie has promoted a new chief of staff from within; and Trump is now having the DOJ investigate E. Jean Carroll.",
-      "confidence": 0.8,
-      "excerpt": "27 May 2026 / SF News / Jay Barmann Day Around the Bay: Wildfire Grows In Livermore --> Local: Following the announcement of the resignation of his Chief of Staff Staci Slaughter, Mayor Daniel Lurie announced her replacement and two more promotions within City Hall. Deputy Chief of Staff Aly Bonde will become chief of staff, current liaison to the Board of Supervisors Adam Thongsavat will become her deputy, and Eileen Mariano is being elevated to policy chief. [ Chronicle ] A wildfire broke out in Livermore this afternoon, called the Tesla Fire because it began near Tesla and Cross roads, has grown to three acres and has burned a barn and an adjacent building. [ KTVU ] Since Oakland's speed cameras began issuing tickets in March, a total of 82,000 tickets have been issued. [ SFGate ] National: The Justice Department continues to do Trump's personal bidding, and now they are launching an investigation into E. Jean Carroll, the 82-year-old woman who won a $5 million judgement against Trump in a sex abuse case, and an $83 million defamation case against him. [ CNN ] Former First Lady Jill Biden said in a new interview that when she saw then-President Biden make his disastrous appearance in his only debate against Trump two years ago her first thought was \"He's having a stroke.\" [ New York Times ] Democrats may be dreaming, or maybe there's a chance that Talarico can win a Senate seat in Texas. [ NY Mag ] Video: This British YouTuber is traveling to every World Cup host city in the US and vlogging about their food, and he just toured San Francisco, hit up Swan Oyster Depot (because: Bourdain), had a super burrito at El Farolito, and had the chicken at Zuni Cafe, among other things. Top image: Photo of an earlier fire via Livermore-Pleasanton Fire Department Please enable...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "in-bad-budget-year-mayor-lurie-to-maintain-immigrant-legal-services-funding-2026",
-      "title": "In bad budget year, Mayor Lurie to maintain immigrant legal services funding",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/05/sf-budget-immigration-funding-rapid-response/",
-      "discoveryUrl": "https://missionlocal.org/feed/",
-      "discoverySource": "Mission Local",
-      "publisher": "Mission Local",
-      "publishedAt": "2026-05-28",
-      "topic": "economy",
-      "summary": "Mayor Lurie to maintain $20 million for legal services despite $600 million deficit. But will last year&#039;s emergency funds be renewed?",
-      "confidence": 0.82,
-      "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today The mayor’s office must cut $400 million in this year’s budget , but it won’t cut immigrant legal services and, Mayor Daniel Lurie&#8217;s office told Mission Local . The city spent about $17.9 million this year on services such as deportation defense and a rapid response network that verifies immigration arrests and emergencies. Next year it is budgeting for $18.2 million. “In this budget, we are standing up for San Francisco’s communities and our values,” Lurie said in a statement. “As we work to close a $600 million deficit and navigate cuts from the federal government, we are continuing to build on our investments in immigrant legal services because our immigrant community makes our city stronger.” Lariza Dugan-Cuadra, the executive director of CARECEN, which runs the San Francisco Immigrant Legal Defense Collaborative, a non-profit that provides legal services to detained immigrants , commended the move. “Today somebody got detained , our partners are responding, and we’d much rather be doing that than having to be at City Hall fighting for critical resources,” she said, speaking on Wednesday and referring to an immigration arrest in the Sunnyside neighborhood that day. In addition to the city’s budgeted spending, officials have made several one-time grants since the November 2024 election to help bolster immigrant legal services. That includes $878,000 approved by then-Mayor London Breed in 2024 (which Lurie declined to renew last year) and $3.5 million appropriated by the Board of Supervisors in October 2025, hours after President Donald Trump withdrew a threat to send a “surge” of federal agents to San Francisco. T...",
-      "scrapeStatus": "scraped"
     }
   ],
   "promises": [
@@ -2163,7 +2166,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-09-19T04:43:48.979Z"
+      "lastRefreshed": "2026-09-22T05:06:39.581Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2182,7 +2185,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-09-19T04:43:48.979Z"
+      "lastRefreshed": "2026-09-22T05:06:39.581Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2198,7 +2201,7 @@
       "observations": [],
       "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-09-19T04:43:48.979Z",
+      "lastRefreshed": "2026-09-22T05:06:39.581Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2220,7 +2223,7 @@
       "observations": [],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-09-19T04:43:48.979Z"
+      "lastRefreshed": "2026-09-22T05:06:39.581Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2239,7 +2242,7 @@
       "observations": [],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-09-19T04:43:48.979Z"
+      "lastRefreshed": "2026-09-22T05:06:39.581Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2258,7 +2261,7 @@
       "observations": [],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-09-19T04:43:48.979Z"
+      "lastRefreshed": "2026-09-22T05:06:39.581Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2277,7 +2280,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-09-19T04:43:48.979Z"
+      "lastRefreshed": "2026-09-22T05:06:39.581Z"
     }
   ],
   "topics": [
@@ -2404,14 +2407,14 @@
       "selectionMethod": "fallback"
     },
     {
-      "id": "mayor-lurie-s-office-apologizes-for-appointing-only-private-school-kids-to-youth",
-      "headline": "Mayor Lurie's office apologizes for appointing only private school kids to Youth Commission",
-      "url": "https://missionlocal.org/2026/09/san-francisco-daniel-lurie-youth-commission-apology/",
-      "publishedAt": "2026-09-19",
-      "publisher": "Mission Local",
-      "topic": "economy",
-      "whyItMatters": "The mayor's office said it would do better in the future, and called the appointments an \"oversight.\"",
-      "sourceId": "mayor-lurie-s-office-apologizes-for-appointing-only-private-school-kids-to-youth",
+      "id": "new-state-law-raises-penalties-for-participating-in-sideshows-2026-09-21",
+      "headline": "New State Law Raises Penalties for Participating In Sideshows",
+      "url": "https://sfist.com/2026/09/21/new-state-law-raises-penalties-for-participating-in-sideshows/",
+      "publishedAt": "2026-09-21",
+      "publisher": "SFist",
+      "topic": "city_government",
+      "whyItMatters": "An Assembly bill introduced by Assemblymember Catherine Stefani that was endorsed by SF Mayor Daniel Lurie has now been signed into law, providing fines and penalties statewide for engaging in sideshow activity.",
+      "sourceId": "new-state-law-raises-penalties-for-participating-in-sideshows-2026-09-21",
       "selectionMethod": "fallback"
     }
   ],
