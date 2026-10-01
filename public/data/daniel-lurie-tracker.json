@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-09-28T05:32:31.420Z",
+    "lastUpdated": "2026-10-01T06:06:55.773Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -242,6 +242,36 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "meet-the-district-8-candidates-should-the-city-stop-giving-out-drug-use-supplies",
+      "title": "Meet the District 8 candidates: Should the city stop giving out drug use supplies?",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/09/sf-district-8-candidates-harm-reduction-drug-use-supplies/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-09-30",
+      "topic": "public_safety",
+      "summary": "The District 8 candidates supervisor candidates share their thoughts on Mayor Daniel Lurie backing away from harm reduction measures.",
+      "confidence": 0.82,
+      "excerpt": "Welcome back to our “Meet the Candidates” series, where District 8 supervisor candidates respond to a question in 100 words or fewer. Answers are published every Wednesday. District 8 includes neighborhoods in the center of the city, including the Castro, Noe Valley, Glen Park, Twin Peaks, Duboce Triangle, Dolores Heights, Parnassus Heights, Ashbury Heights, Corona Heights and Diamond Heights. Over the course of his administration, Mayor Daniel Lurie has worked to restrict access to drug use supplies like pipes, clean needles, and foil. In April 2025, he required city-funded nonprofits to offer counseling and addiction treatment before handing out any drug use supplies. The nonprofits were also banned from giving out smoking supplies in public spaces like parks and sidewalks. This change, Lurie said, would help address rampant open-air drug use on San Francisco’s streets. “What we are doing is not working,” he said. “We have seen too many of our neighbors die on our streets, and we are pivoting.” But critics wanted San Francisco to continue offering harm reduction services, which help drug users stay safer as they continue to use. They were concerned that the policy change would lead to an increase in dangerous practices like reusing needles, potentially driving up overdoses and disease transmission. “San Francisco has long been a beacon for evidence-based compassionate response to the realities of substance use and with this decision, we risk becoming a cautionary tale,” Tyler TerMeer, CEO of the San Francisco AIDS Foundation, told the San Francisco Chronicle in April 2025. A year later, in April 2026, Lurie’s policy seemed to have little impact, a Chronicle article found. Users could still easily obtain drug use supplies, and many providers said that they had alrea...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "s-f-sticks-with-flock-surveillance-cameras-but-mayor-tightens-police-use-2026-09",
+      "title": "S.F. sticks with Flock surveillance cameras, but mayor tightens police use",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/09/san-francisco-flock-cameras-daniel-lurie-guidelines/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-09-29",
+      "topic": "public_safety",
+      "summary": "New rules put forward by Mayor Lurie will cut data retention time, link police searches to investigations and add regular audits.",
+      "confidence": 0.82,
+      "excerpt": "Mayor Daniel Lurie’s office on Tuesday announced a slew of policies to tighten San Francisco police officers' use of Flock surveillance cameras, and said the mayor would work with state lawmakers to pass a bill cracking down on officers who improperly use or share data from the cameras. The citywide changes will shorten the length of time that officers can access Flock data without a supervisor's sign-off, require officers to list what investigation is linked to their search of a surveillance database, and establish more regular audits. Lurie’s new policies will apply to the more than 400 automated license-plate readers throughout the city, all of which are currently contracted through the technology company Flock Safety. Flock cameras, which are designed to scan license plates and track cars for officers, have been the subject of national controversy. The Atlanta-based tech company was recently the subject of a critical Senate hearing , and has been denounced for how officers use it to collaborate with Immigration and Customs Enforcement. But, while about 150 cities have either banned, deactivated or rejected the cameras, the mayor's actions show San Francisco will stand by them; they are a popular crime-fighting tool for police and officials. The San Francisco Democratic Party voted last week to overwhelmingly reaffirm its support for Flock. The Board of Supervisors will vote in February 2027 on whether to extent the city's Flock contract. The new policies also come the day after the San Francisco Human Rights Commission released a report looking into 1.6 million improper Flock searches made by out-of-state agencies between 2024 and 2025. License-plate data has been used in immigration enforcement, and advocates worry local data can make its way into federal hands...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "mayor-lurie-s-charter-measures-raise-stunning-11m-more-than-all-others-combined-",
       "title": "Mayor Lurie’s charter measures raise stunning $11M, more than all others combined",
       "sourceType": "news",
@@ -434,21 +464,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "mayor-lurie-presents-balanced-responsible-budget-to-advance-san-francisco-s-reco",
-      "title": "Mayor Lurie Presents Balanced, Responsible Budget to Advance San Francisco's Recovery",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
-      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-presents-balanced-responsible-budget-to-advance-san-franciscos-recovery",
-      "discoverySource": "Anthropic web search",
-      "publisher": "SF.gov",
-      "publishedAt": "2026-09-04",
-      "topic": "city_government",
-      "summary": "Mayor Lurie presented a $15.9 billion budget for FY 2025-2027, closing an historic $800 million deficit. The budget prioritizes public safety, clean streets, behavioral health crisis response, and economic revitalization while unlocking $90 million over three years to expand interim housing capacity.",
-      "confidence": 0.9,
-      "scrapeStatus": "fetch_failed",
-      "scrapeError": "page returned bot verification challenge"
-    },
-    {
       "id": "alioto-s-plaza-unveiled-at-fisherman-s-wharf-with-new-seating-beer-concession-20",
       "title": "Alioto's Plaza Unveiled at Fisherman's Wharf, With New Seating, Beer Concession",
       "sourceType": "news",
@@ -492,6 +507,21 @@
       "confidence": 0.8,
       "excerpt": "Mayor Daniel Lurie says San Francisco will review all homelessness service contracts - CBS San Francisco Bay Area Top News SF/Peninsula News East Bay News South Bay News North Bay News Bay Area Crime Tech Health Politics LGBTQ Entertainment KPIX Special Reports First Alert Weather Radars & Maps All Sports CBS Sports HQ San Francisco 49ers San Francisco Giants Golden State Warriors Golden State Valkyries San Jose Sharks Cal Stanford College Sports Station Info KPIX What's On KPIX Contests & Promotions Advertise With Us Contact Us Download the App Galleries Memorials Watch CBS News Mayor Daniel Lurie says San Francisco will review all homelessness service contracts John Ramos reports. View CBS News In CBS News App Open Chrome Safari Continue",
       "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-launches-sweeping-effort-to-redo-all-city-homelessness-contracts-wit",
+      "title": "Mayor Lurie Launches Sweeping Effort to Redo All City Homelessness Contracts With Focus on Outcomes, Accountability for Results",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-mayor-lurie-launches-sweeping-effort-to-redo-all-city-homelessness-contracts-with-focus-on-outcomes-accountability-for-results",
+      "discoveryUrl": "https://www.sf.gov/news-mayor-lurie-launches-sweeping-effort-to-redo-all-city-homelessness-contracts-with-focus-on-outcomes-accountability-for-results",
+      "discoverySource": "Anthropic web search",
+      "publisher": "City and County of San Francisco",
+      "publishedAt": "2026-08-31",
+      "topic": "homelessness",
+      "summary": "Lurie launched a multi-year effort to redo all city homelessness contracts through a competitive process focused on outcomes-based contracting. Unsheltered homelessness reached a 15-year low, falling 22%, and the city stood up more than 600 new treatment-focused beds.",
+      "confidence": 0.9,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "page returned bot verification challenge"
     },
     {
       "id": "mayor-moves-to-overhaul-500m-in-homelessness-contracts-2026-08-31",
@@ -644,21 +674,6 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "san-francisco-mayor-promotes-initiative-giving-him-more-authority-over-city-agen",
-      "title": "San Francisco mayor promotes initiative giving him more authority over city agencies",
-      "sourceType": "news",
-      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-daniel-lurie-ballot-initiatives-city-charter-reform/",
-      "discoveryUrl": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-daniel-lurie-ballot-initiatives-city-charter-reform/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "CBS San Francisco",
-      "publishedAt": "2026-07-30",
-      "topic": "economy",
-      "summary": "San Francisco Mayor Daniel Lurie spent his Wednesday morning touting three ballot initiatives. The most controversial of the three would raise the threshold of signatures that citizens need to gather to qualify for the ballot.",
-      "confidence": 0.9,
-      "excerpt": "San Francisco Mayor Daniel Lurie spent his Wednesday morning touting three ballot initiatives, all part of what he calls his mission to reform City Hall and remove some of the dysfunction.\"I ran for mayor with a clear message: The system needs to change to help everyday San Franciscans,\" Lurie said.The backdrop for that message is the city's now-infamous million-dollar public toilet, a project in Noe Valley that once carried a $1.7 million price tag before being scaled back to about $200,000.\"It made international headlines as a symbol of everything that is broken, a simple project that ballooned in cost because of layers of bureaucracy,\" Lurie said.Lurie is aiming to cut through some of that bureaucracy with three proposals to change the city's charter. One, he says, could save taxpayers money, such as in the case of the toilet project, by giving the city administrator more authority over city contracts.Another would allow the mayor to hire and fire department heads and restructure city agencies.The most controversial of the three would raise the threshold of signatures that citizens need to gather to qualify for the ballot, from at least 2 percent of registered voters to 8 percent.Supporters say that would put San Francisco in line with other cities like Oakland, which has a 10 percent threshold. Kim Tavaglione with the San Francisco Labor Council is opposed to the idea.\"It means that average citizens will have to raise a lot of money to get those signatures,\" Vagalione said.She said raising the number of signatures required favors wealthy fundraisers and could make it harder for everyday people to get issues on the ballot.Lurie and his supporters said the higher signature threshold is not about disenfranchising voters, but will help streamline what can often be a...",
-      "scrapeStatus": "scraped"
-    },
-    {
       "id": "sf-mayor-daniel-lurie-signs-largest-city-budget-ever-2026-07-30",
       "title": "SF Mayor Daniel Lurie signs largest city budget ever",
       "sourceType": "news",
@@ -671,6 +686,21 @@
       "summary": "San Francisco Mayor Daniel Lurie signed the city's $16.9 billion budget Thursday, closing a $640 million budget deficit.",
       "confidence": 0.9,
       "excerpt": "San Francisco SF Mayor Daniel Lurie signs largest city budget ever By Bob Redell &bull; Published July 30, 2026 &bull; Updated on July 30, 2026 at 11:32 am BOOKMARKER NBC Universal, Inc. San Francisco Mayor Daniel Lurie signed the city's $16.9 billion budget, closing a $640 million budget deficit. Bob Redell reports. San Francisco Mayor Daniel Lurie signed the city's $16.9 billion budget Thursday, closing a $640 million budget deficit. Lurie signed the budget at a senior community center alongside several members of the San Francisco Board of Supervisors. Watch NBC Bay Area News free wherever you are WATCH HERE The spending plan includes $34 million to help San Franciscans remain enrolled in Medi-Cal and CalFresh, $120 million for unhoused families, people living with HIV and AIDS, and LGBTQ+ community-based organizations, and $100 million set aside for potential state and federal cuts to housing and homelessness programs. It also provides $20 million to upgrade equipment for first responders and $71 million for projects including street resurfacing, drug treatment programs and mental health services. Lurie said the budget will help protect services as federal funding declines, while Supervisor Connie Chan said it reflects San Francisco's values. City officials said the budget closes a two-year deficit and avoids a scenario in which the city's deficit would have reached $1 billion within five years. This article tagged under: San Francisco on now 3PM: NBC Bay Area News Midday Trending Stories Vallejo Neighbors frustrated after illegal sideshow involving over 100 cars in Vallejo San Mateo County Bystanders resuscitate teen at San Mateo County beach Santa Cruz 16-year-old lifeguard makes daring first rescue, earns White House invite Bay Area The Ultimate Costco Challen...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "san-francisco-mayor-promotes-initiative-giving-him-more-authority-over-city-agen",
+      "title": "San Francisco mayor promotes initiative giving him more authority over city agencies",
+      "sourceType": "news",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-daniel-lurie-ballot-initiatives-city-charter-reform/",
+      "discoveryUrl": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-mayor-daniel-lurie-ballot-initiatives-city-charter-reform/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "CBS San Francisco",
+      "publishedAt": "2026-07-30",
+      "topic": "economy",
+      "summary": "San Francisco Mayor Daniel Lurie spent his Wednesday morning touting three ballot initiatives. The most controversial of the three would raise the threshold of signatures that citizens need to gather to qualify for the ballot.",
+      "confidence": 0.9,
+      "excerpt": "San Francisco Mayor Daniel Lurie spent his Wednesday morning touting three ballot initiatives, all part of what he calls his mission to reform City Hall and remove some of the dysfunction.\"I ran for mayor with a clear message: The system needs to change to help everyday San Franciscans,\" Lurie said.The backdrop for that message is the city's now-infamous million-dollar public toilet, a project in Noe Valley that once carried a $1.7 million price tag before being scaled back to about $200,000.\"It made international headlines as a symbol of everything that is broken, a simple project that ballooned in cost because of layers of bureaucracy,\" Lurie said.Lurie is aiming to cut through some of that bureaucracy with three proposals to change the city's charter. One, he says, could save taxpayers money, such as in the case of the toilet project, by giving the city administrator more authority over city contracts.Another would allow the mayor to hire and fire department heads and restructure city agencies.The most controversial of the three would raise the threshold of signatures that citizens need to gather to qualify for the ballot, from at least 2 percent of registered voters to 8 percent.Supporters say that would put San Francisco in line with other cities like Oakland, which has a 10 percent threshold. Kim Tavaglione with the San Francisco Labor Council is opposed to the idea.\"It means that average citizens will have to raise a lot of money to get those signatures,\" Vagalione said.She said raising the number of signatures required favors wealthy fundraisers and could make it harder for everyday people to get issues on the ballot.Lurie and his supporters said the higher signature threshold is not about disenfranchising voters, but will help streamline what can often be a...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1661,36 +1691,6 @@
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie&#x27;s Statement On CARB Decision To Gut State Funding For Transit And Affordable Housing Office of the Mayor May 30, 2026 SAN FRANCISCO – Mayor Daniel Lurie today released the following statement on the California Air Resources Board’s (CARB) decision to eliminate programs that have provided billions of dollars in state funding for affordable housing and public transit: “After years of struggle, San Francisco’s economy is recovering. Muni and BART ridership have reached post-pandemic highs, office vacancy rates continue to drop, and downtown foot traffic is continuing to increase. We’re making it easier to build housing and more affordable to raise a family here. But our recovery is fragile, and it will come to a grinding halt without reliable public transit and affordable homes to support the families and workers that power our city. “Since the start of my administration, we’ve taken steps to make Muni more reliable, efficient, and accountable as it faces a significant budget gap. We worked with partners across the Bay Area and in Sacramento to secure critical bridge funding to keep our transit systems running while we build a stronger long-term financial future for Muni. We passed the Family Zoning plan and proposed a plan to more than double our Housing Trust Fund so we can build affordable homes. “This decision puts our efforts to save transit, build affordable housing, and drive our economic recovery at risk. Since that work helps achieve our emissions goals, those goals will be jeopardized too. And that risk doesn’t just apply to San Francisco—I brought together the mayors of Los Angeles, San Diego, and Oakland, and we shared these exact concerns with CARB weeks ago . “Our city is moving in the right direction—we should keep our foot on the ac...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "amid-opposition-california-regulators-approve-major-changes-to-cap-and-trade-pro",
-      "title": "Amid Opposition, California Regulators Approve Major Changes To Cap-And-Trade Program",
-      "sourceType": "news",
-      "url": "https://www.kqed.org/news/12085401/amid-opposition-california-regulators-approve-major-changes-to-cap-and-trade-program",
-      "discoveryUrl": "https://www.kqed.org/news/12085401/amid-opposition-california-regulators-approve-major-changes-to-cap-and-trade-program",
-      "discoverySource": "Anthropic web search",
-      "publisher": "KQED",
-      "publishedAt": "2026-05-30",
-      "topic": "economy",
-      "summary": "Climate, transportation and affordable housing advocates worry the changes could result in a loss of funding.",
-      "confidence": 0.9,
-      "excerpt": "News Amid Opposition, California Regulators Approve Major Changes To Cap-And-Trade Program Climate, transportation and affordable housing advocates worry the changes could result in a loss of funding. May 29, 2026 Updated Jun 1, 2026 Adhiti Bandlamudi Martinez Refining Company in Martinez on Feb. 3, 2025. The California Air Resources Board (CARB) voted to create a $4 billion fund for big polluters to invest in decarbonization projects. (Gina Castro/KQED) In a controversial move, state regulators on Friday approved major changes to California&rsquo;s cap-and-invest program at a lengthy board meeting that transpired over the course of two days. The California Air Resources Board (CARB) voted to create a $4 billion fund for big polluters to invest in decarbonization projects . Climate, affordable housing and transit advocates, however, worry the move might mean significantly less money for their programs. Gov. Gavin Newsom lauded the effort, saying it advances affordability while keeping the state on track to meet its climate targets. &ldquo;California&rsquo;s nation-leading cap-and-invest program has proven that we can cut pollution, create jobs, and invest in a cleaner future at the same time,&rdquo; he wrote. &ldquo;These are real results that Californians can see and feel.&rdquo; Regulators said they were doing their best to strike a balance that also keeps oil and gas companies viable. &ldquo; There is no direction to us, as an agency, to maximize one trade-off versus another,&rdquo; said Rajinder Sahota, deputy executive officer for climate change and research at CARB. &ldquo;What we&rsquo;re trying to do is balance all of the pieces that we&rsquo;re getting.&rdquo; A sign for a petroleum pipeline in Richmond on Aug. 8, 2025. (Martin do Nascimento/KQED) The vote c...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-is-popular-can-he-transfer-it-to-alan-wong-2026-05-30",
-      "title": "Mayor Lurie is popular. Can he transfer it to Alan Wong?",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/05/sf-sunset-district-4-alan-wong-daniel-lurie/",
-      "discoveryUrl": "https://missionlocal.org/feed/",
-      "discoverySource": "Mission Local",
-      "publisher": "Mission Local",
-      "publishedAt": "2026-05-30",
-      "topic": "economy",
-      "summary": "Mayor Lurie and Supervisor Alan Wong go door-to-door, courting Sunset voters. \"I need good partners,\" Lurie told voters. And Wong is one.",
-      "confidence": 0.82,
-      "excerpt": "Mission Local is growing Four new neighborhoods. Four dedicated reporters. Zero paywalls. Help us stay free for all of San Francisco. Donate today Mission Local has been following the District 4 candidates on the campaign trail. Read dispatches on Natalie Gee , David Lee and Albert Chow . Incumbent Supervisor Alan Wong has a not-so-secret weapon in the District 4 supervisor race: Mayor Daniel Lurie. On a recent Saturday, Wong and Lurie walked down 42nd Avenue in the Sunset, trying to drum up votes for Wong on June 2. Residents were happy to open their doors when they saw it was the mayor knocking. One man, peeking from his second-floor window, hurried downstairs to meet Lurie. Delight in meeting the mayor didn’t necessarily equate agreeing with him, though. “I’m voting for that guy at Other Avenues. The white guy, you know?” the man said, apparently referring to Jeremy Greco , who worked for the co-op grocery store. “I must be doing a good job if you know who I am but not who the other candidates are,” Wong said, with a dry laugh. “You could vote for him No. 2,” Lurie jumped in, pointing at Wong. The man said he was not a fan of ranked-choice voting. But, he said, he remained a fan of the mayor. “You have a thankless job,” he told Lurie. “And you’re doing pretty well.” “Thank you,” Lurie said, before gesturing at Wong and smoothly bringing the conversation back on track. “And he’s been a big reason why we’ve been getting things done at the Board of Supervisors. We’re working well together. And I’m just hoping that I have a partner for years to come.” ‘It’s a classic Sunset thing’ Wong, who is also an officer in the California National Guard, is a fast walker. He did not slow down at all for the hills, leaving everyone else — Lurie, Lurie’s security detail, Lurie’s li...",
-      "scrapeStatus": "scraped"
     }
   ],
   "promises": [
@@ -2169,7 +2169,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-09-28T05:32:31.185Z"
+      "lastRefreshed": "2026-10-01T06:06:44.842Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2188,7 +2188,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-09-28T05:32:31.185Z"
+      "lastRefreshed": "2026-10-01T06:06:44.842Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2204,7 +2204,7 @@
       "observations": [],
       "status": "needs_verified_source",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-09-28T05:32:31.185Z",
+      "lastRefreshed": "2026-10-01T06:06:44.842Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2226,7 +2226,7 @@
       "observations": [],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-09-28T05:32:31.185Z"
+      "lastRefreshed": "2026-10-01T06:06:44.842Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2245,7 +2245,7 @@
       "observations": [],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-09-28T05:32:31.185Z"
+      "lastRefreshed": "2026-10-01T06:06:44.842Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2264,7 +2264,7 @@
       "observations": [],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-09-28T05:32:31.185Z"
+      "lastRefreshed": "2026-10-01T06:06:44.842Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2283,7 +2283,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-09-28T05:32:31.185Z"
+      "lastRefreshed": "2026-10-01T06:06:44.842Z"
     }
   ],
   "topics": [
@@ -2388,37 +2388,37 @@
   ],
   "majorNews": [
     {
+      "id": "lurie-declares-rent-emergency-as-s-f-rents-spike-due-to-ai-boom-2026-09-10",
+      "headline": "Lurie declares 'rent emergency' as S.F. rents spike due to AI boom",
+      "url": "https://missionlocal.org/2026/09/sf-rent-emergency-sf-lurie-tenants-ai-boom/",
+      "publishedAt": "2026-09-10",
+      "publisher": "Mission Local",
+      "topic": "housing",
+      "whyItMatters": "Major policy action addressing San Francisco's housing crisis as median rents surge 26% and evictions rise 44% due to AI boom. Mayor proposes increased Ellis Act compensation and $3M for tenant legal defense, directly impacting two-thirds of SF residents who are renters.",
+      "sourceId": "lurie-declares-rent-emergency-as-s-f-rents-spike-due-to-ai-boom-2026-09-10",
+      "selectionMethod": "anthropic"
+    },
+    {
       "id": "mayor-lurie-s-charter-measures-raise-stunning-11m-more-than-all-others-combined",
-      "headline": "Mayor Lurie’s charter measures raise stunning $11M, more than all others combined",
+      "headline": "Mayor Lurie's charter measures raise stunning $11M, more than all others combined",
       "url": "https://missionlocal.org/2026/09/lurie-charter-measures-raise-11m/",
       "publishedAt": "2026-09-25",
       "publisher": "Mission Local",
       "topic": "city_government",
-      "whyItMatters": "Fundraising for the ballot measures is staggering: Over $19 million is going toward the 10 measures on the ballot.",
+      "whyItMatters": "Unprecedented $11M fundraising for three charter amendments that would fundamentally reshape city governance by expanding mayoral power, raising ballot measure thresholds, and increasing city administrator authority over contracts. Represents most expensive local ballot measures, exceeding all other propositions combined.",
       "sourceId": "mayor-lurie-s-charter-measures-raise-stunning-11m-more-than-all-others-combined-",
-      "selectionMethod": "fallback"
+      "selectionMethod": "anthropic"
     },
     {
-      "id": "mayor-lurie-s-f-officials-call-for-feds-to-release-ho-yin-mo-state-aide-detained",
-      "headline": "Mayor Lurie, S.F. officials call for feds to release Ho Yin Mo, state aide detained by ICE",
-      "url": "https://missionlocal.org/2026/09/san-francisco-elected-officials-call-for-feds-to-release-ho-yin-mo-detained-assembly-legislative-aide/",
-      "publishedAt": "2026-09-22",
-      "publisher": "Mission Local",
-      "topic": "city_government",
-      "whyItMatters": "Former Chinese-language TV anchor works for Assemblymember Catherine Stefani and previously served as field organizer for Mayor London Breed.",
-      "sourceId": "mayor-lurie-s-f-officials-call-for-feds-to-release-ho-yin-mo-state-aide-detained",
-      "selectionMethod": "fallback"
-    },
-    {
-      "id": "new-state-law-raises-penalties-for-participating-in-sideshows-2026-09-21",
-      "headline": "New State Law Raises Penalties for Participating In Sideshows",
-      "url": "https://sfist.com/2026/09/21/new-state-law-raises-penalties-for-participating-in-sideshows/",
-      "publishedAt": "2026-09-21",
+      "id": "criminal-probe-of-newsom-expands-feds-name-lurie-s-wife-in-subpoenas-2026-09-12",
+      "headline": "Criminal Probe of Newsom Expands; Feds Name Lurie's Wife in Subpoenas",
+      "url": "https://sfist.com/2026/09/12/criminal-probe-of-newsom-expands-feds-name-luries-wife-in-subpoenas/",
+      "publishedAt": "2026-09-12",
       "publisher": "SFist",
-      "topic": "city_government",
-      "whyItMatters": "An Assembly bill introduced by Assemblymember Catherine Stefani that was endorsed by SF Mayor Daniel Lurie has now been signed into law, providing fines and penalties statewide for engaging in sideshow activity.",
-      "sourceId": "new-state-law-raises-penalties-for-participating-in-sideshows-2026-09-21",
-      "selectionMethod": "fallback"
+      "topic": "economy",
+      "whyItMatters": "Federal criminal investigation directly touches San Francisco mayor's administration through subpoenas targeting his wife Rebecca Prowda, Newsom's chief protocol officer. Investigation covers six years of records related to state travel and expenditures, creating potential political complications for Lurie's governance and Newsom's presidential ambitions.",
+      "sourceId": "criminal-probe-of-newsom-expands-feds-name-lurie-s-wife-in-subpoenas-2026-09-12",
+      "selectionMethod": "anthropic"
     }
   ],
   "campaignPromiseSeed": [
