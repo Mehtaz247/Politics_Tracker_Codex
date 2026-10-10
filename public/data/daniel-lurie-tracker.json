@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-10-07T06:08:19.507Z",
+    "lastUpdated": "2026-10-10T06:00:40.163Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -239,6 +239,21 @@
       "summary": "Explore our comprehensive climate policy focused on sustainability, clean energy, and environmental justice. Join us in the fight against climate change today!",
       "confidence": 0.94,
       "excerpt": "English 繁体中文 简体中文 Downtown Climate Innovation Hub Accelerate SF’s Recovery & Lead a Clean Energy Revolution At a Glance Maintain safe and clean streets as the foundation of downtown’s recovery. Incentivize cleantech industries to locate in vacant office space downtown. Leverage our lead in artificial intelligence to accelerate a cleantech revolution. Restore San Francisco's leadership in the fight against climate change. The Details The cleantech revolution is coming, and I will ensure it happens in San Francisco. Our downtown area is experiencing a slow recovery with a record-breaking 37% office vacancy rate . Experts predict a full recovery could take decades, if it happens at all. This impacts everything from city tax revenues to the vitality of small businesses and public safety. It’s a sad reality that San Francisco has 35 million square feet of available office space—the equivalent of 22 Salesforce Towers. We’ve experienced one of the slowest recoveries of any major city in the country. But this also presents an opportunity. We Can Make San Francisco a Global Leader in Clean Technology My administration will incentivize cleantech industries to occupy our vacant office spaces. We will create a Climate Innovation Hub by : Lowering Business Taxes: I will reduce business taxes on cleantech companies. A measure likely to be on the November ballot, which I support, will be one important step toward doing this by providing an estimated 59% tax decrease. Fast-Tracking Permitting: Fast lane-permitting for tenant improvements will lessen the time and cost associated with getting businesses up and running. Experts say my My City Hall Accountability Plan will lessen the time it takes to get a building permit by four months. I will make that even faster for new and expandin...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "s-f-supervisors-press-city-on-drug-markets-are-the-crackdowns-working-2026-10-09",
+      "title": "S.F. supervisors press city on drug markets: Are the crackdowns working?",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/10/s-f-supervisors-press-city-on-drug-markets-are-the-crackdowns-working/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-10-09",
+      "topic": "public_safety",
+      "summary": "Supervisors reached a stalemate at the hearing. Despite requests for a representative from Mayor Lurie’s office to be present, no one showed.",
+      "confidence": 0.82,
+      "excerpt": "Cracking down on San Francisco’s drug markets has been a key goal for Mayor Daniel Lurie since he entered office. A year and a half later, some city supervisors say that while some areas appear to be improving, his crackdowns haven’t solved the problem — drug-dealing and using has just been moved around. Supervisors Rafael Mandelman, Jackie Fielder, Matt Dorsey and Billal Mahmood co-sponsored a Thursday hearing to demand a citywide plan for addressing the problem of open-air drug dealing, with coordination between departments and clear metrics. The four supervisors say they’ve watched drug enforcement in the Tendeloin and South of Market push the problem into each other’s districts. But supervisors reached a stalemate at the hearing. Despite requests for a representative from Mayor Lurie’s office to be present, no one showed, leaving them with unanswered questions about the citywide coordination to address the drug problem. “This is not exactly the meeting I was hoping for,” said District 8 Supervisor Mandelman, who called for the hearing and requested a mayoral staffer be present. Lurie’s decision not to send anyone, Mandelman said, made it “hard” for supervisors to “feel like we are being engaged in a conversation about the impact of drugs in the neighborhoods that we represent.” Instead several representatives from the police department, Department of Public Health, Office of Economic Workforce Development, and BART were present. Last year, Mayor Lurie announced a commitment to crack down on drug dealing at troubled spots across San Francisco. However, as Mission Local has reported in the case of enforcement at the two Mission BART plazas, increased police presence temporarily halts illegal activity —until officers leave and conditions return to business as usual....",
       "scrapeStatus": "scraped"
     },
     {
@@ -1682,18 +1697,6 @@
       "confidence": 0.9,
       "excerpt": "Mayor Daniel Lurie revealed Monday that he is looking to close the city’s $642 million deficit not through culling the workforce today, but slowing down hiring for years and eliminating vacant positions. The proposal eliminates over 400 vacant positions that the city had budgeted for but left unfilled, and cuts another nine jobs. That, plus the 127 layoffs announced in the spring, would mean around 550 City Hall job cuts this budget season. The $16.9 billion budget would also benefit from increased revenue, namely tax receipts received via the city’s 2024 tax reform measure, Proposition M , and increases in public health revenue. And in line with last year’s budget , Lurie is prioritizing funding for departments attuned with his key initiatives, namely public safety and homelessness. Lurie increased funding for the police and fire departments, whose staff saw 14 percent salary bumps after union contract negotiations earlier this year, as well as departments most affected by cuts to federal funding, like the Department of Public Health. “We didn’t tell departments to do more with less,” Lurie said during an announcement livestreamed from the Human Services Agency Mission District office. “We said, focus on what matters most to our recovery and deliver results.” A large chunk of the city’s savings come from staffing cuts — the 127 layoffs announced earlier , the nine more announced today, and the 414 or so unfilled positions. Unions have called for no more cuts to city services or personnel. Though this budget has few layoffs, union leaders in April said they opposed cuts to unfilled positions. “Any cuts to that system will further strain city departments which are already understaffed,” said Bianca Polovina, then-president of IFPTE 21, a union of city workers. “All th...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-respo",
-      "title": "Mayor Lurie Presents Responsible Budget Strengthening Social Safety Net In Response To Significant Federal Cuts, Advancing San Francisco&#x27;s Economic Recovery | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-presents-responsible-budget-strengthening-social-safety-net-in-response-to-significant-federal-cuts-advancing-san-franciscos-economic-recovery/",
-      "publishedAt": "2026-06-01",
-      "topic": "homelessness",
-      "summary": "Balanced Budget Invests in Keeping Families on Healthcare and Food Assistance, Preventing Homelessness, Preparing for Additional Federal Cuts to Housing and Homelessness; Prioritizes Core Services to Advance Broad, Durable Economic Recovery With Investments in Public Safety, Clean and Safe Streets; Closes $642 Million Deficit While Reducing City’s Ongoing Structural Deficit by Approximately $300 Million",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Presents Responsible Budget Strengthening Social Safety Net In Response To Significant Federal Cuts, Advancing San Francisco&#x27;s Economic Recovery Office of the Mayor Balanced Budget Invests in Keeping Families on Healthcare and Food Assistance, Preventing Homelessness, Preparing for Additional Federal Cuts to Housing and Homelessness; Prioritizes Core Services to Advance Broad, Durable Economic Recovery With Investments in Public Safety, Clean and Safe Streets; Closes $642 Million Deficit While Reducing City’s Ongoing Structural Deficit by Approximately $300 Million June 1, 2026 SAN FRANCISCO – Mayor Daniel Lurie today presented his $16.9 billion proposed budget for Fiscal Years (FY) 2026-2027 and 2027-2028, strengthening the city’s social safety net in the face of hundreds of millions of dollars of federal cuts to healthcare, while protecting core services that deliver safe, clean streets and advance San Francisco’s economic recovery. The budget closes a $642 million two-year deficit and reduces the city’s structural deficit by approximately $300 million, bringing down ongoing spending by hiring more strategically and making city services more effective and responsive. Mayor Lurie’s proposed budget builds on the work he has done in his first year and a half in office to make San Francisco’s streets safer and cleaner, foster a broad and durable economic comeback, and protect the city’s social safety net. Crime was down nearly 30% in Mayor Lurie’s first year in office, and it continues to decrease in 2026. Unsheltered homelessness is at its lowest level in 15 years , as the administration has transformed the city’s homelessness and behavioral health response. Through Mayor Lurie’s Family Opportunity Agenda, San Francisco will be the first city in...",
-      "scrapeStatus": "scraped"
     }
   ],
   "promises": [
@@ -2040,7 +2043,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 92 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 101 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2172,7 +2175,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-10-07T06:08:19.362Z"
+      "lastRefreshed": "2026-10-10T06:00:40.008Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2191,7 +2194,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-10-07T06:08:19.362Z"
+      "lastRefreshed": "2026-10-10T06:00:40.008Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2268,7 +2271,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-10-07T06:08:19.362Z",
+      "lastRefreshed": "2026-10-10T06:00:40.008Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2315,7 +2318,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-10-07T06:08:19.362Z"
+      "lastRefreshed": "2026-10-10T06:00:40.008Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2330,7 +2333,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 115,
+      "latest": 232,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2418,12 +2421,12 @@
         },
         {
           "date": "2026-10-01",
-          "value": 115
+          "value": 232
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-10-07T06:08:19.362Z"
+      "lastRefreshed": "2026-10-10T06:00:40.008Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2438,7 +2441,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 92,
+      "latest": 101,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2526,12 +2529,12 @@
         },
         {
           "date": "2026-10-01",
-          "value": 92
+          "value": 101
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-10-07T06:08:19.362Z"
+      "lastRefreshed": "2026-10-10T06:00:40.008Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2550,7 +2553,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-10-07T06:08:19.362Z"
+      "lastRefreshed": "2026-10-10T06:00:40.008Z"
     }
   ],
   "topics": [
@@ -2655,6 +2658,17 @@
   ],
   "majorNews": [
     {
+      "id": "s-f-supervisors-press-city-on-drug-markets-are-the-crackdowns-working-2026-10-09",
+      "headline": "S.F. supervisors press city on drug markets: Are the crackdowns working?",
+      "url": "https://missionlocal.org/2026/10/s-f-supervisors-press-city-on-drug-markets-are-the-crackdowns-working/",
+      "publishedAt": "2026-10-09",
+      "publisher": "Mission Local",
+      "topic": "public_safety",
+      "whyItMatters": "Supervisors reached a stalemate at the hearing. Despite requests for a representative from Mayor Lurie’s office to be present, no one showed.",
+      "sourceId": "s-f-supervisors-press-city-on-drug-markets-are-the-crackdowns-working-2026-10-09",
+      "selectionMethod": "fallback"
+    },
+    {
       "id": "daniel-lurie-i-2026-10-05",
       "headline": "市長羅偉（Daniel Lurie）斥 I提案為「小金庫」，將掌管這筆錢的正是他自己的辦公室",
       "url": "https://missionlocal.org/2026/10/mayor-daniel-lurie-slush-fund-proposition-i-affordable-housing-social-housing-democratic-socialists-of-america-dsa-zh/",
@@ -2674,17 +2688,6 @@
       "topic": "city_government",
       "whyItMatters": "Two of the candidates agreed with the mayor's policies on low-cost childcare, but some had a bone to pick with others.",
       "sourceId": "meet-the-district-10-candidates-where-do-you-part-from-mayor-lurie-2026-10-02",
-      "selectionMethod": "fallback"
-    },
-    {
-      "id": "mayor-lurie-s-f-supervisors-drop-manny-yekutiel-after-new-sexual-assault-claim-2",
-      "headline": "Mayor Lurie, S.F. supervisors drop Manny Yekutiel after new sexual assault claim",
-      "url": "https://missionlocal.org/2026/10/san-francisco-manny-yekutiel-sexual-assault-district-8-supervisor/",
-      "publishedAt": "2026-10-01",
-      "publisher": "Mission Local",
-      "topic": "city_government",
-      "whyItMatters": "Mission Local is updating a chart showing who's stuck with San Francisco candidate Manny Yekutiel and who's withdrawn support.",
-      "sourceId": "mayor-lurie-s-f-supervisors-drop-manny-yekutiel-after-new-sexual-assault-claim-2",
       "selectionMethod": "fallback"
     }
   ],
