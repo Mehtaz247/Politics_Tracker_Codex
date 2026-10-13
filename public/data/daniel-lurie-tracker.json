@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-10-10T06:00:40.163Z",
+    "lastUpdated": "2026-10-13T06:52:13.024Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -239,6 +239,21 @@
       "summary": "Explore our comprehensive climate policy focused on sustainability, clean energy, and environmental justice. Join us in the fight against climate change today!",
       "confidence": 0.94,
       "excerpt": "English 繁体中文 简体中文 Downtown Climate Innovation Hub Accelerate SF’s Recovery & Lead a Clean Energy Revolution At a Glance Maintain safe and clean streets as the foundation of downtown’s recovery. Incentivize cleantech industries to locate in vacant office space downtown. Leverage our lead in artificial intelligence to accelerate a cleantech revolution. Restore San Francisco's leadership in the fight against climate change. The Details The cleantech revolution is coming, and I will ensure it happens in San Francisco. Our downtown area is experiencing a slow recovery with a record-breaking 37% office vacancy rate . Experts predict a full recovery could take decades, if it happens at all. This impacts everything from city tax revenues to the vitality of small businesses and public safety. It’s a sad reality that San Francisco has 35 million square feet of available office space—the equivalent of 22 Salesforce Towers. We’ve experienced one of the slowest recoveries of any major city in the country. But this also presents an opportunity. We Can Make San Francisco a Global Leader in Clean Technology My administration will incentivize cleantech industries to occupy our vacant office spaces. We will create a Climate Innovation Hub by : Lowering Business Taxes: I will reduce business taxes on cleantech companies. A measure likely to be on the November ballot, which I support, will be one important step toward doing this by providing an estimated 59% tax decrease. Fast-Tracking Permitting: Fast lane-permitting for tenant improvements will lessen the time and cost associated with getting businesses up and running. Experts say my My City Hall Accountability Plan will lessen the time it takes to get a building permit by four months. I will make that even faster for new and expandin...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-slammed-by-supes-missing-city-hall-hearing-on-drug-use-street-condit",
+      "title": "Mayor Lurie Slammed By Supes Missing City Hall Hearing on Drug Use, Street Conditions",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/10/11/mayor-lurie-slammed-by-supes-for-picking-cnn-over-city-hall-hearing-on-drug-use/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-10-11",
+      "topic": "public_safety",
+      "summary": "SF Mayor Daniel Lurie received harsh comments from Board of Supervisors President Rafael Mandelman and Supervisor Jackie Fielder after he skipped a four-hour City Hall hearing on public drug use on Thursday, but then appeared on CNN in a segment promoting the city's improving safety.",
+      "confidence": 0.8,
+      "excerpt": "SF Politics Mayor Lurie Slammed By Supes Missing City Hall Hearing on Drug Use, Street Conditions By Zack Ruskin • October 11, 2026 · 12:58 PM PDT • Updated October 11, 2026 · 2:45 PM PDT • 2 min read Photo Heather Diehl/Getty Images X Facebook Copy link San Francisco Mayor Daniel Lurie received harsh comments from Board of Supervisors President Rafael Mandelman and Supervisor Jackie Fielder after he skipped a four-hour City Hall hearing on public drug use on Thursday, but then appeared on CNN in a segment that aired that day promoting the city's improving safety. As the Chronicle reports , Lurie was absent for the hearing, where staff from a Mission District elementary school \"became teary\" as they described sidewalks plagued by needles and feces and students — some as young as 9 — admitted to feeling unsafe while going to and from classes. During the lengthy hearing, SF's Board of Supervisors also heard from parents at the school who reportedly implored city officials, including Lurie, to make urgent improvements to the neighborhood's street conditions. In Lurie's case, however, these complaints were heard in absentia, as neither the mayor nor any of his staff attended the meeting. Ironically, a segment in which Lurie was promoting improving street conditions was airing that same day on CNN — though he had filmed this a week earlier. Per the Chronicle, Lurie's appearance alongside CNN anchor Dana Bash featured the two strolling through a crowded Ferry Building as Lurie touted San Francisco's falling crime rates and declining numbers of overdose deaths. As part of the segment, he did reportedly acknowledge that the city still has a “drug crisis on our streets.” It makes for a stark contrast with some of the comments issued at Thursday's hearing, which included the w...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1682,21 +1697,6 @@
       "confidence": 0.9,
       "excerpt": "News With Layoffs Ahead, San Francisco Mayor Lurie Unveils $17 Billion City Budget San Francisco Mayor Daniel Lurie’s proposal aims to narrow the city’s budget shortfall by around $300 million. Jun 1, 2026 Updated 3:52 pm PT Sydney Johnson Mayor Daniel Lurie speaks on his support for California Senate Bill 63 at a press conference at Embarcadero Plaza in San Francisco on Jan. 23, 2026. (Tâm Vũ/KQED) San Francisco Mayor Daniel Lurie wants to preserve the city&rsquo;s law enforcement spending and boost benefits programs as departments across the city face cuts to close the city&rsquo;s multimillion-dollar budget deficit. On Monday, Lurie released his anticipated $16.9 billion budget proposal for the next two fiscal years. It reduces the city&rsquo;s more than $600 million projected budget shortfall by $300 million through a combination of department reorganizations, eliminating positions and other spending reductions. The plan has sparked pushback from some worker advocates, who say the cuts will harm residents. But Lurie said failing to address the gaping deficit now would mean even steeper reductions in the future. &ldquo;Under my administration, we will not fall back on temporary fixes that force deeper cuts year after year,&rdquo; Lurie said as he announced his proposal on Monday outside one of the city&rsquo;s Human Services Agency offices, which could receive a major boost in the budget to address federal funding cuts. &ldquo;I know these decisions have very real impacts. But if we fail to act now, our structural deficit will grow to $1 billion, and the difficult choices before us today will become even more painful and costly tomorrow.&rdquo; The budget now goes before the Board of Supervisors, who can request and negotiate changes. The final budget must be appr...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-s-budget-closes-642m-deficit-few-layoffs-but-hundreds-of-city-hall-j",
-      "title": "Mayor Lurie’s budget closes $642M deficit: Few layoffs, but hundreds of City Hall jobs go unfilled",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/06/sf-mayor-lurie-budget-proposal-2026/",
-      "discoveryUrl": "https://missionlocal.org/2026/06/sf-mayor-lurie-budget-proposal-2026/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "Mission Local",
-      "publishedAt": "2026-06-01",
-      "topic": "homelessness",
-      "summary": "After 127 layoffs earlier this year, mayor instead moves to eliminate over 400 vacant positions, save money through turnover and slowed hiring",
-      "confidence": 0.9,
-      "excerpt": "Mayor Daniel Lurie revealed Monday that he is looking to close the city’s $642 million deficit not through culling the workforce today, but slowing down hiring for years and eliminating vacant positions. The proposal eliminates over 400 vacant positions that the city had budgeted for but left unfilled, and cuts another nine jobs. That, plus the 127 layoffs announced in the spring, would mean around 550 City Hall job cuts this budget season. The $16.9 billion budget would also benefit from increased revenue, namely tax receipts received via the city’s 2024 tax reform measure, Proposition M , and increases in public health revenue. And in line with last year’s budget , Lurie is prioritizing funding for departments attuned with his key initiatives, namely public safety and homelessness. Lurie increased funding for the police and fire departments, whose staff saw 14 percent salary bumps after union contract negotiations earlier this year, as well as departments most affected by cuts to federal funding, like the Department of Public Health. “We didn’t tell departments to do more with less,” Lurie said during an announcement livestreamed from the Human Services Agency Mission District office. “We said, focus on what matters most to our recovery and deliver results.” A large chunk of the city’s savings come from staffing cuts — the 127 layoffs announced earlier , the nine more announced today, and the 414 or so unfilled positions. Unions have called for no more cuts to city services or personnel. Though this budget has few layoffs, union leaders in April said they opposed cuts to unfilled positions. “Any cuts to that system will further strain city departments which are already understaffed,” said Bianca Polovina, then-president of IFPTE 21, a union of city workers. “All th...",
-      "scrapeStatus": "scraped"
     }
   ],
   "promises": [
@@ -2043,7 +2043,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 101 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 105 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2175,7 +2175,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-10-10T06:00:40.008Z"
+      "lastRefreshed": "2026-10-13T06:52:12.877Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2194,7 +2194,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-10-10T06:00:40.008Z"
+      "lastRefreshed": "2026-10-13T06:52:12.877Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2271,7 +2271,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-10-10T06:00:40.008Z",
+      "lastRefreshed": "2026-10-13T06:52:12.877Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2318,7 +2318,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-10-10T06:00:40.008Z"
+      "lastRefreshed": "2026-10-13T06:52:12.877Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2333,7 +2333,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 232,
+      "latest": 267,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2421,12 +2421,12 @@
         },
         {
           "date": "2026-10-01",
-          "value": 232
+          "value": 267
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-10-10T06:00:40.008Z"
+      "lastRefreshed": "2026-10-13T06:52:12.877Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2441,7 +2441,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 101,
+      "latest": 105,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2529,12 +2529,12 @@
         },
         {
           "date": "2026-10-01",
-          "value": 101
+          "value": 105
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-10-10T06:00:40.008Z"
+      "lastRefreshed": "2026-10-13T06:52:12.877Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2553,7 +2553,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-10-10T06:00:40.008Z"
+      "lastRefreshed": "2026-10-13T06:52:12.877Z"
     }
   ],
   "topics": [
@@ -2658,6 +2658,17 @@
   ],
   "majorNews": [
     {
+      "id": "mayor-lurie-slammed-by-supes-missing-city-hall-hearing-on-drug-use-street-condit",
+      "headline": "Mayor Lurie Slammed By Supes Missing City Hall Hearing on Drug Use, Street Conditions",
+      "url": "https://sfist.com/2026/10/11/mayor-lurie-slammed-by-supes-for-picking-cnn-over-city-hall-hearing-on-drug-use/",
+      "publishedAt": "2026-10-11",
+      "publisher": "SFist",
+      "topic": "city_government",
+      "whyItMatters": "SF Mayor Daniel Lurie received harsh comments from Board of Supervisors President Rafael Mandelman and Supervisor Jackie Fielder after he skipped a four-hour City Hall hearing on public drug use on Thursday, but then appeared on CNN in a segment promoting the city's improving safety.",
+      "sourceId": "mayor-lurie-slammed-by-supes-missing-city-hall-hearing-on-drug-use-street-condit",
+      "selectionMethod": "fallback"
+    },
+    {
       "id": "s-f-supervisors-press-city-on-drug-markets-are-the-crackdowns-working-2026-10-09",
       "headline": "S.F. supervisors press city on drug markets: Are the crackdowns working?",
       "url": "https://missionlocal.org/2026/10/s-f-supervisors-press-city-on-drug-markets-are-the-crackdowns-working/",
@@ -2677,17 +2688,6 @@
       "topic": "city_government",
       "whyItMatters": "市長羅偉聯同警察及消防員工會發表新聞稿，抨擊可負擔住房 I提案是不受問責的小金庫。不過，提案所籌得的款項將由市長住房及社區發展辦公室管理。",
       "sourceId": "daniel-lurie-i-2026-10-05",
-      "selectionMethod": "fallback"
-    },
-    {
-      "id": "meet-the-district-10-candidates-where-do-you-part-from-mayor-lurie-2026-10-02",
-      "headline": "Meet the District 10 candidates: Where do you part from Mayor Lurie?",
-      "url": "https://missionlocal.org/2026/10/meet-the-district-10-candidates-mayor-lurie/",
-      "publishedAt": "2026-10-02",
-      "publisher": "Mission Local",
-      "topic": "city_government",
-      "whyItMatters": "Two of the candidates agreed with the mayor's policies on low-cost childcare, but some had a bone to pick with others.",
-      "sourceId": "meet-the-district-10-candidates-where-do-you-part-from-mayor-lurie-2026-10-02",
       "selectionMethod": "fallback"
     }
   ],
