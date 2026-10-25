@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-10-22T04:58:59.693Z",
+    "lastUpdated": "2026-10-25T04:52:19.954Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -239,6 +239,81 @@
       "summary": "Explore our comprehensive climate policy focused on sustainability, clean energy, and environmental justice. Join us in the fight against climate change today!",
       "confidence": 0.94,
       "excerpt": "English 繁体中文 简体中文 Downtown Climate Innovation Hub Accelerate SF’s Recovery & Lead a Clean Energy Revolution At a Glance Maintain safe and clean streets as the foundation of downtown’s recovery. Incentivize cleantech industries to locate in vacant office space downtown. Leverage our lead in artificial intelligence to accelerate a cleantech revolution. Restore San Francisco's leadership in the fight against climate change. The Details The cleantech revolution is coming, and I will ensure it happens in San Francisco. Our downtown area is experiencing a slow recovery with a record-breaking 37% office vacancy rate . Experts predict a full recovery could take decades, if it happens at all. This impacts everything from city tax revenues to the vitality of small businesses and public safety. It’s a sad reality that San Francisco has 35 million square feet of available office space—the equivalent of 22 Salesforce Towers. We’ve experienced one of the slowest recoveries of any major city in the country. But this also presents an opportunity. We Can Make San Francisco a Global Leader in Clean Technology My administration will incentivize cleantech industries to occupy our vacant office spaces. We will create a Climate Innovation Hub by : Lowering Business Taxes: I will reduce business taxes on cleantech companies. A measure likely to be on the November ballot, which I support, will be one important step toward doing this by providing an estimated 59% tax decrease. Fast-Tracking Permitting: Fast lane-permitting for tenant improvements will lessen the time and cost associated with getting businesses up and running. Experts say my My City Hall Accountability Plan will lessen the time it takes to get a building permit by four months. I will make that even faster for new and expandin...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "el-ni-o-sf-declares-local-emergency-to-prepare-for-potential-severe-storms-coast",
+      "title": "El Niño: SF declares local emergency to prepare for potential severe storms, coastal flooding]]>",
+      "sourceType": "news",
+      "url": "https://abc7news.com/post/el-nio-san-francisco-declares-local-emergency-prepare-potential-severe-storms-coastal-flooding/19973092/]]>",
+      "discoveryUrl": "https://abc7news.com/feed/",
+      "discoverySource": "ABC7 Bay Area",
+      "publisher": "ABC7 Bay Area",
+      "publishedAt": "2026-10-25",
+      "topic": "city_government",
+      "summary": "San Francisco Mayor Daniel Lurie declared a local emergency on Friday as the city prepares for potential severe storms and coastal flooding associated with El Niño this winter.]]>",
+      "confidence": 0.76,
+      "scrapeStatus": "fetch_failed",
+      "scrapeError": "403 Forbidden"
+    },
+    {
+      "id": "san-francisco-mayor-declares-local-emergency-to-speed-up-el-ni-o-storm-preps-202",
+      "title": "San Francisco mayor declares local emergency to speed up El Ni&ntilde;o storm preps",
+      "sourceType": "news",
+      "url": "https://www.cbsnews.com/sanfrancisco/video/san-francisco-mayor-declares-local-emergency-to-speed-up-el-nino-storm-preps/",
+      "discoveryUrl": "https://www.cbsnews.com/sanfrancisco/latest/rss/main",
+      "discoverySource": "CBS San Francisco",
+      "publisher": "CBS San Francisco",
+      "publishedAt": "2026-10-24",
+      "topic": "public_safety",
+      "summary": "The city",
+      "confidence": 0.8,
+      "excerpt": "San Francisco mayor declares local emergency to speed up El Ni&ntilde;o storm preps - CBS San Francisco Bay Area Top News SF/Peninsula News East Bay News South Bay News North Bay News Bay Area Crime Tech Health Politics LGBTQ Entertainment KPIX Special Reports First Alert Weather Radars & Maps All Sports CBS Sports HQ San Francisco 49ers San Francisco Giants Golden State Warriors Golden State Valkyries San Jose Sharks Cal Stanford College Sports Station Info KPIX What's On KPIX Contests & Promotions Advertise With Us Contact Us Download the App Galleries Memorials Watch CBS News San Francisco mayor declares local emergency to speed up El Ni&ntilde;o storm preps The city's residents were also urged to prepare for a severe winter. Da Lin reports. More Oct 24 (03:15) Videos Latest Video&hellip; Live First Alert Weather Saturday evening forecast 10-24-26 Traffic into San Francisco slows to a crawl due to I-80 reconstruction work Valkyries fans head to Ballhalla for Game 4 watch party Valkyries fans travel to Atlanta for Game 4 of the WNBA Finals First Alert Weather Saturday morning forecast 10-24-26 Warriors fans show out for 2026 home opener Santa Cruz filmmaker brings stories of underrepresented communities to the big screen Over 20 vehicles damaged in fire at San Jose housing complex Terror Vault: Road to Hellville production opens in San Francisco Marin City families getting rent relief as their aging housing complex is renovated San Francisco mayor declares local emergency to speed up El Ni&ntilde;o storm preps First foldable iPhone goes on sale to overnight campers outside SF Apple store Wave of Light event in San Francisco honors babies gone too soon Friday evening First Alert Weather forecast 10/23/26 Watch: San Francisco mayor declares local emergency to prepare...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "san-francisco-mayor-declares-local-emergency-to-prepare-for-el-ni-o-storm-effect",
+      "title": "San Francisco mayor declares local emergency to prepare for El Niño storm effects",
+      "sourceType": "news",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-el-nino-local-emergency-mayor-lurie/",
+      "discoveryUrl": "https://www.cbsnews.com/sanfrancisco/latest/rss/main",
+      "discoverySource": "CBS San Francisco",
+      "publisher": "CBS San Francisco",
+      "publishedAt": "2026-10-23",
+      "topic": "homelessness",
+      "summary": "San Francisco Mayor Daniel Lurie has declared a local emergency to help speed up the city's preparedness for El Niño storm conditions this winter.",
+      "confidence": 0.8,
+      "excerpt": "San Francisco Mayor Daniel Lurie has declared a local emergency to help speed up the city's preparedness for El Niño storm conditions this winter.Lurie announced the emergency declaration on Friday, joining other counties and jurisdictions in the Bay Area and the state in declaring local emergencies to prepare for severe storms, flooding, and the continuity of essential services. In September, Gov. Gavin Newsom issued a statewide emergency proclamation to help state agencies move faster on El Niño storm preparations.San Francisco's declaration suspends certain contracting requirements to allow for city departments to secure goods and services needed for storm preparations.\"Today, I am declaring a local emergency to ensure San Francisco is ready for the severe storms, flooding, and high tides that El Niño could bring this winter,\" said Lurie in a prepared statement. \"We are acting now to make sure our departments have the resources they need to protect San Franciscans quickly throughout the season. We will continue preparing across city departments, and I'm asking every San Franciscan to do their part so we can keep our communities safe—because the time to prepare for a major storm is before it arrives.\"The declaration streamlines the procurement and contract awarding processes allowing city departments to quickly obtain items such as flood barriers, pumps, and generators to protect infrastructure and keep essential services running. The city will also be stocking up on first-aid and shelter supplies and portable restrooms for residents and frontline workers during severe weather. In addition, the declaration directs all departments to cooperate with requests from the city's Emergency Operations Center, and allows the mayor to reallocate funds within and between depar...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "election-extra-gov-newsom-endorses-mayor-lurie-s-city-charter-changes-2026-10-23",
+      "title": "Election Extra! Gov. Newsom endorses Mayor Lurie’s city charter changes",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/10/san-francisco-newsom-lurie-charter-congress-endorsement/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-10-23",
+      "topic": "city_government",
+      "summary": "In the days before the Nov. 3 election, Mission Local will be posting “election extras” with updates from the campaign trail. With only two weekends",
+      "confidence": 0.82,
+      "excerpt": "In the days before the Nov. 3 election, Mission Local will be posting “election extras” with updates from the campaign trail. With only two weekends to go before the election, campaigns are using this Friday to gear up for a weekend full of canvassing. Some have exciting news, including a big endorsement for Mayor Daniel Lurie’s city charter amendments, Propositions D, E and F. Gov. Gavin Newsom endorses Lurie’s charter reform measures Gov. Gavin Newsom announced his endorsement of Lurie’s three charter reform measures Friday. “Propositions D, E and F cut through the bureaucracy, restore accountability, and stop dishonest ballot box games,” Newsom said. Prop. D makes it harder to put measures on the ballot, Prop. E would empower the city administrator to reform San Francisco’s contracting procedures, and Prop. F gives the mayor greater control and power over city departments and commissions. “Governor Newsom knows firsthand what it takes to lead this city and the obstacles our broken system puts in the path of progress,” said Mayor Lurie in a statement. These measures have drawn the bulk of the spending in November’s election — $13 million has been put towards them. That funding comes almost wholly from a few dozen wealthy individuals who are putting six-figure sums behind the measure, the most significant change to the city’s charter in 30 years. Learn more about the money backing the propositions here . &#8211; Io Yeh Gilman A tangled web of power players and money shapes San Francisco politics. Explore it here. Millions have been poured into San Francisco’s election this November. Thousands of people have donated, but topping the charts with the largest contributions are some new political donors — with ties to Mayor Lurie. We mapped it all in our latest installme...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "sf-mayor-declares-local-emergency-to-allow-for-increased-el-ni-o-preparedness-20",
+      "title": "SF Mayor Declares Local Emergency to Allow For Increased El Niño Preparedness",
+      "sourceType": "news",
+      "url": "https://sfist.com/2026/10/23/sf-mayor-declares-local-emergency-to-allow-for-increased-el-nino-preparedness/",
+      "discoveryUrl": "https://sfist.com/rss/",
+      "discoverySource": "SFist",
+      "publisher": "SFist",
+      "publishedAt": "2026-10-23",
+      "topic": "homelessness",
+      "summary": "With a potentially record-breaking El Niño threatening to bring severe weather and coastal flooding to the Bay Area, SF Mayor Lurie has declared a local emergency to help the city prepare for the coming months.",
+      "confidence": 0.8,
+      "excerpt": "SF News SF Mayor Declares Local Emergency to Allow For Increased El Niño Preparedness By Leanne Maxwell • October 23, 2026 · 4:07 PM PDT • 2 min read Photo Justin Sullivan/Getty Images X Facebook Copy link With a potentially record-breaking El Niño threatening to bring severe weather and coastal flooding to the Bay Area, SF Mayor Lurie has declared a local emergency to help the city prepare for the coming months. San Francisco Mayor Daniel Lurie declared a local emergency Friday as the city prepares for a potentially record-breaking El Niño winter that could bring severe storms, heavy rain, and coastal flooding. The declaration allows city departments to bypass certain contracting requirements to purchase flood barriers, pumps, generators, and other supplies more quickly ahead of the coming storm season. “Today, I am declaring a local emergency to ensure San Francisco is ready for the severe storms, flooding, and high tides that El Niño could bring this winter,” Lurie said in a statement. “We are acting now to make sure our departments have the resources they need to protect San Franciscans quickly throughout the season.” The move comes as officials across the Bay Area and California prepare for potentially dangerous winter weather. As SFist reported previously, Governor Gavin Newsom declared a state of emergency in September, and Sonoma County supervisors have since issued their own emergency proclamation, directing county agencies to prepare vulnerable infrastructure and coordinate flood response with local, tribal, and state partners. Lurie's declaration temporarily streamlines purchasing and contracting for several city departments, including San Francisco Public Works, the San Francisco Public Utilities Commission, the Port of San Francisco, the San Francisco Mu...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1630,73 +1705,6 @@
       "confidence": 0.9,
       "excerpt": "It’s not clear if Mayor Daniel Lurie is the cause of a changed San Francisco or a symptom, but, on the June 2 election results sheet, that was a distinction without a difference. Barring a near-miraculous turnaround, every last thing San Francisco’s popular mayor and his big money allies would’ve wanted came to pass, and in no uncertain terms. It’s unclear if Lurie is riding a wave or building a wave. But this, too, is a distinction without a difference. The outcomes of Tuesday night’s low-turnout election were not, on the whole, shocking. But the margins — damn near every race was a massacre — were. On the cusp of the election, the backers of Proposition A, the big earthquake bond, were sweating bullets. The measure, which required two-thirds of the vote to pass, was polling at 64 or 65 percent just a few weeks ago. On election night, the measure, carried by Lurie and the firefighters union, banked more than three-quarters of the vote. The mayor had also become the de facto face of the No on D campaign, urging voters to spurn the “ Overpaid CEO Tax ,” lest it lead to a disastrous dispersal of city businesses. Voters seem to agree: More than 55 percent of early voters inveighed against the measure. District 2 Supervisor and close Lurie ally Stephen Sherrill has nearly 70 percent of the vote. And, in District 4, Lurie appointee Alan Wong is enjoying a near-majority in a five-way race and easily wins in ranked-choice voting. On top of that, incumbent school board president Phil Kim has a near-supermajority and prosecutor Phoebe Maffei is besting public defender Alexandra Pray for a judge spot by a 60-40 tilt. The Department of Elections reported on June 3 that some 122,400 ballots remain to be counted. But, with the possible exception of Prop. D, the &#8220;Overpaid CE...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown-",
-      "title": "Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-end-of-small-business-month-with-new-businesses-downtown/",
-      "publishedAt": "2026-06-03",
-      "topic": "public_safety",
-      "summary": "Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Celebrates End Of Small Business Month With New Businesses Downtown Office of the Mayor Two New Store Openings, Three Vacant to Vibrant Expansions Mark Continued Growth for Downtown Small Businesses; Continues Mayor Lurie’s Work to Support San Francisco’s Small Businesses, Accelerate Economic Comeback June 3, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the end of Small Business Month with two store openings downtown and three businesses expanding through the Vacant to Vibrant program. Two new small businesses, Whole Cakes and Bruno’s Italian Taste, are opening with the help of the Office of Economic and Workforce Development’s (OEWD) Downtown Vibrancy Loan Fund. Vacant to Vibrant pop‑up Dandelion Chocolate has signed a long‑term lease on Powell Street and is expanding to add a cafe, and two new Vacant to Vibrant pop‑ups—LOLA Embarcadero and Cowrie Collective at the Palace Hotel—are activating spaces downtown. The new storefronts and Vacant to Vibrant expansions continue to accelerate San Francisco’s economic recovery. In September, Mayor Lurie unveiled his “Heart of the City” plan to create a downtown where people live, work, play, and learn. Last year, Union Square and Yerba Buena welcomed 44 new storefronts, including new Vacant to Vibrant pop-ups , the RealReal, AT&T and Nintendo . Since the mayor took office, crime continues to go down in Union Square and the Financial District , 20 new liquor licenses have been issued to support nightlife , office leasing has surged 66.7% , and San Francisco now leads major U.S. cities in return-to-office rates . And through initiatives like First Year Free , expanded entertainment zones , small business grants , and streamlined business regulations , Mayor Lurie has taken steps to strengthen small...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-celebrates-opening-of-affordable-homes-for-seniors-in-the-mission-ht",
-      "title": "Mayor Lurie Celebrates Opening Of Affordable Homes For Seniors In The Mission | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-celebrates-opening-of-affordable-homes-for-seniors-in-the-mission/",
-      "publishedAt": "2026-06-02",
-      "topic": "homelessness",
-      "summary": "New Housing Site Will Provide 145 Units for Seniors Exiting Homelessness; Continues Mayor Lurie’s Work to Add Housing in San Francisco",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Celebrates Opening Of Affordable Homes For Seniors In The Mission Office of the Mayor New Housing Site Will Provide 145 Units for Seniors Exiting Homelessness; Continues Mayor Lurie’s Work to Add Housing in San Francisco June 2, 2026 SAN FRANCISCO – Mayor Daniel Lurie today celebrated the grand opening of 1633 Valencia, a new supportive housing community with 145 homes for older adults exiting homelessness and substantial onsite services and community‑focused amenities. The opening of 1633 Valencia builds on Mayor Lurie’s work to build more housing in San Francisco and make San Francisco more affordable for working families. Last month, Mayor Lurie partnered with District 7 Supervisor Myrna Melgar on a plan to expand the city’s Housing Trust Fund and update inclusionary housing requirements . He has celebrated the opening of new housing sites across the city, including in the Bayview , Sunnydale , Civic Center , Inner Richmond , and Outer Sunset . Last year, the mayor signed his Family Zoning plan to ensure future generations of San Franciscans can afford to raise their children in the city. “Our city has not built enough housing, and the cost has fallen to our seniors—people who spent decades contributing to this community and deserve stability, dignity, and care. Today, I’m proud to open 145 new supportive homes for San Francisco seniors,” said Mayor Lurie . “This space used to sit largely unused, and now it will be a site where people can age with dignity, build connections with their neighbors, and find the stability they need to thrive. We will continue building a system where housing comes with healthcare and where success is not just about whether someone has a place to sleep but about whether their life is actually getting better.” Completed...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "san-francisco-mayor-unveils-budget-aimed-at-addressing-642-million-deficit-2026-",
-      "title": "San Francisco mayor unveils budget aimed at addressing $642 million deficit",
-      "sourceType": "news",
-      "url": "https://www.nbcbayarea.com/news/local/san-francisco-mayor-city-budget-deficit/4092734/",
-      "discoveryUrl": "https://www.nbcbayarea.com/news/local/san-francisco-mayor-city-budget-deficit/4092734/",
-      "discoverySource": "Anthropic web search",
-      "publisher": "NBC Bay Area",
-      "publishedAt": "2026-06-02",
-      "topic": "city_government",
-      "summary": "Mayor Lurie revealed his proposed budget for the next two fiscal years designed to protect or restore many city services while closing a $642 million deficit. The mayor said his proposal deals with overspending in the past and anticipated cuts from the federal government.",
-      "confidence": 0.9
-    },
-    {
-      "id": "election-updates-scott-wiener-leads-for-congress-and-mayor-lurie-has-a-big-night",
-      "title": "Election updates: Scott Wiener leads for Congress, and Mayor Lurie has a big night",
-      "sourceType": "news",
-      "url": "https://missionlocal.org/2026/06/san-francisco-2026-june-primary-election-live-updates/",
-      "discoveryUrl": "https://missionlocal.org/feed/",
-      "discoverySource": "Mission Local",
-      "publisher": "Mission Local",
-      "publishedAt": "2026-06-02",
-      "topic": "economy",
-      "summary": "San Francisco is voting for two city supervisors, several ballot measures, and who will replace Nancy Pelosi in Congress. Follow along.",
-      "confidence": 0.82,
-      "excerpt": "Check here for election results from across San Francisco. Mission Local had reporters out across San Francisco on Election Day, bringing you updates from polling places, parties and more. Read the full day's dispatches below. Here's the latest: &#8220;We're living in Daniel Lurie's America:&#8221; Columnist Joe Eskenazi on what Tuesday's results tell us about Lurie, &#8220;Let's go San Francisco!&#8221; and a changed city. Read more › Connie Chan besting Saikat Chakrabarti for No. 2 spot: But in the race to replace Nancy Pelosi, Scott Wiener remains well in the lead. Read more › &#8220;Overpaid CEO tax&#8221; losing — but rival measure tanking: It's too close to call Prop. D, the business tax increase. But countermeasure Prop. C is dead. Read more › Phil Kim keeps seat on school board: The incumbent board president won handily. His opponents are gearing up for another run in November. Read more › Sunset supe keeps his seat: Alan Wong is trouncing rival Natalie Gee, who has not yet conceded the race. Read more › Stephen Sherrill up in District 2 : The incumbent, and Mayor Lurie ally, was winning easily over Lori Brooke. Read more › Concessions, victory speeches, and looking ahead to November Connie Chan is all smiles as the ballots come in on June 2, 2026. Photo by Abigail Vân Neely. 10:40 p.m. — Stephen Sherrill declares victory in District 2. Lori Brooke doesn't concede, and doesn’t seem to plan to. As Stephen Sherrill is celebrating his all-but-certain victory with Mayor Daniel Lurie a five minute walk away, his opponent, Lori Brooke has not conceded, and doesn’t seem to plan to. At Brooke's watch party, her vibes are high. She's having fun, chatting with friends and taking photos of her daughter and her daughter's boyfriend. She’s hoping to see an increase in her...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "will-mayor-daniel-lurie-keep-or-lose-allies-in-today-s-supervisor-special-electi",
-      "title": "Will Mayor Daniel Lurie Keep or Lose Allies In Today&#x27;s Supervisor Special Elections?",
-      "sourceType": "news",
-      "url": "https://sfist.com/2026/06/02/will-mayor-daniel-lurie-keep-or-lose-allies-in-special-elections/",
-      "discoveryUrl": "https://sfist.com/rss/",
-      "discoverySource": "SFist",
-      "publisher": "SFist",
-      "publishedAt": "2026-06-02",
-      "topic": "housing",
-      "summary": "In addition to the two bigger primary fights on the ballot today in San Francisco, for governor and for Nancy Pelosi&#x27;s Congressional seat, two moderate incumbent SF supervisors are fighting to hold on to their seats.",
-      "confidence": 0.8,
-      "excerpt": "2 June 2026 / SF Politics / Jay Barmann Will Mayor Daniel Lurie Keep or Lose Allies In Today&#x27;s Supervisor Special Elections? --> In addition to the two bigger primary fights on the ballot today in San Francisco, for governor and for Nancy Pelosi's Congressional seat, two moderate incumbent SF supervisors are fighting to hold on to their seats. There are special elections today in Districts 2 and 4, where two mayoral appointees — one appointed by London Breed on her way out the door, and one appointed recently by Daniel Lurie following a gaffe over a different appointee — are hoping to stay on the board through the end of the year. (Both special elections are just to complete their predecessors' previous terms, and they'll be back on the ballot again in November to compete for full four-year terms.) In District 2, Supervisor Stephen Sherrill hopes that some recent bad press relating to his appointment doesn't give a boost to a more progressive challenger, neighborhood activist Lori Brooke. Brooke has been the most vocally opposed to the controversial, 25-story proposed residential project on the Marina Safeway property — something that fits into Mayor Daniel Lurie's upzoning plan, but the scale of which is objectionable to many neighbors. Lurie has spoken out against the specific design of the proposed project, and Sherrill has done the same, but both have tried to be careful not to anger the YIMBY crowd by dismissing the redevelopment proposal outright. Supervisoral elections can swing by tiny margins of votes, particularly in low-turnout special elections like this one looks likely to be. So the recent revelations by former aides alleging that former Mayor London Breed only gave Sherrill the job in December 2024 as a favor to Michael Bloomberg — who in turn, al...",
-      "scrapeStatus": "scraped"
     }
   ],
   "promises": [
@@ -1812,7 +1820,7 @@
         "mayor-lurie-launches-breaking-the-cycle-fund-to-deliver-transformation-of-city-s"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "There is implementation evidence, but no independent proof that the promise has been fully achieved.",
+      "statusNote": "Latest overdose-related EMS responses were 216, down from the 2025 peak but still not evidence that open-air drug markets have been ended citywide.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "overdose-related-911-responses"
@@ -2043,7 +2051,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 227 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 235 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2175,7 +2183,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-10-22T04:58:59.546Z"
+      "lastRefreshed": "2026-10-25T04:52:19.751Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2194,7 +2202,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-10-22T04:58:59.546Z"
+      "lastRefreshed": "2026-10-25T04:52:19.751Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2204,13 +2212,74 @@
       "source": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
       "sourceUrl": "https://data.sfgov.org/d/ed3a-sn39",
       "datasetId": "ed3a-sn39",
-      "baseline": null,
-      "latest": null,
+      "baseline": 292,
+      "latest": 216,
       "direction": "down_is_good",
-      "observations": [],
-      "status": "needs_verified_source",
+      "observations": [
+        {
+          "date": "2025-01-01",
+          "value": 292
+        },
+        {
+          "date": "2025-02-01",
+          "value": 274
+        },
+        {
+          "date": "2025-03-01",
+          "value": 342
+        },
+        {
+          "date": "2025-04-01",
+          "value": 275
+        },
+        {
+          "date": "2025-05-01",
+          "value": 273
+        },
+        {
+          "date": "2025-06-01",
+          "value": 301
+        },
+        {
+          "date": "2025-07-01",
+          "value": 239
+        },
+        {
+          "date": "2025-08-01",
+          "value": 294
+        },
+        {
+          "date": "2025-09-01",
+          "value": 219
+        },
+        {
+          "date": "2025-10-01",
+          "value": 235
+        },
+        {
+          "date": "2025-11-01",
+          "value": 300
+        },
+        {
+          "date": "2025-12-01",
+          "value": 148
+        },
+        {
+          "date": "2026-01-01",
+          "value": 221
+        },
+        {
+          "date": "2026-02-01",
+          "value": 220
+        },
+        {
+          "date": "2026-03-01",
+          "value": 216
+        }
+      ],
+      "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-10-22T04:58:59.546Z",
+      "lastRefreshed": "2026-10-25T04:52:19.751Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2257,7 +2326,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-10-22T04:58:59.546Z"
+      "lastRefreshed": "2026-10-25T04:52:19.751Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2272,7 +2341,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 535,
+      "latest": 650,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2360,12 +2429,12 @@
         },
         {
           "date": "2026-10-01",
-          "value": 535
+          "value": 650
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-10-22T04:58:59.546Z"
+      "lastRefreshed": "2026-10-25T04:52:19.751Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2380,7 +2449,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 227,
+      "latest": 235,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2468,12 +2537,12 @@
         },
         {
           "date": "2026-10-01",
-          "value": 227
+          "value": 235
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-10-22T04:58:59.546Z"
+      "lastRefreshed": "2026-10-25T04:52:19.751Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2492,7 +2561,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-10-22T04:58:59.546Z"
+      "lastRefreshed": "2026-10-25T04:52:19.751Z"
     }
   ],
   "topics": [
@@ -2542,7 +2611,7 @@
       "promiseCount": 5,
       "averageProgress": null,
       "risk": "medium",
-      "insight": "1 Public SF metric connected; status still requires human review before causal claims."
+      "insight": "2 Public SF metrics connected; status still requires human review before causal claims."
     }
   ],
   "connectors": [
@@ -2597,6 +2666,28 @@
   ],
   "majorNews": [
     {
+      "id": "sf-mayor-declares-local-emergency-to-allow-for-increased-el-ni-o-preparedness-20",
+      "headline": "SF Mayor Declares Local Emergency to Allow For Increased El Niño Preparedness",
+      "url": "https://sfist.com/2026/10/23/sf-mayor-declares-local-emergency-to-allow-for-increased-el-nino-preparedness/",
+      "publishedAt": "2026-10-23",
+      "publisher": "SFist",
+      "topic": "city_government",
+      "whyItMatters": "With a potentially record-breaking El Niño threatening to bring severe weather and coastal flooding to the Bay Area, SF Mayor Lurie has declared a local emergency to help the city prepare for the coming months.",
+      "sourceId": "sf-mayor-declares-local-emergency-to-allow-for-increased-el-ni-o-preparedness-20",
+      "selectionMethod": "fallback"
+    },
+    {
+      "id": "san-francisco-mayor-declares-local-emergency-to-prepare-for-el-ni-o-storm-effect",
+      "headline": "San Francisco mayor declares local emergency to prepare for El Niño storm effects",
+      "url": "https://www.cbsnews.com/sanfrancisco/news/san-francisco-el-nino-local-emergency-mayor-lurie/",
+      "publishedAt": "2026-10-23",
+      "publisher": "CBS San Francisco",
+      "topic": "city_government",
+      "whyItMatters": "San Francisco Mayor Daniel Lurie has declared a local emergency to help speed up the city's preparedness for El Niño storm conditions this winter.",
+      "sourceId": "san-francisco-mayor-declares-local-emergency-to-prepare-for-el-ni-o-storm-effect",
+      "selectionMethod": "fallback"
+    },
+    {
       "id": "bigmoneysf-how-mayor-lurie-s-efforts-to-reshape-city-hall-brought-in-a-new-donor",
       "headline": "BigMoneySF: How Mayor Lurie’s efforts to reshape City Hall brought in a new donor class",
       "url": "https://missionlocal.org/2026/10/big-money-san-francisco-lurie-charter-reform-labor-moderates-billionaires-democrats-election/",
@@ -2605,28 +2696,6 @@
       "topic": "city_government",
       "whyItMatters": "San Francisco's November ballot measures have drawn in gobs of money — and a new crop of wealthy individuals.",
       "sourceId": "bigmoneysf-how-mayor-lurie-s-efforts-to-reshape-city-hall-brought-in-a-new-donor",
-      "selectionMethod": "fallback"
-    },
-    {
-      "id": "meet-the-district-8-candidates-what-mayor-lurie-policy-do-you-disagree-with-2026",
-      "headline": "Meet the District 8 candidates: What Mayor Lurie policy do you disagree with?",
-      "url": "https://missionlocal.org/2026/10/sf-district-8-candidates-mayor-daniel-lurie-disagreement/",
-      "publishedAt": "2026-10-14",
-      "publisher": "Mission Local",
-      "topic": "city_government",
-      "whyItMatters": "The District 8 supervisor candidates name a policy of Mayor Daniel Lurie's they disagree with — and explain what they'd do about it.",
-      "sourceId": "meet-the-district-8-candidates-what-mayor-lurie-policy-do-you-disagree-with-2026",
-      "selectionMethod": "fallback"
-    },
-    {
-      "id": "mayor-lurie-slammed-by-supes-missing-city-hall-hearing-on-drug-use-street-condit",
-      "headline": "Mayor Lurie Slammed By Supes Missing City Hall Hearing on Drug Use, Street Conditions",
-      "url": "https://sfist.com/2026/10/11/mayor-lurie-slammed-by-supes-for-picking-cnn-over-city-hall-hearing-on-drug-use/",
-      "publishedAt": "2026-10-11",
-      "publisher": "SFist",
-      "topic": "city_government",
-      "whyItMatters": "SF Mayor Daniel Lurie received harsh comments from Board of Supervisors President Rafael Mandelman and Supervisor Jackie Fielder after he skipped a four-hour City Hall hearing on public drug use on Thursday, but then appeared on CNN in a segment promoting the city's improving safety.",
-      "sourceId": "mayor-lurie-slammed-by-supes-missing-city-hall-hearing-on-drug-use-street-condit",
       "selectionMethod": "fallback"
     }
   ],
