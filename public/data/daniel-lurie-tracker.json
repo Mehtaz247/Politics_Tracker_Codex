@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-11-04T06:39:06.986Z",
+    "lastUpdated": "2026-11-07T06:09:46.430Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -242,6 +242,33 @@
       "scrapeStatus": "scraped"
     },
     {
+      "id": "sf-mayor-news",
+      "title": "News from the Office of the Mayor | SF.gov",
+      "sourceType": "official",
+      "url": "https://www.sf.gov/news-from-the-office-of-the-mayor",
+      "publishedAt": "2026-11-04",
+      "topic": "homelessness",
+      "summary": "Info Page News from the Office of the Mayor Office of the Mayor November 2, 2026: Mayor Lurie Signs Legislation Strengthening San Francisco&#x27;s Wholesale Produce Market November 1, 2026: Mayor Lurie Unveils Plans for Victory Parade for WNBA Champion Golden State Valkyries October 30, 2026: Mayor Lurie Signs Legislation Expanding Landmark at Site of Historic Compton&#x27;s Cafeteria Riot October 29, 2026: Mayor Lur",
+      "confidence": 0.95,
+      "excerpt": "Info Page News from the Office of the Mayor Office of the Mayor November 2, 2026: Mayor Lurie Signs Legislation Strengthening San Francisco&#x27;s Wholesale Produce Market November 1, 2026: Mayor Lurie Unveils Plans for Victory Parade for WNBA Champion Golden State Valkyries October 30, 2026: Mayor Lurie Signs Legislation Expanding Landmark at Site of Historic Compton&#x27;s Cafeteria Riot October 29, 2026: Mayor Lurie Signs Legislation Protecting Renters From Unwarranted Evictions, Hidden Rental Fees October 23, 2026: Mayor Lurie Signs Legislation Streamlining Process to Build Housing in San Francisco October 23, 2026: Mayor Lurie Declares Local Emergency to Strengthen San Francisco&#x27;s El Nino Preparedness October 20, 2026: Mayor Lurie Moves to Bring Nearly 2,400 New Homes to Western Addition, Following Years of Community Advocacy October 16, 2026: Mayor Lurie Celebrates Upgrades to Three Public Basketball Courts in Partnership With WNBA, Valkyries, and Warriors October 15, 2026: Mayor Lurie Delivers Progress on Street Safety Initiative, Announcing 84% Drop in Speeding Due to Automated Speed Safety Cameras October 13, 2026: Mayor Lurie Celebrates Major Events Surpassing $1 Billion in Economic Impact for San Francisco, Following Successful Fleet Week October 13, 2026: Mayor Lurie Signs Legislation Establishing New Office to Combat Food Insecurity in San Francisco October 8, 2026: Mayor Lurie Welcomes Uniqlo Back to Downtown With Free Street Festival, Collaborations With Muni, SFUSD Students, Local Artists October 5, 2026: Mayor Lurie Outlines Safety, Transportation Plans as San Francisco Welcomes Fleet Week September 30, 2026: Mayor Lurie Celebrates New State Law to Support Domestic Violence Survivors September 29, 2026: Mayor Lurie Celebrates New State Law Makin...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "three-incumbent-s-f-supervisors-on-track-to-easily-win-reelection-backed-by-simi",
+      "title": "Three incumbent S.F. supervisors on track to easily win reelection, backed by similar allies",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/11/three-incumbent-sf-supervisors-win-reelection/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-11-04",
+      "topic": "public_safety",
+      "summary": "Sherill, Wong and Dorsey shared support from Mayor Daniel Lurie and several influential political groups, and vastly outraised challengers",
+      "confidence": 0.82,
+      "excerpt": "See full election results here → Three incumbent San Francisco supervisors were expected to easily win reelection after the last rounds of votes were counted on Tuesday. They will keep their seats on the Board of Supervisors with support from several of the same politicians and groups. Supervisors Stephen Sherrill, Alan Wong and Matt Dorsey prevailed in Districts 2, 4 and 6, respectively, according to preliminary election results . Their victories preserve the moderate majority in power at the Board of Supervisors since 2024 . We have a $100,000 match! Double your gift! In District 2, which includes the Marina and Pacific Heights, Sherrill leads three challengers with 91% of the vote, an 82-percentage-point advantage over his closest competitor, Monthanus Ratanapakdee. Wong, who represents the Sunset District, leads two challengers, holding a 52-percentage-point advantage over runner-up Albert Chow. In District 6, which includes SoMa, Mission Bay and Treasure Island, Dorsey leads his lone challenger, newcomer Alex Behrend, by 62 percentage points. Sherrill and Wong had each won special elections in June before seeking full four-year terms in November. Dorsey, who was first elected in 2022, was seeking a second term. All three supervisors were endorsed by Mayor Daniel Lurie, whose administration they have supported on issues including housing, policing, and economic recovery. They all received endorsements from the San Francisco Democratic Party , the tech-backed political pressure group GrowSF , and the pro-housing organization YIMBY Action . The three share priorities, including more housing construction and increased police staffing. All three incumbents also held substantial fundraising advantages over their opponents, with each raising more than 20 times as much...",
+      "scrapeStatus": "scraped"
+    },
+    {
       "id": "we-are-all-in-san-francisco-s-march-for-billionaires-now-2026-11-04",
       "title": "We are all in San Francisco’s ‘March for Billionaires’ now",
       "sourceType": "news",
@@ -272,15 +299,18 @@
       "scrapeStatus": "scraped"
     },
     {
-      "id": "sf-mayor-news",
-      "title": "News from the Office of the Mayor | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-from-the-office-of-the-mayor",
+      "id": "election-2026-results-san-francisco-mayor-daniel-lurie-scores-wins-2026-11-03",
+      "title": "It’s a Dan-slide: Lurie sweeps another election night",
+      "sourceType": "news",
+      "url": "https://sfstandard.com/2026/11/03/san-francisco-daniel-lurie-election-victory/",
+      "discoveryUrl": "https://sfstandard.com/2026/11/03/san-francisco-daniel-lurie-election-victory/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "San Francisco Standard",
       "publishedAt": "2026-11-04",
-      "topic": "homelessness",
-      "summary": "Info Page News from the Office of the Mayor Office of the Mayor November 2, 2026: Mayor Lurie Signs Legislation Strengthening San Francisco&#x27;s Wholesale Produce Market November 1, 2026: Mayor Lurie Unveils Plans for Victory Parade for WNBA Champion Golden State Valkyries October 30, 2026: Mayor Lurie Signs Legislation Expanding Landmark at Site of Historic Compton&#x27;s Cafeteria Riot October 29, 2026: Mayor Lur",
-      "confidence": 0.95,
-      "excerpt": "Info Page News from the Office of the Mayor Office of the Mayor November 2, 2026: Mayor Lurie Signs Legislation Strengthening San Francisco&#x27;s Wholesale Produce Market November 1, 2026: Mayor Lurie Unveils Plans for Victory Parade for WNBA Champion Golden State Valkyries October 30, 2026: Mayor Lurie Signs Legislation Expanding Landmark at Site of Historic Compton&#x27;s Cafeteria Riot October 29, 2026: Mayor Lurie Signs Legislation Protecting Renters From Unwarranted Evictions, Hidden Rental Fees October 23, 2026: Mayor Lurie Signs Legislation Streamlining Process to Build Housing in San Francisco October 23, 2026: Mayor Lurie Declares Local Emergency to Strengthen San Francisco&#x27;s El Nino Preparedness October 20, 2026: Mayor Lurie Moves to Bring Nearly 2,400 New Homes to Western Addition, Following Years of Community Advocacy October 16, 2026: Mayor Lurie Celebrates Upgrades to Three Public Basketball Courts in Partnership With WNBA, Valkyries, and Warriors October 15, 2026: Mayor Lurie Delivers Progress on Street Safety Initiative, Announcing 84% Drop in Speeding Due to Automated Speed Safety Cameras October 13, 2026: Mayor Lurie Celebrates Major Events Surpassing $1 Billion in Economic Impact for San Francisco, Following Successful Fleet Week October 13, 2026: Mayor Lurie Signs Legislation Establishing New Office to Combat Food Insecurity in San Francisco October 8, 2026: Mayor Lurie Welcomes Uniqlo Back to Downtown With Free Street Festival, Collaborations With Muni, SFUSD Students, Local Artists October 5, 2026: Mayor Lurie Outlines Safety, Transportation Plans as San Francisco Welcomes Fleet Week September 30, 2026: Mayor Lurie Celebrates New State Law to Support Domestic Violence Survivors September 29, 2026: Mayor Lurie Celebrates New State Law Makin...",
+      "topic": "economy",
+      "summary": "Nearly all of the mayor’s ballot measures and preferred candidates broke his way, adding to a June rout and tightening his grip on City Hall.",
+      "confidence": 0.9,
+      "excerpt": "If the June primary was the “ Dan Grand Slam ,” Tuesday night’s results are looking to be a World Series title for Mayor Daniel Lurie. Election results Tuesday night showed nearly all of Lurie’s ballot measures and preferred candidates in comfortable leads in what appeared to be the continued domination of City Hall politics by the mayor and his moderate coalition. His charter reform ballot measures Propositions D, E and F had passed. His Muni parcel tax, Prop. H , a largely bipartisan effort to fund the beleaguered transit agency, passed with 72% approval. A similar regional effort, RTM, which plans to fund a variety of transit agencies across the Bay Area, has passed. “San Franciscans tonight are giving us the tools to govern effectively, and you deserve results,” Lurie said at an election watch party in Hayes Valley. “A Muni that works better, housing that gets built faster, a City Hall that spends your money wisely, and a government that moves with urgency and common sense.” Propositions D, E, and F make it harder to place measures on the ballot, give more authority to the city administrator over contracting, and give the mayor more power overseeing city departments. Opposition to the measures was small; progressive opponents argued that Prop. D, the ballot access measure, would bar grassroots efforts from reaching the ballot. But Lurie and his allies contended that voters’ ballots have been crowded for years. (There are about two dozen local and state propositions on Tuesday’s ballot.) The results follow a shellacking by Lurie and his moderate wing in June, when the mayor’s choices for candidates in District 2 and District 4 walloped their opponents. June also saw the defeat of two dueling tax measures that Lurie had opposed. San Francisco State University polit...",
       "scrapeStatus": "scraped"
     },
     {
@@ -727,6 +757,21 @@
       "summary": "The District 8 candidates supervisor candidates share their thoughts on Mayor Daniel Lurie backing away from harm reduction measures.",
       "confidence": 0.82,
       "excerpt": "Welcome back to our “Meet the Candidates” series, where District 8 supervisor candidates respond to a question in 100 words or fewer. Answers are published every Wednesday. District 8 includes neighborhoods in the center of the city, including the Castro, Noe Valley, Glen Park, Twin Peaks, Duboce Triangle, Dolores Heights, Parnassus Heights, Ashbury Heights, Corona Heights and Diamond Heights. Over the course of his administration, Mayor Daniel Lurie has worked to restrict access to drug use supplies like pipes, clean needles, and foil. In April 2025, he required city-funded nonprofits to offer counseling and addiction treatment before handing out any drug use supplies. The nonprofits were also banned from giving out smoking supplies in public spaces like parks and sidewalks. This change, Lurie said, would help address rampant open-air drug use on San Francisco’s streets. “What we are doing is not working,” he said. “We have seen too many of our neighbors die on our streets, and we are pivoting.” But critics wanted San Francisco to continue offering harm reduction services, which help drug users stay safer as they continue to use. They were concerned that the policy change would lead to an increase in dangerous practices like reusing needles, potentially driving up overdoses and disease transmission. “San Francisco has long been a beacon for evidence-based compassionate response to the realities of substance use and with this decision, we risk becoming a cautionary tale,” Tyler TerMeer, CEO of the San Francisco AIDS Foundation, told the San Francisco Chronicle in April 2025. A year later, in April 2026, Lurie’s policy seemed to have little impact, a Chronicle article found. Users could still easily obtain drug use supplies, and many providers said that they had alrea...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "lurie-tightens-police-surveillance-rules-in-sf-but-avoids-targeting-flock-2026-0",
+      "title": "Lurie tightens police surveillance rules in SF — but avoids targeting Flock",
+      "sourceType": "news",
+      "url": "https://sfstandard.com/2026/09/29/lurie-tightens-police-surveillance-rules-sf-avoids-targeting-flock/",
+      "discoveryUrl": "https://sfstandard.com/2026/09/29/lurie-tightens-police-surveillance-rules-sf-avoids-targeting-flock/",
+      "discoverySource": "Anthropic web search",
+      "publisher": "San Francisco Standard",
+      "publishedAt": "2026-09-29",
+      "topic": "public_safety",
+      "summary": "The new safeguards include limiting how long the tech company stores data from automated license-plate readers and adding restrictions to police access.",
+      "confidence": 0.9,
+      "excerpt": "Mayor Daniel Lurie will tighten rules limiting how police and Flock Safety use surveillance data, though the changes stop short of targeting the controversial tech company as it faces a national backlash over privacy concerns. Lurie’s administration announced a sweeping package of new rules Tuesday designed to prevent the misuse of surveillance data. The mayor’s policy changes will limit how long data from cameras is stored by Flock and require stricter oversight for when San Francisco Police Department employees can access it. “San Franciscans expect us to keep them safe and protect their privacy,” Lurie said in a statement. “This technology helps us keep workers, small business owners and families safe — because we will not go back to a time when people could break into cars, rob businesses, or commit serious crime without consequences.” The mayor’s announcement comes as Flock — the vendor for the city’s network of nearly 500 cameras and other devices — has faced growing public backlash over concerns about mass surveillance and unauthorized federal access, including fears that the data could aid President Donald Trump’s immigration crackdown. But leaders of San Francisco’s moderate political establishment have doubled down on their support for SFPD’s surveillance efforts, citing the city’s plummeting crime rates in recent years. The Board of Supervisors is expected to vote on whether to extend Flock’s contract with the city early next year. Lurie’s policy changes, which he can impose administratively without approval from the Board of Supervisors, require Flock to remove automated license-plate reader data from its systems after 30 days. The mayor’s office said SFPD will have sole control over the data afterward. Previously, Flock had access to the data for 12 mont...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1619,45 +1664,6 @@
       "confidence": 0.9,
       "excerpt": "NEWS Mayor Lurie Declares July 1 \"Jersey Day,\" Encourages City Employees To Wear Team Colors Ahead Of Team USA World Cup Match In Bay Area Office of the Mayor In Partnership with Bay Area Host Committee, Jersey Day Invites City Workers, San Franciscans, and Bay Area Residents to Celebrate FIFA World Cup by Wearing Soccer Jerseys or Team Colors; Residents and Visitors Can Use City’s Shop Dine World Cup SF Guide to Find Local Restaurants and Bars, Sign Up for Emergency Alerts Through AlertSF; San Francisco Bay Area Ready to Host Team USA First Knockout Stage Match, Building on Successful Super Bowl and Record-Breaking Tourism Numbers This Year June 30, 2026 SAN FRANCISCO – Mayor Daniel Lurie today declared that tomorrow, July 1, 2026, will be “Jersey Day” for the City and County of San Francisco, inviting city employees to wear soccer jerseys in celebration of the United States’ FIFA World Cup match in the Bay Area. To celebrate Team USA’s first knockout stage match of the World Cup, which will be played tomorrow in the Bay Area, Mayor Lurie has given permission to non-uniformed city employees to wear their favorite soccer team jersey or sport their team colors to work—building excitement ahead of a major event for the city and the region. In partnership with the Bay Area Host Committee, Jersey Day will also go beyond the City and County of San Francisco, with other cities and private employers expected to join the effort today. San Francisco is on track for record-breaking tourism numbers in 2026 as the city’s economy recovers, following the busiest-ever Memorial Day at San Francisco International Airport, a safe NBA All-Star Weekend that generated more than $300 million in economic impact, and a successful Super Bowl 60 that generated roughly $425 million in economic...",
       "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-launches-streamlined-digital-permits-for-small-businesses-homeowners",
-      "title": "Mayor Lurie Launches Streamlined, Digital Permits For Small Businesses, Homeowners | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-lurie-launches-streamlined-digital-permits-for-small-businesses-homeowners/",
-      "publishedAt": "2026-06-29",
-      "topic": "economy",
-      "summary": "Newest Permits on Digital PermitSF Portal Will Make It Easier to Install Signs and Awnings or Replace Roofs, So Permits That Took Days to Submit Can Be Issued in as Little as Four Minutes; Builds on Mayor Lurie’s Common-Sense PermitSF Efforts to Reduce Bureaucracy and Accelerate San Francisco’s Economic Recovery",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie Launches Streamlined, Digital Permits For Small Businesses, Homeowners Office of the Mayor Newest Permits on Digital PermitSF Portal Will Make It Easier to Install Signs and Awnings or Replace Roofs, So Permits That Took Days to Submit Can Be Issued in as Little as Four Minutes; Builds on Mayor Lurie’s Common-Sense PermitSF Efforts to Reduce Bureaucracy and Accelerate San Francisco’s Economic Recovery June 29, 2026 SAN FRANCISCO – Mayor Daniel Lurie today announced that two types of permits are now available on San Francisco&#x27;s digital PermitSF portal, making it easier for business owners to install signs and awnings while speeding up the process for property owners to replace roofs. Applicants can now submit all necessary materials to obtain either permit through a single, streamlined, online application—with redundant steps or paper required. Since launching PermitSF last year to make permitting fast, predictable, and transparent, the Lurie administration has introduced more than 20 ordinances , including common-sense reforms to remove burdens for homeowners to park in their driveway and for businesses to set up cafe tables on the sidewalk and paint their own business name on their storefront . One year after launch, Mayor Lurie launched a fully digital permitting portal that is allowing homeowners and business owners to obtain the permits they need online, without making any in-person trips to the Permit Center. To continue that work, the mayor announced plans to create a more coordinated and accountable permitting process by merging the Department of Building Inspection, the Planning Department, and the Permit Center . “We don’t have to make easy things hard anymore in San Francisco,” said Mayor Lurie . “Every hour we save a small business ow...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "mayor-lurie-x27-s-statement-on-board-of-supervisor-x27-s-committee-unanimous-vot",
-      "title": "Mayor Lurie&#x27;s Statement On Board Of Supervisor&#x27;s Committee Unanimous Vote In Support Of City Budget | SF.gov",
-      "sourceType": "official",
-      "url": "https://www.sf.gov/news-mayor-luries-statement-on-board-of-supervisors-committee-unanimous-vote-in-support-of-city-budget/",
-      "publishedAt": "2026-06-26",
-      "topic": "homelessness",
-      "summary": "NEWS Mayor Lurie&#x27;s Statement On Board Of Supervisor&#x27;s Committee Unanimous Vote In Support Of City Budget Office of the Mayor June 26, 2026 SAN FRANCISCO – Mayor Daniel Lurie today released the following statement after the Board of Supervisors Budget and Appropriations Committee voted unanimously to advance the city budget: “San Franciscans made it clear this month that they feel our city is finally moving",
-      "confidence": 0.9,
-      "excerpt": "NEWS Mayor Lurie&#x27;s Statement On Board Of Supervisor&#x27;s Committee Unanimous Vote In Support Of City Budget Office of the Mayor June 26, 2026 SAN FRANCISCO – Mayor Daniel Lurie today released the following statement after the Board of Supervisors Budget and Appropriations Committee voted unanimously to advance the city budget: “San Franciscans made it clear this month that they feel our city is finally moving in the right direction. Thanks to the continued close partnership between the Mayor’s Office and the Board of Supervisors, this budget will keep our city moving forward. “Last summer, just as our city was getting back on track, the federal government cut hundreds of millions of dollars from healthcare and food assistance that San Franciscans rely on. Facing those cuts and threats of more, we chose to strengthen the social safety net and invest in our LGBTQ+ and immigrant communities. We protected core services and doubled down on building a broad and durable economic recovery, and we did it responsibly—by ending years of government spending money that we don’t have. “This budget helps families stay on healthcare and food assistance, supports efforts to prevent homelessness, invests in public safety and clean streets, and continues the work of creating the conditions for families, businesses, and communities to thrive. And it builds on the progress we made last year to stabilize the city&#x27;s finances by reducing our structural deficit, strengthening our reserves to prepare for uncertainty from Washington and Sacramento, and bringing spending more in line with revenues while protecting the services San Franciscans rely on every day. “I want to thank Board President Rafael Mandelman and Budget Chair Connie Chan; Budget and Appropriations Committee members...",
-      "scrapeStatus": "scraped"
-    },
-    {
-      "id": "san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts-202",
-      "title": "San Francisco Finalizes $17 Billion Budget, Restores Millions in Proposed Cuts | KQED",
-      "sourceType": "news",
-      "url": "https://www.kqed.org/news/12089007/san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts",
-      "discoveryUrl": "https://www.kqed.org/news/12089007/san-francisco-finalizes-17-billion-budget-restores-millions-in-proposed-cuts",
-      "discoverySource": "Anthropic web search",
-      "publisher": "KQED",
-      "publishedAt": "2026-06-26",
-      "topic": "homelessness",
-      "summary": "The agreement moves the city toward closing its $600 million deficit and adds back $28 million for public services and jobs.",
-      "confidence": 0.9,
-      "excerpt": "News San Francisco Finalizes $17 Billion Budget, Restores Millions in Proposed Cuts The agreement moves the city toward closing its $600 million deficit and adds back $28 million for public services and jobs. Jun 26, 2026 Updated 1:34 pm PT Sydney Johnson Vehicles pass by City Hall in San Francisco on Aug. 8, 2023. (Beth LaBerge/KQED) San Francisco supervisors gave their stamp of approval on the city&rsquo;s $16.9 billion budget early Thursday evening, after a relatively quick final round of negotiations. Officials said the agreement moves the city toward closing its $600 million deficit, reverses layoffs and restores $28 million for public services for immigrants, LGBTQ+ residents, people with mental health and substance use issues, and homelessness programs, among other items previously on the chopping block. Cuts from the federal government to food and healthcare assistance programs have worsened the city&rsquo;s financial shortfalls. However, the final budget passed this week also includes over $1 billion in reserve to protect against further cuts from the Trump administration. &ldquo;Last summer, just as our city was getting back on track, the federal government cut hundreds of millions of dollars from healthcare and food assistance that San Franciscans rely on,&rdquo; Mayor Daniel Lurie said in a statement. &ldquo;Facing those cuts and threats of more, we chose to strengthen the social safety net and invest in our LGBTQ+ and immigrant communities.&rdquo; The deal came after weeks of protests from advocates, city union members, and nonprofits all aimed at stopping reductions to government services and proposed cuts to nonprofits that contract with the city. A student walks through the City College of San Francisco community college campus in San Francisco on Aug...",
-      "scrapeStatus": "scraped"
     }
   ],
   "promises": [
@@ -2004,7 +2010,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 3 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 60 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2136,7 +2142,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-11-04T06:38:53.406Z"
+      "lastRefreshed": "2026-11-07T06:09:34.602Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2155,7 +2161,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-11-04T06:38:53.406Z"
+      "lastRefreshed": "2026-11-07T06:09:34.602Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2232,7 +2238,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-11-04T06:38:53.406Z",
+      "lastRefreshed": "2026-11-07T06:09:34.602Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2279,7 +2285,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-11-04T06:38:53.406Z"
+      "lastRefreshed": "2026-11-07T06:09:34.602Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2294,7 +2300,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 41,
+      "latest": 162,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2386,12 +2392,12 @@
         },
         {
           "date": "2026-11-01",
-          "value": 41
+          "value": 162
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-11-04T06:38:53.406Z"
+      "lastRefreshed": "2026-11-07T06:09:34.602Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2406,7 +2412,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 3,
+      "latest": 60,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2498,12 +2504,12 @@
         },
         {
           "date": "2026-11-01",
-          "value": 3
+          "value": 60
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-11-04T06:38:53.406Z"
+      "lastRefreshed": "2026-11-07T06:09:34.602Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2522,7 +2528,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-11-04T06:38:53.406Z"
+      "lastRefreshed": "2026-11-07T06:09:34.602Z"
     }
   ],
   "topics": [
@@ -2632,20 +2638,20 @@
       "url": "https://missionlocal.org/2026/11/mayor-daniel-lurie-san-francisco-charter-reform-city-hall/",
       "publishedAt": "2026-11-04",
       "publisher": "Mission Local",
-      "topic": "economy",
-      "whyItMatters": "Major political victory reshaping San Francisco governance: Lurie's three ballot measures expanding mayoral power and restricting ballot access are leading with 60-69% support, representing the most significant charter reform in 30 years and fundamentally altering the balance of power between the mayor's office and the legislative branch.",
+      "topic": "city_government",
+      "whyItMatters": "Represents a fundamental restructuring of San Francisco governance, with Props D, E, and F expanding mayoral authority over departments, raising ballot access barriers, and empowering the city administrator—changes backed by $14 million that will significantly reshape executive power and legislative checks and balances for years to come.",
       "sourceId": "mayor-lurie-s-effort-to-consolidate-city-hall-power-coasting-to-victory-in-early",
       "selectionMethod": "anthropic"
     },
     {
-      "id": "we-are-all-in-san-francisco-s-march-for-billionaires-now-2026-11-04",
-      "headline": "We are all in San Francisco's 'March for Billionaires' now",
-      "url": "https://missionlocal.org/2026/11/san-francisco-election-daniel-lurie-billionaire/",
+      "id": "mayor-lurie-unveils-sweeping-package-with-immediate-actions-to-address-san-franc",
+      "headline": "Mayor Lurie Unveils Sweeping Package With Immediate Actions to Address San Francisco's Rent Emergency",
+      "url": "https://www.sf.gov/news-mayor-lurie-unveils-sweeping-package-with-immediate-actions-to-address-san-franciscos-rent-emergency",
       "publishedAt": "2026-11-04",
-      "publisher": "Mission Local",
+      "publisher": "SF.gov",
       "topic": "housing",
-      "whyItMatters": "Represents a watershed moment in San Francisco politics: every measure backed by Lurie and funded by $14 million from wealthy donors is winning, including Props D, E, F consolidating executive power, while his opposition defeated the affordable housing Prop I, demonstrating unprecedented influence of billionaire-backed politics in shaping city governance.",
-      "sourceId": "we-are-all-in-san-francisco-s-march-for-billionaires-now-2026-11-04",
+      "whyItMatters": "Tackles San Francisco's housing affordability crisis with immediate policy interventions during a declared rent emergency, addressing the core issue driving displacement and cost-of-living pressures affecting thousands of residents and families citywide.",
+      "sourceId": "mayor-lurie-unveils-sweeping-package-with-immediate-actions-to-address-san-franc",
       "selectionMethod": "anthropic"
     },
     {
@@ -2654,8 +2660,8 @@
       "url": "https://www.sf.gov/news-mayor-lurie-declares-local-emergency-to-strengthen-san-franciscos-el-nino-preparedness/",
       "publishedAt": "2026-10-23",
       "publisher": "SF.gov",
-      "topic": "city_government",
-      "whyItMatters": "Significant use of emergency powers to address imminent citywide threat: declaration allows the mayor to bypass contracting requirements and reallocate funds to prepare for potentially severe El Niño storms and coastal flooding, demonstrating proactive governance while also expanding executive authority during crisis situations.",
+      "topic": "public_safety",
+      "whyItMatters": "Proactive emergency declaration expedites critical infrastructure preparations and inter-departmental coordination ahead of potentially severe El Niño winter storms and coastal flooding that could impact public safety, essential services, and vulnerable populations across the entire city.",
       "sourceId": "mayor-lurie-declares-local-emergency-to-strengthen-san-francisco-x27-s-el-nino-p",
       "selectionMethod": "anthropic"
     }
