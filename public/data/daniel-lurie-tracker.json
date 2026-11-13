@@ -4,7 +4,7 @@
     "role": "Mayor of San Francisco",
     "jurisdiction": "San Francisco, California",
     "trackingSince": "2025-01-08",
-    "lastUpdated": "2026-11-10T07:28:27.774Z",
+    "lastUpdated": "2026-11-13T06:53:56.408Z",
     "trackingMode": "balanced",
     "dataPolicy": "Uses balanced source collection plus public San Francisco datasets only. No approval ratings and no fabricated metric, status, or progress values."
   },
@@ -239,6 +239,21 @@
       "summary": "Explore our comprehensive climate policy focused on sustainability, clean energy, and environmental justice. Join us in the fight against climate change today!",
       "confidence": 0.94,
       "excerpt": "English 繁体中文 简体中文 Downtown Climate Innovation Hub Accelerate SF’s Recovery & Lead a Clean Energy Revolution At a Glance Maintain safe and clean streets as the foundation of downtown’s recovery. Incentivize cleantech industries to locate in vacant office space downtown. Leverage our lead in artificial intelligence to accelerate a cleantech revolution. Restore San Francisco's leadership in the fight against climate change. The Details The cleantech revolution is coming, and I will ensure it happens in San Francisco. Our downtown area is experiencing a slow recovery with a record-breaking 37% office vacancy rate . Experts predict a full recovery could take decades, if it happens at all. This impacts everything from city tax revenues to the vitality of small businesses and public safety. It’s a sad reality that San Francisco has 35 million square feet of available office space—the equivalent of 22 Salesforce Towers. We’ve experienced one of the slowest recoveries of any major city in the country. But this also presents an opportunity. We Can Make San Francisco a Global Leader in Clean Technology My administration will incentivize cleantech industries to occupy our vacant office spaces. We will create a Climate Innovation Hub by : Lowering Business Taxes: I will reduce business taxes on cleantech companies. A measure likely to be on the November ballot, which I support, will be one important step toward doing this by providing an estimated 59% tax decrease. Fast-Tracking Permitting: Fast lane-permitting for tenant improvements will lessen the time and cost associated with getting businesses up and running. Experts say my My City Hall Accountability Plan will lessen the time it takes to get a building permit by four months. I will make that even faster for new and expandin...",
+      "scrapeStatus": "scraped"
+    },
+    {
+      "id": "mayor-lurie-s-f-city-administrator-take-first-action-with-new-voter-approved-pow",
+      "title": "Mayor Lurie, S.F. city administrator take first action with new voter-approved powers",
+      "sourceType": "news",
+      "url": "https://missionlocal.org/2026/11/san-francisco-lurie-city-administrator-power-contracting/",
+      "discoveryUrl": "https://missionlocal.org/feed/",
+      "discoverySource": "Mission Local",
+      "publisher": "Mission Local",
+      "publishedAt": "2026-11-10",
+      "topic": "homelessness",
+      "summary": "City Administrator Carmen Chu plans to introduce legislation creating citywide rules for signing contracts.",
+      "confidence": 0.82,
+      "excerpt": "Mayor Daniel Lurie and City Administrator Carmen Chu today announced their first use of the expanded power granted to them by voters in last week’s election: creating citywide rules for signing contracts. Proposition E, which is currently leading 64-36 with virtually all votes counted, grants the city administrator the sole authority to make changes to how the city grants contracts. Contracting represents a significant portion of the budget — $6 billion every year out of a budget of $17 billion. Some of these purchases are for items that any workplace needs — toilet paper , computers, Microsoft Teams — while other contracts are for core city functions. Many of the city’s homelessness and street condition workers are hired through contracts, for instance, including the ambassadors tasked with monitoring the streets surrounding 16th and Mission . We have a $100,000 match! Double your gift! With so much money in play, the city has rules to ensure that it is properly spent. But the current guidelines are insufficient, Lurie said, because they are “scattered across different sections of city law, and the rules can vary — leaving room for corruption and abuse.” This legislation, Lurie added, is “the first step toward centralizing and depoliticizing contracting so it serves San Franciscans, not insiders” — repeating the term he deployed, repeatedly, during the $14.5 million, privately funded campaign that led to the overwhelming passage of the mayor’s charter package. “Every day, dedicated public servants make decisions about how San Francisco spends taxpayer dollars,” Chu said. “They deserve clear rules, practical guidance, and the confidence to speak up when something doesn’t seem right.” Lurie’s own administration has been criticized for its contracting decisions. In Oct...",
       "scrapeStatus": "scraped"
     },
     {
@@ -1653,21 +1668,6 @@
       "confidence": 0.76,
       "scrapeStatus": "fetch_failed",
       "scrapeError": "403 Forbidden"
-    },
-    {
-      "id": "san-francisco-mayor-daniel-lurie-talks-balancing-act-of-world-cup-safety-and-cel",
-      "title": "San Francisco Mayor Daniel Lurie talks balancing act of World Cup safety and celebration",
-      "sourceType": "news",
-      "url": "https://www.cbsnews.com/sanfrancisco/video/san-francisco-mayor-daniel-lurie-talks-balancing-act-of-world-cup-safety-and-celebration/",
-      "discoveryUrl": "https://www.cbsnews.com/sanfrancisco/latest/rss/main",
-      "discoverySource": "CBS San Francisco",
-      "publisher": "CBS San Francisco",
-      "publishedAt": "2026-07-01",
-      "topic": "public_safety",
-      "summary": "Anne Makovec talks with San Francisco Mayor Daniel Lurie about how the city plans to keep World Cup and Fourth of July festivities safe over the weekend.",
-      "confidence": 0.8,
-      "excerpt": "San Francisco Mayor Daniel Lurie talks balancing act of World Cup safety and celebration - CBS San Francisco Bay Area Top News SF/Peninsula News East Bay News South Bay News North Bay News Bay Area Crime Tech Health Politics LGBTQ Entertainment KPIX Special Reports First Alert Weather Radars & Maps All Sports CBS Sports HQ San Francisco 49ers San Francisco Giants Golden State Warriors Golden State Valkyries San Jose Sharks Cal Stanford College Sports Station Info KPIX What's On KPIX Contests & Promotions Advertise With Us Contact Us Download the App Galleries Memorials Watch CBS News San Francisco Mayor Daniel Lurie talks balancing act of World Cup safety and celebration Anne Makovec talks with San Francisco Mayor Daniel Lurie about how the city plans to keep World Cup and Fourth of July festivities safe over the weekend. View CBS News In CBS News App Open Chrome Safari Continue",
-      "scrapeStatus": "scraped"
     }
   ],
   "promises": [
@@ -2014,7 +2014,7 @@
         "san-francisco-doubles-affordable-housing-fund-to-125m-annually-2026-05-19"
       ],
       "aiConfidence": 0.88,
-      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 235 versus baseline 696.",
+      "statusNote": "Housing funding and policy changes are underway, but permit-output metrics remain mixed: latest proposed units 242 versus baseline 696.",
       "reviewStatus": "approved",
       "linkedMetricIds": [
         "housing-units-proposed-in-issued-permits"
@@ -2146,7 +2146,7 @@
       "observations": [],
       "datasetId": "vw6y-z8j6",
       "methodology": "DataSF 311 Cases filtered to service_name = Encampments",
-      "lastRefreshed": "2026-11-10T07:28:15.626Z"
+      "lastRefreshed": "2026-11-13T06:53:56.289Z"
     },
     {
       "id": "homeless-shelter-waitlist",
@@ -2165,7 +2165,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "Needs a verified recurring public HSH shelter/waitlist dataset with stable API fields",
-      "lastRefreshed": "2026-11-10T07:28:15.626Z"
+      "lastRefreshed": "2026-11-13T06:53:56.289Z"
     },
     {
       "id": "overdose-related-911-responses",
@@ -2242,7 +2242,7 @@
       ],
       "status": "active",
       "methodology": "DataSF Overdose-Related 911 Responses by Emergency Medical Services",
-      "lastRefreshed": "2026-11-10T07:28:15.626Z",
+      "lastRefreshed": "2026-11-13T06:53:56.289Z",
       "evidenceSourceIds": [
         "datasf-overdose-related-911-responses"
       ]
@@ -2289,7 +2289,7 @@
       ],
       "datasetId": "ubf6-e57x",
       "methodology": "DataSF San Francisco Department of Public Health Substance Use Services",
-      "lastRefreshed": "2026-11-10T07:28:15.626Z"
+      "lastRefreshed": "2026-11-13T06:53:56.289Z"
     },
     {
       "id": "housing-permits-issued",
@@ -2304,7 +2304,7 @@
       ],
       "status": "active",
       "baseline": 1422,
-      "latest": 213,
+      "latest": 292,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2396,12 +2396,12 @@
         },
         {
           "date": "2026-11-01",
-          "value": 213
+          "value": 292
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits, deduplicated by permit_number for issued residential proposed_use records",
-      "lastRefreshed": "2026-11-10T07:28:15.626Z"
+      "lastRefreshed": "2026-11-13T06:53:56.289Z"
     },
     {
       "id": "housing-units-proposed-in-issued-permits",
@@ -2416,7 +2416,7 @@
       ],
       "status": "active",
       "baseline": 696,
-      "latest": 235,
+      "latest": 242,
       "observations": [
         {
           "date": "2025-01-01",
@@ -2508,12 +2508,12 @@
         },
         {
           "date": "2026-11-01",
-          "value": 235
+          "value": 242
         }
       ],
       "datasetId": "i98e-djp9",
       "methodology": "DataSF Building Permits proposed_units minus existing_units for issued residential permits, deduplicated by permit_number",
-      "lastRefreshed": "2026-11-10T07:28:15.626Z"
+      "lastRefreshed": "2026-11-13T06:53:56.289Z"
     },
     {
       "id": "downtown-office-vacancy-rate",
@@ -2532,7 +2532,7 @@
       "observations": [],
       "datasetId": null,
       "methodology": "SF.gov Office Vacancy Rate identifies a public downtown recovery indicator, but its stable DataSF API endpoint still needs schema verification",
-      "lastRefreshed": "2026-11-10T07:28:15.626Z"
+      "lastRefreshed": "2026-11-13T06:53:56.289Z"
     }
   ],
   "topics": [
@@ -2637,37 +2637,37 @@
   ],
   "majorNews": [
     {
+      "id": "mayor-lurie-adds-more-building-permits-to-permitsf-portal-speeding-up-housing-co",
+      "headline": "Mayor Lurie Adds More Building Permits to PermitSF Portal, Speeding Up Housing Construction",
+      "url": "https://www.sf.gov/news-mayor-lurie-adds-more-building-permits-to-permitsf-portal-speeding-up-housing-construction/",
+      "publishedAt": "2026-11-04",
+      "publisher": "SF.gov",
+      "topic": "housing",
+      "whyItMatters": "Official SF.gov mayoral news link discovered from the mayoral news index.",
+      "sourceId": "mayor-lurie-adds-more-building-permits-to-permitsf-portal-speeding-up-housing-co",
+      "selectionMethod": "fallback"
+    },
+    {
+      "id": "mayor-lurie-s-f-city-administrator-take-first-action-with-new-voter-approved-pow",
+      "headline": "Mayor Lurie, S.F. city administrator take first action with new voter-approved powers",
+      "url": "https://missionlocal.org/2026/11/san-francisco-lurie-city-administrator-power-contracting/",
+      "publishedAt": "2026-11-10",
+      "publisher": "Mission Local",
+      "topic": "city_government",
+      "whyItMatters": "City Administrator Carmen Chu plans to introduce legislation creating citywide rules for signing contracts.",
+      "sourceId": "mayor-lurie-s-f-city-administrator-take-first-action-with-new-voter-approved-pow",
+      "selectionMethod": "fallback"
+    },
+    {
       "id": "mayor-daniel-lurie-gains-power-and-loses-excuses-2026-11-07",
       "headline": "Mayor Daniel Lurie gains power — and loses excuses",
       "url": "https://missionlocal.org/2026/11/daniel-lurie-election-city-hall-power/",
       "publishedAt": "2026-11-07",
       "publisher": "Mission Local",
       "topic": "city_government",
-      "whyItMatters": "Three voter-approved charter amendments give Mayor Lurie unprecedented control over City Hall operations—consolidating mayoral power over department heads, raising contracting thresholds, and restricting ballot access—while eliminating his ability to blame bureaucratic obstacles for governance failures.",
+      "whyItMatters": "San Francisco political analysts agree the passage of three measures promising a cleaned-up City Hall is a risky move for Mayor Daniel Lurie.",
       "sourceId": "mayor-daniel-lurie-gains-power-and-loses-excuses-2026-11-07",
-      "selectionMethod": "anthropic"
-    },
-    {
-      "id": "election-2026-results-san-francisco-mayor-daniel-lurie-scores-wins-2026-11-03",
-      "headline": "It's a Dan-slide: Lurie sweeps another election night",
-      "url": "https://sfstandard.com/2026/11/03/san-francisco-daniel-lurie-election-victory/",
-      "publishedAt": "2026-11-04",
-      "publisher": "San Francisco Standard",
-      "topic": "city_government",
-      "whyItMatters": "Mayor Lurie achieved a comprehensive electoral victory with all his ballot measures passing and his endorsed supervisor candidates winning, extending the moderate coalition's dominance at City Hall and demonstrating his continued political strength following his June primary successes.",
-      "sourceId": "election-2026-results-san-francisco-mayor-daniel-lurie-scores-wins-2026-11-03",
-      "selectionMethod": "anthropic"
-    },
-    {
-      "id": "mayor-lurie-declares-local-emergency-to-strengthen-san-francisco-x27-s-el-nino-p",
-      "headline": "Mayor Lurie Declares Local Emergency to Strengthen San Francisco's El Niño Preparedness",
-      "url": "https://www.sf.gov/news-mayor-lurie-declares-local-emergency-to-strengthen-san-franciscos-el-nino-preparedness/",
-      "publishedAt": "2026-10-23",
-      "publisher": "SF.gov",
-      "topic": "city_government",
-      "whyItMatters": "The emergency declaration allows the city to bypass contracting requirements to rapidly secure flood protection equipment and emergency supplies ahead of predicted severe El Niño storms, demonstrating proactive crisis management that could protect thousands of residents and critical infrastructure.",
-      "sourceId": "mayor-lurie-declares-local-emergency-to-strengthen-san-francisco-x27-s-el-nino-p",
-      "selectionMethod": "anthropic"
+      "selectionMethod": "fallback"
     }
   ],
   "campaignPromiseSeed": [
